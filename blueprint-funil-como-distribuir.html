@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Blueprint — Funil Como Distribuir uma Música</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Segoe UI', system-ui, sans-serif;
+      background: #0e0e14;
+      color: #e0e0e0;
+      padding: 40px 24px;
+    }
+    .container { max-width: 1000px; margin: 0 auto; }
+
+    /* HEADER */
+    .header { text-align: center; margin-bottom: 56px; }
+    .badge {
+      display: inline-block;
+      background: #1a1a2e;
+      border: 1px solid #7c3aed;
+      color: #a78bfa;
+      font-size: 11px; font-weight: 700;
+      letter-spacing: 2px; text-transform: uppercase;
+      padding: 6px 16px; border-radius: 20px; margin-bottom: 16px;
+    }
+    .header h1 { font-size: 30px; font-weight: 800; color: #fff; margin-bottom: 8px; }
+    .header p { color: #666; font-size: 13px; }
+
+    /* SECTION TITLE */
+    .section-title {
+      font-size: 10px; font-weight: 700; letter-spacing: 2px;
+      text-transform: uppercase; color: #555; margin-bottom: 16px;
+    }
+
+    /* SUMMARY */
+    .summary-grid {
+      display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px;
+      margin-bottom: 52px;
+    }
+    .summary-card {
+      background: #13131f; border: 1px solid #1e1e30;
+      border-radius: 12px; padding: 20px; text-align: center;
+    }
+    .summary-card .num { font-size: 34px; font-weight: 800; color: #fff; line-height: 1; margin-bottom: 6px; }
+    .summary-card .lbl { font-size: 11px; color: #555; }
+
+    /* PRODUCTS */
+    .products-row {
+      display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px;
+      margin-bottom: 52px;
+    }
+    .pcard {
+      background: #13131f; border: 1px solid #1e1e30;
+      border-radius: 12px; padding: 18px 16px; position: relative; overflow: hidden;
+    }
+    .pcard::before { content:''; position:absolute; top:0;left:0;right:0; height:3px; }
+    .p1::before { background:#7c3aed; }
+    .p2::before { background:#0ea5e9; }
+    .p3::before { background:#10b981; }
+    .p4::before { background:#f59e0b; }
+    .pcard .ptag {
+      font-size: 9px; font-weight: 700; letter-spacing: 1.5px;
+      text-transform: uppercase; margin-bottom: 8px;
+    }
+    .p1 .ptag { color:#a78bfa; } .p2 .ptag { color:#38bdf8; }
+    .p3 .ptag { color:#34d399; } .p4 .ptag { color:#fbbf24; }
+    .pcard h3 { font-size: 13px; font-weight: 700; color: #fff; margin-bottom: 10px; line-height: 1.4; }
+    .pcard .price { font-size: 19px; font-weight: 800; color: #fff; }
+    .pcard .anchor { font-size: 11px; color: #444; text-decoration: line-through; margin-bottom: 2px; }
+    .pcard .disc {
+      display: inline-block; font-size: 10px; font-weight: 700;
+      padding: 2px 8px; border-radius: 4px; margin-top: 5px;
+    }
+    .p2 .disc { background:#0c2d45; color:#38bdf8; }
+    .p3 .disc { background:#062817; color:#34d399; }
+    .pcard .note { font-size: 10px; color: #555; margin-top: 6px; line-height: 1.5; }
+    .pcard .live-badge {
+      display: inline-block; font-size: 9px; font-weight: 700;
+      background: #0a2e0a; color: #4ade80; padding: 2px 8px;
+      border-radius: 4px; margin-top: 5px; letter-spacing: 1px;
+    }
+
+    /* FUNNEL */
+    .funnel { margin-bottom: 52px; }
+
+    .page-block {
+      background: #13131f; border: 1px solid #1e1e30;
+      border-radius: 14px; padding: 22px 24px; margin-bottom: 4px;
+    }
+    .page-block.lp     { border-color: #7c3aed; }
+    .page-block.blue   { border-color: #0ea5e9; }
+    .page-block.green  { border-color: #10b981; }
+    .page-block.amber  { border-color: #f59e0b; }
+    .page-block.dim    { border-color: #252530; }
+
+    .page-head {
+      display: flex; align-items: center; gap: 12px; margin-bottom: 16px;
+    }
+    .page-num {
+      width: 28px; height: 28px; border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 11px; font-weight: 800; flex-shrink: 0;
+    }
+    .lp   .page-num { background:#3b1d8a; color:#a78bfa; }
+    .blue .page-num { background:#0c2d45; color:#38bdf8; }
+    .green .page-num { background:#062817; color:#34d399; }
+    .amber .page-num { background:#3d2200; color:#fbbf24; }
+    .dim  .page-num { background:#1a1a26; color:#555; }
+
+    .page-meta .plabel {
+      font-size: 9px; font-weight: 700; letter-spacing: 1.5px;
+      text-transform: uppercase;
+    }
+    .lp .plabel { color:#a78bfa; } .blue .plabel { color:#38bdf8; }
+    .green .plabel { color:#34d399; } .amber .plabel { color:#fbbf24; }
+    .dim .plabel { color:#555; }
+
+    .page-meta .ptitle { font-size: 15px; font-weight: 700; color: #fff; }
+    .page-meta .psub { font-size: 12px; color: #555; font-weight: 400; }
+
+    .page-cols {
+      display: grid; grid-template-columns: 1fr 1fr; gap: 12px;
+    }
+    .col-box {
+      background: #0e0e18; border-radius: 8px; padding: 14px 16px;
+    }
+    .col-box h4 {
+      font-size: 9px; font-weight: 700; letter-spacing: 1.5px;
+      text-transform: uppercase; color: #444; margin-bottom: 10px;
+    }
+    .col-box ul { list-style: none; display: flex; flex-direction: column; gap: 6px; }
+    .col-box ul li {
+      font-size: 12px; color: #bbb;
+      display: flex; align-items: center; gap: 8px;
+    }
+    .col-box ul li::before {
+      content:''; width:5px; height:5px; border-radius:50%; flex-shrink:0;
+    }
+    .lp   .col-box ul li::before { background:#7c3aed; }
+    .blue .col-box ul li::before { background:#0ea5e9; }
+    .green .col-box ul li::before { background:#10b981; }
+    .amber .col-box ul li::before { background:#f59e0b; }
+    .dim  .col-box ul li::before { background:#333; }
+
+    .paths { display: flex; flex-direction: column; gap: 7px; }
+    .pyes, .pno {
+      display: flex; align-items: flex-start; gap: 9px;
+      padding: 8px 10px; border-radius: 6px; font-size: 12px;
+    }
+    .pyes { background:#041408; }
+    .pno  { background:#140404; }
+    .pb {
+      font-size: 9px; font-weight: 800; letter-spacing: 1px;
+      padding: 2px 7px; border-radius: 4px; flex-shrink: 0; margin-top:1px;
+    }
+    .pyes .pb { background:#14532d; color:#4ade80; }
+    .pno  .pb { background:#450a0a; color:#f87171; }
+    .pt { color: #aaa; }
+
+    /* ARROW */
+    .arrow {
+      text-align: center; padding: 6px 0; color: #252530;
+      font-size: 20px; display: flex; flex-direction: column; align-items: center; gap: 3px;
+    }
+    .arrow .alabel {
+      font-size: 9px; font-weight: 700; letter-spacing: 1.5px;
+      text-transform: uppercase; padding: 2px 10px; border-radius: 8px;
+    }
+    .arrow .alabel.yes { background:#041408; color:#4ade80; }
+    .arrow .alabel.any { background:#1a1a26; color:#555; }
+
+    /* FORK */
+    .fork-row {
+      display: grid; grid-template-columns: 1fr 1fr; gap: 16px;
+      margin-bottom: 4px;
+    }
+    .fork-arrows {
+      display: grid; grid-template-columns: 1fr 1fr; gap: 16px;
+      padding: 4px 0;
+    }
+    .fork-arrows .fa {
+      display: flex; flex-direction: column; align-items: center; gap: 3px;
+      color: #252530; font-size: 18px;
+    }
+    .fa .fal {
+      font-size: 9px; font-weight: 700; letter-spacing: 1px;
+      text-transform: uppercase;
+    }
+    .fa .fal.yes { color: #4ade80; }
+    .fa .fal.no  { color: #f87171; }
+
+    /* CONVERGE */
+    .converge {
+      text-align: center; padding: 8px 0;
+      font-size: 10px; font-weight: 700; letter-spacing: 1.5px;
+      text-transform: uppercase; color: #444;
+    }
+
+    /* URL SECTION */
+    .url-section {
+      background: #13131f; border: 1px solid #1e1e30;
+      border-radius: 14px; padding: 24px; margin-bottom: 52px;
+    }
+    .url-section h2 {
+      font-size: 14px; font-weight: 700; color: #fff;
+      margin-bottom: 16px; display: flex; align-items: center; gap: 8px;
+    }
+    .url-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; }
+    .url-item {
+      background: #0e0e18; border-radius: 8px; padding: 12px 14px;
+    }
+    .url-item .pg { font-size: 10px; color: #555; margin-bottom: 4px; }
+    .url-item code {
+      font-size: 12px; color: #a78bfa;
+      background: #1a1a2e; padding: 2px 7px; border-radius: 4px;
+    }
+
+    /* INFRA */
+    .infra-grid {
+      display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px;
+      margin-bottom: 52px;
+    }
+    .infra-card {
+      background: #13131f; border: 1px solid #1e1e30;
+      border-radius: 12px; padding: 18px;
+    }
+    .infra-card h4 {
+      font-size: 9px; font-weight: 700; letter-spacing: 1.5px;
+      text-transform: uppercase; color: #444; margin-bottom: 8px;
+    }
+    .infra-card p { font-size: 12px; color: #aaa; line-height: 1.6; }
+    .infra-card code { font-size: 11px; background: #1a1a26; color: #a78bfa; padding: 1px 5px; border-radius: 3px; }
+
+    /* PENDING */
+    .pending {
+      background: #13131f; border: 1px solid #2d2010;
+      border-radius: 14px; padding: 24px;
+    }
+    .pending h2 { font-size: 14px; font-weight: 700; color: #fbbf24; margin-bottom: 16px; }
+    .pend-list { display: flex; flex-direction: column; gap: 8px; }
+    .pend-item {
+      display: flex; align-items: flex-start; gap: 10px;
+      background: #0e0e18; border-radius: 8px; padding: 11px 14px;
+      font-size: 12px; color: #bbb;
+    }
+    .who {
+      font-size: 9px; font-weight: 700; letter-spacing: 1px;
+      text-transform: uppercase; padding: 2px 7px; border-radius: 4px;
+      flex-shrink: 0; margin-top: 1px;
+    }
+    .wa { background:#0c2d45; color:#38bdf8; }
+    .wp { background:#3b1d8a; color:#a78bfa; }
+    .wb { background:#062817; color:#34d399; }
+
+    /* FOOTER */
+    .footer {
+      text-align: center; margin-top: 52px; padding-top: 24px;
+      border-top: 1px solid #1a1a26; color: #333; font-size: 11px;
+    }
+
+    @media(max-width:700px){
+      .products-row,.summary-grid,.page-cols,.url-grid,.infra-grid { grid-template-columns:1fr; }
+      .fork-row,.fork-arrows { grid-template-columns:1fr; }
+    }
+  </style>
+</head>
+<body>
+<div class="container">
+
+  <!-- HEADER -->
+  <div class="header">
+    <div class="badge">Blueprint · Funil de Vendas · v2.0</div>
+    <h1>Como Distribuir uma Música</h1>
+    <p>Mapeamento completo · 1 LP + 6 Upsells · Hospedagem Rochinche · Hotmart</p>
+  </div>
+
+  <!-- VISÃO GERAL -->
+  <div class="section-title">Visão Geral</div>
+  <div class="summary-grid" style="margin-bottom:52px;">
+    <div class="summary-card">
+      <div class="num">1</div>
+      <div class="lbl">Landing Page Principal</div>
+    </div>
+    <div class="summary-card">
+      <div class="num">6</div>
+      <div class="lbl">Páginas de Upsell</div>
+    </div>
+    <div class="summary-card">
+      <div class="num">7</div>
+      <div class="lbl">Páginas no Total</div>
+    </div>
+    <div class="summary-card">
+      <div class="num">R$97</div>
+      <div class="lbl">Produto de Entrada</div>
+    </div>
+  </div>
+
+  <!-- PRODUTOS -->
+  <div class="section-title">Produtos do Funil</div>
+  <div class="products-row" style="margin-bottom:52px;">
+    <div class="pcard p1">
+      <div class="ptag">Entrada</div>
+      <h3>Como Distribuir uma Música</h3>
+      <div class="anchor">R$ 397,00</div>
+      <div class="price">R$ 97,00</div>
+      <div class="note">LP precisa ser construída</div>
+    </div>
+    <div class="pcard p2">
+      <div class="ptag">Upsell 1</div>
+      <h3>Do Zero aos Charts</h3>
+      <div class="price">Preço cheio</div>
+      <div class="disc">− 15% desconto</div>
+      <div class="live-badge">JÁ NO AR</div>
+      <div class="note">Página de upsell nova (a atual é muito longa)</div>
+    </div>
+    <div class="pcard p3">
+      <div class="ptag">Upsell 2</div>
+      <h3>Da Obra ao Fonograma</h3>
+      <div class="price">R$ 997,00</div>
+      <div class="disc">− 30% desconto</div>
+      <div class="note">Gravado · falta finalizar edição</div>
+    </div>
+    <div class="pcard p4">
+      <div class="ptag">Upsell Final</div>
+      <h3>Mentoria 2%</h3>
+      <div class="price">A definir</div>
+      <div class="note">3 sessões · 2h cada · 1× por mês</div>
+    </div>
+  </div>
+
+  <!-- FUNIL -->
+  <div class="section-title">Sequência Completa — 7 Páginas</div>
+  <div class="funnel">
+
+    <!-- LP -->
+    <div class="page-block lp">
+      <div class="page-head">
+        <div class="page-num">P1</div>
+        <div class="page-meta">
+          <div class="plabel">Landing Page Principal</div>
+          <div class="ptitle">Como Distribuir uma Música</div>
+          <div class="psub">Produto de entrada · R$97 (âncora R$397)</div>
+        </div>
+      </div>
+      <div class="page-cols">
+        <div class="col-box">
+          <h4>Estrutura da Página</h4>
+          <ul>
+            <li>Headline principal</li>
+            <li>Subheadline</li>
+            <li>Vídeo de Vendas (VSL)</li>
+            <li>Benefícios + 12 aulas</li>
+            <li>Prova social / Autoridade</li>
+            <li>Bônus: distribuidora exclusiva</li>
+            <li>Garantia 15 dias</li>
+            <li>Botão → Checkout Hotmart pré-populado</li>
+          </ul>
+        </div>
+        <div class="col-box">
+          <h4>Após a Compra</h4>
+          <div class="paths">
+            <div class="pyes">
+              <span class="pb">COMPROU</span>
+              <span class="pt">Redireciona automaticamente para P2 (Upsell 1)</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="arrow">
+      <div class="alabel yes">COMPROU</div>
+      <div>↓</div>
+    </div>
+
+    <!-- U1 -->
+    <div class="page-block blue">
+      <div class="page-head">
+        <div class="page-num">P2</div>
+        <div class="page-meta">
+          <div class="plabel">Upsell 1</div>
+          <div class="ptitle">Do Zero aos Charts</div>
+          <div class="psub">15% de desconto · Página nova (não a que está no ar)</div>
+        </div>
+      </div>
+      <div class="page-cols">
+        <div class="col-box">
+          <h4>Estrutura da Página</h4>
+          <ul>
+            <li>Headline</li>
+            <li>Vídeo da oferta</li>
+            <li>Botão SIM (comprar com 15% off)</li>
+            <li>Botão NÃO (recusar)</li>
+          </ul>
+        </div>
+        <div class="col-box">
+          <h4>Caminhos</h4>
+          <div class="paths">
+            <div class="pyes"><span class="pb">SIM</span><span class="pt">→ P3 (Upsell 2: Da Obra ao Fonograma — comprou U1)</span></div>
+            <div class="pno"><span class="pb">NÃO</span><span class="pt">→ P4 (Da Obra ao Fonograma — não comprou U1)</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="fork-arrows">
+      <div class="fa"><span class="fal yes">↙ SIM</span><div>↓</div></div>
+      <div class="fa"><span class="fal no">NÃO ↘</span><div>↓</div></div>
+    </div>
+
+    <div class="fork-row">
+
+      <!-- P3 -->
+      <div class="page-block green">
+        <div class="page-head">
+          <div class="page-num">P3</div>
+          <div class="page-meta">
+            <div class="plabel">Upsell 2 · Trilha A (comprou U1)</div>
+            <div class="ptitle">Da Obra ao Fonograma</div>
+            <div class="psub">30% de desconto</div>
+          </div>
+        </div>
+        <div class="col-box" style="margin-bottom:10px;">
+          <h4>Estrutura</h4>
+          <ul>
+            <li>Headline</li>
+            <li>Subheadline</li>
+            <li>Vídeo da oferta</li>
+            <li>Botão SIM (comprar com 30% off)</li>
+            <li>Botão NÃO (recusar)</li>
+          </ul>
+        </div>
+        <div class="col-box">
+          <h4>Caminhos</h4>
+          <div class="paths">
+            <div class="pyes"><span class="pb">SIM</span><span class="pt">→ P5 (Mentoria 2% · trilha comprou)</span></div>
+            <div class="pno"><span class="pb">NÃO</span><span class="pt">→ P6 (Mentoria 2% · trilha não comprou)</span></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- P4 -->
+      <div class="page-block green">
+        <div class="page-head">
+          <div class="page-num">P4</div>
+          <div class="page-meta">
+            <div class="plabel">Upsell 2 · Trilha B (não comprou U1)</div>
+            <div class="ptitle">Da Obra ao Fonograma</div>
+            <div class="psub">30% de desconto · Clone de P3 com link diferente</div>
+          </div>
+        </div>
+        <div class="col-box" style="margin-bottom:10px;">
+          <h4>Estrutura</h4>
+          <ul>
+            <li>Headline</li>
+            <li>Subheadline</li>
+            <li>Vídeo da oferta</li>
+            <li>Botão SIM (comprar com 30% off)</li>
+            <li>Botão NÃO (recusar)</li>
+          </ul>
+        </div>
+        <div class="col-box">
+          <h4>Caminhos</h4>
+          <div class="paths">
+            <div class="pyes"><span class="pb">SIM</span><span class="pt">→ P5 (Mentoria 2%)</span></div>
+            <div class="pno"><span class="pb">NÃO</span><span class="pt">→ P6 (Mentoria 2%)</span></div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="converge">↓ P3 e P4 convergem ↓</div>
+
+    <!-- P5 / P6 -->
+    <div class="fork-row" style="margin-top:4px;">
+
+      <div class="page-block amber">
+        <div class="page-head">
+          <div class="page-num">P5</div>
+          <div class="page-meta">
+            <div class="plabel">Upsell Final · Trilha Compradores</div>
+            <div class="ptitle">Mentoria 2%</div>
+            <div class="psub">Para quem comprou Da Obra ao Fonograma</div>
+          </div>
+        </div>
+        <div class="col-box" style="margin-bottom:10px;">
+          <h4>Estrutura</h4>
+          <ul>
+            <li>Headline</li>
+            <li>Subheadline</li>
+            <li>Vídeo da oferta</li>
+            <li>Formulário de cadastro</li>
+            <li>Botão SIM / Botão NÃO → Hotmart</li>
+          </ul>
+        </div>
+        <div class="col-box">
+          <h4>Nota</h4>
+          <div class="paths">
+            <div class="pyes"><span class="pb">NOTA</span><span class="pt">Venda via videochamada. Página apresenta a oferta, não fecha automático.</span></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="page-block amber">
+        <div class="page-head">
+          <div class="page-num">P6</div>
+          <div class="page-meta">
+            <div class="plabel">Upsell Final · Trilha Não-Compradores</div>
+            <div class="ptitle">Mentoria 2%</div>
+            <div class="psub">Para quem não comprou Da Obra ao Fonograma</div>
+          </div>
+        </div>
+        <div class="col-box" style="margin-bottom:10px;">
+          <h4>Estrutura</h4>
+          <ul>
+            <li>Headline</li>
+            <li>Subheadline</li>
+            <li>Vídeo da oferta</li>
+            <li>Formulário de cadastro</li>
+            <li>Botão SIM / Botão NÃO → Hotmart</li>
+          </ul>
+        </div>
+        <div class="col-box">
+          <h4>Nota</h4>
+          <div class="paths">
+            <div class="pyes"><span class="pb">NOTA</span><span class="pt">Clone de P5 com link diferente para rastrear origem da trilha.</span></div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="arrow" style="margin-top:8px;">
+      <div>↓</div>
+      <div class="alabel any">FIM DO FUNIL</div>
+    </div>
+
+    <!-- P7 (Hotmart) -->
+    <div class="page-block dim">
+      <div class="page-head">
+        <div class="page-num">P7</div>
+        <div class="page-meta">
+          <div class="plabel">Saída</div>
+          <div class="ptitle">Hotmart</div>
+          <div class="psub">Quem clica NÃO na Mentoria é redirecionado para a Hotmart</div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- URLs -->
+  <div class="section-title">Estrutura de URLs</div>
+  <div class="url-section" style="margin-bottom:52px;">
+    <h2>🔗 Mapeamento de Endereços</h2>
+    <div class="url-grid">
+      <div class="url-item">
+        <div class="pg">P1 — LP Principal</div>
+        <code>biasong.com.br/cdb</code>
+      </div>
+      <div class="url-item">
+        <div class="pg">P2 — Upsell 1 (Zero aos Charts)</div>
+        <code>biasong.com.br/cdb-up1</code>
+      </div>
+      <div class="url-item">
+        <div class="pg">P3 — Obra ao Fonograma · Trilha A</div>
+        <code>biasong.com.br/cdb-up2a</code>
+      </div>
+      <div class="url-item">
+        <div class="pg">P4 — Obra ao Fonograma · Trilha B</div>
+        <code>biasong.com.br/cdb-up2b</code>
+      </div>
+      <div class="url-item">
+        <div class="pg">P5 — Mentoria 2% · Trilha Compradores</div>
+        <code>biasong.com.br/cdb-mt1</code>
+      </div>
+      <div class="url-item">
+        <div class="pg">P6 — Mentoria 2% · Trilha Não-Compradores</div>
+        <code>biasong.com.br/cdb-mt2</code>
+      </div>
+    </div>
+  </div>
+
+  <!-- INFRA -->
+  <div class="section-title">Infraestrutura</div>
+  <div class="infra-grid" style="margin-bottom:52px;">
+    <div class="infra-card">
+      <h4>Hospedagem</h4>
+      <p><strong style="color:#fff;">Rochinche</strong> — Servidor em São Paulo. Arthur vai enviar acesso por e-mail. Páginas sobem direto na raiz HTML.</p>
+    </div>
+    <div class="infra-card">
+      <h4>Plataforma das Páginas</h4>
+      <p>HTML puro <strong style="color:#fff;">ou</strong> WordPress + Elementor. Escolha de Patrick conforme prazo disponível.</p>
+    </div>
+    <div class="infra-card">
+      <h4>Checkout</h4>
+      <p>Apenas na <strong style="color:#fff;">LP Principal (P1)</strong>. Checkout Hotmart pré-populado. Demais páginas têm botão simples ou formulário.</p>
+    </div>
+    <div class="infra-card">
+      <h4>Rastreamento</h4>
+      <p>Páginas clonadas com <code>links diferentes</code> por trilha. Dashboard via Google Looker Studio conectado à Hotmart.</p>
+    </div>
+    <div class="infra-card">
+      <h4>Estratégia de Build</h4>
+      <p>Construir <strong style="color:#fff;">1 template de upsell</strong> → clonar × 5. Apenas a headline e o link mudam entre páginas. Economia de tempo.</p>
+    </div>
+    <div class="infra-card">
+      <h4>Upsells: sem depoimentos</h4>
+      <p>Páginas de upsell têm estrutura mínima: Headline + Subheadline + Vídeo + Botão. Sem seção de provas sociais.</p>
+    </div>
+  </div>
+
+  <!-- PENDÊNCIAS -->
+  <div class="section-title">Pendências para Finalização</div>
+  <div class="pending">
+    <h2>⚠ Aguardando</h2>
+    <div class="pend-list">
+      <div class="pend-item"><span class="who wa">Arthur</span>Enviar acesso de hospedagem Rochinche por e-mail</div>
+      <div class="pend-item"><span class="who wa">Arthur</span>Preço cheio do "Do Zero aos Charts" (para calcular valor com 15% off)</div>
+      <div class="pend-item"><span class="who wa">Arthur</span>Preço e condições da Mentoria 2% (valor, vagas, forma de fechar)</div>
+      <div class="pend-item"><span class="who wa">Arthur</span>Finalizar edição do vídeo de vendas da LP principal</div>
+      <div class="pend-item"><span class="who wa">Arthur</span>Finalizar edição do curso "Da Obra ao Fonograma"</div>
+      <div class="pend-item"><span class="who wa">Arthur</span>Vídeos de oferta para as páginas de upsell (P2 a P6)</div>
+      <div class="pend-item"><span class="who wp">Patrick</span>Escolher plataforma de desenvolvimento (HTML ou Elementor)</div>
+      <div class="pend-item"><span class="who wp">Patrick</span>Escrever copy da LP principal (roteiro)</div>
+      <div class="pend-item"><span class="who wb">Patrick + Arthur</span>Testar conexões de todas as 7 páginas antes do lançamento</div>
+    </div>
+  </div>
+
+  <div class="footer">Blueprint v2.0 · Funil "Como Distribuir uma Música" · Rochinche · Hotmart · 2025</div>
+
+</div>
+</body>
+</html>
