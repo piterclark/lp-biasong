@@ -469,6 +469,73 @@
     .guarantee p { font-size: 13px; color: #aaa; line-height: 1.5; }
     .guarantee p strong { color: var(--green); }
 
+    /* ─── BIO / MENTORA ─── */
+    .bio-section {
+      padding: 100px 0;
+      background: #0a0a0a;
+      border-top: 1px solid rgba(255,255,255,.06);
+    }
+    .bio-inner {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 64px;
+      align-items: center;
+    }
+    .bio-text .eyebrow {
+      font-size: 11px;
+      font-weight: 700;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+      color: var(--green);
+      margin-bottom: 16px;
+    }
+    .bio-text h2 {
+      font-size: clamp(28px, 3.5vw, 42px);
+      font-weight: 800;
+      color: #fff;
+      line-height: 1.15;
+      margin-bottom: 24px;
+      letter-spacing: -.02em;
+    }
+    .bio-text p {
+      font-size: 15px;
+      color: #aaa;
+      line-height: 1.75;
+      margin-bottom: 16px;
+    }
+    .bio-text p:last-of-type { margin-bottom: 0; }
+    .bio-photos {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: auto auto;
+      gap: 12px;
+    }
+    .bio-photos .photo-main {
+      grid-column: 1;
+      grid-row: 1 / 3;
+      border-radius: 14px;
+      overflow: hidden;
+      aspect-ratio: 3/4;
+    }
+    .bio-photos .photo-main img {
+      width: 100%; height: 100%; object-fit: cover;
+    }
+    .bio-photos .photo-sm {
+      grid-column: 2;
+      border-radius: 14px;
+      overflow: hidden;
+      aspect-ratio: 1/1;
+    }
+    .bio-photos .photo-sm img {
+      width: 100%; height: 100%; object-fit: cover;
+    }
+    @media(max-width:768px){
+      .bio-inner { grid-template-columns: 1fr; gap: 40px; }
+      .bio-photos { order: -1; }
+      .bio-photos .photo-main { aspect-ratio: 4/3; grid-row: 1; }
+      .bio-photos .photo-sm { aspect-ratio: 4/3; }
+    }
+
     /* ─── FAQ ─── */
     .faq {
       background: var(--bg2);
@@ -599,14 +666,14 @@
         <span class="b-num">01</span>
         <div>
           <h3>Toda vez que sua música tocar em qualquer lugar, você recebe</h3>
-          <p>Execução pública gera dinheiro por lei. A maioria dos artistas simplesmente não cobra porque não sabe como se filiar. Você vai sair sabendo — e vai ser de graça.</p>
+          <p>Execução pública gera dinheiro por lei. A maioria dos artistas não cobra porque não sabe como se filiar. Você vai sair sabendo — a filiação é de graça.</p>
         </div>
       </div>
       <div class="benefit-row">
         <span class="b-num">02</span>
         <div>
           <h3>Você nunca mais vai assinar um contrato sem saber o que está cedendo</h3>
-          <p>A diferença entre obra e fonograma é a que separa quem assina contrato seguro de quem transfere direito sem perceber. Explicada de vez, em menos de 10 minutos.</p>
+          <p>A diferença entre obra e fonograma é a que separa quem assina contrato seguro de quem transfere direito sem perceber. Você entende de vez, em menos de 10 minutos.</p>
         </div>
       </div>
       <div class="benefit-row">
@@ -801,11 +868,38 @@
   </div>
 </section>
 
+<!-- ══ MENTORA / BIO ══ -->
+<section class="bio-section">
+  <div class="wrap">
+    <div class="bio-inner">
+      <div class="bio-text">
+        <div class="eyebrow">Quem vai te ensinar</div>
+        <h2>Bia Song</h2>
+        <p>Mineira do Vale do Jequitinhonha, cresceu entre instrumentos musicais e desde cedo entendeu que a arte precisa ser protegida, valorizada e administrada com inteligência.</p>
+        <p>É sócia-fundadora da <strong>ObraDigital</strong> — empresa que gerencia mais de <strong>6.000 obras de mais de 200 artistas independentes</strong>. Antes disso, liderou a expansão da ONErpm em Belo Horizonte como Coordenadora, acumulando conhecimento prático sobre os desafios reais de quem faz música sem gravadora.</p>
+        <p>Hoje também é sócia e gestora de carreira do <strong>MC Braz</strong>, um dos nomes em ascensão no funk nacional — e a capa da Revista Cool Empresarial como parte do time ObraDigital fala por si só.</p>
+        <p>Ela não ensina teoria. Ela ensina o que faz todos os dias.</p>
+      </div>
+      <div class="bio-photos">
+        <div class="photo-main">
+          <img src="assets/bia/bia-1.jpg" alt="Bia Song com MC Braz" loading="lazy">
+        </div>
+        <div class="photo-sm">
+          <img src="assets/bia/bia-2.jpg" alt="Bia Song — ObraDigital" loading="lazy">
+        </div>
+        <div class="photo-sm">
+          <img src="assets/bia/bia-3.jpg" alt="Bia Song — Revista Cool Empresarial" loading="lazy">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 <!-- ══ OFERTA ══ -->
 <section class="offer" id="checkout">
   <div class="wrap">
     <h2>Tudo que você precisa para distribuir<br>sua música esta semana — com os direitos protegidos</h2>
-    <p class="sub">Um produtor musical cobra entre R$500 e R$2.000 para te ensinar esse processo — quando ensina.<br>Hoje você aprende a fazer você mesmo, por R$97.</p>
+    <p class="sub">Um produtor musical cobra entre R$500 e R$2.000 para te ensinar esse processo — quando ensina.<br>Hoje você aprende a fazer sozinho, por R$97.</p>
 
     <div class="offer-card">
       <h3>Como Distribuir uma Música</h3>
@@ -827,7 +921,7 @@
       </a>
       <div class="guarantee">
         <div class="g-icon">🛡️</div>
-        <p><strong>Garantia total de 15 dias.</strong> Assistiu, aplicou e não sentiu que valeu? Eu devolvo cada centavo. Sem burocracia, sem pergunta, sem precisar explicar nada.</p>
+        <p><strong>Garantia total de 15 dias.</strong> Não sentiu que valeu? Eu devolvo cada centavo. Sem burocracia, sem pergunta, sem precisar explicar nada.</p>
       </div>
     </div>
   </div>
@@ -860,8 +954,8 @@
         <div class="faq-answer">Não. Acesso vitalício. Você assiste quantas vezes quiser, no seu ritmo, de qualquer dispositivo. Atualiza o processo? Você recebe também.</div>
       </details>
       <details>
-        <summary>E se eu não gostar ou não sentir que valeu?</summary>
-        <div class="faq-answer">Você tem 15 dias de garantia total e incondicional. Assistiu, não gostou, achou que não valeu — manda mensagem e eu devolvo 100% do que você pagou. Sem pergunta, sem burocracia.</div>
+        <summary>E se não valer?</summary>
+        <div class="faq-answer">Você tem 15 dias de garantia total e incondicional. Não gostou, achou que não valeu — manda mensagem e eu devolvo 100% do que você pagou. Sem pergunta, sem burocracia.</div>
       </details>
       <details>
         <summary>Já distribuo minhas músicas. O workshop ainda vale?</summary>
