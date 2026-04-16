@@ -629,24 +629,16 @@
     .bio-section::before {
       content: '';
       position: absolute;
-      top: -200px; right: -200px;
-      width: 600px; height: 600px;
-      background: radial-gradient(circle, rgba(136,255,0,.07) 0%, transparent 70%);
+      top: -150px; right: -150px;
+      width: 500px; height: 500px;
+      background: radial-gradient(circle, rgba(136,255,0,.06) 0%, transparent 70%);
       pointer-events: none;
     }
     .bio-inner {
       display: grid;
-      grid-template-columns: 45fr 55fr;
-      gap: 0;
-      align-items: stretch;
-      position: relative;
-      min-height: 600px;
-    }
-    .bio-text-wrap {
-      padding: 80px max(24px, calc((100vw - 860px) / 2)) 80px max(24px, calc((100vw - 860px) / 2));
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
+      grid-template-columns: 1fr 1fr;
+      gap: 64px;
+      align-items: center;
     }
     .bio-text .eyebrow {
       display: inline-flex;
@@ -667,7 +659,7 @@
       border-radius: 2px;
     }
     .bio-text h2 {
-      font-size: clamp(38px, 5vw, 64px);
+      font-size: clamp(38px, 5vw, 58px);
       font-weight: 900;
       line-height: 1.05;
       margin-bottom: 20px;
@@ -679,30 +671,23 @@
     }
     .bio-stats {
       display: flex;
-      gap: 28px;
+      gap: 24px;
       margin-bottom: 28px;
       flex-wrap: wrap;
+      align-items: center;
     }
-    .bio-stat {
-      display: flex;
-      flex-direction: column;
-    }
+    .bio-stat { display: flex; flex-direction: column; }
     .bio-stat strong {
-      font-size: clamp(22px, 2.5vw, 30px);
+      font-size: 24px;
       font-weight: 900;
       color: #fff;
       letter-spacing: -.02em;
       line-height: 1;
     }
-    .bio-stat span {
-      font-size: 12px;
-      color: #666;
-      margin-top: 4px;
-    }
+    .bio-stat span { font-size: 12px; color: #666; margin-top: 4px; }
     .bio-stat-divider {
-      width: 1px;
-      background: rgba(255,255,255,.1);
-      align-self: stretch;
+      width: 1px; height: 36px;
+      background: rgba(255,255,255,.12);
     }
     .bio-text p {
       font-size: 15px;
@@ -712,45 +697,46 @@
     }
     .bio-text p:last-of-type { margin-bottom: 0; }
     .bio-text p strong { color: #ddd; font-weight: 600; }
+
+    /* Grid de fotos — 12 colunas internas */
     .bio-photos {
       display: grid;
-      grid-template-columns: 1fr 1fr;
+      grid-template-columns: 7fr 5fr;
       grid-template-rows: 1fr 1fr;
-      gap: 10px;
-      padding: 10px 0 10px 10px;
+      gap: 14px;
+      height: 600px;
     }
     .bio-photos .photo-main {
       grid-column: 1;
       grid-row: 1 / 3;
-      border-radius: 18px 0 0 18px;
+      border-radius: 2rem;
       overflow: hidden;
     }
     .bio-photos .photo-main img {
       width: 100%; height: 100%; object-fit: cover;
       transition: transform .5s ease;
     }
-    .bio-photos .photo-main:hover img { transform: scale(1.04); }
+    .bio-photos .photo-main:hover img { transform: scale(1.05); }
     .bio-photos .photo-sm {
       grid-column: 2;
-      border-radius: 0;
+      border-radius: 1.5rem;
       overflow: hidden;
     }
-    .bio-photos .photo-sm:first-of-type { border-radius: 0 18px 0 0; }
-    .bio-photos .photo-sm:last-of-type  { border-radius: 0 0 18px 0; }
     .bio-photos .photo-sm img {
       width: 100%; height: 100%; object-fit: cover;
       transition: transform .5s ease;
     }
-    .bio-photos .photo-sm:hover img { transform: scale(1.04); }
+    .bio-photos .photo-sm:hover img { transform: scale(1.05); }
+
     @media(max-width:768px){
-      .bio-section { padding: 0; }
-      .bio-inner { grid-template-columns: 1fr; }
-      .bio-text-wrap { padding: 60px 24px 40px; }
-      .bio-photos { height: 400px; padding: 0; }
-      .bio-photos .photo-main,
-      .bio-photos .photo-sm,
-      .bio-photos .photo-sm:first-of-type,
-      .bio-photos .photo-sm:last-of-type { border-radius: 0; }
+      .bio-inner { grid-template-columns: 1fr; gap: 40px; }
+      .bio-photos {
+        height: auto;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 260px 180px;
+      }
+      .bio-photos .photo-main { grid-column: 1 / 3; grid-row: 1; border-radius: 1.5rem; }
+      .bio-photos .photo-sm { grid-column: auto; grid-row: 2; border-radius: 1rem; }
     }
 
     /* ───── FAQ ───── */
@@ -1146,8 +1132,8 @@
      MENTORA / BIO
 ══════════════════════════════════ -->
 <section class="bio-section">
-  <div class="bio-inner">
-    <div class="bio-text-wrap">
+  <div class="wrap">
+    <div class="bio-inner">
       <div class="bio-text">
         <div class="eyebrow">Quem vai te ensinar</div>
         <h2>Bia Song</h2>
@@ -1172,16 +1158,16 @@
         <p>Hoje também é sócia e gestora de carreira do <strong>MC Braz</strong>, um dos nomes em ascensão no funk nacional — e a capa da <strong>Revista Cool Empresarial</strong> com o time ObraDigital fala por si só.</p>
         <p>Ela não ensina teoria. Ela ensina o que faz todos os dias.</p>
       </div>
-    </div>
-    <div class="bio-photos">
-      <div class="photo-main">
-        <img src="assets/bia/bia-1.jpg" alt="Bia Song com MC Braz" loading="lazy">
-      </div>
-      <div class="photo-sm">
-        <img src="assets/bia/bia-2.jpg" alt="Bia Song — ObraDigital" loading="lazy">
-      </div>
-      <div class="photo-sm">
-        <img src="assets/bia/bia-3.jpg" alt="Bia Song — Revista Cool Empresarial" loading="lazy">
+      <div class="bio-photos">
+        <div class="photo-main">
+          <img src="assets/bia/bia-1.jpg" alt="Bia Song com MC Braz" loading="lazy">
+        </div>
+        <div class="photo-sm">
+          <img src="assets/bia/bia-2.jpg" alt="Bia Song — ObraDigital" loading="lazy">
+        </div>
+        <div class="photo-sm">
+          <img src="assets/bia/bia-3.jpg" alt="Bia Song — Revista Cool Empresarial" loading="lazy">
+        </div>
       </div>
     </div>
   </div>
