@@ -488,9 +488,16 @@
     .bio-inner {
       display: grid;
       grid-template-columns: 45fr 55fr;
-      gap: 64px;
-      align-items: center;
+      gap: 0;
+      align-items: stretch;
       position: relative;
+      min-height: 600px;
+    }
+    .bio-text-wrap {
+      padding: 80px max(24px, calc((100vw - 1100px) / 2)) 80px max(24px, calc((100vw - 1100px) / 2));
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
     }
     .bio-text .eyebrow {
       display: inline-flex;
@@ -560,33 +567,40 @@
       display: grid;
       grid-template-columns: 1fr 1fr;
       grid-template-rows: 1fr 1fr;
-      gap: 14px;
-      height: 560px;
+      gap: 10px;
+      padding: 10px 0 10px 10px;
     }
     .bio-photos .photo-main {
       grid-column: 1;
       grid-row: 1 / 3;
-      border-radius: 18px;
+      border-radius: 18px 0 0 18px;
       overflow: hidden;
     }
     .bio-photos .photo-main img {
       width: 100%; height: 100%; object-fit: cover;
-      transition: transform .4s ease;
+      transition: transform .5s ease;
     }
-    .bio-photos .photo-main:hover img { transform: scale(1.03); }
+    .bio-photos .photo-main:hover img { transform: scale(1.04); }
     .bio-photos .photo-sm {
       grid-column: 2;
-      border-radius: 18px;
       overflow: hidden;
     }
+    .bio-photos .photo-sm:first-of-type { border-radius: 0 18px 0 0; }
+    .bio-photos .photo-sm:last-of-type  { border-radius: 0 0 18px 0; }
     .bio-photos .photo-sm img {
       width: 100%; height: 100%; object-fit: cover;
-      transition: transform .4s ease;
+      transition: transform .5s ease;
     }
-    .bio-photos .photo-sm:hover img { transform: scale(1.03); }
+    .bio-photos .photo-sm:hover img { transform: scale(1.04); }
     @media(max-width:768px){
-      .bio-inner { grid-template-columns: 1fr; gap: 40px; }
-      .bio-photos { height: 420px; order: -1; }
+      .bio-section { padding: 0; }
+      .bio-inner { grid-template-columns: 1fr; }
+      .bio-text-wrap { padding: 60px 24px 40px; }
+      .bio-photos { height: 400px; padding: 0; }
+      .bio-photos .photo-main,
+      .bio-photos .photo-sm,
+      .bio-photos .photo-sm:first-of-type,
+      .bio-photos .photo-sm:last-of-type { border-radius: 0; }
     }
 
     /* ─── FAQ ─── */
@@ -923,8 +937,8 @@
 
 <!-- ══ MENTORA / BIO ══ -->
 <section class="bio-section">
-  <div class="wrap">
-    <div class="bio-inner">
+  <div class="bio-inner">
+    <div class="bio-text-wrap">
       <div class="bio-text">
         <div class="eyebrow">Quem vai te ensinar</div>
         <h2>Bia Song</h2>
@@ -949,16 +963,16 @@
         <p>Hoje também é sócia e gestora de carreira do <strong>MC Braz</strong>, um dos nomes em ascensão no funk nacional — e a capa da <strong>Revista Cool Empresarial</strong> com o time ObraDigital fala por si só.</p>
         <p>Ela não ensina teoria. Ela ensina o que faz todos os dias.</p>
       </div>
-      <div class="bio-photos">
-        <div class="photo-main">
-          <img src="assets/bia/bia-1.jpg" alt="Bia Song com MC Braz" loading="lazy">
-        </div>
-        <div class="photo-sm">
-          <img src="assets/bia/bia-2.jpg" alt="Bia Song — ObraDigital" loading="lazy">
-        </div>
-        <div class="photo-sm">
-          <img src="assets/bia/bia-3.jpg" alt="Bia Song — Revista Cool Empresarial" loading="lazy">
-        </div>
+    </div>
+    <div class="bio-photos">
+      <div class="photo-main">
+        <img src="assets/bia/bia-1.jpg" alt="Bia Song com MC Braz" loading="lazy">
+      </div>
+      <div class="photo-sm">
+        <img src="assets/bia/bia-2.jpg" alt="Bia Song — ObraDigital" loading="lazy">
+      </div>
+      <div class="photo-sm">
+        <img src="assets/bia/bia-3.jpg" alt="Bia Song — Revista Cool Empresarial" loading="lazy">
       </div>
     </div>
   </div>
