@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Como Distribuir uma Música — Workshop Prático</title>
+  <title>Como Distribuir uma Música — Workshop Prático com Bia Song</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,700&display=swap" rel="stylesheet">
@@ -14,10 +14,14 @@
     :root {
       --bg:       #050505;
       --bg2:      #0a0a0a;
-      --bg3:      #121212;
-      --orange:   #73FF00;
-      --orange2:  #5ACC00;
-      --green:    #8CFF33;
+      --bg3:      #111111;
+      --green:    #88FF00;
+      --green2:   #6ACC00;
+      --blue:     #0077FF;
+      --blue2:    #0055CC;
+      --cyan:     #44BBFF;
+      --grad:     linear-gradient(135deg, #88FF00 0%, #0077FF 100%);
+      --grad-h:   linear-gradient(135deg, #9FFF33 0%, #2299FF 100%);
       --text:     #ffffff;
       --muted:    #9ca3af;
       --border:   rgba(255,255,255,0.08);
@@ -38,7 +42,7 @@
     /* ───── STICKY BAR ───── */
     .sticky-bar {
       position: sticky; top: 0; z-index: 100;
-      background: var(--orange);
+      background: var(--grad);
       color: #000;
       text-align: center;
       padding: 10px 20px;
@@ -49,7 +53,7 @@
       color: #000;
       text-decoration: underline;
       margin-left: 12px;
-      font-weight: 700;
+      font-weight: 800;
     }
 
     /* ───── CONTAINER ───── */
@@ -58,8 +62,36 @@
 
     /* ───── SECTIONS ───── */
     section { padding: 80px 0; }
-    section.alt { background: var(--bg2); }
+    section.alt  { background: var(--bg2); }
     section.dark { background: var(--bg3); }
+
+    /* ───── BUTTON ───── */
+    .btn-cta {
+      display: inline-block;
+      background: var(--green);
+      color: #000;
+      font-size: 17px;
+      font-weight: 800;
+      padding: 18px 44px;
+      border-radius: 8px;
+      text-decoration: none;
+      letter-spacing: .01em;
+      transition: background .2s, transform .15s, box-shadow .2s;
+      border: none;
+      cursor: pointer;
+    }
+    .btn-cta:hover {
+      background: var(--grad-h);
+      transform: translateY(-2px);
+      box-shadow: 0 8px 32px rgba(136,255,0,.25);
+    }
+    .btn-cta.big { font-size: 19px; padding: 22px 56px; border-radius: 10px; width: 100%; max-width: 480px; }
+    .btn-sub {
+      display: block;
+      font-size: 12px;
+      color: var(--muted);
+      margin-top: 10px;
+    }
 
     /* ───── HERO ───── */
     .hero {
@@ -69,16 +101,16 @@
     }
     .hero-tag {
       display: inline-block;
-      background: rgba(115,255,0,.12);
-      color: var(--orange);
+      background: rgba(136,255,0,.1);
+      color: var(--green);
       font-size: 12px; font-weight: 700;
       letter-spacing: 2px; text-transform: uppercase;
       padding: 6px 16px; border-radius: 20px;
-      border: 1px solid rgba(115,255,0,.3);
+      border: 1px solid rgba(136,255,0,.25);
       margin-bottom: 24px;
     }
     .hero h1 {
-      font-size: clamp(32px, 5vw, 52px);
+      font-size: clamp(30px, 5vw, 52px);
       font-weight: 900;
       line-height: 1.1;
       color: #fff;
@@ -87,40 +119,22 @@
     }
     .hero h1 em {
       font-style: normal;
-      color: var(--orange);
+      background: var(--grad);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
     }
     .hero p.sub {
-      font-size: clamp(16px, 2vw, 20px);
+      font-size: clamp(16px, 2vw, 19px);
       color: var(--muted);
-      max-width: 600px;
-      margin: 0 auto 36px;
-      line-height: 1.6;
-    }
-    .btn-cta {
-      display: inline-block;
-      background: var(--orange);
-      color: #000;
-      font-size: 17px;
-      font-weight: 800;
-      padding: 18px 44px;
-      border-radius: 8px;
-      text-decoration: none;
-      letter-spacing: .01em;
-      transition: background .2s, transform .15s;
-      border: none; workshopr: pointer;
-    }
-    .btn-cta:hover { background: var(--orange2); transform: translateY(-2px); }
-    .btn-cta.big { font-size: 20px; padding: 22px 56px; border-radius: 10px; width: 100%; max-width: 480px; }
-    .btn-sub {
-      display: block;
-      font-size: 12px;
-      color: var(--muted);
-      margin-top: 10px;
+      max-width: 620px;
+      margin: 0 auto 0;
+      line-height: 1.65;
     }
 
     /* VIDEO BOX */
     .video-wrap {
-      margin: 44px auto 0;
+      margin: 40px auto 0;
       max-width: 700px;
       background: #000;
       border-radius: 14px;
@@ -130,13 +144,10 @@
       aspect-ratio: 16/9;
       position: relative;
     }
-    .video-wrap iframe {
-      width: 100%; height: 100%;
-      border: none;
-    }
+    .video-wrap iframe { width: 100%; height: 100%; border: none; }
     .video-placeholder {
       width: 100%; height: 100%;
-      background: #0d0d20;
+      background: #080814;
       display: flex; flex-direction: column;
       align-items: center; justify-content: center;
       gap: 16px;
@@ -144,91 +155,225 @@
     }
     .video-placeholder .play-icon {
       width: 72px; height: 72px;
-      background: var(--orange);
+      background: var(--grad);
       border-radius: 50%;
       display: flex; align-items: center; justify-content: center;
+      box-shadow: 0 0 32px rgba(136,255,0,.3);
     }
     .video-placeholder .play-icon svg { margin-left: 4px; }
-    .video-placeholder p { color: #555; font-size: 14px; }
+    .video-placeholder p { color: #444; font-size: 14px; }
 
-    /* AUTHORITY */
-    .authority {
-      margin-top: 48px;
-      padding-top: 36px;
-      border-top: 1px solid var(--border);
+    /* CTA BELOW VIDEO */
+    .hero-cta-block {
+      margin-top: 40px;
     }
-    .authority p { font-size: 12px; text-transform: uppercase; letter-spacing: 2px; color: #444; margin-bottom: 20px; }
-    .authority-names {
-      display: flex; flex-wrap: wrap;
-      justify-content: center; gap: 12px;
-    }
-    .authority-names span {
-      background: var(--bg2);
-      border: 1px solid var(--border);
-      color: var(--muted);
-      font-size: 13px; font-weight: 600;
-      padding: 6px 16px; border-radius: 6px;
-    }
-    /* PLACEHOLDER */
-    .placeholder {
-      background: rgba(115,255,0,.05);
-      border: 1px dashed rgba(115,255,0,.3);
-      border-radius: 8px;
-      padding: 16px 20px;
-      font-size: 13px;
-      color: var(--orange);
-      text-align: center;
-    }
-    .placeholder strong { display: block; font-weight: 700; margin-bottom: 4px; }
 
     /* SEALS */
     .seals {
       display: flex; flex-wrap: wrap;
       justify-content: center; gap: 20px;
-      margin-top: 36px;
+      margin-top: 28px;
     }
     .seal {
       display: flex; align-items: center; gap: 8px;
       font-size: 13px; color: var(--muted);
     }
     .seal-icon {
-      width: 36px; height: 36px;
+      width: 34px; height: 34px;
       border-radius: 8px;
       background: var(--bg2);
       border: 1px solid var(--border);
       display: flex; align-items: center; justify-content: center;
-      font-size: 18px;
+      font-size: 16px;
     }
 
-    /* ───── STORY ───── */
-    .story-section h2 {
-      font-size: clamp(24px, 3vw, 34px);
-      font-weight: 800; color: #fff;
-      line-height: 1.25; margin-bottom: 28px;
-      letter-spacing: -.02em;
+    /* ───── AUTHORITY STRIP ───── */
+    .authority-strip {
+      background: var(--bg2);
+      border-top: 1px solid var(--border);
+      border-bottom: 1px solid var(--border);
+      padding: 28px 0;
+      text-align: center;
     }
-    .story-section h2 em { font-style: normal; color: var(--orange); }
-    .story-block {
-      max-width: 680px; margin: 0 auto;
+    .authority-strip p {
+      font-size: 11px; text-transform: uppercase;
+      letter-spacing: 2px; color: #444;
+      margin-bottom: 16px;
     }
-    .story-block p {
-      color: #c0c0d8;
-      margin-bottom: 20px;
-      font-size: 17px;
-      line-height: 1.8;
+    .authority-names {
+      display: flex; flex-wrap: wrap;
+      justify-content: center; gap: 10px;
     }
-    .story-block p strong { color: #fff; font-weight: 700; }
-    .story-highlight {
+    .authority-names span {
       background: var(--bg3);
-      border-left: 3px solid var(--orange);
-      border-radius: 0 8px 8px 0;
-      padding: 20px 24px;
-      margin: 28px 0;
-      font-size: 18px;
-      font-weight: 600;
-      color: #fff;
-      line-height: 1.6;
+      border: 1px solid var(--border);
+      color: var(--muted);
+      font-size: 13px; font-weight: 600;
+      padding: 6px 16px; border-radius: 6px;
     }
+    .placeholder {
+      background: rgba(136,255,0,.04);
+      border: 1px dashed rgba(136,255,0,.25);
+      border-radius: 8px;
+      padding: 14px 20px;
+      font-size: 13px;
+      color: rgba(136,255,0,.6);
+      text-align: center;
+    }
+    .placeholder strong { display: block; font-weight: 700; margin-bottom: 4px; }
+
+    /* ───── PROBLEM SECTION ───── */
+    .problem-section { text-align: center; }
+    .problem-section h2 {
+      font-size: clamp(22px, 3vw, 36px);
+      font-weight: 800; color: #fff;
+      margin-bottom: 14px;
+      letter-spacing: -.02em;
+      line-height: 1.2;
+    }
+    .problem-section .section-sub {
+      color: var(--muted); font-size: 17px;
+      margin-bottom: 48px;
+      max-width: 560px; margin-left: auto; margin-right: auto;
+    }
+    .problem-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 16px;
+      margin-bottom: 40px;
+    }
+    .problem-card {
+      background: var(--bg2);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 28px 22px;
+      text-align: left;
+      position: relative;
+      overflow: hidden;
+      transition: border-color .2s;
+    }
+    .problem-card:hover { border-color: rgba(255,60,60,.3); }
+    .problem-card::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0; height: 2px;
+      background: linear-gradient(90deg, #FF3C3C, #FF6B6B);
+    }
+    .problem-icon { font-size: 30px; margin-bottom: 14px; }
+    .problem-card h3 {
+      font-size: 15px; font-weight: 700;
+      color: #fff; margin-bottom: 10px;
+      line-height: 1.35;
+    }
+    .problem-card p { font-size: 13px; color: var(--muted); line-height: 1.65; }
+    .problem-card .danger-tag {
+      display: inline-block;
+      background: rgba(255,60,60,.08);
+      color: #FF6B6B;
+      font-size: 10px; font-weight: 700;
+      letter-spacing: 1.5px; text-transform: uppercase;
+      padding: 3px 10px; border-radius: 20px;
+      margin-bottom: 12px;
+    }
+    .problem-bridge {
+      background: rgba(136,255,0,.05);
+      border: 1px solid rgba(136,255,0,.15);
+      border-radius: 12px;
+      padding: 22px 28px;
+      max-width: 640px;
+      margin: 0 auto;
+      text-align: left;
+      display: flex; align-items: center; gap: 18px;
+    }
+    .problem-bridge .pb-icon { font-size: 28px; flex-shrink: 0; }
+    .problem-bridge p { font-size: 15px; color: #ccc; line-height: 1.6; }
+    .problem-bridge p strong { color: var(--green); }
+
+    /* ───── MECANISMO ───── */
+    .mecanismo-section { text-align: center; }
+    .mecanismo-section h2 {
+      font-size: clamp(22px, 3vw, 36px);
+      font-weight: 800; color: #fff;
+      margin-bottom: 16px;
+      letter-spacing: -.02em;
+      line-height: 1.2;
+    }
+    .mecanismo-section h2 em {
+      font-style: normal;
+      background: var(--grad);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+    .mec-tag {
+      display: inline-block;
+      background: rgba(136,255,0,.1);
+      color: var(--green);
+      font-size: 11px; font-weight: 700;
+      letter-spacing: 2px; text-transform: uppercase;
+      padding: 5px 14px; border-radius: 20px;
+      border: 1px solid rgba(136,255,0,.25);
+      margin-bottom: 20px;
+    }
+    .mec-sub {
+      color: var(--muted);
+      font-size: 17px;
+      max-width: 620px;
+      margin: 0 auto 52px;
+      line-height: 1.7;
+    }
+    .mec-steps {
+      display: flex;
+      align-items: flex-start;
+      gap: 0;
+      margin-bottom: 40px;
+    }
+    .mec-step {
+      flex: 1;
+      background: var(--bg2);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 28px 20px;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+      transition: border-color .2s;
+    }
+    .mec-step:hover { border-color: rgba(136,255,0,.3); }
+    .mec-step::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0; height: 2px;
+      background: var(--grad);
+      border-radius: 16px 16px 0 0;
+    }
+    .mec-step-num {
+      font-size: 11px; font-weight: 800;
+      color: var(--green); letter-spacing: 2px;
+      text-transform: uppercase; margin-bottom: 12px;
+    }
+    .mec-step-icon { font-size: 32px; margin-bottom: 12px; }
+    .mec-step h3 { font-size: 17px; font-weight: 700; color: #fff; margin-bottom: 10px; }
+    .mec-step p { font-size: 14px; color: var(--muted); line-height: 1.7; }
+    .mec-arrow {
+      font-size: 22px; color: rgba(136,255,0,.4);
+      padding: 0 10px;
+      padding-top: 56px;
+      flex-shrink: 0;
+    }
+    .mec-result {
+      background: rgba(136,255,0,.06);
+      border: 1px solid rgba(136,255,0,.2);
+      border-radius: 12px;
+      padding: 22px 28px;
+      display: flex; align-items: center; gap: 16px;
+      max-width: 620px;
+      margin: 0 auto;
+      text-align: left;
+    }
+    .mec-result span { font-size: 28px; flex-shrink: 0; }
+    .mec-result p { font-size: 15px; color: #ccc; line-height: 1.6; }
+    .mec-result p strong { color: var(--green); }
 
     /* ───── BENEFITS ───── */
     .benefits-section h2 {
@@ -236,6 +381,13 @@
       font-weight: 800; color: #fff;
       text-align: center; margin-bottom: 12px;
       letter-spacing: -.02em;
+    }
+    .benefits-section h2 em {
+      font-style: normal;
+      background: var(--grad);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
     }
     .benefits-section .section-sub {
       text-align: center; color: var(--muted);
@@ -253,27 +405,25 @@
       padding: 28px 24px;
       position: relative;
       overflow: hidden;
+      transition: border-color .2s;
     }
+    .benefit-card:hover { border-color: rgba(136,255,0,.3); }
     .benefit-card::before {
       content: '';
       position: absolute;
-      top: 0; left: 0; right: 0;
-      height: 2px;
-      background: var(--orange);
+      top: 0; left: 0; right: 0; height: 2px;
+      background: var(--grad);
     }
     .benefit-num {
       width: 38px; height: 38px;
-      background: rgba(115,255,0,.12);
-      border: 1px solid rgba(115,255,0,.3);
+      background: rgba(136,255,0,.1);
+      border: 1px solid rgba(136,255,0,.25);
       border-radius: 10px;
       display: flex; align-items: center; justify-content: center;
-      font-size: 15px; font-weight: 800; color: var(--orange);
+      font-size: 15px; font-weight: 800; color: var(--green);
       margin-bottom: 16px;
     }
-    .benefit-card h3 {
-      font-size: 16px; font-weight: 700;
-      color: #fff; margin-bottom: 10px;
-    }
+    .benefit-card h3 { font-size: 16px; font-weight: 700; color: #fff; margin-bottom: 10px; }
     .benefit-card p { font-size: 14px; color: var(--muted); line-height: 1.7; }
 
     /* ───── CURRICULUM ───── */
@@ -287,32 +437,33 @@
       text-align: center; color: var(--muted);
       margin-bottom: 44px; font-size: 17px;
     }
-    .lessons-list {
-      display: flex; flex-direction: column; gap: 10px;
-    }
+    .lessons-list { display: flex; flex-direction: column; gap: 8px; }
     .lesson {
       background: var(--bg);
       border: 1px solid var(--border);
       border-radius: 10px;
-      padding: 16px 20px;
+      padding: 15px 20px;
       display: flex; align-items: center; gap: 16px;
       transition: border-color .2s;
     }
-    .lesson:hover { border-color: rgba(115,255,0,.4); }
+    .lesson:hover { border-color: rgba(136,255,0,.3); }
     .lesson-num {
       width: 32px; height: 32px; flex-shrink: 0;
       background: var(--bg3);
       border-radius: 8px;
       display: flex; align-items: center; justify-content: center;
-      font-size: 12px; font-weight: 800; color: #555;
+      font-size: 12px; font-weight: 800; color: #444;
     }
-    .lesson.done .lesson-num { background: rgba(140,255,51,.1); color: var(--green); }
+    .lesson.done .lesson-num {
+      background: rgba(136,255,0,.12);
+      color: var(--green);
+    }
     .lesson-title { font-size: 15px; font-weight: 600; color: #ddd; }
     .lesson-badge {
       margin-left: auto; flex-shrink: 0;
       font-size: 11px; font-weight: 700;
-      background: rgba(115,255,0,.1);
-      color: var(--orange);
+      background: rgba(136,255,0,.08);
+      color: var(--green);
       padding: 3px 10px; border-radius: 20px;
     }
 
@@ -323,18 +474,14 @@
       text-align: center; margin-bottom: 44px;
       letter-spacing: -.02em;
     }
-    .forwho-grid {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 16px;
-    }
+    .forwho-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
     .forwho-card {
       background: var(--bg);
       border: 1px solid var(--border);
       border-radius: 12px;
       padding: 24px;
     }
-    .forwho-card.yes { border-color: rgba(140,255,51,.3); }
+    .forwho-card.yes { border-color: rgba(136,255,0,.25); }
     .forwho-card.no  { border-color: rgba(239,68,68,.15); }
     .forwho-card h4 {
       font-size: 13px; font-weight: 700;
@@ -360,8 +507,8 @@
       letter-spacing: -.02em;
     }
     .bonus-card {
-      background: linear-gradient(135deg, #111111, #0a0a0a);
-      border: 1px solid rgba(115,255,0,.3);
+      background: linear-gradient(135deg, #0d0d1a, #0a0a0a);
+      border: 1px solid rgba(68,187,255,.3);
       border-radius: 16px;
       padding: 36px;
       display: flex; gap: 28px;
@@ -369,21 +516,18 @@
     }
     .bonus-icon {
       width: 56px; height: 56px; flex-shrink: 0;
-      background: rgba(115,255,0,.15);
-      border: 1px solid rgba(115,255,0,.3);
+      background: rgba(68,187,255,.1);
+      border: 1px solid rgba(68,187,255,.3);
       border-radius: 14px;
       display: flex; align-items: center; justify-content: center;
       font-size: 26px;
     }
-    .bonus-content h3 {
-      font-size: 18px; font-weight: 700; color: #fff;
-      margin-bottom: 8px;
-    }
+    .bonus-content h3 { font-size: 18px; font-weight: 700; color: #fff; margin-bottom: 8px; }
     .bonus-content p { font-size: 15px; color: var(--muted); line-height: 1.7; }
     .bonus-tag {
       display: inline-block;
-      background: rgba(115,255,0,.12);
-      color: var(--orange);
+      background: rgba(68,187,255,.1);
+      color: var(--cyan);
       font-size: 11px; font-weight: 700;
       letter-spacing: 1px; text-transform: uppercase;
       padding: 4px 12px; border-radius: 20px;
@@ -397,16 +541,19 @@
       text-align: center; margin-bottom: 44px;
       letter-spacing: -.02em;
     }
-    .testimonials-grid {
-      display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      gap: 16px;
-    }
+    .testimonials-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; }
     .tcard {
       background: var(--bg);
       border: 1px solid var(--border);
       border-radius: 14px;
       padding: 24px;
+      position: relative; overflow: hidden;
+    }
+    .tcard::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0; height: 2px;
+      background: var(--grad);
     }
     .tcard-stars { color: #f59e0b; font-size: 16px; margin-bottom: 12px; }
     .tcard-text { font-size: 14px; color: #ccc; line-height: 1.7; margin-bottom: 16px; font-style: italic; }
@@ -432,21 +579,25 @@
     }
     .offer-card {
       background: var(--bg2);
-      border: 1px solid var(--border);
+      border: 1px solid rgba(136,255,0,.2);
       border-radius: 20px;
       padding: 48px 40px;
       max-width: 560px;
       margin: 0 auto;
+      position: relative; overflow: hidden;
+    }
+    .offer-card::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0; height: 3px;
+      background: var(--grad);
     }
     .offer-card .course-name {
       font-size: 13px; font-weight: 700;
       letter-spacing: 2px; text-transform: uppercase;
-      color: var(--orange); margin-bottom: 8px;
+      color: var(--green); margin-bottom: 8px;
     }
-    .offer-card h3 {
-      font-size: 22px; font-weight: 800; color: #fff;
-      margin-bottom: 28px;
-    }
+    .offer-card h3 { font-size: 22px; font-weight: 800; color: #fff; margin-bottom: 28px; }
     .offer-includes {
       text-align: left;
       display: flex; flex-direction: column; gap: 10px;
@@ -466,8 +617,8 @@
     .price-note { font-size: 13px; color: var(--muted); margin-top: 6px; }
     .guarantee-row {
       display: flex; align-items: center; gap: 12px;
-      background: rgba(140,255,51,.07);
-      border: 1px solid rgba(140,255,51,.2);
+      background: rgba(136,255,0,.05);
+      border: 1px solid rgba(136,255,0,.15);
       border-radius: 10px;
       padding: 14px 18px;
       text-align: left;
@@ -492,17 +643,17 @@
       overflow: hidden;
       transition: border-color .2s;
     }
-    details[open] { border-color: rgba(115,255,0,.4); }
+    details[open] { border-color: rgba(136,255,0,.3); }
     summary {
       padding: 18px 20px;
       font-size: 15px; font-weight: 600; color: #ddd;
-      workshopr: pointer;
+      cursor: pointer;
       display: flex; justify-content: space-between; align-items: center;
       list-style: none;
       user-select: none;
     }
     summary::-webkit-details-marker { display: none; }
-    summary::after { content: '+'; font-size: 20px; color: var(--orange); font-weight: 300; }
+    summary::after { content: '+'; font-size: 20px; color: var(--green); font-weight: 300; }
     details[open] summary::after { content: '−'; }
     .faq-answer { padding: 0 20px 18px; font-size: 14px; color: var(--muted); line-height: 1.7; }
 
@@ -517,8 +668,18 @@
       line-height: 1.15; margin-bottom: 20px;
       letter-spacing: -.02em;
     }
-    .close-section h2 em { font-style: normal; color: var(--orange); }
-    .close-section p { color: var(--muted); font-size: 18px; margin-bottom: 40px; max-width: 560px; margin-left: auto; margin-right: auto; }
+    .close-section h2 em {
+      font-style: normal;
+      background: var(--grad);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+    .close-section p {
+      color: var(--muted); font-size: 18px;
+      margin-bottom: 40px;
+      max-width: 540px; margin-left: auto; margin-right: auto;
+    }
 
     /* ───── FOOTER ───── */
     footer {
@@ -531,93 +692,10 @@
     footer a { color: #444; text-decoration: none; }
     footer a:hover { color: #666; }
 
-    /* ───── MECANISMO ÚNICO ───── */
-    .mecanismo-section { text-align: center; }
-    .mecanismo-section h2 {
-      font-size: clamp(22px, 3vw, 34px);
-      font-weight: 800; color: #fff;
-      margin-bottom: 16px;
-      letter-spacing: -.02em;
-      line-height: 1.25;
-    }
-    .mecanismo-section h2 em { font-style: normal; color: var(--orange); }
-    .mec-tag {
-      display: inline-block;
-      background: rgba(115,255,0,.12);
-      color: var(--orange);
-      font-size: 11px; font-weight: 700;
-      letter-spacing: 2px; text-transform: uppercase;
-      padding: 5px 14px; border-radius: 20px;
-      border: 1px solid rgba(115,255,0,.3);
-      margin-bottom: 20px;
-    }
-    .mec-sub {
-      color: var(--muted);
-      font-size: 17px;
-      max-width: 620px;
-      margin: 0 auto 52px;
-      line-height: 1.7;
-    }
-    .mec-steps {
-      display: flex;
-      align-items: flex-start;
-      gap: 0;
-      margin-bottom: 40px;
-    }
-    .mec-step {
-      flex: 1;
-      background: var(--bg2);
-      border: 1px solid var(--border);
-      border-radius: 16px;
-      padding: 28px 20px;
-      text-align: center;
-      position: relative;
-      transition: border-color .2s;
-    }
-    .mec-step:hover { border-color: rgba(115,255,0,.35); }
-    .mec-step::before {
-      content: '';
-      position: absolute;
-      top: 0; left: 0; right: 0;
-      height: 2px;
-      background: var(--orange);
-      border-radius: 16px 16px 0 0;
-    }
-    .mec-step-num {
-      font-size: 11px; font-weight: 800;
-      color: var(--orange); letter-spacing: 2px;
-      text-transform: uppercase; margin-bottom: 12px;
-    }
-    .mec-step-icon { font-size: 32px; margin-bottom: 12px; }
-    .mec-step h3 {
-      font-size: 17px; font-weight: 700;
-      color: #fff; margin-bottom: 10px;
-    }
-    .mec-step p { font-size: 14px; color: var(--muted); line-height: 1.7; }
-    .mec-arrow {
-      font-size: 22px; color: rgba(115,255,0,.5);
-      padding: 0 10px;
-      padding-top: 56px;
-      flex-shrink: 0;
-      font-weight: 300;
-    }
-    .mec-result {
-      background: rgba(115,255,0,.07);
-      border: 1px solid rgba(115,255,0,.22);
-      border-radius: 12px;
-      padding: 20px 24px;
-      display: flex; align-items: center; gap: 16px;
-      max-width: 620px;
-      margin: 0 auto;
-      text-align: left;
-    }
-    .mec-result span { font-size: 28px; flex-shrink: 0; }
-    .mec-result p { font-size: 15px; color: #ccc; line-height: 1.6; }
-    .mec-result p strong { color: #fff; }
-
     /* ───── RESPONSIVE ───── */
     @media (max-width: 640px) {
       section { padding: 56px 0; }
+      .problem-grid { grid-template-columns: 1fr; }
       .benefits-grid,
       .forwho-grid,
       .testimonials-grid { grid-template-columns: 1fr; }
@@ -633,7 +711,7 @@
 <!-- STICKY BAR -->
 <div class="sticky-bar">
   🎵 Oferta especial por tempo limitado — De R$397 por apenas R$97
-  <a href="#checkout">Quero garantir agora →</a>
+  <a href="#checkout">Garantir minha vaga →</a>
 </div>
 
 <!-- ══════════════════════════════════
@@ -641,7 +719,7 @@
 ══════════════════════════════════ -->
 <section class="hero">
   <div class="wrap">
-    <div class="hero-tag">Workshop Prático</div>
+    <div class="hero-tag">Workshop Prático · Bia Song</div>
     <h1>
       Sua música em todas as plataformas.<br>
       Sem assinar um contrato que você vai <em>se arrepender</em>.
@@ -649,15 +727,13 @@
     <p class="sub">
       Veja na tela: distribuo 2 músicas do zero — em 2 distribuidoras e 2 associações diferentes — e você replica o mesmo processo com a sua.
     </p>
-    <a href="#checkout" class="btn-cta big">Quero distribuir minha música agora</a>
-    <span class="btn-sub">Acesso imediato · Apenas R$97 · Garantia de 15 dias</span>
 
     <!-- VIDEO -->
     <div class="video-wrap">
-      <!-- SUBSTITUA O src PELO LINK DO VÍDEO DO ARTHUR -->
+      <!-- SUBSTITUA PELO LINK DO VÍDEO QUANDO DISPONÍVEL -->
       <div class="video-placeholder">
         <div class="play-icon">
-          <svg width="22" height="24" viewBox="0 0 22 24" fill="#fff">
+          <svg width="22" height="24" viewBox="0 0 22 24" fill="#000">
             <path d="M0 0L22 12L0 24V0Z"/>
           </svg>
         </div>
@@ -665,14 +741,10 @@
       </div>
     </div>
 
-    <!-- AUTHORITY -->
-    <div class="authority">
-      <p>Artistas distribuídos pela [NOME DA EDITORA]</p>
-      <div class="authority-names">
-        <div class="placeholder">
-          <strong>[ Artistas em breve ]</strong>
-        </div>
-      </div>
+    <!-- CTA ABAIXO DO VÍDEO -->
+    <div class="hero-cta-block">
+      <a href="#checkout" class="btn-cta big">Quero distribuir minha música agora</a>
+      <span class="btn-sub">Acesso imediato · Apenas R$97 · Garantia de 15 dias</span>
     </div>
 
     <!-- SEALS -->
@@ -685,77 +757,86 @@
 </section>
 
 <!-- ══════════════════════════════════
-     HISTÓRIA / DOR
+     PROVA SOCIAL — ARTISTAS
 ══════════════════════════════════ -->
-<section class="alt story-section">
+<div class="authority-strip">
   <div class="wrap">
-    <div class="story-block">
-      <h2>Você decide: <em>"hoje eu coloco minha música no Spotify"</em></h2>
-
-      <p>Abre o Google. Digita. E aí vem uma enxurrada de sites — alguns em inglês, cada um falando de uma distribuidora diferente, cada um tentando te vender um plano.</p>
-
-      <p>Você não sabe qual é confiável, qual vai tomar seu dinheiro, como funciona o repasse da sua monetização.</p>
-
-      <p>Uma hora depois você fecha tudo e deixa pra fazer depois. <strong>De novo.</strong></p>
-
-      <div class="story-highlight">
-        E sua música continua presa no celular enquanto você continua sem saber por onde começar.
+    <p>Artistas distribuídos por Bia Song</p>
+    <div class="authority-names">
+      <div class="placeholder">
+        <strong>[ Nomes dos artistas em breve ]</strong>
       </div>
+    </div>
+  </div>
+</div>
 
-      <p>Isso não acontece só com você. Deixa eu te contar uma história rápida…</p>
+<!-- ══════════════════════════════════
+     PROBLEMA — OS 3 MEDOS
+══════════════════════════════════ -->
+<section class="problem-section alt">
+  <div class="wrap">
+    <h2>Distribuir parece simples.<br>Até você descobrir o que não tem correção.</h2>
+    <p class="section-sub">Os erros mais comuns na distribuição musical não aparecem na hora — aparecem meses depois, quando já é tarde demais.</p>
 
-      <p>Eu conheci um artista que tocava praticamente todo fim de semana em bar. Ele era bom. Tipo… bom de verdade. A galera cantava com ele, pedia música, filmava, postava…</p>
-
-      <p>Mas tinha um detalhe. <strong>Ele não tinha nada nas plataformas.</strong> Nenhuma música no Spotify. Nenhuma no Amazon. Nenhuma no Apple.</p>
-
-      <p>Toda vez que alguém perguntava: <em>"Qual seu Spotify?"</em> — ele respondia: <em>"Ah… ainda não subi. Tô vendo isso… Depois eu vejo."</em></p>
-
-      <p>Esse "depois" durou anos. Com o passar do tempo, todo mundo que gostava dele foi esquecendo.</p>
-
-      <div class="story-highlight">
-        Porque hoje, se você não está nas plataformas… você não existe fora do momento presente. Você depende do bar. Depende do cachê. Depende de estar presente.
+    <div class="problem-grid">
+      <div class="problem-card">
+        <div class="danger-tag">Erro irreversível</div>
+        <div class="problem-icon">📄</div>
+        <h3>Assinar um contrato sem entender o que está cedendo</h3>
+        <p>Alguns contratos de distribuidoras transferem direitos que são seus por lei. Você assina, sobe a música e descobre o problema só quando vai cobrar um royalty que sumiu.</p>
       </div>
+      <div class="problem-card">
+        <div class="danger-tag">Erro irreversível</div>
+        <div class="problem-icon">🔢</div>
+        <h3>Cadastrar o ISRC errado e perder royalties para sempre</h3>
+        <p>O ISRC é o CPF da sua música. Cadastrado errado, sua faixa fica sem identificação nas plataformas — e os plays não geram renda nenhuma pra você.</p>
+      </div>
+      <div class="problem-card">
+        <div class="danger-tag">Erro irreversível</div>
+        <div class="problem-icon">🚫</div>
+        <h3>Não se filiar à associação de direitos autorais antes de distribuir</h3>
+        <p>Se você distribui sem filiação, está cedendo execução pública de graça. Depois que a música está nas plataformas, recuperar esse dinheiro é muito mais complicado.</p>
+      </div>
+    </div>
 
-      <p>E o pior: <strong>não é por falta de talento.</strong> É por falta de saber uma coisa simples — como distribuir sua música para todas as plataformas.</p>
-
-      <p>Quantos shows você já fez esse ano? Quantas pessoas te ouviram, aplaudiram, filmaram e nunca mais te encontraram? Cada uma dessas pessoas poderia estar te ouvindo agora. Gerando play, gerando royalty, gerando fã novo — <strong>sem você precisar estar presente.</strong></p>
+    <div class="problem-bridge">
+      <div class="pb-icon">💡</div>
+      <p>Esses erros acontecem porque a maioria das pessoas aprende distribuição lendo tutoriais — sem nunca ter visto alguém <strong>fazer de verdade, na tela, passo a passo</strong>.</p>
     </div>
   </div>
 </section>
 
 <!-- ══════════════════════════════════
-     MECANISMO ÚNICO — MÉTODO FAIXA NO AR
+     MECANISMO ÚNICO — O DIFERENCIAL
 ══════════════════════════════════ -->
 <section class="mecanismo-section">
   <div class="wrap">
     <div class="mec-tag">O Diferencial Real</div>
-    <h2>A maioria distribui errado.<br>Você vai ver como <em>fazer certo — na tela.</em></h2>
+    <h2>A maioria distribui sem entender.<br>Você vai ver como <em>fazer certo — na tela</em>.</h2>
     <p class="mec-sub">
-      Contrato assinado errado, cadastro sem ISRC, royalty perdido por falta de filiação —
-      esses erros não têm correção. E acontecem porque as pessoas aprendem distribuição
-      sem nunca ter visto alguém fazer de verdade.
+      Em vez de teoria, você assiste enquanto eu distribuo 2 músicas reais — em 2 distribuidoras diferentes e 2 associações diferentes. Cada clique, cada campo, cada decisão: na tela, sem cortes.
     </p>
 
     <div class="mec-steps">
       <div class="mec-step">
-        <div class="mec-step-num">AO VIVO</div>
+        <div class="mec-step-num">Passo 1</div>
         <div class="mec-step-icon">🎬</div>
         <h3>Ver Acontecer</h3>
-        <p>Você não lê sobre distribuição. Você assiste enquanto eu distribuo 2 músicas reais na tela — uma por uma, do arquivo ao play, sem cortes.</p>
+        <p>Você não lê sobre distribuição. Você assiste enquanto eu distribuo músicas reais na tela — do arquivo ao play, do início ao fim, sem pular nenhuma etapa.</p>
       </div>
       <div class="mec-arrow">→</div>
       <div class="mec-step">
-        <div class="mec-step-num">SEM ERRAR</div>
+        <div class="mec-step-num">Passo 2</div>
         <div class="mec-step-icon">🛡️</div>
         <h3>Proteger Antes</h3>
         <p>Os pontos que não têm volta — direitos autorais, ISRC, obra vs fonograma, escolha da distribuidora — explicados e demonstrados antes do primeiro upload.</p>
       </div>
       <div class="mec-arrow">→</div>
       <div class="mec-step">
-        <div class="mec-step-num">NA PRÁTICA</div>
+        <div class="mec-step-num">Passo 3</div>
         <div class="mec-step-icon">🚀</div>
         <h3>Replicar</h3>
-        <p>Com o checklist na mão e a distribuidora exclusiva (sem mensalidade) já no bolso, você faz o mesmo. Sua música no ar — certo, da primeira vez.</p>
+        <p>Com o checklist na mão e a distribuidora exclusiva no bolso, você faz o mesmo processo com a sua música — certo, da primeira vez.</p>
       </div>
     </div>
 
@@ -767,41 +848,41 @@
 </section>
 
 <!-- ══════════════════════════════════
-     BENEFITS / O QUE VOCÊ VAI APRENDER
+     BENEFÍCIOS
 ══════════════════════════════════ -->
-<section class="benefits-section">
+<section class="benefits-section alt">
   <div class="wrap">
-    <h2>O que você vai aprender no workshop</h2>
-    <p class="section-sub">Tudo que você precisa saber para sua música estar nas plataformas ainda essa semana.</p>
+    <h2>O que você <em>sai sabendo fazer</em></h2>
+    <p class="section-sub">Tudo que você precisa para sua música estar nas plataformas ainda essa semana — com os direitos protegidos.</p>
     <div class="benefits-grid">
       <div class="benefit-card">
         <div class="benefit-num">01</div>
-        <h3>Associação de direitos autorais — sem pagar mensalidade</h3>
-        <p>Você vai aprender a se filiar a uma associação de direitos autorais de forma gratuita — e isso significa que cada vez que sua música tocar em qualquer lugar, você recebe. Não é bônus. É direito seu, garantido por lei.</p>
+        <h3>Filiar-se a uma associação de direitos autorais — de graça</h3>
+        <p>Cada vez que sua música tocar em qualquer lugar, você recebe. Não é bônus — é direito garantido por lei. Você vai sair do workshop sabendo exatamente como fazer isso sem pagar nada.</p>
       </div>
       <div class="benefit-card">
         <div class="benefit-num">02</div>
-        <h3>Obra vs fonograma — a diferença que salva contratos</h3>
-        <p>Quem não sabe essa diferença assina contrato errado, cadastra errado e descobre o prejuízo só quando é tarde demais. Você vai entender de uma vez por todas.</p>
+        <h3>Diferença entre obra e fonograma — a que salva contratos</h3>
+        <p>Quem não sabe essa diferença assina o contrato errado. Você vai entender de uma vez o que cada um significa e por que isso importa antes de qualquer distribuição.</p>
       </div>
       <div class="benefit-card">
         <div class="benefit-num">03</div>
-        <h3>Como escolher a distribuidora certa para você</h3>
-        <p>Como cada distribuidora funciona, qual faz sentido pro seu momento — sem pagar por plano que não precisa, sem cair em contrato que te prende por anos.</p>
+        <h3>Escolher a distribuidora certa para o seu momento</h3>
+        <p>Como cada distribuidora funciona, qual faz sentido para você agora — sem pagar por plano que não precisa e sem entrar em contrato que te prende por anos.</p>
       </div>
       <div class="benefit-card">
         <div class="benefit-num">04</div>
-        <h3>Do arquivo MP3 ao play no Spotify</h3>
-        <p>O caminho completo. Você vai ver na prática cada passo — e ao final vai começar a construir uma base de fãs que não depende da sua presença no palco.</p>
+        <h3>Do arquivo MP3 ao play no Spotify — cada passo na prática</h3>
+        <p>O caminho completo, feito na tela. Você vai replicar o mesmo processo e construir uma base de ouvintes que cresce mesmo quando você não está no palco.</p>
       </div>
     </div>
   </div>
 </section>
 
 <!-- ══════════════════════════════════
-     CURRICULUM
+     O QUE ESTÁ DENTRO
 ══════════════════════════════════ -->
-<section class="alt curriculum-section">
+<section class="curriculum-section dark">
   <div class="wrap">
     <h2>O que tem dentro do workshop</h2>
     <p class="section-sub">12 aulas práticas. Direto ao ponto. Sem enrolação.</p>
@@ -870,7 +951,7 @@
 <!-- ══════════════════════════════════
      PARA QUEM É
 ══════════════════════════════════ -->
-<section class="forwho-section dark">
+<section class="forwho-section alt">
   <div class="wrap">
     <h2>Este workshop é para você?</h2>
     <div class="forwho-grid">
@@ -879,7 +960,7 @@
         <ul>
           <li>Você é músico e ainda não distribui suas músicas</li>
           <li>Você distribui mas não entende direito o processo</li>
-          <li>Você quer parar de depender só de shows ao vivo</li>
+          <li>Você quer parar de depender só de shows</li>
           <li>Você quer construir uma renda que trabalha mesmo dormindo</li>
           <li>Você é produtor e quer lançar artistas nas plataformas</li>
           <li>Você travou na frente do Google e fechou sem fazer nada</li>
@@ -890,7 +971,7 @@
         <ul>
           <li>Você já tem distribuidora consolidada e processo definido</li>
           <li>Você não tem nenhuma música produzida para distribuir</li>
-          <li>Você está buscando um treinamento de produção musical</li>
+          <li>Você está buscando treinamento de produção musical</li>
         </ul>
       </div>
     </div>
@@ -900,15 +981,15 @@
 <!-- ══════════════════════════════════
      BÔNUS
 ══════════════════════════════════ -->
-<section class="alt">
+<section>
   <div class="wrap">
-    <h2 class="bonus-section">E ainda tem bônus:</h2>
+    <h2 class="bonus-section" style="font-size:clamp(22px,3vw,32px);font-weight:800;color:#fff;margin-bottom:28px;letter-spacing:-.02em;">E ainda tem bônus:</h2>
     <div class="bonus-card">
       <div class="bonus-icon">🎁</div>
       <div class="bonus-content">
         <div class="bonus-tag">Bônus exclusivo</div>
         <h3>Indicação exclusiva de distribuidora sem taxa mensal</h3>
-        <p>Eu entrei em contato e consegui um link exclusivo para os alunos do Como Distribuir uma Música. Uma distribuidora que não cobra assinatura mensal — e que você não vai encontrar em nenhum outro lugar. Um produtor musical cobraria R$1.000 só pra te apresentar isso.</p>
+        <p>Consegui um link exclusivo para os alunos do Como Distribuir uma Música. Uma distribuidora que não cobra assinatura mensal — e que você não vai encontrar em nenhum outro lugar. Um produtor musical cobraria R$1.000 só pra te apresentar isso.</p>
       </div>
     </div>
   </div>
@@ -919,9 +1000,9 @@
 ══════════════════════════════════ -->
 <section class="testimonials-section dark">
   <div class="wrap">
-    <h2>O que dizem quem já passou por aqui</h2>
+    <h2>O que dizem quem já distribuiu com Bia</h2>
     <div class="placeholder" style="margin-bottom: 28px;">
-      <strong>[ Depoimentos em breve ]</strong>
+      <strong>[ Depoimentos em breve — aguardando Arthur ]</strong>
     </div>
     <div class="testimonials-grid">
       <div class="tcard">
@@ -1023,10 +1104,10 @@
 ══════════════════════════════════ -->
 <section class="close-section">
   <div class="wrap">
-    <h2>Da próxima vez que alguém perguntar<br><em>"qual é o seu Spotify?"</em>…<br>você vai responder com o link.</h2>
-    <p>Pare de deixar pra depois. Sua música está pronta. O que falta é só esse passo.</p>
+    <h2>Da próxima vez que alguém perguntar<br><em>"qual é o seu Spotify?"</em><br>você vai responder com o link.</h2>
+    <p>Sua música está pronta. O que falta é só esse passo.</p>
     <a href="#checkout" class="btn-cta big">Garantir minha vaga por R$97</a>
-    <span class="btn-sub">Acesso imediato · Garantia de 15 dias · Sem risco</span>
+    <span class="btn-sub" style="margin-top:12px;display:block;">Acesso imediato · Garantia de 15 dias · Sem risco</span>
   </div>
 </section>
 
