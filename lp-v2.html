@@ -572,23 +572,47 @@
     }
     .bio-cta:hover { opacity: .88; transform: translateY(-2px); }
 
-    /* Foto única */
-    .bio-photo {
+    /* Grid de fotos */
+    .bio-photos {
+      display: grid;
+      grid-template-columns: 7fr 5fr;
+      grid-template-rows: 1fr 1fr;
+      gap: 12px;
+      align-self: stretch;
+    }
+    .bio-photos .photo-main {
+      grid-column: 1;
+      grid-row: 1 / 3;
       border-radius: 2rem;
       overflow: hidden;
-      aspect-ratio: 4 / 5;
+      min-height: 300px;
     }
-    .bio-photo img {
+    .bio-photos .photo-main img {
       width: 100%; height: 100%;
       object-fit: cover;
       object-position: top;
       transition: transform .6s ease;
     }
-    .bio-photo:hover img { transform: scale(1.04); }
+    .bio-photos .photo-main:hover img { transform: scale(1.04); }
+    .bio-photos .photo-sm {
+      grid-column: 2;
+      border-radius: 1.5rem;
+      overflow: hidden;
+    }
+    .bio-photos .photo-sm img {
+      width: 100%; height: 100%;
+      object-fit: cover;
+      transition: transform .6s ease;
+    }
+    .bio-photos .photo-sm:hover img { transform: scale(1.04); }
 
     @media(max-width:768px){
       .bio-inner { grid-template-columns: 1fr; gap: 40px; }
-      .bio-photo { aspect-ratio: 4 / 3; }
+      .bio-photos {
+        grid-template-columns: 7fr 5fr;
+        grid-template-rows: 1fr 1fr;
+        height: 340px;
+      }
     }
 
     /* ─── FAQ ─── */
@@ -952,8 +976,16 @@
         <p>Ela não ensina teoria. Ela ensina o que faz todos os dias.</p>
         <a href="#checkout" class="bio-cta">Quero minha música no Spotify esta semana →</a>
       </div>
-      <div class="bio-photo">
-        <img src="assets/bia/bia-1.jpg" alt="Bia Song com MC Braz" loading="lazy">
+      <div class="bio-photos">
+        <div class="photo-main">
+          <img src="assets/bia/bia-1.jpg" alt="Bia Song com MC Braz" loading="lazy">
+        </div>
+        <div class="photo-sm">
+          <img src="assets/bia/bia-2.jpg" alt="Bia Song — ObraDigital" loading="lazy">
+        </div>
+        <div class="photo-sm">
+          <img src="assets/bia/bia-3.jpg" alt="Bia Song — Revista Cool Empresarial" loading="lazy">
+        </div>
       </div>
     </div>
   </div>
