@@ -538,22 +538,34 @@
     }
     .videos-grid {
       display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 20px;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 24px;
     }
-    .video-wrap {
-      border-radius: 16px;
-      overflow: hidden;
-      border: 1px solid rgba(255,255,255,.08);
-      box-shadow: 0 16px 40px rgba(0,0,0,.35);
-      transition: transform .3s ease, border-color .3s ease;
-      aspect-ratio: 16/9;
-      background: #000;
+    .video-card {
+      grid-column: span 2;
+      background: rgba(18,18,18,0.80);
+      backdrop-filter: blur(8px);
+      -webkit-backdrop-filter: blur(8px);
+      border-radius: 2rem;
+      padding: 16px;
+      border: 1px solid rgba(255,255,255,.05);
+      box-shadow: 0 8px 32px rgba(0,0,0,.30);
+      transition: border-color .3s ease;
     }
-    .video-wrap:hover { transform: translateY(-4px); border-color: rgba(115,255,0,.2); }
-    .video-wrap iframe { width: 100%; height: 100%; border: none; display: block; }
+    .video-card:hover { border-color: rgba(115,255,0,.30); }
+    .video-card:last-child { grid-column: 2 / span 2; }
+    .video-card .vc-frame {
+      position: relative; border-radius: 1.5rem;
+      overflow: hidden; aspect-ratio: 16/9;
+      background: #18181b; margin-bottom: 16px;
+    }
+    .video-card .vc-frame iframe { width: 100%; height: 100%; border: none; display: block; }
+    .video-card .vc-info { padding: 0 8px 8px; }
+    .video-card .vc-name { font-size: 17px; font-weight: 700; color: #fff; margin-bottom: 4px; }
+    .video-card .vc-quote { font-size: 13px; color: #6b7280; line-height: 1.5; font-style: italic; }
     @media(max-width: 768px) {
       .videos-grid { grid-template-columns: 1fr; gap: 16px; }
+      .video-card { grid-column: span 1 !important; }
     }
 
     /* ───── OFFER ───── */
@@ -1227,14 +1239,32 @@
     <h2>Quem já distribuiu com Bia Song</h2>
     <p class="section-sub">Músicos e produtores que saíram do workshop com a música nas plataformas.</p>
     <div class="videos-grid">
-      <div class="video-wrap">
-        <iframe src="https://www.youtube.com/embed/_J-AvB1J8NE?start=11" title="Depoimento 1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+      <div class="video-card">
+        <div class="vc-frame">
+          <iframe src="https://www.youtube.com/embed/_J-AvB1J8NE?start=11" title="MC Braz falando sobre a Bia Song" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+        </div>
+        <div class="vc-info">
+          <p class="vc-name">MC Braz</p>
+          <p class="vc-quote">"A estratégia mudou meu game no Spotify..."</p>
+        </div>
       </div>
-      <div class="video-wrap">
-        <iframe src="https://www.youtube.com/embed/w6943-T6GcA?start=36" title="Depoimento 2" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+      <div class="video-card">
+        <div class="vc-frame">
+          <iframe src="https://www.youtube.com/embed/w6943-T6GcA?start=36" title="Sofia Brasil falando sobre a Bia Song" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+        </div>
+        <div class="vc-info">
+          <p class="vc-name">Sofia Brasil</p>
+          <p class="vc-quote">"Agora meu lançamento tem estratégia e resultado real."</p>
+        </div>
       </div>
-      <div class="video-wrap">
-        <iframe src="https://www.youtube.com/embed/nzc6ftZWk5g?start=3" title="Depoimento 3" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+      <div class="video-card">
+        <div class="vc-frame">
+          <iframe src="https://www.youtube.com/embed/nzc6ftZWk5g?start=3" title="Juliana Arv falando sobre a Bia Song" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+        </div>
+        <div class="vc-info">
+          <p class="vc-name">Juliana Arv</p>
+          <p class="vc-quote">"Entendi que não preciso viralizar para ter renda."</p>
+        </div>
       </div>
     </div>
   </div>
