@@ -814,6 +814,87 @@
     details[open] summary::after { content: '−'; }
     .faq-answer { padding: 0 20px 18px; font-size: 14px; color: var(--muted); line-height: 1.7; }
 
+    /* ───── RESULTS / CASES ───── */
+    .results-section { text-align: center; background: var(--bg); }
+    .results-section h2 {
+      font-size: clamp(28px, 4vw, 48px);
+      font-weight: 900; color: #fff;
+      letter-spacing: -.03em; line-height: 1.1;
+      margin-bottom: 12px;
+    }
+    .results-section h2 em {
+      font-style: normal;
+      background: var(--grad);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+    .results-section .section-sub {
+      color: var(--muted); font-size: clamp(14px, 1.5vw, 17px);
+      max-width: 580px; margin: 0 auto 56px; line-height: 1.6;
+    }
+    .results-stats {
+      display: flex; justify-content: center; gap: 48px;
+      flex-wrap: wrap; margin-bottom: 64px;
+    }
+    .results-stats .stat { display: flex; flex-direction: column; align-items: center; }
+    .results-stats .stat-num {
+      font-size: clamp(32px, 4vw, 52px); font-weight: 900; color: #fff;
+      letter-spacing: -.03em; line-height: 1;
+      background: var(--grad);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+    .results-stats .stat-label { font-size: 13px; color: var(--muted); margin-top: 6px; letter-spacing: .04em; text-transform: uppercase; }
+    .cases-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 20px;
+      margin-bottom: 56px;
+    }
+    .case-card {
+      background: var(--card);
+      border: 1px solid rgba(255,255,255,.07);
+      border-radius: 20px;
+      overflow: hidden;
+      transition: transform .3s ease, border-color .3s ease;
+    }
+    .case-card:hover { transform: translateY(-6px); border-color: rgba(115,255,0,.25); }
+    .case-card .case-img { width: 100%; aspect-ratio: 3/4; object-fit: cover; object-position: center top; display: block; }
+    .case-card .case-info { padding: 20px 18px; text-align: left; }
+    .case-card .case-name { font-size: 13px; color: var(--muted); text-transform: uppercase; letter-spacing: .08em; margin-bottom: 6px; }
+    .case-card .case-num {
+      font-size: clamp(22px, 2.5vw, 30px); font-weight: 900; color: #fff;
+      letter-spacing: -.02em; line-height: 1;
+    }
+    .case-card .case-unit { font-size: 12px; color: var(--neon); text-transform: uppercase; letter-spacing: .06em; margin-top: 4px; }
+    .results-proof {
+      position: relative;
+      max-width: 720px; margin: 0 auto 56px;
+      border-radius: 20px; overflow: hidden;
+      border: 1px solid rgba(115,255,0,.15);
+      box-shadow: 0 0 60px -20px rgba(115,255,0,.15);
+    }
+    .results-proof img { width: 100%; display: block; border-radius: 20px; }
+    .results-proof .proof-caption {
+      position: absolute; bottom: 0; left: 0; right: 0;
+      background: linear-gradient(to top, rgba(0,0,0,.9) 60%, transparent);
+      padding: 32px 24px 20px;
+      text-align: left;
+    }
+    .results-proof .proof-caption strong { color: #fff; font-size: 16px; font-weight: 800; display: block; margin-bottom: 4px; }
+    .results-proof .proof-caption span { color: var(--muted); font-size: 13px; }
+    @media(max-width: 900px) {
+      .cases-grid { grid-template-columns: repeat(2, 1fr); }
+      .results-stats { gap: 28px; }
+    }
+    @media(max-width: 520px) {
+      .cases-grid { grid-template-columns: repeat(2, 1fr); gap: 12px; }
+      .case-card .case-info { padding: 14px 12px; }
+      .results-stats { gap: 20px; }
+    }
+
     /* ───── CLOSE CTA ───── */
     .close-section {
       text-align: center;
@@ -1217,6 +1298,80 @@
         </div>
       </div>
     </div>
+  </div>
+</section>
+
+<!-- ══════════════════════════════════
+     RESULTADOS / CASES
+══════════════════════════════════ -->
+<section class="results-section dark">
+  <div class="wrap">
+    <h2>Mais de <em>300 Milhões</em> de Streams.<br>Artistas reais. Resultados reais.</h2>
+    <p class="section-sub">Esses são alguns dos artistas que já distribuíram com a ObraDigital — e os números falam por si.</p>
+
+    <!-- Barra de métricas -->
+    <div class="results-stats">
+      <div class="stat">
+        <span class="stat-num">300M+</span>
+        <span class="stat-label">Streams distribuídos</span>
+      </div>
+      <div class="stat">
+        <span class="stat-num">4M+</span>
+        <span class="stat-label">Ouvintes mensais gerados</span>
+      </div>
+      <div class="stat">
+        <span class="stat-num">500+</span>
+        <span class="stat-label">Artistas distribuídos</span>
+      </div>
+    </div>
+
+    <!-- Grid de cases -->
+    <div class="cases-grid">
+      <div class="case-card">
+        <img class="case-img" src="assets/bia/ref-06.jpg" alt="MC Dena — 200 milhões de streams">
+        <div class="case-info">
+          <p class="case-name">MC Dena</p>
+          <p class="case-num">200.000.000</p>
+          <p class="case-unit">streams</p>
+        </div>
+      </div>
+      <div class="case-card">
+        <img class="case-img" src="assets/bia/ref-05.jpg" alt="MC Braz — 3 milhões de ouvintes mensais">
+        <div class="case-info">
+          <p class="case-name">MC Braz</p>
+          <p class="case-num">3.000.000</p>
+          <p class="case-unit">ouvintes mensais</p>
+        </div>
+      </div>
+      <div class="case-card">
+        <img class="case-img" src="assets/bia/ref-01.jpg" alt="AJuliaCosta — 40 milhões de streams">
+        <div class="case-info">
+          <p class="case-name">AJuliaCosta</p>
+          <p class="case-num">40.000.000</p>
+          <p class="case-unit">streams</p>
+        </div>
+      </div>
+      <div class="case-card">
+        <img class="case-img" src="assets/bia/ref-04.jpg" alt="Marcela — 15 milhões de streams">
+        <div class="case-info">
+          <p class="case-name">Marcela</p>
+          <p class="case-num">15.000.000</p>
+          <p class="case-unit">streams</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Dashboard proof -->
+    <div class="results-proof">
+      <img src="assets/bia/ref-02.jpg" alt="Dashboard Spotify — crescimento real">
+      <div class="proof-caption">
+        <strong>Não é sorte. É método.</strong>
+        <span>+1.195% de ouvintes mensais. +1.893% de streams. Em menos de 12 meses.</span>
+      </div>
+    </div>
+
+    <!-- CTA interno -->
+    <a href="#checkout" class="btn-cta">Quero esses resultados para minha música ↗</a>
   </div>
 </section>
 
