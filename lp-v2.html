@@ -1100,5 +1100,132 @@
   </p>
 </footer>
 
+<!-- ===================== MODAL CHECKOUT ===================== -->
+<div id="hotmart-modal-overlay"
+  style="display:none;position:fixed;inset:0;z-index:9999;align-items:center;justify-content:center;padding:16px;background:rgba(0,0,0,0.82);backdrop-filter:blur(6px);opacity:0;transition:opacity .3s ease;">
+  <div id="hotmart-modal-content"
+    style="position:relative;width:100%;max-width:440px;background:#121212;border:1px solid rgba(115,255,0,.20);border-radius:20px;box-shadow:0 0 50px -12px rgba(115,255,0,.30);overflow:hidden;transform:scale(.95);transition:transform .3s ease;">
+
+    <div style="padding:28px 28px 12px;text-align:center;position:relative;">
+      <button id="close-modal-btn"
+        style="position:absolute;top:16px;right:16px;background:none;border:none;cursor:pointer;color:#9ca3af;line-height:1;"
+        aria-label="Fechar">
+        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none"
+          stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+          <line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/>
+        </svg>
+      </button>
+      <h3 style="font-size:22px;font-weight:900;color:#fff;text-transform:uppercase;letter-spacing:-.5px;margin:0 0 4px;">Quase lá!</h3>
+      <p style="font-size:13px;color:#9ca3af;margin:0;">Preencha para liberar seu acesso.</p>
+    </div>
+
+    <div style="padding:16px 28px 28px;">
+      <form id="modal-checkout-form">
+        <div style="margin-bottom:14px;">
+          <label for="mc-name" style="display:block;font-size:11px;font-weight:700;color:#73FF00;text-transform:uppercase;letter-spacing:.08em;margin-bottom:6px;">Nome Completo</label>
+          <input type="text" id="mc-name" required autocomplete="name"
+            placeholder="Digite seu nome"
+            style="width:100%;box-sizing:border-box;background:#1E1E1E;border:1px solid rgba(255,255,255,.10);border-radius:10px;padding:12px 16px;color:#fff;font-size:15px;outline:none;transition:border-color .2s;"
+            onfocus="this.style.borderColor='#73FF00'" onblur="this.style.borderColor='rgba(255,255,255,.10)'">
+        </div>
+        <div style="margin-bottom:14px;">
+          <label for="mc-phone" style="display:block;font-size:11px;font-weight:700;color:#73FF00;text-transform:uppercase;letter-spacing:.08em;margin-bottom:6px;">WhatsApp</label>
+          <input type="tel" id="mc-phone" required autocomplete="tel"
+            placeholder="(00) 00000-0000"
+            style="width:100%;box-sizing:border-box;background:#1E1E1E;border:1px solid rgba(255,255,255,.10);border-radius:10px;padding:12px 16px;color:#fff;font-size:15px;outline:none;transition:border-color .2s;"
+            onfocus="this.style.borderColor='#73FF00'" onblur="this.style.borderColor='rgba(255,255,255,.10)'">
+        </div>
+        <div style="margin-bottom:20px;">
+          <label for="mc-email" style="display:block;font-size:11px;font-weight:700;color:#73FF00;text-transform:uppercase;letter-spacing:.08em;margin-bottom:6px;">E-mail</label>
+          <input type="email" id="mc-email" required autocomplete="email"
+            placeholder="seumelhor@email.com"
+            style="width:100%;box-sizing:border-box;background:#1E1E1E;border:1px solid rgba(255,255,255,.10);border-radius:10px;padding:12px 16px;color:#fff;font-size:15px;outline:none;transition:border-color .2s;"
+            onfocus="this.style.borderColor='#73FF00'" onblur="this.style.borderColor='rgba(255,255,255,.10)'">
+        </div>
+        <button type="submit"
+          style="width:100%;background:linear-gradient(90deg,#73FF00,#01F9DC);color:#000;font-size:14px;font-weight:900;text-transform:uppercase;letter-spacing:.12em;border:none;border-radius:50px;padding:16px;cursor:pointer;transition:transform .2s,box-shadow .2s;"
+          onmouseover="this.style.transform='scale(1.02)';this.style.boxShadow='0 0 20px rgba(115,255,0,.40)'"
+          onmouseout="this.style.transform='scale(1)';this.style.boxShadow='none'">
+          Ir para Pagamento →
+        </button>
+        <p style="text-align:center;font-size:10px;color:#6b7280;margin:12px 0 0;display:flex;align-items:center;justify-content:center;gap:4px;">
+          <svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+          </svg>
+          Seus dados estão 100% seguros
+        </p>
+      </form>
+    </div>
+  </div>
+</div>
+
+<script>
+(function(){
+  var CHECKOUT_URL = '#LINK-HOTMART-AQUI';
+
+  var overlay  = document.getElementById('hotmart-modal-overlay');
+  var content  = document.getElementById('hotmart-modal-content');
+  var closeBtn = document.getElementById('close-modal-btn');
+  var form     = document.getElementById('modal-checkout-form');
+  var phone    = document.getElementById('mc-phone');
+
+  if(phone) phone.addEventListener('input', function(e){
+    var v = e.target.value.replace(/\D/g,'');
+    if(v.length > 11) v = v.slice(0,11);
+    if(v.length > 10)      v = v.replace(/^(\d{2})(\d{5})(\d{4}).*/,'($1) $2-$3');
+    else if(v.length > 6)  v = v.replace(/^(\d{2})(\d{4})(\d{0,4}).*/,'($1) $2-$3');
+    else if(v.length > 2)  v = v.replace(/^(\d{2})(\d{0,5}).*/,'($1) $2');
+    else if(v.length > 0)  v = v.replace(/^(\d*)/,'($1');
+    e.target.value = v;
+  });
+
+  function openModal(){
+    overlay.style.display = 'flex';
+    setTimeout(function(){
+      overlay.style.opacity = '1';
+      content.style.transform = 'scale(1)';
+    }, 10);
+  }
+
+  function closeModal(){
+    overlay.style.opacity = '0';
+    content.style.transform = 'scale(.95)';
+    setTimeout(function(){ overlay.style.display = 'none'; }, 300);
+  }
+
+  if(closeBtn) closeBtn.addEventListener('click', closeModal);
+  overlay.addEventListener('click', function(e){ if(e.target === overlay) closeModal(); });
+  document.addEventListener('keydown', function(e){ if(e.key === 'Escape') closeModal(); });
+
+  document.addEventListener('click', function(e){
+    var el = e.target.closest('a[href="#checkout"], a[href="#LINK-HOTMART-AQUI"], .btn-primary, .bio-cta');
+    if(!el) return;
+    if(el.id === 'close-modal-btn') return;
+    e.preventDefault();
+    openModal();
+  });
+
+  if(form) form.addEventListener('submit', function(e){
+    e.preventDefault();
+    var name  = document.getElementById('mc-name').value;
+    var tel   = document.getElementById('mc-phone').value.replace(/\D/g,'');
+    var email = document.getElementById('mc-email').value;
+
+    var p = new URLSearchParams(window.location.search);
+    var sck = [p.get('utm_source')||'', p.get('utm_medium')||'', p.get('utm_campaign')||'',
+               p.get('utm_term')||'', p.get('utm_content')||'', p.get('utm_AB')||''].join('|');
+
+    var url = CHECKOUT_URL + (CHECKOUT_URL.indexOf('?') > -1 ? '&' : '?') +
+              'sck=' + encodeURIComponent(sck) +
+              '&name=' + encodeURIComponent(name) +
+              '&email=' + encodeURIComponent(email) +
+              '&tel=' + encodeURIComponent(tel);
+
+    window.location.href = url;
+  });
+})();
+</script>
+
 </body>
 </html>
