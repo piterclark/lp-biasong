@@ -725,9 +725,9 @@
     .bio-photos {
       display: grid;
       grid-template-columns: 7fr 5fr;
-      grid-template-rows: 1fr 1fr;
+      grid-template-rows: auto auto;
       gap: 12px;
-      height: 600px;
+      align-items: start;
     }
     .bio-photos .photo-main {
       grid-column: 1;
@@ -736,9 +736,8 @@
       overflow: hidden;
     }
     .bio-photos .photo-main img {
-      width: 100%; height: 100%;
-      object-fit: cover;
-      object-position: center top;
+      width: 100%; height: auto;
+      display: block;
       transition: transform .6s ease;
     }
     .bio-photos .photo-main:hover img { transform: scale(1.04); }
@@ -748,8 +747,8 @@
       overflow: hidden;
     }
     .bio-photos .photo-sm img {
-      width: 100%; height: 100%;
-      object-fit: cover;
+      width: 100%; height: auto;
+      display: block;
       transition: transform .6s ease;
     }
     .bio-photos .photo-sm:hover img { transform: scale(1.04); }
