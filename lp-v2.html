@@ -452,10 +452,15 @@
       line-height: 1.5;
     }
     .offer-items li .chk { color: var(--green); font-weight: 800; flex-shrink: 0; }
-    .price-from { font-size: 15px; color: #444; text-decoration: line-through; margin-bottom: 4px; }
-    .price-big { font-size: 56px; font-weight: 900; color: #fff; line-height: 1; }
-    .price-big sup { font-size: 22px; vertical-align: super; }
-    .price-big sub { font-size: 18px; font-weight: 600; color: var(--muted); }
+    .price-from { font-size: 15px; color: #444; text-decoration: line-through; margin-bottom: 12px; }
+    .price-installment-row { display: flex; align-items: baseline; gap: 10px; margin-bottom: 4px; }
+    .price-por { font-size: 20px; font-weight: 600; color: #fff; text-transform: uppercase; letter-spacing: .04em; }
+    .price-installment-num {
+      font-size: clamp(48px, 8vw, 80px); font-weight: 900; line-height: 1; letter-spacing: -.03em;
+      background: linear-gradient(90deg, #73FF00, #01F9DC);
+      -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;
+    }
+    .price-avista { font-size: 18px; font-weight: 700; color: #01F9DC; text-transform: uppercase; letter-spacing: .05em; margin-top: 10px; }
     .price-note { font-size: 13px; color: var(--muted); margin: 8px 0 0; }
     .price-reframe {
       margin: 24px 0 28px;
@@ -464,19 +469,8 @@
       border: 1px solid rgba(115,255,0,.18);
       border-radius: 16px;
     }
-    .price-reframe .ri-row {
-      display: flex; align-items: baseline; gap: 6px; margin-bottom: 12px;
-    }
-    .price-reframe .ri-ou { font-size: 13px; color: #666; }
-    .price-reframe .ri-num {
-      font-size: 32px; font-weight: 900; color: #73FF00; line-height: 1;
-    }
-    .price-reframe .ri-rest { font-size: 14px; color: #888; }
-    .price-reframe .ri-rest strong { color: #73FF00; font-size: 20px; font-weight: 900; }
     .price-reframe .ri-copy {
       font-size: 14px; color: #999; line-height: 1.6;
-      border-top: 1px solid rgba(255,255,255,.07);
-      padding-top: 12px;
     }
     .price-reframe .ri-copy strong { color: #e5e7eb; font-weight: 600; }
     .price-reframe .ri-copy em { color: #73FF00; font-style: normal; font-weight: 700; }
@@ -1272,14 +1266,13 @@
         <li><span class="chk">✓</span> 🎁 Bônus: indicação exclusiva de distribuidora sem taxa mensal — só para alunos</li>
       </ul>
       <div class="price-from">De R$ 397,00</div>
-      <div class="price-big"><sup>R$</sup>97<sub>,00</sub></div>
-      <div class="price-note">Pagamento único · Acesso imediato · Vitalício</div>
+      <div class="price-installment-row">
+        <span class="price-por">por 12x</span>
+        <span class="price-installment-num">R$ 8,09</span>
+      </div>
+      <div class="price-avista">ou R$ 97,00 à vista</div>
+      <div class="price-note">Acesso imediato · Vitalício</div>
       <div class="price-reframe">
-        <div class="ri-row">
-          <span class="ri-ou">ou</span>
-          <span class="ri-num">12x</span>
-          <span class="ri-rest">de <strong>R$8</strong></span>
-        </div>
         <p class="ri-copy">Menos que uma assinatura do Spotify. Com uma diferença: em vez de pagar pra <strong>ouvir</strong> a música dos outros — você começa a <em>receber pela sua</em>.</p>
       </div>
       <!-- SUBSTITUA O href PELO LINK DE CHECKOUT DA HOTMART -->
