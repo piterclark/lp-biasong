@@ -325,6 +325,15 @@
       transition: background .18s, transform .15s;
     }
     #vsl-playbtn:hover { background: rgba(0,0,0,.88); transform: scale(1.1); }
+    /* Cobre marcas do YouTube (cross-origin iframe) */
+    .yt-cover {
+      position: absolute; pointer-events: none;
+      z-index: 8; background: #000;
+    }
+    .yt-cover-tl  { top: 0;     left: 0;   width: 110px; height: 48px;  }
+    .yt-cover-tr  { top: 0;     right: 0;  width: 120px; height: 75px;  }
+    .yt-cover-br  { bottom: 10px; right: 0; width: 95px;  height: 38px;  }
+    .yt-cover-bot { bottom: 0;  left: 0;   right: 0;     height: 70px;  }
     .demo-visual::before {
       content: '';
       position: absolute;
@@ -1114,6 +1123,10 @@
             </button>
           </div>
         </div>
+      <div class="yt-cover yt-cover-tl"></div>
+      <div class="yt-cover yt-cover-tr"></div>
+      <div class="yt-cover yt-cover-br"></div>
+      <div class="yt-cover yt-cover-bot"></div>
       <div id="vsl-playbtn">
         <svg id="vsl-play-icon" width="16" height="16" viewBox="0 0 16 16" fill="none"><polygon points="4,2 14,8 4,14" fill="white"/></svg>
         <svg id="vsl-pause-icon" width="16" height="16" viewBox="0 0 16 16" fill="none" style="display:none"><rect x="3" y="2" width="4" height="12" rx="1" fill="white"/><rect x="9" y="2" width="4" height="12" rx="1" fill="white"/></svg>
