@@ -183,14 +183,11 @@
       font-family: inherit;
     }
     .vsl-resume-btn:hover { border-color: #fff; background: rgba(255,255,255,.08); }
-    .vsl-progress-bar {
-      position: absolute; bottom: 0; left: 0; right: 0;
-      height: 4px; background: rgba(255,255,255,.12);
-      border-radius: 0 0 14px 14px;
-    }
-    .vsl-progress-fill {
-      height: 100%; background: var(--green);
-      border-radius: 0 0 0 14px; transition: width .3s;
+    #vsl-fake-bar {
+      position: absolute; bottom: 0; left: 0;
+      height: 10px; background: #88FF00;
+      width: 0%; display: none;
+      z-index: 20; transition: width .5s;
     }
     .video-placeholder {
       width: 100%; height: 100%;
@@ -1161,8 +1158,8 @@
             Assistir do início?
           </button>
         </div>
-        <div class="vsl-progress-bar"><div class="vsl-progress-fill" id="vsl-progress-fill"></div></div>
       </div>
+      <div id="vsl-fake-bar"></div>
     </div>
 
     <!-- CTA ABAIXO DO VÍDEO -->
@@ -1977,6 +1974,17 @@
     document.getElementById('vsl-overlay').style.display = 'flex';
   }
 
+  function setBar(time, dur){
+    var bar = document.getElementById('vsl-fake-bar');
+    if(!bar || !dur) return;
+    bar.style.width = Math.min(100,(time/dur)*100)+'%';
+    bar.style.display = 'block';
+  }
+  function hideBar(){
+    var bar = document.getElementById('vsl-fake-bar');
+    if(bar){ bar.style.display='none'; bar.style.width='0%'; }
+  }
+
   function dismissAll(){
     var o = document.getElementById('vsl-overlay');
     var r = document.getElementById('vsl-resume');
@@ -1990,9 +1998,9 @@
   }
 
   /* Botões */
-  document.getElementById('vsl-overlay').onclick = function(){ playFrom(0); };
+  document.getElementById('vsl-overlay').onclick = function(){ hideBar(); playFrom(0); };
   document.getElementById('vsl-continue').onclick = function(){ playFrom(savedTime); };
-  document.getElementById('vsl-restart').onclick  = function(){ localStorage.removeItem(STORAGE_KEY); playFrom(0); };
+  document.getElementById('vsl-restart').onclick  = function(){ localStorage.removeItem(STORAGE_KEY); hideBar(); playFrom(0); };
 
   /* Carregar YouTube API */
   var tag = document.createElement('script');
@@ -2006,26 +2014,27 @@
       events:{
         onReady: function(e){ e.target.playVideo(); },
         onStateChange: function(e){
-          /* Atualizar barra de progresso quando vídeo carregar */
+          /* Barra de retomada: mostrar % ao pausar para resume screen */
           if(e.data === 1 && savedTime > 10 && !positionSaver){
             var dur = player.getDuration();
-            if(dur > 0){
-              var fill = document.getElementById('vsl-progress-fill');
-              if(fill) fill.style.width = Math.min(100,(savedTime/dur)*100)+'%';
-            }
+            if(dur > 0) setBar(savedTime, dur);
             player.pauseVideo();
           }
-          /* Salvar posição a cada 3s */
+          /* Salvar posição + atualizar barra a cada 3s durante reprodução */
           if(e.data === 1 && !positionSaver){
             positionSaver = setInterval(function(){
               if(player && player.getPlayerState() === 1){
                 var t = player.getCurrentTime();
-                if(t > 2) localStorage.setItem(STORAGE_KEY, t);
+                if(t > 2){
+                  localStorage.setItem(STORAGE_KEY, t);
+                  var dur = player.getDuration();
+                  if(dur > 0) setBar(t, dur);
+                }
               }
             },3000);
           }
           /* Limpar ao terminar */
-          if(e.data === 0){ localStorage.removeItem(STORAGE_KEY); clearInterval(positionSaver); positionSaver=null; }
+          if(e.data === 0){ localStorage.removeItem(STORAGE_KEY); clearInterval(positionSaver); positionSaver=null; hideBar(); }
         }
       }
     });
