@@ -363,7 +363,7 @@
       color: var(--green); letter-spacing: 2px;
       text-transform: uppercase; margin-bottom: 12px;
     }
-    .mec-step-icon { font-size: 32px; margin-bottom: 12px; }
+    .mec-waveform { margin-bottom: 16px; height: 44px; display: flex; align-items: flex-end; }
     .mec-step h3 { font-size: 17px; font-weight: 700; color: #fff; margin-bottom: 10px; }
     .mec-step p { font-size: 14px; color: var(--muted); line-height: 1.7; }
     .mec-arrow {
@@ -1186,21 +1186,63 @@
     <div class="mec-steps">
       <div class="mec-step">
         <div class="mec-step-num">Passo 1</div>
-        <div class="mec-step-icon">🎬</div>
+        <div class="mec-waveform">
+          <svg width="56" height="44" viewBox="0 0 56 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+              <linearGradient id="wf1" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0%" stop-color="#88FF00"/>
+                <stop offset="100%" stop-color="#0077FF"/>
+              </linearGradient>
+            </defs>
+            <rect x="0"  y="34" width="8" height="10" rx="3" fill="url(#wf1)"/>
+            <rect x="12" y="26" width="8" height="18" rx="3" fill="url(#wf1)"/>
+            <rect x="24" y="8"  width="8" height="36" rx="3" fill="url(#wf1)"/>
+            <rect x="36" y="20" width="8" height="24" rx="3" fill="url(#wf1)"/>
+            <rect x="48" y="30" width="8" height="14" rx="3" fill="url(#wf1)"/>
+          </svg>
+        </div>
         <h3>Ver Acontecer</h3>
         <p>Você não lê sobre distribuição. Você assiste enquanto distribuo músicas reais na tela — do arquivo ao play, sem corte, sem pular nada.</p>
       </div>
       <div class="mec-arrow">→</div>
       <div class="mec-step">
         <div class="mec-step-num">Passo 2</div>
-        <div class="mec-step-icon">🛡️</div>
+        <div class="mec-waveform">
+          <svg width="56" height="44" viewBox="0 0 56 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+              <linearGradient id="wf2" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0%" stop-color="#88FF00"/>
+                <stop offset="100%" stop-color="#0077FF"/>
+              </linearGradient>
+            </defs>
+            <rect x="0"  y="32" width="8" height="12" rx="3" fill="url(#wf2)"/>
+            <rect x="12" y="16" width="8" height="28" rx="3" fill="url(#wf2)"/>
+            <rect x="24" y="0"  width="8" height="44" rx="3" fill="url(#wf2)"/>
+            <rect x="36" y="16" width="8" height="28" rx="3" fill="url(#wf2)"/>
+            <rect x="48" y="32" width="8" height="12" rx="3" fill="url(#wf2)"/>
+          </svg>
+        </div>
         <h3>Proteger Antes</h3>
         <p>Você entende os pontos que não têm volta — ISRC, obra vs fonograma, direitos autorais, escolha da distribuidora — antes de fazer o primeiro upload.</p>
       </div>
       <div class="mec-arrow">→</div>
       <div class="mec-step">
         <div class="mec-step-num">Passo 3</div>
-        <div class="mec-step-icon">🚀</div>
+        <div class="mec-waveform">
+          <svg width="56" height="44" viewBox="0 0 56 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+              <linearGradient id="wf3" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0%" stop-color="#88FF00"/>
+                <stop offset="100%" stop-color="#0077FF"/>
+              </linearGradient>
+            </defs>
+            <rect x="0"  y="24" width="8" height="20" rx="3" fill="url(#wf3)"/>
+            <rect x="12" y="6"  width="8" height="38" rx="3" fill="url(#wf3)"/>
+            <rect x="24" y="18" width="8" height="26" rx="3" fill="url(#wf3)"/>
+            <rect x="36" y="0"  width="8" height="44" rx="3" fill="url(#wf3)"/>
+            <rect x="48" y="12" width="8" height="32" rx="3" fill="url(#wf3)"/>
+          </svg>
+        </div>
         <h3>Replicar</h3>
         <p>Com o checklist na mão e a distribuidora exclusiva no bolso, você faz o mesmo processo com a sua música — certo, da primeira vez.</p>
       </div>
