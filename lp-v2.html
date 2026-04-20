@@ -268,9 +268,10 @@
     #vsl-yt-player iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: none; border-radius: 16px; }
     /* VSL overlay */
     .vsl-overlay {
+      display: none;
       position: absolute; inset: 0;
       background: rgba(0,0,0,.55);
-      display: flex; align-items: center; justify-content: center;
+      align-items: center; justify-content: center;
       cursor: pointer; z-index: 20;
       transition: opacity .4s ease;
     }
@@ -283,6 +284,41 @@
     .vsl-badge .vsl-icon { font-size: 28px; margin-bottom: 8px; }
     .vsl-badge .vsl-title { color:#fff; font-size:18px; font-weight:700; margin:0 0 4px; letter-spacing:-.01em; }
     .vsl-badge .vsl-sub { color:rgba(255,255,255,.85); font-size:14px; margin:0; }
+    /* VSL Smart Resume */
+    .vsl-resume {
+      display: none;
+      position: absolute; inset: 0;
+      background: rgba(0,0,0,.93);
+      flex-direction: column;
+      align-items: center; justify-content: center;
+      z-index: 25; border-radius: 16px;
+      padding: 32px; text-align: center;
+    }
+    .vsl-resume-title {
+      color: #fff; font-size: clamp(15px,2.2vw,20px);
+      font-weight: 700; margin: 0 0 28px;
+      max-width: 440px; line-height: 1.45; letter-spacing: -.01em;
+    }
+    .vsl-resume-btns { display: flex; gap: 16px; flex-wrap: wrap; justify-content: center; }
+    .vsl-resume-btn {
+      display: flex; align-items: center; gap: 9px;
+      background: none; border: 2px solid rgba(255,255,255,.45);
+      border-radius: 50px; color: #fff;
+      font-size: 14px; font-weight: 600;
+      padding: 10px 20px; cursor: pointer;
+      transition: border-color .2s, background .2s;
+      font-family: inherit;
+    }
+    .vsl-resume-btn:hover { border-color: #fff; background: rgba(255,255,255,.08); }
+    .vsl-progress-bar {
+      position: absolute; bottom: 0; left: 0; right: 0;
+      height: 4px; background: rgba(255,255,255,.12);
+      border-radius: 0 0 16px 16px;
+    }
+    .vsl-progress-fill {
+      height: 100%; background: var(--green);
+      border-radius: 0 0 0 16px; transition: width .3s;
+    }
     .demo-visual::before {
       content: '';
       position: absolute;
@@ -1059,6 +1095,20 @@
             <p class="vsl-sub">Clique para ouvir</p>
           </div>
         </div>
+        <div class="vsl-resume" id="vsl-resume">
+          <p class="vsl-resume-title">Parar no meio do caminho mais uma vez? Vá até o final.</p>
+          <div class="vsl-resume-btns">
+            <button class="vsl-resume-btn" id="vsl-continue">
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><circle cx="10" cy="10" r="9" stroke="white" stroke-width="1.5"/><polygon points="8,6 15,10 8,14" fill="white"/></svg>
+              Continuar assistindo?
+            </button>
+            <button class="vsl-resume-btn" id="vsl-restart">
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><circle cx="10" cy="10" r="9" stroke="white" stroke-width="1.5"/><path d="M13 10a3 3 0 1 1-3-3" stroke="white" stroke-width="1.5" stroke-linecap="round"/><polyline points="10,4 10,7 13,7" fill="none" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              Assistir do início?
+            </button>
+          </div>
+          <div class="vsl-progress-bar"><div class="vsl-progress-fill" id="vsl-progress-fill"></div></div>
+        </div>
       </div>
     </div>
   </div>
@@ -1600,30 +1650,77 @@
 </script>
 
 <script>
-/* VSL: YouTube muted autoplay + click-to-unmute */
+/* VSL: muted autoplay + smart resume */
 (function(){
   var tag = document.createElement('script');
   tag.src = 'https://www.youtube.com/iframe_api';
   document.head.appendChild(tag);
-  var player;
+
+  var player, initialCheckDone = false, positionSaver;
+  var STORAGE_KEY = 'vsl_pos_biasong';
+
+  function dismissAll() {
+    var o = document.getElementById('vsl-overlay');
+    var r = document.getElementById('vsl-resume');
+    if(o){ o.classList.add('fade-out'); setTimeout(function(){ o.style.display='none'; },400); }
+    if(r) r.style.display = 'none';
+  }
+
+  function playFrom(time) {
+    dismissAll();
+    player.seekTo(time, true);
+    player.unMute();
+    player.setVolume(100);
+    player.playVideo();
+  }
+
+  function showResume(savedTime) {
+    var dur = player.getDuration() || 1;
+    var fill = document.getElementById('vsl-progress-fill');
+    if(fill) fill.style.width = Math.min(100,(savedTime/dur)*100) + '%';
+    var r = document.getElementById('vsl-resume');
+    if(r) r.style.display = 'flex';
+    document.getElementById('vsl-continue').onclick = function(){ playFrom(savedTime); };
+    document.getElementById('vsl-restart').onclick  = function(){ localStorage.removeItem(STORAGE_KEY); playFrom(0); };
+  }
+
+  function showMutedOverlay() {
+    var o = document.getElementById('vsl-overlay');
+    if(o){ o.style.display = 'flex'; o.onclick = function(){ localStorage.removeItem(STORAGE_KEY); playFrom(0); }; }
+  }
+
+  function startSaver() {
+    positionSaver = setInterval(function(){
+      if(player && player.getPlayerState && player.getPlayerState() === 1){
+        var t = player.getCurrentTime();
+        if(t > 2) localStorage.setItem(STORAGE_KEY, t);
+      }
+    }, 3000);
+  }
+
   window.onYouTubeIframeAPIReady = function(){
     player = new YT.Player('vsl-yt-player',{
       videoId:'IB_7xtwnxk0',
       playerVars:{ autoplay:1, mute:1, rel:0, modestbranding:1, controls:1, playsinline:1 },
-      events:{ onReady:function(e){ e.target.playVideo(); } }
+      events:{
+        onReady: function(e){ e.target.playVideo(); },
+        onStateChange: function(e){
+          if(!initialCheckDone && e.data === 1){
+            initialCheckDone = true;
+            var saved = parseFloat(localStorage.getItem(STORAGE_KEY) || '0');
+            if(saved > 10){ player.pauseVideo(); showResume(saved); }
+            else { showMutedOverlay(); }
+            startSaver();
+          }
+          if(e.data === 0){ localStorage.removeItem(STORAGE_KEY); clearInterval(positionSaver); }
+        }
+      }
     });
   };
-  var overlay = document.getElementById('vsl-overlay');
-  if(overlay) overlay.addEventListener('click',function(){
-    if(player){
-      player.seekTo(0, true);
-      player.unMute();
-      player.setVolume(100);
-      player.playVideo();
-    }
-    overlay.classList.add('fade-out');
-    setTimeout(function(){ overlay.style.display='none'; },400);
-  });
+
+  setTimeout(function(){
+    if(!initialCheckDone){ initialCheckDone = true; showMutedOverlay(); }
+  }, 3000);
 })();
 </script>
 
