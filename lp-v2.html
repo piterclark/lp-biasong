@@ -314,8 +314,17 @@
       position: absolute; bottom: 0; left: 0;
       height: 10px; background: #88FF00;
       width: 0%; display: none;
-      z-index: 20; transition: width .5s;
+      z-index: 30; transition: width .5s;
     }
+    #vsl-playbtn {
+      position: absolute; bottom: 18px; left: 16px;
+      width: 40px; height: 40px;
+      background: rgba(0,0,0,.65); border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      cursor: pointer; z-index: 15;
+      transition: background .18s, transform .15s;
+    }
+    #vsl-playbtn:hover { background: rgba(0,0,0,.88); transform: scale(1.1); }
     .demo-visual::before {
       content: '';
       position: absolute;
@@ -1105,6 +1114,10 @@
             </button>
           </div>
         </div>
+      <div id="vsl-playbtn">
+        <svg id="vsl-play-icon" width="16" height="16" viewBox="0 0 16 16" fill="none"><polygon points="4,2 14,8 4,14" fill="white"/></svg>
+        <svg id="vsl-pause-icon" width="16" height="16" viewBox="0 0 16 16" fill="none" style="display:none"><rect x="3" y="2" width="4" height="12" rx="1" fill="white"/><rect x="9" y="2" width="4" height="12" rx="1" fill="white"/></svg>
+      </div>
       <div id="vsl-fake-bar"></div>
       </div>
     </div>
@@ -1677,9 +1690,21 @@
     var bar = document.getElementById('vsl-fake-bar');
     if(bar){ bar.style.display='none'; bar.style.width='0%'; }
   }
+  function updatePlayBtn(state){
+    var pi = document.getElementById('vsl-play-icon');
+    var pa = document.getElementById('vsl-pause-icon');
+    if(!pi||!pa) return;
+    if(state===1){ pi.style.display='none'; pa.style.display='block'; }
+    else { pi.style.display='block'; pa.style.display='none'; }
+  }
   document.getElementById('vsl-overlay').onclick = function(){ hideBar(); playFrom(0); };
   document.getElementById('vsl-continue').onclick = function(){ playFrom(savedTime); };
   document.getElementById('vsl-restart').onclick = function(){ localStorage.removeItem(STORAGE_KEY); hideBar(); playFrom(0); };
+  document.getElementById('vsl-playbtn').onclick = function(){
+    if(!player) return;
+    if(player.getPlayerState()===1){ player.pauseVideo(); }
+    else { player.unMute(); player.setVolume(100); player.playVideo(); }
+  };
   var tag = document.createElement('script');
   tag.src = 'https://www.youtube.com/iframe_api';
   document.head.appendChild(tag);
@@ -1688,8 +1713,9 @@
       videoId:'IB_7xtwnxk0',
       playerVars:{ autoplay:1, mute:1, rel:0, modestbranding:1, controls:0, playsinline:1 },
       events:{
-        onReady: function(e){ e.target.playVideo(); },
+        onReady: function(e){ e.target.setPlaybackQuality('hd1080'); e.target.playVideo(); },
         onStateChange: function(e){
+          updatePlayBtn(e.data);
           if(e.data === 1 && savedTime > 10 && !positionSaver){
             var dur = player.getDuration();
             if(dur > 0) setBar(savedTime, dur);
@@ -1707,7 +1733,7 @@
               }
             },3000);
           }
-          if(e.data === 0){ localStorage.removeItem(STORAGE_KEY); clearInterval(positionSaver); positionSaver=null; hideBar(); }
+          if(e.data === 0){ localStorage.removeItem(STORAGE_KEY); clearInterval(positionSaver); positionSaver=null; hideBar(); updatePlayBtn(0); }
         }
       }
     });
