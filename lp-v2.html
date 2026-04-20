@@ -1652,52 +1652,30 @@
 <script>
 /* VSL: muted autoplay + smart resume */
 (function(){
-  var tag = document.createElement('script');
-  tag.src = 'https://www.youtube.com/iframe_api';
-  document.head.appendChild(tag);
-
-  var player, initialCheckDone = false, positionSaver;
   var STORAGE_KEY = 'vsl_pos_biasong';
-
-  function dismissAll() {
+  var savedTime = parseFloat(localStorage.getItem(STORAGE_KEY) || '0');
+  var player, positionSaver;
+  if(savedTime > 10){
+    document.getElementById('vsl-resume').style.display = 'flex';
+  } else {
+    document.getElementById('vsl-overlay').style.display = 'flex';
+  }
+  function dismissAll(){
     var o = document.getElementById('vsl-overlay');
     var r = document.getElementById('vsl-resume');
     if(o){ o.classList.add('fade-out'); setTimeout(function(){ o.style.display='none'; },400); }
     if(r) r.style.display = 'none';
   }
-
-  function playFrom(time) {
+  function playFrom(time){
     dismissAll();
-    player.seekTo(time, true);
-    player.unMute();
-    player.setVolume(100);
-    player.playVideo();
+    if(player){ player.seekTo(time,true); player.unMute(); player.setVolume(100); player.playVideo(); }
   }
-
-  function showResume(savedTime) {
-    var dur = player.getDuration() || 1;
-    var fill = document.getElementById('vsl-progress-fill');
-    if(fill) fill.style.width = Math.min(100,(savedTime/dur)*100) + '%';
-    var r = document.getElementById('vsl-resume');
-    if(r) r.style.display = 'flex';
-    document.getElementById('vsl-continue').onclick = function(){ playFrom(savedTime); };
-    document.getElementById('vsl-restart').onclick  = function(){ localStorage.removeItem(STORAGE_KEY); playFrom(0); };
-  }
-
-  function showMutedOverlay() {
-    var o = document.getElementById('vsl-overlay');
-    if(o){ o.style.display = 'flex'; o.onclick = function(){ localStorage.removeItem(STORAGE_KEY); playFrom(0); }; }
-  }
-
-  function startSaver() {
-    positionSaver = setInterval(function(){
-      if(player && player.getPlayerState && player.getPlayerState() === 1){
-        var t = player.getCurrentTime();
-        if(t > 2) localStorage.setItem(STORAGE_KEY, t);
-      }
-    }, 3000);
-  }
-
+  document.getElementById('vsl-overlay').onclick = function(){ playFrom(0); };
+  document.getElementById('vsl-continue').onclick = function(){ playFrom(savedTime); };
+  document.getElementById('vsl-restart').onclick = function(){ localStorage.removeItem(STORAGE_KEY); playFrom(0); };
+  var tag = document.createElement('script');
+  tag.src = 'https://www.youtube.com/iframe_api';
+  document.head.appendChild(tag);
   window.onYouTubeIframeAPIReady = function(){
     player = new YT.Player('vsl-yt-player',{
       videoId:'IB_7xtwnxk0',
@@ -1705,22 +1683,27 @@
       events:{
         onReady: function(e){ e.target.playVideo(); },
         onStateChange: function(e){
-          if(!initialCheckDone && e.data === 1){
-            initialCheckDone = true;
-            var saved = parseFloat(localStorage.getItem(STORAGE_KEY) || '0');
-            if(saved > 10){ player.pauseVideo(); showResume(saved); }
-            else { showMutedOverlay(); }
-            startSaver();
+          if(e.data === 1 && savedTime > 10 && !positionSaver){
+            var dur = player.getDuration();
+            if(dur > 0){
+              var fill = document.getElementById('vsl-progress-fill');
+              if(fill) fill.style.width = Math.min(100,(savedTime/dur)*100)+'%';
+            }
+            player.pauseVideo();
           }
-          if(e.data === 0){ localStorage.removeItem(STORAGE_KEY); clearInterval(positionSaver); }
+          if(e.data === 1 && !positionSaver){
+            positionSaver = setInterval(function(){
+              if(player && player.getPlayerState() === 1){
+                var t = player.getCurrentTime();
+                if(t > 2) localStorage.setItem(STORAGE_KEY, t);
+              }
+            },3000);
+          }
+          if(e.data === 0){ localStorage.removeItem(STORAGE_KEY); clearInterval(positionSaver); positionSaver=null; }
         }
       }
     });
   };
-
-  setTimeout(function(){
-    if(!initialCheckDone){ initialCheckDone = true; showMutedOverlay(); }
-  }, 3000);
 })();
 </script>
 
