@@ -136,6 +136,26 @@
       position: relative;
     }
     .video-wrap iframe { width: 100%; height: 100%; border: none; }
+    #vsl-yt-player { position: absolute; inset: 0; width: 100%; height: 100%; }
+    #vsl-yt-player iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: none; }
+    /* VSL overlay */
+    .vsl-overlay {
+      position: absolute; inset: 0;
+      background: rgba(0,0,0,.55);
+      display: flex; align-items: center; justify-content: center;
+      cursor: pointer; z-index: 20;
+      border-radius: 14px;
+      transition: opacity .4s ease;
+    }
+    .vsl-overlay.fade-out { opacity: 0; pointer-events: none; }
+    .vsl-badge {
+      background: linear-gradient(135deg,#00c844,#00a836);
+      border-radius: 12px; padding: 18px 32px; text-align: center;
+      box-shadow: 0 8px 32px rgba(0,180,60,.4); pointer-events: none;
+    }
+    .vsl-badge .vsl-icon { font-size: 28px; margin-bottom: 8px; }
+    .vsl-badge .vsl-title { color:#fff; font-size:18px; font-weight:700; margin:0 0 4px; letter-spacing:-.01em; }
+    .vsl-badge .vsl-sub { color:rgba(255,255,255,.85); font-size:14px; margin:0; }
     .video-placeholder {
       width: 100%; height: 100%;
       background: #080814;
@@ -1089,7 +1109,14 @@
 
     <!-- VIDEO -->
     <div class="video-wrap">
-      <iframe src="https://www.youtube.com/embed/IB_7xtwnxk0" title="Como Distribuir uma Música — Bia Song" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+      <div id="vsl-yt-player"></div>
+      <div class="vsl-overlay" id="vsl-overlay">
+        <div class="vsl-badge">
+          <div class="vsl-icon">🔊</div>
+          <p class="vsl-title">Seu vídeo já começou</p>
+          <p class="vsl-sub">Clique para ouvir</p>
+        </div>
+      </div>
     </div>
 
     <!-- CTA ABAIXO DO VÍDEO -->
@@ -1841,6 +1868,33 @@
               '&tel=' + encodeURIComponent(tel);
 
     window.location.href = url;
+  });
+})();
+</script>
+
+<script>
+/* VSL: YouTube muted autoplay + click-to-unmute */
+(function(){
+  var tag = document.createElement('script');
+  tag.src = 'https://www.youtube.com/iframe_api';
+  document.head.appendChild(tag);
+  var player;
+  window.onYouTubeIframeAPIReady = function(){
+    player = new YT.Player('vsl-yt-player',{
+      videoId:'IB_7xtwnxk0',
+      playerVars:{ autoplay:1, mute:1, rel:0, modestbranding:1, controls:1, playsinline:1 },
+      events:{ onReady:function(e){ e.target.playVideo(); } }
+    });
+  };
+  var overlay = document.getElementById('vsl-overlay');
+  if(overlay) overlay.addEventListener('click',function(){
+    if(player){
+      player.unMute();
+      player.setVolume(100);
+      if(player.getPlayerState && player.getPlayerState() !== 1) player.playVideo();
+    }
+    overlay.classList.add('fade-out');
+    setTimeout(function(){ overlay.style.display='none'; },400);
   });
 })();
 </script>
