@@ -1379,7 +1379,7 @@
     <div class="videos-grid">
       <div class="video-card">
         <div class="vc-frame">
-          <iframe src="https://www.youtube.com/embed/_J-AvB1J8NE?start=11" title="MC Braz falando sobre a Bia Song" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+          <video class="dep-video" src="https://pub-9fc592d445b64bd78a40e4dddaece32a.r2.dev/dep-mcbraz.mp4" muted playsinline preload="none" controls></video>
         </div>
         <div class="vc-info">
           <p class="vc-name">MC Braz</p>
@@ -1388,7 +1388,7 @@
       </div>
       <div class="video-card">
         <div class="vc-frame">
-          <iframe src="https://www.youtube.com/embed/w6943-T6GcA?start=36" title="Sofia Brasil falando sobre a Bia Song" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+          <video class="dep-video" src="https://pub-9fc592d445b64bd78a40e4dddaece32a.r2.dev/dep-sofia.mp4" muted playsinline preload="none" controls></video>
         </div>
         <div class="vc-info">
           <p class="vc-name">Sofia Brasil</p>
@@ -1397,7 +1397,7 @@
       </div>
       <div class="video-card">
         <div class="vc-frame">
-          <iframe src="https://www.youtube.com/embed/nzc6ftZWk5g?start=3" title="Juliana Arv falando sobre a Bia Song" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+          <video class="dep-video" src="https://pub-9fc592d445b64bd78a40e4dddaece32a.r2.dev/dep-juliana.mp4" muted playsinline preload="none" controls></video>
         </div>
         <div class="vc-info">
           <p class="vc-name">Juliana Arv</p>
@@ -1928,6 +1928,23 @@
     clearInterval(positionSaver); positionSaver = null;
     hideBar(); updatePlayBtn(false);
   });
+})();
+</script>
+
+<script>
+/* Autoplay depoimentos ao entrar na tela */
+(function(){
+  var obs = new IntersectionObserver(function(entries){
+    entries.forEach(function(e){
+      if(e.isIntersecting){
+        e.target.play().catch(function(){});
+      } else {
+        e.target.pause();
+      }
+    });
+  }, { threshold: 0.5 });
+
+  document.querySelectorAll('.dep-video').forEach(function(v){ obs.observe(v); });
 })();
 </script>
 
