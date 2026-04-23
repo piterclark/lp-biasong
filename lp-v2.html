@@ -134,7 +134,7 @@
     .marquee-track {
       display: flex;
       width: max-content;
-      animation: marquee-scroll 28s linear infinite;
+      animation: marquee-scroll 36s linear infinite;
     }
     .marquee-track:hover { animation-play-state: paused; }
     .marquee-group {
@@ -145,20 +145,57 @@
     .marquee-item {
       display: flex;
       align-items: center;
-      gap: 12px;
-      padding: 0 32px;
+      gap: 14px;
+      padding: 0 36px;
       white-space: nowrap;
-      font-size: 18px;
-      font-weight: 800;
-      letter-spacing: .5px;
-      color: #fff;
-      text-transform: uppercase;
     }
     .marquee-item .dot {
-      width: 6px; height: 6px;
+      width: 5px; height: 5px;
       border-radius: 50%;
       background: #88FF00;
+      opacity: .5;
       flex-shrink: 0;
+    }
+    /* ── Typography per artist ── */
+    .art-djonga {
+      font-size: 22px; font-weight: 900;
+      letter-spacing: -1px; text-transform: uppercase;
+      color: #fff; font-style: italic;
+    }
+    .art-mcbraz {
+      font-size: 20px; font-weight: 800;
+      letter-spacing: 3px; text-transform: uppercase;
+      color: #88FF00;
+    }
+    .art-eduardinho {
+      font-size: 17px; font-weight: 700;
+      letter-spacing: .5px; text-transform: none;
+      color: #ccc;
+    }
+    .art-sofia {
+      font-size: 19px; font-weight: 300;
+      letter-spacing: 4px; text-transform: uppercase;
+      color: #fff; font-style: italic;
+    }
+    .art-julianaArv {
+      font-size: 18px; font-weight: 600;
+      letter-spacing: 1.5px; text-transform: lowercase;
+      color: #aaa;
+    }
+    .art-mcdena {
+      font-size: 21px; font-weight: 900;
+      letter-spacing: 2px; text-transform: uppercase;
+      color: #fff;
+    }
+    .art-ajuliacosta {
+      font-size: 16px; font-weight: 400;
+      letter-spacing: 2px; text-transform: lowercase;
+      color: #888; font-style: italic;
+    }
+    .art-marcela {
+      font-size: 20px; font-weight: 700;
+      letter-spacing: 6px; text-transform: uppercase;
+      color: #555;
     }
     @keyframes marquee-scroll {
       0%   { transform: translateX(0); }
@@ -1013,32 +1050,24 @@
   <p>Artistas distribuídos por Bia Song</p>
   <div class="marquee-track">
     <div class="marquee-group">
-      <div class="marquee-item"><span class="dot"></span>Djonga</div>
-      <div class="marquee-item"><span class="dot"></span>MC Braz</div>
-      <div class="marquee-item"><span class="dot"></span>Eduardinho dos Teclados</div>
-      <div class="marquee-item"><span class="dot"></span>Obra Digital</div>
-      <div class="marquee-item"><span class="dot"></span>Djonga</div>
-      <div class="marquee-item"><span class="dot"></span>MC Braz</div>
-      <div class="marquee-item"><span class="dot"></span>Eduardinho dos Teclados</div>
-      <div class="marquee-item"><span class="dot"></span>Obra Digital</div>
-      <div class="marquee-item"><span class="dot"></span>Djonga</div>
-      <div class="marquee-item"><span class="dot"></span>MC Braz</div>
-      <div class="marquee-item"><span class="dot"></span>Eduardinho dos Teclados</div>
-      <div class="marquee-item"><span class="dot"></span>Obra Digital</div>
+      <div class="marquee-item"><span class="dot"></span><span class="art-djonga">Djonga</span></div>
+      <div class="marquee-item"><span class="dot"></span><span class="art-mcbraz">MC Braz</span></div>
+      <div class="marquee-item"><span class="dot"></span><span class="art-sofia">Sofia Brasil</span></div>
+      <div class="marquee-item"><span class="dot"></span><span class="art-mcdena">MC Dena</span></div>
+      <div class="marquee-item"><span class="dot"></span><span class="art-eduardinho">Eduardinho dos Teclados</span></div>
+      <div class="marquee-item"><span class="dot"></span><span class="art-julianaArv">Juliana Arv</span></div>
+      <div class="marquee-item"><span class="dot"></span><span class="art-ajuliacosta">AJuliaCosta</span></div>
+      <div class="marquee-item"><span class="dot"></span><span class="art-marcela">Marcela</span></div>
     </div>
     <div class="marquee-group" aria-hidden="true">
-      <div class="marquee-item"><span class="dot"></span>Djonga</div>
-      <div class="marquee-item"><span class="dot"></span>MC Braz</div>
-      <div class="marquee-item"><span class="dot"></span>Eduardinho dos Teclados</div>
-      <div class="marquee-item"><span class="dot"></span>Obra Digital</div>
-      <div class="marquee-item"><span class="dot"></span>Djonga</div>
-      <div class="marquee-item"><span class="dot"></span>MC Braz</div>
-      <div class="marquee-item"><span class="dot"></span>Eduardinho dos Teclados</div>
-      <div class="marquee-item"><span class="dot"></span>Obra Digital</div>
-      <div class="marquee-item"><span class="dot"></span>Djonga</div>
-      <div class="marquee-item"><span class="dot"></span>MC Braz</div>
-      <div class="marquee-item"><span class="dot"></span>Eduardinho dos Teclados</div>
-      <div class="marquee-item"><span class="dot"></span>Obra Digital</div>
+      <div class="marquee-item"><span class="dot"></span><span class="art-djonga">Djonga</span></div>
+      <div class="marquee-item"><span class="dot"></span><span class="art-mcbraz">MC Braz</span></div>
+      <div class="marquee-item"><span class="dot"></span><span class="art-sofia">Sofia Brasil</span></div>
+      <div class="marquee-item"><span class="dot"></span><span class="art-mcdena">MC Dena</span></div>
+      <div class="marquee-item"><span class="dot"></span><span class="art-eduardinho">Eduardinho dos Teclados</span></div>
+      <div class="marquee-item"><span class="dot"></span><span class="art-julianaArv">Juliana Arv</span></div>
+      <div class="marquee-item"><span class="dot"></span><span class="art-ajuliacosta">AJuliaCosta</span></div>
+      <div class="marquee-item"><span class="dot"></span><span class="art-marcela">Marcela</span></div>
     </div>
   </div>
 </div>
