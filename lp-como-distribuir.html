@@ -1335,18 +1335,22 @@
       <div class="mec-step">
         <div class="mec-step-num">Passo 1</div>
         <div class="mec-waveform">
-          <svg width="56" height="44" viewBox="0 0 56 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <!-- Tela com play: você assiste na tela -->
+          <svg width="56" height="48" viewBox="0 0 56 48" fill="none" xmlns="http://www.w3.org/2000/svg">
             <defs>
-              <linearGradient id="wf1" x1="0" y1="0" x2="0" y2="1">
+              <linearGradient id="ic1" x1="0" y1="0" x2="1" y2="1">
                 <stop offset="0%" stop-color="#88FF00"/>
                 <stop offset="100%" stop-color="#0077FF"/>
               </linearGradient>
             </defs>
-            <rect x="0"  y="34" width="8" height="10" rx="3" fill="url(#wf1)"/>
-            <rect x="12" y="26" width="8" height="18" rx="3" fill="url(#wf1)"/>
-            <rect x="24" y="8"  width="8" height="36" rx="3" fill="url(#wf1)"/>
-            <rect x="36" y="20" width="8" height="24" rx="3" fill="url(#wf1)"/>
-            <rect x="48" y="30" width="8" height="14" rx="3" fill="url(#wf1)"/>
+            <!-- monitor -->
+            <rect x="2" y="2" width="52" height="34" rx="4" stroke="url(#ic1)" stroke-width="2.5" fill="none"/>
+            <!-- pé -->
+            <line x1="22" y1="36" x2="22" y2="44" stroke="url(#ic1)" stroke-width="2.5" stroke-linecap="round"/>
+            <line x1="34" y1="36" x2="34" y2="44" stroke="url(#ic1)" stroke-width="2.5" stroke-linecap="round"/>
+            <line x1="16" y1="44" x2="40" y2="44" stroke="url(#ic1)" stroke-width="2.5" stroke-linecap="round"/>
+            <!-- triângulo play -->
+            <path d="M22 10 L22 28 L38 19 Z" fill="url(#ic1)"/>
           </svg>
         </div>
         <h3>Ver Acontecer</h3>
@@ -1356,18 +1360,22 @@
       <div class="mec-step">
         <div class="mec-step-num">Passo 2</div>
         <div class="mec-waveform">
-          <svg width="56" height="44" viewBox="0 0 56 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <!-- Escudo com cadeado: proteção antes do upload -->
+          <svg width="56" height="48" viewBox="0 0 56 48" fill="none" xmlns="http://www.w3.org/2000/svg">
             <defs>
-              <linearGradient id="wf2" x1="0" y1="0" x2="0" y2="1">
+              <linearGradient id="ic2" x1="0" y1="0" x2="1" y2="1">
                 <stop offset="0%" stop-color="#88FF00"/>
                 <stop offset="100%" stop-color="#0077FF"/>
               </linearGradient>
             </defs>
-            <rect x="0"  y="32" width="8" height="12" rx="3" fill="url(#wf2)"/>
-            <rect x="12" y="16" width="8" height="28" rx="3" fill="url(#wf2)"/>
-            <rect x="24" y="0"  width="8" height="44" rx="3" fill="url(#wf2)"/>
-            <rect x="36" y="16" width="8" height="28" rx="3" fill="url(#wf2)"/>
-            <rect x="48" y="32" width="8" height="12" rx="3" fill="url(#wf2)"/>
+            <!-- escudo -->
+            <path d="M28 2 L6 10 L6 26 C6 36 16 44 28 47 C40 44 50 36 50 26 L50 10 Z" stroke="url(#ic2)" stroke-width="2.5" fill="none" stroke-linejoin="round"/>
+            <!-- cadeado corpo -->
+            <rect x="20" y="26" width="16" height="12" rx="2.5" stroke="url(#ic2)" stroke-width="2" fill="none"/>
+            <!-- cadeado arco -->
+            <path d="M22 26 L22 22 C22 18.7 25.1 16 28 16 C30.9 16 34 18.7 34 22 L34 26" stroke="url(#ic2)" stroke-width="2" fill="none" stroke-linecap="round"/>
+            <!-- buraco da chave -->
+            <circle cx="28" cy="31" r="2" fill="url(#ic2)"/>
           </svg>
         </div>
         <h3>Proteger Antes</h3>
@@ -1377,18 +1385,22 @@
       <div class="mec-step">
         <div class="mec-step-num">Passo 3</div>
         <div class="mec-waveform">
-          <svg width="56" height="44" viewBox="0 0 56 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <!-- Nota musical com seta para cima: sua música indo ao ar -->
+          <svg width="56" height="48" viewBox="0 0 56 48" fill="none" xmlns="http://www.w3.org/2000/svg">
             <defs>
-              <linearGradient id="wf3" x1="0" y1="0" x2="0" y2="1">
+              <linearGradient id="ic3" x1="0" y1="0" x2="1" y2="1">
                 <stop offset="0%" stop-color="#88FF00"/>
                 <stop offset="100%" stop-color="#0077FF"/>
               </linearGradient>
             </defs>
-            <rect x="0"  y="24" width="8" height="20" rx="3" fill="url(#wf3)"/>
-            <rect x="12" y="6"  width="8" height="38" rx="3" fill="url(#wf3)"/>
-            <rect x="24" y="18" width="8" height="26" rx="3" fill="url(#wf3)"/>
-            <rect x="36" y="0"  width="8" height="44" rx="3" fill="url(#wf3)"/>
-            <rect x="48" y="12" width="8" height="32" rx="3" fill="url(#wf3)"/>
+            <!-- nota musical -->
+            <ellipse cx="14" cy="38" rx="7" ry="5" stroke="url(#ic3)" stroke-width="2.5" fill="none"/>
+            <line x1="21" y1="38" x2="21" y2="10" stroke="url(#ic3)" stroke-width="2.5" stroke-linecap="round"/>
+            <line x1="21" y1="10" x2="36" y2="6" stroke="url(#ic3)" stroke-width="2.5" stroke-linecap="round"/>
+            <line x1="36" y1="6" x2="36" y2="26" stroke="url(#ic3)" stroke-width="2" stroke-linecap="round"/>
+            <!-- seta para cima (lançamento) -->
+            <line x1="44" y1="40" x2="44" y2="18" stroke="url(#ic3)" stroke-width="2.5" stroke-linecap="round"/>
+            <path d="M38 24 L44 16 L50 24" stroke="url(#ic3)" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
           </svg>
         </div>
         <h3>Replicar</h3>
