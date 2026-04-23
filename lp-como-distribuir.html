@@ -241,112 +241,106 @@
 
     /* ───── AUTHORITY STRIP ───── */
     .authority-strip {
-      background: #0d0d0d;
-      border-top: 1px solid rgba(136,255,0,.25);
-      border-bottom: 1px solid rgba(136,255,0,.25);
-      padding: 48px 0;
+      background: radial-gradient(ellipse 80% 100% at 50% 50%, rgba(136,255,0,.07) 0%, #000 70%);
+      border-top: 1px solid rgba(136,255,0,.2);
+      border-bottom: 1px solid rgba(136,255,0,.2);
+      padding: 56px 0 52px;
       text-align: center;
       overflow: hidden;
       position: relative;
     }
+    /* edge fade */
     .authority-strip::before,
     .authority-strip::after {
       content: '';
       position: absolute;
       top: 0; bottom: 0;
-      width: 120px;
+      width: 160px;
       z-index: 2;
       pointer-events: none;
     }
-    .authority-strip::before {
-      left: 0;
-      background: linear-gradient(to right, #0d0d0d 0%, transparent 100%);
-    }
-    .authority-strip::after {
-      right: 0;
-      background: linear-gradient(to left, #0d0d0d 0%, transparent 100%);
+    .authority-strip::before { left:0; background: linear-gradient(to right,#000 0%,transparent 100%); }
+    .authority-strip::after  { right:0; background: linear-gradient(to left,#000 0%,transparent 100%); }
+    /* glow line under names */
+    .marquee-glow-line {
+      display: block;
+      width: 260px; height: 1px;
+      margin: 18px auto 0;
+      background: linear-gradient(to right, transparent, rgba(136,255,0,.5) 30%, rgba(136,255,0,.5) 70%, transparent);
+      filter: blur(1px);
     }
     .authority-strip-label {
-      font-size: 11px; text-transform: uppercase;
-      letter-spacing: 3px; color: #88FF00;
-      margin-bottom: 32px;
-      display: flex; align-items: center; justify-content: center; gap: 12px;
+      font-size: 10px; text-transform: uppercase;
+      letter-spacing: 4px; color: rgba(136,255,0,.7);
+      margin-bottom: 36px;
+      display: flex; align-items: center; justify-content: center; gap: 14px;
     }
     .authority-strip-label::before,
     .authority-strip-label::after {
       content: '';
       display: block;
-      width: 40px; height: 1px;
-      background: rgba(136,255,0,.4);
+      width: 48px; height: 1px;
+      background: rgba(136,255,0,.3);
     }
     .marquee-track {
       display: flex;
       width: max-content;
-      animation: marquee-scroll 40s linear infinite;
+      animation: marquee-scroll 44s linear infinite;
     }
     .marquee-track:hover { animation-play-state: paused; }
-    .marquee-group {
-      display: flex;
-      align-items: center;
-      gap: 0;
-    }
+    .marquee-group { display: flex; align-items: center; }
     .marquee-item {
-      display: flex;
-      align-items: center;
-      gap: 16px;
-      padding: 0 40px;
+      display: flex; align-items: center;
+      gap: 18px; padding: 0 44px;
       white-space: nowrap;
     }
-    .marquee-item .dot {
-      width: 4px; height: 4px;
-      border-radius: 50%;
-      background: #88FF00;
-      opacity: .6;
-      flex-shrink: 0;
+    .marquee-item .sep {
+      font-size: 14px; color: rgba(136,255,0,.45);
+      font-weight: 400; line-height: 1;
     }
     /* ── Typography per artist ── */
     .art-djonga {
-      font-size: 28px; font-weight: 900;
-      letter-spacing: -1.5px; text-transform: uppercase;
+      font-size: 36px; font-weight: 900;
+      letter-spacing: -2px; text-transform: uppercase;
       color: #fff; font-style: italic;
-      text-shadow: 0 0 30px rgba(255,255,255,.15);
+      text-shadow: 0 0 40px rgba(255,255,255,.25), 0 0 80px rgba(255,255,255,.08);
     }
     .art-mcbraz {
-      font-size: 24px; font-weight: 800;
-      letter-spacing: 4px; text-transform: uppercase;
+      font-size: 30px; font-weight: 800;
+      letter-spacing: 5px; text-transform: uppercase;
       color: #88FF00;
-      text-shadow: 0 0 20px rgba(136,255,0,.4);
+      text-shadow: 0 0 24px rgba(136,255,0,.6), 0 0 60px rgba(136,255,0,.2);
     }
     .art-eduardinho {
-      font-size: 20px; font-weight: 700;
+      font-size: 24px; font-weight: 700;
       letter-spacing: .5px; text-transform: none;
-      color: #d0d0d0;
+      color: #d8d8d8;
     }
     .art-sofia {
-      font-size: 23px; font-weight: 300;
-      letter-spacing: 5px; text-transform: uppercase;
+      font-size: 28px; font-weight: 300;
+      letter-spacing: 7px; text-transform: uppercase;
       color: #fff; font-style: italic;
     }
     .art-julianaArv {
-      font-size: 21px; font-weight: 600;
+      font-size: 25px; font-weight: 600;
       letter-spacing: 2px; text-transform: lowercase;
-      color: #bbb;
+      color: #c0c0c0;
     }
     .art-mcdena {
-      font-size: 26px; font-weight: 900;
+      font-size: 34px; font-weight: 900;
       letter-spacing: 3px; text-transform: uppercase;
       color: #fff;
-      text-shadow: 0 0 25px rgba(255,255,255,.1);
+      text-shadow: 0 0 32px rgba(255,255,255,.18);
     }
     .art-ajuliacosta {
-      font-size: 19px; font-weight: 400;
-      letter-spacing: 2.5px; text-transform: lowercase;
-      color: #999; font-style: italic;
+      font-size: 22px; font-weight: 400;
+      letter-spacing: 3px; text-transform: lowercase;
+      color: #a0a0a0; font-style: italic;
     }
     .art-marcela {
-      font-size: 22px; font-weight: 700;
-      letter-spacing: 8px; text-transform: uppercase;
-      color: #777;
+      font-size: 26px; font-weight: 700;
+      letter-spacing: 10px; text-transform: uppercase;
+      color: #888;
     }
     @keyframes marquee-scroll {
       0%   { transform: translateX(0); }
@@ -1267,26 +1261,27 @@
   <p class="authority-strip-label">Artistas distribuídos por Bia Song</p>
   <div class="marquee-track">
     <div class="marquee-group">
-      <div class="marquee-item"><span class="dot"></span><span class="art-djonga">Djonga</span></div>
-      <div class="marquee-item"><span class="dot"></span><span class="art-mcbraz">MC Braz</span></div>
-      <div class="marquee-item"><span class="dot"></span><span class="art-sofia">Sofia Brasil</span></div>
-      <div class="marquee-item"><span class="dot"></span><span class="art-mcdena">MC Dena</span></div>
-      <div class="marquee-item"><span class="dot"></span><span class="art-eduardinho">Eduardinho dos Teclados</span></div>
-      <div class="marquee-item"><span class="dot"></span><span class="art-julianaArv">Juliana Arv</span></div>
-      <div class="marquee-item"><span class="dot"></span><span class="art-ajuliacosta">AJuliaCosta</span></div>
-      <div class="marquee-item"><span class="dot"></span><span class="art-marcela">Marcela</span></div>
+      <div class="marquee-item"><span class="art-djonga">Djonga</span><span class="sep">✦</span></div>
+      <div class="marquee-item"><span class="art-mcbraz">MC Braz</span><span class="sep">✦</span></div>
+      <div class="marquee-item"><span class="art-sofia">Sofia Brasil</span><span class="sep">✦</span></div>
+      <div class="marquee-item"><span class="art-mcdena">MC Dena</span><span class="sep">✦</span></div>
+      <div class="marquee-item"><span class="art-eduardinho">Eduardinho dos Teclados</span><span class="sep">✦</span></div>
+      <div class="marquee-item"><span class="art-julianaArv">Juliana Arv</span><span class="sep">✦</span></div>
+      <div class="marquee-item"><span class="art-ajuliacosta">AJuliaCosta</span><span class="sep">✦</span></div>
+      <div class="marquee-item"><span class="art-marcela">Marcela</span><span class="sep">✦</span></div>
     </div>
     <div class="marquee-group" aria-hidden="true">
-      <div class="marquee-item"><span class="dot"></span><span class="art-djonga">Djonga</span></div>
-      <div class="marquee-item"><span class="dot"></span><span class="art-mcbraz">MC Braz</span></div>
-      <div class="marquee-item"><span class="dot"></span><span class="art-sofia">Sofia Brasil</span></div>
-      <div class="marquee-item"><span class="dot"></span><span class="art-mcdena">MC Dena</span></div>
-      <div class="marquee-item"><span class="dot"></span><span class="art-eduardinho">Eduardinho dos Teclados</span></div>
-      <div class="marquee-item"><span class="dot"></span><span class="art-julianaArv">Juliana Arv</span></div>
-      <div class="marquee-item"><span class="dot"></span><span class="art-ajuliacosta">AJuliaCosta</span></div>
-      <div class="marquee-item"><span class="dot"></span><span class="art-marcela">Marcela</span></div>
+      <div class="marquee-item"><span class="art-djonga">Djonga</span><span class="sep">✦</span></div>
+      <div class="marquee-item"><span class="art-mcbraz">MC Braz</span><span class="sep">✦</span></div>
+      <div class="marquee-item"><span class="art-sofia">Sofia Brasil</span><span class="sep">✦</span></div>
+      <div class="marquee-item"><span class="art-mcdena">MC Dena</span><span class="sep">✦</span></div>
+      <div class="marquee-item"><span class="art-eduardinho">Eduardinho dos Teclados</span><span class="sep">✦</span></div>
+      <div class="marquee-item"><span class="art-julianaArv">Juliana Arv</span><span class="sep">✦</span></div>
+      <div class="marquee-item"><span class="art-ajuliacosta">AJuliaCosta</span><span class="sep">✦</span></div>
+      <div class="marquee-item"><span class="art-marcela">Marcela</span><span class="sep">✦</span></div>
     </div>
   </div>
+  <span class="marquee-glow-line"></span>
 </div>
 
 <!-- ══════════════════════════════════
