@@ -124,28 +124,45 @@
       background: var(--bg2);
       padding: 32px 0;
       text-align: center;
+      overflow: hidden;
     }
     .proof-strip p {
       font-size: 11px; text-transform: uppercase;
       letter-spacing: 2.5px; color: #444;
       margin-bottom: 20px;
     }
-    .proof-names {
-      display: flex; flex-wrap: wrap;
-      justify-content: center; gap: 12px;
+    .marquee-track {
+      display: flex;
+      width: max-content;
+      animation: marquee-scroll 28s linear infinite;
     }
-    .proof-names span {
-      font-size: 14px; font-weight: 600;
-      color: #666;
-      padding: 4px 0;
+    .marquee-track:hover { animation-play-state: paused; }
+    .marquee-group {
+      display: flex;
+      align-items: center;
+      gap: 0;
     }
-    .proof-names span.sep { color: #222; }
-    .proof-placeholder {
-      background: rgba(136,255,0,.04);
-      border: 1px dashed rgba(136,255,0,.2);
-      border-radius: 8px;
-      padding: 12px 24px;
-      font-size: 13px; color: rgba(136,255,0,.5);
+    .marquee-item {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      padding: 0 32px;
+      white-space: nowrap;
+      font-size: 18px;
+      font-weight: 800;
+      letter-spacing: .5px;
+      color: #fff;
+      text-transform: uppercase;
+    }
+    .marquee-item .dot {
+      width: 6px; height: 6px;
+      border-radius: 50%;
+      background: #88FF00;
+      flex-shrink: 0;
+    }
+    @keyframes marquee-scroll {
+      0%   { transform: translateX(0); }
+      100% { transform: translateX(-50%); }
     }
 
     /* ─── BENEFITS STRIP ─── */
@@ -993,10 +1010,35 @@
 
 <!-- ══ PROVA SOCIAL ══ -->
 <div class="proof-strip">
-  <div class="wrap">
-    <p>Artistas distribuídos por Bia Song</p>
-    <div class="proof-names">
-      <div class="proof-placeholder">[ Nomes dos artistas em breve ]</div>
+  <p>Artistas distribuídos por Bia Song</p>
+  <div class="marquee-track">
+    <div class="marquee-group">
+      <div class="marquee-item"><span class="dot"></span>Djonga</div>
+      <div class="marquee-item"><span class="dot"></span>MC Braz</div>
+      <div class="marquee-item"><span class="dot"></span>Eduardinho dos Teclados</div>
+      <div class="marquee-item"><span class="dot"></span>Obra Digital</div>
+      <div class="marquee-item"><span class="dot"></span>Djonga</div>
+      <div class="marquee-item"><span class="dot"></span>MC Braz</div>
+      <div class="marquee-item"><span class="dot"></span>Eduardinho dos Teclados</div>
+      <div class="marquee-item"><span class="dot"></span>Obra Digital</div>
+      <div class="marquee-item"><span class="dot"></span>Djonga</div>
+      <div class="marquee-item"><span class="dot"></span>MC Braz</div>
+      <div class="marquee-item"><span class="dot"></span>Eduardinho dos Teclados</div>
+      <div class="marquee-item"><span class="dot"></span>Obra Digital</div>
+    </div>
+    <div class="marquee-group" aria-hidden="true">
+      <div class="marquee-item"><span class="dot"></span>Djonga</div>
+      <div class="marquee-item"><span class="dot"></span>MC Braz</div>
+      <div class="marquee-item"><span class="dot"></span>Eduardinho dos Teclados</div>
+      <div class="marquee-item"><span class="dot"></span>Obra Digital</div>
+      <div class="marquee-item"><span class="dot"></span>Djonga</div>
+      <div class="marquee-item"><span class="dot"></span>MC Braz</div>
+      <div class="marquee-item"><span class="dot"></span>Eduardinho dos Teclados</div>
+      <div class="marquee-item"><span class="dot"></span>Obra Digital</div>
+      <div class="marquee-item"><span class="dot"></span>Djonga</div>
+      <div class="marquee-item"><span class="dot"></span>MC Braz</div>
+      <div class="marquee-item"><span class="dot"></span>Eduardinho dos Teclados</div>
+      <div class="marquee-item"><span class="dot"></span>Obra Digital</div>
     </div>
   </div>
 </div>

@@ -246,33 +246,46 @@
       border-bottom: 1px solid var(--border);
       padding: 28px 0;
       text-align: center;
+      overflow: hidden;
     }
     .authority-strip p {
       font-size: 11px; text-transform: uppercase;
       letter-spacing: 2px; color: #444;
-      margin-bottom: 16px;
+      margin-bottom: 20px;
     }
-    .authority-names {
-      display: flex; flex-wrap: wrap;
-      justify-content: center; gap: 10px;
+    .marquee-track {
+      display: flex;
+      width: max-content;
+      animation: marquee-scroll 28s linear infinite;
     }
-    .authority-names span {
-      background: var(--bg3);
-      border: 1px solid var(--border);
-      color: var(--muted);
-      font-size: 13px; font-weight: 600;
-      padding: 6px 16px; border-radius: 6px;
+    .marquee-track:hover { animation-play-state: paused; }
+    .marquee-group {
+      display: flex;
+      align-items: center;
+      gap: 0;
     }
-    .placeholder {
-      background: rgba(136,255,0,.04);
-      border: 1px dashed rgba(136,255,0,.25);
-      border-radius: 8px;
-      padding: 14px 20px;
-      font-size: 13px;
-      color: rgba(136,255,0,.6);
-      text-align: center;
+    .marquee-item {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      padding: 0 32px;
+      white-space: nowrap;
+      font-size: 18px;
+      font-weight: 800;
+      letter-spacing: .5px;
+      color: #fff;
+      text-transform: uppercase;
     }
-    .placeholder strong { display: block; font-weight: 700; margin-bottom: 4px; }
+    .marquee-item .dot {
+      width: 6px; height: 6px;
+      border-radius: 50%;
+      background: #88FF00;
+      flex-shrink: 0;
+    }
+    @keyframes marquee-scroll {
+      0%   { transform: translateX(0); }
+      100% { transform: translateX(-50%); }
+    }
 
     /* ───── PROBLEM SECTION ───── */
     .problem-section { text-align: center; }
@@ -1185,12 +1198,35 @@
      PROVA SOCIAL — ARTISTAS
 ══════════════════════════════════ -->
 <div class="authority-strip">
-  <div class="wrap">
-    <p>Artistas distribuídos por Bia Song</p>
-    <div class="authority-names">
-      <div class="placeholder">
-        <strong>[ Nomes dos artistas em breve ]</strong>
-      </div>
+  <p>Artistas distribuídos por Bia Song</p>
+  <div class="marquee-track">
+    <div class="marquee-group">
+      <div class="marquee-item"><span class="dot"></span>Djonga</div>
+      <div class="marquee-item"><span class="dot"></span>MC Braz</div>
+      <div class="marquee-item"><span class="dot"></span>Eduardinho dos Teclados</div>
+      <div class="marquee-item"><span class="dot"></span>Obra Digital</div>
+      <div class="marquee-item"><span class="dot"></span>Djonga</div>
+      <div class="marquee-item"><span class="dot"></span>MC Braz</div>
+      <div class="marquee-item"><span class="dot"></span>Eduardinho dos Teclados</div>
+      <div class="marquee-item"><span class="dot"></span>Obra Digital</div>
+      <div class="marquee-item"><span class="dot"></span>Djonga</div>
+      <div class="marquee-item"><span class="dot"></span>MC Braz</div>
+      <div class="marquee-item"><span class="dot"></span>Eduardinho dos Teclados</div>
+      <div class="marquee-item"><span class="dot"></span>Obra Digital</div>
+    </div>
+    <div class="marquee-group" aria-hidden="true">
+      <div class="marquee-item"><span class="dot"></span>Djonga</div>
+      <div class="marquee-item"><span class="dot"></span>MC Braz</div>
+      <div class="marquee-item"><span class="dot"></span>Eduardinho dos Teclados</div>
+      <div class="marquee-item"><span class="dot"></span>Obra Digital</div>
+      <div class="marquee-item"><span class="dot"></span>Djonga</div>
+      <div class="marquee-item"><span class="dot"></span>MC Braz</div>
+      <div class="marquee-item"><span class="dot"></span>Eduardinho dos Teclados</div>
+      <div class="marquee-item"><span class="dot"></span>Obra Digital</div>
+      <div class="marquee-item"><span class="dot"></span>Djonga</div>
+      <div class="marquee-item"><span class="dot"></span>MC Braz</div>
+      <div class="marquee-item"><span class="dot"></span>Eduardinho dos Teclados</div>
+      <div class="marquee-item"><span class="dot"></span>Obra Digital</div>
     </div>
   </div>
 </div>
