@@ -241,22 +241,48 @@
 
     /* ───── AUTHORITY STRIP ───── */
     .authority-strip {
-      background: var(--bg2);
-      border-top: 1px solid var(--border);
-      border-bottom: 1px solid var(--border);
-      padding: 28px 0;
+      background: #0d0d0d;
+      border-top: 1px solid rgba(136,255,0,.25);
+      border-bottom: 1px solid rgba(136,255,0,.25);
+      padding: 48px 0;
       text-align: center;
       overflow: hidden;
+      position: relative;
     }
-    .authority-strip p {
+    .authority-strip::before,
+    .authority-strip::after {
+      content: '';
+      position: absolute;
+      top: 0; bottom: 0;
+      width: 120px;
+      z-index: 2;
+      pointer-events: none;
+    }
+    .authority-strip::before {
+      left: 0;
+      background: linear-gradient(to right, #0d0d0d 0%, transparent 100%);
+    }
+    .authority-strip::after {
+      right: 0;
+      background: linear-gradient(to left, #0d0d0d 0%, transparent 100%);
+    }
+    .authority-strip-label {
       font-size: 11px; text-transform: uppercase;
-      letter-spacing: 2px; color: #444;
-      margin-bottom: 20px;
+      letter-spacing: 3px; color: #88FF00;
+      margin-bottom: 32px;
+      display: flex; align-items: center; justify-content: center; gap: 12px;
+    }
+    .authority-strip-label::before,
+    .authority-strip-label::after {
+      content: '';
+      display: block;
+      width: 40px; height: 1px;
+      background: rgba(136,255,0,.4);
     }
     .marquee-track {
       display: flex;
       width: max-content;
-      animation: marquee-scroll 36s linear infinite;
+      animation: marquee-scroll 40s linear infinite;
     }
     .marquee-track:hover { animation-play-state: paused; }
     .marquee-group {
@@ -267,57 +293,60 @@
     .marquee-item {
       display: flex;
       align-items: center;
-      gap: 14px;
-      padding: 0 36px;
+      gap: 16px;
+      padding: 0 40px;
       white-space: nowrap;
     }
     .marquee-item .dot {
-      width: 5px; height: 5px;
+      width: 4px; height: 4px;
       border-radius: 50%;
       background: #88FF00;
-      opacity: .5;
+      opacity: .6;
       flex-shrink: 0;
     }
     /* ── Typography per artist ── */
     .art-djonga {
-      font-size: 22px; font-weight: 900;
-      letter-spacing: -1px; text-transform: uppercase;
+      font-size: 28px; font-weight: 900;
+      letter-spacing: -1.5px; text-transform: uppercase;
       color: #fff; font-style: italic;
+      text-shadow: 0 0 30px rgba(255,255,255,.15);
     }
     .art-mcbraz {
-      font-size: 20px; font-weight: 800;
-      letter-spacing: 3px; text-transform: uppercase;
+      font-size: 24px; font-weight: 800;
+      letter-spacing: 4px; text-transform: uppercase;
       color: #88FF00;
+      text-shadow: 0 0 20px rgba(136,255,0,.4);
     }
     .art-eduardinho {
-      font-size: 17px; font-weight: 700;
+      font-size: 20px; font-weight: 700;
       letter-spacing: .5px; text-transform: none;
-      color: #ccc;
+      color: #d0d0d0;
     }
     .art-sofia {
-      font-size: 19px; font-weight: 300;
-      letter-spacing: 4px; text-transform: uppercase;
+      font-size: 23px; font-weight: 300;
+      letter-spacing: 5px; text-transform: uppercase;
       color: #fff; font-style: italic;
     }
     .art-julianaArv {
-      font-size: 18px; font-weight: 600;
-      letter-spacing: 1.5px; text-transform: lowercase;
-      color: #aaa;
+      font-size: 21px; font-weight: 600;
+      letter-spacing: 2px; text-transform: lowercase;
+      color: #bbb;
     }
     .art-mcdena {
-      font-size: 21px; font-weight: 900;
-      letter-spacing: 2px; text-transform: uppercase;
+      font-size: 26px; font-weight: 900;
+      letter-spacing: 3px; text-transform: uppercase;
       color: #fff;
+      text-shadow: 0 0 25px rgba(255,255,255,.1);
     }
     .art-ajuliacosta {
-      font-size: 16px; font-weight: 400;
-      letter-spacing: 2px; text-transform: lowercase;
-      color: #888; font-style: italic;
+      font-size: 19px; font-weight: 400;
+      letter-spacing: 2.5px; text-transform: lowercase;
+      color: #999; font-style: italic;
     }
     .art-marcela {
-      font-size: 20px; font-weight: 700;
-      letter-spacing: 6px; text-transform: uppercase;
-      color: #555;
+      font-size: 22px; font-weight: 700;
+      letter-spacing: 8px; text-transform: uppercase;
+      color: #777;
     }
     @keyframes marquee-scroll {
       0%   { transform: translateX(0); }
@@ -1235,7 +1264,7 @@
      PROVA SOCIAL — ARTISTAS
 ══════════════════════════════════ -->
 <div class="authority-strip">
-  <p>Artistas distribuídos por Bia Song</p>
+  <p class="authority-strip-label">Artistas distribuídos por Bia Song</p>
   <div class="marquee-track">
     <div class="marquee-group">
       <div class="marquee-item"><span class="dot"></span><span class="art-djonga">Djonga</span></div>
