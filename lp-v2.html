@@ -1934,24 +1934,32 @@
 <script>
 /* Autoplay depoimentos ao entrar na tela */
 (function(){
-  var obs = new IntersectionObserver(function(entries){
-    entries.forEach(function(e){
-      var v = e.target;
-      if(e.isIntersecting){
+  function checkVideos(){
+    document.querySelectorAll('.dep-video').forEach(function(v){
+      var rect = v.getBoundingClientRect();
+      var inView = rect.top < window.innerHeight - 80 && rect.bottom > 80;
+      if(inView){
         var start = parseFloat(v.dataset.start || 0);
-        if(v.currentTime < start) v.currentTime = start;
+        if(!v._ready){
+          v._ready = true;
+          v.currentTime = start;
+        }
         v.play().catch(function(){});
       } else {
         v.pause();
       }
     });
-  }, { threshold: 0.3 });
+  }
 
   document.querySelectorAll('.dep-video').forEach(function(v){
-    var start = parseFloat(v.dataset.start || 0);
-    v.addEventListener('loadedmetadata', function(){ v.currentTime = start; });
-    obs.observe(v);
+    v.addEventListener('loadedmetadata', function(){
+      v.currentTime = parseFloat(v.dataset.start || 0);
+      checkVideos();
+    });
   });
+
+  window.addEventListener('scroll', checkVideos, { passive: true });
+  setTimeout(checkVideos, 800);
 })();
 </script>
 
