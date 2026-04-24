@@ -699,9 +699,29 @@
     .dep-sound { position: absolute; bottom: 10px; right: 10px; width: 32px; height: 32px; border-radius: 50%; background: rgba(0,0,0,.55); border: none; cursor: pointer; display: flex; align-items: center; justify-content: center; z-index: 10; transition: background .2s; }
     .dep-sound:hover { background: rgba(0,0,0,.8); }
     .dep-sound svg { width: 16px; height: 16px; fill: #fff; }
-    .video-card .vc-info { padding: 0 8px 8px; }
-    .video-card .vc-name { font-size: 17px; font-weight: 700; color: #fff; margin-bottom: 4px; }
-    .video-card .vc-quote { font-size: 13px; color: #6b7280; line-height: 1.5; font-style: italic; }
+    .video-card .vc-frame { border-bottom: 2px solid transparent; border-image: linear-gradient(90deg,#73ff00,#00c8ff) 1; }
+    .video-card .vc-info { padding: 18px 12px 12px; position: relative; }
+    .video-card .vc-info::before {
+      content: '\201C';
+      position: absolute; top: 6px; left: 10px;
+      font-size: 52px; line-height: 1;
+      background: linear-gradient(135deg,#73ff00,#00c8ff);
+      -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+      font-family: Georgia, serif; font-weight: 900; opacity: .9;
+    }
+    .video-card .vc-quote {
+      font-size: 15px; color: #e5e7eb; line-height: 1.6;
+      font-style: italic; margin: 0 0 14px; padding-left: 28px;
+      position: relative;
+    }
+    .vc-footer { display: flex; align-items: center; justify-content: space-between; padding-left: 4px; }
+    .video-card .vc-name { font-size: 15px; font-weight: 700; color: #fff; margin: 0; letter-spacing: .3px; }
+    .vc-badge {
+      font-size: 11px; font-weight: 600; letter-spacing: .5px; text-transform: uppercase;
+      padding: 3px 10px; border-radius: 999px;
+      background: rgba(255,255,255,.07); color: #9ca3af;
+      border: 1px solid rgba(255,255,255,.10);
+    }
     @media(max-width: 768px) {
       .videos-grid { grid-template-columns: 1fr; gap: 16px; }
       .video-card { grid-column: span 1 !important; }
@@ -1689,8 +1709,11 @@
           <button class="dep-sound" title="Ativar som"><svg class="icon-muted" viewBox="0 0 24 24"><path d="M16.5 12A4.5 4.5 0 0014 7.97v8.05A4.5 4.5 0 0016.5 12zM19 12c0 2.63-1.58 4.9-3.87 5.89L13.5 16.3A7.5 7.5 0 0017 12a7.5 7.5 0 00-3.5-6.3l1.63-1.59A9 9 0 0119 12zM3 9v6h4l5 5V4L7 9H3zm11-.17v6.34A4.5 4.5 0 0014 12a4.5 4.5 0 000-3.17z"/><line x1="2" y1="2" x2="22" y2="22" stroke="#fff" stroke-width="2"/></svg><svg class="icon-sound" viewBox="0 0 24 24" style="display:none"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3A4.5 4.5 0 0014 7.97v8.05A4.5 4.5 0 0016.5 12zM14 3.23v2.06A7 7 0 0121 12a7 7 0 01-7 6.71v2.06A9 9 0 0023 12 9 9 0 0014 3.23z"/></svg></button>
         </div>
         <div class="vc-info">
-          <p class="vc-name">MC Braz</p>
           <p class="vc-quote">"A estratégia mudou meu game no Spotify..."</p>
+          <div class="vc-footer">
+            <p class="vc-name">MC Braz</p>
+            <span class="vc-badge">Funk · Spotify</span>
+          </div>
         </div>
       </div>
       <div class="video-card">
@@ -1700,8 +1723,11 @@
           <button class="dep-sound" title="Ativar som"><svg class="icon-muted" viewBox="0 0 24 24"><path d="M16.5 12A4.5 4.5 0 0014 7.97v8.05A4.5 4.5 0 0016.5 12zM19 12c0 2.63-1.58 4.9-3.87 5.89L13.5 16.3A7.5 7.5 0 0017 12a7.5 7.5 0 00-3.5-6.3l1.63-1.59A9 9 0 0119 12zM3 9v6h4l5 5V4L7 9H3zm11-.17v6.34A4.5 4.5 0 0014 12a4.5 4.5 0 000-3.17z"/><line x1="2" y1="2" x2="22" y2="22" stroke="#fff" stroke-width="2"/></svg><svg class="icon-sound" viewBox="0 0 24 24" style="display:none"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3A4.5 4.5 0 0014 7.97v8.05A4.5 4.5 0 0016.5 12zM14 3.23v2.06A7 7 0 0121 12a7 7 0 01-7 6.71v2.06A9 9 0 0023 12 9 9 0 0014 3.23z"/></svg></button>
         </div>
         <div class="vc-info">
-          <p class="vc-name">Sofia Brasil</p>
           <p class="vc-quote">"Agora meu lançamento tem estratégia e resultado real."</p>
+          <div class="vc-footer">
+            <p class="vc-name">Sofia Brasil</p>
+            <span class="vc-badge">Pop · Streaming</span>
+          </div>
         </div>
       </div>
       <div class="video-card">
@@ -1711,8 +1737,11 @@
           <button class="dep-sound" title="Ativar som"><svg class="icon-muted" viewBox="0 0 24 24"><path d="M16.5 12A4.5 4.5 0 0014 7.97v8.05A4.5 4.5 0 0016.5 12zM19 12c0 2.63-1.58 4.9-3.87 5.89L13.5 16.3A7.5 7.5 0 0017 12a7.5 7.5 0 00-3.5-6.3l1.63-1.59A9 9 0 0119 12zM3 9v6h4l5 5V4L7 9H3zm11-.17v6.34A4.5 4.5 0 0014 12a4.5 4.5 0 000-3.17z"/><line x1="2" y1="2" x2="22" y2="22" stroke="#fff" stroke-width="2"/></svg><svg class="icon-sound" viewBox="0 0 24 24" style="display:none"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3A4.5 4.5 0 0014 7.97v8.05A4.5 4.5 0 0016.5 12zM14 3.23v2.06A7 7 0 0121 12a7 7 0 01-7 6.71v2.06A9 9 0 0023 12 9 9 0 0014 3.23z"/></svg></button>
         </div>
         <div class="vc-info">
-          <p class="vc-name">Juliana Arv</p>
           <p class="vc-quote">"Entendi que não preciso viralizar para ter renda."</p>
+          <div class="vc-footer">
+            <p class="vc-name">Juliana Arv</p>
+            <span class="vc-badge">R&amp;B · Digital</span>
+          </div>
         </div>
       </div>
     </div>
