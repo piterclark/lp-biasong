@@ -1676,7 +1676,7 @@
     <div class="videos-grid">
       <div class="video-card">
         <div class="vc-frame">
-          <video class="dep-video" src="https://pub-9fc592d445b64bd78a40e4dddaece32a.r2.dev/dep-mcbraz.mp4" muted playsinline preload="metadata" controls data-start="11"></video>
+          <video class="dep-video" src="https://pub-9fc592d445b64bd78a40e4dddaece32a.r2.dev/dep-mcbraz.mp4" muted playsinline autoplay preload="auto" controls data-start="11"></video>
         </div>
         <div class="vc-info">
           <p class="vc-name">MC Braz</p>
@@ -1685,7 +1685,7 @@
       </div>
       <div class="video-card">
         <div class="vc-frame">
-          <video class="dep-video" src="https://pub-9fc592d445b64bd78a40e4dddaece32a.r2.dev/dep-sofia.mp4" muted playsinline preload="metadata" controls data-start="36"></video>
+          <video class="dep-video" src="https://pub-9fc592d445b64bd78a40e4dddaece32a.r2.dev/dep-sofia.mp4" muted playsinline autoplay preload="auto" controls data-start="36"></video>
         </div>
         <div class="vc-info">
           <p class="vc-name">Sofia Brasil</p>
@@ -1694,7 +1694,7 @@
       </div>
       <div class="video-card">
         <div class="vc-frame">
-          <video class="dep-video" src="https://pub-9fc592d445b64bd78a40e4dddaece32a.r2.dev/dep-juliana.mp4" muted playsinline preload="metadata" controls data-start="3"></video>
+          <video class="dep-video" src="https://pub-9fc592d445b64bd78a40e4dddaece32a.r2.dev/dep-juliana.mp4" muted playsinline autoplay preload="auto" controls data-start="3"></video>
         </div>
         <div class="vc-info">
           <p class="vc-name">Juliana Arv</p>
@@ -2271,16 +2271,16 @@
 <script>
 /* Autoplay depoimentos ao entrar na tela */
 (function(){
-  function checkVideos(){
-    document.querySelectorAll('.dep-video').forEach(function(v){
-      var rect = v.getBoundingClientRect();
-      var inView = rect.top < window.innerHeight - 80 && rect.bottom > 80;
-      if(inView){
-        var start = parseFloat(v.dataset.start || 0);
-        if(!v._ready){
-          v._ready = true;
-          v.currentTime = start;
-        }
+  var videos = document.querySelectorAll('.dep-video');
+
+  function isInView(v){
+    var r = v.getBoundingClientRect();
+    return r.top < window.innerHeight - 80 && r.bottom > 80;
+  }
+
+  function check(){
+    videos.forEach(function(v){
+      if(isInView(v)){
         v.play().catch(function(){});
       } else {
         v.pause();
@@ -2288,15 +2288,20 @@
     });
   }
 
-  document.querySelectorAll('.dep-video').forEach(function(v){
+  // Posicionar no timestamp certo e pausar tudo ao carregar
+  videos.forEach(function(v){
+    var start = parseFloat(v.dataset.start || 0);
     v.addEventListener('loadedmetadata', function(){
-      v.currentTime = parseFloat(v.dataset.start || 0);
-      checkVideos();
+      v.currentTime = start;
+      if(!isInView(v)) v.pause();
+    });
+    v.addEventListener('canplay', function(){
+      if(v.currentTime < start) v.currentTime = start;
+      if(!isInView(v)) v.pause();
     });
   });
 
-  window.addEventListener('scroll', checkVideos, { passive: true });
-  setTimeout(checkVideos, 800);
+  window.addEventListener('scroll', check, { passive: true });
 })();
 </script>
 
