@@ -696,6 +696,9 @@
     .dep-btn:hover { background: rgba(0,0,0,.15); }
     .dep-btn svg { width: 54px; height: 54px; opacity: 0; transition: opacity .25s; filter: drop-shadow(0 2px 8px rgba(0,0,0,.7)); }
     .dep-btn.paused svg { opacity: 1; }
+    .dep-sound { position: absolute; bottom: 10px; right: 10px; width: 32px; height: 32px; border-radius: 50%; background: rgba(0,0,0,.55); border: none; cursor: pointer; display: flex; align-items: center; justify-content: center; z-index: 10; transition: background .2s; }
+    .dep-sound:hover { background: rgba(0,0,0,.8); }
+    .dep-sound svg { width: 16px; height: 16px; fill: #fff; }
     .video-card .vc-info { padding: 0 8px 8px; }
     .video-card .vc-name { font-size: 17px; font-weight: 700; color: #fff; margin-bottom: 4px; }
     .video-card .vc-quote { font-size: 13px; color: #6b7280; line-height: 1.5; font-style: italic; }
@@ -1683,6 +1686,7 @@
         <div class="vc-frame">
           <video class="dep-video" src="https://pub-9fc592d445b64bd78a40e4dddaece32a.r2.dev/dep-mcbraz.mp4" muted playsinline preload="auto" data-start="11"></video>
           <div class="dep-btn paused"><svg viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="40" cy="40" r="40" fill="rgba(0,0,0,0.55)"/><polygon points="32,24 60,40 32,56" fill="#fff"/></svg></div>
+          <button class="dep-sound" title="Ativar som"><svg class="icon-muted" viewBox="0 0 24 24"><path d="M16.5 12A4.5 4.5 0 0014 7.97v8.05A4.5 4.5 0 0016.5 12zM19 12c0 2.63-1.58 4.9-3.87 5.89L13.5 16.3A7.5 7.5 0 0017 12a7.5 7.5 0 00-3.5-6.3l1.63-1.59A9 9 0 0119 12zM3 9v6h4l5 5V4L7 9H3zm11-.17v6.34A4.5 4.5 0 0014 12a4.5 4.5 0 000-3.17z"/><line x1="2" y1="2" x2="22" y2="22" stroke="#fff" stroke-width="2"/></svg><svg class="icon-sound" viewBox="0 0 24 24" style="display:none"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3A4.5 4.5 0 0014 7.97v8.05A4.5 4.5 0 0016.5 12zM14 3.23v2.06A7 7 0 0121 12a7 7 0 01-7 6.71v2.06A9 9 0 0023 12 9 9 0 0014 3.23z"/></svg></button>
         </div>
         <div class="vc-info">
           <p class="vc-name">MC Braz</p>
@@ -1693,6 +1697,7 @@
         <div class="vc-frame">
           <video class="dep-video" src="https://pub-9fc592d445b64bd78a40e4dddaece32a.r2.dev/dep-sofia.mp4" muted playsinline preload="auto" data-start="36"></video>
           <div class="dep-btn paused"><svg viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="40" cy="40" r="40" fill="rgba(0,0,0,0.55)"/><polygon points="32,24 60,40 32,56" fill="#fff"/></svg></div>
+          <button class="dep-sound" title="Ativar som"><svg class="icon-muted" viewBox="0 0 24 24"><path d="M16.5 12A4.5 4.5 0 0014 7.97v8.05A4.5 4.5 0 0016.5 12zM19 12c0 2.63-1.58 4.9-3.87 5.89L13.5 16.3A7.5 7.5 0 0017 12a7.5 7.5 0 00-3.5-6.3l1.63-1.59A9 9 0 0119 12zM3 9v6h4l5 5V4L7 9H3zm11-.17v6.34A4.5 4.5 0 0014 12a4.5 4.5 0 000-3.17z"/><line x1="2" y1="2" x2="22" y2="22" stroke="#fff" stroke-width="2"/></svg><svg class="icon-sound" viewBox="0 0 24 24" style="display:none"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3A4.5 4.5 0 0014 7.97v8.05A4.5 4.5 0 0016.5 12zM14 3.23v2.06A7 7 0 0121 12a7 7 0 01-7 6.71v2.06A9 9 0 0023 12 9 9 0 0014 3.23z"/></svg></button>
         </div>
         <div class="vc-info">
           <p class="vc-name">Sofia Brasil</p>
@@ -1703,6 +1708,7 @@
         <div class="vc-frame">
           <video class="dep-video" src="https://pub-9fc592d445b64bd78a40e4dddaece32a.r2.dev/dep-juliana.mp4" muted playsinline preload="auto" data-start="3"></video>
           <div class="dep-btn paused"><svg viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="40" cy="40" r="40" fill="rgba(0,0,0,0.55)"/><polygon points="32,24 60,40 32,56" fill="#fff"/></svg></div>
+          <button class="dep-sound" title="Ativar som"><svg class="icon-muted" viewBox="0 0 24 24"><path d="M16.5 12A4.5 4.5 0 0014 7.97v8.05A4.5 4.5 0 0016.5 12zM19 12c0 2.63-1.58 4.9-3.87 5.89L13.5 16.3A7.5 7.5 0 0017 12a7.5 7.5 0 00-3.5-6.3l1.63-1.59A9 9 0 0119 12zM3 9v6h4l5 5V4L7 9H3zm11-.17v6.34A4.5 4.5 0 0014 12a4.5 4.5 0 000-3.17z"/><line x1="2" y1="2" x2="22" y2="22" stroke="#fff" stroke-width="2"/></svg><svg class="icon-sound" viewBox="0 0 24 24" style="display:none"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3A4.5 4.5 0 0014 7.97v8.05A4.5 4.5 0 0016.5 12zM14 3.23v2.06A7 7 0 0121 12a7 7 0 01-7 6.71v2.06A9 9 0 0023 12 9 9 0 0014 3.23z"/></svg></button>
         </div>
         <div class="vc-info">
           <p class="vc-name">Juliana Arv</p>
@@ -2277,13 +2283,19 @@
 </script>
 
 <script>
-/* Depoimentos: autoplay por scroll + botão play/pause customizado */
+/* Depoimentos: autoplay por scroll + botão play/pause + botão de som */
 (function(){
   function setBtn(v, playing){
     var btn = v.parentElement.querySelector('.dep-btn');
     if(!btn) return;
     if(playing){ btn.classList.remove('paused'); }
     else { btn.classList.add('paused'); }
+  }
+
+  function setSoundBtn(soundBtn, muted){
+    if(!soundBtn) return;
+    soundBtn.querySelector('.icon-muted').style.display = muted ? '' : 'none';
+    soundBtn.querySelector('.icon-sound').style.display  = muted ? 'none' : '';
   }
 
   var obs = new IntersectionObserver(function(entries){
@@ -2306,11 +2318,23 @@
     v.addEventListener('play',  function(){ setBtn(v, true); });
     v.addEventListener('pause', function(){ setBtn(v, false); });
 
-    var btn = v.parentElement.querySelector('.dep-btn');
-    if(btn){
-      btn.addEventListener('click', function(){
+    var frame = v.parentElement;
+
+    var playBtn = frame.querySelector('.dep-btn');
+    if(playBtn){
+      playBtn.addEventListener('click', function(){
         if(v.paused){ v.play().catch(function(){}); }
         else { v.pause(); }
+      });
+    }
+
+    var soundBtn = frame.querySelector('.dep-sound');
+    if(soundBtn){
+      setSoundBtn(soundBtn, true);
+      soundBtn.addEventListener('click', function(e){
+        e.stopPropagation();
+        v.muted = !v.muted;
+        setSoundBtn(soundBtn, v.muted);
       });
     }
   });
