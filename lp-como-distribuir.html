@@ -702,9 +702,27 @@
     .video-card .vc-info { padding: 0 8px 8px; }
     .video-card .vc-name { font-size: 17px; font-weight: 700; color: #fff; margin-bottom: 4px; }
     .video-card .vc-quote { font-size: 13px; color: #6b7280; line-height: 1.5; font-style: italic; }
+    /* dots carrossel */
+    .dep-dots { display: none; justify-content: center; gap: 8px; margin-top: 20px; }
+    .dep-dot { width: 8px; height: 8px; border-radius: 50%; background: rgba(255,255,255,.25); border: none; cursor: pointer; padding: 0; transition: background .2s, transform .2s; }
+    .dep-dot.active { background: #73ff00; transform: scale(1.25); }
     @media(max-width: 768px) {
-      .videos-grid { grid-template-columns: 1fr; gap: 16px; }
-      .video-card { grid-column: span 1 !important; }
+      .videos-grid {
+        display: flex;
+        overflow-x: scroll;
+        scroll-snap-type: x mandatory;
+        -webkit-overflow-scrolling: touch;
+        gap: 16px;
+        padding: 0 24px 12px;
+        scrollbar-width: none;
+      }
+      .videos-grid::-webkit-scrollbar { display: none; }
+      .video-card {
+        grid-column: unset !important;
+        flex: 0 0 85vw;
+        scroll-snap-align: center;
+      }
+      .dep-dots { display: flex; }
     }
 
     /* ───── OFFER ───── */
@@ -1716,6 +1734,11 @@
         </div>
       </div>
     </div>
+    <div class="dep-dots">
+      <button class="dep-dot active" data-idx="0"></button>
+      <button class="dep-dot" data-idx="1"></button>
+      <button class="dep-dot" data-idx="2"></button>
+    </div>
   </div>
 </section>
 
@@ -2278,6 +2301,32 @@
     localStorage.removeItem(STORAGE_KEY);
     clearInterval(positionSaver); positionSaver = null;
     hideBar(); updatePlayBtn(false);
+  });
+})();
+</script>
+
+<script>
+/* Carrossel mobile — bolinhas */
+(function(){
+  var grid = document.querySelector('.videos-grid');
+  var dots = document.querySelectorAll('.dep-dot');
+  if(!grid || !dots.length) return;
+  var cards = grid.querySelectorAll('.video-card');
+  function updateDots(){
+    var center = grid.scrollLeft + grid.clientWidth / 2;
+    var closest = 0, minDist = Infinity;
+    cards.forEach(function(c, i){
+      var dist = Math.abs(c.offsetLeft + c.offsetWidth / 2 - center);
+      if(dist < minDist){ minDist = dist; closest = i; }
+    });
+    dots.forEach(function(d, i){ d.classList.toggle('active', i === closest); });
+  }
+  grid.addEventListener('scroll', updateDots, { passive: true });
+  dots.forEach(function(d){
+    d.addEventListener('click', function(){
+      var idx = parseInt(d.dataset.idx);
+      cards[idx].scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
+    });
   });
 })();
 </script>
