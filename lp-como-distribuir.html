@@ -691,6 +691,7 @@
       background: #18181b; margin-bottom: 16px;
     }
     .video-card .vc-frame iframe { width: 100%; height: 100%; border: none; display: block; }
+    .video-card .vc-frame video { width: 100%; height: 100%; display: block; object-fit: cover; background: #000; }
     .video-card .vc-info { padding: 0 8px 8px; }
     .video-card .vc-name { font-size: 17px; font-weight: 700; color: #fff; margin-bottom: 4px; }
     .video-card .vc-quote { font-size: 13px; color: #6b7280; line-height: 1.5; font-style: italic; }
@@ -1676,7 +1677,7 @@
     <div class="videos-grid">
       <div class="video-card">
         <div class="vc-frame">
-          <video class="dep-video" src="https://pub-9fc592d445b64bd78a40e4dddaece32a.r2.dev/dep-mcbraz.mp4" muted playsinline autoplay preload="auto" controls data-start="11"></video>
+          <video class="dep-video" src="https://pub-9fc592d445b64bd78a40e4dddaece32a.r2.dev/dep-mcbraz.mp4" muted playsinline preload="auto" controls data-start="11"></video>
         </div>
         <div class="vc-info">
           <p class="vc-name">MC Braz</p>
@@ -1685,7 +1686,7 @@
       </div>
       <div class="video-card">
         <div class="vc-frame">
-          <video class="dep-video" src="https://pub-9fc592d445b64bd78a40e4dddaece32a.r2.dev/dep-sofia.mp4" muted playsinline autoplay preload="auto" controls data-start="36"></video>
+          <video class="dep-video" src="https://pub-9fc592d445b64bd78a40e4dddaece32a.r2.dev/dep-sofia.mp4" muted playsinline preload="auto" controls data-start="36"></video>
         </div>
         <div class="vc-info">
           <p class="vc-name">Sofia Brasil</p>
@@ -1694,7 +1695,7 @@
       </div>
       <div class="video-card">
         <div class="vc-frame">
-          <video class="dep-video" src="https://pub-9fc592d445b64bd78a40e4dddaece32a.r2.dev/dep-juliana.mp4" muted playsinline autoplay preload="auto" controls data-start="3"></video>
+          <video class="dep-video" src="https://pub-9fc592d445b64bd78a40e4dddaece32a.r2.dev/dep-juliana.mp4" muted playsinline preload="auto" controls data-start="3"></video>
         </div>
         <div class="vc-info">
           <p class="vc-name">Juliana Arv</p>
@@ -2271,37 +2272,23 @@
 <script>
 /* Autoplay depoimentos ao entrar na tela */
 (function(){
-  var videos = document.querySelectorAll('.dep-video');
-
-  function isInView(v){
-    var r = v.getBoundingClientRect();
-    return r.top < window.innerHeight - 80 && r.bottom > 80;
-  }
-
-  function check(){
-    videos.forEach(function(v){
-      if(isInView(v)){
+  var obs = new IntersectionObserver(function(entries){
+    entries.forEach(function(entry){
+      var v = entry.target;
+      var start = parseFloat(v.dataset.start || 0);
+      if(entry.isIntersecting){
+        if(!v._seeked){ v._seeked = true; v.currentTime = start; }
         v.play().catch(function(){});
       } else {
         v.pause();
       }
     });
-  }
+  }, { threshold: 0.25 });
 
-  // Posicionar no timestamp certo e pausar tudo ao carregar
-  videos.forEach(function(v){
-    var start = parseFloat(v.dataset.start || 0);
-    v.addEventListener('loadedmetadata', function(){
-      v.currentTime = start;
-      if(!isInView(v)) v.pause();
-    });
-    v.addEventListener('canplay', function(){
-      if(v.currentTime < start) v.currentTime = start;
-      if(!isInView(v)) v.pause();
-    });
+  document.querySelectorAll('.dep-video').forEach(function(v){
+    v.muted = true;
+    obs.observe(v);
   });
-
-  window.addEventListener('scroll', check, { passive: true });
 })();
 </script>
 
