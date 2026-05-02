@@ -1592,7 +1592,7 @@
         <p class="ri-copy">Menos que uma assinatura do Spotify. Com uma diferença: em vez de pagar pra <strong>ouvir</strong> a música dos outros — você começa a <em>receber pela sua</em>.</p>
       </div>
       <!-- SUBSTITUA O href PELO LINK DE CHECKOUT DA HOTMART -->
-      <a href="#LINK-HOTMART-AQUI" class="btn-primary" style="display:block;text-align:center;font-size:18px;padding:20px;">
+      <a href="https://pay.hotmart.com/R105255212H?checkoutMode=10" class="btn-primary" style="display:block;text-align:center;font-size:18px;padding:20px;">
         Quero minha música no Spotify esta semana
       </a>
       <div class="guarantee">
@@ -1830,7 +1830,7 @@
 
 <script>
 (function(){
-  var CHECKOUT_URL = '#LINK-HOTMART-AQUI';
+  var CHECKOUT_URL = 'https://pay.hotmart.com/R105255212H?checkoutMode=10';
 
   var overlay  = document.getElementById('hotmart-modal-overlay');
   var content  = document.getElementById('hotmart-modal-content');
@@ -1867,7 +1867,7 @@
   document.addEventListener('keydown', function(e){ if(e.key === 'Escape') closeModal(); });
 
   document.addEventListener('click', function(e){
-    var el = e.target.closest('a[href="#checkout"], a[href="#LINK-HOTMART-AQUI"], .btn-primary, .bio-cta');
+    var el = e.target.closest('a[href="#checkout"], a[href="https://pay.hotmart.com/R105255212H?checkoutMode=10"], .btn-primary, .bio-cta');
     if(!el) return;
     if(el.id === 'close-modal-btn') return;
     e.preventDefault();
