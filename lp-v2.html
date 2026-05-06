@@ -2057,19 +2057,52 @@
       <div style="font-size:36px;font-weight:900;color:#fff;line-height:1;">R$ 87<span style="font-size:18px;">,00</span></div>
       <div style="font-size:12px;font-weight:700;color:#88FF00;letter-spacing:1px;margin-top:6px;">40% OFF — só agora</div>
     </div>
-    <a href="https://pay.hotmart.com/R105255212H?checkoutMode=10&offDiscount=40" style="display:block;background:linear-gradient(135deg,#88FF00,#00CCFF);color:#000;font-weight:800;font-size:16px;padding:16px;border-radius:12px;text-decoration:none;margin-bottom:14px;">Quero distribuir por R$87 agora</a>
+    <button id="exit-cta-btn" style="display:block;width:100%;background:linear-gradient(135deg,#88FF00,#00CCFF);color:#000;font-weight:800;font-size:16px;padding:16px;border-radius:12px;border:none;cursor:pointer;margin-bottom:14px;">Quero distribuir por R$87 agora</button>
     <button onclick="document.getElementById('exit-overlay').style.display='none'" style="background:none;border:none;color:#555;font-size:13px;cursor:pointer;text-decoration:underline;">Não, vou continuar sem distribuir</button>
   </div>
 </div>
 <script>
 (function(){
+  var EXIT_URL = 'https://pay.hotmart.com/R105255212H?checkoutMode=10&offDiscount=40';
   var shown = false;
+
   document.addEventListener('mouseleave', function(e){
     if(e.clientY <= 0 && !shown){
       shown = true;
       document.getElementById('exit-overlay').style.display = 'flex';
     }
   });
+
+  document.getElementById('exit-cta-btn').addEventListener('click', function(){
+    document.getElementById('exit-overlay').style.display = 'none';
+    window._exitIntentUrl = EXIT_URL;
+    var overlay = document.getElementById('hotmart-modal-overlay');
+    if(overlay){
+      overlay.style.display = 'flex';
+      setTimeout(function(){
+        overlay.style.opacity = '1';
+        document.getElementById('hotmart-modal-content').style.transform = 'scale(1)';
+      }, 10);
+    }
+  });
+
+  var form = document.getElementById('modal-checkout-form');
+  if(form){
+    form.addEventListener('submit', function(){
+      if(window._exitIntentUrl){
+        var SHEETS_URL = 'https://script.google.com/macros/s/AKfycbz4cqIy86uxJYgUScm-nwI7PyS-RGf2vI1rKHQmN_xCgW_UqzIOvTFDbk6VpQc9OgnBzA/exec';
+        var name  = document.getElementById('mc-name').value;
+        var tel   = document.getElementById('mc-phone').value.replace(/\D/g,'');
+        var email = document.getElementById('mc-email').value;
+        try {
+          fetch(SHEETS_URL, { method:'POST', mode:'no-cors', body: JSON.stringify({name:name, phone:tel, email:email, source:'EXIT-INTENT-LP2'}) });
+        } catch(err){}
+        setTimeout(function(){ window.location.href = window._exitIntentUrl; }, 300);
+        window._exitIntentUrl = null;
+        return false;
+      }
+    }, true);
+  }
 })();
 </script>
 
