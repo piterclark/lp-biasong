@@ -2084,12 +2084,16 @@
     showExit();
   });
 
-  /* Mobile: troca de aba/app — mostra ao retornar */
+  /* Mobile: troca de aba/app — visibilitychange (Android/Chrome) */
   var wasHidden = false;
   document.addEventListener('visibilitychange', function(){
     if(document.hidden){ wasHidden = true; }
     else if(wasHidden){ wasHidden = false; showExit(); }
   });
+
+  /* Mobile: Safari iOS — blur/focus da janela (tab switcher, trocar app) */
+  window.addEventListener('blur', function(){ wasHidden = true; });
+  window.addEventListener('focus', function(){ if(wasHidden){ wasHidden = false; showExit(); } });
 
   document.getElementById('exit-cta-btn').addEventListener('click', function(){
     document.getElementById('exit-overlay').style.display = 'none';
