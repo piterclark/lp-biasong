@@ -2211,13 +2211,16 @@
               '&email=' + encodeURIComponent(email) +
               '&tel=' + encodeURIComponent(tel);
 
-    /* Envia lead para Google Sheets (não bloqueia o redirecionamento) */
-    fetch(SHEETS_URL, {
-      method: 'POST',
-      body: JSON.stringify({ name: name, phone: tel, email: email, source: 'LP1' })
-    }).catch(function(){});
+    /* Envia lead para Google Sheets e redireciona independente do resultado */
+    try {
+      fetch(SHEETS_URL, {
+        method: 'POST',
+        mode: 'no-cors',
+        body: JSON.stringify({ name: name, phone: tel, email: email, source: 'LP1' })
+      });
+    } catch(err) {}
 
-    window.location.href = url;
+    setTimeout(function(){ window.location.href = url; }, 300);
   });
 })();
 </script>

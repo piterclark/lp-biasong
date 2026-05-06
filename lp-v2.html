@@ -1893,12 +1893,15 @@
               '&email=' + encodeURIComponent(email) +
               '&tel=' + encodeURIComponent(tel);
 
-    fetch(SHEETS_URL, {
-      method: 'POST',
-      body: JSON.stringify({ name: name, phone: tel, email: email, source: 'LP2' })
-    }).catch(function(){});
+    try {
+      fetch(SHEETS_URL, {
+        method: 'POST',
+        mode: 'no-cors',
+        body: JSON.stringify({ name: name, phone: tel, email: email, source: 'LP2' })
+      });
+    } catch(err) {}
 
-    window.location.href = url;
+    setTimeout(function(){ window.location.href = url; }, 300);
   });
 })();
 </script>
