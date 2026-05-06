@@ -1582,7 +1582,7 @@
         <li><span class="chk">✓</span> Checklist completo para lançar sua música sem erro</li>
         <li><span class="chk">✓</span> <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" style="display:inline-block;vertical-align:middle;margin-right:4px;flex-shrink:0"><defs><linearGradient id="giftGradLv2" x1="0" y1="0" x2="24" y2="24" gradientUnits="userSpaceOnUse"><stop offset="0%" stop-color="#88FF00"/><stop offset="100%" stop-color="#0077FF"/></linearGradient></defs><rect x="3" y="10" width="18" height="11" rx="1.5" stroke="url(#giftGradLv2)" stroke-width="1.8" fill="none"/><rect x="1" y="6" width="22" height="5" rx="1.5" stroke="url(#giftGradLv2)" stroke-width="1.8" fill="none"/><line x1="12" y1="6" x2="12" y2="21" stroke="url(#giftGradLv2)" stroke-width="1.8"/><path d="M12 6 C12 6 9 3 7.5 4.5 C6 6 8 6 12 6Z" stroke="url(#giftGradLv2)" stroke-width="1.5" fill="none"/><path d="M12 6 C12 6 15 3 16.5 4.5 C18 6 16 6 12 6Z" stroke="url(#giftGradLv2)" stroke-width="1.5" fill="none"/></svg> Bônus: indicação exclusiva de distribuidora sem taxa mensal — só para alunos</li>
       </ul>
-      <div class="price-from">De R$ 397,00</div>
+      <div class="price-from">De R$ 147,00</div>
       <div class="price-installment-row">
         <span class="price-por">por 12x</span>
         <span class="price-installment-num">R$ 8,09</span>
@@ -2040,6 +2040,34 @@
         v.muted = !v.muted;
         setSoundBtn(soundBtn, v.muted);
       });
+    }
+  });
+})();
+</script>
+
+<!-- ══ EXIT INTENT ══ -->
+<div id="exit-overlay" style="display:none;position:fixed;inset:0;background:rgba(0,0,0,.85);z-index:9999;align-items:center;justify-content:center;">
+  <div style="background:#111;border:1px solid rgba(136,255,0,.3);border-radius:20px;max-width:480px;width:90%;padding:40px 32px;text-align:center;position:relative;">
+    <button onclick="document.getElementById('exit-overlay').style.display='none'" style="position:absolute;top:14px;right:18px;background:none;border:none;color:#555;font-size:22px;cursor:pointer;">✕</button>
+    <div style="font-size:13px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:#88FF00;margin-bottom:12px;">Espera um segundo</div>
+    <h2 style="font-size:24px;font-weight:900;color:#fff;line-height:1.2;margin-bottom:12px;">Sua música ainda não está<br>nas plataformas.</h2>
+    <p style="font-size:15px;color:#9ca3af;line-height:1.6;margin-bottom:24px;">Cada dia sem distribuição é um dia sem royalties. Antes de ir, aqui está uma condição especial só para você.</p>
+    <div style="background:rgba(136,255,0,.06);border:1px solid rgba(136,255,0,.15);border-radius:12px;padding:20px;margin-bottom:24px;">
+      <div style="font-size:13px;color:#555;text-decoration:line-through;margin-bottom:4px;">De R$ 147,00</div>
+      <div style="font-size:36px;font-weight:900;color:#fff;line-height:1;">R$ 87<span style="font-size:18px;">,00</span></div>
+      <div style="font-size:12px;font-weight:700;color:#88FF00;letter-spacing:1px;margin-top:6px;">40% OFF — só agora</div>
+    </div>
+    <a href="https://pay.hotmart.com/R105255212H?checkoutMode=10&offDiscount=40" style="display:block;background:linear-gradient(135deg,#88FF00,#00CCFF);color:#000;font-weight:800;font-size:16px;padding:16px;border-radius:12px;text-decoration:none;margin-bottom:14px;">Quero distribuir por R$87 agora</a>
+    <button onclick="document.getElementById('exit-overlay').style.display='none'" style="background:none;border:none;color:#555;font-size:13px;cursor:pointer;text-decoration:underline;">Não, vou continuar sem distribuir</button>
+  </div>
+</div>
+<script>
+(function(){
+  var shown = false;
+  document.addEventListener('mouseleave', function(e){
+    if(e.clientY <= 0 && !shown){
+      shown = true;
+      document.getElementById('exit-overlay').style.display = 'flex';
     }
   });
 })();
