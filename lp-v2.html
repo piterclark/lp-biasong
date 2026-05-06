@@ -2088,8 +2088,10 @@
 
   var form = document.getElementById('modal-checkout-form');
   if(form){
-    form.addEventListener('submit', function(){
+    form.addEventListener('submit', function(e){
       if(window._exitIntentUrl){
+        e.preventDefault();
+        e.stopImmediatePropagation();
         var SHEETS_URL = 'https://script.google.com/macros/s/AKfycbz4cqIy86uxJYgUScm-nwI7PyS-RGf2vI1rKHQmN_xCgW_UqzIOvTFDbk6VpQc9OgnBzA/exec';
         var name  = document.getElementById('mc-name').value;
         var tel   = document.getElementById('mc-phone').value.replace(/\D/g,'');
@@ -2097,9 +2099,9 @@
         try {
           fetch(SHEETS_URL, { method:'POST', mode:'no-cors', body: JSON.stringify({name:name, phone:tel, email:email, source:'EXIT-INTENT-LP2'}) });
         } catch(err){}
-        setTimeout(function(){ window.location.href = window._exitIntentUrl; }, 300);
+        var url = window._exitIntentUrl;
         window._exitIntentUrl = null;
-        return false;
+        setTimeout(function(){ window.location.href = url; }, 300);
       }
     }, true);
   }
