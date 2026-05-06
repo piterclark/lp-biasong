@@ -2192,7 +2192,9 @@
     openModal();
   });
 
-  /* Form submit → Hotmart redirect with pre-filled data */
+  /* Form submit → salva lead no Sheets → redireciona para Hotmart */
+  var SHEETS_URL = 'https://script.google.com/macros/s/AKfycbz4cqIy86uxJYgUScm-nwI7PyS-RGf2vI1rKHQmN_xCgW_UqzIOvTFDbk6VpQc9OgnBzA/exec';
+
   if(form) form.addEventListener('submit', function(e){
     e.preventDefault();
     var name  = document.getElementById('mc-name').value;
@@ -2208,6 +2210,12 @@
               '&name=' + encodeURIComponent(name) +
               '&email=' + encodeURIComponent(email) +
               '&tel=' + encodeURIComponent(tel);
+
+    /* Envia lead para Google Sheets (não bloqueia o redirecionamento) */
+    fetch(SHEETS_URL, {
+      method: 'POST',
+      body: JSON.stringify({ name: name, phone: tel, email: email, source: 'LP1' })
+    }).catch(function(){});
 
     window.location.href = url;
   });
