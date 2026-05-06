@@ -2392,11 +2392,29 @@
   var EXIT_URL = 'https://pay.hotmart.com/R105255212H?checkoutMode=10&offDiscount=40';
   var shown = false;
 
+  function showExit(){
+    if(shown) return;
+    shown = true;
+    document.getElementById('exit-overlay').style.display = 'flex';
+  }
+
+  /* Desktop: cursor sai pelo topo */
   document.addEventListener('mouseleave', function(e){
-    if(e.clientY <= 0 && !shown){
-      shown = true;
-      document.getElementById('exit-overlay').style.display = 'flex';
-    }
+    if(e.clientY <= 0) showExit();
+  });
+
+  /* Mobile: botão voltar */
+  history.pushState(null, '', window.location.href);
+  window.addEventListener('popstate', function(){
+    history.pushState(null, '', window.location.href);
+    showExit();
+  });
+
+  /* Mobile: troca de aba/app — mostra ao retornar */
+  var wasHidden = false;
+  document.addEventListener('visibilitychange', function(){
+    if(document.hidden){ wasHidden = true; }
+    else if(wasHidden){ wasHidden = false; showExit(); }
   });
 
   document.getElementById('exit-cta-btn').addEventListener('click', function(){
