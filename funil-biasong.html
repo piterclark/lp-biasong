@@ -5,711 +5,407 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Funil Bia Song — CDM</title>
   <style>
-    * { margin: 0; padding: 0; box-sizing: border-box; }
-    body {
-      background: #080808;
-      color: #fff;
-      font-family: 'Inter', system-ui, sans-serif;
-      min-height: 100vh;
-      padding: 40px 24px;
-    }
+    *{margin:0;padding:0;box-sizing:border-box;}
+    body{background:#0a0a0a;color:#fff;font-family:'Inter',system-ui,sans-serif;padding:40px 24px;min-height:100vh;}
 
-    h1 {
-      text-align: center;
-      font-size: 22px;
-      font-weight: 800;
-      margin-bottom: 8px;
-      background: linear-gradient(135deg,#88FF00,#00CCFF);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-    }
-    .subtitle {
-      text-align: center;
-      font-size: 13px;
-      color: #555;
-      margin-bottom: 48px;
-    }
+    h1{text-align:center;font-size:20px;font-weight:900;margin-bottom:6px;background:linear-gradient(135deg,#88FF00,#00CCFF);-webkit-background-clip:text;-webkit-text-fill-color:transparent;}
+    .sub{text-align:center;font-size:12px;color:#444;margin-bottom:48px;}
 
-    /* ── LAYOUT ── */
-    .funnel {
-      display: flex;
-      align-items: flex-start;
-      gap: 0;
-      overflow-x: auto;
-      padding-bottom: 24px;
-    }
+    /* ─── CANVAS ─── */
+    .canvas{position:relative;width:100%;overflow-x:auto;}
+    .flow{display:flex;align-items:center;justify-content:center;gap:0;min-width:1100px;padding:20px 40px;}
 
-    /* ── COLUNAS ── */
-    .col {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: 12px;
-      min-width: 160px;
-      flex-shrink: 0;
-    }
-    .col-label {
-      font-size: 10px;
-      font-weight: 700;
-      letter-spacing: 1.5px;
-      text-transform: uppercase;
-      color: #333;
-      margin-bottom: 4px;
-    }
-
-    /* ── CONECTOR ── */
-    .connector {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      flex-direction: column;
-      min-width: 60px;
-      flex-shrink: 0;
-      padding-top: 80px;
-      gap: 4px;
-    }
-    .connector .line {
-      width: 40px;
-      height: 2px;
-      background: #333;
-    }
-    .connector .label {
-      font-size: 9px;
-      color: #444;
-      letter-spacing: 1px;
-      text-transform: uppercase;
-    }
-    .connector .arrow {
-      font-size: 14px;
-      color: #333;
-    }
-
-    /* ── NODOS ── */
-    .node {
-      border-radius: 14px;
-      padding: 16px 14px;
-      width: 155px;
-      cursor: pointer;
-      transition: transform .2s, box-shadow .2s;
-      text-decoration: none;
-    }
-    .node:hover { transform: translateY(-3px); }
-
-    .node-title {
-      font-size: 12px;
-      font-weight: 800;
-      margin-bottom: 6px;
-      line-height: 1.3;
-    }
-    .node-desc {
-      font-size: 10px;
-      line-height: 1.5;
-      opacity: .75;
-    }
-    .node-tag {
-      display: inline-block;
-      font-size: 9px;
-      font-weight: 700;
-      letter-spacing: 1px;
-      text-transform: uppercase;
-      padding: 2px 8px;
-      border-radius: 20px;
-      margin-bottom: 8px;
-    }
+    /* ─── BOXES ─── */
+    .box{border-radius:12px;padding:14px 16px;cursor:pointer;transition:all .2s;position:relative;}
+    .box:hover{transform:translateY(-2px);}
+    .box-title{font-size:12px;font-weight:800;line-height:1.3;margin-bottom:5px;}
+    .box-desc{font-size:10px;line-height:1.5;opacity:.65;}
+    .badge{display:inline-block;font-size:9px;font-weight:700;letter-spacing:.8px;text-transform:uppercase;padding:2px 8px;border-radius:20px;margin-bottom:8px;}
 
     /* TRAFFIC */
-    .node-traffic {
-      background: rgba(255,255,255,.05);
-      border: 1px solid rgba(255,255,255,.08);
-      color: #9ca3af;
-      width: 130px;
-    }
+    .traffic-col{display:flex;flex-direction:column;gap:8px;min-width:130px;}
+    .box-traffic{background:#111;border:1px solid #1e1e1e;color:#6b7280;width:130px;padding:10px 12px;}
+    .box-traffic .box-title{font-size:11px;color:#9ca3af;}
 
     /* LP */
-    .node-lp {
-      background: linear-gradient(135deg,rgba(136,255,0,.12),rgba(0,204,255,.08));
-      border: 1px solid rgba(136,255,0,.35);
-      color: #fff;
-    }
-    .node-lp .node-tag { background: rgba(136,255,0,.15); color: #88FF00; }
+    .box-lp{background:linear-gradient(135deg,rgba(136,255,0,.1),rgba(0,204,255,.07));border:1.5px solid rgba(136,255,0,.3);min-width:170px;}
+    .box-lp .badge{background:rgba(136,255,0,.12);color:#88FF00;}
 
     /* DECISION */
-    .node-decision {
-      background: rgba(0,119,255,.12);
-      border: 2px solid rgba(0,119,255,.4);
-      border-radius: 8px;
-      color: #fff;
-      clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
-      width: 120px;
-      height: 80px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      text-align: center;
-      font-size: 12px;
-      font-weight: 800;
-      color: #60a5fa;
-      padding: 0;
-    }
+    .diamond{width:110px;height:110px;background:rgba(0,119,255,.1);border:2px solid rgba(0,119,255,.35);transform:rotate(45deg);display:flex;align-items:center;justify-content:center;flex-shrink:0;transition:all .2s;cursor:pointer;}
+    .diamond:hover{background:rgba(0,119,255,.18);border-color:rgba(0,119,255,.6);}
+    .diamond-inner{transform:rotate(-45deg);text-align:center;padding:4px;}
+    .diamond-inner .d-title{font-size:12px;font-weight:800;color:#60a5fa;line-height:1.2;}
+    .diamond-inner .d-sub{font-size:9px;color:#3b82f6;margin-top:2px;}
 
     /* UPSELL */
-    .node-upsell {
-      background: linear-gradient(135deg,rgba(136,255,0,.10),rgba(0,204,255,.06));
-      border: 1px solid rgba(136,255,0,.25);
-      color: #fff;
-    }
-    .node-upsell .node-tag { background: rgba(136,255,0,.12); color: #88FF00; }
+    .box-upsell{background:linear-gradient(135deg,rgba(136,255,0,.08),rgba(0,204,255,.05));border:1.5px solid rgba(136,255,0,.2);min-width:155px;}
+    .box-upsell .badge{background:rgba(136,255,0,.1);color:#88FF00;}
 
-    /* UPSELL-B (trilha não comprou) */
-    .node-upsell-b {
-      background: rgba(255,100,100,.08);
-      border: 1px solid rgba(255,100,100,.25);
-      color: #fff;
-    }
-    .node-upsell-b .node-tag { background: rgba(255,100,100,.12); color: #ff6464; }
+    /* UPSELL B */
+    .box-upsell-b{background:rgba(255,90,90,.07);border:1.5px solid rgba(255,90,90,.2);min-width:155px;}
+    .box-upsell-b .badge{background:rgba(255,90,90,.1);color:#f87171;}
 
     /* MENTORIA */
-    .node-mentoria {
-      background: linear-gradient(135deg,rgba(136,255,0,.15),rgba(0,255,180,.08));
-      border: 1px solid rgba(136,255,0,.4);
-      color: #fff;
-    }
-    .node-mentoria .node-tag { background: rgba(136,255,0,.2); color: #88FF00; }
+    .box-mentoria{background:linear-gradient(135deg,rgba(136,255,0,.12),rgba(0,255,160,.06));border:1.5px solid rgba(136,255,0,.35);min-width:155px;}
+    .box-mentoria .badge{background:rgba(136,255,0,.15);color:#88FF00;}
 
     /* MANYCHAT */
-    .node-manychat {
-      background: rgba(180,0,255,.08);
-      border: 1px solid rgba(180,0,255,.25);
-      color: #fff;
-      width: 140px;
-    }
-    .node-manychat .node-tag { background: rgba(180,0,255,.12); color: #c084fc; }
+    .box-manychat{background:rgba(168,85,247,.08);border:1.5px solid rgba(168,85,247,.2);min-width:140px;}
+    .box-manychat .badge{background:rgba(168,85,247,.12);color:#c084fc;}
 
-    /* ── SPLIT VERTICAL ── */
-    .split {
-      display: flex;
-      flex-direction: column;
-      gap: 20px;
-      align-items: center;
-    }
-    .split-label {
-      font-size: 9px;
-      font-weight: 700;
-      letter-spacing: 1px;
-      text-transform: uppercase;
-      padding: 2px 8px;
-      border-radius: 20px;
-    }
-    .split-sim { background: rgba(136,255,0,.12); color: #88FF00; }
-    .split-nao { background: rgba(255,100,100,.12); color: #ff6464; }
+    /* ─── ARROWS ─── */
+    .arrow{display:flex;flex-direction:column;align-items:center;justify-content:center;padding:0 4px;flex-shrink:0;}
+    .arrow-line{width:32px;height:2px;background:#2a2a2a;}
+    .arrow-head{width:0;height:0;border-top:5px solid transparent;border-bottom:5px solid transparent;border-left:8px solid #2a2a2a;}
+    .arrow-label{font-size:9px;font-weight:700;letter-spacing:.5px;text-transform:uppercase;margin-bottom:4px;}
+    .arrow-sim{color:#88FF00;}
+    .arrow-nao{color:#f87171;}
+    .arrow-green .arrow-line,.arrow-green .arrow-head{background:#88FF00;border-left-color:#88FF00;}
+    .arrow-red .arrow-line,.arrow-red .arrow-head{background:#f87171;border-left-color:#f87171;}
 
-    /* ── BADGE LINK ── */
-    .node-link {
-      display: inline-block;
-      margin-top: 8px;
-      font-size: 9px;
-      font-weight: 600;
-      color: #555;
-      text-decoration: none;
-      padding: 2px 6px;
-      border: 1px solid #222;
-      border-radius: 6px;
-      transition: color .2s, border-color .2s;
-    }
-    .node-link:hover { color: #88FF00; border-color: #88FF00; }
+    /* ─── SPLIT ─── */
+    .split-col{display:flex;flex-direction:column;gap:16px;align-items:center;}
+    .split-row{display:flex;align-items:center;gap:0;}
 
-    /* ── LEGENDA ── */
-    .legend {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 16px;
-      justify-content: center;
-      margin-top: 48px;
-      padding-top: 32px;
-      border-top: 1px solid #1a1a1a;
-    }
-    .legend-item {
-      display: flex;
-      align-items: center;
-      gap: 8px;
-      font-size: 11px;
-      color: #555;
-    }
-    .legend-dot {
-      width: 12px;
-      height: 12px;
-      border-radius: 3px;
-    }
+    /* ─── CONNECTOR VERTICAL ─── */
+    .v-connect{width:2px;background:#2a2a2a;margin:0 auto;}
+    .v-label{font-size:9px;font-weight:700;letter-spacing:.5px;text-transform:uppercase;text-align:center;margin:4px 0;}
 
-    /* ── SECTION HEADER ── */
-    .section-header {
-      font-size: 9px;
-      font-weight: 700;
-      letter-spacing: 2px;
-      text-transform: uppercase;
-      color: #333;
-      text-align: center;
-      margin-bottom: 12px;
-    }
+    /* ─── TOOLTIP ─── */
+    .tooltip{display:none;position:absolute;top:calc(100% + 10px);left:50%;transform:translateX(-50%);z-index:100;background:#111;border:1px solid #2a2a2a;border-radius:12px;padding:14px 16px;width:220px;font-size:10px;color:#9ca3af;line-height:1.6;box-shadow:0 20px 40px rgba(0,0,0,.6);}
+    .tooltip strong{color:#fff;display:block;margin-bottom:6px;font-size:11px;}
+    .tooltip ul{padding-left:14px;}
+    .tooltip li{margin-bottom:3px;}
+    .tooltip .tip-link{display:inline-block;margin-top:8px;font-size:9px;color:#88FF00;text-decoration:none;border:1px solid rgba(136,255,0,.3);padding:2px 8px;border-radius:6px;}
+    .tooltip .tip-link:hover{background:rgba(136,255,0,.1);}
+    .box:hover .tooltip,.diamond:hover .tooltip{display:block;}
 
-    /* ── VERTICAL LINES ── */
-    .vline {
-      width: 2px;
-      height: 20px;
-      background: #222;
-      margin: 0 auto;
-    }
+    /* ─── STATUS BAR ─── */
+    .status-bar{max-width:800px;margin:48px auto 0;padding:24px;background:#0d0d0d;border:1px solid #1a1a1a;border-radius:16px;}
+    .status-bar h3{font-size:10px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:#333;margin-bottom:16px;}
+    .status-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;}
+    .status-item{background:#111;border-radius:8px;padding:10px 12px;font-size:10px;}
+    .status-item .s-title{font-weight:700;margin-bottom:3px;}
+    .status-item .s-val{color:#555;}
+    .ok .s-title{color:#88FF00;}
+    .pending .s-title{color:#fbbf24;}
+    .pending{border:1px solid rgba(251,191,36,.15);}
 
-    .arrow-down {
-      font-size: 12px;
-      color: #333;
-      text-align: center;
-    }
-
-    /* ── WRAPPER SPLIT ── */
-    .split-wrapper {
-      display: flex;
-      flex-direction: column;
-      gap: 0;
-      align-items: center;
-    }
-    .split-branches {
-      display: flex;
-      gap: 20px;
-      align-items: flex-start;
-    }
-    .branch {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: 8px;
-    }
-
-    /* step numbers */
-    .step-num {
-      width: 22px;
-      height: 22px;
-      border-radius: 50%;
-      background: #1a1a1a;
-      border: 1px solid #333;
-      font-size: 10px;
-      font-weight: 800;
-      color: #555;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      margin-bottom: 4px;
-    }
-
-    /* TOOLTIP / DETAIL */
-    details {
-      width: 155px;
-    }
-    details summary {
-      list-style: none;
-      cursor: pointer;
-    }
-    details summary::-webkit-details-marker { display: none; }
-    .detail-panel {
-      background: #111;
-      border: 1px solid #222;
-      border-radius: 10px;
-      padding: 10px 12px;
-      margin-top: 6px;
-      font-size: 10px;
-      color: #9ca3af;
-      line-height: 1.6;
-    }
-    .detail-panel strong { color: #fff; display: block; margin-bottom: 4px; }
-    .detail-panel ul { padding-left: 14px; }
-    .detail-panel li { margin-bottom: 3px; }
+    /* ─── BOTTOM PATH ─── */
+    .bottom-path{display:flex;align-items:center;justify-content:center;gap:12px;margin:24px 0;padding:16px 24px;background:#0d0d0d;border:1px dashed #1e1e1e;border-radius:12px;max-width:700px;margin:32px auto 0;}
+    .bp-label{font-size:10px;color:#555;}
+    .bp-arrow{font-size:10px;color:#333;}
   </style>
 </head>
 <body>
 
-<h1>Funil de Vendas — Bia Song CDM</h1>
-<p class="subtitle">Como Distribuir uma Música · Clique em cada etapa para ver os detalhes</p>
+<h1>Funil de Vendas — Bia Song</h1>
+<p class="sub">Como Distribuir uma Música · Passe o mouse sobre cada etapa para ver os detalhes</p>
 
-<!-- ════════════════════════════
-     FLUXO PRINCIPAL
-════════════════════════════ -->
-<div style="overflow-x:auto;padding-bottom:32px;">
-<div style="display:flex;align-items:flex-start;gap:0;min-width:1200px;padding:0 32px;">
+<div class="canvas">
+<div class="flow">
 
-  <!-- ── COL 1: TRÁFEGO ── -->
-  <div class="col">
-    <div class="col-label">Tráfego</div>
-    <div class="step-num">1</div>
-    <details>
-      <summary>
-        <div class="node node-traffic">
-          <div class="node-title">Anúncios</div>
-          <div class="node-desc">Meta Ads, Google Ads, TikTok</div>
-        </div>
-      </summary>
-      <div class="detail-panel">
-        <strong>O que é</strong>
-        Tráfego pago. Anúncios que levam o artista até a LP.
-        <ul><li>Meta (Instagram/Facebook)</li><li>Google Ads</li><li>TikTok Ads</li></ul>
-      </div>
-    </details>
-    <details>
-      <summary>
-        <div class="node node-traffic">
-          <div class="node-title">Orgânico</div>
-          <div class="node-desc">Redes sociais, posts, stories</div>
-        </div>
-      </summary>
-      <div class="detail-panel">
-        <strong>O que é</strong>
-        Conteúdo gratuito da Bia no Instagram, YouTube e demais redes que gera visitas sem custo por clique.
-      </div>
-    </details>
-    <details>
-      <summary>
-        <div class="node node-traffic">
-          <div class="node-title">Email</div>
-          <div class="node-desc">Lista de emails da Bia</div>
-        </div>
-      </summary>
-      <div class="detail-panel">
-        <strong>O que é</strong>
-        Campanhas para a base de contatos já existente da Bia Song.
-      </div>
-    </details>
-    <details>
-      <summary>
-        <div class="node node-traffic">
-          <div class="node-title">SEO</div>
-          <div class="node-desc">Google orgânico</div>
-        </div>
-      </summary>
-      <div class="detail-panel">
-        <strong>O que é</strong>
-        Visitas vindas de buscas no Google sem pagar por anúncio.
-      </div>
-    </details>
-    <details>
-      <summary>
-        <div class="node node-traffic">
-          <div class="node-title">Remarketing</div>
-          <div class="node-desc">Quem visitou mas não comprou</div>
-        </div>
-      </summary>
-      <div class="detail-panel">
-        <strong>O que é</strong>
-        Anúncios mostrados para quem já visitou a LP mas não comprou. Alimentado pelo Manychat.
-      </div>
-    </details>
+  <!-- ══ 1. TRÁFEGO ══ -->
+  <div class="traffic-col">
+    <div style="font-size:9px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:#333;text-align:center;margin-bottom:4px;">Tráfego</div>
+    <div class="box box-traffic">
+      <div class="box-title">Anúncios</div>
+      <div class="box-desc">Meta · Google · TikTok</div>
+    </div>
+    <div class="box box-traffic">
+      <div class="box-title">Orgânico</div>
+      <div class="box-desc">Instagram · YouTube</div>
+    </div>
+    <div class="box box-traffic">
+      <div class="box-title">Email</div>
+      <div class="box-desc">Base da Bia Song</div>
+    </div>
+    <div class="box box-traffic">
+      <div class="box-title">SEO</div>
+      <div class="box-desc">Google orgânico</div>
+    </div>
+    <div class="box box-traffic">
+      <div class="box-title">Remarketing</div>
+      <div class="box-desc">Visitantes que não compraram</div>
+    </div>
   </div>
 
-  <!-- conector -->
-  <div class="connector">
-    <div class="line"></div>
-    <div class="label">Entra</div>
-    <div class="arrow">▶</div>
+  <!-- arrow -->
+  <div class="arrow">
+    <div style="font-size:9px;color:#333;margin-bottom:4px;">entra</div>
+    <div style="display:flex;align-items:center;">
+      <div class="arrow-line"></div>
+      <div class="arrow-head"></div>
+    </div>
   </div>
 
-  <!-- ── COL 2: LANDING PAGE ── -->
-  <div class="col">
-    <div class="col-label">Landing Page</div>
-    <div class="step-num">2</div>
-    <details>
-      <summary>
-        <div class="node node-lp">
-          <div class="node-tag">LP Principal</div>
-          <div class="node-title">Como Distribuir uma Música</div>
-          <div class="node-desc">VSL · Prova social · Preço R$97 · Exit intent R$87</div>
-          <a href="https://piterclark.github.io/lp-biasong/lp-como-distribuir.html" target="_blank" class="node-link">LP1 ↗</a>
-          <a href="https://piterclark.github.io/lp-biasong/lp-v2.html" target="_blank" class="node-link">LP2 ↗</a>
-        </div>
-      </summary>
-      <div class="detail-panel">
+  <!-- ══ 2. LANDING PAGE ══ -->
+  <div style="position:relative;">
+    <div style="font-size:9px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:#333;text-align:center;margin-bottom:8px;">Landing Page</div>
+    <div class="box box-lp">
+      <div class="badge">Workshop Principal</div>
+      <div class="box-title">Como Distribuir<br>uma Música</div>
+      <div class="box-desc">VSL · Prova social · Exit intent<br>De R$147 → Por R$97<br>Exit intent: R$87 (40% OFF)</div>
+      <div style="display:flex;gap:6px;margin-top:10px;">
+        <a href="https://piterclark.github.io/lp-biasong/lp-como-distribuir.html" target="_blank" style="font-size:9px;color:#88FF00;text-decoration:none;border:1px solid rgba(136,255,0,.3);padding:2px 8px;border-radius:6px;">LP1 ↗</a>
+        <a href="https://piterclark.github.io/lp-biasong/lp-v2.html" target="_blank" style="font-size:9px;color:#88FF00;text-decoration:none;border:1px solid rgba(136,255,0,.3);padding:2px 8px;border-radius:6px;">LP2 ↗</a>
+      </div>
+      <div class="tooltip">
         <strong>O que acontece aqui</strong>
         <ul>
           <li>Artista assiste ao VSL (vídeo de vendas)</li>
-          <li>Vê depoimentos, currículo do workshop e prova social</li>
-          <li>Clica em comprar → modal coleta Nome, Telefone e Email</li>
-          <li>Lead salvo no Google Sheets (aba Leads LP)</li>
-          <li>Redirecionado para o checkout da Hotmart (R$97)</li>
-          <li>Exit intent: se tentar sair, oferta de R$87 aparece</li>
+          <li>Vê depoimentos e currículo do workshop</li>
+          <li>Clica em comprar → modal coleta Nome, Tel e Email</li>
+          <li>Lead salvo no Google Sheets</li>
+          <li>Vai para checkout Hotmart (R$97)</li>
+          <li>Exit intent: oferta R$87 se tentar sair</li>
         </ul>
-        <strong style="margin-top:8px;">Preços</strong>
-        De R$147 → Por R$97 (34% OFF)<br>
-        Exit intent: R$87 (40% OFF)
       </div>
-    </details>
-  </div>
-
-  <!-- conector -->
-  <div class="connector">
-    <div class="line"></div>
-    <div class="label">Avança</div>
-    <div class="arrow">▶</div>
-  </div>
-
-  <!-- ── COL 3: DECISÃO COMPROU? ── -->
-  <div class="col" style="min-width:140px;">
-    <div class="col-label">Decisão</div>
-    <div class="step-num">3</div>
-    <div style="background:rgba(0,119,255,.12);border:2px solid rgba(0,119,255,.4);border-radius:10px;padding:14px;width:120px;text-align:center;">
-      <div style="font-size:11px;font-weight:800;color:#60a5fa;">Comprou?</div>
-      <div style="font-size:9px;color:#555;margin-top:4px;">Hotmart processa o pagamento</div>
-    </div>
-    <div style="display:flex;gap:8px;margin-top:4px;">
-      <span class="split-label split-sim">SIM</span>
-      <span class="split-label split-nao">NÃO</span>
     </div>
   </div>
 
-  <!-- conector SIM -->
-  <div class="connector">
-    <div class="line"></div>
-    <div class="label" style="color:#88FF00;">SIM</div>
-    <div class="arrow" style="color:#88FF00;">▶</div>
+  <!-- arrow -->
+  <div class="arrow">
+    <div style="font-size:9px;color:#333;margin-bottom:4px;">avança</div>
+    <div style="display:flex;align-items:center;">
+      <div class="arrow-line"></div>
+      <div class="arrow-head"></div>
+    </div>
   </div>
 
-  <!-- ── COL 4: UPSELL 1 ── -->
-  <div class="col">
-    <div class="col-label">Upsell 1</div>
-    <div class="step-num">4</div>
-    <details>
-      <summary>
-        <div class="node node-upsell">
-          <div class="node-tag">Pós-compra imediata</div>
-          <div class="node-title">Do Zero aos Charts</div>
-          <div class="node-desc">Widget 1-click Hotmart · 15% OFF · Quem comprou CDM</div>
-          <a href="https://piterclark.github.io/lp-biasong/upsell-1.html" target="_blank" class="node-link">Ver página ↗</a>
-        </div>
-      </summary>
-      <div class="detail-panel">
-        <strong>O que acontece aqui</strong>
+  <!-- ══ 3. DECISÃO COMPROU? ══ -->
+  <div style="position:relative;display:flex;flex-direction:column;align-items:center;gap:8px;">
+    <div style="font-size:9px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:#333;margin-bottom:4px;">Decisão</div>
+    <div class="diamond">
+      <div class="diamond-inner">
+        <div class="d-title">Comprou?</div>
+        <div class="d-sub">CDM</div>
+      </div>
+      <div class="tooltip" style="top:120px;">
+        <strong>Ponto de decisão</strong>
+        Hotmart processa o pagamento. Se aprovado, redireciona para o Upsell 1. Se não comprou, vai para automação Manychat.
+      </div>
+    </div>
+    <div style="display:flex;gap:12px;">
+      <span style="font-size:9px;font-weight:700;color:#88FF00;">SIM ↑</span>
+      <span style="font-size:9px;font-weight:700;color:#f87171;">NÃO ↓</span>
+    </div>
+  </div>
+
+  <!-- arrow SIM -->
+  <div class="arrow arrow-green">
+    <div class="arrow-label arrow-sim">SIM</div>
+    <div style="display:flex;align-items:center;">
+      <div class="arrow-line" style="background:#88FF00;"></div>
+      <div class="arrow-head" style="border-left-color:#88FF00;"></div>
+    </div>
+  </div>
+
+  <!-- ══ 4. UPSELL 1 ══ -->
+  <div style="position:relative;">
+    <div style="font-size:9px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:#333;text-align:center;margin-bottom:8px;">Upsell 1</div>
+    <div class="box box-upsell">
+      <div class="badge">Pós-compra imediata</div>
+      <div class="box-title">Do Zero<br>aos Charts</div>
+      <div class="box-desc">Widget 1-click Hotmart<br>15% OFF · Sem redigitar cartão</div>
+      <a href="https://piterclark.github.io/lp-biasong/upsell-1.html" target="_blank" style="display:inline-block;margin-top:8px;font-size:9px;color:#88FF00;text-decoration:none;border:1px solid rgba(136,255,0,.3);padding:2px 8px;border-radius:6px;">Ver página ↗</a>
+      <div class="tooltip">
+        <strong>Do Zero aos Charts (ZAC)</strong>
         <ul>
-          <li>Hotmart redireciona automaticamente após compra do CDM</li>
+          <li>Hotmart redireciona aqui após compra CDM</li>
+          <li>Widget 1-click: compra sem redigitar cartão</li>
           <li>Vídeo de vendas do ZAC</li>
-          <li>Widget 1-click: compra sem redigitar dados do cartão</li>
           <li>Preços a definir com Arthur</li>
         </ul>
         <strong style="margin-top:8px;">Navegação</strong>
-        SIM → Hotmart redireciona para Upsell 2.1<br>
-        NÃO → vai direto para Upsell 2.2
+        SIM → Hotmart vai para Upsell 2.1<br>
+        NÃO → vai para Upsell 2.2
       </div>
-    </details>
-  </div>
-
-  <!-- conector -->
-  <div class="connector">
-    <div class="line"></div>
-    <div class="label">Oferta ZAC</div>
-    <div class="arrow">▶</div>
-  </div>
-
-  <!-- ── COL 5: DECISÃO COMPROU ZAC? ── -->
-  <div class="col" style="min-width:140px;">
-    <div class="col-label">Decisão</div>
-    <div class="step-num">5</div>
-    <div style="background:rgba(0,119,255,.12);border:2px solid rgba(0,119,255,.4);border-radius:10px;padding:14px;width:120px;text-align:center;">
-      <div style="font-size:11px;font-weight:800;color:#60a5fa;">Comprou ZAC?</div>
-      <div style="font-size:9px;color:#555;margin-top:4px;">Do Zero aos Charts</div>
-    </div>
-    <div style="display:flex;gap:8px;margin-top:4px;">
-      <span class="split-label split-sim">SIM</span>
-      <span class="split-label split-nao">NÃO</span>
     </div>
   </div>
 
-  <!-- conector para split -->
-  <div class="connector">
-    <div class="line"></div>
-    <div class="arrow">▶</div>
+  <!-- arrow -->
+  <div class="arrow">
+    <div style="font-size:9px;color:#333;margin-bottom:4px;">oferta ZAC</div>
+    <div style="display:flex;align-items:center;">
+      <div class="arrow-line"></div>
+      <div class="arrow-head"></div>
+    </div>
   </div>
 
-  <!-- ── COL 6: UPSELL 2.1 e 2.2 ── -->
-  <div class="col" style="min-width:175px;gap:32px;">
-    <div class="col-label">Upsell 2</div>
-    <div style="display:flex;flex-direction:column;gap:8px;align-items:center;">
-      <span class="split-label split-sim">SIM — comprou ZAC</span>
-      <div class="step-num">6a</div>
-      <details>
-        <summary>
-          <div class="node node-upsell">
-            <div class="node-tag">Trilha A · CDM + ZAC</div>
-            <div class="node-title">Da Obra ao Fonograma</div>
-            <div class="node-desc">30% OFF · Para quem comprou CDM + ZAC</div>
-            <a href="https://piterclark.github.io/lp-biasong/upsell-2a.html" target="_blank" class="node-link">Ver página ↗</a>
-          </div>
-        </summary>
-        <div class="detail-panel">
-          <strong>O que acontece aqui</strong>
+  <!-- ══ 5. DECISÃO COMPROU ZAC? ══ -->
+  <div style="position:relative;display:flex;flex-direction:column;align-items:center;gap:8px;">
+    <div style="font-size:9px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:#333;margin-bottom:4px;">Decisão</div>
+    <div class="diamond">
+      <div class="diamond-inner">
+        <div class="d-title">Comprou<br>ZAC?</div>
+      </div>
+      <div class="tooltip" style="top:120px;">
+        <strong>Ponto de decisão</strong>
+        Se comprou ZAC → Hotmart redireciona para Upsell 2.1 (trilha A).<br><br>
+        Se não comprou → botão NÃO leva para Upsell 2.2 (trilha B).
+      </div>
+    </div>
+    <div style="display:flex;gap:12px;">
+      <span style="font-size:9px;font-weight:700;color:#88FF00;">SIM ↑</span>
+      <span style="font-size:9px;font-weight:700;color:#f87171;">NÃO ↓</span>
+    </div>
+  </div>
+
+  <!-- arrow -->
+  <div class="arrow">
+    <div style="font-size:9px;color:#333;margin-bottom:4px;">trilha</div>
+    <div style="display:flex;align-items:center;">
+      <div class="arrow-line"></div>
+      <div class="arrow-head"></div>
+    </div>
+  </div>
+
+  <!-- ══ 6. UPSELL 2.1 + 2.2 ══ -->
+  <div class="split-col">
+    <div style="font-size:9px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:#333;text-align:center;margin-bottom:4px;">Upsell 2</div>
+
+    <!-- 2.1 -->
+    <div style="position:relative;">
+      <div style="font-size:9px;color:#88FF00;text-align:center;margin-bottom:4px;">▲ SIM — comprou ZAC</div>
+      <div class="box box-upsell">
+        <div class="badge">Trilha A · CDM + ZAC</div>
+        <div class="box-title">Da Obra ao<br>Fonograma</div>
+        <div class="box-desc">30% OFF · Para quem tem CDM + ZAC</div>
+        <a href="https://piterclark.github.io/lp-biasong/upsell-2a.html" target="_blank" style="display:inline-block;margin-top:8px;font-size:9px;color:#88FF00;text-decoration:none;border:1px solid rgba(136,255,0,.3);padding:2px 8px;border-radius:6px;">Ver página ↗</a>
+        <div class="tooltip">
+          <strong>Upsell 2.1 — Trilha A</strong>
           <ul>
-            <li>Hotmart redireciona após compra do ZAC</li>
+            <li>Hotmart redireciona após compra ZAC</li>
             <li>Vídeo de vendas do OAF</li>
-            <li>Oferta de 30% OFF</li>
             <li>Contexto: você já tem CDM + ZAC</li>
+            <li>30% de desconto</li>
           </ul>
           <strong style="margin-top:8px;">Navegação</strong>
-          SIM/NÃO → Página da Mentoria (Trilha A)
+          SIM ou NÃO → Mentoria Trilha A
         </div>
-      </details>
+      </div>
     </div>
 
-    <div style="display:flex;flex-direction:column;gap:8px;align-items:center;margin-top:8px;">
-      <span class="split-label split-nao">NÃO — não comprou ZAC</span>
-      <div class="step-num">6b</div>
-      <details>
-        <summary>
-          <div class="node node-upsell-b">
-            <div class="node-tag">Trilha B · CDM apenas</div>
-            <div class="node-title">Da Obra ao Fonograma</div>
-            <div class="node-desc">30% OFF · Para quem comprou só CDM</div>
-            <a href="https://piterclark.github.io/lp-biasong/upsell-2b.html" target="_blank" class="node-link">Ver página ↗</a>
-          </div>
-        </summary>
-        <div class="detail-panel">
-          <strong>O que acontece aqui</strong>
+    <div style="height:16px;"></div>
+
+    <!-- 2.2 -->
+    <div style="position:relative;">
+      <div style="font-size:9px;color:#f87171;text-align:center;margin-bottom:4px;">▼ NÃO — não comprou ZAC</div>
+      <div class="box box-upsell-b">
+        <div class="badge">Trilha B · Só CDM</div>
+        <div class="box-title">Da Obra ao<br>Fonograma</div>
+        <div class="box-desc">30% OFF · Para quem tem só CDM</div>
+        <a href="https://piterclark.github.io/lp-biasong/upsell-2b.html" target="_blank" style="display:inline-block;margin-top:8px;font-size:9px;color:#f87171;text-decoration:none;border:1px solid rgba(255,90,90,.3);padding:2px 8px;border-radius:6px;">Ver página ↗</a>
+        <div class="tooltip">
+          <strong>Upsell 2.2 — Trilha B</strong>
           <ul>
             <li>Usuário clicou NÃO no upsell-1</li>
-            <li>Ainda vê oferta do OAF com abordagem diferente</li>
+            <li>Mesma oferta OAF com abordagem diferente</li>
             <li>Contexto: você tem só CDM</li>
+            <li>Aguardando vídeo do Arthur</li>
           </ul>
           <strong style="margin-top:8px;">Navegação</strong>
-          SIM/NÃO → Página da Mentoria (Trilha B)
+          SIM ou NÃO → Mentoria Trilha B
         </div>
-      </details>
+      </div>
     </div>
   </div>
 
-  <!-- conector -->
-  <div class="connector">
-    <div class="line"></div>
-    <div class="arrow">▶</div>
+  <!-- arrow -->
+  <div class="arrow">
+    <div style="font-size:9px;color:#333;margin-bottom:4px;">qualquer</div>
+    <div style="display:flex;align-items:center;">
+      <div class="arrow-line"></div>
+      <div class="arrow-head"></div>
+    </div>
   </div>
 
-  <!-- ── COL 7: MENTORIA ── -->
-  <div class="col">
-    <div class="col-label">Mentoria 2%</div>
-    <div class="step-num">7</div>
-    <details>
-      <summary>
-        <div class="node node-mentoria">
-          <div class="node-tag">Trilha A</div>
-          <div class="node-title">Mentoria Individual</div>
-          <div class="node-desc">Formulário de cadastro · Arthur/Bia entram em contato</div>
-          <a href="https://piterclark.github.io/lp-biasong/upsell-final-a.html" target="_blank" class="node-link">Ver página ↗</a>
-        </div>
-      </summary>
-      <div class="detail-panel">
-        <strong>O que acontece aqui</strong>
-        <ul>
-          <li>Não é checkout — é formulário de interesse</li>
-          <li>Coleta Nome, Email e WhatsApp</li>
-          <li>Lead salvo no Google Sheets (aba Mentoria)</li>
-          <li>Arthur/Bia entram em contato para agendar</li>
-        </ul>
-      </div>
-    </details>
+  <!-- ══ 7. MENTORIA ══ -->
+  <div class="split-col">
+    <div style="font-size:9px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:#333;text-align:center;margin-bottom:4px;">Mentoria 2%</div>
 
-    <details style="margin-top:8px;">
-      <summary>
-        <div class="node node-mentoria">
-          <div class="node-tag">Trilha B</div>
-          <div class="node-title">Mentoria Individual</div>
-          <div class="node-desc">Formulário de cadastro · Arthur/Bia entram em contato</div>
-          <a href="https://piterclark.github.io/lp-biasong/upsell-final-b.html" target="_blank" class="node-link">Ver página ↗</a>
+    <div style="position:relative;">
+      <div style="font-size:9px;color:#88FF00;text-align:center;margin-bottom:4px;">Trilha A</div>
+      <div class="box box-mentoria">
+        <div class="badge">Formulário de interesse</div>
+        <div class="box-title">Mentoria<br>Individual 2%</div>
+        <div class="box-desc">Sem checkout · Coleta contato<br>Arthur/Bia entram em contato</div>
+        <a href="https://piterclark.github.io/lp-biasong/upsell-final-a.html" target="_blank" style="display:inline-block;margin-top:8px;font-size:9px;color:#88FF00;text-decoration:none;border:1px solid rgba(136,255,0,.3);padding:2px 8px;border-radius:6px;">Ver página ↗</a>
+        <div class="tooltip">
+          <strong>Mentoria 2% — Trilha A</strong>
+          <ul>
+            <li>Não é checkout — é formulário</li>
+            <li>Coleta Nome, Email e WhatsApp</li>
+            <li>Lead salvo na aba Mentoria do Sheets</li>
+            <li>Arthur/Bia entram em contato</li>
+            <li>Venda feita por videochamada</li>
+          </ul>
         </div>
-      </summary>
-      <div class="detail-panel">
-        <strong>O que acontece aqui</strong>
-        <ul>
-          <li>Igual à Trilha A mas para quem não comprou ZAC</li>
-          <li>Dados identificados como MENTORIA-B na planilha</li>
-        </ul>
       </div>
-    </details>
+    </div>
+
+    <div style="height:16px;"></div>
+
+    <div style="position:relative;">
+      <div style="font-size:9px;color:#f87171;text-align:center;margin-bottom:4px;">Trilha B</div>
+      <div class="box box-mentoria">
+        <div class="badge">Formulário de interesse</div>
+        <div class="box-title">Mentoria<br>Individual 2%</div>
+        <div class="box-desc">Sem checkout · Coleta contato<br>Arthur/Bia entram em contato</div>
+        <a href="https://piterclark.github.io/lp-biasong/upsell-final-b.html" target="_blank" style="display:inline-block;margin-top:8px;font-size:9px;color:#88FF00;text-decoration:none;border:1px solid rgba(136,255,0,.3);padding:2px 8px;border-radius:6px;">Ver página ↗</a>
+        <div class="tooltip">
+          <strong>Mentoria 2% — Trilha B</strong>
+          <ul>
+            <li>Igual à Trilha A</li>
+            <li>Identificado como MENTORIA-B na planilha</li>
+            <li>Para quem não comprou ZAC</li>
+          </ul>
+        </div>
+      </div>
+    </div>
   </div>
 
-</div>
-</div>
+</div><!-- /flow -->
+</div><!-- /canvas -->
 
 <!-- ══ CAMINHO NÃO COMPROU ══ -->
-<div style="max-width:600px;margin:0 auto;text-align:center;padding:24px 0 0;">
-  <div style="font-size:10px;color:#333;letter-spacing:2px;text-transform:uppercase;margin-bottom:12px;">Caminho — Não Comprou o CDM</div>
-  <div style="display:flex;align-items:center;justify-content:center;gap:16px;">
-    <div style="font-size:11px;color:#555;">Landing Page</div>
-    <div style="color:#ff6464;font-size:11px;">NÃO comprou ▶</div>
-    <details>
-      <summary>
-        <div class="node node-manychat" style="text-align:left;">
-          <div class="node-tag">Automação</div>
-          <div class="node-title">Manychat</div>
-          <div class="node-desc">Sequência automática de follow-up e remarketing</div>
-        </div>
-      </summary>
-      <div class="detail-panel">
-        <strong>O que acontece aqui</strong>
+<div class="bottom-path">
+  <div style="font-size:10px;color:#6b7280;font-weight:600;">LP (não comprou)</div>
+  <div style="font-size:10px;color:#f87171;">NÃO ▶</div>
+  <div style="position:relative;">
+    <div class="box box-manychat" style="padding:12px 14px;">
+      <div class="badge">Automação</div>
+      <div class="box-title" style="font-size:11px;">Manychat</div>
+      <div class="box-desc">Follow-up automático</div>
+      <div class="tooltip">
+        <strong>Automação Manychat</strong>
         <ul>
           <li>Sequência de mensagens automáticas</li>
           <li>Lembra o artista da oferta</li>
-          <li>Redireciona para anúncios de remarketing</li>
+          <li>Redireciona para remarketing</li>
           <li>Configurado pelo Arthur</li>
         </ul>
       </div>
-    </details>
-    <div style="color:#555;font-size:11px;">▶ Remarketing</div>
+    </div>
   </div>
+  <div style="font-size:10px;color:#333;">▶</div>
+  <div style="font-size:10px;color:#6b7280;font-weight:600;">Remarketing → LP</div>
 </div>
 
-<!-- ══ LEGENDA ══ -->
-<div class="legend">
-  <div class="legend-item">
-    <div class="legend-dot" style="background:rgba(136,255,0,.4);border:1px solid rgba(136,255,0,.6);"></div>
-    <span>Página ativa com link</span>
-  </div>
-  <div class="legend-item">
-    <div class="legend-dot" style="background:rgba(255,100,100,.4);border:1px solid rgba(255,100,100,.6);"></div>
-    <span>Trilha B (não comprou ZAC)</span>
-  </div>
-  <div class="legend-item">
-    <div class="legend-dot" style="background:rgba(0,119,255,.4);border:1px solid rgba(0,119,255,.6);"></div>
-    <span>Ponto de decisão</span>
-  </div>
-  <div class="legend-item">
-    <div class="legend-dot" style="background:rgba(180,0,255,.4);border:1px solid rgba(180,0,255,.6);"></div>
-    <span>Automação externa (Manychat)</span>
-  </div>
-  <div class="legend-item" style="color:#555;">
-    💡 Clique em qualquer etapa para ver os detalhes
-  </div>
-</div>
-
-<!-- ══ STATUS DOS LINKS ══ -->
-<div style="max-width:700px;margin:40px auto 0;padding:24px;background:#0d0d0d;border:1px solid #1a1a1a;border-radius:16px;">
-  <div style="font-size:11px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:#333;margin-bottom:16px;">Status dos Links Hotmart</div>
-  <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;font-size:11px;">
-    <div style="background:#111;border-radius:8px;padding:10px;">
-      <div style="color:#88FF00;font-weight:700;margin-bottom:4px;">✅ LP1 + LP2</div>
-      <div style="color:#555;">pay.hotmart.com/R105255212H?checkoutMode=10</div>
-    </div>
-    <div style="background:#111;border-radius:8px;padding:10px;">
-      <div style="color:#88FF00;font-weight:700;margin-bottom:4px;">✅ Upsell 2A + 2B</div>
-      <div style="color:#555;">pay.hotmart.com/X105258923R</div>
-    </div>
-    <div style="background:#111;border-radius:8px;padding:10px;">
-      <div style="color:#88FF00;font-weight:700;margin-bottom:4px;">✅ Upsell 1</div>
-      <div style="color:#555;">Widget Hotmart Sales Funnel (1-click)</div>
-    </div>
-    <div style="background:#111;border-radius:8px;padding:10px;">
-      <div style="color:#88FF00;font-weight:700;margin-bottom:4px;">✅ Mentoria</div>
-      <div style="color:#555;">Formulário → Google Sheets (sem checkout)</div>
-    </div>
-    <div style="background:#111;border-radius:8px;padding:10px;border:1px solid rgba(255,200,0,.2);">
-      <div style="color:#fbbf24;font-weight:700;margin-bottom:4px;">⏳ Upsell 1 — Preços</div>
-      <div style="color:#555;">Aguardando Arthur: cheio, 12x, à vista</div>
-    </div>
-    <div style="background:#111;border-radius:8px;padding:10px;border:1px solid rgba(255,200,0,.2);">
-      <div style="color:#fbbf24;font-weight:700;margin-bottom:4px;">⏳ Upsell 2B — Vídeo</div>
-      <div style="color:#555;">Aguardando Arthur: link do YouTube</div>
-    </div>
+<!-- ══ STATUS ══ -->
+<div class="status-bar">
+  <h3>Status dos Links Hotmart</h3>
+  <div class="status-grid">
+    <div class="status-item ok"><div class="s-title">✅ LP1 + LP2 — Checkout</div><div class="s-val">pay.hotmart.com/R105255212H?checkoutMode=10</div></div>
+    <div class="status-item ok"><div class="s-title">✅ Upsell 1 — Widget</div><div class="s-val">Hotmart Sales Funnel (1-click)</div></div>
+    <div class="status-item ok"><div class="s-title">✅ Upsell 2A + 2B</div><div class="s-val">pay.hotmart.com/X105258923R</div></div>
+    <div class="status-item ok"><div class="s-title">✅ Mentoria — Formulário</div><div class="s-val">Google Sheets (sem checkout Hotmart)</div></div>
+    <div class="status-item pending"><div class="s-title">⏳ Upsell 1 — Preços</div><div class="s-val">Aguardando Arthur: preço cheio, 12x, à vista</div></div>
+    <div class="status-item pending"><div class="s-title">⏳ Upsell 2B — Vídeo</div><div class="s-val">Aguardando Arthur: link do YouTube</div></div>
+    <div class="status-item pending"><div class="s-title">⏳ Exit Intent R$87</div><div class="s-val">Aguardando Arthur: link checkout R$87</div></div>
+    <div class="status-item pending"><div class="s-title">⏳ Hostinger</div><div class="s-val">Upload final em cdm.biasong.com</div></div>
   </div>
 </div>
 
