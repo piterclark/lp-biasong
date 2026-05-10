@@ -299,7 +299,7 @@
         <div class="detail-chip">Vagas limitadas<span>por turma</span></div>
       </div>
 
-      <form action="#LINK-HOTMART-MT2" method="get" target="_blank" id="form-mt2">
+      <form id="form-mt2">
         <p class="form-title">Preencha para garantir sua vaga</p>
 
         <div class="form-group">
@@ -317,12 +317,17 @@
           <input type="tel" id="phone" name="whatsapp" placeholder="(11) 99999-9999" required />
         </div>
 
-        <button type="submit" class="btn-yes">
+        <button type="submit" class="btn-yes" id="btn-submit-mt2">
           ✅ SIM! Quero garantir minha vaga na Mentoria 2%
         </button>
+
+        <div id="success-mt2" style="display:none;background:rgba(136,255,0,.08);border:1px solid rgba(136,255,0,.3);border-radius:12px;padding:20px;text-align:center;margin-top:16px;">
+          <p style="color:#88FF00;font-weight:700;font-size:16px;margin-bottom:8px;">✅ Vaga solicitada com sucesso!</p>
+          <p style="color:#9ca3af;font-size:14px;">Em breve a equipe da Bia Song entrará em contato pelo WhatsApp informado.</p>
+        </div>
       </form>
 
-      <a href="#LINK-HOTMART-AQUI" class="btn-no">
+      <a href="javascript:void(0)" class="btn-no">
         Não, obrigado — quero acessar meus cursos agora
       </a>
 
@@ -334,6 +339,38 @@
     </div>
 
   </div>
+
+<script>
+(function(){
+  var SHEETS_URL = 'https://script.google.com/macros/s/AKfycbz4cqIy86uxJYgUScm-nwI7PyS-RGf2vI1rKHQmN_xCgW_UqzIOvTFDbk6VpQc9OgnBzA/exec';
+  var form = document.getElementById('form-mt2');
+  if(form){
+    form.addEventListener('submit', function(e){
+      e.preventDefault();
+      var name  = document.getElementById('name').value;
+      var email = document.getElementById('email').value;
+      var phone = document.getElementById('phone').value.replace(/\D/g,'');
+      var btn   = document.getElementById('btn-submit-mt2');
+      btn.disabled = true;
+      btn.textContent = 'Enviando...';
+      try {
+        fetch(SHEETS_URL, {
+          method: 'POST',
+          mode: 'no-cors',
+          body: JSON.stringify({ name: name, phone: phone, email: email, source: 'MENTORIA-B' })
+        });
+      } catch(err){}
+      setTimeout(function(){
+        form.querySelectorAll('input').forEach(function(i){ i.style.display='none'; });
+        form.querySelector('.form-title').style.display='none';
+        form.querySelectorAll('.form-group').forEach(function(g){ g.style.display='none'; });
+        btn.style.display='none';
+        document.getElementById('success-mt2').style.display='block';
+      }, 400);
+    });
+  }
+})();
+</script>
 
 </body>
 </html>
