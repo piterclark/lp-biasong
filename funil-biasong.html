@@ -10,10 +10,8 @@
     body{background:#fff;font-family:'Inter',system-ui,sans-serif;padding:32px 20px;}
     h1{text-align:center;font-size:14px;font-weight:700;color:#333;margin-bottom:4px;}
     .sub{text-align:center;font-size:11px;color:#bbb;margin-bottom:28px;}
-    .canvas{overflow-x:auto;overflow-y:visible;}
-
-    /* pendencias */
-    .pendencias{max-width:740px;margin:32px auto 0;background:#fafafa;border-radius:12px;border:1px solid #e8e8e8;padding:20px 24px;}
+    .canvas{overflow-x:auto;}
+    .pendencias{max-width:820px;margin:32px auto 0;background:#fafafa;border-radius:12px;border:1px solid #e8e8e8;padding:20px 24px;}
     .pend-title{font-size:10px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;color:#bbb;margin-bottom:14px;}
     .pend-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px;}
     .pend-item{border-radius:8px;padding:10px 12px;font-size:10px;}
@@ -30,183 +28,182 @@
 <body>
 
 <h1>Funil de Vendas — Bia Song · CDM</h1>
-<p class="sub">Clique em qualquer página para abrir</p>
+<p class="sub">7 páginas · 5 etapas · Clique em qualquer página para abrir</p>
 
 <div class="canvas">
-<svg width="1180" height="440" viewBox="0 0 1180 440" xmlns="http://www.w3.org/2000/svg" style="display:block;margin:0 auto;max-width:100%;">
-
-  <!-- DEFS -->
+<svg width="1320" height="500" viewBox="0 0 1320 500" xmlns="http://www.w3.org/2000/svg" style="display:block;margin:0 auto;max-width:100%;">
   <defs>
     <marker id="ag" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0,8 3,0 6" fill="#aaa"/></marker>
     <marker id="as" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0,8 3,0 6" fill="#2d7a3a"/></marker>
     <marker id="an" markerWidth="8" markerHeight="6" refX="7" refY="3" orient="auto"><polygon points="0 0,8 3,0 6" fill="#c0392b"/></marker>
-    <!-- drop shadow -->
-    <filter id="sh" x="-10%" y="-10%" width="120%" height="120%">
-      <feDropShadow dx="0" dy="1" stdDeviation="2" flood-color="#00000018"/>
-    </filter>
+    <filter id="sh"><feDropShadow dx="0" dy="1" stdDeviation="2" flood-color="#00000015"/></filter>
   </defs>
 
-  <!-- ══════════════════════════════════
-       TRAFFIC SOURCES (diamonds)
-  ══════════════════════════════════ -->
-  <!-- vertical bracket line -->
+  <!-- ══ TRÁFEGO ══ -->
   <line x1="80" y1="52" x2="80" y2="388" stroke="#ccc" stroke-width="1.5"/>
   <line x1="80" y1="52" x2="90" y2="52" stroke="#ccc" stroke-width="1.5"/>
   <line x1="80" y1="388" x2="90" y2="388" stroke="#ccc" stroke-width="1.5"/>
-  <line x1="80" y1="220" x2="120" y2="220" stroke="#ccc" stroke-width="1.5" marker-end="url(#ag)"/>
+  <line x1="80" y1="220" x2="118" y2="220" stroke="#ccc" stroke-width="1.5" marker-end="url(#ag)"/>
+  <text x="83" y="215" font-size="8" fill="#bbb" font-family="Inter,sans-serif">Entra</text>
 
-  <!-- diamond: Anúncios -->
   <polygon points="40,52 80,30 120,52 80,74" fill="#ebebeb" stroke="#ccc" stroke-width="1.5" filter="url(#sh)"/>
   <text x="80" y="56" text-anchor="middle" font-size="9" fill="#555" font-family="Inter,sans-serif" font-weight="600">Anúncios</text>
-
-  <!-- diamond: Orgânico -->
   <polygon points="40,118 80,96 120,118 80,140" fill="#ebebeb" stroke="#ccc" stroke-width="1.5" filter="url(#sh)"/>
   <text x="80" y="122" text-anchor="middle" font-size="9" fill="#555" font-family="Inter,sans-serif" font-weight="600">Orgânico</text>
-
-  <!-- diamond: Email -->
   <polygon points="40,184 80,162 120,184 80,206" fill="#ebebeb" stroke="#ccc" stroke-width="1.5" filter="url(#sh)"/>
   <text x="80" y="188" text-anchor="middle" font-size="9" fill="#555" font-family="Inter,sans-serif" font-weight="600">Email</text>
-
-  <!-- diamond: SEO -->
   <polygon points="40,254 80,232 120,254 80,276" fill="#ebebeb" stroke="#ccc" stroke-width="1.5" filter="url(#sh)"/>
   <text x="80" y="258" text-anchor="middle" font-size="9" fill="#555" font-family="Inter,sans-serif" font-weight="600">SEO</text>
+  <polygon points="40,324 80,302 120,324 80,346" fill="#ebebeb" stroke="#ccc" stroke-width="1.5" filter="url(#sh)"/>
+  <text x="80" y="324" text-anchor="middle" font-size="9" fill="#555" font-family="Inter,sans-serif" font-weight="600">Remarketing</text>
 
-  <!-- diamond: Remarketing -->
-  <polygon points="40,326 80,304 120,326 80,348" fill="#ebebeb" stroke="#ccc" stroke-width="1.5" filter="url(#sh)"/>
-  <text x="80" y="326" text-anchor="middle" font-size="9" fill="#555" font-family="Inter,sans-serif" font-weight="600">Remarketing</text>
-  <text x="80" y="337" text-anchor="middle" font-size="8" fill="#888" font-family="Inter,sans-serif"></text>
+  <!-- ══ LP1 + LP2 (stack) ══ -->
+  <!-- label A/B -->
+  <text x="204" y="158" text-anchor="middle" font-size="9" fill="#888" font-family="Inter,sans-serif" font-weight="700">A/B TEST</text>
 
-  <!-- label "Entra" -->
-  <text x="104" y="216" font-size="8" fill="#bbb" font-family="Inter,sans-serif">Entra</text>
+  <!-- LP2 (atrás) -->
+  <a href="https://piterclark.github.io/lp-biasong/lp-v2.html" target="_blank">
+    <rect x="128" y="168" width="148" height="80" rx="8" fill="#155226" stroke="#0e3d1c" stroke-width="1.5" filter="url(#sh)" opacity=".75"/>
+    <text x="202" y="196" text-anchor="middle" font-size="9" fill="rgba(255,255,255,.7)" font-family="Inter,sans-serif" font-weight="600">LP2 ↗</text>
+  </a>
 
-  <!-- ══════════════════════════════════
-       LANDING PAGE
-  ══════════════════════════════════ -->
+  <!-- LP1 (frente) -->
   <a href="https://piterclark.github.io/lp-biasong/lp-como-distribuir.html" target="_blank">
-    <rect x="130" y="178" width="148" height="84" rx="8" fill="#1e6b35" stroke="#155226" stroke-width="1.5" filter="url(#sh)"/>
-    <text x="204" y="200" text-anchor="middle" font-size="11" fill="#fff" font-family="Inter,sans-serif" font-weight="700">Landing Page</text>
-    <text x="204" y="214" text-anchor="middle" font-size="10" fill="#fff" font-family="Inter,sans-serif" font-weight="700">do CDM</text>
-    <text x="204" y="230" text-anchor="middle" font-size="8.5" fill="rgba(255,255,255,.7)" font-family="Inter,sans-serif">Workshop · VSL · R$97</text>
-    <text x="204" y="243" text-anchor="middle" font-size="8" fill="rgba(255,255,255,.55)" font-family="Inter,sans-serif">Exit intent R$87</text>
+    <rect x="122" y="176" width="148" height="82" rx="8" fill="#1e6b35" stroke="#155226" stroke-width="1.5" filter="url(#sh)"/>
+    <text x="196" y="198" text-anchor="middle" font-size="11" fill="#fff" font-family="Inter,sans-serif" font-weight="700">Landing Page</text>
+    <text x="196" y="211" text-anchor="middle" font-size="11" fill="#fff" font-family="Inter,sans-serif" font-weight="700">do CDM</text>
+    <text x="196" y="228" text-anchor="middle" font-size="8.5" fill="rgba(255,255,255,.7)" font-family="Inter,sans-serif">Workshop · VSL · R$97</text>
+    <text x="196" y="241" text-anchor="middle" font-size="8" fill="rgba(255,255,255,.55)" font-family="Inter,sans-serif">Exit intent R$87 · LP1 + LP2</text>
   </a>
 
   <!-- LP → Comprou? -->
-  <line x1="278" y1="220" x2="316" y2="220" stroke="#aaa" stroke-width="1.5" marker-end="url(#ag)"/>
-  <text x="285" y="214" font-size="8" fill="#bbb" font-family="Inter,sans-serif">Avança</text>
+  <line x1="270" y1="217" x2="308" y2="217" stroke="#aaa" stroke-width="1.5" marker-end="url(#ag)"/>
+  <text x="275" y="211" font-size="8" fill="#bbb" font-family="Inter,sans-serif">Avança</text>
 
-  <!-- ══════════════════════════════════
-       DECISÃO: COMPROU?
-  ══════════════════════════════════ -->
-  <polygon points="358,180 398,220 358,260 318,220" fill="#b8d4ea" stroke="#7aafc8" stroke-width="2" filter="url(#sh)"/>
-  <text x="358" y="216" text-anchor="middle" font-size="10.5" fill="#1a3a52" font-family="Inter,sans-serif" font-weight="800">Comprou?</text>
+  <!-- ══ DECISÃO COMPROU? ══ -->
+  <polygon points="350,177 390,217 350,257 310,217" fill="#b8d4ea" stroke="#7aafc8" stroke-width="2" filter="url(#sh)"/>
+  <text x="350" y="213" text-anchor="middle" font-size="10.5" fill="#1a3a52" font-family="Inter,sans-serif" font-weight="800">Comprou?</text>
 
-  <!-- Comprou SIM → Upsell 1 -->
-  <line x1="398" y1="220" x2="436" y2="220" stroke="#2d7a3a" stroke-width="2" marker-end="url(#as)"/>
-  <text x="404" y="214" font-size="8" fill="#2d7a3a" font-family="Inter,sans-serif" font-weight="700">SIM</text>
+  <!-- SIM → Upsell 1 -->
+  <line x1="390" y1="217" x2="428" y2="217" stroke="#2d7a3a" stroke-width="2" marker-end="url(#as)"/>
+  <text x="396" y="211" font-size="8" fill="#2d7a3a" font-family="Inter,sans-serif" font-weight="700">SIM</text>
 
-  <!-- ══════════════════════════════════
-       UPSELL 1
-  ══════════════════════════════════ -->
+  <!-- ══ UPSELL 1 ══ -->
   <a href="https://piterclark.github.io/lp-biasong/upsell-1.html" target="_blank">
-    <rect x="436" y="178" width="148" height="84" rx="8" fill="#1e6b35" stroke="#155226" stroke-width="1.5" filter="url(#sh)"/>
-    <text x="510" y="199" text-anchor="middle" font-size="10" fill="#fff" font-family="Inter,sans-serif" font-weight="700">Página de Upsell 1</text>
-    <text x="510" y="212" text-anchor="middle" font-size="9.5" fill="#fff" font-family="Inter,sans-serif" font-weight="700">de CMO para o ZAC</text>
-    <text x="510" y="228" text-anchor="middle" font-size="8.5" fill="rgba(255,255,255,.7)" font-family="Inter,sans-serif">Do Zero aos Charts</text>
-    <text x="510" y="242" text-anchor="middle" font-size="8" fill="rgba(255,255,255,.55)" font-family="Inter,sans-serif">Widget 1-click · 15% OFF</text>
+    <rect x="428" y="176" width="148" height="82" rx="8" fill="#1e6b35" stroke="#155226" stroke-width="1.5" filter="url(#sh)"/>
+    <text x="502" y="197" text-anchor="middle" font-size="10" fill="#fff" font-family="Inter,sans-serif" font-weight="700">Página de Upsell 1</text>
+    <text x="502" y="210" text-anchor="middle" font-size="9.5" fill="#fff" font-family="Inter,sans-serif" font-weight="700">de CMO para o ZAC</text>
+    <text x="502" y="226" text-anchor="middle" font-size="8.5" fill="rgba(255,255,255,.7)" font-family="Inter,sans-serif">Do Zero aos Charts</text>
+    <text x="502" y="240" text-anchor="middle" font-size="8" fill="rgba(255,255,255,.55)" font-family="Inter,sans-serif">Widget 1-click · 15% OFF</text>
   </a>
 
   <!-- Upsell 1 → Comprou ZAC? -->
-  <line x1="584" y1="220" x2="622" y2="220" stroke="#aaa" stroke-width="1.5" marker-end="url(#ag)"/>
-  <text x="588" y="214" font-size="8" fill="#bbb" font-family="Inter,sans-serif">Oferta ZAC</text>
+  <line x1="576" y1="217" x2="614" y2="217" stroke="#aaa" stroke-width="1.5" marker-end="url(#ag)"/>
+  <text x="578" y="211" font-size="8" fill="#bbb" font-family="Inter,sans-serif">Oferta ZAC</text>
 
-  <!-- ══════════════════════════════════
-       DECISÃO: COMPROU ZAC?
-  ══════════════════════════════════ -->
-  <polygon points="664,180 704,220 664,260 624,220" fill="#b8d4ea" stroke="#7aafc8" stroke-width="2" filter="url(#sh)"/>
-  <text x="664" y="216" text-anchor="middle" font-size="10" fill="#1a3a52" font-family="Inter,sans-serif" font-weight="800">Comprou</text>
-  <text x="664" y="228" text-anchor="middle" font-size="10" fill="#1a3a52" font-family="Inter,sans-serif" font-weight="800">ZAC?</text>
+  <!-- ══ DECISÃO COMPROU ZAC? ══ -->
+  <polygon points="656,177 696,217 656,257 616,217" fill="#b8d4ea" stroke="#7aafc8" stroke-width="2" filter="url(#sh)"/>
+  <text x="656" y="213" text-anchor="middle" font-size="10" fill="#1a3a52" font-family="Inter,sans-serif" font-weight="800">Comprou</text>
+  <text x="656" y="225" text-anchor="middle" font-size="10" fill="#1a3a52" font-family="Inter,sans-serif" font-weight="800">ZAC?</text>
 
-  <!-- ZAC SIM → Upsell 2.1 (sobe e vai para direita) -->
-  <polyline points="704,220 740,220 740,114 778,114" fill="none" stroke="#2d7a3a" stroke-width="2" marker-end="url(#as)"/>
-  <text x="706" y="170" font-size="8" fill="#2d7a3a" font-family="Inter,sans-serif" font-weight="700">SIM</text>
+  <!-- SIM → Upsell 2.1 -->
+  <polyline points="696,217 732,217 732,110 770,110" fill="none" stroke="#2d7a3a" stroke-width="2" marker-end="url(#as)"/>
+  <text x="698" y="160" font-size="8" fill="#2d7a3a" font-family="Inter,sans-serif" font-weight="700">SIM</text>
 
-  <!-- ZAC NÃO → Upsell 2.2 (desce e vai para direita) -->
-  <polyline points="704,220 740,220 740,326 778,326" fill="none" stroke="#c0392b" stroke-width="2" marker-end="url(#an)"/>
-  <text x="706" y="286" font-size="8" fill="#c0392b" font-family="Inter,sans-serif" font-weight="700">NÃO</text>
+  <!-- NÃO → Upsell 2.2 -->
+  <polyline points="696,217 732,217 732,324 770,324" fill="none" stroke="#c0392b" stroke-width="2" marker-end="url(#an)"/>
+  <text x="698" y="282" font-size="8" fill="#c0392b" font-family="Inter,sans-serif" font-weight="700">NÃO</text>
 
-  <!-- ══════════════════════════════════
-       UPSELL 2.1
-  ══════════════════════════════════ -->
+  <!-- ══ UPSELL 2.1 ══ -->
   <a href="https://piterclark.github.io/lp-biasong/upsell-2a.html" target="_blank">
-    <rect x="778" y="72" width="162" height="84" rx="8" fill="#c8e6d4" stroke="#7abf96" stroke-width="1.5" filter="url(#sh)"/>
-    <text x="859" y="93" text-anchor="middle" font-size="9.5" fill="#1a4a2a" font-family="Inter,sans-serif" font-weight="700">Página de Upsell 2.1</text>
-    <text x="859" y="106" text-anchor="middle" font-size="9" fill="#1a4a2a" font-family="Inter,sans-serif" font-weight="700">do CMO + ZAC para o</text>
-    <text x="859" y="119" text-anchor="middle" font-size="9" fill="#1a4a2a" font-family="Inter,sans-serif" font-weight="700">OAF a 30%</text>
-    <text x="859" y="134" text-anchor="middle" font-size="8" fill="#2d6a42" font-family="Inter,sans-serif">Da Obra ao Fonograma · Trilha A</text>
+    <rect x="770" y="68" width="162" height="84" rx="8" fill="#c8e6d4" stroke="#7abf96" stroke-width="1.5" filter="url(#sh)"/>
+    <text x="851" y="89" text-anchor="middle" font-size="9.5" fill="#1a4a2a" font-family="Inter,sans-serif" font-weight="700">Página de Upsell 2.1</text>
+    <text x="851" y="102" text-anchor="middle" font-size="9" fill="#1a4a2a" font-family="Inter,sans-serif" font-weight="700">do CMO + ZAC para o</text>
+    <text x="851" y="115" text-anchor="middle" font-size="9" fill="#1a4a2a" font-family="Inter,sans-serif" font-weight="700">OAF a 30%</text>
+    <text x="851" y="130" text-anchor="middle" font-size="8" fill="#2d6a42" font-family="Inter,sans-serif">Da Obra ao Fonograma · Trilha A</text>
   </a>
 
-  <!-- ══════════════════════════════════
-       UPSELL 2.2
-  ══════════════════════════════════ -->
+  <!-- ══ UPSELL 2.2 ══ -->
   <a href="https://piterclark.github.io/lp-biasong/upsell-2b.html" target="_blank">
-    <rect x="778" y="284" width="162" height="84" rx="8" fill="#fce8e8" stroke="#e08080" stroke-width="2" filter="url(#sh)"/>
-    <text x="859" y="305" text-anchor="middle" font-size="9.5" fill="#5a1a1a" font-family="Inter,sans-serif" font-weight="700">Página de Upsell 2.2</text>
-    <text x="859" y="318" text-anchor="middle" font-size="9" fill="#5a1a1a" font-family="Inter,sans-serif" font-weight="700">do CMO sem ZAC para o</text>
-    <text x="859" y="331" text-anchor="middle" font-size="9" fill="#5a1a1a" font-family="Inter,sans-serif" font-weight="700">OAF a 30%</text>
-    <text x="859" y="346" text-anchor="middle" font-size="8" fill="#903030" font-family="Inter,sans-serif">Da Obra ao Fonograma · Trilha B</text>
+    <rect x="770" y="282" width="162" height="84" rx="8" fill="#fce8e8" stroke="#e08080" stroke-width="2" filter="url(#sh)"/>
+    <text x="851" y="303" text-anchor="middle" font-size="9.5" fill="#5a1a1a" font-family="Inter,sans-serif" font-weight="700">Página de Upsell 2.2</text>
+    <text x="851" y="316" text-anchor="middle" font-size="9" fill="#5a1a1a" font-family="Inter,sans-serif" font-weight="700">do CMO sem ZAC para o</text>
+    <text x="851" y="329" text-anchor="middle" font-size="9" fill="#5a1a1a" font-family="Inter,sans-serif" font-weight="700">OAF a 30%</text>
+    <text x="851" y="344" text-anchor="middle" font-size="8" fill="#903030" font-family="Inter,sans-serif">Da Obra ao Fonograma · Trilha B</text>
   </a>
 
-  <!-- Upsell 2.1 → Mentoria -->
-  <polyline points="940,114 970,114 970,220 1006,220" fill="none" stroke="#2d7a3a" stroke-width="2" marker-end="url(#as)"/>
-  <text x="944" y="108" font-size="8" fill="#2d7a3a" font-family="Inter,sans-serif">SIM/NÃO</text>
+  <!-- Upsell 2.1 → Mentoria A -->
+  <polyline points="932,110 968,110 968,176 1006,176" fill="none" stroke="#2d7a3a" stroke-width="2" marker-end="url(#as)"/>
+  <text x="936" y="104" font-size="8" fill="#2d7a3a" font-family="Inter,sans-serif">SIM/NÃO</text>
 
-  <!-- Upsell 2.2 → Mentoria -->
-  <polyline points="940,326 970,326 970,242 1006,242" fill="none" stroke="#c0392b" stroke-width="2" marker-end="url(#an)"/>
-  <text x="944" y="320" font-size="8" fill="#c0392b" font-family="Inter,sans-serif">SIM/NÃO</text>
+  <!-- Upsell 2.2 → Mentoria B -->
+  <polyline points="932,324 968,324 968,258 1006,258" fill="none" stroke="#c0392b" stroke-width="2" marker-end="url(#an)"/>
+  <text x="936" y="318" font-size="8" fill="#c0392b" font-family="Inter,sans-serif">SIM/NÃO</text>
 
-  <!-- ══════════════════════════════════
-       MENTORIA
-  ══════════════════════════════════ -->
+  <!-- ══ MENTORIA A (Trilha A) ══ -->
   <a href="https://piterclark.github.io/lp-biasong/upsell-final-a.html" target="_blank">
-    <rect x="1006" y="188" width="158" height="64" rx="8" fill="#c8e6d4" stroke="#7abf96" stroke-width="1.5" filter="url(#sh)"/>
-    <text x="1085" y="209" text-anchor="middle" font-size="10" fill="#1a4a2a" font-family="Inter,sans-serif" font-weight="700">Página de Upsell</text>
-    <text x="1085" y="222" text-anchor="middle" font-size="10" fill="#1a4a2a" font-family="Inter,sans-serif" font-weight="700">oferecendo a Mentoria</text>
-    <text x="1085" y="238" text-anchor="middle" font-size="8" fill="#2d6a42" font-family="Inter,sans-serif">Formulário · Trilha A + B</text>
+    <rect x="1006" y="152" width="155" height="72" rx="8" fill="#c8e6d4" stroke="#7abf96" stroke-width="1.5" filter="url(#sh)"/>
+    <text x="1083" y="173" text-anchor="middle" font-size="9.5" fill="#1a4a2a" font-family="Inter,sans-serif" font-weight="700">Mentoria 2%</text>
+    <text x="1083" y="186" text-anchor="middle" font-size="9" fill="#1a4a2a" font-family="Inter,sans-serif" font-weight="700">Trilha A</text>
+    <text x="1083" y="202" text-anchor="middle" font-size="8" fill="#2d6a42" font-family="Inter,sans-serif">Formulário · Quem comprou OAF</text>
   </a>
 
-  <!-- ══════════════════════════════════
-       COMPROU NÃO → MANYCHAT
-  ══════════════════════════════════ -->
-  <!-- linha desce do Comprou? -->
-  <polyline points="358,260 358,388 270,388" fill="none" stroke="#c0392b" stroke-width="1.5" marker-end="url(#an)"/>
-  <text x="362" y="332" font-size="8" fill="#c0392b" font-family="Inter,sans-serif" font-weight="700">NÃO</text>
+  <!-- ══ MENTORIA B (Trilha B) ══ -->
+  <a href="https://piterclark.github.io/lp-biasong/upsell-final-b.html" target="_blank">
+    <rect x="1006" y="246" width="155" height="72" rx="8" fill="#c8e6d4" stroke="#7abf96" stroke-width="1.5" filter="url(#sh)"/>
+    <text x="1083" y="267" text-anchor="middle" font-size="9.5" fill="#1a4a2a" font-family="Inter,sans-serif" font-weight="700">Mentoria 2%</text>
+    <text x="1083" y="280" text-anchor="middle" font-size="9" fill="#1a4a2a" font-family="Inter,sans-serif" font-weight="700">Trilha B</text>
+    <text x="1083" y="296" text-anchor="middle" font-size="8" fill="#2d6a42" font-family="Inter,sans-serif">Formulário · Quem não comprou OAF</text>
+  </a>
+
+  <!-- brace Mentoria A+B → label -->
+  <line x1="1161" y1="188" x2="1171" y2="188" stroke="#ccc" stroke-width="1.5"/>
+  <line x1="1161" y1="282" x2="1171" y2="282" stroke="#ccc" stroke-width="1.5"/>
+  <line x1="1171" y1="188" x2="1171" y2="282" stroke="#ccc" stroke-width="1.5"/>
+  <text x="1178" y="231" text-anchor="start" font-size="9" fill="#888" font-family="Inter,sans-serif" font-weight="600">Formulário</text>
+  <text x="1178" y="243" text-anchor="start" font-size="9" fill="#888" font-family="Inter,sans-serif" font-weight="600">Google Sheets</text>
+
+  <!-- badge LP count -->
+  <rect x="122" y="162" width="148" height="14" rx="4" fill="#0a3d1a"/>
+  <text x="196" y="172" text-anchor="middle" font-size="8" fill="rgba(255,255,255,.8)" font-family="Inter,sans-serif" font-weight="700">2 versões (LP1 + LP2)</text>
+
+  <!-- badge Mentoria count -->
+  <rect x="1006" y="236" width="155" height="12" rx="3" fill="#1a5c2e" opacity=".0"/>
+  <line x1="1006" y1="236" x2="1161" y2="236" stroke="#7abf96" stroke-width="1" stroke-dasharray="4 3"/>
+  <text x="1083" y="244" text-anchor="middle" font-size="7.5" fill="#5a9a6a" font-family="Inter,sans-serif">2 versões (Trilha A + B)</text>
+
+  <!-- ══ NÃO COMPROU ══ -->
+  <polyline points="350,257 350,420 250,420" fill="none" stroke="#c0392b" stroke-width="1.5" marker-end="url(#an)"/>
+  <text x="354" y="346" font-size="8" fill="#c0392b" font-family="Inter,sans-serif" font-weight="700">NÃO</text>
 
   <!-- MANYCHAT -->
-  <circle cx="225" cy="388" r="46" fill="#f0c8f0" stroke="#d090d0" stroke-width="1.5" filter="url(#sh)"/>
-  <text x="225" y="380" text-anchor="middle" font-size="9.5" fill="#5a2a5a" font-family="Inter,sans-serif" font-weight="700">Automação</text>
-  <text x="225" y="393" text-anchor="middle" font-size="9.5" fill="#5a2a5a" font-family="Inter,sans-serif" font-weight="700">de Manychat</text>
+  <circle cx="205" cy="420" r="46" fill="#f0c8f0" stroke="#d090d0" stroke-width="1.5" filter="url(#sh)"/>
+  <text x="205" y="412" text-anchor="middle" font-size="9.5" fill="#5a2a5a" font-family="Inter,sans-serif" font-weight="700">Automação</text>
+  <text x="205" y="425" text-anchor="middle" font-size="9.5" fill="#5a2a5a" font-family="Inter,sans-serif" font-weight="700">de Manychat</text>
 
-  <!-- Manychat → Remarketing (volta para esquerda) -->
-  <polyline points="179,388 80,388 80,348" fill="none" stroke="#aaa" stroke-width="1.5" stroke-dasharray="5 3" marker-end="url(#ag)"/>
-  <text x="102" y="382" font-size="8" fill="#bbb" font-family="Inter,sans-serif">Redireciona</text>
+  <!-- Manychat → Remarketing -->
+  <polyline points="159,420 80,420 80,346" fill="none" stroke="#aaa" stroke-width="1.5" stroke-dasharray="5 3" marker-end="url(#ag)"/>
+  <text x="42" y="398" font-size="8" fill="#bbb" font-family="Inter,sans-serif" transform="rotate(-90,88,398)">Redireciona</text>
 
 </svg>
 </div>
 
 <!-- PENDÊNCIAS -->
 <div class="pendencias">
-  <div class="pend-title">O que falta para publicar</div>
+  <div class="pend-title">Status do projeto</div>
   <div class="pend-grid">
     <div class="pend-item ok"><div class="pi-t">LP1 + LP2 — Checkout</div><div class="pi-d">pay.hotmart.com/R105255212H?checkoutMode=10</div></div>
-    <div class="pend-item ok"><div class="pi-t">Upsell 1 — Widget 1-click</div><div class="pi-d">Hotmart Sales Funnel configurado</div></div>
-    <div class="pend-item ok"><div class="pi-t">Upsell 2A + 2B — Checkout</div><div class="pi-d">pay.hotmart.com/X105258923R</div></div>
-    <div class="pend-item ok"><div class="pi-t">Mentoria — Formulário</div><div class="pi-d">Google Sheets — sem checkout Hotmart</div></div>
+    <div class="pend-item ok"><div class="pi-t">Upsell 1 — Widget 1-click</div><div class="pi-d">Hotmart Sales Funnel configurado + vídeo R2</div></div>
+    <div class="pend-item ok"><div class="pi-t">Upsell 2A + 2B — Checkout</div><div class="pi-d">pay.hotmart.com/X105258923R + vídeo 2A no R2</div></div>
+    <div class="pend-item ok"><div class="pi-t">Mentoria A + B — Formulário</div><div class="pi-d">Google Sheets — aba Mentoria ativa</div></div>
+    <div class="pend-item ok"><div class="pi-t">Leads — Google Sheets</div><div class="pi-d">Aba Leads LP + Exit Intent identificados</div></div>
     <div class="pend-item ok"><div class="pi-t">Clarity — Rastreamento</div><div class="pi-d">Instalado nas 7 páginas do funil</div></div>
-    <div class="pend-item ok"><div class="pi-t">Google Sheets — Leads</div><div class="pi-d">Aba Leads LP + aba Mentoria ativas</div></div>
-    <div class="pend-item wait"><div class="pi-t">Upsell 1 — Preços</div><div class="pi-d">Aguardando Arthur: preço cheio, parcela 12x e valor à vista</div></div>
-    <div class="pend-item wait"><div class="pi-t">Upsell 2B — Vídeo</div><div class="pi-d">Aguardando Arthur: link do YouTube da Trilha B</div></div>
-    <div class="pend-item wait"><div class="pi-t">Exit Intent — Link R$87</div><div class="pi-d">Aguardando Arthur: link checkout com 40% OFF</div></div>
-    <div class="pend-item wait"><div class="pi-t">Hostinger — Upload final</div><div class="pi-d">Subir as 7 páginas em cdm.biasong.com e configurar funil na Hotmart</div></div>
+    <div class="pend-item ok"><div class="pi-t">Exit Intent — LP1 + LP2</div><div class="pi-d">Desktop + mobile (botão voltar + Safari)</div></div>
+    <div class="pend-item ok"><div class="pi-t">VSL — Vídeo corrigido</div><div class="pi-d">Atualizado no Cloudflare R2</div></div>
+    <div class="pend-item wait"><div class="pi-t">Upsell 1 — Preços</div><div class="pi-d">Aguardando Arthur: preço cheio, 12x e à vista</div></div>
+    <div class="pend-item wait"><div class="pi-t">Upsell 2B — Vídeo</div><div class="pi-d">Aguardando Arthur: link YouTube Trilha B</div></div>
+    <div class="pend-item wait"><div class="pi-t">Exit Intent — Link R$87</div><div class="pi-d">Aguardando Arthur: checkout com 40% OFF</div></div>
+    <div class="pend-item wait"><div class="pi-t">Hostinger — Upload final</div><div class="pi-d">Subir 7 páginas em cdm.biasong.com + configurar funil Hotmart</div></div>
   </div>
 </div>
 
