@@ -218,6 +218,10 @@
       transform: translateY(-2px);
       box-shadow: 0 10px 32px rgba(136,255,0,.25);
     }
+    .form-group { margin-bottom: 14px; }
+    .form-group label { display:block; font-size:11px; font-weight:700; color:#73FF00; text-transform:uppercase; letter-spacing:.08em; margin-bottom:6px; }
+    .form-group input { width:100%; box-sizing:border-box; background:#1E1E1E; border:1px solid rgba(255,255,255,.10); border-radius:10px; padding:12px 16px; color:#fff; font-size:15px; outline:none; font-family:inherit; }
+    .form-group input:focus { border-color:#73FF00; }
     .btn-no {
       display: block;
       font-size: 13px; font-weight: 500;
@@ -255,12 +259,12 @@
   <div class="wrap">
 
     <div class="upsell-badge">
-      <span class="badge-pill">Upsell 2 · Trilha Compradores</span>
+      <span class="badge-pill">Parabéns — você já tem as duas pedras preciosas</span>
     </div>
 
     <div class="hero">
-      <h1>Sua Música Merece um <span class="grad">Fonograma Impecável.</span></h1>
-      <p class="sub">Agora que você sabe como distribuir, aprenda a produzir com profissionalismo — com 30% de desconto exclusivo.</p>
+      <h1>Você já decidiu que <span class="grad">vai dar certo.</span><br>Agora vá até o fundo.</h1>
+      <p class="sub">Você acaba de adquirir o Como Distribuir uma Música e o Do Zero aos Charts. Quem chega até aqui não está só lançando música — está construindo uma carreira. A Bia tem uma mensagem importante para você.</p>
     </div>
 
     <!-- VIDEO -->
@@ -284,30 +288,62 @@
 
     <!-- OFFER CARD -->
     <div class="offer-card">
-      <div class="offer-label">Upsell 2 · 30% de desconto</div>
-      <div class="offer-title">Da Obra ao Fonograma</div>
-      <p class="offer-desc">O passo a passo completo para transformar sua composição em um fonograma pronto para as plataformas. Aproveite o desconto exclusivo de agora.</p>
+      <div class="offer-label">Da Obra ao Fonograma · Treinamento completo da indústria</div>
+      <div class="offer-title">Quer virar a chave 100%<br>e ser uma pessoa da indústria?</div>
+      <p class="offer-desc">Este treinamento é pesado — história, teoria e prática. Tudo que você precisa saber para trabalhar na indústria musical como um profissional de verdade. Não é para quem vai lançar uma musiquinha. É para quem decidiu que a música é sua vida.</p>
 
-      <div class="price-block">
-        <div class="price-from">De R$ 997,00</div>
-        <div class="price-tag">
-          <span class="price-por">por 12x</span>
-          <span class="price-num">R$ 58,16</span>
+      <div style="text-align:left;margin:20px 0 24px;display:flex;flex-direction:column;gap:10px;">
+        <div style="display:flex;align-items:flex-start;gap:10px;font-size:13px;color:#d1fae5;">
+          <span style="color:#88FF00;font-weight:700;flex-shrink:0;">✓</span>
+          <span>A parte histórica da indústria que ninguém ensina — e que muda como você entende contratos</span>
         </div>
-        <div class="price-avista">ou R$ 697,90 à vista</div>
-        <div class="price-badge">30% OFF exclusivo</div>
+        <div style="display:flex;align-items:flex-start;gap:10px;font-size:13px;color:#d1fae5;">
+          <span style="color:#88FF00;font-weight:700;flex-shrink:0;">✓</span>
+          <span>A diferença entre obra e fonograma aplicada na prática — o que você já aprendeu, agora em profundidade total</span>
+        </div>
+        <div style="display:flex;align-items:flex-start;gap:10px;font-size:13px;color:#d1fae5;">
+          <span style="color:#88FF00;font-weight:700;flex-shrink:0;">✓</span>
+          <span>Como proteger sua música, seus direitos e sua renda como os profissionais da indústria fazem</span>
+        </div>
+        <div style="display:flex;align-items:flex-start;gap:10px;font-size:13px;color:#d1fae5;">
+          <span style="color:#88FF00;font-weight:700;flex-shrink:0;">✓</span>
+          <span>Você vai saber tanto quanto — ou mais — do que pessoas que já trabalham na indústria musical</span>
+        </div>
       </div>
 
-      <a href="https://pay.hotmart.com/X105258923R" class="btn-yes">
-        ✅ SIM! Quero Da Obra ao Fonograma com 30% OFF
-      </a>
+      <p class="form-title" style="font-size:14px;font-weight:700;color:#fff;margin-bottom:16px;">Preencha para a Bia entrar em contato:</p>
+
+      <form id="form-oaf">
+        <div class="form-group">
+          <label for="oaf-name">Seu nome completo</label>
+          <input type="text" id="oaf-name" placeholder="Nome completo" required/>
+        </div>
+        <div class="form-group">
+          <label for="oaf-email">E-mail</label>
+          <input type="email" id="oaf-email" placeholder="seu@email.com" required/>
+        </div>
+        <div class="form-group">
+          <label for="oaf-phone">WhatsApp</label>
+          <input type="tel" id="oaf-phone" placeholder="(11) 99999-9999" required/>
+        </div>
+
+        <button type="submit" class="btn-yes" id="btn-oaf">
+          ✅ Quero saber mais sobre Da Obra ao Fonograma
+        </button>
+
+        <div id="success-oaf" style="display:none;background:rgba(136,255,0,.08);border:1px solid rgba(136,255,0,.3);border-radius:12px;padding:20px;text-align:center;margin-top:16px;">
+          <p style="color:#88FF00;font-weight:700;font-size:16px;margin-bottom:8px;">✅ Recebemos seu interesse!</p>
+          <p style="color:#9ca3af;font-size:14px;">A equipe da Bia Song vai entrar em contato pelo WhatsApp em breve.</p>
+        </div>
+      </form>
+
       <a href="upsell-final-a.html" class="btn-no">
-        Não, obrigado — quero continuar sem este curso
+        Não, obrigado — já tenho o suficiente por agora
       </a>
     </div>
 
     <div class="guarantee">
-      <p>🔒 Compra 100% segura · Acesso imediato · Garantia de 15 dias</p>
+      <p>🔒 Seus dados estão seguros · Nunca compartilhamos suas informações</p>
     </div>
 
   </div>
@@ -349,6 +385,35 @@
   video.addEventListener('pause', function(){ updateBtn(false); });
   video.addEventListener('timeupdate', updateBar);
   video.addEventListener('ended', function(){ updateBtn(false); bar.style.display='none'; });
+})();
+</script>
+
+<script>
+(function(){
+  var SHEETS_URL = 'https://script.google.com/macros/s/AKfycbz4cqIy86uxJYgUScm-nwI7PyS-RGf2vI1rKHQmN_xCgW_UqzIOvTFDbk6VpQc9OgnBzA/exec';
+  var form = document.getElementById('form-oaf');
+  if(!form) return;
+  form.addEventListener('submit', function(e){
+    e.preventDefault();
+    var name  = document.getElementById('oaf-name').value;
+    var email = document.getElementById('oaf-email').value;
+    var phone = document.getElementById('oaf-phone').value.replace(/\D/g,'');
+    var btn   = document.getElementById('btn-oaf');
+    btn.disabled = true;
+    btn.textContent = 'Enviando...';
+    try {
+      fetch(SHEETS_URL, {
+        method: 'POST', mode: 'no-cors',
+        body: JSON.stringify({ name: name, phone: phone, email: email, source: 'OAF-A' })
+      });
+    } catch(err){}
+    setTimeout(function(){
+      form.querySelectorAll('.form-group').forEach(function(g){ g.style.display='none'; });
+      form.querySelector('p').style.display='none';
+      btn.style.display='none';
+      document.getElementById('success-oaf').style.display='block';
+    }, 400);
+  });
 })();
 </script>
 
