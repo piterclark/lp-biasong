@@ -232,6 +232,22 @@
     @media (max-width: 480px) {
       .offer-card { padding: 28px 20px; }
     }
+    /* ─── VIDEO PLAYER ─── */
+    #uv-video { position:absolute; inset:0; width:100%; height:100%; object-fit:cover; }
+    .uv-overlay { display:none; position:absolute; inset:0; background:rgba(0,0,0,.55); align-items:center; justify-content:center; cursor:pointer; z-index:20; border-radius:14px; transition:opacity .4s; }
+    .uv-overlay.fade-out { opacity:0; pointer-events:none; }
+    .uv-badge-v { background:linear-gradient(135deg,#00c844,#00a836); border-radius:12px; padding:16px 28px; text-align:center; box-shadow:0 8px 32px rgba(0,180,60,.4); }
+    .uv-badge-v .uv-icon { font-size:26px; margin-bottom:6px; }
+    .uv-badge-v .uv-title { color:#fff; font-size:16px; font-weight:700; margin:0 0 3px; }
+    .uv-badge-v .uv-sub { color:rgba(255,255,255,.85); font-size:13px; margin:0; }
+    #uv-playbtn { position:absolute; bottom:14px; left:14px; width:36px; height:36px; background:rgba(0,0,0,.65); border-radius:50%; display:flex; align-items:center; justify-content:center; cursor:pointer; z-index:15; transition:background .18s, transform .15s; }
+    #uv-playbtn:hover { background:rgba(0,0,0,.88); transform:scale(1.1); }
+    #uv-bar { position:absolute; bottom:0; left:0; height:4px; background:#88FF00; width:0%; display:none; z-index:30; transition:width .5s; }
+    /* ─── FORM ─── */
+    .form-group { margin-bottom:14px; }
+    .form-group label { display:block; font-size:11px; font-weight:700; color:#73FF00; text-transform:uppercase; letter-spacing:.08em; margin-bottom:6px; }
+    .form-group input { width:100%; box-sizing:border-box; background:#1E1E1E; border:1px solid rgba(255,255,255,.10); border-radius:10px; padding:12px 16px; color:#fff; font-size:15px; outline:none; font-family:inherit; }
+    .form-group input:focus { border-color:#73FF00; }
   </style>
 <script type="text/javascript">(function(c,l,a,r,i,t,y){c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y)})(window,document,"clarity","script","wkxkcbwym7");</script>
 </head>
@@ -245,55 +261,139 @@
   <div class="wrap">
 
     <div class="upsell-badge">
-      <span class="badge-pill">Upsell 2 · Oferta Especial</span>
+      <span class="badge-pill">Você distribuiu. Agora entenda tudo por trás disso.</span>
     </div>
 
     <div class="hero">
-      <h1>Sua Música Merece um <span class="grad">Fonograma Impecável.</span></h1>
-      <p class="sub">Aprenda a produzir com profissionalismo — com 30% de desconto exclusivo para quem está comprando agora.</p>
+      <h1>Distribuir foi o começo.<br><span class="grad">A indústria é muito maior.</span></h1>
+      <p class="sub">Você acabou de aprender como colocar sua música nas plataformas. Mas sabe o que separa um artista que distribui de um artista que vive de música? Conhecimento da indústria. A Bia tem uma mensagem para você.</p>
     </div>
 
     <!-- VIDEO -->
     <div class="video-wrap">
-      <div class="video-box">
-        <div class="play-btn">
-          <svg width="28" height="28" viewBox="0 0 24 24" fill="none">
-            <path d="M8 5.14v14l11-7-11-7z" fill="#000"/>
-          </svg>
+      <div class="video-box" style="background:#000;">
+        <video id="uv-video" src="https://pub-9fc592d445b64bd78a40e4dddaece32a.r2.dev/upsell2a.mp4" muted playsinline preload="metadata"></video>
+        <div class="uv-overlay" id="uv-overlay">
+          <div class="uv-badge-v">
+            <div class="uv-icon">🔊</div>
+            <p class="uv-title">Seu vídeo já começou</p>
+            <p class="uv-sub">Clique para ouvir</p>
+          </div>
         </div>
-        <div class="video-caption">Vídeo da oferta — aguardando Arthur</div>
+        <div id="uv-playbtn">
+          <svg id="uv-play-icon" width="14" height="14" viewBox="0 0 16 16" fill="none"><polygon points="4,2 14,8 4,14" fill="white"/></svg>
+          <svg id="uv-pause-icon" width="14" height="14" viewBox="0 0 16 16" fill="none" style="display:none"><rect x="3" y="2" width="4" height="12" rx="1" fill="white"/><rect x="9" y="2" width="4" height="12" rx="1" fill="white"/></svg>
+        </div>
+        <div id="uv-bar"></div>
       </div>
     </div>
 
     <!-- OFFER CARD -->
     <div class="offer-card">
-      <div class="offer-label">Upsell 2 · 30% de desconto</div>
-      <div class="offer-title">Da Obra ao Fonograma</div>
-      <p class="offer-desc">O passo a passo completo para transformar sua composição em um fonograma pronto para as plataformas. Aproveite o desconto exclusivo de agora.</p>
+      <div class="offer-label">Da Obra ao Fonograma · Treinamento completo da indústria</div>
+      <div class="offer-title">Você quer só lançar músicas<br>ou quer <span style="background:linear-gradient(135deg,#88FF00,#00CCFF);-webkit-background-clip:text;-webkit-text-fill-color:transparent;">viver da música?</span></div>
+      <p class="offer-desc">Essa é a diferença. Quem distribui sem entender a indústria deixa dinheiro na mesa todo dia. Direitos cedidos sem perceber. Royalties que somem. Contratos que prendem. O Da Obra ao Fonograma fecha esse buraco de vez.</p>
 
-      <div class="price-block">
-        <div class="price-from">De R$ 997,00</div>
-        <div class="price-tag">
-          <span class="price-por">por 12x</span>
-          <span class="price-num">R$ 58,16</span>
+      <div style="text-align:left;margin:20px 0 24px;display:flex;flex-direction:column;gap:10px;">
+        <div style="display:flex;align-items:flex-start;gap:10px;font-size:13px;color:#d1fae5;">
+          <span style="color:#88FF00;font-weight:700;flex-shrink:0;">✓</span>
+          <span>A história e a estrutura da indústria musical — o contexto que muda como você negocia e assina qualquer contrato</span>
         </div>
-        <div class="price-avista">ou R$ 697,90 à vista</div>
-        <div class="price-badge">30% OFF exclusivo</div>
+        <div style="display:flex;align-items:flex-start;gap:10px;font-size:13px;color:#d1fae5;">
+          <span style="color:#88FF00;font-weight:700;flex-shrink:0;">✓</span>
+          <span>Obra vs fonograma em profundidade — o que você aprendeu no workshop, agora com tudo que a indústria exige saber</span>
+        </div>
+        <div style="display:flex;align-items:flex-start;gap:10px;font-size:13px;color:#d1fae5;">
+          <span style="color:#88FF00;font-weight:700;flex-shrink:0;">✓</span>
+          <span>Direitos autorais, fonomecânicos e conexos — como proteger cada centavo que sua música gera</span>
+        </div>
+        <div style="display:flex;align-items:flex-start;gap:10px;font-size:13px;color:#d1fae5;">
+          <span style="color:#88FF00;font-weight:700;flex-shrink:0;">✓</span>
+          <span>Você vai entender a indústria tanto quanto — ou mais — do que quem já trabalha nela</span>
+        </div>
       </div>
 
-      <a href="https://pay.hotmart.com/X105258923R" class="btn-yes">
-        ✅ SIM! Quero Da Obra ao Fonograma com 30% OFF
-      </a>
+      <p style="font-size:14px;font-weight:700;color:#fff;margin-bottom:16px;">Preencha e nossa equipe entra em contato:</p>
+
+      <form id="form-oaf-b">
+        <div class="form-group">
+          <label for="oafb-name">Seu nome completo</label>
+          <input type="text" id="oafb-name" placeholder="Nome completo" required/>
+        </div>
+        <div class="form-group">
+          <label for="oafb-email">E-mail</label>
+          <input type="email" id="oafb-email" placeholder="seu@email.com" required/>
+        </div>
+        <div class="form-group">
+          <label for="oafb-phone">WhatsApp</label>
+          <input type="tel" id="oafb-phone" placeholder="(11) 99999-9999" required/>
+        </div>
+
+        <button type="submit" class="btn-yes" id="btn-oaf-b">
+          ✅ Quero saber mais sobre Da Obra ao Fonograma
+        </button>
+
+        <div id="success-oaf-b" style="display:none;background:rgba(136,255,0,.08);border:1px solid rgba(136,255,0,.3);border-radius:12px;padding:20px;text-align:center;margin-top:16px;">
+          <p style="color:#88FF00;font-weight:700;font-size:16px;margin-bottom:8px;">✅ Recebemos seu interesse!</p>
+          <p style="color:#9ca3af;font-size:14px;">Nossa equipe vai entrar em contato pelo WhatsApp em breve.</p>
+        </div>
+      </form>
+
       <a href="upsell-final-b.html" class="btn-no">
-        Não, obrigado — quero continuar sem este curso
+        Não, obrigado — já tenho o suficiente por agora
       </a>
     </div>
 
     <div class="guarantee">
-      <p>🔒 Compra 100% segura · Acesso imediato · Garantia de 15 dias</p>
+      <p>🔒 Seus dados estão seguros · Nunca compartilhamos suas informações</p>
     </div>
 
   </div>
+
+<script>
+/* Video player */
+(function(){
+  var video = document.getElementById('uv-video');
+  var overlay = document.getElementById('uv-overlay');
+  var bar = document.getElementById('uv-bar');
+  var playIcon = document.getElementById('uv-play-icon');
+  var pauseIcon = document.getElementById('uv-pause-icon');
+  overlay.style.display = 'flex';
+  video.play().catch(function(){});
+  function updateBtn(p){ if(p){playIcon.style.display='none';pauseIcon.style.display='block';}else{playIcon.style.display='block';pauseIcon.style.display='none';} }
+  function updateBar(){ if(!video.duration)return; bar.style.width=Math.min(100,(video.currentTime/video.duration)*100)+'%'; bar.style.display='block'; }
+  overlay.onclick = function(){ overlay.classList.add('fade-out'); setTimeout(function(){overlay.style.display='none';},400); video.muted=false; video.volume=1; video.play(); };
+  document.getElementById('uv-playbtn').onclick = function(){ if(video.paused){video.muted=false;video.volume=1;video.play();}else{video.pause();} };
+  video.addEventListener('play', function(){ updateBtn(true); });
+  video.addEventListener('pause', function(){ updateBtn(false); });
+  video.addEventListener('timeupdate', updateBar);
+  video.addEventListener('ended', function(){ updateBtn(false); bar.style.display='none'; });
+})();
+</script>
+
+<script>
+/* Form */
+(function(){
+  var SHEETS_URL = 'https://script.google.com/macros/s/AKfycbz4cqIy86uxJYgUScm-nwI7PyS-RGf2vI1rKHQmN_xCgW_UqzIOvTFDbk6VpQc9OgnBzA/exec';
+  var form = document.getElementById('form-oaf-b');
+  if(!form) return;
+  form.addEventListener('submit', function(e){
+    e.preventDefault();
+    var name  = document.getElementById('oafb-name').value;
+    var email = document.getElementById('oafb-email').value;
+    var phone = document.getElementById('oafb-phone').value.replace(/\D/g,'');
+    var btn   = document.getElementById('btn-oaf-b');
+    btn.disabled = true; btn.textContent = 'Enviando...';
+    try { fetch(SHEETS_URL, { method:'POST', mode:'no-cors', body: JSON.stringify({name:name, phone:phone, email:email, source:'OAF-B'}) }); } catch(err){}
+    setTimeout(function(){
+      form.querySelectorAll('.form-group').forEach(function(g){g.style.display='none';});
+      form.querySelector('p').style.display='none';
+      btn.style.display='none';
+      document.getElementById('success-oaf-b').style.display='block';
+    }, 400);
+  });
+})();
+</script>
 
 </body>
 </html>
