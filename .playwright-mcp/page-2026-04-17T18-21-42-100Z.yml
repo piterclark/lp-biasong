@@ -1,0 +1,710 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e6]:
+    - main [ref=e7]:
+      - generic [ref=e9]:
+        - generic [ref=e10]:
+          - img "Logo" [ref=e11]
+          - heading "Sua música não falhou. Ela só nunca foi lançada do jeito certo." [level=1] [ref=e12]:
+            - text: Sua música não falhou.
+            - text: Ela só nunca foi lançada do jeito certo.
+          - paragraph [ref=e13]:
+            - text: O método para entrar nas playlists editoriais e transformar plays em renda —
+            - strong [ref=e14]: sem gravadora e sem viralizar.
+          - generic [ref=e15]:
+            - generic [ref=e16]:
+              - img [ref=e17]
+              - generic [ref=e20]: "Plataformas digitais: A chance mais democrática"
+            - generic [ref=e21]:
+              - img [ref=e22]
+              - generic [ref=e25]: Passo a passo para playlists editoriais
+            - generic [ref=e26]:
+              - img [ref=e27]
+              - generic [ref=e30]: Lançamento profissional sem gravadora
+            - generic [ref=e31]:
+              - img [ref=e32]
+              - generic [ref=e35]: "Método 3Cs: Plays em carreira"
+        - generic [ref=e39]:
+          - button "play" [ref=e44] [cursor=pointer]:
+            - img [ref=e45]
+          - generic [ref=e49]:
+            - generic [ref=e50]: Parar no meio do caminho mais uma vez? Vá até o final.
+            - generic [ref=e51]:
+              - generic [ref=e52] [cursor=pointer]:
+                - img [ref=e54]
+                - generic [ref=e56]: Continuar assistindo?
+              - generic [ref=e57] [cursor=pointer]:
+                - img [ref=e59]
+                - generic [ref=e61]: Assistir do início?
+        - button "Quero Minha Música no Radar!" [ref=e64] [cursor=pointer]:
+          - text: Quero Minha Música no Radar!
+          - img [ref=e65]
+      - generic [ref=e69]:
+        - generic [ref=e70]:
+          - img [ref=e71]
+          - generic [ref=e75]: Estratégia de Carreira
+          - img [ref=e77]
+          - generic [ref=e80]: Do Absoluto Zero
+          - img [ref=e82]
+          - generic [ref=e85]: Com Bia Song
+          - img [ref=e87]
+          - generic [ref=e90]: Liberdade Artística
+          - img [ref=e92]
+          - generic [ref=e95]: 100% Estratégico
+          - img [ref=e97]
+          - generic [ref=e100]: Conteúdo Didático
+          - img [ref=e102]
+          - generic [ref=e105]: 100% Online
+          - img [ref=e107]
+        - generic [ref=e110]:
+          - img [ref=e111]
+          - generic [ref=e115]: Estratégia de Carreira
+          - img [ref=e117]
+          - generic [ref=e120]: Do Absoluto Zero
+          - img [ref=e122]
+          - generic [ref=e125]: Com Bia Song
+          - img [ref=e127]
+          - generic [ref=e130]: Liberdade Artística
+          - img [ref=e132]
+          - generic [ref=e135]: 100% Estratégico
+          - img [ref=e137]
+          - generic [ref=e140]: Conteúdo Didático
+          - img [ref=e142]
+          - generic [ref=e145]: 100% Online
+          - img [ref=e147]
+        - generic [ref=e150]:
+          - img [ref=e151]
+          - generic [ref=e155]: Estratégia de Carreira
+          - img [ref=e157]
+          - generic [ref=e160]: Do Absoluto Zero
+          - img [ref=e162]
+          - generic [ref=e165]: Com Bia Song
+          - img [ref=e167]
+          - generic [ref=e170]: Liberdade Artística
+          - img [ref=e172]
+          - generic [ref=e175]: 100% Estratégico
+          - img [ref=e177]
+          - generic [ref=e180]: Conteúdo Didático
+          - img [ref=e182]
+          - generic [ref=e185]: 100% Online
+          - img [ref=e187]
+        - generic [ref=e190]:
+          - img [ref=e191]
+          - generic [ref=e195]: Estratégia de Carreira
+          - img [ref=e197]
+          - generic [ref=e200]: Do Absoluto Zero
+          - img [ref=e202]
+          - generic [ref=e205]: Com Bia Song
+          - img [ref=e207]
+          - generic [ref=e210]: Liberdade Artística
+          - img [ref=e212]
+          - generic [ref=e215]: 100% Estratégico
+          - img [ref=e217]
+          - generic [ref=e220]: Conteúdo Didático
+          - img [ref=e222]
+          - generic [ref=e225]: 100% Online
+          - img [ref=e227]
+        - generic [ref=e230]:
+          - img [ref=e231]
+          - generic [ref=e235]: Estratégia de Carreira
+          - img [ref=e237]
+          - generic [ref=e240]: Do Absoluto Zero
+          - img [ref=e242]
+          - generic [ref=e245]: Com Bia Song
+          - img [ref=e247]
+          - generic [ref=e250]: Liberdade Artística
+          - img [ref=e252]
+          - generic [ref=e255]: 100% Estratégico
+          - img [ref=e257]
+          - generic [ref=e260]: Conteúdo Didático
+          - img [ref=e262]
+          - generic [ref=e265]: 100% Online
+          - img [ref=e267]
+        - generic [ref=e270]:
+          - img [ref=e271]
+          - generic [ref=e275]: Estratégia de Carreira
+          - img [ref=e277]
+          - generic [ref=e280]: Do Absoluto Zero
+          - img [ref=e282]
+          - generic [ref=e285]: Com Bia Song
+          - img [ref=e287]
+          - generic [ref=e290]: Liberdade Artística
+          - img [ref=e292]
+          - generic [ref=e295]: 100% Estratégico
+          - img [ref=e297]
+          - generic [ref=e300]: Conteúdo Didático
+          - img [ref=e302]
+          - generic [ref=e305]: 100% Online
+          - img [ref=e307]
+        - generic [ref=e310]:
+          - img [ref=e311]
+          - generic [ref=e315]: Estratégia de Carreira
+          - img [ref=e317]
+          - generic [ref=e320]: Do Absoluto Zero
+          - img [ref=e322]
+          - generic [ref=e325]: Com Bia Song
+          - img [ref=e327]
+          - generic [ref=e330]: Liberdade Artística
+          - img [ref=e332]
+          - generic [ref=e335]: 100% Estratégico
+          - img [ref=e337]
+          - generic [ref=e340]: Conteúdo Didático
+          - img [ref=e342]
+          - generic [ref=e345]: 100% Online
+          - img [ref=e347]
+        - generic [ref=e350]:
+          - img [ref=e351]
+          - generic [ref=e355]: Estratégia de Carreira
+          - img [ref=e357]
+          - generic [ref=e360]: Do Absoluto Zero
+          - img [ref=e362]
+          - generic [ref=e365]: Com Bia Song
+          - img [ref=e367]
+          - generic [ref=e370]: Liberdade Artística
+          - img [ref=e372]
+          - generic [ref=e375]: 100% Estratégico
+          - img [ref=e377]
+          - generic [ref=e380]: Conteúdo Didático
+          - img [ref=e382]
+          - generic [ref=e385]: 100% Online
+          - img [ref=e387]
+        - generic [ref=e390]:
+          - img [ref=e391]
+          - generic [ref=e395]: Estratégia de Carreira
+          - img [ref=e397]
+          - generic [ref=e400]: Do Absoluto Zero
+          - img [ref=e402]
+          - generic [ref=e405]: Com Bia Song
+          - img [ref=e407]
+          - generic [ref=e410]: Liberdade Artística
+          - img [ref=e412]
+          - generic [ref=e415]: 100% Estratégico
+          - img [ref=e417]
+          - generic [ref=e420]: Conteúdo Didático
+          - img [ref=e422]
+          - generic [ref=e425]: 100% Online
+          - img [ref=e427]
+        - generic [ref=e430]:
+          - img [ref=e431]
+          - generic [ref=e435]: Estratégia de Carreira
+          - img [ref=e437]
+          - generic [ref=e440]: Do Absoluto Zero
+          - img [ref=e442]
+          - generic [ref=e445]: Com Bia Song
+          - img [ref=e447]
+          - generic [ref=e450]: Liberdade Artística
+          - img [ref=e452]
+          - generic [ref=e455]: 100% Estratégico
+          - img [ref=e457]
+          - generic [ref=e460]: Conteúdo Didático
+          - img [ref=e462]
+          - generic [ref=e465]: 100% Online
+          - img [ref=e467]
+      - generic [ref=e471]:
+        - generic [ref=e473]:
+          - generic [ref=e474]: ✦
+          - generic [ref=e475]: Resultados Reais
+        - generic [ref=e476]:
+          - heading "Resultados Comprovados" [level=2] [ref=e477]
+          - paragraph [ref=e478]: Não é sorte. É método. Veja quem aplicou e entrou nos charts.
+        - generic [ref=e479]:
+          - generic [ref=e480]:
+            - iframe [ref=e482]:
+              - generic [active] [ref=f1e1]:
+                - generic "Player de vídeo do YouTube" [ref=f1e3]
+                - generic [ref=f1e5]:
+                  - generic:
+                    - generic:
+                      - button "Assistir vídeo" [ref=f1e10] [cursor=pointer]
+                      - button "Ocultar controles do player" [ref=f1e12] [cursor=pointer]
+                      - generic [ref=f1e14]:
+                        - generic [ref=f1e19]:
+                          - generic [ref=f1e20]:
+                            - link "Mc Braz falando sobre a Bia Song" [ref=f1e21] [cursor=pointer]:
+                              - /url: https://www.youtube.com/watch?v=_J-AvB1J8NE
+                            - link "Bia Song" [ref=f1e22] [cursor=pointer]:
+                              - /url: /channel/UCOYkabEIDOXergdU6dluVEg
+                              - generic [ref=f1e23]: Bia Song
+                          - generic [ref=f1e24]:
+                            - button [ref=f1e25] [cursor=pointer]
+                            - generic [ref=f1e27]:
+                              - generic: Bia Song
+                              - generic: 20,9 mil inscritos
+                        - generic [ref=f1e28]:
+                          - button "Compartilhar" [ref=f1e31] [cursor=pointer]:
+                            - generic [ref=f1e35]:
+                              - img
+                          - link "Assistir no YouTube" [ref=f1e42] [cursor=pointer]:
+                            - /url: https://www.youtube.com/watch?v=_J-AvB1J8NE
+                            - generic [ref=f1e45]:
+                              - text: Assista no
+                              - img [ref=f1e47]:
+                                - generic [ref=f1e49]:
+                                  - img
+            - generic [ref=e483]:
+              - heading "MC Braz" [level=3] [ref=e484]
+              - paragraph [ref=e485]: "\"A estratégia mudou meu game no Spotify...\""
+          - generic [ref=e486]:
+            - iframe [ref=e488]:
+              - generic [active] [ref=f2e1]:
+                - generic "Player de vídeo do YouTube" [ref=f2e3]
+                - generic [ref=f2e5]:
+                  - generic:
+                    - generic:
+                      - button "Assistir vídeo" [ref=f2e10] [cursor=pointer]
+                      - button "Ocultar controles do player" [ref=f2e12] [cursor=pointer]
+                      - generic [ref=f2e14]:
+                        - generic [ref=f2e19]:
+                          - generic [ref=f2e20]:
+                            - link "Sofia Brasil falando sobre a Bia Song" [ref=f2e21] [cursor=pointer]:
+                              - /url: https://www.youtube.com/watch?v=w6943-T6GcA
+                            - link "Bia Song" [ref=f2e22] [cursor=pointer]:
+                              - /url: /channel/UCOYkabEIDOXergdU6dluVEg
+                              - generic [ref=f2e23]: Bia Song
+                          - generic [ref=f2e24]:
+                            - button [ref=f2e25] [cursor=pointer]
+                            - generic [ref=f2e27]:
+                              - generic: Bia Song
+                              - generic: 20,9 mil inscritos
+                        - generic [ref=f2e28]:
+                          - button "Compartilhar" [ref=f2e31] [cursor=pointer]:
+                            - generic [ref=f2e35]:
+                              - img
+                          - link "Assistir no YouTube" [ref=f2e42] [cursor=pointer]:
+                            - /url: https://www.youtube.com/watch?v=w6943-T6GcA
+                            - generic [ref=f2e45]:
+                              - text: Assista no
+                              - img [ref=f2e47]:
+                                - generic [ref=f2e49]:
+                                  - img
+            - generic [ref=e489]:
+              - heading "Sofia Brasil" [level=3] [ref=e490]
+              - paragraph [ref=e491]: "\"Agora meu lançamento tem estratégia e resultado real.\""
+          - generic [ref=e492]:
+            - img "Gráfico de Ouvintes Spotify" [ref=e493]
+            - generic [ref=e494]:
+              - paragraph [ref=e497]: Dados Reais
+              - paragraph [ref=e498]: 4.1M+ Ouvintes
+              - paragraph [ref=e499]: Crescimento de +1.195%
+          - generic [ref=e500]:
+            - iframe [ref=e502]:
+              - generic [active] [ref=f3e1]:
+                - generic "Player de vídeo do YouTube" [ref=f3e3]
+                - generic [ref=f3e5]:
+                  - generic:
+                    - generic:
+                      - button "Assistir vídeo" [ref=f3e10] [cursor=pointer]
+                      - button "Ocultar controles do player" [ref=f3e12] [cursor=pointer]
+                      - generic [ref=f3e14]:
+                        - generic [ref=f3e19]:
+                          - generic [ref=f3e20]:
+                            - link "Juliana Arv falando sobre a Bia Song" [ref=f3e21] [cursor=pointer]:
+                              - /url: https://www.youtube.com/watch?v=nzc6ftZWk5g
+                            - link "Bia Song" [ref=f3e22] [cursor=pointer]:
+                              - /url: /channel/UCOYkabEIDOXergdU6dluVEg
+                              - generic [ref=f3e23]: Bia Song
+                          - generic [ref=f3e24]:
+                            - button [ref=f3e25] [cursor=pointer]
+                            - generic [ref=f3e27]:
+                              - generic: Bia Song
+                              - generic: 20,9 mil inscritos
+                        - generic [ref=f3e28]:
+                          - button "Compartilhar" [ref=f3e31] [cursor=pointer]:
+                            - generic [ref=f3e35]:
+                              - img
+                          - link "Assistir no YouTube" [ref=f3e42] [cursor=pointer]:
+                            - /url: https://www.youtube.com/watch?v=nzc6ftZWk5g
+                            - generic [ref=f3e45]:
+                              - text: Assista no
+                              - img [ref=f3e47]:
+                                - generic [ref=f3e49]:
+                                  - img
+            - generic [ref=e503]:
+              - heading "Juliana Arv" [level=3] [ref=e504]
+              - paragraph [ref=e505]: "\"Entendi que não preciso viralizar para ter renda.\""
+          - generic [ref=e506]:
+            - img "Spotify Dashboard Growth"
+      - generic [ref=e508]:
+        - generic [ref=e509]:
+          - generic [ref=e510]:
+            - img [ref=e511]
+            - generic [ref=e514]: Conteúdo Completo
+          - heading "Dentro da nossa Plataforma" [level=2] [ref=e515]
+          - paragraph [ref=e516]: O passo a passo estratégico dividido em módulos práticos para você dominar o mercado musical.
+        - generic [ref=e517]:
+          - generic [ref=e518]:
+            - button "Módulo 01 Apresentação e Boas-vindas" [ref=e519] [cursor=pointer]:
+              - generic [ref=e520]:
+                - img [ref=e522]
+                - generic [ref=e524]:
+                  - generic [ref=e525]: Módulo 01
+                  - heading "Apresentação e Boas-vindas" [level=3] [ref=e526]
+              - img [ref=e528]
+            - generic [ref=e531]:
+              - generic [ref=e532]:
+                - generic [ref=e533]:
+                  - img [ref=e535]
+                  - generic [ref=e538]: Vídeo 1 – Boas-vindas
+                - img [ref=e539]
+              - generic [ref=e542]:
+                - generic [ref=e543]:
+                  - img [ref=e545]
+                  - generic [ref=e548]: Vídeo 2 - Apresentação
+                - img [ref=e549]
+              - generic [ref=e552]:
+                - generic [ref=e553]:
+                  - img [ref=e555]
+                  - generic [ref=e558]: Vídeo 3 - Sobre o Suporte do Curso
+                - img [ref=e559]
+          - generic [ref=e562]:
+            - button "Módulo 02 Antes de pôr a mão na massa, planeje!" [ref=e563] [cursor=pointer]:
+              - generic [ref=e564]:
+                - img [ref=e566]
+                - generic [ref=e570]:
+                  - generic [ref=e571]: Módulo 02
+                  - heading "Antes de pôr a mão na massa, planeje!" [level=3] [ref=e572]
+              - img [ref=e574]
+            - generic [ref=e576]:
+              - generic [ref=e577]:
+                - generic [ref=e578]:
+                  - img [ref=e580]
+                  - generic [ref=e583]: Vídeo 3 - Como as pessoas consomem música
+                - img [ref=e584]
+              - generic [ref=e587]:
+                - generic [ref=e588]:
+                  - img [ref=e590]
+                  - generic [ref=e593]: Vídeo 4 – DSPs
+                - img [ref=e594]
+              - generic [ref=e597]:
+                - generic [ref=e598]:
+                  - img [ref=e600]
+                  - generic [ref=e603]: Vídeo 5 – Sobre o Spotify
+                - img [ref=e604]
+              - generic [ref=e607]:
+                - generic [ref=e608]:
+                  - img [ref=e610]
+                  - generic [ref=e613]: Vídeo 6 – O que é um planejamento de carreira
+                - img [ref=e614]
+              - generic [ref=e617]:
+                - generic [ref=e618]:
+                  - img [ref=e620]
+                  - generic [ref=e623]: Vídeo 7 – Por que todo mundo está lançando single?
+                - img [ref=e624]
+              - generic [ref=e627]:
+                - generic [ref=e628]:
+                  - img [ref=e630]
+                  - generic [ref=e633]: Vídeo 8 – Método 3Cs
+                - img [ref=e634]
+              - generic [ref=e637]:
+                - generic [ref=e638]:
+                  - img [ref=e640]
+                  - generic [ref=e643]: Vídeo 9 – Criar um lançamento do zero com objetivos metas.
+                - img [ref=e644]
+              - generic [ref=e647]:
+                - generic [ref=e648]:
+                  - img [ref=e650]
+                  - generic [ref=e652]:
+                    - generic [ref=e653]: Vídeo 10 – Check-up de lançamento para evitar erros
+                    - generic [ref=e654]:
+                      - img [ref=e655]
+                      - text: Aula Prática Chave
+                - img [ref=e657]
+          - generic [ref=e660]:
+            - button "Módulo 03 Pitch na prática" [ref=e661] [cursor=pointer]:
+              - generic [ref=e662]:
+                - img [ref=e664]
+                - generic [ref=e666]:
+                  - generic [ref=e667]: Módulo 03
+                  - heading "Pitch na prática" [level=3] [ref=e668]
+              - img [ref=e670]
+            - generic [ref=e672]:
+              - generic [ref=e673]:
+                - generic [ref=e674]:
+                  - img [ref=e676]
+                  - generic [ref=e679]: Vídeo 11 – O que é Pitch e porque fazer
+                - img [ref=e680]
+              - generic [ref=e683]:
+                - generic [ref=e684]:
+                  - img [ref=e686]
+                  - generic [ref=e689]: Vídeo 12 – Informações (extremamente) importantes sobre o Pitch
+                - img [ref=e690]
+              - generic [ref=e693]:
+                - generic [ref=e694]:
+                  - img [ref=e696]
+                  - generic [ref=e699]: Vídeo 13 – O que os curadores pensam?
+                - img [ref=e700]
+              - generic [ref=e703]:
+                - generic [ref=e704]:
+                  - img [ref=e706]
+                  - generic [ref=e709]: Vídeo 14 - 500 caracteres não suficientes?
+                - img [ref=e710]
+              - generic [ref=e713]:
+                - generic [ref=e714]:
+                  - img [ref=e716]
+                  - generic [ref=e719]: Vídeo 15 – Truque de descrição de playlists
+                - img [ref=e720]
+              - generic [ref=e723]:
+                - generic [ref=e724]:
+                  - img [ref=e726]
+                  - generic [ref=e728]:
+                    - generic [ref=e729]: Vídeo 16 – Como fazer um pitch na prática (Spotify)
+                    - generic [ref=e730]:
+                      - img [ref=e731]
+                      - text: Aula Prática Chave
+                - img [ref=e733]
+              - generic [ref=e736]:
+                - generic [ref=e737]:
+                  - img [ref=e739]
+                  - generic [ref=e741]:
+                    - generic [ref=e742]: Vídeo 17 – Como fazer um Pitch na prática (Amazon)
+                    - generic [ref=e743]:
+                      - img [ref=e744]
+                      - text: Aula Prática Chave
+                - img [ref=e746]
+          - generic [ref=e749]:
+            - button "Módulo 04 Charts na Prática" [ref=e750] [cursor=pointer]:
+              - generic [ref=e751]:
+                - img [ref=e753]
+                - generic [ref=e755]:
+                  - generic [ref=e756]: Módulo 04
+                  - heading "Charts na Prática" [level=3] [ref=e757]
+              - img [ref=e759]
+            - generic [ref=e761]:
+              - generic [ref=e762]:
+                - generic [ref=e763]:
+                  - img [ref=e765]
+                  - generic [ref=e768]: Vídeo 18 – Desvendando os Charts
+                - img [ref=e769]
+              - generic [ref=e772]:
+                - generic [ref=e773]:
+                  - img [ref=e775]
+                  - generic [ref=e778]: Vídeo 19 – Como acessar os Charts na prática
+                - img [ref=e779]
+              - generic [ref=e782]:
+                - generic [ref=e783]:
+                  - img [ref=e785]
+                  - generic [ref=e788]: "Vídeo 20 – Checklist final: você tem o necessário para entrar nos Charts?"
+                - img [ref=e789]
+              - generic [ref=e792]:
+                - generic [ref=e793]:
+                  - img [ref=e795]
+                  - generic [ref=e798]: Vídeo 21 – Mercado de playlist de usuários
+                - img [ref=e799]
+              - generic [ref=e802]:
+                - generic [ref=e803]:
+                  - img [ref=e805]
+                  - generic [ref=e808]: Vídeo 22 – Parabéns!
+                - img [ref=e809]
+          - generic [ref=e812]:
+            - button "Bônus 01 Storytelling no Pitch" [ref=e813] [cursor=pointer]:
+              - generic [ref=e814]:
+                - img [ref=e816]
+                - generic [ref=e818]:
+                  - generic [ref=e819]: Bônus 01
+                  - heading "Storytelling no Pitch" [level=3] [ref=e820]
+              - img [ref=e822]
+            - generic [ref=e825]:
+              - generic [ref=e826]:
+                - img [ref=e828]
+                - generic [ref=e831]: Bônus 1 - Storytelling do Pitch
+              - img [ref=e832]
+          - generic [ref=e835]:
+            - button "Bônus 02 Como se manter nas playlists" [ref=e836] [cursor=pointer]:
+              - generic [ref=e837]:
+                - img [ref=e839]
+                - generic [ref=e841]:
+                  - generic [ref=e842]: Bônus 02
+                  - heading "Como se manter nas playlists" [level=3] [ref=e843]
+              - img [ref=e845]
+            - generic [ref=e848]:
+              - generic [ref=e849]:
+                - img [ref=e851]
+                - generic [ref=e854]: Bônus 2 - Como se manter em uma playlist Editorial
+              - img [ref=e855]
+      - generic [ref=e859]:
+        - heading "Com o Do Zero aos Charts, cada dia é mais produtivo, lucrativo e profissional." [level=2] [ref=e861]
+        - generic [ref=e862]:
+          - generic [ref=e863]:
+            - img [ref=e865]
+            - heading "Sem o Método" [level=3] [ref=e868]
+            - list [ref=e869]:
+              - listitem [ref=e870]:
+                - img [ref=e872]
+                - paragraph [ref=e875]: Lança músicas no escuro e ninguém ouve
+              - listitem [ref=e876]:
+                - img [ref=e878]
+                - paragraph [ref=e881]: Gasta dinheiro com anúncios sem retorno
+              - listitem [ref=e882]:
+                - img [ref=e884]
+                - paragraph [ref=e887]: Não entende as métricas do Spotify
+              - listitem [ref=e888]:
+                - img [ref=e890]
+                - paragraph [ref=e893]: Sente frustração a cada lançamento fracassado
+              - listitem [ref=e894]:
+                - img [ref=e896]
+                - paragraph [ref=e899]: Depende de sorte ou viralização no TikTok
+          - generic [ref=e900]:
+            - img [ref=e902]
+            - heading "Com o Método" [level=3] [ref=e904]
+            - list [ref=e905]:
+              - listitem [ref=e906]:
+                - img [ref=e908]
+                - paragraph [ref=e910]: Planejamento estratégico de 360º na carreira
+              - listitem [ref=e911]:
+                - img [ref=e913]
+                - paragraph [ref=e915]: Investimento inteligente que retorna em fãs
+              - listitem [ref=e916]:
+                - img [ref=e918]
+                - paragraph [ref=e920]: Como entrar em playlists
+              - listitem [ref=e921]:
+                - img [ref=e923]
+                - paragraph [ref=e925]: Clareza do próximo passo e consistência
+              - listitem [ref=e926]:
+                - img [ref=e928]
+                - paragraph [ref=e930]: Crescimento previsível e sustentável
+      - generic [ref=e933]:
+        - generic [ref=e935]:
+          - generic [ref=e936]:
+            - generic [ref=e937]: ✦
+            - generic [ref=e938]: Mentora
+          - heading "Bia Song" [level=2] [ref=e939]
+          - generic [ref=e940]:
+            - paragraph [ref=e941]: Bia Song é mineira, nascida e criada no Vale do Jequitinhonha, entre instrumentos musicais e grandes sonhos. Desde cedo entendeu que a arte vai além do palco ela também precisa ser protegida, valorizada e administrada com inteligência. Hoje, é sócia-fundadora da ObraDigital, empresa referência na administração de direitos autorais que gerencia mais de 6.000 obras de mais de 200 artistas independentes.
+            - paragraph [ref=e942]: Com uma trajetória que começou na ONErpm, onde atuou como Coordenadora e liderou a expansão da empresa em Belo Horizonte MG, Bia Song acumulou conhecimento prático sobre os desafios enfrentados por artistas independentes. Foi ali que desenvolveu sua visão de um mercado mais transparente, justo e sustentável pilares que carrega em todos os seus projetos.
+            - paragraph [ref=e943]: Atualmente, também é sócia e gestora de carreira do cantor MC Braz, um dos nomes em ascensão no funk nacional, e participa ativamente da construção de projetos voltados para o fortalecimento da cena musical brasileira, com foco especial em artistas de comunidades e regiões tradicionalmente subvalorizadas pela indústria.
+            - paragraph [ref=e944]: Bia Song une estratégia, sensibilidade artística e visão empreendedora para transformar a forma como artistas lidam com seus direitos, sua carreira e seu futuro.
+          - button "Quero aprender com a Bia" [ref=e946] [cursor=pointer]:
+            - text: Quero aprender com a Bia
+            - img [ref=e947]
+        - generic [ref=e950]:
+          - img "Bia Song Portrait" [ref=e952]
+          - generic [ref=e953]:
+            - img "Bia Song Business" [ref=e955]
+            - img "Music Studio" [ref=e957]
+      - generic [ref=e962]:
+        - generic [ref=e964]:
+          - generic [ref=e965]: ✦
+          - generic [ref=e966]: Investimento
+        - generic [ref=e967]:
+          - heading "Do Zero Aos Charts" [level=3] [ref=e968]
+          - generic [ref=e969]:
+            - generic [ref=e970]: Estratégia
+            - generic [ref=e971]: •
+            - generic [ref=e972]: Lançamento
+            - generic [ref=e973]: •
+            - generic [ref=e974]: Carreira
+        - generic [ref=e975]:
+          - paragraph [ref=e976]: De R$ 679,00
+          - generic [ref=e977]:
+            - generic [ref=e978]:
+              - generic [ref=e979]: POR 12X
+              - generic [ref=e980]: R$ 10,03
+            - paragraph [ref=e981]: ou R$ 97,00 à vista
+        - paragraph [ref=e982]: "Você vai receber:"
+        - generic [ref=e983]:
+          - generic [ref=e984]:
+            - img [ref=e986]
+            - generic [ref=e988]: Acesso imediato às aulas
+          - generic [ref=e989]:
+            - img [ref=e991]
+            - generic [ref=e993]: "Método validado: Do Zero ao Charts"
+          - generic [ref=e994]:
+            - img [ref=e996]
+            - generic [ref=e998]: "Bônus 1: Storytelling no pitch"
+          - generic [ref=e999]:
+            - img [ref=e1001]
+            - generic [ref=e1003]: "Bônus 2: Como se manter nas playlists"
+          - generic [ref=e1004]:
+            - img [ref=e1006]
+            - generic [ref=e1008]: Acesso à comunidade de alunos
+          - generic [ref=e1009]:
+            - img [ref=e1011]
+            - generic [ref=e1013]: Suporte para dúvidas na plataforma
+        - button "Liberar Acesso às Aulas!" [ref=e1014] [cursor=pointer]:
+          - text: Liberar Acesso às Aulas!
+          - img [ref=e1015]
+        - generic [ref=e1018]:
+          - generic [ref=e1019]:
+            - img "Logo" [ref=e1020]
+            - img "Logo" [ref=e1021]
+            - img "Logo" [ref=e1022]
+          - generic [ref=e1023]:
+            - generic [ref=e1024]:
+              - img [ref=e1025]
+              - text: Compra 100% Segura
+            - generic [ref=e1028]:
+              - img [ref=e1029]
+              - text: Garantia Incondicional 15 Dias
+      - generic [ref=e1032]:
+        - generic: Garantia
+        - generic [ref=e1034]:
+          - generic [ref=e1035]:
+            - generic [ref=e1036]:
+              - generic [ref=e1037]: ✦
+              - generic [ref=e1038]: Garantia Blindada
+            - heading "Risco Zero:" [level=2] [ref=e1039]
+            - generic [ref=e1040]:
+              - paragraph [ref=e1041]: Eu sei que investir no seu conhecimento pode gerar dúvidas, e é por isso que quero tirar todo o risco das suas mãos.
+              - paragraph [ref=e1042]:
+                - text: Ao se inscrever no
+                - strong [ref=e1043]: Do Zero aos Charts
+                - text: ", você terá 15 dias completos para assistir às aulas, aplicar os conteúdos e sentir se essa experiência realmente faz sentido para você."
+              - paragraph [ref=e1044]: "\"Essa é a minha forma de mostrar o quanto acredito no poder transformador deste método e no impacto que ele pode ter nos seus resultados.\""
+            - generic [ref=e1045]:
+              - button "Quero me inscrever sem nenhum risco" [ref=e1046] [cursor=pointer]:
+                - text: Quero me inscrever sem nenhum risco
+                - img [ref=e1047]
+              - img [ref=e1050]
+          - generic [ref=e1054]:
+            - generic [ref=e1057]: "15"
+            - img [ref=e1058]:
+              - generic [ref=e1060]: • Dias de Garantia • Risco Zero
+      - generic [ref=e1062]:
+        - generic [ref=e1063]:
+          - generic [ref=e1064]:
+            - generic [ref=e1065]: ✦
+            - generic [ref=e1066]: Dúvidas Frequentes
+          - generic [ref=e1067]:
+            - heading "Perguntas Frequentes" [level=2] [ref=e1068]
+            - img [ref=e1069]
+        - generic [ref=e1073]:
+          - generic [ref=e1074]:
+            - generic [ref=e1075]:
+              - generic [ref=e1076]:
+                - img [ref=e1077]
+                - generic [ref=e1080]: "{ DÚVIDA }"
+              - img [ref=e1081]
+            - heading "1. Preciso pagar para participar?" [level=3] [ref=e1082]
+            - generic [ref=e1083]: Sim. O Do Zero aos Charts é um treinamento completo e pago, mas com um valor simbólico comparado ao conteúdo entregue. O investimento é acessível justamente para que você possa ter acesso a um treinamento de alto nível sem precisar gastar milhares de reais em mentorias particulares.
+          - generic [ref=e1084]:
+            - generic [ref=e1085]:
+              - generic [ref=e1086]:
+                - img [ref=e1087]
+                - generic [ref=e1090]: "{ DÚVIDA }"
+              - img [ref=e1091]
+            - heading "2. As aulas ficam gravadas?" [level=3] [ref=e1092]
+            - generic [ref=e1093]: Sim. Todas as aulas são gravadas e hospedadas em nossa área de membros exclusiva. Você terá acesso para rever o conteúdo quantas vezes quiser, no seu próprio ritmo, garantindo que nenhum detalhe da estratégia se perca.
+          - generic [ref=e1094]:
+            - generic [ref=e1095]:
+              - generic [ref=e1096]:
+                - img [ref=e1097]
+                - generic [ref=e1100]: "{ DÚVIDA }"
+              - img [ref=e1101]
+            - heading "3. Preciso ter experiência com música?" [level=3] [ref=e1102]
+            - generic [ref=e1103]: Não. O método foi estruturado para atender tanto quem nunca lançou uma música quanto quem já possui lançamentos mas não obtém resultados. A metodologia é clara, prática e acessível, indo do básico até estratégias avançadas de algoritmo.
+          - generic [ref=e1104]:
+            - generic [ref=e1105]:
+              - generic [ref=e1106]:
+                - img [ref=e1107]
+                - generic [ref=e1110]: "{ DÚVIDA }"
+              - img [ref=e1111]
+            - heading "4. Onde assistirei as aulas?" [level=3] [ref=e1112]
+            - generic [ref=e1113]: O curso é 100% online. Assim que sua inscrição for confirmada, você receberá um e-mail com seus dados de acesso à plataforma. Você pode assistir pelo computador, tablet ou celular, de qualquer lugar do mundo com internet.
+    - contentinfo [ref=e1114]:
+      - generic [ref=e1116]:
+        - img "Logo" [ref=e1118]
+        - paragraph [ref=e1119]: Do Zero aos Charts – Bia Song | Todos os direitos reservados © 2025.
+        - link "Desenvolvido por" [ref=e1120] [cursor=pointer]:
+          - /url: "#"
+          - img [ref=e1122]
+          - generic [ref=e1125]: Desenvolvido por
+  - generic [ref=e1126]: desktop

@@ -1,0 +1,58 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "Dumpor website logo Dumpor" [ref=e4] [cursor=pointer]:
+        - /url: /
+        - img "Dumpor website logo" [ref=e7]
+        - generic [ref=e8]: Dumpor
+      - navigation [ref=e9]:
+        - link "Service status" [ref=e10] [cursor=pointer]:
+          - /url: /status/
+        - link "Instagram Story Downloader" [ref=e14] [cursor=pointer]:
+          - /url: /en/instagram-story-downloader/
+        - link "Instagram Profile Viewer" [ref=e15] [cursor=pointer]:
+          - /url: /en/instagram-profile-viewer/
+        - button "News & Updates" [ref=e17] [cursor=pointer]:
+          - text: News & Updates
+          - img [ref=e18]
+        - button "Legal" [ref=e21] [cursor=pointer]:
+          - text: Legal
+          - img [ref=e22]
+        - link "Contact Us" [ref=e24] [cursor=pointer]:
+          - /url: /contact-us/
+        - link "Blog" [ref=e25] [cursor=pointer]:
+          - /url: /en/blog/
+        - generic [ref=e26]:
+          - button "Toggle theme" [ref=e27] [cursor=pointer]:
+            - img [ref=e28]
+          - button "EN" [ref=e30]:
+            - img [ref=e31]
+            - generic [ref=e33]: EN
+            - img [ref=e34]
+  - main [ref=e38]:
+    - generic [ref=e39]:
+      - paragraph [ref=e41]: "@dayantorresart"
+      - paragraph [ref=e62]: Verifying…
+  - contentinfo [ref=e103]:
+    - generic [ref=e104]:
+      - generic [ref=e105]: About Dumpor
+      - generic [ref=e106]:
+        - paragraph [ref=e107]: dumpor.io is the official website of the Dumpor Instagram Story Viewer. Beware of copycat sites using the Dumpor name.
+        - paragraph [ref=e108]:
+          - strong [ref=e109]: Public content only.
+          - text: We index publicly available Instagram content. Not affiliated with Instagram. Use responsibly and respect copyrights.
+        - paragraph [ref=e110]:
+          - text: By using Dumpor.io you agree to our
+          - link "Terms" [ref=e111] [cursor=pointer]:
+            - /url: /page/terms/
+          - text: and
+          - link "Privacy Policy" [ref=e112] [cursor=pointer]:
+            - /url: /page/privacy-policy/
+          - text: . Need a takedown?
+          - link "DMCA / Remove Content" [ref=e113] [cursor=pointer]:
+            - /url: /page/remove/
+          - text: .
+        - paragraph [ref=e114]:
+          - link "About Us" [ref=e115] [cursor=pointer]:
+            - /url: /about-us/
+        - paragraph [ref=e116]: © 2026 Dumpor. All rights reserved.

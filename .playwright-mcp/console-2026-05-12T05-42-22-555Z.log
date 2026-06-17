@@ -1,0 +1,12 @@
+[     161ms] [ERROR] Mixed Content: The page at 'https://www.pinheironeto.com.br/' was loaded over HTTPS, but requested an insecure XMLHttpRequest endpoint 'http://api.ipify.org/?format=json'. This request has been blocked; the content must be served over HTTPS. @ https://www.pinheironeto.com.br/polyfills.3539621f729998ab.js:0
+[     682ms] [ERROR] ERROR TypeError: Cannot set properties of null (setting 'oncanplaythrough')
+    at Me.ngAfterViewInit (https://www.pinheironeto.com.br/main.c3430600c963ac09.js:1:137717)
+    at gt (https://www.pinheironeto.com.br/main.c3430600c963ac09.js:1:2229911)
+    at Oe (https://www.pinheironeto.com.br/main.c3430600c963ac09.js:1:2229729)
+    at Y (https://www.pinheironeto.com.br/main.c3430600c963ac09.js:1:2229454)
+    at gc (https://www.pinheironeto.com.br/main.c3430600c963ac09.js:1:2279630)
+    at Ix (https://www.pinheironeto.com.br/main.c3430600c963ac09.js:1:2279056)
+    at gc (https://www.pinheironeto.com.br/main.c3430600c963ac09.js:1:2279082)
+    at Px (https://www.pinheironeto.com.br/main.c3430600c963ac09.js:1:2286041)
+    at rx (https://www.pinheironeto.com.br/main.c3430600c963ac09.js:1:2279490)
+    at gc (https://www.pinheironeto.com.br/main.c3430600c963ac09.js:1:2279501) @ https://www.pinheironeto.com.br/main.c3430600c963ac09.js:0

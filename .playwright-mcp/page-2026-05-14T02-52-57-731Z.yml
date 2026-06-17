@@ -1,0 +1,764 @@
+- generic [active] [ref=e1]:
+  - dialog "Sua privacidade é importante" [ref=e2]:
+    - generic [ref=e3]:
+      - tabpanel "Consentir" [ref=e6]:
+        - generic [ref=e8]:
+          - heading "Sua privacidade é importante" [level=2] [ref=e9]
+          - generic [ref=e10]:
+            - paragraph [ref=e11]:
+              - text: Utilizamos cookies para melhorar sua experiência, analisar o tráfego e oferecer conteúdo personalizado. Clique em 'Aceitar todos' para consentir de acordo com nossas políticas de
+              - link "Cookies" [ref=e12] [cursor=pointer]:
+                - /url: https://www.envato.com/cookies/
+              - text: e
+              - link "Privacidade" [ref=e13] [cursor=pointer]:
+                - /url: https://www.envato.com/privacy/
+              - text: .
+            - paragraph [ref=e14]
+      - generic [ref=e18]:
+        - button "Rejeitar todos" [ref=e19] [cursor=pointer]
+        - button "Gerenciar preferências" [ref=e20] [cursor=pointer]: Gerenciar preferências
+        - button "Aceitar todos" [ref=e22] [cursor=pointer]
+  - banner [ref=e23]:
+    - 'link "Envato: Go unlimited!" [ref=e25] [cursor=pointer]':
+      - /url: https://elements.envato.com/pricing?utm_source=mixkit&utm_medium=referral&utm_campaign=elements_mixkit_headerbar_14APR2025
+      - generic [ref=e26]:
+        - strong [ref=e27]: "Envato:"
+        - text: Go unlimited!
+    - generic [ref=e28]:
+      - link "Mixkit - Free assets for your next video project" [ref=e29] [cursor=pointer]:
+        - /url: /
+        - img [ref=e30]
+      - generic [ref=e36]:
+        - generic [ref=e37] [cursor=pointer]:
+          - generic [ref=e38]: Videos
+          - generic:
+            - generic: Videos
+            - generic: Music
+            - generic: Sound Effects
+            - generic: Templates
+            - generic: Icons
+        - generic [ref=e39]:
+          - searchbox "Enter Search Text" [ref=e40]: Burger
+          - button "Clear" [ref=e41] [cursor=pointer]:
+            - img [ref=e42]
+      - button "Toggle Navigation" [ref=e45] [cursor=pointer]
+      - navigation "global-navigation":
+        - link "Video" [ref=e47] [cursor=pointer]:
+          - /url: /free-stock-video/
+        - link "Music" [ref=e48] [cursor=pointer]:
+          - /url: /free-stock-music/
+        - link "Sound Effects" [ref=e49] [cursor=pointer]:
+          - /url: /free-sound-effects/
+        - generic [ref=e50]:
+          - link "Templates" [ref=e51] [cursor=pointer]:
+            - /url: /free-video-templates/
+          - generic [ref=e52]:
+            - link "Premiere Pro" [ref=e53] [cursor=pointer]:
+              - /url: /free-premiere-pro-templates/
+            - link "After Effects" [ref=e54] [cursor=pointer]:
+              - /url: /free-after-effects-templates/
+            - link "Final Cut Pro" [ref=e55] [cursor=pointer]:
+              - /url: /free-final-cut-pro-templates/
+            - link "DaVinci Resolve" [ref=e56] [cursor=pointer]:
+              - /url: /free-davinci-resolve-templates/
+        - link "Unlimited stock assets" [ref=e58] [cursor=pointer]:
+          - /url: https://elements.envato.com/all-items?utm_source=mixkit&utm_medium=referral&utm_campaign=elements_mixkit_cs_nav_switcher_31JULY2024
+    - navigation [ref=e60]:
+      - link "New" [ref=e62] [cursor=pointer]:
+        - /url: /free-stock-video/new/
+      - link "Backgrounds" [ref=e64] [cursor=pointer]:
+        - /url: /free-stock-video/background/
+      - link "Vertical" [ref=e66] [cursor=pointer]:
+        - /url: /free-vertical-videos/
+      - link "Nature" [ref=e68] [cursor=pointer]:
+        - /url: /free-stock-video/nature/
+      - link "Lifestyle" [ref=e70] [cursor=pointer]:
+        - /url: /free-stock-video/lifestyle/
+      - link "Animals" [ref=e72] [cursor=pointer]:
+        - /url: /free-stock-video/animal/
+      - link "Food" [ref=e74] [cursor=pointer]:
+        - /url: /free-stock-video/food/
+      - link "Transport" [ref=e76] [cursor=pointer]:
+        - /url: /free-stock-video/transport/
+      - link "More Videos" [ref=e78] [cursor=pointer]:
+        - /url: "#"
+  - main [ref=e79]:
+    - generic [ref=e80]:
+      - link "Mixkit" [ref=e81] [cursor=pointer]:
+        - /url: https://mixkit.co/
+      - link "Free Stock Video" [ref=e82] [cursor=pointer]:
+        - /url: https://mixkit.co/free-stock-video/
+      - text: Burger
+    - generic [ref=e84]:
+      - heading "47 Free Burger Stock Videos Filter" [level=1] [ref=e85]:
+        - text: 47 Free Burger Stock Videos
+        - button "Filter" [ref=e86] [cursor=pointer]
+      - generic [ref=e89]:
+        - text: All burger stock video clips can be downloaded for free, without watermark, to be used in your next awesome video project under the
+        - link "Mixkit License" [ref=e90] [cursor=pointer]:
+          - /url: /license/#videoFree
+        - text: "! Also check out"
+        - link "Hamburger" [ref=e91] [cursor=pointer]:
+          - /url: /free-stock-video/hamburger/
+        - text: ","
+        - link "Fast Food" [ref=e92] [cursor=pointer]:
+          - /url: /free-stock-video/fast-food/
+        - text: ","
+        - link "French Fries" [ref=e93] [cursor=pointer]:
+          - /url: /free-stock-video/french-fries/
+        - text: ","
+        - link "Cheeseburger" [ref=e94] [cursor=pointer]:
+          - /url: /free-stock-video/cheeseburger/
+        - text: ","
+        - link "Close Up" [ref=e95] [cursor=pointer]:
+          - /url: /free-stock-video/close-up/
+        - text: ","
+        - link "Bread" [ref=e96] [cursor=pointer]:
+          - /url: /free-stock-video/bread/
+        - text: and
+        - link "Food" [ref=e97] [cursor=pointer]:
+          - /url: /free-stock-video/food/
+        - text: .
+    - generic [ref=e99]:
+      - generic [ref=e102]:
+        - generic [ref=e104]:
+          - link "Envato Elements" [ref=e106] [cursor=pointer]:
+            - /url: https://elements.envato.com/stock-video/burger?utm_source=mixkit&utm_medium=referral&utm_campaign=elements_mixkit_cs_video_tag_results_31JULY2024
+            - img "Envato Elements" [ref=e107]
+          - generic [ref=e108]:
+            - paragraph [ref=e109]: Quality artist-created Burger videos
+            - paragraph [ref=e110]: Create with unlimited stock video, templates, music & more, all in one value-packed subscription.
+          - link "Start creating now" [ref=e112] [cursor=pointer]:
+            - /url: https://elements.envato.com/stock-video/burger?utm_source=mixkit&utm_medium=referral&utm_campaign=elements_mixkit_cs_video_tag_results_31JULY2024
+        - generic [ref=e114]:
+          - button "Previous Slide" [ref=e115] [cursor=pointer]:
+            - img [ref=e117]
+          - button "Next Slide" [ref=e119] [cursor=pointer]:
+            - img [ref=e121]
+          - generic [ref=e123]:
+            - generic [ref=e124]: slide 7 to 9 of 8
+            - generic [ref=e127]:
+              - generic [ref=e129] [cursor=pointer]:
+                - img [ref=e131]
+                - link [ref=e135]:
+                  - /url: https://elements.envato.com/burger-VRWMJAR?utm_source=mixkit&utm_medium=referral&utm_campaign=elements_mixkit_cs_video_tag_results_31JULY2024
+              - generic [ref=e137] [cursor=pointer]:
+                - img [ref=e139]
+                - link [ref=e143]:
+                  - /url: https://elements.envato.com/burger-B4FLERL?utm_source=mixkit&utm_medium=referral&utm_campaign=elements_mixkit_cs_video_tag_results_31JULY2024
+              - generic [ref=e145] [cursor=pointer]:
+                - img [ref=e147]
+                - link [ref=e151]:
+                  - /url: https://elements.envato.com/burger-S4M6NXL?utm_source=mixkit&utm_medium=referral&utm_campaign=elements_mixkit_cs_video_tag_results_31JULY2024
+              - generic [ref=e153] [cursor=pointer]:
+                - img [ref=e155]
+                - link [ref=e159]:
+                  - /url: https://elements.envato.com/burger-KSAUWFB?utm_source=mixkit&utm_medium=referral&utm_campaign=elements_mixkit_cs_video_tag_results_31JULY2024
+              - generic [ref=e161] [cursor=pointer]:
+                - img [ref=e163]
+                - link [ref=e167]:
+                  - /url: https://elements.envato.com/placing-burger-on-burger-buns-8EP6SMB?utm_source=mixkit&utm_medium=referral&utm_campaign=elements_mixkit_cs_video_tag_results_31JULY2024
+              - generic [ref=e169] [cursor=pointer]:
+                - img [ref=e171]
+                - link [ref=e175]:
+                  - /url: https://elements.envato.com/cooking-burgers-closeup-delicious-burger-readytoea-SYBJS64?utm_source=mixkit&utm_medium=referral&utm_campaign=elements_mixkit_cs_video_tag_results_31JULY2024
+              - generic [ref=e177] [cursor=pointer]:
+                - img "Burger." [ref=e179]
+                - link [ref=e183]:
+                  - /url: https://elements.envato.com/burger-BM6SPG9?utm_source=mixkit&utm_medium=referral&utm_campaign=elements_mixkit_cs_video_tag_results_31JULY2024
+              - generic [ref=e185] [cursor=pointer]:
+                - img "Burger." [ref=e187]
+                - link [ref=e191]:
+                  - /url: https://elements.envato.com/burger-CGF53EK?utm_source=mixkit&utm_medium=referral&utm_campaign=elements_mixkit_cs_video_tag_results_31JULY2024
+              - generic [ref=e193] [cursor=pointer]:
+                - img "Burger." [ref=e195]
+                - link [ref=e199]:
+                  - /url: https://elements.envato.com/burger-VRWMJAR?utm_source=mixkit&utm_medium=referral&utm_campaign=elements_mixkit_cs_video_tag_results_31JULY2024
+              - generic [ref=e201] [cursor=pointer]:
+                - img [ref=e203]
+                - link [ref=e207]:
+                  - /url: https://elements.envato.com/burger-B4FLERL?utm_source=mixkit&utm_medium=referral&utm_campaign=elements_mixkit_cs_video_tag_results_31JULY2024
+              - generic [ref=e209] [cursor=pointer]:
+                - img [ref=e211]
+                - link [ref=e215]:
+                  - /url: https://elements.envato.com/burger-S4M6NXL?utm_source=mixkit&utm_medium=referral&utm_campaign=elements_mixkit_cs_video_tag_results_31JULY2024
+              - generic [ref=e217] [cursor=pointer]:
+                - img [ref=e219]
+                - link [ref=e223]:
+                  - /url: https://elements.envato.com/burger-KSAUWFB?utm_source=mixkit&utm_medium=referral&utm_campaign=elements_mixkit_cs_video_tag_results_31JULY2024
+              - generic [ref=e225] [cursor=pointer]:
+                - img [ref=e227]
+                - link [ref=e231]:
+                  - /url: https://elements.envato.com/placing-burger-on-burger-buns-8EP6SMB?utm_source=mixkit&utm_medium=referral&utm_campaign=elements_mixkit_cs_video_tag_results_31JULY2024
+              - generic [ref=e233] [cursor=pointer]:
+                - img [ref=e235]
+                - link [ref=e239]:
+                  - /url: https://elements.envato.com/cooking-burgers-closeup-delicious-burger-readytoea-SYBJS64?utm_source=mixkit&utm_medium=referral&utm_campaign=elements_mixkit_cs_video_tag_results_31JULY2024
+              - generic [ref=e241] [cursor=pointer]:
+                - img [ref=e243]
+                - link [ref=e247]:
+                  - /url: https://elements.envato.com/burger-BM6SPG9?utm_source=mixkit&utm_medium=referral&utm_campaign=elements_mixkit_cs_video_tag_results_31JULY2024
+              - generic [ref=e249] [cursor=pointer]:
+                - img [ref=e251]
+                - link [ref=e255]:
+                  - /url: https://elements.envato.com/burger-CGF53EK?utm_source=mixkit&utm_medium=referral&utm_campaign=elements_mixkit_cs_video_tag_results_31JULY2024
+              - generic [ref=e257] [cursor=pointer]:
+                - img [ref=e259]
+                - link [ref=e263]:
+                  - /url: https://elements.envato.com/burger-VRWMJAR?utm_source=mixkit&utm_medium=referral&utm_campaign=elements_mixkit_cs_video_tag_results_31JULY2024
+              - generic [ref=e265] [cursor=pointer]:
+                - img [ref=e267]
+                - link [ref=e271]:
+                  - /url: https://elements.envato.com/burger-B4FLERL?utm_source=mixkit&utm_medium=referral&utm_campaign=elements_mixkit_cs_video_tag_results_31JULY2024
+              - generic [ref=e273] [cursor=pointer]:
+                - img [ref=e275]
+                - link [ref=e279]:
+                  - /url: https://elements.envato.com/burger-S4M6NXL?utm_source=mixkit&utm_medium=referral&utm_campaign=elements_mixkit_cs_video_tag_results_31JULY2024
+              - generic [ref=e281] [cursor=pointer]:
+                - img [ref=e283]
+                - link [ref=e287]:
+                  - /url: https://elements.envato.com/burger-KSAUWFB?utm_source=mixkit&utm_medium=referral&utm_campaign=elements_mixkit_cs_video_tag_results_31JULY2024
+      - generic [ref=e288]:
+        - generic [ref=e289]:
+          - generic [ref=e291]:
+            - generic [ref=e292]:
+              - img "Double burger with fries." [ref=e295]
+              - generic [ref=e298]:
+                - link "Double burger with fries" [ref=e299] [cursor=pointer]:
+                  - /url: /free-stock-video/double-burger-with-fries-14010/
+                - button "View Fullscreen" [ref=e300] [cursor=pointer]
+            - heading "Double burger with fries" [level=2] [ref=e302]:
+              - link "Double burger with fries" [ref=e303] [cursor=pointer]:
+                - /url: /free-stock-video/double-burger-with-fries-14010/
+          - generic [ref=e305]:
+            - generic [ref=e306]:
+              - img "French fries falling in slow motion next to a burger ." [ref=e309]
+              - generic [ref=e312]:
+                - link "French fries falling in slow motion next to a burger" [ref=e313] [cursor=pointer]:
+                  - /url: /free-stock-video/french-fries-falling-in-slow-motion-next-to-a-burger-47159/
+                - button "View Fullscreen" [ref=e314] [cursor=pointer]
+            - heading "French fries falling in slow motion next to a burger" [level=2] [ref=e316]:
+              - link "French fries falling in slow motion next to a burger" [ref=e317] [cursor=pointer]:
+                - /url: /free-stock-video/french-fries-falling-in-slow-motion-next-to-a-burger-47159/
+          - generic [ref=e319]:
+            - generic [ref=e320]:
+              - img "Cheeseburger with dark background." [ref=e323]
+              - generic [ref=e326]:
+                - link "Cheeseburger with dark background" [ref=e327] [cursor=pointer]:
+                  - /url: /free-stock-video/cheeseburger-with-dark-background-47191/
+                - button "View Fullscreen" [ref=e328] [cursor=pointer]
+            - heading "Cheeseburger with dark background" [level=2] [ref=e330]:
+              - link "Cheeseburger with dark background" [ref=e331] [cursor=pointer]:
+                - /url: /free-stock-video/cheeseburger-with-dark-background-47191/
+          - generic [ref=e333]:
+            - generic [ref=e334]:
+              - img "Flipping a burger on a BBQ." [ref=e337]
+              - generic [ref=e340]:
+                - link "Flipping a burger on a BBQ" [ref=e341] [cursor=pointer]:
+                  - /url: /free-stock-video/flipping-a-burger-on-a-bbq-22921/
+                - button "View Fullscreen" [ref=e342] [cursor=pointer]
+            - heading "Flipping a burger on a BBQ" [level=2] [ref=e344]:
+              - link "Flipping a burger on a BBQ" [ref=e345] [cursor=pointer]:
+                - /url: /free-stock-video/flipping-a-burger-on-a-bbq-22921/
+          - generic [ref=e347]:
+            - generic [ref=e348]:
+              - text: 4K
+              - img "Man eating a hamburger ." [ref=e351]
+              - generic [ref=e354]:
+                - link "Man eating a hamburger" [ref=e355] [cursor=pointer]:
+                  - /url: /free-stock-video/man-eating-a-hamburger-372/
+                - button "View Fullscreen" [ref=e356] [cursor=pointer]
+            - generic [ref=e357]:
+              - heading "Man eating a hamburger" [level=2] [ref=e358]:
+                - link "Man eating a hamburger" [ref=e359] [cursor=pointer]:
+                  - /url: /free-stock-video/man-eating-a-hamburger-372/
+              - paragraph [ref=e360]: A man wearing a black sweater eating a big hamburger with chips and drinking beer at a restaurant.
+          - generic [ref=e362]:
+            - generic [ref=e363]:
+              - img "Steak on the grill in slow motion." [ref=e366]
+              - generic [ref=e369]:
+                - link "Steak on the grill in slow motion" [ref=e370] [cursor=pointer]:
+                  - /url: /free-stock-video/steak-on-the-grill-in-slow-motion-46660/
+                - button "View Fullscreen" [ref=e371] [cursor=pointer]
+            - heading "Steak on the grill in slow motion" [level=2] [ref=e373]:
+              - link "Steak on the grill in slow motion" [ref=e374] [cursor=pointer]:
+                - /url: /free-stock-video/steak-on-the-grill-in-slow-motion-46660/
+          - generic [ref=e376]:
+            - generic [ref=e377]:
+              - img "Hamburger being served in restaurant." [ref=e380]
+              - generic [ref=e383]:
+                - link "Hamburger being served in restaurant" [ref=e384] [cursor=pointer]:
+                  - /url: /free-stock-video/hamburger-being-served-in-restaurant-327/
+                - button "View Fullscreen" [ref=e385] [cursor=pointer]
+            - generic [ref=e386]:
+              - heading "Hamburger being served in restaurant" [level=2] [ref=e387]:
+                - link "Hamburger being served in restaurant" [ref=e388] [cursor=pointer]:
+                  - /url: /free-stock-video/hamburger-being-served-in-restaurant-327/
+              - paragraph [ref=e389]: A man wearing black sweater receives his hamburger from the waiter in a restaurant.
+          - generic [ref=e391]:
+            - generic [ref=e392]:
+              - img "Burgers in great detail." [ref=e395]
+              - generic [ref=e398]:
+                - link "Burgers in great detail" [ref=e399] [cursor=pointer]:
+                  - /url: /free-stock-video/burgers-in-great-detail-3538/
+                - button "View Fullscreen" [ref=e400] [cursor=pointer]
+            - generic [ref=e401]:
+              - heading "Burgers in great detail" [level=2] [ref=e402]:
+                - link "Burgers in great detail" [ref=e403] [cursor=pointer]:
+                  - /url: /free-stock-video/burgers-in-great-detail-3538/
+              - paragraph [ref=e404]: Burgers with toasted sesame seeds taken in great detail.
+          - generic [ref=e406]:
+            - generic [ref=e407]:
+              - img "Chicken burger with french fries." [ref=e410]
+              - generic [ref=e413]:
+                - link "Chicken burger with french fries" [ref=e414] [cursor=pointer]:
+                  - /url: /free-stock-video/chicken-burger-with-french-fries-3537/
+                - button "View Fullscreen" [ref=e415] [cursor=pointer]
+            - generic [ref=e416]:
+              - heading "Chicken burger with french fries" [level=2] [ref=e417]:
+                - link "Chicken burger with french fries" [ref=e418] [cursor=pointer]:
+                  - /url: /free-stock-video/chicken-burger-with-french-fries-3537/
+              - paragraph [ref=e419]: Chicken burger viewed in detail along with French fries with corn on the background out of focus.
+          - generic [ref=e421]:
+            - generic [ref=e422]:
+              - img "Burgers on plates on a table." [ref=e425]
+              - generic [ref=e428]:
+                - link "Burgers on plates on a table" [ref=e429] [cursor=pointer]:
+                  - /url: /free-stock-video/burgers-on-plates-on-a-table-3552/
+                - button "View Fullscreen" [ref=e430] [cursor=pointer]
+            - generic [ref=e431]:
+              - heading "Burgers on plates on a table" [level=2] [ref=e432]:
+                - link "Burgers on plates on a table" [ref=e433] [cursor=pointer]:
+                  - /url: /free-stock-video/burgers-on-plates-on-a-table-3552/
+              - paragraph [ref=e434]: Burgers served on plates on a table, with napkins and cutlery.
+          - generic [ref=e436]:
+            - generic [ref=e437]:
+              - img "Close up of a woman eating a burger." [ref=e440]
+              - generic [ref=e443]:
+                - link "Close up of a woman eating a burger" [ref=e444] [cursor=pointer]:
+                  - /url: /free-stock-video/close-up-of-a-woman-eating-a-burger-45948/
+                - button "View Fullscreen" [ref=e445] [cursor=pointer]
+            - heading "Close up of a woman eating a burger" [level=2] [ref=e447]:
+              - link "Close up of a woman eating a burger" [ref=e448] [cursor=pointer]:
+                - /url: /free-stock-video/close-up-of-a-woman-eating-a-burger-45948/
+          - generic [ref=e450]:
+            - generic [ref=e451]:
+              - img "Shrimp burger on a plate." [ref=e454]
+              - generic [ref=e457]:
+                - link "Shrimp burger on a plate" [ref=e458] [cursor=pointer]:
+                  - /url: /free-stock-video/shrimp-burger-on-a-plate-3551/
+                - button "View Fullscreen" [ref=e459] [cursor=pointer]
+            - generic [ref=e460]:
+              - heading "Shrimp burger on a plate" [level=2] [ref=e461]:
+                - link "Shrimp burger on a plate" [ref=e462] [cursor=pointer]:
+                  - /url: /free-stock-video/shrimp-burger-on-a-plate-3551/
+              - paragraph [ref=e463]: Shrimp burger with potatoes on a plate, closeup view.
+          - generic [ref=e465]:
+            - generic [ref=e466]:
+              - img "Burger being prepared with french fries." [ref=e469]
+              - generic [ref=e472]:
+                - link "Burger being prepared with french fries" [ref=e473] [cursor=pointer]:
+                  - /url: /free-stock-video/burger-being-prepared-with-french-fries-3533/
+                - button "View Fullscreen" [ref=e474] [cursor=pointer]
+            - generic [ref=e475]:
+              - heading "Burger being prepared with french fries" [level=2] [ref=e476]:
+                - link "Burger being prepared with french fries" [ref=e477] [cursor=pointer]:
+                  - /url: /free-stock-video/burger-being-prepared-with-french-fries-3533/
+              - paragraph [ref=e478]: A burger is made with a fried egg and honey on a white plate with fries on one side.
+          - generic [ref=e480]:
+            - generic [ref=e481]:
+              - img "Hamburger with metric quote over a rotating dish." [ref=e484]
+              - generic [ref=e487]:
+                - link "Hamburger with metric quote over a rotating dish" [ref=e488] [cursor=pointer]:
+                  - /url: /free-stock-video/hamburger-with-metric-quote-over-a-rotating-dish-46698/
+                - button "View Fullscreen" [ref=e489] [cursor=pointer]
+            - heading "Hamburger with metric quote over a rotating dish" [level=2] [ref=e491]:
+              - link "Hamburger with metric quote over a rotating dish" [ref=e492] [cursor=pointer]:
+                - /url: /free-stock-video/hamburger-with-metric-quote-over-a-rotating-dish-46698/
+          - generic [ref=e494]:
+            - generic [ref=e495]:
+              - img "Close up of a woman eating a hamburger." [ref=e498]
+              - generic [ref=e501]:
+                - link "Close up of a woman eating a hamburger" [ref=e502] [cursor=pointer]:
+                  - /url: /free-stock-video/close-up-of-a-woman-eating-a-hamburger-46699/
+                - button "View Fullscreen" [ref=e503] [cursor=pointer]
+            - heading "Close up of a woman eating a hamburger" [level=2] [ref=e505]:
+              - link "Close up of a woman eating a hamburger" [ref=e506] [cursor=pointer]:
+                - /url: /free-stock-video/close-up-of-a-woman-eating-a-hamburger-46699/
+          - generic [ref=e508]:
+            - generic [ref=e509]:
+              - img "Shrimp burger with french fries." [ref=e512]
+              - generic [ref=e515]:
+                - link "Shrimp burger with french fries" [ref=e516] [cursor=pointer]:
+                  - /url: /free-stock-video/shrimp-burger-with-french-fries-3532/
+                - button "View Fullscreen" [ref=e517] [cursor=pointer]
+            - generic [ref=e518]:
+              - heading "Shrimp burger with french fries" [level=2] [ref=e519]:
+                - link "Shrimp burger with french fries" [ref=e520] [cursor=pointer]:
+                  - /url: /free-stock-video/shrimp-burger-with-french-fries-3532/
+              - paragraph [ref=e521]: Shrimp burger along with fries detail view.
+          - generic [ref=e523]:
+            - generic [ref=e524]:
+              - img "Burger on chroma background." [ref=e527]
+              - generic [ref=e530]:
+                - link "Burger on chroma background" [ref=e531] [cursor=pointer]:
+                  - /url: /free-stock-video/burger-on-chroma-background-18728/
+                - button "View Fullscreen" [ref=e532] [cursor=pointer]
+            - heading "Burger on chroma background" [level=2] [ref=e534]:
+              - link "Burger on chroma background" [ref=e535] [cursor=pointer]:
+                - /url: /free-stock-video/burger-on-chroma-background-18728/
+          - generic [ref=e537]:
+            - generic [ref=e538]:
+              - img "Burger and a sliced pear on a plate." [ref=e541]
+              - generic [ref=e544]:
+                - link "Burger and a sliced pear on a plate" [ref=e545] [cursor=pointer]:
+                  - /url: /free-stock-video/burger-and-a-sliced-pear-on-a-plate-3540/
+                - button "View Fullscreen" [ref=e546] [cursor=pointer]
+            - generic [ref=e547]:
+              - heading "Burger and a sliced pear on a plate" [level=2] [ref=e548]:
+                - link "Burger and a sliced pear on a plate" [ref=e549] [cursor=pointer]:
+                  - /url: /free-stock-video/burger-and-a-sliced-pear-on-a-plate-3540/
+              - paragraph [ref=e550]: Burger with roasted sesame seeds and a sliced pear on a white plate, top view.
+          - generic [ref=e552]:
+            - generic [ref=e553]:
+              - img "Man eating a burger and smiling." [ref=e556]
+              - generic [ref=e559]:
+                - link "Man eating a burger and smiling" [ref=e560] [cursor=pointer]:
+                  - /url: /free-stock-video/man-eating-a-burger-and-smiling-29059/
+                - button "View Fullscreen" [ref=e561] [cursor=pointer]
+            - heading "Man eating a burger and smiling" [level=2] [ref=e563]:
+              - link "Man eating a burger and smiling" [ref=e564] [cursor=pointer]:
+                - /url: /free-stock-video/man-eating-a-burger-and-smiling-29059/
+          - generic [ref=e566]:
+            - generic [ref=e567]:
+              - img "Pair of hamburgers together." [ref=e570]
+              - generic [ref=e573]:
+                - link "Pair of hamburgers together" [ref=e574] [cursor=pointer]:
+                  - /url: /free-stock-video/pair-of-hamburgers-together-3536/
+                - button "View Fullscreen" [ref=e575] [cursor=pointer]
+            - generic [ref=e576]:
+              - heading "Pair of hamburgers together" [level=2] [ref=e577]:
+                - link "Pair of hamburgers together" [ref=e578] [cursor=pointer]:
+                  - /url: /free-stock-video/pair-of-hamburgers-together-3536/
+              - paragraph [ref=e579]: Two burgers, one shrimp and one chicken together, detailed views.
+          - generic [ref=e581]:
+            - generic [ref=e582]:
+              - img "Melting cheese on a burger." [ref=e585]
+              - generic [ref=e588]:
+                - link "Melting cheese on a burger" [ref=e589] [cursor=pointer]:
+                  - /url: /free-stock-video/melting-cheese-on-a-burger-12016/
+                - button "View Fullscreen" [ref=e590] [cursor=pointer]
+            - heading "Melting cheese on a burger" [level=2] [ref=e592]:
+              - link "Melting cheese on a burger" [ref=e593] [cursor=pointer]:
+                - /url: /free-stock-video/melting-cheese-on-a-burger-12016/
+          - generic [ref=e595]:
+            - generic [ref=e596]:
+              - img "Ketchup on a burger." [ref=e599]
+              - generic [ref=e602]:
+                - link "Ketchup on a burger" [ref=e603] [cursor=pointer]:
+                  - /url: /free-stock-video/ketchup-on-a-burger-11760/
+                - button "View Fullscreen" [ref=e604] [cursor=pointer]
+            - heading "Ketchup on a burger" [level=2] [ref=e606]:
+              - link "Ketchup on a burger" [ref=e607] [cursor=pointer]:
+                - /url: /free-stock-video/ketchup-on-a-burger-11760/
+          - generic [ref=e609]:
+            - generic [ref=e610]:
+              - img "Moving towards a burger." [ref=e613]
+              - generic [ref=e616]:
+                - link "Moving towards a burger" [ref=e617] [cursor=pointer]:
+                  - /url: /free-stock-video/moving-towards-a-burger-11758/
+                - button "View Fullscreen" [ref=e618] [cursor=pointer]
+            - heading "Moving towards a burger" [level=2] [ref=e620]:
+              - link "Moving towards a burger" [ref=e621] [cursor=pointer]:
+                - /url: /free-stock-video/moving-towards-a-burger-11758/
+          - generic [ref=e623]:
+            - generic [ref=e624]:
+              - img "Top down view of a burger and crisps." [ref=e627]
+              - generic [ref=e630]:
+                - link "Top down view of a burger and crisps" [ref=e631] [cursor=pointer]:
+                  - /url: /free-stock-video/top-down-view-of-a-burger-and-crisps-48322/
+                - button "View Fullscreen" [ref=e632] [cursor=pointer]
+            - heading "Top down view of a burger and crisps" [level=2] [ref=e634]:
+              - link "Top down view of a burger and crisps" [ref=e635] [cursor=pointer]:
+                - /url: /free-stock-video/top-down-view-of-a-burger-and-crisps-48322/
+          - generic [ref=e637]:
+            - generic [ref=e638]:
+              - img "Plate of food with chips and cheeseburger." [ref=e641]
+              - generic [ref=e644]:
+                - link "Plate of food with chips and cheeseburger" [ref=e645] [cursor=pointer]:
+                  - /url: /free-stock-video/plate-of-food-with-chips-and-cheeseburger-48321/
+                - button "View Fullscreen" [ref=e646] [cursor=pointer]
+            - heading "Plate of food with chips and cheeseburger" [level=2] [ref=e648]:
+              - link "Plate of food with chips and cheeseburger" [ref=e649] [cursor=pointer]:
+                - /url: /free-stock-video/plate-of-food-with-chips-and-cheeseburger-48321/
+          - generic [ref=e651]:
+            - generic [ref=e652]:
+              - img "Placing french fries on a plate with a hamburger." [ref=e655]
+              - generic [ref=e658]:
+                - link "Placing french fries on a plate with a hamburger" [ref=e659] [cursor=pointer]:
+                  - /url: /free-stock-video/placing-french-fries-on-a-plate-with-a-hamburger-36582/
+                - button "View Fullscreen" [ref=e660] [cursor=pointer]
+            - heading "Placing french fries on a plate with a hamburger" [level=2] [ref=e662]:
+              - link "Placing french fries on a plate with a hamburger" [ref=e663] [cursor=pointer]:
+                - /url: /free-stock-video/placing-french-fries-on-a-plate-with-a-hamburger-36582/
+          - generic [ref=e665]:
+            - generic [ref=e666]:
+              - img "Burgers and a cone of fries." [ref=e669]
+              - generic [ref=e672]:
+                - link "Burgers and a cone of fries" [ref=e673] [cursor=pointer]:
+                  - /url: /free-stock-video/burgers-and-a-cone-of-fries-26616/
+                - button "View Fullscreen" [ref=e674] [cursor=pointer]
+            - heading "Burgers and a cone of fries" [level=2] [ref=e676]:
+              - link "Burgers and a cone of fries" [ref=e677] [cursor=pointer]:
+                - /url: /free-stock-video/burgers-and-a-cone-of-fries-26616/
+          - generic [ref=e679]:
+            - generic [ref=e680]:
+              - img "Burgers with fresh salad and beer." [ref=e683]
+              - generic [ref=e686]:
+                - link "Burgers with fresh salad and beer" [ref=e687] [cursor=pointer]:
+                  - /url: /free-stock-video/burgers-with-fresh-salad-and-beer-26605/
+                - button "View Fullscreen" [ref=e688] [cursor=pointer]
+            - heading "Burgers with fresh salad and beer" [level=2] [ref=e690]:
+              - link "Burgers with fresh salad and beer" [ref=e691] [cursor=pointer]:
+                - /url: /free-stock-video/burgers-with-fresh-salad-and-beer-26605/
+          - generic [ref=e693]:
+            - generic [ref=e694]:
+              - img "Adding sauce to a burger." [ref=e697]
+              - generic [ref=e700]:
+                - link "Adding sauce to a burger" [ref=e701] [cursor=pointer]:
+                  - /url: /free-stock-video/adding-sauce-to-a-burger-24785/
+                - button "View Fullscreen" [ref=e702] [cursor=pointer]
+            - heading "Adding sauce to a burger" [level=2] [ref=e704]:
+              - link "Adding sauce to a burger" [ref=e705] [cursor=pointer]:
+                - /url: /free-stock-video/adding-sauce-to-a-burger-24785/
+          - generic [ref=e707]:
+            - generic [ref=e708]:
+              - img "Cheeseburger with onion salad and fries." [ref=e711]
+              - generic [ref=e714]:
+                - link "Cheeseburger with onion salad and fries" [ref=e715] [cursor=pointer]:
+                  - /url: /free-stock-video/cheeseburger-with-onion-salad-and-fries-22773/
+                - button "View Fullscreen" [ref=e716] [cursor=pointer]
+            - heading "Cheeseburger with onion salad and fries" [level=2] [ref=e718]:
+              - link "Cheeseburger with onion salad and fries" [ref=e719] [cursor=pointer]:
+                - /url: /free-stock-video/cheeseburger-with-onion-salad-and-fries-22773/
+        - generic [ref=e720]:
+          - link "Go to page 1" [ref=e721] [cursor=pointer]:
+            - /url: /free-stock-video/burger/
+            - text: "1"
+          - link "Go to page 2" [ref=e722] [cursor=pointer]:
+            - /url: /free-stock-video/burger/?page=2
+            - text: "2"
+          - link "Go to next page" [ref=e723] [cursor=pointer]:
+            - /url: /free-stock-video/burger/?page=2
+            - img [ref=e724]
+    - generic [ref=e726]:
+      - generic [ref=e727]: Related Video Categories
+      - generic [ref=e729]:
+        - link "Hamburger" [ref=e730] [cursor=pointer]:
+          - /url: /free-stock-video/hamburger/
+        - link "Fast Food" [ref=e731] [cursor=pointer]:
+          - /url: /free-stock-video/fast-food/
+        - link "French Fries" [ref=e732] [cursor=pointer]:
+          - /url: /free-stock-video/french-fries/
+        - link "Cheeseburger" [ref=e733] [cursor=pointer]:
+          - /url: /free-stock-video/cheeseburger/
+        - link "Close Up" [ref=e734] [cursor=pointer]:
+          - /url: /free-stock-video/close-up/
+        - link "Bread" [ref=e735] [cursor=pointer]:
+          - /url: /free-stock-video/bread/
+        - link "Food" [ref=e736] [cursor=pointer]:
+          - /url: /free-stock-video/food/
+    - generic [ref=e738]:
+      - link "Envato Elements" [ref=e739] [cursor=pointer]:
+        - /url: https://elements.envato.com/all-items?utm_source=mixkit&utm_medium=referral&utm_campaign=elements_mixkit_cs_banner_31JULY2024
+        - img "Envato Elements" [ref=e740]
+      - paragraph [ref=e741]: Unlimited creative stock assets, all in one place.
+      - list [ref=e742]:
+        - listitem [ref=e743]: Millions of premium assets
+        - listitem [ref=e744]: Lifetime commercial licence
+      - link "Start creating now" [ref=e745] [cursor=pointer]:
+        - /url: https://elements.envato.com/all-items?utm_source=mixkit&utm_medium=referral&utm_campaign=elements_mixkit_cs_banner_31JULY2024
+  - contentinfo [ref=e746]:
+    - generic [ref=e747]:
+      - generic [ref=e748]:
+        - generic [ref=e749]:
+          - link "Videos" [ref=e751] [cursor=pointer]:
+            - /url: /free-stock-video/
+          - generic [ref=e752]:
+            - link "4K Videos" [ref=e753] [cursor=pointer]:
+              - /url: /free-stock-video/discover/?resolution=4k
+            - link "Nature" [ref=e754] [cursor=pointer]:
+              - /url: /free-stock-video/nature/
+            - link "Lifestyle" [ref=e755] [cursor=pointer]:
+              - /url: /free-stock-video/lifestyle/
+            - link "Business" [ref=e756] [cursor=pointer]:
+              - /url: /free-stock-video/business/
+            - link "Animals" [ref=e757] [cursor=pointer]:
+              - /url: /free-stock-video/animal/
+            - link "Zoom Backgrounds" [ref=e758] [cursor=pointer]:
+              - /url: /free-stock-video/zoom-virtual-background/
+            - link "Vertical" [ref=e759] [cursor=pointer]:
+              - /url: /free-vertical-videos/
+            - link "Backgrounds" [ref=e760] [cursor=pointer]:
+              - /url: /free-video-backgrounds/
+        - generic [ref=e761]:
+          - link "Music" [ref=e763] [cursor=pointer]:
+            - /url: /free-stock-music/
+          - generic [ref=e764]:
+            - link "Ambient" [ref=e765] [cursor=pointer]:
+              - /url: /free-stock-music/ambient/
+            - link "Drum & Bass" [ref=e766] [cursor=pointer]:
+              - /url: /free-stock-music/drum-and-bass/
+            - link "Funk" [ref=e767] [cursor=pointer]:
+              - /url: /free-stock-music/funk/
+            - link "Hip-Hop" [ref=e768] [cursor=pointer]:
+              - /url: /free-stock-music/hip-hop/
+            - link "Jazz" [ref=e769] [cursor=pointer]:
+              - /url: /free-stock-music/jazz/
+        - generic [ref=e770]:
+          - link "Sound Effects" [ref=e772] [cursor=pointer]:
+            - /url: /free-sound-effects/
+          - generic [ref=e773]:
+            - link "Animals" [ref=e774] [cursor=pointer]:
+              - /url: /free-sound-effects/animals/
+            - link "Game" [ref=e775] [cursor=pointer]:
+              - /url: /free-sound-effects/game/
+            - link "Human" [ref=e776] [cursor=pointer]:
+              - /url: /free-sound-effects/human/
+            - link "Instrument" [ref=e777] [cursor=pointer]:
+              - /url: /free-sound-effects/instrument/
+            - link "Lifestyle" [ref=e778] [cursor=pointer]:
+              - /url: /free-sound-effects/lifestyle/
+            - link "Nature" [ref=e779] [cursor=pointer]:
+              - /url: /free-sound-effects/nature/
+            - link "Technology" [ref=e780] [cursor=pointer]:
+              - /url: /free-sound-effects/technology/
+            - link "Transition" [ref=e781] [cursor=pointer]:
+              - /url: /free-sound-effects/transition/
+            - link "Warfare" [ref=e782] [cursor=pointer]:
+              - /url: /free-sound-effects/warfare/
+        - generic [ref=e783]:
+          - link "Premiere Pro" [ref=e785] [cursor=pointer]:
+            - /url: /free-premiere-pro-templates
+          - generic [ref=e786]:
+            - link "Subscribe" [ref=e787] [cursor=pointer]:
+              - /url: /free-premiere-pro-templates/subscribe/
+            - link "Instagram" [ref=e788] [cursor=pointer]:
+              - /url: /free-premiere-pro-templates/instagram/
+            - link "Logo" [ref=e789] [cursor=pointer]:
+              - /url: /free-premiere-pro-templates/logo/
+            - link "Lower-thirds" [ref=e790] [cursor=pointer]:
+              - /url: /free-premiere-pro-templates/lower-thirds/
+            - link "Opener" [ref=e791] [cursor=pointer]:
+              - /url: /free-premiere-pro-templates/openers/
+            - link "Slideshows" [ref=e792] [cursor=pointer]:
+              - /url: /free-premiere-pro-templates/slideshow/
+            - link "Titles" [ref=e793] [cursor=pointer]:
+              - /url: /free-premiere-pro-templates/titles/
+            - link "Transitions" [ref=e794] [cursor=pointer]:
+              - /url: /free-premiere-pro-templates/transitions/
+            - link "YouTube" [ref=e795] [cursor=pointer]:
+              - /url: /free-premiere-pro-templates/youtube/
+        - generic [ref=e796]:
+          - link "After Effects" [ref=e798] [cursor=pointer]:
+            - /url: /free-after-effects-templates
+          - generic [ref=e799]:
+            - link "Audio visualizer" [ref=e800] [cursor=pointer]:
+              - /url: /free-after-effects-templates/audio-visualizer/
+            - link "Call-outs" [ref=e801] [cursor=pointer]:
+              - /url: /free-after-effects-templates/call-outs/
+            - link "Instagram" [ref=e802] [cursor=pointer]:
+              - /url: /free-after-effects-templates/instagram/
+            - link "Lower-thirds" [ref=e803] [cursor=pointer]:
+              - /url: /free-after-effects-templates/lower-thirds/
+            - link "Opener" [ref=e804] [cursor=pointer]:
+              - /url: /free-after-effects-templates/openers/
+            - link "Slideshows" [ref=e805] [cursor=pointer]:
+              - /url: /free-after-effects-templates/slideshow/
+            - link "Titles" [ref=e806] [cursor=pointer]:
+              - /url: /free-after-effects-templates/title/
+            - link "Transitions" [ref=e807] [cursor=pointer]:
+              - /url: /free-after-effects-templates/transitions/
+            - link "YouTube" [ref=e808] [cursor=pointer]:
+              - /url: /free-after-effects-templates/youtube/
+        - generic [ref=e809]:
+          - link "Final Cut Pro" [ref=e811] [cursor=pointer]:
+            - /url: /free-final-cut-pro-templates
+          - generic [ref=e812]:
+            - link "Instagram" [ref=e813] [cursor=pointer]:
+              - /url: /free-final-cut-pro-templates/instagram/
+            - link "Logo" [ref=e814] [cursor=pointer]:
+              - /url: /free-final-cut-pro-templates/logo/
+            - link "Lower-thirds" [ref=e815] [cursor=pointer]:
+              - /url: /free-final-cut-pro-templates/lower-thirds/
+            - link "Opener" [ref=e816] [cursor=pointer]:
+              - /url: /free-final-cut-pro-templates/openers/
+            - link "Promotion" [ref=e817] [cursor=pointer]:
+              - /url: /free-final-cut-pro-templates/promotion/
+            - link "Slideshows" [ref=e818] [cursor=pointer]:
+              - /url: /free-final-cut-pro-templates/slideshow/
+            - link "Titles" [ref=e819] [cursor=pointer]:
+              - /url: /free-final-cut-pro-templates/title/
+            - link "Transitions" [ref=e820] [cursor=pointer]:
+              - /url: /free-final-cut-pro-templates/transitions/
+            - link "YouTube" [ref=e821] [cursor=pointer]:
+              - /url: /free-final-cut-pro-templates/youtube/
+        - generic [ref=e822]:
+          - link "DaVinci Resolve" [ref=e824] [cursor=pointer]:
+            - /url: /free-davinci-resolve-templates
+          - generic [ref=e825]:
+            - link "Call-outs" [ref=e826] [cursor=pointer]:
+              - /url: /free-davinci-resolve-templates/call-outs/
+            - link "Instagram" [ref=e827] [cursor=pointer]:
+              - /url: /free-davinci-resolve-templates/instagram/
+            - link "Lower-thirds" [ref=e828] [cursor=pointer]:
+              - /url: /free-davinci-resolve-templates/lower-thirds/
+            - link "Titles" [ref=e829] [cursor=pointer]:
+              - /url: /free-davinci-resolve-templates/titles/
+            - link "YouTube" [ref=e830] [cursor=pointer]:
+              - /url: /free-davinci-resolve-templates/youtube/
+        - generic [ref=e831]:
+          - link "Mixkit" [ref=e833] [cursor=pointer]:
+            - /url: /
+          - generic [ref=e834]:
+            - link "License" [ref=e835] [cursor=pointer]:
+              - /url: /license/
+            - link "Terms" [ref=e836] [cursor=pointer]:
+              - /url: /terms/
+            - link "Sitemap" [ref=e837] [cursor=pointer]:
+              - /url: /sitemap/
+            - link "Privacy" [ref=e838] [cursor=pointer]:
+              - /url: https://envato.com/privacy/
+            - link "Cookies" [ref=e839] [cursor=pointer]:
+              - /url: https://www.envato.com/cookies/
+            - link "Cookie Settings" [ref=e840] [cursor=pointer]:
+              - /url: javascript:void(0)
+            - link "Do not sell or share my personal information" [ref=e841] [cursor=pointer]:
+              - /url: https://www.envato.com/privacy/my-personal-information/
+            - link "Hey AI, learn about Mixkit" [ref=e842] [cursor=pointer]:
+              - /url: /llm-info/
+            - link "Art" [ref=e843] [cursor=pointer]:
+              - /url: /free-stock-art/
+      - generic [ref=e844]:
+        - link "Mixkit home." [ref=e846] [cursor=pointer]:
+          - /url: /
+          - img "Mixkit home." [ref=e847]
+        - paragraph [ref=e849]:
+          - text: Copyright © 2026. All rights reserved - Made by
+          - link "Envato" [ref=e850] [cursor=pointer]:
+            - /url: https://elements.envato.com/?utm_source=mixkit&utm_medium=referral&utm_campaign=elements_mixkit_footer_31JULY2024
+        - generic [ref=e851]:
+          - link "Twitter" [ref=e852] [cursor=pointer]:
+            - /url: https://twitter.com/mixkit_co
+            - img "Twitter" [ref=e853]
+          - link "YouTube" [ref=e855] [cursor=pointer]:
+            - /url: https://www.youtube.com/channel/UCtmuFBbkECnsHJujGDcE9SA
+            - img "YouTube" [ref=e856]
+          - link "Instagram" [ref=e859] [cursor=pointer]:
+            - /url: https://instagram.com/mixkit_co
+            - img "Instagram" [ref=e860]
+          - link "TikTok" [ref=e862] [cursor=pointer]:
+            - /url: https://www.tiktok.com/@mixkit.co
+            - img "TikTok" [ref=e863]
+  - iframe [ref=e865]:
+    

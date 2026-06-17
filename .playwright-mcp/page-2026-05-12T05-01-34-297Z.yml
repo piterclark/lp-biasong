@@ -1,0 +1,1074 @@
+- generic [active] [ref=e1]:
+  - text: "\" \\n\\t \\n\\t \\n\\t \\n\\t \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n \\n\\t\\t\\t \\n\\t\\t\\t \\n \\n \\n \\n \\n \\n \\n\\n \\n"
+  - button "\\\"PreferÃªncias" [ref=e3]:
+    - img "\\\"Revisit" [ref=e4]
+  - generic [ref=e7]:
+    - paragraph [ref=e8]: Valorizamos sua privacidade
+    - generic [ref=e9]:
+      - paragraph [ref=e11]: "Utilizamos cookies para aprimorar sua experiÃªncia de navegaÃ§Ã£o, exibir anÃºncios ou conteÃºdo personalizado e analisar nosso trÃ¡fego. Ao clicar em â€œAceitar todosâ€\x9d, vocÃª concorda com nosso uso de cookies."
+      - generic [ref=e12]:
+        - button "\\\"Personalizar\\\"" [ref=e13]: Personalizar
+        - button "\\\"Rejeitar\\\"" [ref=e14]: Rejeitar
+        - button "\\\"Aceitar" [ref=e15]: Aceitar tudo
+  - generic [ref=e17]:
+    - generic [ref=e18]:
+      - text: Personalizar preferÃªncias de consentimento
+      - button "\\\"[cky_preference_close_label]\\\"" [ref=e19]:
+        - img "\\\"Close\\\"" [ref=e20]
+    - generic [ref=e21]:
+      - generic [ref=e22]:
+        - paragraph [ref=e23]: Utilizamos cookies para ajudar vocÃª a navegar com eficiÃªncia e executar certas funÃ§Ãµes. VocÃª encontrarÃ¡ informaÃ§Ãµes detalhadas sobre todos os cookies sob cada categoria de consentimento abaixo.
+        - paragraph [ref=e24]:
+          - text: "Os cookies que sÃ£o classificados com a marcaÃ§Ã£o â€œNecessÃ¡rioâ€\x9d sÃ£o armazenados em seu navegador, pois sÃ£o essenciais para possibilitar o uso de funcionalidades bÃ¡sicas do site...."
+          - button "\\\"Mostrar" [ref=e25]: Mostrar mais
+      - generic [ref=e26]:
+        - generic [ref=e27]:
+          - generic [ref=e29]:
+            - generic [ref=e30]:
+              - button "\\\"NecessÃ¡rio\\\"" [ref=e31]: NecessÃ¡rio
+              - text: Sempre ativo
+            - paragraph [ref=e33]: Os cookies necessÃ¡rios sÃ£o cruciais para as funÃ§Ãµes bÃ¡sicas do site e o site nÃ£o funcionarÃ¡ como pretendido sem eles. Esses cookies nÃ£o armazenam nenhum dado pessoalmente identificÃ¡vel.
+          - paragraph [ref=e36]: Bem, cookies para exibir.
+        - generic [ref=e37]:
+          - generic [ref=e39]:
+            - button "\\\"Funcional\\\"" [ref=e41]: Funcional
+            - paragraph [ref=e43]: Cookies funcionais ajudam a executar certas funcionalidades, como compartilhar o conteÃºdo do site em plataformas de mÃdia social, coletar feedbacks e outros recursos de terceiros.
+          - paragraph [ref=e46]: Bem, cookies para exibir.
+        - generic [ref=e47]:
+          - generic [ref=e49]:
+            - button "\\\"AnalÃticos\\\"" [ref=e51]: AnalÃticos
+            - paragraph [ref=e53]: Cookies analÃticos sÃ£o usados para entender como os visitantes interagem com o site. Esses cookies ajudam a fornecer informaÃ§Ãµes sobre mÃ©tricas o nÃºmero de visitantes, taxa de rejeiÃ§Ã£o, fonte de trÃ¡fego, etc.
+          - paragraph [ref=e56]: Bem, cookies para exibir.
+        - generic [ref=e57]:
+          - generic [ref=e59]:
+            - button "\\\"Desempenho\\\"" [ref=e61]: Desempenho
+            - paragraph [ref=e63]: Os cookies de desempenho sÃ£o usados para entender e analisar os principais Ãndices de desempenho do site, o que ajuda a oferecer uma melhor experiÃªncia do usuÃ¡rio para os visitantes.
+          - paragraph [ref=e66]: Bem, cookies para exibir.
+        - generic [ref=e67]:
+          - generic [ref=e69]:
+            - button "\\\"AnÃºncio\\\"" [ref=e71]: AnÃºncio
+            - paragraph [ref=e73]: Os cookies de anÃºncios sÃ£o usados para entregar aos visitantes anÃºncios personalizados com base nas pÃ¡ginas que visitaram antes e analisar a eficÃ¡cia da campanha publicitÃ¡ria.
+          - paragraph [ref=e76]: Bem, cookies para exibir.
+    - generic [ref=e78]:
+      - button "\\\"Rejeitar\\\"" [ref=e79]: Rejeitar
+      - button "\\\"Salve" [ref=e80]: Salve minhas preferÃªncias
+      - button "\\\"Aceitar" [ref=e81]: Aceitar tudo
+  - text: \n\n\n
+  - link "Ir para o conteÃºdo" [ref=e82] [cursor=pointer]:
+    - /url: \"#content\"
+  - text: \n\n\t\t
+  - generic [ref=e83]:
+    - text: \n\t\t\t
+    - generic [ref=e84]:
+      - text: \n\t\t\t\t\t
+      - generic [ref=e85]:
+        - text: \n\t\t
+        - generic [ref=e86]:
+          - text: \n\t\t\t\t
+          - generic [ref=e87]:
+            - text: \n\t\t\t\t
+            - generic [ref=e88]:
+              - text: \n\t\t\t \t\t\t\t\t\t
+              - link "\\n\\t\\t\\t\\\"\\\"\\t\\t\\t\\t" [ref=e89] [cursor=pointer]:
+                - /url: \"https://romconcept.com.br\"
+                - text: \n\t\t\t
+                - img "\\\"\\\"" [ref=e90]
+                - text: \t\t\t\t
+              - text: \n\t\t\t\t\t\t\t\t\t
+            - text: \n\t\t\t\t
+          - text: \n\t\t\t\t
+        - text: \n\t\t
+        - generic [ref=e91]:
+          - text: \n\t\t\t\t
+          - generic [ref=e92]:
+            - text: \n\t\t\t\t
+            - generic [ref=e93]:
+              - text: \n\t\t\t \t\t
+              - list [ref=e94]:
+                - text: \n\t\t\t\t\t\t\t
+                - listitem [ref=e95]:
+                  - text: \n\t\t\t\t\t\t\t\t\t\t\t
+                  - link "\\n\\n\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\n\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\n\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\n\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t" [ref=e96] [cursor=pointer]:
+                    - /url: \"#elementor-action%3Aaction%3Dpopup%3Aopen%26settings%3DeyJpZCI6IjI5MyIsInRvZ2dsZSI6ZmFsc2V9\"
+                    - text: \n\n\t\t\t\t\t\t\t\t\t\t\t\t
+                    - generic [ref=e97]:
+                      - text: \n\t\t\t\t\t\t\t
+                      - img [ref=e98]:
+                        - generic:
+                          - text: \t
+                          - text: \t
+                          - text: \t
+                      - text: \t\t\t\t\t\t
+                    - text: \n\t\t\t\t\t\t\t\t\t\t
+                    - text: \n\t\t\t\t\t\t\t\t\t\t\t
+                  - text: \n\t\t\t\t\t\t\t\t\t
+                - text: \n\t\t\t\t\t\t
+              - text: \n\t\t\t\t
+            - text: \n\t\t\t\t
+          - text: \n\t\t\t\t
+        - text: \n\t\t
+        - generic [ref=e99]:
+          - text: \n\t\t\t\t
+          - generic [ref=e100]:
+            - text: \n\t\t\t\t
+            - generic [ref=e101]:
+              - text: \n\t\t\t \t\t\t
+              - navigation [ref=e102]:
+                - text: \n\t\t\t\t
+                - list [ref=e103]:
+                  - listitem [ref=e104]:
+                    - link "Romeu Felipe" [ref=e105] [cursor=pointer]:
+                      - /url: \"https://romconcept.com.br/romeu-felipe/\"
+                  - text: \n
+                  - listitem [ref=e106]:
+                    - link "Rom. Concept" [ref=e107] [cursor=pointer]:
+                      - /url: \"https://romconcept.com.br/rom-concept/\"
+                      - text: Rom. Concept
+                      - img [ref=e109]
+                    - text: \n
+                    - list "Rom. Concept" [ref=e110]:
+                      - text: \n\t
+                      - listitem [ref=e111]:
+                        - link "HistÃ³ria" [ref=e112] [cursor=pointer]:
+                          - /url: \"https://romconcept.com.br/rom-concept/historia/\"
+                      - text: \n\t
+                      - listitem [ref=e113]:
+                        - link "InstalaÃ§Ãµes" [ref=e114] [cursor=pointer]:
+                          - /url: \"https://romconcept.com.br/rom-concept/instalacoes/\"
+                      - text: \n\t
+                      - listitem [ref=e115]:
+                        - link "Parceiros" [ref=e116] [cursor=pointer]:
+                          - /url: \"https://romconcept.com.br/rom-concept/parceiros/\"
+                      - text: \n
+                    - text: \n
+                  - text: \n
+                  - listitem [ref=e117]:
+                    - link "Rom. Academy" [ref=e118] [cursor=pointer]:
+                      - /url: \"https://romconcept.com.br/rom-academy/\"
+                  - text: \n
+                  - listitem [ref=e119]:
+                    - link "Rom. Team" [ref=e120] [cursor=pointer]:
+                      - /url: \"https://romconcept.com.br/rom-team/\"
+                      - text: Rom. Team
+                      - img [ref=e122]
+                    - text: \n
+                    - list "Rom. Team" [ref=e123]:
+                      - text: \n\t
+                      - listitem [ref=e124]:
+                        - link "Team AV. Brasil" [ref=e125] [cursor=pointer]:
+                          - /url: \"https://romconcept.com.br/team-av-brasil/\"
+                      - text: \n\t
+                      - listitem [ref=e126]:
+                        - link "Team Shopping Iguatemi" [ref=e127] [cursor=pointer]:
+                          - /url: \"https://romconcept.com.br/team-shopping-iguatemi/\"
+                      - text: \n
+                    - text: \n
+                  - text: \n
+                  - listitem [ref=e128]:
+                    - link "ServiÃ§os" [ref=e129] [cursor=pointer]:
+                      - /url: \"https://romconcept.com.br/servicos/\"
+                      - text: ServiÃ§os
+                      - img [ref=e131]
+                    - text: \n
+                    - list "ServiÃ§os" [ref=e132]:
+                      - text: \n\t
+                      - listitem [ref=e133]:
+                        - link "Hair" [ref=e134] [cursor=pointer]:
+                          - /url: \"https://romconcept.com.br/servicos/hair/\"
+                      - text: \n\t
+                      - listitem [ref=e135]:
+                        - link "Nails" [ref=e136] [cursor=pointer]:
+                          - /url: \"https://romconcept.com.br/servicos/nails/\"
+                      - text: \n\t
+                      - listitem [ref=e137]:
+                        - link "Makeup" [ref=e138] [cursor=pointer]:
+                          - /url: \"https://romconcept.com.br/servicos/makeup/\"
+                      - text: \n\t
+                      - listitem [ref=e139]:
+                        - link "Spa" [ref=e140] [cursor=pointer]:
+                          - /url: \"https://romconcept.com.br/servicos/spa/\"
+                      - text: \n
+                    - text: \n
+                  - text: \n
+                  - listitem [ref=e141]:
+                    - link "Galeria" [ref=e142] [cursor=pointer]:
+                      - /url: \"https://romconcept.com.br/galeria/\"
+                  - text: \n
+                  - listitem [ref=e143]:
+                    - link "Contato" [ref=e144] [cursor=pointer]:
+                      - /url: \"https://romconcept.com.br/contato/\"
+                  - text: \n
+                - text: \t\t\t
+              - text: \n\t\t\t\t\t
+              - generic "\\\"Menu" [ref=e145]:
+                - text: \n\t\t\t
+                - img [ref=e146]
+                - img [ref=e147]
+                - text: \t\t\tMenu\n\t\t
+              - text: \n\t\t\t\t\t
+              - navigation [ref=e148]:
+                - text: \n\t\t\t\t
+                - list [ref=e149]:
+                  - listitem [ref=e150]:
+                    - link "Romeu Felipe" [ref=e151] [cursor=pointer]:
+                      - /url: \"https://romconcept.com.br/romeu-felipe/\"
+                  - text: \n
+                  - listitem [ref=e152]:
+                    - link "Rom. Concept" [ref=e153] [cursor=pointer]:
+                      - /url: \"https://romconcept.com.br/rom-concept/\"
+                      - text: Rom. Concept
+                      - img [ref=e155]
+                    - text: \n
+                    - list "Rom. Concept" [ref=e156]:
+                      - text: \n\t
+                      - listitem [ref=e157]:
+                        - link "HistÃ³ria" [ref=e158] [cursor=pointer]:
+                          - /url: \"https://romconcept.com.br/rom-concept/historia/\"
+                      - text: \n\t
+                      - listitem [ref=e159]:
+                        - link "InstalaÃ§Ãµes" [ref=e160] [cursor=pointer]:
+                          - /url: \"https://romconcept.com.br/rom-concept/instalacoes/\"
+                      - text: \n\t
+                      - listitem [ref=e161]:
+                        - link "Parceiros" [ref=e162] [cursor=pointer]:
+                          - /url: \"https://romconcept.com.br/rom-concept/parceiros/\"
+                      - text: \n
+                    - text: \n
+                  - text: \n
+                  - listitem [ref=e163]:
+                    - link "Rom. Academy" [ref=e164] [cursor=pointer]:
+                      - /url: \"https://romconcept.com.br/rom-academy/\"
+                  - text: \n
+                  - listitem [ref=e165]:
+                    - link "Rom. Team" [ref=e166] [cursor=pointer]:
+                      - /url: \"https://romconcept.com.br/rom-team/\"
+                      - text: Rom. Team
+                      - img [ref=e168]
+                    - text: \n
+                    - list "Rom. Team" [ref=e169]:
+                      - text: \n\t
+                      - listitem [ref=e170]:
+                        - link "Team AV. Brasil" [ref=e171] [cursor=pointer]:
+                          - /url: \"https://romconcept.com.br/team-av-brasil/\"
+                      - text: \n\t
+                      - listitem [ref=e172]:
+                        - link "Team Shopping Iguatemi" [ref=e173] [cursor=pointer]:
+                          - /url: \"https://romconcept.com.br/team-shopping-iguatemi/\"
+                      - text: \n
+                    - text: \n
+                  - text: \n
+                  - listitem [ref=e174]:
+                    - link "ServiÃ§os" [ref=e175] [cursor=pointer]:
+                      - /url: \"https://romconcept.com.br/servicos/\"
+                      - text: ServiÃ§os
+                      - img [ref=e177]
+                    - text: \n
+                    - list "ServiÃ§os" [ref=e178]:
+                      - text: \n\t
+                      - listitem [ref=e179]:
+                        - link "Hair" [ref=e180] [cursor=pointer]:
+                          - /url: \"https://romconcept.com.br/servicos/hair/\"
+                      - text: \n\t
+                      - listitem [ref=e181]:
+                        - link "Nails" [ref=e182] [cursor=pointer]:
+                          - /url: \"https://romconcept.com.br/servicos/nails/\"
+                      - text: \n\t
+                      - listitem [ref=e183]:
+                        - link "Makeup" [ref=e184] [cursor=pointer]:
+                          - /url: \"https://romconcept.com.br/servicos/makeup/\"
+                      - text: \n\t
+                      - listitem [ref=e185]:
+                        - link "Spa" [ref=e186] [cursor=pointer]:
+                          - /url: \"https://romconcept.com.br/servicos/spa/\"
+                      - text: \n
+                    - text: \n
+                  - text: \n
+                  - listitem [ref=e187]:
+                    - link "Galeria" [ref=e188] [cursor=pointer]:
+                      - /url: \"https://romconcept.com.br/galeria/\"
+                  - text: \n
+                  - listitem [ref=e189]:
+                    - link "Contato" [ref=e190] [cursor=pointer]:
+                      - /url: \"https://romconcept.com.br/contato/\"
+                  - text: \n
+                - text: \t\t\t
+              - text: \n\t\t\t\t
+            - text: \n\t\t\t\t
+          - text: \n\t\t\t\t
+          - generic [ref=e191]:
+            - text: \n\t\t\t\t
+            - generic [ref=e192]:
+              - text: \n\t\t\t\t\t
+              - list [ref=e193]:
+                - text: \n\t\t\t\t\t\t\t
+                - listitem [ref=e194]:
+                  - text: \n\t\t\t\t\t\t\t\t\t\t\t
+                  - link "\\n\\n\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\n\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\n\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\n\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t" [ref=e195] [cursor=pointer]:
+                    - /url: \"https://pt-br.facebook.com/pages/category/Public-Figure/Romeu-Felipe-631552183711082/\"
+                    - text: \n\n\t\t\t\t\t\t\t\t\t\t\t\t
+                    - generic [ref=e196]:
+                      - text: \n\t\t\t\t\t\t\t
+                      - img [ref=e197]:
+                        - generic: \t
+                      - text: \t\t\t\t\t\t
+                    - text: \n\t\t\t\t\t\t\t\t\t\t
+                    - text: \n\t\t\t\t\t\t\t\t\t\t\t
+                  - text: \n\t\t\t\t\t\t\t\t\t
+                - text: \n\t\t\t\t\t\t\t\t
+                - listitem [ref=e198]:
+                  - text: \n\t\t\t\t\t\t\t\t\t\t\t
+                  - link "\\n\\n\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\n\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\n\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\n\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t" [ref=e199] [cursor=pointer]:
+                    - /url: \"https://www.instagram.com/rom.concept/\"
+                    - text: \n\n\t\t\t\t\t\t\t\t\t\t\t\t
+                    - generic [ref=e200]:
+                      - text: \n\t\t\t\t\t\t\t
+                      - img [ref=e201]:
+                        - generic:
+                          - text: \t
+                          - text: \t
+                          - text: \t
+                      - text: \t\t\t\t\t\t
+                    - text: \n\t\t\t\t\t\t\t\t\t\t
+                    - text: \n\t\t\t\t\t\t\t\t\t\t\t
+                  - text: \n\t\t\t\t\t\t\t\t\t
+                - text: \n\t\t\t\t\t\t\t\t
+                - listitem [ref=e202]:
+                  - text: \n\t\t\t\t\t\t\t\t\t\t\t
+                  - link "\\n\\n\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\n\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\n\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\n\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t" [ref=e203] [cursor=pointer]:
+                    - /url: \"https://youtube.com/@RomConcept?si=rL7CjHEIb4u6kXFJ\"
+                    - text: \n\n\t\t\t\t\t\t\t\t\t\t\t\t
+                    - generic [ref=e204]:
+                      - text: \n\t\t\t\t\t\t\t
+                      - img [ref=e205]:
+                        - generic: \t
+                      - text: \t\t\t\t\t\t
+                    - text: \n\t\t\t\t\t\t\t\t\t\t
+                    - text: \n\t\t\t\t\t\t\t\t\t\t\t
+                  - text: \n\t\t\t\t\t\t\t\t\t
+                - text: \n\t\t\t\t\t\t
+              - text: \n\t\t\t\t
+            - text: \n\t\t\t\t
+          - text: \n\t\t\t\t
+        - text: \n\t\t\t\t\t
+      - text: \n\t\t\t\t
+    - text: \n\t\t\t\t
+  - text: \n\t\t\n
+  - main [ref=e206]:
+    - text: \n\n\t\n\t
+    - generic [ref=e207]:
+      - text: \n\t\t\t\t
+      - generic [ref=e208]:
+        - text: \n\t\t\t\t
+        - generic [ref=e209]:
+          - text: \n\t\t\t\t
+          - generic "\\\"Carrossel" [ref=e210]:
+            - text: \n\t\t\t\t
+            - generic [ref=e211]:
+              - text: \n\t\t\t \t\t
+              - generic [ref=e212]:
+                - text: \n\t\t\t
+                - generic [ref=e213]:
+                  - generic "\\\"4" [ref=e214]:
+                    - text: \n\t\t\t\t\t\t\t
+                    - generic [ref=e215]:
+                      - text: \n\t\t\t\t\t
+                      - generic [ref=e216]: \n\t\t\t\t\t
+                      - text: \n\t\t\t\t
+                    - text: \n\t\t\t\t\t\t\t\t
+                  - text: \n\t\t\t\t\t\t\t\t\t\t
+                  - generic "\\\"1" [ref=e217]:
+                    - text: \n\t\t\t\t\t\t\t
+                    - generic [ref=e218]:
+                      - text: \n\t\t\t\t\t
+                      - generic [ref=e219]: \n\t\t\t\t\t
+                      - text: \n\t\t\t\t
+                    - text: \n\t\t\t\t\t\t\t\t
+                  - text: \n\t\t\t\t\t\t\t\t\t\t\t
+                  - generic "\\\"2" [ref=e220]:
+                    - text: \n\t\t\t\t\t\t\t
+                    - generic [ref=e221]:
+                      - text: \n\t\t\t\t\t
+                      - generic [ref=e222]: \n\t\t\t\t\t
+                      - text: \n\t\t\t\t
+                    - text: \n\t\t\t\t\t\t\t\t
+                  - text: \n\t\t\t\t\t\t\t\t\t\t\t
+                  - generic "\\\"3" [ref=e223]:
+                    - text: \n\t\t\t\t\t\t\t
+                    - generic [ref=e224]:
+                      - text: \n\t\t\t\t\t
+                      - generic [ref=e225]: \n\t\t\t\t\t
+                      - text: \n\t\t\t\t
+                    - text: \n\t\t\t\t\t\t\t\t
+                  - text: \n\t\t\t\t\t\t\t\t\t\t\t
+                  - generic "\\\"4" [ref=e226]:
+                    - text: \n\t\t\t\t\t\t\t
+                    - generic [ref=e227]:
+                      - text: \n\t\t\t\t\t
+                      - generic [ref=e228]: \n\t\t\t\t\t
+                      - text: \n\t\t\t\t
+                    - text: \n\t\t\t\t\t\t\t\t
+                  - text: \n\t\t\t\t\t\t\t\t
+                  - generic "\\\"1" [ref=e229]:
+                    - text: \n\t\t\t\t\t\t\t
+                    - generic [ref=e230]:
+                      - text: \n\t\t\t\t\t
+                      - generic [ref=e231]: \n\t\t\t\t\t
+                      - text: \n\t\t\t\t
+                    - text: \n\t\t\t\t\t\t\t\t
+                - text: \n\t\t
+              - text: \n\t\t\t\t\t
+              - generic "\\\"Slide" [ref=e232]:
+                - text: \n\t\t\t\t
+                - img [ref=e233]
+                - text: \t\t\t
+              - text: \n\t\t\t
+              - generic "\\\"PrÃ³ximo" [ref=e234]:
+                - text: \n\t\t\t\t
+                - img [ref=e235]
+                - text: \t\t\t
+              - text: \n\t\t\t\t\t
+              - generic:
+                - generic "\\\"Ir"
+                - generic "\\\"Ir"
+                - generic "\\\"Ir"
+                - generic "\\\"Ir"
+              - text: \n\t\t\t\t
+            - text: \n\t\t\t\t
+          - text: \n\t\t\t\t
+        - text: \n\t\t
+        - generic [ref=e236]:
+          - text: \n\t\t\t\t\t
+          - generic [ref=e237]:
+            - text: \n\t\t
+            - generic [ref=e238]:
+              - text: \n\t\t\t\t\t
+              - generic [ref=e239]:
+                - text: \n\t\t\t\t
+                - generic [ref=e240]:
+                  - text: \n\t\t\t\t
+                  - generic [ref=e241]:
+                    - text: \n\t\t\t
+                    - heading "Profissionais" [level=1] [ref=e242]
+                    - text: \t\t
+                  - text: \n\t\t\t\t
+                - text: \n\t\t\t\t
+                - generic [ref=e243]:
+                  - text: \n\t\t\t\t
+                  - generic [ref=e244]:
+                    - text: \n\t\t\t\t\t
+                    - generic [ref=e245]:
+                      - text: \n\t\t\t
+                      - link "\\n\\t\\t\\t\\t\\t\\t\\n\\t\\t\\t\\t\\t\\t\\t\\t\\tConheÃ§a \\n\\t\\t\\t\\t\\t\\n\\t\\t\\t\\t\\t" [ref=e246] [cursor=pointer]:
+                        - /url: \"https://romconcept.com.br/rom-team/\"
+                        - text: \n\t\t\t\t\t\t
+                        - generic [ref=e247]: \n\t\t\t\t\t\t\t\t\tConheÃ§a \n\t\t\t\t\t
+                        - text: \n\t\t\t\t\t
+                      - text: \n\t\t
+                    - text: \n\t\t\t\t
+                  - text: \n\t\t\t\t
+                - text: \n\t\t\t\t\t
+              - text: \n\t\t\t\t
+            - text: \n\t\t
+            - generic [ref=e248]:
+              - text: \n\t\t\t\t\t
+              - generic [ref=e249]:
+                - text: \n\t\t\t\t
+                - generic [ref=e250]:
+                  - text: \n\t\t\t\t
+                  - generic [ref=e251]:
+                    - text: \n\t\t\t
+                    - heading "Parceiros" [level=1] [ref=e252]
+                    - text: \t\t
+                  - text: \n\t\t\t\t
+                - text: \n\t\t\t\t
+                - generic [ref=e253]:
+                  - text: \n\t\t\t\t
+                  - generic [ref=e254]:
+                    - text: \n\t\t\t\t\t
+                    - generic [ref=e255]:
+                      - text: \n\t\t\t
+                      - link "\\n\\t\\t\\t\\t\\t\\t\\n\\t\\t\\t\\t\\t\\t\\t\\t\\tConheÃ§a \\n\\t\\t\\t\\t\\t\\n\\t\\t\\t\\t\\t" [ref=e256] [cursor=pointer]:
+                        - /url: \"https://romconcept.com.br/rom-concept/parceiros/\"
+                        - text: \n\t\t\t\t\t\t
+                        - generic [ref=e257]: \n\t\t\t\t\t\t\t\t\tConheÃ§a \n\t\t\t\t\t
+                        - text: \n\t\t\t\t\t
+                      - text: \n\t\t
+                    - text: \n\t\t\t\t
+                  - text: \n\t\t\t\t
+                - text: \n\t\t\t\t\t
+              - text: \n\t\t\t\t
+            - text: \n\t\t
+            - generic [ref=e258]:
+              - text: \n\t\t\t\t\t
+              - generic [ref=e259]:
+                - text: \n\t\t\t\t
+                - generic [ref=e260]:
+                  - text: \n\t\t\t\t
+                  - generic [ref=e261]:
+                    - text: \n\t\t\t
+                    - heading "INSTALAÃ‡Ã•ES" [level=1] [ref=e262]
+                    - text: \t\t
+                  - text: \n\t\t\t\t
+                - text: \n\t\t\t\t
+                - generic [ref=e263]:
+                  - text: \n\t\t\t\t
+                  - generic [ref=e264]:
+                    - text: \n\t\t\t\t\t
+                    - generic [ref=e265]:
+                      - text: \n\t\t\t
+                      - link "\\n\\t\\t\\t\\t\\t\\t\\n\\t\\t\\t\\t\\t\\t\\t\\t\\tConheÃ§a \\n\\t\\t\\t\\t\\t\\n\\t\\t\\t\\t\\t" [ref=e266] [cursor=pointer]:
+                        - /url: \"https://romconcept.com.br/rom-concept/instalacoes/\"
+                        - text: \n\t\t\t\t\t\t
+                        - generic [ref=e267]: \n\t\t\t\t\t\t\t\t\tConheÃ§a \n\t\t\t\t\t
+                        - text: \n\t\t\t\t\t
+                      - text: \n\t\t
+                    - text: \n\t\t\t\t
+                  - text: \n\t\t\t\t
+                - text: \n\t\t\t\t\t
+              - text: \n\t\t\t\t
+            - text: \n\t\t
+            - generic [ref=e268]:
+              - text: \n\t\t\t\t\t
+              - generic [ref=e269]:
+                - text: \n\t\t\t\t
+                - generic [ref=e270]:
+                  - text: \n\t\t\t\t
+                  - generic [ref=e271]:
+                    - text: \n\t\t\t
+                    - heading "ROM IGUATEMI" [level=1] [ref=e272]
+                    - text: \t\t
+                  - text: \n\t\t\t\t
+                - text: \n\t\t\t\t
+                - generic [ref=e273]:
+                  - text: \n\t\t\t\t
+                  - generic [ref=e274]:
+                    - text: \n\t\t\t\t\t
+                    - generic [ref=e275]:
+                      - text: \n\t\t\t
+                      - link "\\n\\t\\t\\t\\t\\t\\t\\n\\t\\t\\t\\t\\t\\t\\t\\t\\tConheÃ§a \\n\\t\\t\\t\\t\\t\\n\\t\\t\\t\\t\\t" [ref=e276] [cursor=pointer]:
+                        - /url: \"https://romconcept.com.br/team-shopping-iguatemi/\"
+                        - text: \n\t\t\t\t\t\t
+                        - generic [ref=e277]: \n\t\t\t\t\t\t\t\t\tConheÃ§a \n\t\t\t\t\t
+                        - text: \n\t\t\t\t\t
+                      - text: \n\t\t
+                    - text: \n\t\t\t\t
+                  - text: \n\t\t\t\t
+                - text: \n\t\t\t\t\t
+              - text: \n\t\t\t\t
+            - text: \n\t\t\t\t\t
+          - text: \n\t\t\t\t
+        - text: \n\t\t
+        - generic [ref=e278]:
+          - text: \n\t\t\t\t\t
+          - generic [ref=e279]:
+            - text: \n\t\t
+            - generic [ref=e280]:
+              - text: \n\t\t\t\t
+              - generic [ref=e281]:
+                - text: \n\t\t\t\t
+                - generic [ref=e282]:
+                  - text: \n\t\t\t
+                  - heading "Contribuimos para o bem-estar e a realizaÃ§Ã£o pessoal de nossos clientes" [level=1] [ref=e283]
+                  - text: \t\t
+                - text: \n\t\t\t\t
+              - text: \n\t\t\t\t
+              - generic [ref=e284]:
+                - text: \n\t\t\t\t
+                - generic [ref=e285]:
+                  - text: \n\t\t\t\t\t
+                  - generic [ref=e286]:
+                    - text: \n\t\t\t
+                    - link "\\n\\t\\t\\t\\t\\t\\t\\n\\t\\t\\t\\t\\t\\t\\t\\t\\tConheÃ§a Rom. Concept\\n\\t\\t\\t\\t\\t\\n\\t\\t\\t\\t\\t" [ref=e287] [cursor=pointer]:
+                      - /url: \"https://romconcept.com.br/rom-concept/\"
+                      - text: \n\t\t\t\t\t\t
+                      - generic [ref=e288]: \n\t\t\t\t\t\t\t\t\tConheÃ§a Rom. Concept\n\t\t\t\t\t
+                      - text: \n\t\t\t\t\t
+                    - text: \n\t\t
+                  - text: \n\t\t\t\t
+                - text: \n\t\t\t\t
+              - text: \n\t\t\t\t
+            - text: \n\t\t
+            - generic [ref=e289]:
+              - text: \n\t\t\t\t
+              - generic [ref=e290]:
+                - text: \n\t\t\t\t
+                - generic [ref=e291]:
+                  - text: \n\t\t\t \t\t\t\t
+                  - paragraph [ref=e292]: Contribuir para o bem-estar e a realizaÃ§Ã£o pessoal de nossos clientes.
+                  - paragraph [ref=e293]:
+                    - text: Oferecer soluÃ§Ãµes estÃ©ticas Ãºnicas e surpreendentes, acompanhada de serviÃ§os diferenciados exclusivos, num ambiente agradÃ¡vel e acolhedor.
+                    - text: Desejar que seja o local escolhido por todos que queiram passar por uma experiÃªncia inesquecÃvel.
+                  - text: \t\t\t\t\t\t
+                - text: \n\t\t\t\t
+              - text: \n\t\t\t\t
+            - text: \n\t\t\t\t\t
+          - text: \n\t\t\t\t
+        - text: \n\t\t
+        - generic [ref=e294]:
+          - text: \n\t\t\t\t\t
+          - generic [ref=e295]:
+            - text: \n\t\t
+            - generic [ref=e296]:
+              - text: \n\t\t\t\t\t
+              - generic [ref=e297]:
+                - text: \n\t\t\t\t
+                - generic [ref=e298]:
+                  - text: \n\t\t\t\t
+                  - generic [ref=e299]:
+                    - text: \n\t\t\t
+                    - heading "High Contrast" [level=1] [ref=e300]
+                    - text: \t\t
+                  - text: \n\t\t\t\t
+                - text: \n\t\t\t\t
+                - generic [ref=e301]:
+                  - text: \n\t\t\t\t
+                  - generic [ref=e302]:
+                    - text: \n\t\t\t\t\t
+                    - generic [ref=e303]:
+                      - text: \n\t\t\t
+                      - link "\\n\\t\\t\\t\\t\\t\\t\\n\\t\\t\\t\\t\\t\\t\\t\\t\\tConheÃ§a \\n\\t\\t\\t\\t\\t\\n\\t\\t\\t\\t\\t" [ref=e304] [cursor=pointer]:
+                        - /url: \"https://romconcept.com.br/galeria/\"
+                        - text: \n\t\t\t\t\t\t
+                        - generic [ref=e305]: \n\t\t\t\t\t\t\t\t\tConheÃ§a \n\t\t\t\t\t
+                        - text: \n\t\t\t\t\t
+                      - text: \n\t\t
+                    - text: \n\t\t\t\t
+                  - text: \n\t\t\t\t
+                - text: \n\t\t\t\t\t
+              - text: \n\t\t\t\t
+            - text: \n\t\t
+            - generic [ref=e306]:
+              - text: \n\t\t\t\t\t
+              - generic [ref=e307]:
+                - text: \n\t\t\t\t
+                - generic [ref=e308]:
+                  - text: \n\t\t\t\t
+                  - generic [ref=e309]:
+                    - text: \n\t\t\t
+                    - heading "Brunettes" [level=1] [ref=e310]
+                    - text: \t\t
+                  - text: \n\t\t\t\t
+                - text: \n\t\t\t\t
+                - generic [ref=e311]:
+                  - text: \n\t\t\t\t
+                  - generic [ref=e312]:
+                    - text: \n\t\t\t\t\t
+                    - generic [ref=e313]:
+                      - text: \n\t\t\t
+                      - link "\\n\\t\\t\\t\\t\\t\\t\\n\\t\\t\\t\\t\\t\\t\\t\\t\\tConheÃ§a \\n\\t\\t\\t\\t\\t\\n\\t\\t\\t\\t\\t" [ref=e314] [cursor=pointer]:
+                        - /url: \"https://romconcept.com.br/galeria/\"
+                        - text: \n\t\t\t\t\t\t
+                        - generic [ref=e315]: \n\t\t\t\t\t\t\t\t\tConheÃ§a \n\t\t\t\t\t
+                        - text: \n\t\t\t\t\t
+                      - text: \n\t\t
+                    - text: \n\t\t\t\t
+                  - text: \n\t\t\t\t
+                - text: \n\t\t\t\t\t
+              - text: \n\t\t\t\t
+            - text: \n\t\t
+            - generic [ref=e316]:
+              - text: \n\t\t\t\t\t
+              - generic [ref=e317]:
+                - text: \n\t\t\t\t
+                - generic [ref=e318]:
+                  - text: \n\t\t\t\t
+                  - generic [ref=e319]:
+                    - text: \n\t\t\t
+                    - heading "Brazilian Blondes" [level=1] [ref=e320]
+                    - text: \t\t
+                  - text: \n\t\t\t\t
+                - text: \n\t\t\t\t
+                - generic [ref=e321]:
+                  - text: \n\t\t\t\t
+                  - generic [ref=e322]:
+                    - text: \n\t\t\t\t\t
+                    - generic [ref=e323]:
+                      - text: \n\t\t\t
+                      - link "\\n\\t\\t\\t\\t\\t\\t\\n\\t\\t\\t\\t\\t\\t\\t\\t\\tConheÃ§a \\n\\t\\t\\t\\t\\t\\n\\t\\t\\t\\t\\t" [ref=e324] [cursor=pointer]:
+                        - /url: \"https://romconcept.com.br/galeria/\"
+                        - text: \n\t\t\t\t\t\t
+                        - generic [ref=e325]: \n\t\t\t\t\t\t\t\t\tConheÃ§a \n\t\t\t\t\t
+                        - text: \n\t\t\t\t\t
+                      - text: \n\t\t
+                    - text: \n\t\t\t\t
+                  - text: \n\t\t\t\t
+                - text: \n\t\t\t\t\t
+              - text: \n\t\t\t\t
+            - text: \n\t\t\t\t\t
+          - text: \n\t\t\t\t
+        - text: \n\t\t
+        - generic [ref=e326]:
+          - text: \n\t\t\t\t\t
+          - generic [ref=e327]:
+            - text: \n\t\t
+            - generic [ref=e328]:
+              - text: \n\t\t\t\t
+              - generic [ref=e329]:
+                - text: \n\t\t\t\t
+                - generic [ref=e330]:
+                  - text: \n\t\t\t
+                  - heading "ConheÃ§a" [level=1] [ref=e331]
+                  - text: \t\t
+                - text: \n\t\t\t\t
+              - text: \n\t\t\t\t
+              - generic [ref=e332]:
+                - text: \n\t\t\t\t
+                - generic [ref=e333]:
+                  - text: \n\t\t\t
+                  - heading "Romeu Felipe" [level=2] [ref=e334]
+                  - text: \t\t
+                - text: \n\t\t\t\t
+              - text: \n\t\t\t\t
+              - generic [ref=e335]:
+                - text: \n\t\t\t\t
+                - generic [ref=e336]:
+                  - text: \n\t\t\t\t\t\t\t
+                  - paragraph [ref=e337]:
+                    - text: Romeu Felipe iniciou sua carreira como educador da Wella. Se tornou um, hair stylist, mundialmente conhecido por lanÃ§ar tÃ©cnicas novas de coloraÃ§Ã£o, sendo uma delas feitas Ã mÃ£o, dando um ar bem natural aos fios.
+                    - text: Ã‰ o idealizador de todas as campanhas que levam sua assinatura, desde o casting de modelos, fotÃ³grafo, locaÃ§Ã£o e figurino. Conquistou a confianÃ§as de grandes nomes, como Yasmin Brunet, Mari Gonzalvez, Ticiane Pinheiro, Thassia Naves, Fernanda Souza, entre outras.
+                  - text: \t\t\t\t\t\t
+                - text: \n\t\t\t\t
+              - text: \n\t\t\t\t
+              - generic [ref=e338]:
+                - text: \n\t\t\t\t
+                - generic [ref=e339]:
+                  - text: \n\t\t\t\t\t
+                  - generic [ref=e340]:
+                    - text: \n\t\t\t
+                    - link "\\n\\t\\t\\t\\t\\t\\t\\n\\t\\t\\t\\t\\t\\t\\t\\t\\tConheÃ§a Romeu Felipe\\n\\t\\t\\t\\t\\t\\n\\t\\t\\t\\t\\t" [ref=e341] [cursor=pointer]:
+                      - /url: \"https://romconcept.com.br/romeu-felipe/\"
+                      - text: \n\t\t\t\t\t\t
+                      - generic [ref=e342]: \n\t\t\t\t\t\t\t\t\tConheÃ§a Romeu Felipe\n\t\t\t\t\t
+                      - text: \n\t\t\t\t\t
+                    - text: \n\t\t
+                  - text: \n\t\t\t\t
+                - text: \n\t\t\t\t
+              - text: \n\t\t\t\t
+            - text: \n\t\t
+            - generic [ref=e343]:
+              - text: \n\t\t\t\t
+              - generic [ref=e344]:
+                - text: \n\t\t\t\t
+                - generic [ref=e345]:
+                  - text: \n\t\t\t\t\t\t\t\t\t\t\t\t\t
+                  - img "\\\"\\\"" [ref=e346]
+                  - text: \t\t\t\t\t\t\t\t\t\t\t\t\t
+                - text: \n\t\t\t\t
+              - text: \n\t\t\t\t
+            - text: \n\t\t\t\t\t
+          - text: \n\t\t\t\t
+        - text: \n\t\t
+        - generic [ref=e347]:
+          - text: \n\t\t
+          - generic [ref=e348]: \n\t\t\t\t
+          - text: \n\t\t
+          - generic [ref=e349]: \n\t\t\t\t
+          - text: \n\t\t
+          - generic [ref=e350]: \n\t\t\t\t
+          - text: \n\t\t\t\t
+        - text: \n\t\t
+        - generic [ref=e351]:
+          - text: \n\t\t\t\t
+          - generic [ref=e352]:
+            - text: \n\t\t\t\t
+            - generic [ref=e353]:
+              - text: \n\t\t\t\t\t
+              - generic [ref=e354]:
+                - text: \t\t
+                - generic [ref=e355]:
+                  - text: \n\t\t\t
+                  - generic [ref=e356]:
+                    - text: \n\t\t\t\t\t
+                    - generic [ref=e357]:
+                      - text: \n\t\t
+                      - generic [ref=e358]:
+                        - text: \n\t\t\t\t
+                        - generic [ref=e359]:
+                          - text: \n\t\t\t\t
+                          - generic [ref=e360]:
+                            - text: \n\t\t\t
+                            - heading "Assine nossa newsletter" [level=1] [ref=e361]
+                            - text: \t\t
+                          - text: \n\t\t\t\t
+                        - text: \n\t\t\t\t
+                        - generic [ref=e362]:
+                          - text: \n\t\t\t\t
+                          - generic [ref=e363]:
+                            - text: \n\t\t\t\t\t\t\t
+                            - paragraph [ref=e364]: Receba nossas notÃcias e fique por dentro das novidades.
+                            - text: \t\t\t\t\t\t
+                          - text: \n\t\t\t\t
+                        - text: \n\t\t\t\t
+                      - text: \n\t\t
+                      - generic [ref=e365]:
+                        - text: \n\t\t\t\t
+                        - generic [ref=e366]:
+                          - text: \n\t\t\t\t
+                          - generic [ref=e367]:
+                            - text: \n\t\t\t \t\t
+                            - generic [ref=e368]:
+                              - text: \n\t\t\t
+                              - textbox [ref=e369]: \"679\"
+                              - text: \n\t\t\t
+                              - textbox [ref=e370]: \"5b06e2a\"
+                              - text: \n\t\t\t
+                              - textbox [ref=e371]: \"\"
+                              - text: \n\n\t\t\t\t\t\t\t
+                              - textbox [ref=e372]: \"12\"
+                              - text: \n\t\t\t\n\t\t\t
+                              - generic [ref=e373]:
+                                - text: \n\t\t\t\t\t\t\t\t
+                                - generic [ref=e374]:
+                                  - text: \n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\tNome\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t
+                                  - textbox "\\n\\t\\t\\t\\t\\t\\t\\t\\tNome\\t\\t\\t\\t\\t\\t\\t" [ref=e375]:
+                                    - /placeholder: \"Nome\"
+                                  - text: \n\t\t\t\t\t\t\t\t\t\t\t
+                                - text: \n\t\t\t\t\t\t\t\t
+                                - generic [ref=e376]:
+                                  - text: \n\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\tE-mail\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t
+                                  - textbox "\\n\\t\\t\\t\\t\\t\\t\\t\\tE-mail\\t\\t\\t\\t\\t\\t\\t" [ref=e377]:
+                                    - /placeholder: \"E-mail\"
+                                  - text: \n\t\t\t\t\t\t\t\t\t\t\t
+                                - text: \n\t\t\t\t\t\t\t\t
+                                - generic [ref=e378]:
+                                  - text: \n\t\t\t\t\t
+                                  - button "\\n\\t\\t\\t\\t\\t\\t\\n\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\n\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\n\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\tAssinar\\n\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\n\\t\\t\\t\\t\\t" [ref=e379]:
+                                    - text: \n\t\t\t\t\t\t
+                                    - generic [ref=e380]: \n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tAssinar\n\t\t\t\t\t\t\t\t\t\t\t\t\t
+                                    - text: \n\t\t\t\t\t
+                                  - text: \n\t\t\t\t
+                                - text: \n\t\t\t
+                              - text: \n\t\t
+                            - text: \n\t\t\t\t
+                          - text: \n\t\t\t\t
+                        - text: \n\t\t\t\t
+                      - text: \n\t\t\t\t\t
+                    - text: \n\t\t\t\t
+                  - text: \n\t\t\t\t
+                - text: \n\t\t
+              - text: \n\t\t\t\t
+            - text: \n\t\t\t\t
+          - text: \n\t\t\t\t
+        - text: \n\t\t\t\t
+      - text: \n\t\t\n\t\t\n\t\t\t
+    - text: \n\n\t
+    - generic [ref=e381]:
+      - text: \n\n\t\t\t
+      - heading "\\n\\t\\t\\tRespostas de 2\\t\\t" [level=2] [ref=e382]
+      - text: \n\n\t\t\n\t\t
+      - list [ref=e383]:
+        - text: \n\t\t\t\t\t
+        - listitem [ref=e384]:
+          - text: \n\t\t\t
+          - generic [ref=e385]:
+            - text: "\\n\\t\\t\\t\\tPingback:"
+            - link "WP Notify" [ref=e386] [cursor=pointer]:
+              - /url: \"https://bbc.co.uk\"
+            - text: \t\t\t
+          - text: \n\t\t
+        - text: \n\t\t
+        - listitem [ref=e387]:
+          - text: \n\t\t\t
+          - generic [ref=e388]:
+            - text: "\\n\\t\\t\\t\\tPingback:"
+            - link "WP Notify" [ref=e389] [cursor=pointer]:
+              - /url: \"https://ibm.com\"
+            - text: \t\t\t
+          - text: \n\t\t
+        - text: \n\t\t
+      - text: \n\n\t\t\n\t\n\t\n
+    - text: \n\n
+  - text: \n\n\t\t\t
+  - generic [ref=e390]:
+    - text: \n\t\t\t
+    - generic [ref=e391]:
+      - text: \n\t\t\t\t\t
+      - generic [ref=e392]:
+        - text: \n\t\t
+        - generic [ref=e393]:
+          - text: \n\t\t\t\t\t
+          - generic [ref=e394]:
+            - text: \n\t\t
+            - generic [ref=e395]:
+              - text: \n\t\t\t\t
+              - generic [ref=e396]:
+                - text: \n\t\t\t\t
+                - generic [ref=e397]:
+                  - text: \n\t\t\t\t\t\t\t\t\t
+                  - link "\\n\\t\\t\\t\\\"\\\"\\t\\t\\t\\t" [ref=e398] [cursor=pointer]:
+                    - /url: \"https://romconcept.com.br\"
+                    - text: \n\t\t\t
+                    - img "\\\"\\\"" [ref=e399]
+                    - text: \t\t\t\t
+                  - text: \n\t\t\t\t\t\t\t\t\t
+                - text: \n\t\t\t\t
+              - text: \n\t\t\t\t
+              - generic [ref=e400]:
+                - text: \n\t\t\t\t
+                - generic [ref=e401]:
+                  - text: \n\t\t\t\t\t
+                  - list [ref=e402]:
+                    - text: \n\t\t\t\t\t\t\t
+                    - listitem [ref=e403]:
+                      - text: \n\t\t\t\t\t\t\t\t\t\t\t
+                      - link "\\n\\n\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\n\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\n\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\n\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t" [ref=e404] [cursor=pointer]:
+                        - /url: \"https://www.instagram.com/rom.concept/\"
+                        - text: \n\n\t\t\t\t\t\t\t\t\t\t\t\t
+                        - generic [ref=e405]:
+                          - text: \n\t\t\t\t\t\t\t
+                          - img [ref=e406]:
+                            - generic:
+                              - text: \t
+                              - text: \t
+                              - text: \t
+                          - text: \t\t\t\t\t\t
+                        - text: \n\t\t\t\t\t\t\t\t\t\t
+                        - text: \n\t\t\t\t\t\t\t\t\t\t\t
+                      - text: \n\t\t\t\t\t\t\t\t\t
+                    - text: \n\t\t\t\t\t\t\t\t
+                    - listitem [ref=e407]:
+                      - text: \n\t\t\t\t\t\t\t\t\t\t\t
+                      - link "\\n\\n\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\n\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\n\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\n\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t" [ref=e408] [cursor=pointer]:
+                        - /url: \"https://pt-br.facebook.com/pages/category/Public-Figure/Romeu-Felipe-631552183711082/\"
+                        - text: \n\n\t\t\t\t\t\t\t\t\t\t\t\t
+                        - generic [ref=e409]:
+                          - text: \n\t\t\t\t\t\t\t
+                          - img [ref=e410]:
+                            - generic: \t
+                          - text: \t\t\t\t\t\t
+                        - text: \n\t\t\t\t\t\t\t\t\t\t
+                        - text: \n\t\t\t\t\t\t\t\t\t\t\t
+                      - text: \n\t\t\t\t\t\t\t\t\t
+                    - text: \n\t\t\t\t\t\t\t\t
+                    - listitem [ref=e411]:
+                      - text: \n\t\t\t\t\t\t\t\t\t\t\t
+                      - link "\\n\\n\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\n\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\n\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\n\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t" [ref=e412] [cursor=pointer]:
+                        - /url: \"https://youtube.com/@RomConcept?si=rL7CjHEIb4u6kXFJ\"
+                        - text: \n\n\t\t\t\t\t\t\t\t\t\t\t\t
+                        - generic [ref=e413]:
+                          - text: \n\t\t\t\t\t\t\t
+                          - img [ref=e414]:
+                            - generic: \t
+                          - text: \t\t\t\t\t\t
+                        - text: \n\t\t\t\t\t\t\t\t\t\t
+                        - text: \n\t\t\t\t\t\t\t\t\t\t\t
+                      - text: \n\t\t\t\t\t\t\t\t\t
+                    - text: \n\t\t\t\t\t\t
+                  - text: \n\t\t\t\t
+                - text: \n\t\t\t\t
+              - text: \n\t\t\t\t
+            - text: \n\t\t
+            - generic [ref=e415]: \n\t\t\t\t
+            - text: \n\t\t
+            - generic [ref=e416]:
+              - text: \n\t\t\t\t
+              - generic [ref=e417]:
+                - text: \n\t\t\t\t
+                - generic [ref=e418]:
+                  - text: \n\t\t\t\t\t
+                  - list [ref=e419]:
+                    - text: \n\t\t\t\t\t\t\t
+                    - listitem [ref=e420]:
+                      - text: \n\t\t\t\t\t\t\t\t\t\t
+                      - generic [ref=e421]: ABERTO DE TER. Ã€ SAB. DAS 9h Ã€S 21h
+                      - text: \n\t\t\t\t\t\t\t\t\t
+                    - text: \n\t\t\t\t\t\t\t\t
+                    - listitem [ref=e422]:
+                      - text: \n\t\t\t\t\t\t\t\t\t\t\t
+                      - link "\\n\\n\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\n\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\n\\t\\t\\t\\t\\t\\t\\t\\t\\t\\tcontato@romconcept.com.br\\n\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t" [ref=e423] [cursor=pointer]:
+                        - /url: \"mailto:contato@romconcept.com.br\"
+                        - text: \n\n\t\t\t\t\t\t\t\t\t\t\t\t
+                        - generic [ref=e424]:
+                          - text: \n\t\t\t\t\t\t\t
+                          - img [ref=e425]
+                          - text: \t\t\t\t\t\t
+                        - text: \n\t\t\t\t\t\t\t\t\t\tcontato@romconcept.com.br\n\t\t\t\t\t\t\t\t\t\t\t
+                      - text: \n\t\t\t\t\t\t\t\t\t
+                    - text: \n\t\t\t\t\t\t\t\t
+                    - listitem [ref=e426]:
+                      - text: \n\t\t\t\t\t\t\t\t\t\t\t
+                      - link "\\n\\n\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\n\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\n\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t(11) 2892-0096\\n\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t" [ref=e427] [cursor=pointer]:
+                        - /url: \"tel:1128920096\"
+                        - text: \n\n\t\t\t\t\t\t\t\t\t\t\t\t
+                        - generic [ref=e428]:
+                          - text: \n\t\t\t\t\t\t\t
+                          - img [ref=e429]
+                          - text: \t\t\t\t\t\t
+                        - text: \n\t\t\t\t\t\t\t\t\t\t(11) 2892-0096\n\t\t\t\t\t\t\t\t\t\t\t
+                      - text: \n\t\t\t\t\t\t\t\t\t
+                    - text: \n\t\t\t\t\t\t\t\t
+                    - listitem [ref=e430]:
+                      - text: \n\t\t\t\t\t\t\t\t\t\t\t
+                      - link "\\n\\n\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\n\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\n\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t(11) 99302-1379\\n\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t\\t" [ref=e431] [cursor=pointer]:
+                        - /url: \"https://wa.me/5511993021379\"
+                        - text: \n\n\t\t\t\t\t\t\t\t\t\t\t\t
+                        - generic [ref=e432]:
+                          - text: \n\t\t\t\t\t\t\t
+                          - img [ref=e433]
+                          - text: \t\t\t\t\t\t
+                        - text: \n\t\t\t\t\t\t\t\t\t\t(11) 99302-1379\n\t\t\t\t\t\t\t\t\t\t\t
+                      - text: \n\t\t\t\t\t\t\t\t\t
+                    - text: \n\t\t\t\t\t\t
+                  - text: \n\t\t\t\t
+                - text: \n\t\t\t\t
+              - text: \n\t\t\t\t
+            - text: \n\t\t
+            - generic [ref=e434]:
+              - text: \n\t\t\t\t
+              - generic [ref=e435]:
+                - text: \n\t\t\t\t
+                - generic [ref=e436]:
+                  - text: \n\t\t\t
+                  - heading "UNIDADE 1 \\nAV. BRASIL, 126 \\nCEP 01430-000 - JD. PAULISTA \\nSÃƒO PAULO - SP" [level=2] [ref=e437]:
+                    - text: UNIDADE 1
+                    - text: \nAV. BRASIL, 126
+                    - text: \nCEP 01430-000 - JD. PAULISTA
+                    - text: \nSÃƒO PAULO - SP
+                  - text: \t\t
+                - text: \n\t\t\t\t
+              - text: \n\t\t\t\t
+            - text: \n\t\t
+            - generic [ref=e438]:
+              - text: \n\t\t\t\t
+              - generic [ref=e439]:
+                - text: \n\t\t\t\t
+                - generic [ref=e440]:
+                  - text: \n\t\t\t
+                  - heading "UNIDADE 2 \\nAV. BRIGADEIRO FARIA LIMA, 2232 \\nJD. CEP 01451-000\\n - JD. PAULISTANO \\nSÃƒO PAULO - SP" [level=2] [ref=e441]:
+                    - text: UNIDADE 2
+                    - text: \nAV. BRIGADEIRO FARIA LIMA, 2232
+                    - text: \nJD. CEP 01451-000\n - JD. PAULISTANO
+                    - text: \nSÃƒO PAULO - SP
+                  - text: \t\t
+                - text: \n\t\t\t\t
+              - text: \n\t\t\t\t
+            - text: \n\t\t\t\t\t
+          - text: \n\t\t\t\t
+        - text: \n\t\t
+        - generic [ref=e442]:
+          - text: \n\t\t\t\t\t
+          - generic [ref=e443]:
+            - text: \n\t\t\t\t
+            - generic [ref=e444]:
+              - text: \n\t\t\t\t
+              - generic [ref=e445]:
+                - text: \n\t\t\t
+                - heading "Â© 2024 - Rom. Concept. TODOS OS DIREITOS RESERVADOS.\\n" [level=2] [ref=e446]
+                - text: \t\t
+              - text: \n\t\t\t\t
+            - text: \n\t\t\t\t\t
+          - text: \n\t\t\t\t
+        - text: \n\t\t\t\t\t
+      - text: \n\t\t\t\t
+    - text: \n\t\t\t\t
+  - text: \n\t\t\n \n \t\t\n\t\t\n
+  - generic [ref=e447]:
+    - text: \n\t
+    - generic [ref=e448]:
+      - text: \n\t\t
+      - text: \n\t\t\t\t\t\t\t\t\t
+    - text: \n\t
+  - text: \n\t\t\t \n\t\t\t \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n
+  - text: \n
+  - img [ref=e449]
+  - text: \n \n \n\n\n\n "

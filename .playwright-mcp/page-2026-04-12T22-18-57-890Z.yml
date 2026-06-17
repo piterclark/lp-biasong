@@ -1,0 +1,11 @@
+- generic [active] [ref=e1]:
+  - main [ref=e3]:
+    - generic [ref=e6]:
+      - button "Voltar" [ref=e7] [cursor=pointer]:
+        - img [ref=e8]
+        - generic [ref=e10]: Voltar
+      - button "Ajuda" [ref=e11] [cursor=pointer]:
+        - generic [ref=e12]: Ajuda
+        - img [ref=e13]
+  - region "Notifications alt+T"
+  - alert [ref=e73]

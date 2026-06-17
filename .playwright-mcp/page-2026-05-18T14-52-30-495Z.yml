@@ -1,0 +1,1073 @@
+- generic [active] [ref=e1]:
+  - region "Cookie banner":
+    - dialog "Cookie banner" [ref=e2]:
+      - button "close" [ref=e4] [cursor=pointer]:
+        - text: ×
+        - generic [ref=e5]: close
+      - generic [ref=e6]:
+        - paragraph [ref=e8]:
+          - text: We use cookies to improve HubSpot’s site. Some cookies are necessary for our website and services to function properly. Other cookies are optional and help personalize your experience, including advertising and analytics. You can consent to all cookies, decline all optional cookies, or manage optional cookies. Without a selection, our default cookie settings will apply. You can change your preferences at any time. To learn more, check out our
+          - link "Cookie Policy" [ref=e9] [cursor=pointer]:
+            - /url: https://legal.hubspot.com/cookie-policy?_ga=2.50914222.648097249.1661181827-2085802971.1659562077
+          - text: .
+        - generic [ref=e10]:
+          - generic [ref=e12]:
+            - button "Accept all" [ref=e13] [cursor=pointer]
+            - button "Decline all" [ref=e14] [cursor=pointer]
+          - button "Manage Cookies" [ref=e15] [cursor=pointer]:
+            - text: Manage Cookies
+            - img [ref=e17]
+  - generic [ref=e20]:
+    - banner [ref=e21]:
+      - navigation [ref=e22]:
+        - generic "Utility Navigation" [ref=e23]:
+          - link "Skip to content" [ref=e24] [cursor=pointer]:
+            - /url: "#blog-main-content"
+          - generic [ref=e25]:
+            - list [ref=e26]:
+              - listitem [ref=e27]:
+                - 'button "English : Select a language" [ref=e28] [cursor=pointer]':
+                  - img [ref=e29]
+                  - generic [ref=e31]: English
+                  - generic [ref=e32]: ": Select a language"
+                  - img [ref=e33]
+              - listitem [ref=e35]:
+                - switch "High Contrast" [ref=e36] [cursor=pointer]:
+                  - generic [ref=e39]: High Contrast
+            - list [ref=e40]:
+              - listitem [ref=e41]:
+                - link "Log in" [ref=e42] [cursor=pointer]:
+                  - /url: https://app.hubspot.com/home?hubs_content=blog.hubspot.com%2Fwebsite%2Ffurniture-web-design&hubs_content-cta=log-in&hubs_post=blog.hubspot.com%2Fwebsite%2Ffurniture-web-design&hubs_post-cta=log-in&uuid=anon751ee05ad7135a5c25203c3d00ab
+        - generic "HubSpot Blog Navigation" [ref=e45]:
+          - generic [ref=e46]:
+            - link "HubSpot Blog Homepage" [ref=e48] [cursor=pointer]:
+              - /url: https://blog.hubspot.com/?hubs_content=blog.hubspot.com/website/furniture-web-design&hubs_content-cta=HubSpot%20Blog%20Homepage
+            - generic [ref=e51]:
+              - list [ref=e52]:
+                - listitem [ref=e53]:
+                  - button "Blogs" [ref=e54] [cursor=pointer]:
+                    - heading "Blogs" [level=6] [ref=e55]
+                    - img [ref=e56]
+                - listitem [ref=e58]:
+                  - button "Topics" [ref=e59] [cursor=pointer]:
+                    - heading "Topics" [level=6] [ref=e60]
+                    - img [ref=e61]
+                - listitem [ref=e63]:
+                  - button "Insights" [ref=e64] [cursor=pointer]:
+                    - heading "Insights" [level=6] [ref=e65]
+                    - img [ref=e66]
+                - listitem [ref=e68]:
+                  - button "Products" [ref=e69] [cursor=pointer]:
+                    - heading "Products" [level=6] [ref=e70]
+                    - img [ref=e71]
+              - list [ref=e73]:
+                - listitem [ref=e74]:
+                  - link "Search Hubspot's blog" [ref=e75] [cursor=pointer]:
+                    - /url: https://blog.hubspot.com/search?hubs_content=blog.hubspot.com/website/furniture-web-design&hubs_content-cta=blog-nav-site-search-trigger
+                    - generic [ref=e76]: Search Hubspot's blog
+                    - img [ref=e77]
+                - listitem [ref=e79]:
+                  - link "Get started free" [ref=e80] [cursor=pointer]:
+                    - /url: https://www.hubspot.com/products/get-started?hubs_content=blog.hubspot.com/website/furniture-web-design&hubs_content-cta=get-started-free&hubs_post=blog.hubspot.com/website/furniture-web-design&hubs_post-cta=get-started-free
+    - main [ref=e81]:
+      - generic [ref=e82]:
+        - list [ref=e87]:
+          - listitem [ref=e88]:
+            - link "Home" [ref=e89] [cursor=pointer]:
+              - /url: https://blog.hubspot.com/?hubs_content=blog.hubspot.com/website/furniture-web-design&hubs_content-cta=cl-breadcrumbs-link-text
+          - listitem [ref=e90]:
+            - img [ref=e91]
+            - link "Website" [ref=e93] [cursor=pointer]:
+              - /url: https://blog.hubspot.com/website?hubs_content=blog.hubspot.com/website/furniture-web-design&hubs_content-cta=cl-breadcrumbs-link-text
+          - listitem [ref=e94]:
+            - img [ref=e95]
+            - generic [ref=e97]: 30 Furniture Website Design Examples I Love [+ How To Make Your Own]
+        - generic [ref=e98]:
+          - generic [ref=e101]:
+            - generic [ref=e102]:
+              - heading "30 Furniture Website Design Examples I Love [+ How To Make Your Own]" [level=1] [ref=e103]
+              - generic [ref=e105]:
+                - text: "Written by:"
+                - link "Jenny Romanchuk" [ref=e106] [cursor=pointer]:
+                  - /url: https://blog.hubspot.com/website/author/jenny-romanchuk?hubs_content=blog.hubspot.com/website/furniture-web-design&hubs_content-cta=cl-textLink
+              - generic [ref=e107]:
+                - img "A partially open book titled" [ref=e108]
+                - generic [ref=e109]:
+                  - 'heading "FREE GUIDE: WEBSITE DESIGN EXAMPLE LOOKBOOK" [level=2] [ref=e110]'
+                  - paragraph [ref=e111]: 77 of blog and website page design examples.
+                  - link "Download for Free" [ref=e112] [cursor=pointer]:
+                    - /url: https://offers.hubspot.com/website-design-homepage-examples?hubs_signup-url=blog.hubspot.com/website/furniture-web-design&hubs_signup-cta=download-for-free&hubs_post=blog.hubspot.com/website/furniture-web-design&hubs_post-cta=pillar
+            - generic [ref=e113]:
+              - img "sofa purchased from a furniture website in a living room" [ref=e115]
+              - paragraph [ref=e117]:
+                - text: "Updated:"
+                - time [ref=e118]: 06/25/25
+          - generic [ref=e119]:
+            - generic [ref=e121]:
+              - paragraph [ref=e122]: "Furniture websites face a tough challenge: helping visitors understand how the products on-screen will look in their homes. How can you create a website that convinces them to buy?"
+              - paragraph [ref=e123]:
+                - 'link "Free Download: 77 Examples of Brilliant Web Design" [ref=e126] [cursor=pointer]':
+                  - /url: https://offers.hubspot.com/website-design-homepage-examples?hubs_post-cta=anchor&hubs_signup-url=blog.hubspot.com/website/furniture-web-design&hubs_signup-cta=cta_button&hubs_post=blog.hubspot.com/website/furniture-web-design
+                  - 'heading "Free Download: 77 Examples of Brilliant Web Design" [level=3] [ref=e127]':
+                    - generic [ref=e128]: "Free Download: 77 Examples of Brilliant Web Design"
+              - paragraph [ref=e129]: You’ve come to the right place. I’ve put together 30 furniture website design examples that will make you feel like you're walking into a designer showroom.
+              - paragraph [ref=e130]: From stunning product photography to unique layouts and eye-catching graphics, these websites will inspire your customers to redecorate. Let’s dive in!
+              - paragraph [ref=e131]:
+                - strong [ref=e132]: Table of Contents
+              - list [ref=e133]:
+                - listitem [ref=e134]:
+                  - link "Best Furniture Websites" [ref=e135] [cursor=pointer]:
+                    - /url: "#best-furniture-websites"
+                - listitem [ref=e136]:
+                  - link "How to Design a Furniture Website" [ref=e137] [cursor=pointer]:
+                    - /url: "#how-to-design-a-furniture-website"
+                - listitem [ref=e138]:
+                  - link "Design your best furniture website." [ref=e139] [cursor=pointer]:
+                    - /url: "#design-your-best-furniture-website"
+              - paragraph
+              - generic [ref=e141]:
+                - heading "Best Furniture Websites" [level=2] [ref=e142]
+                - list [ref=e144]:
+                  - listitem [ref=e145]: Format Furniture
+                  - listitem [ref=e146]: Case Furniture
+                  - listitem [ref=e147]: Robinson Furniture
+                  - listitem [ref=e148]: Justice Furniture
+                  - listitem [ref=e149]: Garado
+                  - listitem [ref=e150]: At The Helm
+                  - listitem [ref=e151]: The Furniture Gallery
+                  - listitem [ref=e152]: James Richardson Furniture
+                  - listitem [ref=e153]: Skyline Furniture
+                  - listitem [ref=e154]: Jardan
+                  - listitem [ref=e155]: USM
+                  - listitem [ref=e156]: Maglin Site Furniture
+                  - listitem [ref=e157]: Roweam
+                  - listitem [ref=e158]: Megafurniture
+                  - listitem [ref=e159]: HipVan
+                  - listitem [ref=e160]: abc carpet & home
+                  - listitem [ref=e161]: Furnish Green
+                  - listitem [ref=e162]: West Elm
+                  - listitem [ref=e163]: Wayfair
+                  - listitem [ref=e164]: Grandin Road
+                  - listitem [ref=e165]: Pottery Barn
+                  - listitem [ref=e166]: Feather Furniture
+                  - listitem [ref=e167]: Parkman Woodworks
+                  - listitem [ref=e168]: Croft House
+                  - listitem [ref=e169]: Angel City Woodshop
+                  - listitem [ref=e170]: CBD Glass
+                  - listitem [ref=e171]: Glassisimo
+                  - listitem [ref=e172]: Gothic Cabinet Craft
+                  - listitem [ref=e173]: New York Heartwoods
+                  - listitem [ref=e174]: Classic Sofa
+              - paragraph
+              - heading "1. Format Furniture" [level=3] [ref=e175]:
+                - strong [ref=e176]: "1."
+                - strong [ref=e177]:
+                  - link "Format Furniture" [ref=e178] [cursor=pointer]:
+                    - /url: https://format.furniture/
+              - paragraph:
+                - img "Format Furniture; best websites for furniture"
+              - paragraph [ref=e179]: Format Furniture knows about custom-made furniture and crushes it in website design. This first screen grabs your attention with an airy photo from the company’s portfolio and minimal text.
+              - heading "What I like:" [level=4] [ref=e180]
+              - paragraph [ref=e181]: The website's overall look and feel are minimalist, aesthetic, and professional. The white background gives the website an open and bright feel, while the high-quality images of furniture products add a touch of elegance and luxury.
+              - heading "2. Case Furniture" [level=3] [ref=e182]:
+                - strong [ref=e183]: "2."
+                - strong [ref=e184]:
+                  - link "Case Furniture" [ref=e185] [cursor=pointer]:
+                    - /url: https://casefurniture.com/
+              - paragraph:
+                - img "case furniture; best websites for furniture"
+              - paragraph [ref=e186]: In short, the website design of Case Furniture is stunning. The elegant typography and luxurious and high-quality images of furniture products all over the website create an exclusive and refined atmosphere.
+              - heading "What I like:" [level=4] [ref=e187]
+              - paragraph [ref=e188]:
+                - text: The
+                - link "grid layout" [ref=e189] [cursor=pointer]:
+                  - /url: https://blog.hubspot.com/website/broken-grid-layouts?hubs_content=blog.hubspot.com/website/furniture-web-design&hubs_content-cta=grid-layout
+                - text: below the fold consists only of product images with very sparse copy, which lets the furniture’s aesthetic really shine.
+              - heading "3. Robinson Furniture" [level=3] [ref=e190]:
+                - strong [ref=e191]: "3."
+                - strong [ref=e192]:
+                  - link "Robinson Furniture" [ref=e193] [cursor=pointer]:
+                    - /url: https://www.robinsonfurniture.net/
+              - paragraph:
+                - img "robinson website for furniture design"
+              - paragraph [ref=e194]: Royalty and luxury paired with modernism and rustic flair. This website conveys all these qualities thanks to outstanding furniture pictures and sophisticated italic typography.
+              - generic [ref=e199]:
+                - heading "Free Website Design Inspiration Guide" [level=3] [ref=e200]
+                - paragraph [ref=e201]: 77 Brilliant Examples of Homepages, Blogs & Landing Pages to Inspire You
+                - list [ref=e202]:
+                  - listitem [ref=e203]: Agency Pages
+                  - listitem [ref=e205]: Ecommerce Pages
+                  - listitem [ref=e207]: Tech Company Pages
+                  - listitem [ref=e209]: And More!
+                - generic [ref=e211]:
+                  - button "Get Your Free Templates" [ref=e212] [cursor=pointer]
+                  - link "Learn more Link opens in a new window" [ref=e213] [cursor=pointer]:
+                    - /url: https://offers.hubspot.com/website-design-homepage-examples?hubs_signup-url=blog.hubspot.com/website/furniture-web-design&hubs_signup-cta=-learn-more-text&hubs_post=blog.hubspot.com/website/furniture-web-design&hubs_post-cta=
+                    - text: Learn more
+                    - img "Link opens in a new window" [ref=e214]
+              - heading "What I like:" [level=4] [ref=e217]
+              - paragraph [ref=e218]: Like Case Furniture, this site also emphasizes imagery — a tried and tested tactic for furniture websites. For a better browsing experience, the site uses smooth animation for changing hero images.
+              - heading "4. Justice Furniture" [level=3] [ref=e219]:
+                - strong [ref=e220]: "4."
+                - strong [ref=e221]:
+                  - link "Justice Furniture" [ref=e222] [cursor=pointer]:
+                    - /url: https://www.justicefurniture.com/
+              - paragraph:
+                - img "justice furniture best websites for furniture"
+              - paragraph [ref=e223]: Justice Furniture is about minimalism, a clean layout, and a brilliant color scheme in muted hues of aquamarine, mustard, and burgundy paired with royal ivory and white.
+              - paragraph [ref=e224]:
+                - text: For a seamless user experience, the site uses a transition effect and zoom-in
+                - link "animation when hovering" [ref=e225] [cursor=pointer]:
+                  - /url: https://blog.hubspot.com/website/css-hover-animation?hubs_content=blog.hubspot.com/website/furniture-web-design&hubs_content-cta=animation-when-hovering
+                - text: over product categories.
+              - heading "What I like:" [level=4] [ref=e226]
+              - paragraph [ref=e227]: What stands out to me is the drop-down menu. Justice uses this space not only to list categories but also to showcase furniture collections. A pretty smart decision that doesn’t feel intrusive.
+              - heading "5. Garado" [level=3] [ref=e228]:
+                - text: "5."
+                - link "Garado" [ref=e229] [cursor=pointer]:
+                  - /url: https://ecosystem.hubspot.com/marketplace/website/garado-theme-by-steelthemes
+              - paragraph:
+                - img "furniture website design Garado theme"
+              - paragraph [ref=e230]:
+                - link "Garado" [ref=e231] [cursor=pointer]:
+                  - /url: https://ecosystem.hubspot.com/marketplace/website/garado-theme-by-steelthemes
+                - text: is actually a free theme (a premade website template) made specifically for furniture ecommerce websites. On top of that, it integrates with leading CRM HubSpot so you can easily build relationships with and market to customers.
+              - heading "What I like:" [level=4] [ref=e232]
+              - paragraph [ref=e233]: With ample white space, prominent call-to-action buttons, and detailed product pages, Garado is an ideal choice for furniture websites.
+              - paragraph [ref=e234]:
+                - strong [ref=e235]: "Pro tip:"
+                - text: If you’re not a web designer or developer, you can build a furniture website without knowing how to code, thanks to
+                - link "website builders and themes" [ref=e236] [cursor=pointer]:
+                  - /url: https://www.hubspot.com/products/cms/website-themes-templates?hubs_content=blog.hubspot.com/website/furniture-web-design&hubs_content-cta=website-builders-and-themes&hubs_post=blog.hubspot.com/website/furniture-web-design&hubs_post-cta=website-builders-and-themes
+                - text: . These offer premade templates that you can customize with a few clicks in a drag-and-drop editor.
+              - heading "6. At The Helm" [level=3] [ref=e237]:
+                - strong [ref=e238]: "6."
+                - strong [ref=e239]:
+                  - link "At The Helm" [ref=e240] [cursor=pointer]:
+                    - /url: https://www.atthehelm.com/
+              - paragraph:
+                - img "at the helm best websites for furniture"
+              - paragraph [ref=e241]: Immerse yourself in the world of Victorian London and its opulence with At The Helm's interactive galleries and captivating hero images.
+              - heading "What I like:" [level=4] [ref=e242]
+              - paragraph [ref=e243]:
+                - text: You can visit At The Helm’s showroom from your laptop. To do so, the developers incorporated
+                - link "a 360° online tour" [ref=e244] [cursor=pointer]:
+                  - /url: https://tradephoto.eu/show/2024/JFS/AtTheHelm/
+                - text: .
+              - paragraph [ref=e245]: Through this, I was able to “walk” the showroom floor and even click on image icons to get a slideshow of the pieces. My only regret was not being able to sit on their plush sofas!
+              - heading "7. The Furniture Gallery" [level=3] [ref=e246]:
+                - strong [ref=e247]: "7."
+                - strong [ref=e248]:
+                  - link "The Furniture Gallery" [ref=e249] [cursor=pointer]:
+                    - /url: https://thefurnituregallery.com.au/
+              - paragraph:
+                - img "the furniture gallery best websites for furniture"
+              - paragraph [ref=e250]: Beautifully designed photography takes center stage on The Furniture Gallery website — from a terrific full-width hero image to neatly organized product listings. To strengthen imagery perception, the website comes in white and light beige colors and has a breathy grid layout.
+              - heading "What I like:" [level=4] [ref=e251]
+              - paragraph [ref=e252]: "The Furniture Gallery’s product pages are masterfully designed for conversions. Three different elements address potential buyer objections:"
+              - list [ref=e253]:
+                - listitem [ref=e254]: Payment plans for buyers who are price-conscious
+                - listitem [ref=e255]: “Ask a question” button for buyers who need more information before making a decision
+                - listitem [ref=e256]: “Get delivery estimate” for buyers concerned about when the item will arrive
+              - paragraph:
+                - img "The Furniture Gallery’s product page showing an armchair and payment options"
+              - heading "8. James Richardson Furniture" [level=3] [ref=e257]:
+                - strong [ref=e258]: "8."
+                - strong [ref=e259]:
+                  - link "James Richardson Furniture" [ref=e260] [cursor=pointer]:
+                    - /url: https://jrf.com.au/
+              - paragraph:
+                - img "james richardson best websites for furniture"
+              - paragraph [ref=e261]: The James Richardson Furniture website focuses on images and touches lightly on copy. This approach ensures that visitors are mainly focused on the beauty of the furniture items.
+              - heading "What I like:" [level=4] [ref=e262]
+              - paragraph [ref=e263]: Browse a couple of product pages to see an unusual method to showcase a product from different angles. You'll see a gallery on the right of a product page, while the center is devoted to a product description and an order form. When you click on any image, it takes the center of the screen.
+              - heading "9. Skyline Furniture" [level=3] [ref=e264]:
+                - strong [ref=e265]: "9."
+                - strong [ref=e266]:
+                  - link "Skyline Furniture" [ref=e267] [cursor=pointer]:
+                    - /url: https://skylinefurnituremfg.com/
+              - paragraph:
+                - img "skyline furniture best websites for furniture"
+              - paragraph [ref=e268]: This website highlights its craftsmanship right from the start. I was greeted by a full-screen hero video showing a closeup of a hand cutting fabric, which transitioned to the fabric being run through a sewing machine. This immersed me immediately into the behind-the-scenes of Skyline Furniture’s crafting process.
+              - heading "What I like:" [level=4] [ref=e269]
+              - paragraph [ref=e270]: One scroll brought me to the “Our Story” section right on the homepage. This humanized the brand and helped me feel a stronger connection to it.
+              - paragraph:
+                - img "Skyline Furniture’s “Our Story” section introduces the founders"
+              - heading "10. Jardan" [level=3] [ref=e271]:
+                - strong [ref=e272]: "10."
+                - strong [ref=e273]:
+                  - link "Jardan" [ref=e274] [cursor=pointer]:
+                    - /url: https://www.jardan.com.au/
+              - paragraph:
+                - img "jardan best websites for furniture"
+              - paragraph [ref=e275]: Jardan is a minimalist and sophisticated website at the same time. It uses black lines to separate screens and highlight buttons. It also celebrates space, so customers are not getting distracted from products.
+              - heading "What I like:" [level=4] [ref=e276]
+              - paragraph [ref=e277]: I enjoyed the tasteful mix of static images and a video on the homepage. Anytime you can add some motion to a website, it gives the viewer an intriguing break from the norm.
+              - heading "11. USM" [level=3] [ref=e278]:
+                - strong [ref=e279]: "11."
+                - strong [ref=e280]:
+                  - link "USM" [ref=e281] [cursor=pointer]:
+                    - /url: https://us.usm.com/
+              - paragraph:
+                - img "USM websites for furniture"
+              - paragraph [ref=e282]: Besides a wonderful home page with stunning photography, USM tops all furniture design websites by providing a 3D experience.
+              - heading "What I like:" [level=4] [ref=e283]
+              - paragraph [ref=e284]:
+                - text: The
+                - link "USM configurator" [ref=e285] [cursor=pointer]:
+                  - /url: https://partnershop.spine.usm.com/configurator/0c46251b-babf-4348-8387-2e944418449e/
+                - text: uses augmented reality so you can build your own furniture in any form, size, and color in real time.
+              - paragraph:
+                - img "The USM configurator showing the dimensions of a piece of furniture"
+              - paragraph [ref=e286]: You can also add plants and accessories. Moreover, this feature automatically calculates the final price of the item. Then, click that orange button in the top right corner and try on the furniture in your room!
+              - paragraph [ref=e287]:
+                - strong [ref=e288]: Pro tip
+                - text: ": Want to create an unparalleled customer experience? Augmented reality might be your option."
+              - heading "12. Maglin Site Furniture" [level=3] [ref=e289]:
+                - strong [ref=e290]: "12."
+                - strong [ref=e291]:
+                  - link "Maglin Site Furniture" [ref=e292] [cursor=pointer]:
+                    - /url: https://www.maglin.com/
+              - paragraph:
+                - img "maglin site furniture best websites for furniture"
+              - paragraph [ref=e293]: Maglin Site Furniture favors clean, sleek, and modern design with a focus on conversions. For the latter, you can see numerous CTAs spread across the home page and smart copywriting.
+              - heading "What I like:" [level=4] [ref=e294]
+              - paragraph [ref=e295]:
+                - text: This example stands out among furniture design websites because of its
+                - link "Maglin Product Builder" [ref=e296] [cursor=pointer]:
+                  - /url: https://www.maglin.com/resources/maglin-product-builder/
+                - text: . The interactive platform allows you to select, build, visualize, and confirm your selected components.
+              - heading "13. Roweam" [level=3] [ref=e297]:
+                - strong [ref=e298]: "13."
+                - strong [ref=e299]:
+                  - link "Roweam" [ref=e300] [cursor=pointer]:
+                    - /url: https://roweam.com/
+              - paragraph:
+                - img "Roweam’s furniture website design with a full-screen hero image of a decorated interior in earthy colors"
+              - paragraph [ref=e301]: Roweam makes a bold choice with its full-screen hero image and no call to action. However, this allows the visitor to feel immersed in the vintage charm of its pieces.
+              - heading "What I like:" [level=4] [ref=e302]
+              - paragraph [ref=e303]: Part of the challenge of furniture ecommerce is shipping. Furniture products tend to be large and heavy, making shipping costly. You want to reduce returns as much as possible.
+              - paragraph [ref=e304]: Roweam seems to achieve this by requiring shoppers to check a box that says “I agree to the New Vintage terms and conditions” before they can add the product to their cart.
+              - paragraph:
+                - img "Roweam’s dining table product page with a radio button showing agreement to terms and conditions"
+              - paragraph [ref=e305]: When the user clicks the radio button, they get a popup that explains that the item cannot be returned or exchanged. This helps to manage consumer expectations.
+              - paragraph:
+                - img "Roweam’s terms and conditions in a popup"
+              - heading "14. Megafurniture" [level=3] [ref=e306]:
+                - strong [ref=e307]: "14."
+                - strong [ref=e308]:
+                  - link "Megafurniture" [ref=e309] [cursor=pointer]:
+                    - /url: https://megafurniture.sg/
+              - paragraph:
+                - img "megafurniture best websites for furniture"
+              - paragraph [ref=e310]: Megafurniture’s website design is created to sell in large quantities. Large hero images shout about discounts, seasonal sales, and sweet deals. Below the fold, you’ll see product categories in a grid layout and big-size product photography.
+              - generic [ref=e315]:
+                - heading "Free Website Design Inspiration Guide" [level=3] [ref=e316]
+                - paragraph [ref=e317]: 77 Brilliant Examples of Homepages, Blogs & Landing Pages to Inspire You
+                - list [ref=e318]:
+                  - listitem [ref=e319]: Agency Pages
+                  - listitem [ref=e321]: Ecommerce Pages
+                  - listitem [ref=e323]: Tech Company Pages
+                  - listitem [ref=e325]: And More!
+                - generic [ref=e327]:
+                  - button "Get Your Free Templates" [ref=e328] [cursor=pointer]
+                  - link "Learn more Link opens in a new window" [ref=e329] [cursor=pointer]:
+                    - /url: https://offers.hubspot.com/website-design-homepage-examples?hubs_signup-url=blog.hubspot.com/website/furniture-web-design&hubs_signup-cta=-learn-more-text&hubs_post=blog.hubspot.com/website/furniture-web-design&hubs_post-cta=
+                    - text: Learn more
+                    - img "Link opens in a new window" [ref=e330]
+              - heading "What I like:" [level=4] [ref=e333]
+              - paragraph [ref=e334]: Closer to the footer, you’ll see customer reviews. This adds an extra layer of user engagement and elevates the brand’s credibility.
+              - paragraph:
+                - img "Megafurniture’s customer reviews section"
+              - heading "15. HipVan" [level=3] [ref=e335]:
+                - strong [ref=e336]: "15."
+                - strong [ref=e337]:
+                  - link "HipVan" [ref=e338] [cursor=pointer]:
+                    - /url: https://www.hipvan.com/
+              - paragraph:
+                - img "hipvan websites for furniture"
+              - paragraph [ref=e339]: HipVan is another example of a great, fun furniture website. It comes in a white color scheme with turquoise accents.
+              - paragraph [ref=e340]: What’s cool is how HipVan harnesses the power of user-generated content. You can find comments and customer reviews with photos under each.
+              - paragraph:
+                - img "HipVan’s section showing customer photos of products with reviews"
+              - heading "What I like:" [level=4] [ref=e341]
+              - paragraph [ref=e342]: HipVan has a 3D size measurer, where you can drag and drop any furniture items and compare them against each other and a human. All dimensions and human height are adjustable.
+              - paragraph:
+                - img "HipVan’s 3D measurer with a bed in a room"
+              - paragraph [ref=e343]:
+                - strong [ref=e344]: "Pro tip:"
+                - text: HipVan uses
+                - link "Tangiblee" [ref=e345] [cursor=pointer]:
+                  - /url: https://www.tangiblee.com/
+                - text: to power its 3D measurer view.
+              - heading "16. abc carpet & home" [level=3] [ref=e346]:
+                - strong [ref=e347]: "16."
+                - strong [ref=e348]:
+                  - link "abc carpet & home" [ref=e349] [cursor=pointer]:
+                    - /url: https://abchome.com/
+              - paragraph:
+                - img "abc carpet & home best websites for furniture"
+              - paragraph [ref=e350]: "The abc carpet & home website has a unique color scheme: reds, purples, and pinks greet the user, drawing them in."
+              - paragraph [ref=e351]: Secondly, the site features photography of thematic furniture arrangements. As you scroll down, you'll become immersed in the beauty of the home design.
+              - heading "What I like:" [level=4] [ref=e352]
+              - paragraph [ref=e353]: abc carpet & home once again breaks from the norm with unique shapes that aren’t just rectangles and circles. I liked these arch-shaped images on the homepage.
+              - paragraph:
+                - img "abc carpet & home “More to Explore” section with arch-shaped images of its products"
+              - heading "17. Furnish Green" [level=3] [ref=e354]:
+                - strong [ref=e355]: "17."
+                - strong [ref=e356]:
+                  - link "Furnish Green" [ref=e357] [cursor=pointer]:
+                    - /url: https://furnishgreen.com/
+              - paragraph:
+                - img "furnish green best websites for furniture"
+              - paragraph [ref=e358]: Retro and fun, Furnish Green stays true to its name with a green color palette.
+              - heading "What I like:" [level=4] [ref=e359]
+              - paragraph [ref=e360]: Staying true to the vintage feel, the Furnish Green team has quirky profile photos that help humanize the brand.
+              - paragraph:
+                - img "Furnish Green’s employee photos in a grid layout"
+              - heading "18. West Elm" [level=3] [ref=e361]:
+                - strong [ref=e362]: "18."
+                - strong [ref=e363]:
+                  - link "West Elm" [ref=e364] [cursor=pointer]:
+                    - /url: https://www.westelm.com/
+              - paragraph:
+                - img "west elm best websites for furniture"
+              - paragraph [ref=e365]: Among furniture design websites, West Elm’s home page is one of the most fantastic out there. The layout consists of gorgeous photos of furniture arrangements and fantastically decorated rooms. It’s hard to resist this beauty and leave empty-handed.
+              - heading "What I love:" [level=4] [ref=e366]
+              - paragraph [ref=e367]: West Elm’s website guarantees an unsurpassed user experience. It’s easy to navigate and has the most descriptive product pages with a built-in product builder, where you can apply different colors, dimensions, and textures to your furniture.
+              - paragraph:
+                - img "West Elm’s product page showing fabric and color selection and leg style choices"
+              - heading "19. Wayfair" [level=3] [ref=e368]:
+                - strong [ref=e369]: "19."
+                - strong [ref=e370]:
+                  - link "Wayfair" [ref=e371] [cursor=pointer]:
+                    - /url: https://www.wayfair.com/
+              - paragraph:
+                - img "wayfair best websites for furniture"
+              - paragraph [ref=e372]: Looking for fresh ideas to drive more sales? Then, how do you like Wayfair’s home page? The first screen highlights its Black Friday deals. Discounts are popping out everywhere!
+              - paragraph [ref=e373]: "What I like:"
+              - paragraph [ref=e374]: In contrast to a colorful and animated first screen, the rest of the site has a minimal and clean design with a white background. It’s a nice way to balance out the boldness of the homepage.
+              - heading "20. Grandin Road" [level=3] [ref=e375]:
+                - strong [ref=e376]: "20."
+                - strong [ref=e377]:
+                  - link "Grandin Road" [ref=e378] [cursor=pointer]:
+                    - /url: https://www.grandinroad.com/
+              - paragraph:
+                - img "grandin road best websites for furniture"
+              - paragraph [ref=e379]: Grandin Road’s website is an ideal reference for small and medium furniture businesses looking for a simple but glorious design. It combines airy white blocks with picturesque product images to highlight products and leave an elegant flair.
+              - heading "What I like:" [level=4] [ref=e380]
+              - paragraph [ref=e381]: Having the search bar centered at the top of the website really helps the user experience. Anyone who knows exactly what they want doesn’t have to dig around. They can simply pop their terms in the search bar and be on their way.
+              - heading "21. Pottery Barn" [level=3] [ref=e382]:
+                - strong [ref=e383]: "21."
+                - strong [ref=e384]:
+                  - link "Pottery Barn" [ref=e385] [cursor=pointer]:
+                    - /url: https://www.potterybarn.com/
+              - paragraph:
+                - img "pottery barn best websites for furniture"
+              - paragraph [ref=e386]: Pottery Barn's website design is a perfect blend of simplicity and elegance. The entire homepage feels like a big art gallery with only images.
+              - paragraph [ref=e387]: In turn, the product pages are well-organized, with high-quality images that show off every detail of the item. The descriptions are informative and provide all the necessary information about the product, from dimensions to materials used.
+              - heading "What I like:" [level=4] [ref=e388]
+              - paragraph [ref=e389]: "I enjoyed the #MyPotteryBarn section on its product pages. It shows how real-life customers are styling that product."
+              - paragraph:
+                - 'img "The #MyPotteryBarn section shows square images of products in customers’ homes"'
+              - paragraph [ref=e390]:
+                - strong [ref=e391]: "Pro tip:"
+                - text: If you use lots of images on your furniture website, make sure you
+                - link "optimize your images" [ref=e392] [cursor=pointer]:
+                  - /url: https://blog.hubspot.com/website/how-to-optimize-images-for-page-speed?hubs_content=blog.hubspot.com/website/furniture-web-design&hubs_content-cta=optimize-your-images
+                - text: so your site loads quickly.
+              - heading "22. Feather Furniture" [level=3] [ref=e393]:
+                - strong [ref=e394]: "22."
+                - strong [ref=e395]:
+                  - link "Feather Furniture" [ref=e396] [cursor=pointer]:
+                    - /url: https://livefeather.com/
+              - paragraph:
+                - img "feather furniture best websites for furniture"
+              - paragraph [ref=e397]: Stylish and modern, this website design combines contemporary with bright, dynamic colors. It has an identity and is a great example for furniture companies that drive sales through the owners’ personal brands.
+              - paragraph [ref=e398]: Regarding user experience, Feather is good at generating product recommendations to complete the look.
+              - heading "What I like:" [level=4] [ref=e399]
+              - paragraph [ref=e400]: Feather inserts super-quality product photos in high resolution, so you can get a feel for the furniture even if you can’t actually touch it.
+              - heading "23. Parkman Woodworks" [level=3] [ref=e401]:
+                - strong [ref=e402]: "23."
+                - strong [ref=e403]:
+                  - link "Parkman Woodworks" [ref=e404] [cursor=pointer]:
+                    - /url: https://www.parkmanwoodworks.com/
+              - paragraph:
+                - img "parkman woodworks websites for furniture"
+              - paragraph [ref=e405]: Are you planning to open your own custom furniture shop? Get inspiration from Parkman Woodworks! The site is simple and puts product images in the spotlight. Every screen is an acquaintance with Parkman’s ideology and furniture makers.
+              - heading "What I like:" [level=4] [ref=e406]
+              - paragraph [ref=e407]: I’m a huge fan of Parkman Woodworks’ unique typography. The fonts used on the website have a handwritten feel, which complements its handcrafted products.
+              - paragraph:
+                - img "Parkman Woodworks’ typography, including fonts that look almost like handwriting"
+              - heading "24. Croft House" [level=3] [ref=e408]:
+                - strong [ref=e409]: "24."
+                - strong [ref=e410]:
+                  - link "Croft House" [ref=e411] [cursor=pointer]:
+                    - /url: https://www.crofthouse.com/
+              - paragraph:
+                - img "croft house best websites for furniture"
+              - paragraph [ref=e412]: Elegance, aesthetic, and space are a winning combination for creating a modern furniture website design for a small- to medium-sized company. What stands out is that Croft House creates an entire gallery for each product to entice customers and drive sales.
+              - heading "What I like:" [level=4] [ref=e413]
+              - paragraph [ref=e414]: With such a huge focus on imagery, there’s no need for super-innovative technologies. Croft House keeps it clean and simple, which is part of its allure.
+              - heading "25. Angel City Woodshop" [level=3] [ref=e415]:
+                - strong [ref=e416]: "25."
+                - strong [ref=e417]:
+                  - link "Angel City Woodshop" [ref=e418] [cursor=pointer]:
+                    - /url: http://web.archive.org/web/20240520023718/https://www.angelcitywoodshop.com/
+              - paragraph:
+                - img "angel city woodshop best websites for furniture"
+              - paragraph [ref=e419]: Angel City Woodshop was a great example of a custom luxury furniture website that celebrates craftsmanship and attention to detail. The bold hero image and parallax scrolling made a splash.
+              - heading "What I like:" [level=4] [ref=e420]
+              - paragraph [ref=e421]: The “Meet Our Owner” section on the homepage was a nice touch to give the brand more depth and meaning.
+              - paragraph:
+                - img "Angel City Woodshop’s “Meet Our Owner” section"
+              - heading "26. CBD Glass" [level=3] [ref=e422]:
+                - strong [ref=e423]: "26."
+                - strong [ref=e424]:
+                  - link "CBD Glass" [ref=e425] [cursor=pointer]:
+                    - /url: https://www.cbdglass.com/
+              - paragraph:
+                - img "cbd glass furniture best websites for furniture"
+              - paragraph [ref=e426]: Meet CBD Glass for more inspiration for custom luxury furniture websites. Like Angel City Woodshop, this site uses a dark color palette of black, dark wood, and gold colors. It also has a tiny bit of animation to add intrigue.
+              - heading "What I like:" [level=4] [ref=e427]
+              - paragraph [ref=e428]: The hero image is a full-width slider of CBD Glass’s projects. Below, you’ll find several blocks that describe the company’s specialization and a handful of customer reviews.
+              - heading "27. Glassisimo" [level=3] [ref=e429]:
+                - strong [ref=e430]: "27."
+                - strong [ref=e431]:
+                  - link "Glassisimo" [ref=e432] [cursor=pointer]:
+                    - /url: https://glassisimo.com/
+              - paragraph:
+                - img "glassisimo best websites for furniture"
+              - paragraph [ref=e433]: This is the last example of a luxury, custom furniture website design. Glassisimo is glamorous and uses whitespace wisely, making its unique piece front and center.
+              - heading "What I like:" [level=4] [ref=e434]
+              - paragraph [ref=e435]:
+                - text: Glassisimo has a
+                - link "3D Visualizer" [ref=e436] [cursor=pointer]:
+                  - /url: https://glassisimo.com/product/nico-4-door/%23addPlayer
+                - text: that lets you build a piece by selecting the model, base finish, and more.
+              - paragraph:
+                - img "Glassisimo 3D visualizer showing base type and base finish of a furniture product"
+              - heading "28. Gothic Cabinet Craft" [level=3] [ref=e437]:
+                - strong [ref=e438]: "28."
+                - strong [ref=e439]:
+                  - link "Gothic Cabinet Craft" [ref=e440] [cursor=pointer]:
+                    - /url: https://www.gothiccabinetcraft.com/
+              - paragraph:
+                - img "gothic cabinet craft best websites for furniture"
+              - paragraph [ref=e441]: Gothic Cabinet Craft is a simple and elegant website in white and beige colors. It uses a grid layout and offers carefully curated product collections.
+              - heading "What I like:" [level=4] [ref=e442]
+              - paragraph [ref=e443]: By using a grid layout above the fold, Gothic Cabinet Craft gives visitors multiple options in one glance.
+              - heading "29. New York Heartwoods" [level=3] [ref=e444]:
+                - strong [ref=e445]: "29."
+                - strong [ref=e446]:
+                  - link "New York Heartwoods" [ref=e447] [cursor=pointer]:
+                    - /url: https://www.newyorkheartwoods.com/
+              - paragraph:
+                - img "new york heartwoods best websites for furniture"
+              - paragraph [ref=e448]: The website design for New York Heartwoods is simple yet elegant, focusing on sustainable wood products. The imagery and ivory background create a welcoming atmosphere that complements the company's mission to promote sustainable forestry.
+              - heading "What I like:" [level=4] [ref=e449]
+              - paragraph [ref=e450]: Many of the product pages tell a unique story about each product and showcase them in the context of home decor. This helps customers to “see and feel” products as if they were already delivered and assembled in their homes.
+              - heading "30. Classic Sofa" [level=3] [ref=e451]:
+                - strong [ref=e452]: "30."
+                - strong [ref=e453]:
+                  - link "Classic Sofa" [ref=e454] [cursor=pointer]:
+                    - /url: https://classicsofa.com/
+              - paragraph:
+                - img "classic sofa best websites for furniture"
+              - paragraph [ref=e455]: While the hero image looks good, what really captures your attention is the full-width email newsletter banner. What a great way to capture leads right away!
+              - heading "What I like:" [level=4] [ref=e456]
+              - paragraph [ref=e457]: Overall, the site is user-friendly, cozy, and welcoming, thanks to minimalist design, white space, pastel colors, and beautiful imagery.
+              - generic [ref=e462]:
+                - heading "Free Website Design Inspiration Guide" [level=3] [ref=e463]
+                - paragraph [ref=e464]: 77 Brilliant Examples of Homepages, Blogs & Landing Pages to Inspire You
+                - list [ref=e465]:
+                  - listitem [ref=e466]: Agency Pages
+                  - listitem [ref=e468]: Ecommerce Pages
+                  - listitem [ref=e470]: Tech Company Pages
+                  - listitem [ref=e472]: And More!
+                - generic [ref=e474]:
+                  - button "Get Your Free Templates" [ref=e475] [cursor=pointer]
+                  - link "Learn more Link opens in a new window" [ref=e476] [cursor=pointer]:
+                    - /url: https://offers.hubspot.com/website-design-homepage-examples?hubs_signup-url=blog.hubspot.com/website/furniture-web-design&hubs_signup-cta=-learn-more-text&hubs_post=blog.hubspot.com/website/furniture-web-design&hubs_post-cta=
+                    - text: Learn more
+                    - img "Link opens in a new window" [ref=e477]
+              - heading "How to Design a Furniture Website" [level=2] [ref=e480]:
+                - strong [ref=e481]: How to Design a Furniture Website
+              - paragraph [ref=e482]: I've gathered some essential steps to help you create a visually stunning and user-friendly website.
+              - heading "1. Know your target audience." [level=3] [ref=e483]:
+                - strong [ref=e484]: 1. Know your target audience.
+              - paragraph [ref=e485]: Before you begin designing your furniture website, you need to know who your target audience is. Why? It will help you to choose a color scheme that evokes particular emotions in your prospective customers.
+              - paragraph [ref=e486]: For instance, clients who favor exclusive, expensive furniture will likely appeal to a website in the earth, grey, or dark hues like CBD Glass. In contrast, Wayfair attracts people looking for nice furniture on sale.
+              - paragraph [ref=e487]: Consider your target audience's lifestyle, interests, and behaviors to create buyer personas and customize your website design to meet their needs.
+              - paragraph [ref=e488]:
+                - strong [ref=e489]: "Pro tip:"
+                - text: Don’t skip the
+                - link "discovery phase" [ref=e490] [cursor=pointer]:
+                  - /url: https://blog.hubspot.com/website/double-diamond-design-process?hubs_content=blog.hubspot.com/website/furniture-web-design&hubs_content-cta=discovery-phase
+                - text: "! This is the kickoff of every web design project, where you dive deep to understand the problem and the solution you envision. It helps to incorporate user research."
+              - paragraph [ref=e491]:
+                - text: “Website user research takes the people that visit your website and places them in the very center of the design process,”
+                - link "writes Abdul Suleiman" [ref=e492] [cursor=pointer]:
+                  - /url: https://ux4sight.com/blog/why-user-research-is-essential-for-your-website-design-process
+                - text: ", Chief Experience Officer of UX/UI agency UX 4Sight."
+              - heading "2. Create an engaging visual experience." [level=3] [ref=e493]:
+                - strong [ref=e494]: 2. Create an engaging visual experience.
+              - paragraph [ref=e495]: Furniture is all about aesthetics, so creating an engaging visual experience for your website visitors is essential.
+              - paragraph [ref=e496]: Choose a color palette that reflects your brand and products, and make sure your website's typography is easy to read. Balance your website design by using negative space and intuitively organizing your content.
+              - paragraph [ref=e497]: For instance, the furniture brand Croft House showcases the beauty of its products with stunning, detailed photography.
+              - paragraph:
+                - img "Croft House uses detailed images for furniture website design"
+              - paragraph [ref=e498]:
+                - emphasis [ref=e499]:
+                  - link "Source" [ref=e500] [cursor=pointer]:
+                    - /url: https://www.crofthouse.com/
+              - paragraph [ref=e501]:
+                - strong [ref=e502]: "Pro tip:"
+                - text: Looking to DIY your furniture photography? It’s best to hire a professional photographer to snap photos of your furniture, but if you’re on a budget, here’s a tip from Brandon Sweet, a professional photographer and furniture maker.
+              - paragraph [ref=e503]:
+                - text: “While it may be tempting to accumulate a range of photography equipment, such as cameras, lenses, and lighting gear, I’ve discovered that the most significant progress is often achieved by starting with just one camera and one lens,” writes Sweet for
+                - link "Fine Woodworking" [ref=e504] [cursor=pointer]:
+                  - /url: https://www.finewoodworking.com/2024/07/29/furniture-photography-my-approach
+                - text: .
+              - paragraph [ref=e505]: Yes, even an iPhone can capture decent photos, though Sweet opts for a camera that lets him adjust the aperture.
+              - heading "3. Lift your sales with 3D commerce." [level=3] [ref=e506]:
+                - strong [ref=e507]: 3. Lift your sales with 3D commerce.
+              - paragraph [ref=e508]: With 3D commerce, customers can rotate and zoom in on products, view them from different angles, and even see how they would look in their own space through augmented reality (AR) features. This enables customers to make more informed decisions about their purchases.
+              - paragraph [ref=e509]:
+                - text: USM and Maglin Site Furniture utilize 3D technology on their websites to drive more sales. Likewise, luxury furniture company Mitchell Gold + Bob Williams incorporated 3D commerce and saw a whopping
+                - link "60% growth in sales" [ref=e510] [cursor=pointer]:
+                  - /url: https://www.cylindo.com/customer-case-studies/mitchell-gold-bob-williams/
+                - text: .
+              - paragraph [ref=e511]:
+                - strong [ref=e512]: "Pro tip:"
+                - text: Do a test run with your bestsellers first.
+              - paragraph [ref=e513]:
+                - text: “If you’re in fashion, beauty, or home decor, you’re already well-positioned to integrate AR and VR,”
+                - link "writes Dimitar Dimitrov" [ref=e514] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/pulse/augmented-virtual-reality-shopping-dimitar-dimitrov-qi6zf
+                - text: ", a digital transformation consultant. “Start with your core products and see how you can enhance your customers’ shopping experience. Tools like virtual try-ons for fashion or makeup and 3D furniture visualization are great starting points.”"
+              - heading "4. Utilize color swatches." [level=3] [ref=e515]:
+                - strong [ref=e516]: 4. Utilize color swatches.
+              - paragraph [ref=e517]: Furniture pieces come in various colors and finishes, so customers need to see what each option looks like before making a purchase. Color swatches allow customers to easily visualize how different colors would look on the product they are interested in.
+              - paragraph [ref=e518]: This feature also saves time for both the customer and the retailer as it reduces the need for physical samples or back-and-forth communication about color choices.
+              - paragraph [ref=e519]: Pictures change according to the chosen color. Take this one step further by giving customers a dynamic representation of each color option.
+              - paragraph [ref=e520]:
+                - strong [ref=e521]: "Pro tip:"
+                - text: Make color swatches viewable in a horizontal, scrollable list. Research by
+                - link "Baymard" [ref=e522] [cursor=pointer]:
+                  - /url: https://baymard.com/blog/mobile-interactive-color-swatches
+                - text: found that 57% of sites don't show all the color swatches, leaving shoppers guessing at what they might look like on the product.
+              - paragraph [ref=e523]: Moreover, the company found that, for the best user experience on a mobile device, brands should display all of the color swatches in a horizontal list that users can scroll through.
+              - paragraph [ref=e524]:
+                - text: Check out
+                - link "Skyline Furniture’s site" [ref=e525] [cursor=pointer]:
+                  - /url: https://skylinefurnituremfg.com/
+                - text: again and see how they incorporated animated changes in furniture color and texture triggered by clicking on color swatches.
+              - paragraph:
+                - 'img "best practices for furniture website design color swatches: Skyline Furniture’s product page example"'
+              - paragraph [ref=e526]:
+                - emphasis [ref=e527]:
+                  - link "Source" [ref=e528] [cursor=pointer]:
+                    - /url: https://skylinefurnituremfg.com/
+              - heading "5. Add configuration numbers to the product configurator." [level=3] [ref=e529]:
+                - strong [ref=e530]: 5. Add configuration numbers to the product configurator.
+              - paragraph [ref=e531]: Can customers customize a sofa on your website, like changing textures, size, color, and type of wood? If the answer is yes, then explain to your users what they should click on first, second, etc.
+              - paragraph [ref=e532]: It’s hard to believe, but a simple change like adding configuration numbers (steps) can increase time on the page and orders of custom furniture.
+              - heading "Case Study" [level=4] [ref=e533]
+              - paragraph [ref=e534]:
+                - text: The Good, a conversion optimization agency, helped furniture company Knoll
+                - link "increase conversion rates up to 500%" [ref=e535] [cursor=pointer]:
+                  - /url: https://thegood.com/results/knoll/
+                - text: "by:"
+              - list [ref=e536]:
+                - listitem [ref=e537]: Improving the checkout page design
+                - listitem [ref=e538]: Simplifying the navigation menu
+                - listitem [ref=e539]: Adding numbers to the steps on their configurator
+              - paragraph:
+                - img "Knoll’s product page shows a red couch with multiple upholstery color options and the number 1 before “Size” and number 2 before “Upholstery”"
+              - paragraph [ref=e540]:
+                - emphasis [ref=e541]:
+                  - link "Source" [ref=e542] [cursor=pointer]:
+                    - /url: https://www.knoll.com/shop/en_us/living-sofas-sectionals/florence-knoll-sofa/100464743.html
+              - paragraph [ref=e543]: As a result, such minor changes at first glance can lead to a striking lift in conversions and sales.
+              - heading "6. Use a website builder." [level=3] [ref=e544]
+              - paragraph:
+                - img "HubSpot’s drag-and-drop website builder page"
+              - paragraph [ref=e545]:
+                - text: Launching a website for your business can be a daunting task. But with the help of
+                - link "website builders like HubSpot" [ref=e546] [cursor=pointer]:
+                  - /url: https://www.hubspot.com/products/cms/drag-and-drop-website-builder?hubs_content=blog.hubspot.com/website/furniture-web-design&hubs_content-cta=website-builders-like-hubspot&hubs_post=blog.hubspot.com/website/furniture-web-design&hubs_post-cta=website-builders-like-hubspot
+                - text: ", you can create one easily with a drag-and-drop builder — no coding required."
+              - paragraph [ref=e547]: The best part? It’s free to try out.
+              - heading "Design your best furniture website." [level=2] [ref=e548]:
+                - strong [ref=e549]: Design your best furniture website.
+              - paragraph [ref=e550]:
+                - text: I hope these 30 best furniture websites inspire you with the latest best practices. Use
+                - link "web design examples" [ref=e551] [cursor=pointer]:
+                  - /url: https://blog.hubspot.com/marketing/best-website-designs-list?hubs_content=blog.hubspot.com/website/furniture-web-design&hubs_content-cta=web-design-examples
+                - text: to get your creative juices flowing as you build your online presence.
+              - paragraph [ref=e552]:
+                - text: Remember, a visually stunning website is only half the battle. It's also important to create a frictionless
+                - link "user experience" [ref=e553] [cursor=pointer]:
+                  - /url: https://blog.hubspot.com/marketing/ux-user-experience?hubs_content=blog.hubspot.com/website/furniture-web-design&hubs_content-cta=user-experience
+                - text: that makes it easy for customers to find what they need and complete transactions.
+              - paragraph [ref=e554]:
+                - text: And thanks to
+                - link "free web design tools" [ref=e555] [cursor=pointer]:
+                  - /url: https://blog.hubspot.com/website/free-web-design-tools?hubs_content=blog.hubspot.com/website/furniture-web-design&hubs_content-cta=free-web-design-tools
+                - text: ", you can build a furniture website with zero developer experience and on any budget."
+              - paragraph [ref=e556]:
+                - emphasis [ref=e557]: "Editor's note: This post was originally published in April 2023 and has been updated for comprehensiveness."
+              - generic [ref=e562]:
+                - heading "Free Website Design Inspiration Guide" [level=3] [ref=e563]
+                - paragraph [ref=e564]: 77 Brilliant Examples of Homepages, Blogs & Landing Pages to Inspire You
+                - list [ref=e565]:
+                  - listitem [ref=e566]: Agency Pages
+                  - listitem [ref=e568]: Ecommerce Pages
+                  - listitem [ref=e570]: Tech Company Pages
+                  - listitem [ref=e572]: And More!
+                - generic [ref=e574]:
+                  - button "Get Your Free Templates" [ref=e575] [cursor=pointer]
+                  - link "Learn more Link opens in a new window" [ref=e576] [cursor=pointer]:
+                    - /url: https://offers.hubspot.com/website-design-homepage-examples?hubs_signup-url=blog.hubspot.com/website/furniture-web-design&hubs_signup-cta=-learn-more-text&hubs_post=blog.hubspot.com/website/furniture-web-design&hubs_post-cta=
+                    - text: Learn more
+                    - img "Link opens in a new window" [ref=e577]
+            - generic [ref=e580]:
+              - generic [ref=e581]: "Topics:"
+              - link "Website Design Examples" [ref=e582] [cursor=pointer]:
+                - /url: https://blog.hubspot.com/website/tag/website-design-examples
+                - paragraph [ref=e583]: Website Design Examples
+        - generic [ref=e586]:
+          - heading "Related Articles" [level=2] [ref=e587]
+          - group [ref=e588]:
+            - generic [ref=e589]:
+              - button "prev" [disabled] [ref=e590]:
+                - img
+                - generic [ref=e591]: prev
+              - button "next" [ref=e592] [cursor=pointer]:
+                - img
+                - generic [ref=e593]: next
+            - list [ref=e595]:
+              - 'group "go to Best website builders for real estate agents: Our favorite picks for 2026" [ref=e596] [cursor=pointer]':
+                - article [ref=e597]:
+                  - 'img "Best website builders for real estate agents: Our favorite picks for 2026" [ref=e599]'
+                  - generic [ref=e600]:
+                    - 'heading "Best website builders for real estate agents: Our favorite picks for 2026" [level=3] [ref=e601]'
+                    - paragraph [ref=e603]: Mar 18, 2026
+              - group "go to 7 AI-generated website examples & how to build your own" [ref=e604] [cursor=pointer]:
+                - article [ref=e605]:
+                  - img "7 AI-generated website examples & how to build your own" [ref=e607]
+                  - generic [ref=e608]:
+                    - heading "7 AI-generated website examples & how to build your own" [level=3] [ref=e609]
+                    - paragraph [ref=e611]: Dec 30, 2025
+              - group "go to 20 best digital marketing agency websites to inspire you" [ref=e612] [cursor=pointer]:
+                - article [ref=e613]:
+                  - img "20 best digital marketing agency websites to inspire you" [ref=e615]
+                  - generic [ref=e616]:
+                    - heading "20 best digital marketing agency websites to inspire you" [level=3] [ref=e617]
+                    - paragraph [ref=e619]: Sep 03, 2025
+              - group [ref=e886] [cursor=pointer]:
+                - article [ref=e621]:
+                  - img [ref=e887]
+                  - generic [ref=e624]:
+                    - heading [level=3] [ref=e888]: 15 black and white website designs to inspire your own [+ pro tips]
+                    - paragraph [ref=e627]: May 21, 2025
+              - group [ref=e889] [cursor=pointer]:
+                - article [ref=e629]:
+                  - img [ref=e890]
+                  - generic [ref=e632]:
+                    - heading [level=3] [ref=e891]: 25+ Web3 Website Examples to Inspire Yours
+                    - paragraph [ref=e635]: Mar 24, 2025
+              - group [ref=e892] [cursor=pointer]:
+                - article [ref=e637]:
+                  - img [ref=e893]
+                  - generic [ref=e640]:
+                    - heading [level=3] [ref=e894]: Gradient Website Design Examples That Prove This Trend Is Far From Over [+Tutorials]
+                    - paragraph [ref=e643]: May 01, 2025
+              - group [ref=e895] [cursor=pointer]:
+                - article [ref=e645]:
+                  - img [ref=e896]
+                  - generic [ref=e648]:
+                    - heading [level=3] [ref=e897]: 15 Brochure Website Examples to Inspire You [+ How to Make One]
+                    - paragraph [ref=e651]: Mar 20, 2025
+              - group [ref=e898] [cursor=pointer]:
+                - article [ref=e653]:
+                  - img [ref=e899]
+                  - generic [ref=e656]:
+                    - heading [level=3] [ref=e900]: 28 Types of Websites to Inspire You [+ Real-Life Examples]
+                    - paragraph [ref=e659]: Feb 27, 2025
+              - group [ref=e901] [cursor=pointer]:
+                - article [ref=e661]:
+                  - img [ref=e902]
+                  - generic [ref=e664]:
+                    - heading [level=3] [ref=e903]: "Sustainable Website Design: 9 Real Examples + Expert Insights"
+                    - paragraph [ref=e667]: Aug 26, 2025
+              - group [ref=e904] [cursor=pointer]:
+                - article [ref=e669]:
+                  - img [ref=e905]
+                  - generic [ref=e672]:
+                    - heading [level=3] [ref=e906]: Website footer design examples that will inspire you
+                    - paragraph [ref=e675]: Oct 22, 2025
+            - list [ref=e678]:
+              - listitem [ref=e679]
+              - listitem [ref=e680]
+              - listitem [ref=e681]
+              - listitem [ref=e682]
+              - listitem [ref=e683]
+              - listitem [ref=e684]
+              - listitem [ref=e685]
+              - listitem
+  - contentinfo [ref=e686]:
+    - navigation [ref=e688]:
+      - generic [ref=e690]:
+        - heading "Popular Features" [level=2] [ref=e691]:
+          - button "Popular Features" [disabled] [expanded]:
+            - generic: Popular Features
+        - list [ref=e692]:
+          - listitem [ref=e693]:
+            - link "All Products and Features" [ref=e694] [cursor=pointer]:
+              - /url: https://www.hubspot.com/products?hubs_content=blog.hubspot.com/website/furniture-web-design&hubs_content-cta=footer&hubs_post=blog.hubspot.com/website/furniture-web-design&hubs_post-cta=footer
+            - generic [ref=e695]: All Products and Features
+          - listitem [ref=e696]:
+            - link "HubSpot AEO" [ref=e697] [cursor=pointer]:
+              - /url: https://www.hubspot.com/products/aeo?hubs_content=blog.hubspot.com/website/furniture-web-design&hubs_content-cta=footer-aeo&hubs_post=blog.hubspot.com/website/furniture-web-design&hubs_post-cta=footer-aeo
+            - generic [ref=e698]: HubSpot AEO
+          - listitem [ref=e699]:
+            - link "Free Meeting Scheduler App" [ref=e700] [cursor=pointer]:
+              - /url: https://www.hubspot.com/products/sales/schedule-meeting?hubs_content=blog.hubspot.com/website/furniture-web-design&hubs_content-cta=free-meeting-scheduler-app&hubs_post=blog.hubspot.com/website/furniture-web-design&hubs_post-cta=free-meeting-scheduler-app
+            - generic [ref=e701]: Free Meeting Scheduler App
+          - listitem [ref=e702]:
+            - link "Breeze AI Tools" [ref=e703] [cursor=pointer]:
+              - /url: https://www.hubspot.com/products/artificial-intelligence?hubs_content=blog.hubspot.com/website/furniture-web-design&hubs_content-cta=footer-features-breeze&hubs_post=blog.hubspot.com/website/furniture-web-design&hubs_post-cta=footer-features-breeze
+            - generic [ref=e704]: Breeze AI Tools
+          - listitem [ref=e705]:
+            - link "Email Tracking Software" [ref=e706] [cursor=pointer]:
+              - /url: https://www.hubspot.com/products/sales/email-tracking?hubs_content=blog.hubspot.com/website/furniture-web-design&hubs_content-cta=email-tracking-software&hubs_post=blog.hubspot.com/website/furniture-web-design&hubs_post-cta=email-tracking-software
+            - generic [ref=e707]: Email Tracking Software
+          - listitem [ref=e708]:
+            - link "AI Content Writer" [ref=e709] [cursor=pointer]:
+              - /url: https://www.hubspot.com/products/cms/ai-content-writer?hubs_content=blog.hubspot.com/website/furniture-web-design&hubs_content-cta=ai-content-writer&hubs_post=blog.hubspot.com/website/furniture-web-design&hubs_post-cta=ai-content-writer
+            - generic [ref=e710]: AI Content Writer
+          - listitem [ref=e711]:
+            - link "AI Website Generator" [ref=e712] [cursor=pointer]:
+              - /url: https://www.hubspot.com/products/cms/ai-website-generator?hubs_content=blog.hubspot.com/website/furniture-web-design&hubs_content-cta=ai-website-generator&hubs_post=blog.hubspot.com/website/furniture-web-design&hubs_post-cta=ai-website-generator
+            - generic [ref=e713]: AI Website Generator
+          - listitem [ref=e714]:
+            - link "Email Marketing Software" [ref=e715] [cursor=pointer]:
+              - /url: https://www.hubspot.com/products/marketing/email?hubs_content=blog.hubspot.com/website/furniture-web-design&hubs_content-cta=email-marketing-software&hubs_post=blog.hubspot.com/website/furniture-web-design&hubs_post-cta=email-marketing-software
+            - generic [ref=e716]: Email Marketing Software
+          - listitem [ref=e717]:
+            - link "Lead Management Software" [ref=e718] [cursor=pointer]:
+              - /url: https://www.hubspot.com/products/crm/lead-management?hubs_content=blog.hubspot.com/website/furniture-web-design&hubs_content-cta=lead-management-software&hubs_post=blog.hubspot.com/website/furniture-web-design&hubs_post-cta=lead-management-software
+            - generic [ref=e719]: Lead Management Software
+          - listitem [ref=e720]:
+            - link "AI Prospecting Agent" [ref=e721] [cursor=pointer]:
+              - /url: https://www.hubspot.com/products/sales/ai-prospecting-agent?hubs_content=blog.hubspot.com/website/furniture-web-design&hubs_content-cta=ai-prospecting-agent&hubs_post=blog.hubspot.com/website/furniture-web-design&hubs_post-cta=ai-prospecting-agent
+            - generic [ref=e722]: AI Prospecting Agent
+          - listitem [ref=e723]:
+            - link "Free Website Builder" [ref=e724] [cursor=pointer]:
+              - /url: https://www.hubspot.com/products/cms/drag-and-drop-website-builder?hubs_content=blog.hubspot.com/website/furniture-web-design&hubs_content-cta=free-website-builder&hubs_post=blog.hubspot.com/website/furniture-web-design&hubs_post-cta=free-website-builder
+            - generic [ref=e725]: Free Website Builder
+          - listitem [ref=e726]:
+            - link "Landing Pages" [ref=e727] [cursor=pointer]:
+              - /url: https://www.hubspot.com/products/marketing/landing-pages?hubs_content=blog.hubspot.com/website/furniture-web-design&hubs_content-cta=landing-pages&hubs_post=blog.hubspot.com/website/furniture-web-design&hubs_post-cta=landing-pages
+            - generic [ref=e728]: Landing Pages
+          - listitem [ref=e729]:
+            - link "Free Online Form Builder" [ref=e730] [cursor=pointer]:
+              - /url: https://www.hubspot.com/products/marketing/forms?hubs_content=blog.hubspot.com/website/furniture-web-design&hubs_content-cta=free-online-form-builder&hubs_post=blog.hubspot.com/website/furniture-web-design&hubs_post-cta=free-online-form-builder
+            - generic [ref=e731]: Free Online Form Builder
+          - listitem [ref=e732]:
+            - link "Free Chatbot Builder" [ref=e733] [cursor=pointer]:
+              - /url: https://www.hubspot.com/products/crm/chatbot-builder?hubs_content=blog.hubspot.com/website/furniture-web-design&hubs_content-cta=free-chatbot-builder&hubs_post=blog.hubspot.com/website/furniture-web-design&hubs_post-cta=free-chatbot-builder
+            - generic [ref=e734]: Free Chatbot Builder
+          - listitem [ref=e735]:
+            - link "Free Live Chat Software" [ref=e736] [cursor=pointer]:
+              - /url: https://www.hubspot.com/products/crm/live-chat?hubs_content=blog.hubspot.com/website/furniture-web-design&hubs_content-cta=free-live-chat-software&hubs_post=blog.hubspot.com/website/furniture-web-design&hubs_post-cta=free-live-chat-software
+            - generic [ref=e737]: Free Live Chat Software
+          - listitem [ref=e738]:
+            - link "Marketing Analytics" [ref=e739] [cursor=pointer]:
+              - /url: https://www.hubspot.com/products/marketing/analytics?hubs_content=blog.hubspot.com/website/furniture-web-design&hubs_content-cta=marketing-analytics&hubs_post=blog.hubspot.com/website/furniture-web-design&hubs_post-cta=marketing-analytics
+            - generic [ref=e740]: Marketing Analytics
+          - listitem [ref=e741]:
+            - link "Free Landing Page Builder" [ref=e742] [cursor=pointer]:
+              - /url: https://www.hubspot.com/products/marketing/landing-pages?hubs_content=blog.hubspot.com/website/furniture-web-design&hubs_content-cta=free-landing-page-builder&hubs_post=blog.hubspot.com/website/furniture-web-design&hubs_post-cta=free-landing-page-builder
+            - generic [ref=e743]: Free Landing Page Builder
+          - listitem [ref=e744]:
+            - link "Free Web Hosting" [ref=e745] [cursor=pointer]:
+              - /url: https://www.hubspot.com/products/cms/web-hosting?hubs_content=blog.hubspot.com/website/furniture-web-design&hubs_content-cta=free-web-hosting&hubs_post=blog.hubspot.com/website/furniture-web-design&hubs_post-cta=free-web-hosting
+            - generic [ref=e746]: Free Web Hosting
+      - generic [ref=e747]:
+        - generic [ref=e749]:
+          - heading "Free Tools" [level=2] [ref=e750]:
+            - button "Free Tools" [disabled] [expanded]:
+              - generic: Free Tools
+          - list [ref=e751]:
+            - listitem [ref=e752]:
+              - link "See All Free Business Tools" [ref=e753] [cursor=pointer]:
+                - /url: https://www.hubspot.com/free-business-tools?hubs_content=blog.hubspot.com/website/furniture-web-design&hubs_content-cta=see-all-free-business-tools&hubs_post=blog.hubspot.com/website/furniture-web-design&hubs_post-cta=see-all-free-business-tools
+              - generic [ref=e754]: See All Free Business Tools
+            - listitem [ref=e755]:
+              - link "AEO Grader" [ref=e756] [cursor=pointer]:
+                - /url: https://www.hubspot.com/aeo-grader?hubs_content=blog.hubspot.com/website/furniture-web-design&hubs_content-cta=aeo-grader&hubs_post=blog.hubspot.com/website/furniture-web-design&hubs_post-cta=aeo-grader
+              - generic [ref=e757]: AEO Grader
+            - listitem [ref=e758]:
+              - link "AEO Sensor" [ref=e759] [cursor=pointer]:
+                - /url: https://www.hubspot.com/aeo-sensor?hubs_content=blog.hubspot.com/website/furniture-web-design&hubs_content-cta=aeo-sensor&hubs_post=blog.hubspot.com/website/furniture-web-design&hubs_post-cta=aeo-sensor
+              - generic [ref=e760]: AEO Sensor
+            - listitem [ref=e761]:
+              - link "Make My Persona" [ref=e762] [cursor=pointer]:
+                - /url: https://www.hubspot.com/make-my-persona?hubs_content=blog.hubspot.com/website/furniture-web-design&hubs_content-cta=make-my-persona&hubs_post=blog.hubspot.com/website/furniture-web-design&hubs_post-cta=make-my-persona
+              - generic [ref=e763]: Make My Persona
+            - listitem [ref=e764]:
+              - link "Email Signature Generator" [ref=e765] [cursor=pointer]:
+                - /url: https://www.hubspot.com/email-signature-generator?hubs_content=blog.hubspot.com/website/furniture-web-design&hubs_content-cta=email-signature-generator&hubs_post=blog.hubspot.com/website/furniture-web-design&hubs_post-cta=email-signature-generator
+              - generic [ref=e766]: Email Signature Generator
+            - listitem [ref=e767]:
+              - link "Free Business Templates" [ref=e768] [cursor=pointer]:
+                - /url: https://www.hubspot.com/resources/templates?hubs_content=blog.hubspot.com/website/furniture-web-design&hubs_content-cta=footer-tools-businesstemplates&hubs_post=blog.hubspot.com/website/furniture-web-design&hubs_post-cta=footer-tools-businesstemplates
+              - generic [ref=e769]: Free Business Templates
+            - listitem [ref=e770]:
+              - link "Software Comparisons Library" [ref=e771] [cursor=pointer]:
+                - /url: https://www.hubspot.com/comparisons?hubs_content=blog.hubspot.com/website/furniture-web-design&hubs_content-cta=software-comparisons-library&hubs_post=blog.hubspot.com/website/furniture-web-design&hubs_post-cta=software-comparisons-library
+              - generic [ref=e772]: Software Comparisons Library
+            - listitem [ref=e773]:
+              - link "Website Templates" [ref=e774] [cursor=pointer]:
+                - /url: https://ecosystem.hubspot.com/marketplace/website?hubs_content=blog.hubspot.com/website/furniture-web-design&hubs_content-cta=website-templates
+              - generic [ref=e775]: Website Templates
+        - generic [ref=e777]:
+          - heading "Company" [level=2] [ref=e778]:
+            - button "Company" [disabled] [expanded]:
+              - generic: Company
+          - list [ref=e779]:
+            - listitem [ref=e780]:
+              - link "About Us" [ref=e781] [cursor=pointer]:
+                - /url: https://www.hubspot.com/our-story?hubs_content=blog.hubspot.com/website/furniture-web-design&hubs_content-cta=about-us&hubs_post=blog.hubspot.com/website/furniture-web-design&hubs_post-cta=about-us
+              - generic [ref=e782]: About Us
+            - listitem [ref=e783]:
+              - link "Careers" [ref=e784] [cursor=pointer]:
+                - /url: https://www.hubspot.com/careers?hubs_content=blog.hubspot.com/website/furniture-web-design&hubs_content-cta=careers&hubs_post=blog.hubspot.com/website/furniture-web-design&hubs_post-cta=careers
+              - generic [ref=e785]: Careers
+            - listitem [ref=e786]:
+              - link "Management Team" [ref=e787] [cursor=pointer]:
+                - /url: https://www.hubspot.com/company/management?hubs_content=blog.hubspot.com/website/furniture-web-design&hubs_content-cta=management-team&hubs_post=blog.hubspot.com/website/furniture-web-design&hubs_post-cta=management-team
+              - generic [ref=e788]: Management Team
+            - listitem [ref=e789]:
+              - link "Board of Directors" [ref=e790] [cursor=pointer]:
+                - /url: https://www.hubspot.com/company/board-of-directors?hubs_content=blog.hubspot.com/website/furniture-web-design&hubs_content-cta=board-of-directors&hubs_post=blog.hubspot.com/website/furniture-web-design&hubs_post-cta=board-of-directors
+              - generic [ref=e791]: Board of Directors
+            - listitem [ref=e792]:
+              - link "Investor Relations" [ref=e793] [cursor=pointer]:
+                - /url: https://ir.hubspot.com/?_ga=2.262843276.12874469.1592422655-430007000.1592422655&hubs_content=blog.hubspot.com/website/furniture-web-design&hubs_content-cta=investor-relations
+              - generic [ref=e794]: Investor Relations
+            - listitem [ref=e795]:
+              - link "Blog" [ref=e796] [cursor=pointer]:
+                - /url: https://blog.hubspot.com/?hubs_content=blog.hubspot.com/website/furniture-web-design&hubs_content-cta=blog
+              - generic [ref=e797]: Blog
+            - listitem [ref=e798]:
+              - link "Sustainability" [ref=e799] [cursor=pointer]:
+                - /url: https://www.hubspot.com/sustainability?hubs_content=blog.hubspot.com/website/furniture-web-design&hubs_content-cta=footer-company-sustainability&hubs_post=blog.hubspot.com/website/furniture-web-design&hubs_post-cta=footer-company-sustainability
+              - generic [ref=e800]: Sustainability
+            - listitem [ref=e801]:
+              - link "Contact Us" [ref=e802] [cursor=pointer]:
+                - /url: https://www.hubspot.com/company/contact?hubs_content=blog.hubspot.com/website/furniture-web-design&hubs_content-cta=contact-us&hubs_post=blog.hubspot.com/website/furniture-web-design&hubs_post-cta=contact-us
+              - generic [ref=e803]: Contact Us
+        - generic [ref=e804]:
+          - generic [ref=e805]:
+            - heading "Customers" [level=2] [ref=e806]:
+              - button "Customers" [disabled] [expanded]:
+                - generic: Customers
+            - list [ref=e807]:
+              - listitem [ref=e808]:
+                - link "Customer Support" [ref=e809] [cursor=pointer]:
+                  - /url: https://help.hubspot.com/?hubs_content=blog.hubspot.com/website/furniture-web-design&hubs_content-cta=customer-support
+                - generic [ref=e810]: Customer Support
+              - listitem [ref=e811]:
+                - link "Join a Local User Group" [ref=e812] [cursor=pointer]:
+                  - /url: https://www.hubspot.com/hubspot-user-groups?hubs_content=blog.hubspot.com/website/furniture-web-design&hubs_content-cta=join-a-local-user-group&hubs_post=blog.hubspot.com/website/furniture-web-design&hubs_post-cta=join-a-local-user-group
+                - generic [ref=e813]: Join a Local User Group
+          - generic [ref=e814]:
+            - heading "Partners" [level=2] [ref=e815]:
+              - button "Partners" [disabled] [expanded]:
+                - generic: Partners
+            - list [ref=e816]:
+              - listitem [ref=e817]:
+                - link "All Partner Programs" [ref=e818] [cursor=pointer]:
+                  - /url: https://www.hubspot.com/partners?hubs_content=blog.hubspot.com/website/furniture-web-design&hubs_content-cta=all-partner-programs&hubs_post=blog.hubspot.com/website/furniture-web-design&hubs_post-cta=all-partner-programs
+                - generic [ref=e819]: All Partner Programs
+              - listitem [ref=e820]:
+                - link "Solutions Partner Program" [ref=e821] [cursor=pointer]:
+                  - /url: https://www.hubspot.com/partners/solutions?hubs_content=blog.hubspot.com/website/furniture-web-design&hubs_content-cta=solutions-partner-program&hubs_post=blog.hubspot.com/website/furniture-web-design&hubs_post-cta=solutions-partner-program
+                - generic [ref=e822]: Solutions Partner Program
+              - listitem [ref=e823]:
+                - link "Technology Partner Program" [ref=e824] [cursor=pointer]:
+                  - /url: https://www.hubspot.com/partners/app?hubs_content=blog.hubspot.com/website/furniture-web-design&hubs_content-cta=technology-partner-program&hubs_post=blog.hubspot.com/website/furniture-web-design&hubs_post-cta=technology-partner-program
+                - generic [ref=e825]: Technology Partner Program
+              - listitem [ref=e826]:
+                - link "HubSpot for Startups" [ref=e827] [cursor=pointer]:
+                  - /url: https://www.hubspot.com/startups/partners?hubs_content=blog.hubspot.com/website/furniture-web-design&hubs_content-cta=hubspot-for-startups&hubs_post=blog.hubspot.com/website/furniture-web-design&hubs_post-cta=hubspot-for-startups
+                - generic [ref=e828]: HubSpot for Startups
+              - listitem [ref=e829]:
+                - link "Affiliate Program" [ref=e830] [cursor=pointer]:
+                  - /url: https://www.hubspot.com/partners/affiliates?hubs_content=blog.hubspot.com/website/furniture-web-design&hubs_content-cta=affiliate-program&hubs_post=blog.hubspot.com/website/furniture-web-design&hubs_post-cta=affiliate-program
+                - generic [ref=e831]: Affiliate Program
+    - list [ref=e833]:
+      - listitem [ref=e834]:
+        - link "Facebook" [ref=e835] [cursor=pointer]:
+          - /url: https://www.facebook.com/hubspot?hubs_content=blog.hubspot.com/website/furniture-web-design&hubs_content-cta=hstc_facebook
+          - img [ref=e836]
+          - generic [ref=e838]: Facebook
+      - listitem [ref=e839]:
+        - link "Instagram" [ref=e840] [cursor=pointer]:
+          - /url: https://www.instagram.com/hubspot/?hubs_content=blog.hubspot.com/website/furniture-web-design&hubs_content-cta=hstc_instagram
+          - img [ref=e841]
+          - generic [ref=e843]: Instagram
+      - listitem [ref=e844]:
+        - link "Youtube" [ref=e845] [cursor=pointer]:
+          - /url: https://youtube.com/user/HubSpot?hubs_content=blog.hubspot.com/website/furniture-web-design&hubs_content-cta=hstc_youtube
+          - img [ref=e846]
+          - generic [ref=e848]: Youtube
+      - listitem [ref=e849]:
+        - link "Twitter" [ref=e850] [cursor=pointer]:
+          - /url: https://x.com/HubSpot?hubs_content=blog.hubspot.com/website/furniture-web-design&hubs_content-cta=hstc_twitter
+          - img [ref=e851]
+          - generic [ref=e853]: Twitter
+      - listitem [ref=e854]:
+        - link "Linkedin" [ref=e855] [cursor=pointer]:
+          - /url: https://www.linkedin.com/company/hubspot?hubs_content=blog.hubspot.com/website/furniture-web-design&hubs_content-cta=hstc_linkedin
+          - img [ref=e856]
+          - generic [ref=e858]: Linkedin
+      - listitem [ref=e859]:
+        - link "Reddit" [ref=e860] [cursor=pointer]:
+          - /url: https://www.reddit.com/r/hubspot?hubs_content=blog.hubspot.com/website/furniture-web-design&hubs_content-cta=hstc_reddit
+          - img [ref=e861]
+          - generic [ref=e863]: Reddit
+      - listitem [ref=e864]:
+        - link "Tiktok" [ref=e865] [cursor=pointer]:
+          - /url: https://www.tiktok.com/@hubspot?hubs_content=blog.hubspot.com/website/furniture-web-design&hubs_content-cta=hstc_medium
+          - img [ref=e866]
+          - generic [ref=e868]: Tiktok
+    - generic [ref=e869]:
+      - generic [ref=e870]:
+        - link "HubSpot" [ref=e871] [cursor=pointer]:
+          - /url: https://www.hubspot.com/?hubs_content=blog.hubspot.com/website/furniture-web-design&hubs_content-cta=HubSpot&hubs_post=blog.hubspot.com/website/furniture-web-design&hubs_post-cta=HubSpot
+          - img "HubSpot" [ref=e872]
+        - paragraph [ref=e873]: Copyright © 2026 HubSpot, Inc.
+      - list [ref=e875]:
+        - listitem [ref=e876]:
+          - link "Legal Center" [ref=e877] [cursor=pointer]:
+            - /url: https://legal.hubspot.com/legal-center?hubs_content=blog.hubspot.com/website/furniture-web-design&hubs_content-cta=legal-center
+          - text: "|"
+        - listitem [ref=e878]:
+          - link "Privacy Policy" [ref=e879] [cursor=pointer]:
+            - /url: https://legal.hubspot.com/privacy-policy?hubs_content=blog.hubspot.com/website/furniture-web-design&hubs_content-cta=privacy-policy
+          - text: "|"
+        - listitem [ref=e880]:
+          - link "Security" [ref=e881] [cursor=pointer]:
+            - /url: https://legal.hubspot.com/security?hubs_content=blog.hubspot.com/website/furniture-web-design&hubs_content-cta=security
+          - text: "|"
+        - listitem [ref=e882]:
+          - link "Website Accessibility" [ref=e883] [cursor=pointer]:
+            - /url: https://legal.hubspot.com/website-accessibility?hubs_content=blog.hubspot.com/website/furniture-web-design&hubs_content-cta=website-accessibility
+          - text: "|"
+        - listitem [ref=e884]:
+          - button "Manage Cookies" [ref=e885] [cursor=pointer]

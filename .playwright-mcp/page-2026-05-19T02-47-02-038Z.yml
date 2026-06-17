@@ -1,0 +1,1818 @@
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - text: "Required age: 21"
+    - img "Buzzballz Logo" [ref=e4]
+    - generic [ref=e5]: Are you 21 or older?
+    - generic [ref=e6]: Please enter your birthday
+    - generic [ref=e7]:
+      - generic [ref=e8]: Day
+      - combobox "Day" [ref=e9]:
+        - option "Day" [disabled] [selected]
+        - option "1"
+        - option "2"
+        - option "3"
+        - option "4"
+        - option "5"
+        - option "6"
+        - option "7"
+        - option "8"
+        - option "9"
+        - option "10"
+        - option "11"
+        - option "12"
+        - option "13"
+        - option "14"
+        - option "15"
+        - option "16"
+        - option "17"
+        - option "18"
+        - option "19"
+        - option "20"
+        - option "21"
+        - option "22"
+        - option "23"
+        - option "24"
+        - option "25"
+        - option "26"
+        - option "27"
+        - option "28"
+        - option "29"
+        - option "30"
+        - option "31"
+      - generic [ref=e10]: Month
+      - combobox "Month" [ref=e11]:
+        - option "Month" [disabled] [selected]
+        - option "January"
+        - option "February"
+        - option "March"
+        - option "April"
+        - option "May"
+        - option "June"
+        - option "July"
+        - option "August"
+        - option "September"
+        - option "October"
+        - option "November"
+        - option "December"
+      - generic [ref=e12]: Year
+      - combobox "Year" [ref=e13]:
+        - option "Year" [disabled] [selected]
+        - option "2026"
+        - option "2025"
+        - option "2024"
+        - option "2023"
+        - option "2022"
+        - option "2021"
+        - option "2020"
+        - option "2019"
+        - option "2018"
+        - option "2017"
+        - option "2016"
+        - option "2015"
+        - option "2014"
+        - option "2013"
+        - option "2012"
+        - option "2011"
+        - option "2010"
+        - option "2009"
+        - option "2008"
+        - option "2007"
+        - option "2006"
+        - option "2005"
+        - option "2004"
+        - option "2003"
+        - option "2002"
+        - option "2001"
+        - option "2000"
+        - option "1999"
+        - option "1998"
+        - option "1997"
+        - option "1996"
+        - option "1995"
+        - option "1994"
+        - option "1993"
+        - option "1992"
+        - option "1991"
+        - option "1990"
+        - option "1989"
+        - option "1988"
+        - option "1987"
+        - option "1986"
+        - option "1985"
+        - option "1984"
+        - option "1983"
+        - option "1982"
+        - option "1981"
+        - option "1980"
+        - option "1979"
+        - option "1978"
+        - option "1977"
+        - option "1976"
+        - option "1975"
+        - option "1974"
+        - option "1973"
+        - option "1972"
+        - option "1971"
+        - option "1970"
+        - option "1969"
+        - option "1968"
+        - option "1967"
+        - option "1966"
+        - option "1965"
+        - option "1964"
+        - option "1963"
+        - option "1962"
+        - option "1961"
+        - option "1960"
+        - option "1959"
+        - option "1958"
+        - option "1957"
+        - option "1956"
+        - option "1955"
+        - option "1954"
+        - option "1953"
+        - option "1952"
+        - option "1951"
+        - option "1950"
+        - option "1949"
+        - option "1948"
+        - option "1947"
+        - option "1946"
+        - option "1945"
+        - option "1944"
+        - option "1943"
+        - option "1942"
+        - option "1941"
+        - option "1940"
+        - option "1939"
+        - option "1938"
+        - option "1937"
+        - option "1936"
+        - option "1935"
+        - option "1934"
+        - option "1933"
+        - option "1932"
+        - option "1931"
+        - option "1930"
+        - option "1929"
+        - option "1928"
+        - option "1927"
+        - option "1926"
+  - link "Skip to Main Content" [ref=e14] [cursor=pointer]:
+    - /url: "#main-content"
+  - banner [ref=e15]:
+    - generic [ref=e17]:
+      - navigation [ref=e19]:
+        - list [ref=e21]:
+          - listitem [ref=e22]:
+            - link "Buzz Club" [ref=e23] [cursor=pointer]:
+              - /url: /buzzclub
+          - listitem [ref=e24]:
+            - link "Shop" [ref=e25] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=e26]:
+            - link "Our Products" [ref=e27] [cursor=pointer]:
+              - /url: /products/
+      - link "Buzzballz Logo" [ref=e30] [cursor=pointer]:
+        - /url: https://www.buzzballz.com/
+        - img "Buzzballz Logo" [ref=e31]
+      - generic [ref=e32]:
+        - link "Where to buy" [ref=e33] [cursor=pointer]:
+          - /url: /product-finder/
+        - link "EN - Select language" [ref=e34] [cursor=pointer]:
+          - /url: "#"
+          - text: EN
+        - text: • • • • • • •
+        - button "Toggle desktop side menu" [ref=e35] [cursor=pointer]
+      - text: • • • • • • •
+  - main [ref=e40]:
+    - generic [ref=e41]:
+      - generic [ref=e43]:
+        - heading "Our Products" [level=2] [ref=e45]
+        - generic [ref=e46]:
+          - link "ALL" [ref=e47] [cursor=pointer]:
+            - /url: "#"
+          - link "Biggies" [ref=e48] [cursor=pointer]:
+            - /url: "#"
+          - link "Chillers" [ref=e49] [cursor=pointer]:
+            - /url: "#"
+          - link "Cocktails" [ref=e50] [cursor=pointer]:
+            - /url: "#"
+          - link "Mixed Drinks" [ref=e51] [cursor=pointer]:
+            - /url: "#"
+        - strong [ref=e53]: Showing 3 of 46
+      - generic [ref=e54]:
+        - generic [ref=e57]:
+          - generic [ref=e58]:
+            - img [ref=e60]
+            - generic [ref=e61]:
+              - generic [ref=e63]:
+                - img [ref=e64]
+                - img [ref=e69]
+                - img [ref=e74]
+                - img [ref=e79]
+                - img [ref=e84]
+              - generic [ref=e89]:
+                - heading [level=3] [ref=e90]: Strawberry ‘Rita
+                - strong [ref=e91]: 15% ABV
+                - link [ref=e92] [cursor=pointer]:
+                  - /url: https://www.buzzballz.com/products/strawberry-rita-chiller-biggie/
+                  - text: VIEW DETAILS
+          - generic [ref=e93]:
+            - img [ref=e95]
+            - generic [ref=e96]:
+              - generic [ref=e98]:
+                - img [ref=e99]
+                - img [ref=e104]
+                - img [ref=e109]
+                - img [ref=e114]
+                - img [ref=e119]
+              - generic [ref=e124]:
+                - heading [level=3] [ref=e125]: Chocolatini
+                - strong [ref=e126]: 15% ABV
+                - link [ref=e127] [cursor=pointer]:
+                  - /url: https://www.buzzballz.com/products/chocolatini/
+                  - text: VIEW DETAILS
+          - generic [ref=e128]:
+            - img [ref=e130]
+            - generic [ref=e131]:
+              - generic [ref=e133]:
+                - img [ref=e134]
+                - img [ref=e139]
+                - img [ref=e144]
+                - img [ref=e149]
+                - img [ref=e154]
+              - generic [ref=e159]:
+                - heading [level=3] [ref=e160]: Pineapple Colada
+                - strong [ref=e161]: 15% ABV
+                - link [ref=e162] [cursor=pointer]:
+                  - /url: https://www.buzzballz.com/products/pineapple-colada/
+                  - text: VIEW DETAILS
+          - generic [ref=e163]:
+            - img "Grapes Gone Wild" [ref=e165]
+            - generic [ref=e167]:
+              - heading "Grapes Gone Wild" [level=3] [ref=e168]
+              - strong [ref=e169]: 15% ABV
+              - link "VIEW DETAILS Cocktails Grapes Gone Wild (ID 561422239)" [ref=e170] [cursor=pointer]:
+                - /url: https://www.buzzballz.com/products/grapes-gone-wild-cocktail/
+                - text: VIEW DETAILS
+          - generic [ref=e171]:
+            - img "Berry Cherry Limeade" [ref=e173]
+            - generic [ref=e175]:
+              - heading "Berry Cherry Limeade" [level=3] [ref=e176]
+              - strong [ref=e177]: 15% ABV
+              - link "VIEW DETAILS Cocktails Berry Cherry Limeade (ID 546564435)" [ref=e178] [cursor=pointer]:
+                - /url: https://www.buzzballz.com/products/berry-cherry-limeade-cocktail/
+                - text: VIEW DETAILS
+          - generic [ref=e179]:
+            - img "Lime ‘Rita" [ref=e181]
+            - generic [ref=e182]:
+              - generic [ref=e184]:
+                - img "star" [ref=e185]
+                - img "star" [ref=e190]
+                - img "star" [ref=e195]
+                - img "star" [ref=e200]
+                - img "star-half-empty" [ref=e205]
+              - generic [ref=e210]:
+                - heading "Lime ‘Rita" [level=3] [ref=e211]
+                - strong [ref=e212]: 15% ABV
+                - link "VIEW DETAILS Cocktails Lime ‘Rita (ID 1463)" [ref=e213] [cursor=pointer]:
+                  - /url: https://www.buzzballz.com/products/lime-rita-cocktail/
+                  - text: VIEW DETAILS
+          - generic [ref=e214]:
+            - img [ref=e216]
+            - generic [ref=e217]:
+              - generic [ref=e219]:
+                - img [ref=e220]
+                - img [ref=e225]
+                - img [ref=e230]
+                - img [ref=e235]
+                - img [ref=e240]
+              - generic [ref=e245]:
+                - heading [level=3] [ref=e246]: Pineapple Jalapeño
+                - strong [ref=e247]: 15% ABV
+                - link [ref=e248] [cursor=pointer]:
+                  - /url: https://www.buzzballz.com/products/pineapple-jalapeno-cocktail/
+                  - text: VIEW DETAILS
+          - generic [ref=e249]:
+            - img [ref=e251]
+            - generic [ref=e252]:
+              - generic [ref=e254]:
+                - img [ref=e255]
+                - img [ref=e260]
+                - img [ref=e265]
+                - img [ref=e270]
+                - img [ref=e275]
+              - generic [ref=e280]:
+                - heading [level=3] [ref=e281]: Lotta Colada
+                - strong [ref=e282]: 15% ABV
+                - link [ref=e283] [cursor=pointer]:
+                  - /url: https://www.buzzballz.com/products/lotta-colada-cocktail/
+                  - text: VIEW DETAILS
+          - generic [ref=e284]:
+            - img [ref=e286]
+            - generic [ref=e287]:
+              - generic [ref=e289]:
+                - img [ref=e290]
+                - img [ref=e295]
+                - img [ref=e300]
+                - img [ref=e305]
+                - img [ref=e310]
+              - generic [ref=e315]:
+                - heading [level=3] [ref=e316]: Choc Tease
+                - strong [ref=e317]: 15% ABV
+                - link [ref=e318] [cursor=pointer]:
+                  - /url: https://www.buzzballz.com/products/choc-tease-cocktail/
+                  - text: VIEW DETAILS
+          - generic [ref=e319]:
+            - img [ref=e321]
+            - generic [ref=e322]:
+              - generic [ref=e324]:
+                - img [ref=e325]
+                - img [ref=e330]
+                - img [ref=e335]
+                - img [ref=e340]
+                - img [ref=e345]
+              - generic [ref=e350]:
+                - heading [level=3] [ref=e351]: Peachballz
+                - strong [ref=e352]: 15% ABV
+                - link [ref=e353] [cursor=pointer]:
+                  - /url: https://www.buzzballz.com/products/peachballz-cocktail/
+                  - text: VIEW DETAILS
+          - generic [ref=e354]:
+            - img [ref=e356]
+            - generic [ref=e357]:
+              - generic [ref=e359]:
+                - img [ref=e360]
+                - img [ref=e365]
+                - img [ref=e370]
+                - img [ref=e375]
+                - img [ref=e380]
+              - generic [ref=e385]:
+                - heading [level=3] [ref=e386]: Strawberry ‘Rita
+                - strong [ref=e387]: 15% ABV
+                - link [ref=e388] [cursor=pointer]:
+                  - /url: https://www.buzzballz.com/products/strawberry-rita-cocktail/
+                  - text: VIEW DETAILS
+          - generic [ref=e389]:
+            - img [ref=e391]
+            - generic [ref=e392]:
+              - generic [ref=e394]:
+                - img [ref=e395]
+                - img [ref=e400]
+                - img [ref=e405]
+                - img [ref=e410]
+                - img [ref=e415]
+              - generic [ref=e420]:
+                - heading [level=3] [ref=e421]: Chili Mango
+                - strong [ref=e422]: 15% ABV
+                - link [ref=e423] [cursor=pointer]:
+                  - /url: https://www.buzzballz.com/products/chili-mango-cocktail/
+                  - text: VIEW DETAILS
+          - generic [ref=e424]:
+            - img [ref=e426]
+            - generic [ref=e427]:
+              - generic [ref=e429]:
+                - img [ref=e430]
+                - img [ref=e435]
+                - img [ref=e440]
+                - img [ref=e445]
+                - img [ref=e450]
+              - generic [ref=e455]:
+                - heading [level=3] [ref=e456]: Cran Blaster
+                - strong [ref=e457]: 15% ABV
+                - link [ref=e458] [cursor=pointer]:
+                  - /url: https://www.buzzballz.com/products/cran-blaster-cocktail/
+                  - text: VIEW DETAILS
+          - generic [ref=e459]:
+            - img [ref=e461]
+            - generic [ref=e462]:
+              - generic [ref=e464]:
+                - img [ref=e465]
+                - img [ref=e470]
+                - img [ref=e475]
+                - img [ref=e480]
+                - img [ref=e485]
+              - generic [ref=e490]:
+                - heading [level=3] [ref=e491]: Espresso Martini
+                - strong [ref=e492]: 15% ABV
+                - link [ref=e493] [cursor=pointer]:
+                  - /url: https://www.buzzballz.com/products/espresso-martini-cocktail/
+                  - text: VIEW DETAILS
+          - generic [ref=e494]:
+            - img [ref=e496]
+            - generic [ref=e497]:
+              - generic [ref=e499]:
+                - img [ref=e500]
+                - img [ref=e505]
+                - img [ref=e510]
+                - img [ref=e515]
+                - img [ref=e520]
+              - generic [ref=e525]:
+                - heading [level=3] [ref=e526]: Forbidden Apple
+                - strong [ref=e527]: 15% ABV
+                - link [ref=e528] [cursor=pointer]:
+                  - /url: https://www.buzzballz.com/products/forbidden-apple-cocktail/
+                  - text: VIEW DETAILS
+          - generic [ref=e529]:
+            - img [ref=e531]
+            - generic [ref=e532]:
+              - generic [ref=e534]:
+                - img [ref=e535]
+                - img [ref=e540]
+                - img [ref=e545]
+                - img [ref=e550]
+                - img [ref=e555]
+              - generic [ref=e560]:
+                - heading [level=3] [ref=e561]: Hazelnut Latte
+                - strong [ref=e562]: 15% ABV
+                - link [ref=e563] [cursor=pointer]:
+                  - /url: https://www.buzzballz.com/products/hazelnut-latte-cocktail/
+                  - text: VIEW DETAILS
+          - generic [ref=e564]:
+            - img [ref=e566]
+            - generic [ref=e567]:
+              - generic [ref=e569]:
+                - img [ref=e570]
+                - img [ref=e575]
+                - img [ref=e580]
+                - img [ref=e585]
+                - img [ref=e590]
+              - generic [ref=e595]:
+                - heading [level=3] [ref=e596]: Watermelon Smash
+                - strong [ref=e597]: 15% ABV
+                - link [ref=e598] [cursor=pointer]:
+                  - /url: https://www.buzzballz.com/products/watermelon-smash-cocktail/
+                  - text: VIEW DETAILS
+          - generic [ref=e599]:
+            - img [ref=e601]
+            - generic [ref=e603]:
+              - heading [level=3] [ref=e604]: Grapes Gone Wild
+              - strong [ref=e605]: 15% ABV
+              - link [ref=e606] [cursor=pointer]:
+                - /url: https://www.buzzballz.com/products/grapes-gone-wild-chiller/
+                - text: VIEW DETAILS
+          - generic [ref=e607]:
+            - img [ref=e609]
+            - generic [ref=e610]:
+              - generic [ref=e612]:
+                - img [ref=e613]
+                - img [ref=e618]
+                - img [ref=e623]
+                - img [ref=e628]
+                - img [ref=e633]
+              - generic [ref=e638]:
+                - heading [level=3] [ref=e639]: Choco Chiller
+                - strong [ref=e640]: 15% ABV
+                - link [ref=e641] [cursor=pointer]:
+                  - /url: https://www.buzzballz.com/products/choco-chiller/
+                  - text: VIEW DETAILS
+          - generic [ref=e642]:
+            - img [ref=e644]
+            - generic [ref=e645]:
+              - generic [ref=e647]:
+                - img [ref=e648]
+                - img [ref=e653]
+                - img [ref=e658]
+                - img [ref=e663]
+                - img [ref=e668]
+              - generic [ref=e673]:
+                - heading [level=3] [ref=e674]: Cranberry Chiller
+                - strong [ref=e675]: 15% ABV
+                - link [ref=e676] [cursor=pointer]:
+                  - /url: https://www.buzzballz.com/products/cranberry-chiller/
+                  - text: VIEW DETAILS
+          - generic [ref=e677]:
+            - img [ref=e679]
+            - generic [ref=e680]:
+              - generic [ref=e682]:
+                - img [ref=e683]
+                - img [ref=e688]
+                - img [ref=e693]
+                - img [ref=e698]
+                - img [ref=e703]
+              - generic [ref=e708]:
+                - heading [level=3] [ref=e709]: Espresso Martini
+                - strong [ref=e710]: 15% ABV
+                - link [ref=e711] [cursor=pointer]:
+                  - /url: https://www.buzzballz.com/products/espresso-martini-chiller/
+                  - text: VIEW DETAILS
+          - generic [ref=e712]:
+            - img [ref=e714]
+            - generic [ref=e715]:
+              - generic [ref=e717]:
+                - img [ref=e718]
+                - img [ref=e723]
+                - img [ref=e728]
+                - img [ref=e733]
+                - img [ref=e738]
+              - generic [ref=e743]:
+                - heading [level=3] [ref=e744]: Hazelnut Latte
+                - strong [ref=e745]: 15% ABV
+                - link [ref=e746] [cursor=pointer]:
+                  - /url: https://www.buzzballz.com/products/hazelnut-latte-chiller/
+                  - text: VIEW DETAILS
+          - generic [ref=e747]:
+            - img [ref=e749]
+            - generic [ref=e750]:
+              - generic [ref=e752]:
+                - img [ref=e753]
+                - img [ref=e758]
+                - img [ref=e763]
+                - img [ref=e768]
+                - img [ref=e773]
+              - generic [ref=e778]:
+                - heading [level=3] [ref=e779]: Lime ‘Rita Chiller
+                - strong [ref=e780]: 15% ABV
+                - link [ref=e781] [cursor=pointer]:
+                  - /url: https://www.buzzballz.com/products/lime-rita-chiller/
+                  - text: VIEW DETAILS
+          - generic [ref=e782]:
+            - img [ref=e784]
+            - generic [ref=e785]:
+              - generic [ref=e787]:
+                - img [ref=e788]
+                - img [ref=e793]
+                - img [ref=e798]
+                - img [ref=e803]
+                - img [ref=e808]
+              - generic [ref=e813]:
+                - heading [level=3] [ref=e814]: Peach Chiller
+                - strong [ref=e815]: 15% ABV
+                - link [ref=e816] [cursor=pointer]:
+                  - /url: https://www.buzzballz.com/products/peach-chiller/
+                  - text: VIEW DETAILS
+          - generic [ref=e817]:
+            - img [ref=e819]
+            - generic [ref=e820]:
+              - generic [ref=e822]:
+                - img [ref=e823]
+                - img [ref=e828]
+                - img [ref=e833]
+                - img [ref=e838]
+                - img [ref=e843]
+              - generic [ref=e848]:
+                - heading [level=3] [ref=e849]: Sour Apple Chiller
+                - strong [ref=e850]: 15% ABV
+                - link [ref=e851] [cursor=pointer]:
+                  - /url: https://www.buzzballz.com/products/sour-apple-chiller/
+                  - text: VIEW DETAILS
+          - generic [ref=e852]:
+            - img [ref=e854]
+            - generic [ref=e855]:
+              - generic [ref=e857]:
+                - img [ref=e858]
+                - img [ref=e863]
+                - img [ref=e868]
+                - img [ref=e873]
+                - img [ref=e878]
+              - generic [ref=e883]:
+                - heading [level=3] [ref=e884]: Strawberry ‘Rita
+                - strong [ref=e885]: 15% ABV
+                - link [ref=e886] [cursor=pointer]:
+                  - /url: https://www.buzzballz.com/products/strawberry-rita-chiller/
+                  - text: VIEW DETAILS
+          - generic [ref=e887]:
+            - img [ref=e889]
+            - generic [ref=e890]:
+              - generic [ref=e892]:
+                - img [ref=e893]
+                - img [ref=e898]
+                - img [ref=e903]
+                - img [ref=e908]
+                - img [ref=e913]
+              - generic [ref=e918]:
+                - heading [level=3] [ref=e919]: Watermelon Chiller
+                - strong [ref=e920]: 15% ABV
+                - link [ref=e921] [cursor=pointer]:
+                  - /url: https://www.buzzballz.com/products/watermelon-chiller/
+                  - text: VIEW DETAILS
+          - generic [ref=e922]:
+            - img [ref=e924]
+            - generic [ref=e926]:
+              - heading [level=3] [ref=e927]: Grapes Gone Wild
+              - strong [ref=e928]: 15% ABV
+              - link [ref=e929] [cursor=pointer]:
+                - /url: https://www.buzzballz.com/products/grapes-gone-wild-biggies-cocktails/
+                - text: VIEW DETAILS
+          - generic [ref=e930]:
+            - img [ref=e932]
+            - generic [ref=e933]:
+              - generic [ref=e935]:
+                - img [ref=e936]
+                - img [ref=e941]
+                - img [ref=e946]
+                - img [ref=e951]
+                - img [ref=e956]
+              - generic [ref=e961]:
+                - heading [level=3] [ref=e962]: Chocolate Tease
+                - strong [ref=e963]: 15% ABV
+                - link [ref=e964] [cursor=pointer]:
+                  - /url: https://www.buzzballz.com/products/chocolate-tease-biggie/
+                  - text: VIEW DETAILS
+          - generic [ref=e965]:
+            - img [ref=e967]
+            - generic [ref=e968]:
+              - generic [ref=e970]:
+                - img [ref=e971]
+                - img [ref=e976]
+                - img [ref=e981]
+                - img [ref=e986]
+                - img [ref=e991]
+              - generic [ref=e996]:
+                - heading [level=3] [ref=e997]: Tequila ‘Rita
+                - strong [ref=e998]: 15% ABV
+                - link [ref=e999] [cursor=pointer]:
+                  - /url: https://www.buzzballz.com/products/tequila-rita-biggie/
+                  - text: VIEW DETAILS
+          - generic [ref=e1000]:
+            - img [ref=e1002]
+            - generic [ref=e1003]:
+              - generic [ref=e1005]:
+                - img [ref=e1006]
+                - img [ref=e1011]
+                - img [ref=e1016]
+                - img [ref=e1021]
+                - img [ref=e1026]
+              - generic [ref=e1031]:
+                - heading [level=3] [ref=e1032]: Strawberry ‘Rita
+                - strong [ref=e1033]: 15% ABV
+                - link [ref=e1034] [cursor=pointer]:
+                  - /url: https://www.buzzballz.com/products/strawberry-rita-biggie/
+                  - text: VIEW DETAILS
+          - generic [ref=e1035]:
+            - img [ref=e1037]
+            - generic [ref=e1038]:
+              - generic [ref=e1040]:
+                - img [ref=e1041]
+                - img [ref=e1046]
+                - img [ref=e1051]
+                - img [ref=e1056]
+                - img [ref=e1061]
+              - generic [ref=e1066]:
+                - heading [level=3] [ref=e1067]: Chili Mango
+                - strong [ref=e1068]: 15.0% ABV
+                - link [ref=e1069] [cursor=pointer]:
+                  - /url: https://www.buzzballz.com/products/chili-mango-mixed/
+                  - text: VIEW DETAILS
+          - generic [ref=e1070]:
+            - img [ref=e1072]
+            - generic [ref=e1073]:
+              - generic [ref=e1075]:
+                - img [ref=e1076]
+                - img [ref=e1081]
+                - img [ref=e1086]
+                - img [ref=e1091]
+                - img [ref=e1096]
+              - generic [ref=e1101]:
+                - heading [level=3] [ref=e1102]: Espresso Martini
+                - strong [ref=e1103]: 15.0% ABV
+                - link [ref=e1104] [cursor=pointer]:
+                  - /url: https://www.buzzballz.com/products/espresso-martini-mixed/
+                  - text: VIEW DETAILS
+          - generic [ref=e1105]:
+            - img [ref=e1107]
+            - generic [ref=e1108]:
+              - generic [ref=e1110]:
+                - img [ref=e1111]
+                - img [ref=e1116]
+                - img [ref=e1121]
+                - img [ref=e1126]
+                - img [ref=e1131]
+              - generic [ref=e1136]:
+                - heading [level=3] [ref=e1137]: Strawberry ‘Rita
+                - strong [ref=e1138]: 15.0% ABV
+                - link [ref=e1139] [cursor=pointer]:
+                  - /url: https://www.buzzballz.com/products/strawberry-rita-mixed/
+                  - text: VIEW DETAILS
+          - generic [ref=e1140]:
+            - img [ref=e1142]
+            - generic [ref=e1143]:
+              - generic [ref=e1145]:
+                - img [ref=e1146]
+                - img [ref=e1151]
+                - img [ref=e1156]
+                - img [ref=e1161]
+                - img [ref=e1166]
+              - generic [ref=e1171]:
+                - heading [level=3] [ref=e1172]: Lime ‘Rita
+                - strong [ref=e1173]: 15.0% ABV
+                - link [ref=e1174] [cursor=pointer]:
+                  - /url: https://www.buzzballz.com/products/lime-rita-mixed/
+                  - text: VIEW DETAILS
+          - generic [ref=e1175]:
+            - img [ref=e1177]
+            - generic [ref=e1178]:
+              - generic [ref=e1180]:
+                - img [ref=e1181]
+                - img [ref=e1186]
+                - img [ref=e1191]
+                - img [ref=e1196]
+                - img [ref=e1201]
+              - generic [ref=e1206]:
+                - heading [level=3] [ref=e1207]: Horchata
+                - strong [ref=e1208]: 15% ABV
+                - link [ref=e1209] [cursor=pointer]:
+                  - /url: https://www.buzzballz.com/products/horchata-cocktail/
+                  - text: VIEW DETAILS
+          - generic [ref=e1210]:
+            - img [ref=e1212]
+            - generic [ref=e1213]:
+              - generic [ref=e1215]:
+                - img [ref=e1216]
+                - img [ref=e1221]
+                - img [ref=e1226]
+                - img [ref=e1231]
+                - img [ref=e1236]
+              - generic [ref=e1241]:
+                - heading [level=3] [ref=e1242]: Chili Mango
+                - strong [ref=e1243]: 15% ABV
+                - link [ref=e1244] [cursor=pointer]:
+                  - /url: https://www.buzzballz.com/products/chili-mango-biggies/
+                  - text: VIEW DETAILS
+          - generic [ref=e1245]:
+            - img [ref=e1247]
+            - generic [ref=e1248]:
+              - generic [ref=e1250]:
+                - img [ref=e1251]
+                - img [ref=e1256]
+                - img [ref=e1261]
+                - img [ref=e1266]
+                - img [ref=e1271]
+              - generic [ref=e1276]:
+                - heading [level=3] [ref=e1277]: Pineapple Jalapeño
+                - strong [ref=e1278]: 15% ABV
+                - link [ref=e1279] [cursor=pointer]:
+                  - /url: https://www.buzzballz.com/products/pineapple-jalapeno-chiller/
+                  - text: VIEW DETAILS
+          - generic [ref=e1280]:
+            - img [ref=e1282]
+            - generic [ref=e1283]:
+              - generic [ref=e1285]:
+                - img [ref=e1286]
+                - img [ref=e1291]
+                - img [ref=e1296]
+                - img [ref=e1301]
+                - img [ref=e1306]
+              - generic [ref=e1311]:
+                - heading [level=3] [ref=e1312]: "Private: Cookie Nookie"
+                - strong [ref=e1313]: 15% ABV
+                - link [ref=e1314] [cursor=pointer]:
+                  - /url: https://www.buzzballz.com/?post_type=products&p=477021955
+                  - text: VIEW DETAILS
+          - generic [ref=e1315]:
+            - img [ref=e1317]
+            - generic [ref=e1318]:
+              - generic [ref=e1320]:
+                - img [ref=e1321]
+                - img [ref=e1326]
+                - img [ref=e1331]
+                - img [ref=e1336]
+                - img [ref=e1341]
+              - generic [ref=e1346]:
+                - heading [level=3] [ref=e1347]: Horchata
+                - strong [ref=e1348]: 15% ABV
+                - link [ref=e1349] [cursor=pointer]:
+                  - /url: https://www.buzzballz.com/products/horchata-chiller/
+                  - text: VIEW DETAILS
+          - generic [ref=e1350]:
+            - img [ref=e1352]
+            - generic [ref=e1354]:
+              - heading [level=3] [ref=e1355]: Grapes Gone Wild
+              - strong [ref=e1356]: 15% ABV
+              - link [ref=e1357] [cursor=pointer]:
+                - /url: https://www.buzzballz.com/products/grapes-gone-wild-biggies-chiller/
+                - text: VIEW DETAILS
+          - generic [ref=e1358]:
+            - img [ref=e1360]
+            - generic [ref=e1362]:
+              - heading [level=3] [ref=e1363]: Berry Cherry Limeade
+              - strong [ref=e1364]: 15% ABV
+              - link [ref=e1365] [cursor=pointer]:
+                - /url: https://www.buzzballz.com/products/berry-cherry-limeade-biggies-2/
+                - text: VIEW DETAILS
+          - generic [ref=e1366]:
+            - img [ref=e1368]
+            - generic [ref=e1369]:
+              - generic [ref=e1371]:
+                - img [ref=e1372]
+                - img [ref=e1377]
+                - img [ref=e1382]
+                - img [ref=e1387]
+                - img [ref=e1392]
+              - generic [ref=e1397]:
+                - heading [level=3] [ref=e1398]: Chili Mango
+                - strong [ref=e1399]: 15% ABV
+                - link [ref=e1400] [cursor=pointer]:
+                  - /url: https://www.buzzballz.com/products/chili-mango-chiller/
+                  - text: VIEW DETAILS
+          - generic [ref=e1401]:
+            - img [ref=e1403]
+            - generic [ref=e1404]:
+              - generic [ref=e1406]:
+                - img [ref=e1407]
+                - img [ref=e1412]
+                - img [ref=e1417]
+                - img [ref=e1422]
+                - img [ref=e1427]
+              - generic [ref=e1432]:
+                - heading [level=3] [ref=e1433]: Choco Chiller
+                - strong [ref=e1434]: 15% ABV
+                - link [ref=e1435] [cursor=pointer]:
+                  - /url: https://www.buzzballz.com/products/choco-chiller-biggie/
+                  - text: VIEW DETAILS
+          - generic [ref=e1436]:
+            - img [ref=e1438]
+            - generic [ref=e1439]:
+              - generic [ref=e1441]:
+                - img [ref=e1442]
+                - img [ref=e1447]
+                - img [ref=e1452]
+                - img [ref=e1457]
+                - img [ref=e1462]
+              - generic [ref=e1467]:
+                - heading [level=3] [ref=e1468]: Lime ‘Rita
+                - strong [ref=e1469]: 15% ABV
+                - link [ref=e1470] [cursor=pointer]:
+                  - /url: https://www.buzzballz.com/products/lime-rita/
+                  - text: VIEW DETAILS
+          - generic [ref=e1471]:
+            - img [ref=e1473]
+            - generic [ref=e1474]:
+              - generic [ref=e1476]:
+                - img [ref=e1477]
+                - img [ref=e1482]
+                - img [ref=e1487]
+                - img [ref=e1492]
+                - img [ref=e1497]
+              - generic [ref=e1502]:
+                - heading [level=3] [ref=e1503]: Pineapple Colada
+                - strong [ref=e1504]: 15% ABV
+                - link [ref=e1505] [cursor=pointer]:
+                  - /url: https://www.buzzballz.com/products/pineapple-colada-chiller-3/
+                  - text: VIEW DETAILS
+          - generic [ref=e1506]:
+            - img [ref=e1508]
+            - generic [ref=e1509]:
+              - generic [ref=e1511]:
+                - img [ref=e1512]
+                - img [ref=e1517]
+                - img [ref=e1522]
+                - img [ref=e1527]
+                - img [ref=e1532]
+              - generic [ref=e1537]:
+                - heading [level=3] [ref=e1538]: Strawberry ‘Rita
+                - strong [ref=e1539]: 15% ABV
+                - link [ref=e1540] [cursor=pointer]:
+                  - /url: https://www.buzzballz.com/products/strawberry-rita-chiller-biggie/
+                  - text: VIEW DETAILS
+          - generic [ref=e1541]:
+            - img [ref=e1543]
+            - generic [ref=e1544]:
+              - generic [ref=e1546]:
+                - img [ref=e1547]
+                - img [ref=e1552]
+                - img [ref=e1557]
+                - img [ref=e1562]
+                - img [ref=e1567]
+              - generic [ref=e1572]:
+                - heading [level=3] [ref=e1573]: Chocolatini
+                - strong [ref=e1574]: 15% ABV
+                - link [ref=e1575] [cursor=pointer]:
+                  - /url: https://www.buzzballz.com/products/chocolatini/
+                  - text: VIEW DETAILS
+          - generic [ref=e1576]:
+            - img [ref=e1578]
+            - generic [ref=e1579]:
+              - generic [ref=e1581]:
+                - img [ref=e1582]
+                - img [ref=e1587]
+                - img [ref=e1592]
+                - img [ref=e1597]
+                - img [ref=e1602]
+              - generic [ref=e1607]:
+                - heading [level=3] [ref=e1608]: Pineapple Colada
+                - strong [ref=e1609]: 15% ABV
+                - link [ref=e1610] [cursor=pointer]:
+                  - /url: https://www.buzzballz.com/products/pineapple-colada/
+                  - text: VIEW DETAILS
+          - generic [ref=e1611]:
+            - img [ref=e1613]
+            - generic [ref=e1615]:
+              - heading [level=3] [ref=e1616]: Grapes Gone Wild
+              - strong [ref=e1617]: 15% ABV
+              - link [ref=e1618] [cursor=pointer]:
+                - /url: https://www.buzzballz.com/products/grapes-gone-wild-cocktail/
+                - text: VIEW DETAILS
+          - generic [ref=e1619]:
+            - img [ref=e1621]
+            - generic [ref=e1623]:
+              - heading [level=3] [ref=e1624]: Berry Cherry Limeade
+              - strong [ref=e1625]: 15% ABV
+              - link [ref=e1626] [cursor=pointer]:
+                - /url: https://www.buzzballz.com/products/berry-cherry-limeade-cocktail/
+                - text: VIEW DETAILS
+          - generic [ref=e1627]:
+            - img [ref=e1629]
+            - generic [ref=e1630]:
+              - generic [ref=e1632]:
+                - img [ref=e1633]
+                - img [ref=e1638]
+                - img [ref=e1643]
+                - img [ref=e1648]
+                - img [ref=e1653]
+              - generic [ref=e1658]:
+                - heading [level=3] [ref=e1659]: Lime ‘Rita
+                - strong [ref=e1660]: 15% ABV
+                - link [ref=e1661] [cursor=pointer]:
+                  - /url: https://www.buzzballz.com/products/lime-rita-cocktail/
+                  - text: VIEW DETAILS
+          - generic [ref=e1662]:
+            - img [ref=e1664]
+            - generic [ref=e1665]:
+              - generic [ref=e1667]:
+                - img [ref=e1668]
+                - img [ref=e1673]
+                - img [ref=e1678]
+                - img [ref=e1683]
+                - img [ref=e1688]
+              - generic [ref=e1693]:
+                - heading [level=3] [ref=e1694]: Pineapple Jalapeño
+                - strong [ref=e1695]: 15% ABV
+                - link [ref=e1696] [cursor=pointer]:
+                  - /url: https://www.buzzballz.com/products/pineapple-jalapeno-cocktail/
+                  - text: VIEW DETAILS
+          - generic [ref=e1697]:
+            - img [ref=e1699]
+            - generic [ref=e1700]:
+              - generic [ref=e1702]:
+                - img [ref=e1703]
+                - img [ref=e1708]
+                - img [ref=e1713]
+                - img [ref=e1718]
+                - img [ref=e1723]
+              - generic [ref=e1728]:
+                - heading [level=3] [ref=e1729]: Lotta Colada
+                - strong [ref=e1730]: 15% ABV
+                - link [ref=e1731] [cursor=pointer]:
+                  - /url: https://www.buzzballz.com/products/lotta-colada-cocktail/
+                  - text: VIEW DETAILS
+          - generic [ref=e1732]:
+            - img [ref=e1734]
+            - generic [ref=e1735]:
+              - generic [ref=e1737]:
+                - img [ref=e1738]
+                - img [ref=e1743]
+                - img [ref=e1748]
+                - img [ref=e1753]
+                - img [ref=e1758]
+              - generic [ref=e1763]:
+                - heading [level=3] [ref=e1764]: Choc Tease
+                - strong [ref=e1765]: 15% ABV
+                - link [ref=e1766] [cursor=pointer]:
+                  - /url: https://www.buzzballz.com/products/choc-tease-cocktail/
+                  - text: VIEW DETAILS
+          - generic [ref=e1767]:
+            - img [ref=e1769]
+            - generic [ref=e1770]:
+              - generic [ref=e1772]:
+                - img [ref=e1773]
+                - img [ref=e1778]
+                - img [ref=e1783]
+                - img [ref=e1788]
+                - img [ref=e1793]
+              - generic [ref=e1798]:
+                - heading [level=3] [ref=e1799]: Peachballz
+                - strong [ref=e1800]: 15% ABV
+                - link [ref=e1801] [cursor=pointer]:
+                  - /url: https://www.buzzballz.com/products/peachballz-cocktail/
+                  - text: VIEW DETAILS
+          - generic [ref=e1802]:
+            - img [ref=e1804]
+            - generic [ref=e1805]:
+              - generic [ref=e1807]:
+                - img [ref=e1808]
+                - img [ref=e1813]
+                - img [ref=e1818]
+                - img [ref=e1823]
+                - img [ref=e1828]
+              - generic [ref=e1833]:
+                - heading [level=3] [ref=e1834]: Strawberry ‘Rita
+                - strong [ref=e1835]: 15% ABV
+                - link [ref=e1836] [cursor=pointer]:
+                  - /url: https://www.buzzballz.com/products/strawberry-rita-cocktail/
+                  - text: VIEW DETAILS
+          - generic [ref=e1837]:
+            - img [ref=e1839]
+            - generic [ref=e1840]:
+              - generic [ref=e1842]:
+                - img [ref=e1843]
+                - img [ref=e1848]
+                - img [ref=e1853]
+                - img [ref=e1858]
+                - img [ref=e1863]
+              - generic [ref=e1868]:
+                - heading [level=3] [ref=e1869]: Chili Mango
+                - strong [ref=e1870]: 15% ABV
+                - link [ref=e1871] [cursor=pointer]:
+                  - /url: https://www.buzzballz.com/products/chili-mango-cocktail/
+                  - text: VIEW DETAILS
+          - generic [ref=e1872]:
+            - img [ref=e1874]
+            - generic [ref=e1875]:
+              - generic [ref=e1877]:
+                - img [ref=e1878]
+                - img [ref=e1883]
+                - img [ref=e1888]
+                - img [ref=e1893]
+                - img [ref=e1898]
+              - generic [ref=e1903]:
+                - heading [level=3] [ref=e1904]: Cran Blaster
+                - strong [ref=e1905]: 15% ABV
+                - link [ref=e1906] [cursor=pointer]:
+                  - /url: https://www.buzzballz.com/products/cran-blaster-cocktail/
+                  - text: VIEW DETAILS
+          - generic [ref=e1907]:
+            - img [ref=e1909]
+            - generic [ref=e1910]:
+              - generic [ref=e1912]:
+                - img [ref=e1913]
+                - img [ref=e1918]
+                - img [ref=e1923]
+                - img [ref=e1928]
+                - img [ref=e1933]
+              - generic [ref=e1938]:
+                - heading [level=3] [ref=e1939]: Espresso Martini
+                - strong [ref=e1940]: 15% ABV
+                - link [ref=e1941] [cursor=pointer]:
+                  - /url: https://www.buzzballz.com/products/espresso-martini-cocktail/
+                  - text: VIEW DETAILS
+          - generic [ref=e1942]:
+            - img [ref=e1944]
+            - generic [ref=e1945]:
+              - generic [ref=e1947]:
+                - img [ref=e1948]
+                - img [ref=e1953]
+                - img [ref=e1958]
+                - img [ref=e1963]
+                - img [ref=e1968]
+              - generic [ref=e1973]:
+                - heading [level=3] [ref=e1974]: Forbidden Apple
+                - strong [ref=e1975]: 15% ABV
+                - link [ref=e1976] [cursor=pointer]:
+                  - /url: https://www.buzzballz.com/products/forbidden-apple-cocktail/
+                  - text: VIEW DETAILS
+          - generic [ref=e1977]:
+            - img [ref=e1979]
+            - generic [ref=e1980]:
+              - generic [ref=e1982]:
+                - img [ref=e1983]
+                - img [ref=e1988]
+                - img [ref=e1993]
+                - img [ref=e1998]
+                - img [ref=e2003]
+              - generic [ref=e2008]:
+                - heading [level=3] [ref=e2009]: Hazelnut Latte
+                - strong [ref=e2010]: 15% ABV
+                - link [ref=e2011] [cursor=pointer]:
+                  - /url: https://www.buzzballz.com/products/hazelnut-latte-cocktail/
+                  - text: VIEW DETAILS
+          - generic [ref=e2012]:
+            - img [ref=e2014]
+            - generic [ref=e2015]:
+              - generic [ref=e2017]:
+                - img [ref=e2018]
+                - img [ref=e2023]
+                - img [ref=e2028]
+                - img [ref=e2033]
+                - img [ref=e2038]
+              - generic [ref=e2043]:
+                - heading [level=3] [ref=e2044]: Watermelon Smash
+                - strong [ref=e2045]: 15% ABV
+                - link [ref=e2046] [cursor=pointer]:
+                  - /url: https://www.buzzballz.com/products/watermelon-smash-cocktail/
+                  - text: VIEW DETAILS
+          - generic [ref=e2047]:
+            - img [ref=e2049]
+            - generic [ref=e2051]:
+              - heading [level=3] [ref=e2052]: Grapes Gone Wild
+              - strong [ref=e2053]: 15% ABV
+              - link [ref=e2054] [cursor=pointer]:
+                - /url: https://www.buzzballz.com/products/grapes-gone-wild-chiller/
+                - text: VIEW DETAILS
+          - generic [ref=e2055]:
+            - img [ref=e2057]
+            - generic [ref=e2058]:
+              - generic [ref=e2060]:
+                - img [ref=e2061]
+                - img [ref=e2066]
+                - img [ref=e2071]
+                - img [ref=e2076]
+                - img [ref=e2081]
+              - generic [ref=e2086]:
+                - heading [level=3] [ref=e2087]: Choco Chiller
+                - strong [ref=e2088]: 15% ABV
+                - link [ref=e2089] [cursor=pointer]:
+                  - /url: https://www.buzzballz.com/products/choco-chiller/
+                  - text: VIEW DETAILS
+          - generic [ref=e2090]:
+            - img [ref=e2092]
+            - generic [ref=e2093]:
+              - generic [ref=e2095]:
+                - img [ref=e2096]
+                - img [ref=e2101]
+                - img [ref=e2106]
+                - img [ref=e2111]
+                - img [ref=e2116]
+              - generic [ref=e2121]:
+                - heading [level=3] [ref=e2122]: Cranberry Chiller
+                - strong [ref=e2123]: 15% ABV
+                - link [ref=e2124] [cursor=pointer]:
+                  - /url: https://www.buzzballz.com/products/cranberry-chiller/
+                  - text: VIEW DETAILS
+          - generic [ref=e2125]:
+            - img [ref=e2127]
+            - generic [ref=e2128]:
+              - generic [ref=e2130]:
+                - img [ref=e2131]
+                - img [ref=e2136]
+                - img [ref=e2141]
+                - img [ref=e2146]
+                - img [ref=e2151]
+              - generic [ref=e2156]:
+                - heading [level=3] [ref=e2157]: Espresso Martini
+                - strong [ref=e2158]: 15% ABV
+                - link [ref=e2159] [cursor=pointer]:
+                  - /url: https://www.buzzballz.com/products/espresso-martini-chiller/
+                  - text: VIEW DETAILS
+          - generic [ref=e2160]:
+            - img [ref=e2162]
+            - generic [ref=e2163]:
+              - generic [ref=e2165]:
+                - img [ref=e2166]
+                - img [ref=e2171]
+                - img [ref=e2176]
+                - img [ref=e2181]
+                - img [ref=e2186]
+              - generic [ref=e2191]:
+                - heading [level=3] [ref=e2192]: Hazelnut Latte
+                - strong [ref=e2193]: 15% ABV
+                - link [ref=e2194] [cursor=pointer]:
+                  - /url: https://www.buzzballz.com/products/hazelnut-latte-chiller/
+                  - text: VIEW DETAILS
+          - generic [ref=e2195]:
+            - img [ref=e2197]
+            - generic [ref=e2198]:
+              - generic [ref=e2200]:
+                - img [ref=e2201]
+                - img [ref=e2206]
+                - img [ref=e2211]
+                - img [ref=e2216]
+                - img [ref=e2221]
+              - generic [ref=e2226]:
+                - heading [level=3] [ref=e2227]: Lime ‘Rita Chiller
+                - strong [ref=e2228]: 15% ABV
+                - link [ref=e2229] [cursor=pointer]:
+                  - /url: https://www.buzzballz.com/products/lime-rita-chiller/
+                  - text: VIEW DETAILS
+          - generic [ref=e2230]:
+            - img [ref=e2232]
+            - generic [ref=e2233]:
+              - generic [ref=e2235]:
+                - img [ref=e2236]
+                - img [ref=e2241]
+                - img [ref=e2246]
+                - img [ref=e2251]
+                - img [ref=e2256]
+              - generic [ref=e2261]:
+                - heading [level=3] [ref=e2262]: Peach Chiller
+                - strong [ref=e2263]: 15% ABV
+                - link [ref=e2264] [cursor=pointer]:
+                  - /url: https://www.buzzballz.com/products/peach-chiller/
+                  - text: VIEW DETAILS
+          - generic [ref=e2265]:
+            - img [ref=e2267]
+            - generic [ref=e2268]:
+              - generic [ref=e2270]:
+                - img [ref=e2271]
+                - img [ref=e2276]
+                - img [ref=e2281]
+                - img [ref=e2286]
+                - img [ref=e2291]
+              - generic [ref=e2296]:
+                - heading [level=3] [ref=e2297]: Sour Apple Chiller
+                - strong [ref=e2298]: 15% ABV
+                - link [ref=e2299] [cursor=pointer]:
+                  - /url: https://www.buzzballz.com/products/sour-apple-chiller/
+                  - text: VIEW DETAILS
+          - generic [ref=e2300]:
+            - img [ref=e2302]
+            - generic [ref=e2303]:
+              - generic [ref=e2305]:
+                - img [ref=e2306]
+                - img [ref=e2311]
+                - img [ref=e2316]
+                - img [ref=e2321]
+                - img [ref=e2326]
+              - generic [ref=e2331]:
+                - heading [level=3] [ref=e2332]: Strawberry ‘Rita
+                - strong [ref=e2333]: 15% ABV
+                - link [ref=e2334] [cursor=pointer]:
+                  - /url: https://www.buzzballz.com/products/strawberry-rita-chiller/
+                  - text: VIEW DETAILS
+          - generic [ref=e2335]:
+            - img [ref=e2337]
+            - generic [ref=e2338]:
+              - generic [ref=e2340]:
+                - img [ref=e2341]
+                - img [ref=e2346]
+                - img [ref=e2351]
+                - img [ref=e2356]
+                - img [ref=e2361]
+              - generic [ref=e2366]:
+                - heading [level=3] [ref=e2367]: Watermelon Chiller
+                - strong [ref=e2368]: 15% ABV
+                - link [ref=e2369] [cursor=pointer]:
+                  - /url: https://www.buzzballz.com/products/watermelon-chiller/
+                  - text: VIEW DETAILS
+          - generic [ref=e2370]:
+            - img [ref=e2372]
+            - generic [ref=e2374]:
+              - heading [level=3] [ref=e2375]: Grapes Gone Wild
+              - strong [ref=e2376]: 15% ABV
+              - link [ref=e2377] [cursor=pointer]:
+                - /url: https://www.buzzballz.com/products/grapes-gone-wild-biggies-cocktails/
+                - text: VIEW DETAILS
+          - generic [ref=e2378]:
+            - img [ref=e2380]
+            - generic [ref=e2381]:
+              - generic [ref=e2383]:
+                - img [ref=e2384]
+                - img [ref=e2389]
+                - img [ref=e2394]
+                - img [ref=e2399]
+                - img [ref=e2404]
+              - generic [ref=e2409]:
+                - heading [level=3] [ref=e2410]: Chocolate Tease
+                - strong [ref=e2411]: 15% ABV
+                - link [ref=e2412] [cursor=pointer]:
+                  - /url: https://www.buzzballz.com/products/chocolate-tease-biggie/
+                  - text: VIEW DETAILS
+          - generic [ref=e2413]:
+            - img [ref=e2415]
+            - generic [ref=e2416]:
+              - generic [ref=e2418]:
+                - img [ref=e2419]
+                - img [ref=e2424]
+                - img [ref=e2429]
+                - img [ref=e2434]
+                - img [ref=e2439]
+              - generic [ref=e2444]:
+                - heading [level=3] [ref=e2445]: Tequila ‘Rita
+                - strong [ref=e2446]: 15% ABV
+                - link [ref=e2447] [cursor=pointer]:
+                  - /url: https://www.buzzballz.com/products/tequila-rita-biggie/
+                  - text: VIEW DETAILS
+          - generic [ref=e2448]:
+            - img [ref=e2450]
+            - generic [ref=e2451]:
+              - generic [ref=e2453]:
+                - img [ref=e2454]
+                - img [ref=e2459]
+                - img [ref=e2464]
+                - img [ref=e2469]
+                - img [ref=e2474]
+              - generic [ref=e2479]:
+                - heading [level=3] [ref=e2480]: Strawberry ‘Rita
+                - strong [ref=e2481]: 15% ABV
+                - link [ref=e2482] [cursor=pointer]:
+                  - /url: https://www.buzzballz.com/products/strawberry-rita-biggie/
+                  - text: VIEW DETAILS
+          - generic [ref=e2483]:
+            - img [ref=e2485]
+            - generic [ref=e2486]:
+              - generic [ref=e2488]:
+                - img [ref=e2489]
+                - img [ref=e2494]
+                - img [ref=e2499]
+                - img [ref=e2504]
+                - img [ref=e2509]
+              - generic [ref=e2514]:
+                - heading [level=3] [ref=e2515]: Chili Mango
+                - strong [ref=e2516]: 15.0% ABV
+                - link [ref=e2517] [cursor=pointer]:
+                  - /url: https://www.buzzballz.com/products/chili-mango-mixed/
+                  - text: VIEW DETAILS
+          - generic [ref=e2518]:
+            - img [ref=e2520]
+            - generic [ref=e2521]:
+              - generic [ref=e2523]:
+                - img [ref=e2524]
+                - img [ref=e2529]
+                - img [ref=e2534]
+                - img [ref=e2539]
+                - img [ref=e2544]
+              - generic [ref=e2549]:
+                - heading [level=3] [ref=e2550]: Espresso Martini
+                - strong [ref=e2551]: 15.0% ABV
+                - link [ref=e2552] [cursor=pointer]:
+                  - /url: https://www.buzzballz.com/products/espresso-martini-mixed/
+                  - text: VIEW DETAILS
+          - generic [ref=e2553]:
+            - img [ref=e2555]
+            - generic [ref=e2556]:
+              - generic [ref=e2558]:
+                - img [ref=e2559]
+                - img [ref=e2564]
+                - img [ref=e2569]
+                - img [ref=e2574]
+                - img [ref=e2579]
+              - generic [ref=e2584]:
+                - heading [level=3] [ref=e2585]: Strawberry ‘Rita
+                - strong [ref=e2586]: 15.0% ABV
+                - link [ref=e2587] [cursor=pointer]:
+                  - /url: https://www.buzzballz.com/products/strawberry-rita-mixed/
+                  - text: VIEW DETAILS
+          - generic [ref=e2588]:
+            - img [ref=e2590]
+            - generic [ref=e2591]:
+              - generic [ref=e2593]:
+                - img [ref=e2594]
+                - img [ref=e2599]
+                - img [ref=e2604]
+                - img [ref=e2609]
+                - img [ref=e2614]
+              - generic [ref=e2619]:
+                - heading [level=3] [ref=e2620]: Lime ‘Rita
+                - strong [ref=e2621]: 15.0% ABV
+                - link [ref=e2622] [cursor=pointer]:
+                  - /url: https://www.buzzballz.com/products/lime-rita-mixed/
+                  - text: VIEW DETAILS
+          - generic [ref=e2623]:
+            - img [ref=e2625]
+            - generic [ref=e2626]:
+              - generic [ref=e2628]:
+                - img [ref=e2629]
+                - img [ref=e2634]
+                - img [ref=e2639]
+                - img [ref=e2644]
+                - img [ref=e2649]
+              - generic [ref=e2654]:
+                - heading [level=3] [ref=e2655]: Horchata
+                - strong [ref=e2656]: 15% ABV
+                - link [ref=e2657] [cursor=pointer]:
+                  - /url: https://www.buzzballz.com/products/horchata-cocktail/
+                  - text: VIEW DETAILS
+          - generic [ref=e2658]:
+            - img [ref=e2660]
+            - generic [ref=e2661]:
+              - generic [ref=e2663]:
+                - img [ref=e2664]
+                - img [ref=e2669]
+                - img [ref=e2674]
+                - img [ref=e2679]
+                - img [ref=e2684]
+              - generic [ref=e2689]:
+                - heading [level=3] [ref=e2690]: Chili Mango
+                - strong [ref=e2691]: 15% ABV
+                - link [ref=e2692] [cursor=pointer]:
+                  - /url: https://www.buzzballz.com/products/chili-mango-biggies/
+                  - text: VIEW DETAILS
+          - generic [ref=e2693]:
+            - img [ref=e2695]
+            - generic [ref=e2696]:
+              - generic [ref=e2698]:
+                - img [ref=e2699]
+                - img [ref=e2704]
+                - img [ref=e2709]
+                - img [ref=e2714]
+                - img [ref=e2719]
+              - generic [ref=e2724]:
+                - heading [level=3] [ref=e2725]: Pineapple Jalapeño
+                - strong [ref=e2726]: 15% ABV
+                - link [ref=e2727] [cursor=pointer]:
+                  - /url: https://www.buzzballz.com/products/pineapple-jalapeno-chiller/
+                  - text: VIEW DETAILS
+          - generic [ref=e2728]:
+            - img [ref=e2730]
+            - generic [ref=e2731]:
+              - generic [ref=e2733]:
+                - img [ref=e2734]
+                - img [ref=e2739]
+                - img [ref=e2744]
+                - img [ref=e2749]
+                - img [ref=e2754]
+              - generic [ref=e2759]:
+                - heading [level=3] [ref=e2760]: "Private: Cookie Nookie"
+                - strong [ref=e2761]: 15% ABV
+                - link [ref=e2762] [cursor=pointer]:
+                  - /url: https://www.buzzballz.com/?post_type=products&p=477021955
+                  - text: VIEW DETAILS
+          - generic [ref=e2763]:
+            - img [ref=e2765]
+            - generic [ref=e2766]:
+              - generic [ref=e2768]:
+                - img [ref=e2769]
+                - img [ref=e2774]
+                - img [ref=e2779]
+                - img [ref=e2784]
+                - img [ref=e2789]
+              - generic [ref=e2794]:
+                - heading [level=3] [ref=e2795]: Horchata
+                - strong [ref=e2796]: 15% ABV
+                - link [ref=e2797] [cursor=pointer]:
+                  - /url: https://www.buzzballz.com/products/horchata-chiller/
+                  - text: VIEW DETAILS
+          - generic [ref=e2798]:
+            - img [ref=e2800]
+            - generic [ref=e2802]:
+              - heading [level=3] [ref=e2803]: Grapes Gone Wild
+              - strong [ref=e2804]: 15% ABV
+              - link [ref=e2805] [cursor=pointer]:
+                - /url: https://www.buzzballz.com/products/grapes-gone-wild-biggies-chiller/
+                - text: VIEW DETAILS
+          - generic [ref=e2806]:
+            - img [ref=e2808]
+            - generic [ref=e2810]:
+              - heading [level=3] [ref=e2811]: Berry Cherry Limeade
+              - strong [ref=e2812]: 15% ABV
+              - link [ref=e2813] [cursor=pointer]:
+                - /url: https://www.buzzballz.com/products/berry-cherry-limeade-biggies-2/
+                - text: VIEW DETAILS
+          - generic [ref=e2814]:
+            - img [ref=e2816]
+            - generic [ref=e2817]:
+              - generic [ref=e2819]:
+                - img [ref=e2820]
+                - img [ref=e2825]
+                - img [ref=e2830]
+                - img [ref=e2835]
+                - img [ref=e2840]
+              - generic [ref=e2845]:
+                - heading [level=3] [ref=e2846]: Chili Mango
+                - strong [ref=e2847]: 15% ABV
+                - link [ref=e2848] [cursor=pointer]:
+                  - /url: https://www.buzzballz.com/products/chili-mango-chiller/
+                  - text: VIEW DETAILS
+          - generic [ref=e2849]:
+            - img [ref=e2851]
+            - generic [ref=e2852]:
+              - generic [ref=e2854]:
+                - img [ref=e2855]
+                - img [ref=e2860]
+                - img [ref=e2865]
+                - img [ref=e2870]
+                - img [ref=e2875]
+              - generic [ref=e2880]:
+                - heading [level=3] [ref=e2881]: Choco Chiller
+                - strong [ref=e2882]: 15% ABV
+                - link [ref=e2883] [cursor=pointer]:
+                  - /url: https://www.buzzballz.com/products/choco-chiller-biggie/
+                  - text: VIEW DETAILS
+          - generic [ref=e2884]:
+            - img [ref=e2886]
+            - generic [ref=e2887]:
+              - generic [ref=e2889]:
+                - img [ref=e2890]
+                - img [ref=e2895]
+                - img [ref=e2900]
+                - img [ref=e2905]
+                - img [ref=e2910]
+              - generic [ref=e2915]:
+                - heading [level=3] [ref=e2916]: Lime ‘Rita
+                - strong [ref=e2917]: 15% ABV
+                - link [ref=e2918] [cursor=pointer]:
+                  - /url: https://www.buzzballz.com/products/lime-rita/
+                  - text: VIEW DETAILS
+          - generic [ref=e2919]:
+            - img [ref=e2921]
+            - generic [ref=e2922]:
+              - generic [ref=e2924]:
+                - img [ref=e2925]
+                - img [ref=e2930]
+                - img [ref=e2935]
+                - img [ref=e2940]
+                - img [ref=e2945]
+              - generic [ref=e2950]:
+                - heading [level=3] [ref=e2951]: Pineapple Colada
+                - strong [ref=e2952]: 15% ABV
+                - link [ref=e2953] [cursor=pointer]:
+                  - /url: https://www.buzzballz.com/products/pineapple-colada-chiller-3/
+                  - text: VIEW DETAILS
+          - generic [ref=e2954]:
+            - img [ref=e2956]
+            - generic [ref=e2957]:
+              - generic [ref=e2959]:
+                - img [ref=e2960]
+                - img [ref=e2965]
+                - img [ref=e2970]
+                - img [ref=e2975]
+                - img [ref=e2980]
+              - generic [ref=e2985]:
+                - heading [level=3] [ref=e2986]: Strawberry ‘Rita
+                - strong [ref=e2987]: 15% ABV
+                - link [ref=e2988] [cursor=pointer]:
+                  - /url: https://www.buzzballz.com/products/strawberry-rita-chiller-biggie/
+                  - text: VIEW DETAILS
+          - generic [ref=e2989]:
+            - img [ref=e2991]
+            - generic [ref=e2992]:
+              - generic [ref=e2994]:
+                - img [ref=e2995]
+                - img [ref=e3000]
+                - img [ref=e3005]
+                - img [ref=e3010]
+                - img [ref=e3015]
+              - generic [ref=e3020]:
+                - heading [level=3] [ref=e3021]: Chocolatini
+                - strong [ref=e3022]: 15% ABV
+                - link [ref=e3023] [cursor=pointer]:
+                  - /url: https://www.buzzballz.com/products/chocolatini/
+                  - text: VIEW DETAILS
+          - generic [ref=e3024]:
+            - img [ref=e3026]
+            - generic [ref=e3027]:
+              - generic [ref=e3029]:
+                - img [ref=e3030]
+                - img [ref=e3035]
+                - img [ref=e3040]
+                - img [ref=e3045]
+                - img [ref=e3050]
+              - generic [ref=e3055]:
+                - heading [level=3] [ref=e3056]: Pineapple Colada
+                - strong [ref=e3057]: 15% ABV
+                - link [ref=e3058] [cursor=pointer]:
+                  - /url: https://www.buzzballz.com/products/pineapple-colada/
+                  - text: VIEW DETAILS
+        - img "next slide" [ref=e3059] [cursor=pointer]
+      - paragraph [ref=e3063]: TAKE BUZZBALLZ TO THE BEACH, HOUSE PARTY, PICNICS AND JUST ABOUT ANYWHERE ELSE YOU MIGHT FIND A GOOD TIME.
+    - generic [ref=e3064]:
+      - img "circle design"
+      - img "background floating image ice cube" [ref=e3065]
+      - img "bottom right ice cube floating in background" [ref=e3066]
+      - generic [ref=e3067]:
+        - heading "We're On A Mission" [level=2] [ref=e3070]:
+          - generic [ref=e3071]: We're On
+          - generic [ref=e3072]: A Mission
+        - generic [ref=e3073]:
+          - generic [ref=e3074]:
+            - img "Woman owned" [ref=e3075]
+            - strong [ref=e3076]: Women Founded
+            - paragraph [ref=e3077]: BuzzBallz is a Women Founded Texas distillery, winery and brewery founded in 2009
+          - generic [ref=e3078]:
+            - strong [ref=e3079]: Au naturel
+            - paragraph [ref=e3080]: All pre-mixed cocktails are crafted with all natural flavors and premium ingredients
+          - generic [ref=e3081]:
+            - img "Love our planet" [ref=e3082]
+            - strong [ref=e3083]: We love our planet
+            - paragraph [ref=e3084]:
+              - text: We are proud to work with international recycling leader
+              - link "TerraCycle®" [ref=e3085] [cursor=pointer]:
+                - /url: https://www.terracycle.com/en-US/brigades/buzzballz
+          - link "Full Story" [ref=e3087] [cursor=pointer]:
+            - /url: https://www.buzzballz.com/our-story/
+    - generic [ref=e3091]:
+      - strong [ref=e3092]: Lifestyle
+      - heading "5 Tailgating Tips as Good as a Touchdown" [level=2] [ref=e3093]
+      - link "Read More" [ref=e3094] [cursor=pointer]:
+        - /url: https://www.buzzballz.com/blog/5-tailgating-tips-as-good-as-a-touchdown/
+    - generic [ref=e3097]:
+      - img "Buzzclub logo white" [ref=e3103]
+      - generic [ref=e3106]:
+        - generic [ref=e3108]:
+          - heading "Earn Buzzies" [level=2]
+          - paragraph: When you complete activities, you will be awarded Buzzies points to your profile
+        - generic [ref=e3110]:
+          - heading "Redeem for Swag" [level=2]
+          - paragraph: Use your well-earned Buzzies points to purchase BuzzBallz branded swag
+        - generic [ref=e3112]:
+          - heading "Exclusive Discussions" [level=2]
+          - paragraph: We ask Buzz Club members to weigh in on flavor innovation & other important topics
+        - link "Sign Up Now" [ref=e3115] [cursor=pointer]:
+          - /url: /buzzclub/
+    - generic [ref=e3117]:
+      - heading "Words from Our Fans" [level=2] [ref=e3120]:
+        - generic [ref=e3121]: Words from
+        - text: Our Fans
+      - generic [ref=e3122]:
+        - generic [ref=e3126]:
+          - generic [ref=e3128]:
+            - strong [ref=e3129]: A great product. Interested in buying a case at a time.
+            - paragraph [ref=e3130]: “By itself or mixed. The only flavor I actually look for at the convenience store. Great,great product. Congrats on your success with this...“
+          - generic [ref=e3132]:
+            - strong [ref=e3133]: A must buy
+            - paragraph [ref=e3134]: “The buzz ball does exactly what the name says if gives you a buzz. Rita is the best flavor out them all to me. This buzz ball is a must...“
+          - generic [ref=e3136]:
+            - strong [ref=e3137]: A ball of deliciousness
+            - paragraph [ref=e3138]: “These are the perfect size to load into a cooler and bring with for some summer fun!! With so many different flavors and the fun shape you...“
+          - generic [ref=e3140]:
+            - strong [ref=e3141]: A great find
+            - paragraph [ref=e3142]: “I was at my local grocery store last night and came across the display of these drinks. I went for the Chock Tease and I absolutely love...“
+          - generic [ref=e3144]:
+            - strong [ref=e3145]: A must try!
+            - paragraph [ref=e3146]: “Super tasty and refreshing!!! Will be trying other flavors as they become available. Thanks!“
+          - generic [ref=e3148]:
+            - strong [ref=e3149]: 10/10
+            - paragraph [ref=e3150]: “Definitely does the job in a pinch!“
+        - img "next icon" [ref=e3152] [cursor=pointer]
+      - generic [ref=e3157]:
+        - generic [ref=e3158]:
+          - strong [ref=e3159]: CM Jackballs
+          - strong [ref=e3160]: Submitted December 9th, 2021
+          - strong [ref=e3161]: Dallas,TX
+        - generic [ref=e3162]:
+          - strong [ref=e3163]: Chel
+          - strong [ref=e3164]: Submitted August 13th, 2020
+          - strong [ref=e3165]: Chicago
+        - generic [ref=e3166]:
+          - strong [ref=e3167]: LVNV72
+          - strong [ref=e3168]: Submitted March 16th, 2022
+          - strong [ref=e3169]: Southwest, AZ
+        - generic [ref=e3170]:
+          - strong [ref=e3171]: AK Yaker
+          - strong [ref=e3172]: Submitted July 3rd, 2020
+          - strong [ref=e3173]: Palmer Alaska
+        - generic [ref=e3174]:
+          - strong [ref=e3175]: Shanice
+          - strong [ref=e3176]: Submitted April 26th, 2022
+          - strong [ref=e3177]: VA
+        - generic [ref=e3178]:
+          - strong [ref=e3179]: Big Ben
+          - strong [ref=e3180]: Submitted April 9th, 2021
+          - strong [ref=e3181]: Texas
+        - generic [ref=e3182]:
+          - strong [ref=e3183]: CM Jackballs
+          - strong [ref=e3184]: Submitted December 9th, 2021
+          - strong [ref=e3185]: Dallas,TX
+        - generic [ref=e3186]:
+          - strong [ref=e3187]: Chel
+          - strong [ref=e3188]: Submitted August 13th, 2020
+          - strong [ref=e3189]: Chicago
+        - generic [ref=e3190]:
+          - strong [ref=e3191]: LVNV72
+          - strong [ref=e3192]: Submitted March 16th, 2022
+          - strong [ref=e3193]: Southwest, AZ
+        - generic [ref=e3194]:
+          - strong [ref=e3195]: AK Yaker
+          - strong [ref=e3196]: Submitted July 3rd, 2020
+          - strong [ref=e3197]: Palmer Alaska
+        - generic [ref=e3198]:
+          - strong [ref=e3199]: Shanice
+          - strong [ref=e3200]: Submitted April 26th, 2022
+          - strong [ref=e3201]: VA
+        - generic [ref=e3202]:
+          - strong [ref=e3203]: Big Ben
+          - strong [ref=e3204]: Submitted April 9th, 2021
+          - strong [ref=e3205]: Texas
+        - generic [ref=e3206]:
+          - strong [ref=e3207]: CM Jackballs
+          - strong [ref=e3208]: Submitted December 9th, 2021
+          - strong [ref=e3209]: Dallas,TX
+        - generic [ref=e3210]:
+          - strong [ref=e3211]: Chel
+          - strong [ref=e3212]: Submitted August 13th, 2020
+          - strong [ref=e3213]: Chicago
+        - generic [ref=e3214]:
+          - strong [ref=e3215]: LVNV72
+          - strong [ref=e3216]: Submitted March 16th, 2022
+          - strong [ref=e3217]: Southwest, AZ
+        - generic [ref=e3218]:
+          - strong [ref=e3219]: AK Yaker
+          - strong [ref=e3220]: Submitted July 3rd, 2020
+          - strong [ref=e3221]: Palmer Alaska
+        - generic [ref=e3222]:
+          - strong [ref=e3223]: Shanice
+          - strong [ref=e3224]: Submitted April 26th, 2022
+          - strong [ref=e3225]: VA
+    - generic [ref=e3226]:
+      - heading "CONNECT BUZZBALLZ NATION" [level=2] [ref=e3230]:
+        - generic [ref=e3231]: CONNECT
+        - text: BUZZBALLZ NATION
+      - generic [ref=e3232]:
+        - link "What happens when a mango meets a jalapeño pepper? You get a vibrant, smooth cocktail with an attitude. 🥭 *Please drink responsibly" [ref=e3234] [cursor=pointer]:
+          - /url: https://www.instagram.com/p/C7zpqsWx-T0/
+          - generic [ref=e3236]: What happens when a mango meets a jalapeño pepper? You get a vibrant, smooth cocktail with an attitude. 🥭 *Please drink responsibly
+        - link "Us in another universe *Please drink responsibly" [ref=e3238] [cursor=pointer]:
+          - /url: https://www.instagram.com/p/C7j_ZJjv2cT/
+          - generic [ref=e3240]: Us in another universe *Please drink responsibly
+        - link "Nothing better than a chilled BuzzBall in the sunshine ️ We hope you are enjoying your long weekend! *Please drink responsibly." [ref=e3242] [cursor=pointer]:
+          - /url: https://www.instagram.com/p/C7ejCsGy61W/
+          - generic [ref=e3244]: Nothing better than a chilled BuzzBall in the sunshine ️ We hope you are enjoying your long weekend! *Please drink responsibly.
+        - link "We loved getting to connect with all of you at our Spring events 🫶 Let us know in the comments where you want to see BuzzBallz next!" [ref=e3246] [cursor=pointer]:
+          - /url: https://www.instagram.com/reel/C7U0o-Jv4uU/
+          - generic [ref=e3248]: We loved getting to connect with all of you at our Spring events 🫶 Let us know in the comments where you want to see BuzzBallz next!
+      - generic [ref=e3250]:
+        - generic [ref=e3251]:
+          - strong [ref=e3252]: TAG US ON SOCIAL
+          - strong [ref=e3253]: "#BUZZBALLZ"
+        - generic [ref=e3254]:
+          - link "Follow us on X (formerly Twitter) X Logo" [ref=e3255] [cursor=pointer]:
+            - /url: https://twitter.com/BUZZBALLZ
+            - generic [ref=e3256]: Follow us on X (formerly Twitter)
+            - img "X Logo" [ref=e3257]
+          - link "Follow us on Facebook Facebook Logo" [ref=e3259] [cursor=pointer]:
+            - /url: https://www.facebook.com/BuzzBallz
+            - generic [ref=e3260]: Follow us on Facebook
+            - img "Facebook Logo" [ref=e3261]
+          - link "Follow us on Instagram Instagram Logo" [ref=e3267] [cursor=pointer]:
+            - /url: https://www.instagram.com/buzzballz
+            - generic [ref=e3268]: Follow us on Instagram
+            - img "Instagram Logo" [ref=e3269]
+  - contentinfo [ref=e3275]:
+    - generic [ref=e3278]:
+      - generic [ref=e3279]:
+        - img "Buzzballz Logo" [ref=e3280]
+        - generic [ref=e3281]:
+          - paragraph [ref=e3282]:
+            - text: "Phone: 866-729-3722"
+            - text: "Email:"
+            - link "info@sazerac.com" [ref=e3283] [cursor=pointer]:
+              - /url: mailto:info@sazerac.com
+          - paragraph [ref=e3284]:
+            - text: Proud supporter of
+            - link "Responsibility.org" [ref=e3285] [cursor=pointer]:
+              - /url: https://www.responsibility.org/
+        - generic [ref=e3286]:
+          - link "Follow us on X (formerly Twitter) X Logo" [ref=e3287] [cursor=pointer]:
+            - /url: https://twitter.com/BUZZBALLZ
+            - generic [ref=e3288]: Follow us on X (formerly Twitter)
+            - img "X Logo" [ref=e3289]
+          - link "Follow us on Facebook Facebook Logo" [ref=e3291] [cursor=pointer]:
+            - /url: https://www.facebook.com/BuzzBallz
+            - generic [ref=e3292]: Follow us on Facebook
+            - img "Facebook Logo" [ref=e3293]
+          - link "Follow us on Instagram Instagram Logo" [ref=e3299] [cursor=pointer]:
+            - /url: https://www.instagram.com/buzzballz
+            - generic [ref=e3300]: Follow us on Instagram
+            - img "Instagram Logo" [ref=e3301]
+      - list [ref=e3310]:
+        - listitem [ref=e3311]:
+          - link "Our Products" [ref=e3312] [cursor=pointer]:
+            - /url: /products
+        - listitem [ref=e3313]:
+          - link "About Us" [ref=e3314] [cursor=pointer]:
+            - /url: https://www.buzzballz.com/our-story/
+        - listitem [ref=e3315]:
+          - link "Events" [ref=e3316] [cursor=pointer]:
+            - /url: /events/
+      - list [ref=e3320]:
+        - listitem [ref=e3321]:
+          - link "Find BuzzBallz" [ref=e3322] [cursor=pointer]:
+            - /url: https://www.buzzballz.com/product-finder/
+        - listitem [ref=e3323]:
+          - link "Distributors" [ref=e3324] [cursor=pointer]:
+            - /url: https://www.buzzballz.com/distributors/
+        - listitem [ref=e3325]:
+          - link "Contact Us" [ref=e3326] [cursor=pointer]:
+            - /url: https://www.buzzballz.com/contact/
+      - generic [ref=e3327]:
+        - heading "NEWSLETTER" [level=2] [ref=e3328]
+        - paragraph [ref=e3329]: Sign up for the latest news from BuzzBallz
+        - generic [ref=e3330]:
+          - generic:
+            - paragraph
+          - generic [ref=e3331]:
+            - generic [ref=e3334]:
+              - generic [ref=e3335]:
+                - text: Email
+                - generic [ref=e3337]: (Required)
+              - textbox "Email (Required)" [ref=e3339]:
+                - /placeholder: Enter Email Address*
+            - button "SIGN UP" [ref=e3341] [cursor=pointer]
+    - generic [ref=e3343]:
+      - generic [ref=e3345]:
+        - generic [ref=e3346]: ©2024 Sazerac Co, Inc. All rights reserved.
+        - list [ref=e3348]:
+          - listitem [ref=e3349]:
+            - link "Privacy" [ref=e3350] [cursor=pointer]:
+              - /url: https://www.sazerac.com/SazeracPrivacyPolicy.html
+          - listitem [ref=e3351]:
+            - link "Terms" [ref=e3352] [cursor=pointer]:
+              - /url: https://www.sazerac.com/SazeracTermsOfUse.html
+          - listitem [ref=e3353]:
+            - link "Human Rights Policy" [ref=e3354] [cursor=pointer]:
+              - /url: https://www.sazerac.com/SazeracHumanRightsPolicy.html
+          - listitem [ref=e3355]:
+            - link "Accessibility" [ref=e3356] [cursor=pointer]:
+              - /url: https://www.sazerac.com/SazeracAccessibilityPolicy.html
+          - listitem [ref=e3357]:
+            - link "CA Privacy Notice" [ref=e3358] [cursor=pointer]:
+              - /url: https://www.sazerac.com/SazeracPrivacyPolicy.html#CAPrivacyNotice
+          - listitem [ref=e3359]:
+            - link "Sitemap" [ref=e3360] [cursor=pointer]:
+              - /url: /wp-sitemap.xml
+      - button "Cookie Settings" [ref=e3363] [cursor=pointer]
+      - generic [ref=e3366]:
+        - text: Your Privacy Choices
+        - link "Review your privacy choices" [ref=e3367] [cursor=pointer]:
+          - /url: https://privacyportal.onetrust.com/webform/1ed3e47c-2e02-40a4-b815-0320c377ece6/1a6289c6-37c3-4c4b-9acd-423a6fa9e0f8
+          - img "Review your privacy choices" [ref=e3368]
+  - region "Cookie banner" [active] [ref=e3372]:
+    - dialog "Privacy" [ref=e3373]:
+      - generic [ref=e3375]:
+        - generic [ref=e3378]: By clicking “Accept All Cookies”, you agree to the storing of cookies on your device by Sazerac Company, Inc. (Sazerac) and our third party partners to operate the website, enhance site navigation, analyze site usage and performance, and assist in our marketing efforts, such as to display personalized content, including ads.
+        - generic [ref=e3380]:
+          - button "Cookie Settings" [ref=e3381] [cursor=pointer]
+          - button "Reject Non-Essential Cookies" [ref=e3382] [cursor=pointer]
+          - button "Accept All Cookies" [ref=e3383] [cursor=pointer]
+      - button "Close" [ref=e3385] [cursor=pointer]

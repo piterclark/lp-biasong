@@ -1,0 +1,11 @@
+[     163ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:4322/arborea/assets/U9MH6cuh-mLQlC4BKCtayOfARkSVq7HUJA.woff2:0
+[     163ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:4322/arborea/assets/nuFiD-vYSZviVYUb_rj3ij__anPXDTzYgA.woff2:0
+[     163ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:4322/arborea/assets/BngMUXZYTXPIvIBgJJSb6ufN5qU.woff2:0
+[     164ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:4322/arborea/assets/KFO7CnqEu92Fr1ME7kSn66aGLdTylUAMa3yUBA.woff2:0
+[     164ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:4322/arborea/assets/KFO5CnqEu92Fr1Mu53ZEC9_Vu3r1gIhOszmkBnka.woff2:0
+[     176ms] Uncaught TypeError: Cannot set properties of undefined (setting '_backupNodes')
+    at <anonymous> (https://meuarborea.com.br/wp-content/cache/min/1/9e740338ab88f29052ce9ff77204efff.js:0:986)
+    at o (https://meuarborea.com.br/wp-content/cache/min/1/9e740338ab88f29052ce9ff77204efff.js:0:109)
+    at <anonymous> (https://meuarborea.com.br/wp-content/cache/min/1/9e740338ab88f29052ce9ff77204efff.js:0:901)
+    at <anonymous> (https://meuarborea.com.br/wp-content/cache/min/1/9e740338ab88f29052ce9ff77204efff.js:0:910)
+[    3665ms] [WARNING] The resource http://localhost:4322/arborea/assets/Embasamento_arborea_jmf.jpg was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ http://localhost:4322/arborea/index.html:0

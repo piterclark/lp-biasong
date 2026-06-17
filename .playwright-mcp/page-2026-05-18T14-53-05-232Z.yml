@@ -1,0 +1,678 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e4]:
+      - link "Nicepage.com" [ref=e6] [cursor=pointer]:
+        - /url: https://nicepage.com
+        - img "Nicepage.com" [ref=e7]
+      - generic [ref=e8]:
+        - list [ref=e9]:
+          - listitem [ref=e10]:
+            - link "Download" [ref=e11] [cursor=pointer]:
+              - /url: /download
+          - listitem [ref=e12]:
+            - link "400+ Features" [ref=e13] [cursor=pointer]:
+              - /url: /features
+          - listitem [ref=e14]:
+            - button "15,000+ Templates" [ref=e15] [cursor=pointer]: 15,000+ Templates
+          - listitem [ref=e17]:
+            - button "Website Builders" [ref=e18] [cursor=pointer]: Website Builders
+          - listitem [ref=e20]:
+            - link "Pricing" [ref=e21] [cursor=pointer]:
+              - /url: /premium?code=sp26
+          - listitem [ref=e22]:
+            - link "Forums" [ref=e23] [cursor=pointer]:
+              - /url: /forum
+          - listitem [ref=e24]:
+            - link "Blog" [ref=e25] [cursor=pointer]:
+              - /url: /blog
+          - listitem [ref=e26]:
+            - button "Help" [ref=e27] [cursor=pointer]: Help
+        - list [ref=e29]:
+          - listitem [ref=e30]:
+            - button "EN" [ref=e31] [cursor=pointer]: EN
+          - listitem [ref=e33]:
+            - link "Sign In" [ref=e34] [cursor=pointer]:
+              - /url: "#"
+          - listitem
+          - listitem [ref=e35]:
+            - link "Register" [ref=e36] [cursor=pointer]:
+              - /url: "#"
+          - listitem
+    - generic [ref=e37]:
+      - link "Spring Sale! Save up to 50% off!" [ref=e38] [cursor=pointer]:
+        - /url: /premium?code=sp26
+        - img "Spring Sale! Save up to 50% off!" [ref=e39]
+      - generic [ref=e40]:
+        - generic [ref=e41]:
+          - generic [ref=e42]:
+            - generic [ref=e44]:
+              - list [ref=e47]:
+                - listitem [ref=e48]:
+                  - link "Home" [ref=e49] [cursor=pointer]:
+                    - /url: https://nicepage.com
+                - listitem [ref=e50]:
+                  - text: /
+                  - link "Landing Pages" [ref=e51] [cursor=pointer]:
+                    - /url: /landing-page
+                - listitem [ref=e52]:
+                  - text: /
+                  - link "Interior" [ref=e53] [cursor=pointer]:
+                    - /url: /c/interior-landing-page
+                - listitem [ref=e54]: / Furniture store
+              - heading "Furniture store Landing Page" [level=1] [ref=e55]
+              - generic [ref=e56]: Create a professional landing page. Responsive, fully customizable with easy Drag-n-Drop Nicepage editor. Adjust colors, fonts, header and footer, layout and other design elements, as well as content and images.
+              - generic:
+                - generic [ref=e57]:
+                  - text: "ID : 544039 | Category :"
+                  - link "Interior" [ref=e58] [cursor=pointer]:
+                    - /url: /c/interior-landing-page
+                  - text: ","
+                  - link "Split" [ref=e59] [cursor=pointer]:
+                    - /url: /c/split-landing-page
+                - link "Demo Preview" [ref=e61] [cursor=pointer]:
+                  - /url: /landing-page/preview/furniture-store-544039?device=desktop
+                  - img [ref=e63]
+                  - text: Demo Preview
+            - generic [ref=e68]:
+              - link "Furniture store Landing Page" [ref=e70] [cursor=pointer]:
+                - /url: /landing-page/preview/furniture-store-544039?device=desktop
+                - img "Furniture store Landing Page" [ref=e72]
+              - generic [ref=e73]:
+                - heading "Customize with Nicepage" [level=2] [ref=e74]
+                - paragraph [ref=e75]:
+                  - text: When using
+                  - link "Landing Page Builder" [ref=e76] [cursor=pointer]:
+                    - /url: /website-builder
+                  - text: you will be able to adjust colors, fonts, header and footer, layout, columns and other design elements, as well as content and images.
+          - generic [ref=e82]:
+            - heading "Edit Template Offline" [level=3] [ref=e83]
+            - generic [ref=e84]:
+              - text: 1. Download and Install the Nicepage application for Windows and Mac. Or WordPress and Joomla plugins from the
+              - link "download page" [ref=e85] [cursor=pointer]:
+                - /url: /download
+              - text: 2. Create a new page or select existing
+              - text: 3. Click Add new block, search for id
+              - strong [ref=e86]: "544039"
+              - text: and click enter
+            - link "Download" [ref=e88] [cursor=pointer]:
+              - /url: "#"
+            - heading "Edit Template Online" [level=3] [ref=e89]
+            - generic [ref=e90]:
+              - text: Run
+              - link "Online Builder" [ref=e91] [cursor=pointer]:
+                - /url: "#"
+              - text: to edit this template on our hosting
+            - generic [ref=e92]:
+              - heading "Create Awesome Websites" [level=3] [ref=e93]
+              - generic [ref=e94]:
+                - generic [ref=e95]:
+                  - img "WordPress Plugin" [ref=e96]
+                  - text: WordPress
+                - generic [ref=e97]:
+                  - img "Windows Application" [ref=e98]
+                  - text: Windows App
+              - generic [ref=e99]:
+                - generic [ref=e100]:
+                  - img "Joomla Plugin" [ref=e101]
+                  - text: Joomla
+                - generic [ref=e102]:
+                  - img "Mac OS Application" [ref=e103]
+                  - text: Mac OS App
+              - generic [ref=e104]:
+                - generic [ref=e105]:
+                  - img "HTML5" [ref=e106]
+                  - text: HTML5
+                - generic [ref=e107]:
+                  - img "Online Builder" [ref=e108]
+                  - text: Online
+            - generic [ref=e109]:
+              - heading "Free Nicepage Builder" [level=3] [ref=e110]
+              - generic [ref=e112]:
+                - generic [ref=e113]:
+                  - img [ref=e114]
+                  - img
+                - text: 15,000+ Web Templates
+              - generic [ref=e123]:
+                - generic [ref=e124]:
+                  - img [ref=e125]
+                  - img
+                - text: Easy Drag-n-Drop
+              - generic [ref=e155]:
+                - generic [ref=e156]:
+                  - img [ref=e157]
+                  - img
+                - text: No Coding
+              - generic [ref=e166]:
+                - generic [ref=e167]:
+                  - img [ref=e168]
+                  - img
+                - text: Mobile-Friendly
+            - generic [ref=e173]:
+              - heading "Keywords" [level=3] [ref=e174]
+              - paragraph [ref=e177]:
+                - link "magazine" [ref=e178] [cursor=pointer]:
+                  - /url: /k/magazine-landing-page
+                - generic [ref=e179]: ","
+                - link "content" [ref=e180] [cursor=pointer]:
+                  - /url: /k/content-website-templates
+                - generic [ref=e181]: ","
+                - link "room" [ref=e182] [cursor=pointer]:
+                  - /url: /k/room-landing-page
+                - generic [ref=e183]: ","
+                - link "modern" [ref=e184] [cursor=pointer]:
+                  - /url: /k/modern-website-templates
+                - generic [ref=e185]: ","
+                - link "indoor" [ref=e186] [cursor=pointer]:
+                  - /url: /k/indoor-html-templates
+                - generic [ref=e187]: ","
+                - link "table" [ref=e188] [cursor=pointer]:
+                  - /url: /k/table-landing-page
+                - generic [ref=e189]: ","
+                - link "chair" [ref=e190] [cursor=pointer]:
+                  - /url: /k/chair-landing-page
+                - generic [ref=e191]: ","
+                - link "architecture" [ref=e192] [cursor=pointer]:
+                  - /url: /k/architecture-landing-page
+                - generic [ref=e193]: ","
+                - link "home interior" [ref=e194] [cursor=pointer]:
+                  - /url: /k/home-interior-website-templates
+                - generic [ref=e195]: ","
+                - link "interior" [ref=e196] [cursor=pointer]:
+                  - /url: /k/interior-landing-page
+                - generic [ref=e197]: ","
+                - link "couch" [ref=e198] [cursor=pointer]:
+                  - /url: /k/couch-website-templates
+                - generic [ref=e199]: ","
+                - link "sofa" [ref=e200] [cursor=pointer]:
+                  - /url: /k/sofa-landing-page
+                - generic [ref=e201]: ","
+                - link "furniture" [ref=e202] [cursor=pointer]:
+                  - /url: /k/furniture-landing-page
+                - generic [ref=e203]: ","
+                - link "interior design" [ref=e204] [cursor=pointer]:
+                  - /url: /k/interior-design-website-templates
+                - generic [ref=e205]: ","
+                - link "split" [ref=e206] [cursor=pointer]:
+                  - /url: /k/split-landing-page
+        - generic [ref=e208]:
+          - heading "More from Interior Landing Pages" [level=3] [ref=e209]
+          - generic [ref=e210]:
+            - generic [ref=e213]:
+              - link "I am an interior designer I am an interior designer Landing Pages" [ref=e214] [cursor=pointer]:
+                - /url: /lp/139773/i-am-an-interior-designer-landing-page
+                - text: I am an interior designer
+                - img "I am an interior designer Landing Pages" [ref=e216]
+              - link "London Interior Design Studio London Interior Design Studio Landing Pages" [ref=e217] [cursor=pointer]:
+                - /url: /lp/6248996/london-interior-design-studio-landing-page
+                - text: London Interior Design Studio
+                - img "London Interior Design Studio Landing Pages" [ref=e219]
+              - link "Real estate agency for people Real estate agency for people Landing Pages" [ref=e220] [cursor=pointer]:
+                - /url: /lp/75309/real-estate-agency-for-people-landing-page
+                - text: Real estate agency for people
+                - img "Real estate agency for people Landing Pages" [ref=e222]
+              - link "Multimedia based interior Multimedia based interior Landing Pages" [ref=e223] [cursor=pointer]:
+                - /url: /lp/79777/multimedia-based-interior-landing-page
+                - text: Multimedia based interior
+                - img "Multimedia based interior Landing Pages" [ref=e225]
+              - link "Personal thoughts in interior Personal thoughts in interior Landing Pages" [ref=e226] [cursor=pointer]:
+                - /url: /lp/68879/personal-thoughts-in-interior-landing-page
+                - text: Personal thoughts in interior
+                - img "Personal thoughts in interior Landing Pages" [ref=e228]
+              - link "Comfort in your home Comfort in your home Landing Pages" [ref=e229] [cursor=pointer]:
+                - /url: /lp/27308/comfort-in-your-home-landing-page
+                - text: Comfort in your home
+                - img "Comfort in your home Landing Pages" [ref=e231]
+              - link "Contemporary home furnishing Contemporary home furnishing Landing Pages" [ref=e232] [cursor=pointer]:
+                - /url: /lp/6182764/contemporary-home-furnishing-landing-page
+                - text: Contemporary home furnishing
+                - img "Contemporary home furnishing Landing Pages" [ref=e234]
+              - link "Soul nourishing spaces Soul nourishing spaces Landing Pages" [ref=e235] [cursor=pointer]:
+                - /url: /lp/6353871/soul-nourishing-spaces-landing-page
+                - text: Soul nourishing spaces
+                - img "Soul nourishing spaces Landing Pages" [ref=e237]
+              - link "Architecture and interior design agency Architecture and interior design agency Landing Pages" [ref=e238] [cursor=pointer]:
+                - /url: /lp/2317031/architecture-and-interior-design-agency-landing-page
+                - text: Architecture and interior design agency
+                - img "Architecture and interior design agency Landing Pages" [ref=e240]
+              - link "Custom interior designs Custom interior designs Landing Pages" [ref=e241] [cursor=pointer]:
+                - /url: /lp/6226049/custom-interior-designs-landing-page
+                - text: Custom interior designs
+                - img "Custom interior designs Landing Pages" [ref=e243]
+              - link "Visualization of interiors Visualization of interiors Landing Pages" [ref=e244] [cursor=pointer]:
+                - /url: /lp/843235/visualization-of-interiors-landing-page
+                - text: Visualization of interiors
+                - img "Visualization of interiors Landing Pages" [ref=e246]
+              - link "Best Design Offices Best Design Offices Landing Pages" [ref=e247] [cursor=pointer]:
+                - /url: /lp/18138/best-design-offices-landing-page
+                - text: Best Design Offices
+                - img "Best Design Offices Landing Pages" [ref=e249]
+              - link "What are the steps to buy What are the steps to buy Landing Pages" [ref=e250] [cursor=pointer]:
+                - /url: /lp/6067629/what-are-the-steps-to-buy-landing-page
+                - text: What are the steps to buy
+                - img "What are the steps to buy Landing Pages" [ref=e252]
+              - link "Functional interior design Functional interior design Landing Pages" [ref=e253] [cursor=pointer]:
+                - /url: /lp/1491872/functional-interior-design-landing-page
+                - text: Functional interior design
+                - img "Functional interior design Landing Pages" [ref=e255]
+              - link "Luxury interior design studio Luxury interior design studio Landing Pages" [ref=e256] [cursor=pointer]:
+                - /url: /lp/2294605/luxury-interior-design-studio-landing-page
+                - text: Luxury interior design studio
+                - img "Luxury interior design studio Landing Pages" [ref=e258]
+              - link "Interior design, decorating, and construction Interior design, decorating, and construction Landing Pages" [ref=e259] [cursor=pointer]:
+                - /url: /lp/6120580/interior-design-decorating-and-construction-landing-page
+                - text: Interior design, decorating, and construction
+                - img "Interior design, decorating, and construction Landing Pages" [ref=e261]
+              - link "Residential & commercial interior design Residential & commercial interior design Landing Pages" [ref=e262] [cursor=pointer]:
+                - /url: /lp/6333436/residential-commercial-interior-design-landing-page
+                - text: Residential & commercial interior design
+                - img "Residential & commercial interior design Landing Pages" [ref=e264]
+              - link "Warm interior Warm interior Landing Pages" [ref=e265] [cursor=pointer]:
+                - /url: /lp/376841/warm-interior-landing-page
+                - text: Warm interior
+                - img "Warm interior Landing Pages" [ref=e267]
+              - link "Interior design portfolio Interior design portfolio Landing Pages" [ref=e268] [cursor=pointer]:
+                - /url: /lp/4086464/interior-design-portfolio-landing-page
+                - text: Interior design portfolio
+                - img "Interior design portfolio Landing Pages" [ref=e270]
+              - link "Luxe Interiors Luxe Interiors Landing Pages" [ref=e271] [cursor=pointer]:
+                - /url: /lp/6511927/luxe-interiors-landing-page
+                - text: Luxe Interiors
+                - img "Luxe Interiors Landing Pages" [ref=e273]
+            - link "thumbnail slider show more" [ref=e274] [cursor=pointer]:
+              - /url: "#"
+              - img [ref=e276]
+        - generic [ref=e279]:
+          - heading "More from Interior Blocks" [level=3] [ref=e280]
+          - list [ref=e282]:
+            - listitem [ref=e283]:
+              - link "Interior Design For Your Home" [ref=e285] [cursor=pointer]:
+                - /url: /lp/533452/interior-design-for-your-home-landing-page
+                - img "Interior Design For Your Home" [ref=e286]
+              - link "Interior Design For Your Home" [ref=e288] [cursor=pointer]:
+                - /url: /lp/533452/interior-design-for-your-home-landing-page
+            - listitem [ref=e289]:
+              - link "From Concept To Reality" [ref=e291] [cursor=pointer]:
+                - /url: /lp/6226000/from-concept-to-reality-landing-page
+                - img "From Concept To Reality" [ref=e292]
+              - link "From Concept To Reality" [ref=e294] [cursor=pointer]:
+                - /url: /lp/6226000/from-concept-to-reality-landing-page
+            - listitem [ref=e295]:
+              - link "Use Our Contact Form For All Information Requests" [ref=e297] [cursor=pointer]:
+                - /url: /lp/2317029/use-our-contact-form-for-all-information-requests-landing-page
+                - img "Use Our Contact Form For All Information Requests" [ref=e298]
+              - link "Use Our Contact Form For All Information Requests" [ref=e300] [cursor=pointer]:
+                - /url: /lp/2317029/use-our-contact-form-for-all-information-requests-landing-page
+            - listitem [ref=e301]:
+              - link "Interior Design Mobile App" [ref=e303] [cursor=pointer]:
+                - /url: /lp/402280/interior-design-mobile-app-landing-page
+                - img "Interior Design Mobile App" [ref=e304]
+              - link "Interior Design Mobile App" [ref=e306] [cursor=pointer]:
+                - /url: /lp/402280/interior-design-mobile-app-landing-page
+            - listitem [ref=e307]:
+              - link "Gallery With Interior Ideas" [ref=e309] [cursor=pointer]:
+                - /url: /lp/76393/gallery-with-interior-ideas-landing-page
+                - img "Gallery With Interior Ideas" [ref=e310]
+              - link "Gallery With Interior Ideas" [ref=e312] [cursor=pointer]:
+                - /url: /lp/76393/gallery-with-interior-ideas-landing-page
+            - listitem [ref=e313]:
+              - link "Nordic Style" [ref=e315] [cursor=pointer]:
+                - /url: /lp/183302/nordic-style-landing-page
+                - img "Nordic Style" [ref=e316]
+              - link "Nordic Style" [ref=e318] [cursor=pointer]:
+                - /url: /lp/183302/nordic-style-landing-page
+            - listitem [ref=e319]:
+              - link "Your Interior Decorating Style" [ref=e321] [cursor=pointer]:
+                - /url: /lp/813168/your-interior-decorating-style-landing-page
+                - img "Your Interior Decorating Style" [ref=e322]
+              - link "Your Interior Decorating Style" [ref=e324] [cursor=pointer]:
+                - /url: /lp/813168/your-interior-decorating-style-landing-page
+            - listitem [ref=e325]:
+              - link "Modern Apartment Interior" [ref=e327] [cursor=pointer]:
+                - /url: /lp/1403867/modern-apartment-interior-landing-page
+                - img "Modern Apartment Interior" [ref=e328]
+              - link "Modern Apartment Interior" [ref=e330] [cursor=pointer]:
+                - /url: /lp/1403867/modern-apartment-interior-landing-page
+            - listitem [ref=e331]:
+              - link "Contact Form With Rectangle" [ref=e333] [cursor=pointer]:
+                - /url: /lp/6225853/contact-form-with-rectangle-landing-page
+                - img "Contact Form With Rectangle" [ref=e334]
+              - link "Contact Form With Rectangle" [ref=e336] [cursor=pointer]:
+                - /url: /lp/6225853/contact-form-with-rectangle-landing-page
+            - listitem [ref=e337]:
+              - link "Renovations And Remodeling Landing Page" [ref=e339] [cursor=pointer]:
+                - /url: /lp/54754/renovations-and-remodeling-landing-page
+                - img "Renovations And Remodeling Landing Page" [ref=e340]
+              - link "Renovations And Remodeling Landing Page" [ref=e342] [cursor=pointer]:
+                - /url: /lp/54754/renovations-and-remodeling-landing-page
+            - listitem [ref=e343]:
+              - generic [ref=e344]:
+                - generic [ref=e345]: Free Website Builder Software
+                - link "Download" [ref=e346] [cursor=pointer]:
+                  - /url: /download
+            - listitem [ref=e347]:
+              - link "Create Good Experiences" [ref=e349] [cursor=pointer]:
+                - /url: /lp/6182787/create-good-experiences-landing-page
+                - img "Create Good Experiences" [ref=e350]
+              - link "Create Good Experiences" [ref=e352] [cursor=pointer]:
+                - /url: /lp/6182787/create-good-experiences-landing-page
+            - listitem [ref=e353]:
+              - link [ref=e355] [cursor=pointer]:
+                - /url: ""
+              - generic:
+                - link:
+                  - /url: ""
+            - listitem [ref=e356]:
+              - link "Articles About Interior Design" [ref=e358] [cursor=pointer]:
+                - /url: /lp/86049/articles-about-interior-design-landing-page
+                - img "Articles About Interior Design" [ref=e359]
+              - link "Articles About Interior Design" [ref=e361] [cursor=pointer]:
+                - /url: /lp/86049/articles-about-interior-design-landing-page
+            - listitem [ref=e362]:
+              - link "We Design Residential And Commercial Projects" [ref=e364] [cursor=pointer]:
+                - /url: /lp/6120463/we-design-residential-and-commercial-projects-landing-page
+                - img "We Design Residential And Commercial Projects" [ref=e365]
+              - link "We Design Residential And Commercial Projects" [ref=e367] [cursor=pointer]:
+                - /url: /lp/6120463/we-design-residential-and-commercial-projects-landing-page
+            - listitem [ref=e368]:
+              - link "Vibrant Patterns" [ref=e370] [cursor=pointer]:
+                - /url: /lp/2295207/vibrant-patterns-landing-page
+                - img "Vibrant Patterns" [ref=e371]
+              - link "Vibrant Patterns" [ref=e373] [cursor=pointer]:
+                - /url: /lp/2295207/vibrant-patterns-landing-page
+            - listitem [ref=e374]:
+              - link "Cool Lucite Furniture" [ref=e376] [cursor=pointer]:
+                - /url: /lp/96110/cool-lucite-furniture-landing-page
+                - img "Cool Lucite Furniture" [ref=e377]
+              - link "Cool Lucite Furniture" [ref=e379] [cursor=pointer]:
+                - /url: /lp/96110/cool-lucite-furniture-landing-page
+            - listitem [ref=e380]:
+              - link "Luxury And Classic Furniture" [ref=e382] [cursor=pointer]:
+                - /url: /lp/107234/luxury-and-classic-furniture-landing-page
+                - img "Luxury And Classic Furniture" [ref=e383]
+              - link "Luxury And Classic Furniture" [ref=e385] [cursor=pointer]:
+                - /url: /lp/107234/luxury-and-classic-furniture-landing-page
+            - listitem [ref=e386]:
+              - link "Construction And Flooring" [ref=e388] [cursor=pointer]:
+                - /url: /lp/118051/construction-and-flooring-landing-page
+                - img "Construction And Flooring" [ref=e389]
+              - link "Construction And Flooring" [ref=e391] [cursor=pointer]:
+                - /url: /lp/118051/construction-and-flooring-landing-page
+            - listitem [ref=e392]:
+              - link "House Interior Design" [ref=e394] [cursor=pointer]:
+                - /url: /lp/85986/house-interior-design-landing-page
+                - img "House Interior Design" [ref=e395]
+              - link "House Interior Design" [ref=e397] [cursor=pointer]:
+                - /url: /lp/85986/house-interior-design-landing-page
+            - listitem [ref=e398]:
+              - link "Interior Design Excellence Landing Page" [ref=e400] [cursor=pointer]:
+                - /url: /lp/6276481/interior-design-excellence-landing-page
+                - img "Interior Design Excellence Landing Page" [ref=e401]
+              - link "Interior Design Excellence Landing Page" [ref=e403] [cursor=pointer]:
+                - /url: /lp/6276481/interior-design-excellence-landing-page
+        - generic [ref=e405]:
+          - heading "More from Split Blocks" [level=3] [ref=e406]
+          - list [ref=e407]:
+            - listitem [ref=e408]:
+              - link "Solar Solutions" [ref=e410] [cursor=pointer]:
+                - /url: /lp/2260902/solar-solutions-landing-page
+                - img "Solar Solutions" [ref=e411]
+              - link "Solar Solutions" [ref=e413] [cursor=pointer]:
+                - /url: /lp/2260902/solar-solutions-landing-page
+            - listitem [ref=e414]:
+              - link "Process And Timescales" [ref=e416] [cursor=pointer]:
+                - /url: /lp/6499688/process-and-timescales-landing-page
+                - img "Process And Timescales" [ref=e417]
+              - link "Process And Timescales" [ref=e419] [cursor=pointer]:
+                - /url: /lp/6499688/process-and-timescales-landing-page
+            - listitem [ref=e420]:
+              - link "Million Visitor Growth" [ref=e422] [cursor=pointer]:
+                - /url: /lp/4376770/million-visitor-growth-landing-page
+                - img "Million Visitor Growth" [ref=e423]
+              - link "Million Visitor Growth" [ref=e425] [cursor=pointer]:
+                - /url: /lp/4376770/million-visitor-growth-landing-page
+            - listitem [ref=e426]:
+              - link "Build Digital Product Brand" [ref=e428] [cursor=pointer]:
+                - /url: /lp/6273774/build-digital-product-brand-landing-page
+                - img "Build Digital Product Brand" [ref=e429]
+              - link "Build Digital Product Brand" [ref=e431] [cursor=pointer]:
+                - /url: /lp/6273774/build-digital-product-brand-landing-page
+            - listitem [ref=e432]:
+              - link "Busy Life" [ref=e434] [cursor=pointer]:
+                - /url: /lp/3425175/busy-life-landing-page
+                - img "Busy Life" [ref=e435]
+              - link "Busy Life" [ref=e437] [cursor=pointer]:
+                - /url: /lp/3425175/busy-life-landing-page
+            - listitem [ref=e438]:
+              - link "Welcome To The Barbershop" [ref=e440] [cursor=pointer]:
+                - /url: /lp/6404714/welcome-to-the-barbershop-landing-page
+                - img "Welcome To The Barbershop" [ref=e441]
+              - link "Welcome To The Barbershop" [ref=e443] [cursor=pointer]:
+                - /url: /lp/6404714/welcome-to-the-barbershop-landing-page
+            - listitem [ref=e444]:
+              - link "Dine In Elegant Style" [ref=e446] [cursor=pointer]:
+                - /url: /lp/6332515/dine-in-elegant-style-landing-page
+                - img "Dine In Elegant Style" [ref=e447]
+              - link "Dine In Elegant Style" [ref=e449] [cursor=pointer]:
+                - /url: /lp/6332515/dine-in-elegant-style-landing-page
+            - listitem [ref=e450]:
+              - link "Tasty Food Preparation" [ref=e452] [cursor=pointer]:
+                - /url: /lp/41705/tasty-food-preparation-landing-page
+                - img "Tasty Food Preparation" [ref=e453]
+              - link "Tasty Food Preparation" [ref=e455] [cursor=pointer]:
+                - /url: /lp/41705/tasty-food-preparation-landing-page
+            - listitem [ref=e456]:
+              - link "Welcome To Kids Camp" [ref=e458] [cursor=pointer]:
+                - /url: /lp/2801801/welcome-to-kids-camp-landing-page
+                - img "Welcome To Kids Camp" [ref=e459]
+              - link "Welcome To Kids Camp" [ref=e461] [cursor=pointer]:
+                - /url: /lp/2801801/welcome-to-kids-camp-landing-page
+            - listitem [ref=e462]:
+              - link "Nutritionist And Naturopath Landing Page" [ref=e464] [cursor=pointer]:
+                - /url: /lp/6422473/nutritionist-and-naturopath-landing-page
+                - img "Nutritionist And Naturopath Landing Page" [ref=e465]
+              - link "Nutritionist And Naturopath Landing Page" [ref=e467] [cursor=pointer]:
+                - /url: /lp/6422473/nutritionist-and-naturopath-landing-page
+            - listitem [ref=e468]:
+              - generic [ref=e469]:
+                - generic [ref=e470]: Free Website Builder Software
+                - link "Download" [ref=e471] [cursor=pointer]:
+                  - /url: /download
+            - listitem [ref=e472]:
+              - link "Smart Insurance Proposal" [ref=e474] [cursor=pointer]:
+                - /url: /lp/6499760/smart-insurance-proposal-landing-page
+                - img "Smart Insurance Proposal" [ref=e475]
+              - link "Smart Insurance Proposal" [ref=e477] [cursor=pointer]:
+                - /url: /lp/6499760/smart-insurance-proposal-landing-page
+            - listitem [ref=e478]:
+              - link "Green Planet" [ref=e480] [cursor=pointer]:
+                - /url: /lp/6453639/green-planet-landing-page
+                - img "Green Planet" [ref=e481]
+              - link "Green Planet" [ref=e483] [cursor=pointer]:
+                - /url: /lp/6453639/green-planet-landing-page
+            - listitem [ref=e484]:
+              - link "Owners Of Dogs" [ref=e486] [cursor=pointer]:
+                - /url: /lp/91360/owners-of-dogs-landing-page
+                - img "Owners Of Dogs" [ref=e487]
+              - link "Owners Of Dogs" [ref=e489] [cursor=pointer]:
+                - /url: /lp/91360/owners-of-dogs-landing-page
+            - listitem [ref=e490]:
+              - link "Digital Analytics" [ref=e492] [cursor=pointer]:
+                - /url: /lp/6174846/digital-analytics-landing-page
+                - img "Digital Analytics" [ref=e493]
+              - link "Digital Analytics" [ref=e495] [cursor=pointer]:
+                - /url: /lp/6174846/digital-analytics-landing-page
+            - listitem [ref=e496]:
+              - link "I Am A Web Developer" [ref=e498] [cursor=pointer]:
+                - /url: /lp/494734/i-am-a-web-developer-landing-page
+                - img "I Am A Web Developer" [ref=e499]
+              - link "I Am A Web Developer" [ref=e501] [cursor=pointer]:
+                - /url: /lp/494734/i-am-a-web-developer-landing-page
+            - listitem [ref=e502]:
+              - link "Healthy Eating Basics" [ref=e504] [cursor=pointer]:
+                - /url: /lp/6426176/healthy-eating-basics-landing-page
+                - img "Healthy Eating Basics" [ref=e505]
+              - link "Healthy Eating Basics" [ref=e507] [cursor=pointer]:
+                - /url: /lp/6426176/healthy-eating-basics-landing-page
+            - listitem [ref=e508]:
+              - link "Text And Quote" [ref=e510] [cursor=pointer]:
+                - /url: /lp/425297/text-and-quote-landing-page
+                - img "Text And Quote" [ref=e511]
+              - link "Text And Quote" [ref=e513] [cursor=pointer]:
+                - /url: /lp/425297/text-and-quote-landing-page
+            - listitem [ref=e514]:
+              - link "We Make Our Pizza, Pasta, Calzone" [ref=e516] [cursor=pointer]:
+                - /url: /lp/4715832/we-make-our-pizza-pasta-calzone-landing-page
+                - img "We Make Our Pizza, Pasta, Calzone" [ref=e517]
+              - link "We Make Our Pizza, Pasta, Calzone" [ref=e519] [cursor=pointer]:
+                - /url: /lp/4715832/we-make-our-pizza-pasta-calzone-landing-page
+            - listitem [ref=e520]:
+              - link "Better Together" [ref=e522] [cursor=pointer]:
+                - /url: /lp/5469446/better-together-landing-page
+                - img "Better Together" [ref=e523]
+              - link "Better Together" [ref=e525] [cursor=pointer]:
+                - /url: /lp/5469446/better-together-landing-page
+            - listitem [ref=e526]:
+              - link "Split Text Block Landing Page" [ref=e528] [cursor=pointer]:
+                - /url: /lp/6012306/split-text-block-landing-page
+                - img "Split Text Block Landing Page" [ref=e529]
+              - link "Split Text Block Landing Page" [ref=e531] [cursor=pointer]:
+                - /url: /lp/6012306/split-text-block-landing-page
+  - generic [ref=e533]:
+    - generic [ref=e536]:
+      - generic [ref=e537]:
+        - generic [ref=e538]: Company
+        - list [ref=e539]:
+          - listitem [ref=e540]:
+            - link "Terms of Use" [ref=e541] [cursor=pointer]:
+              - /url: /terms
+          - listitem [ref=e542]:
+            - link "Privacy Policy" [ref=e543] [cursor=pointer]:
+              - /url: /privacy
+          - listitem [ref=e544]:
+            - link "License Agreement" [ref=e545] [cursor=pointer]:
+              - /url: /agreement
+          - listitem [ref=e546]:
+            - link "About Us" [ref=e547] [cursor=pointer]:
+              - /url: /about
+          - listitem [ref=e548]:
+            - link "Partners" [ref=e549] [cursor=pointer]:
+              - /url: /partners
+          - listitem [ref=e550]:
+            - link "Abuse" [ref=e551] [cursor=pointer]:
+              - /url: /abuse
+          - listitem [ref=e552]:
+            - link "Contact Support" [ref=e553] [cursor=pointer]:
+              - /url: /Forum/Topic/Create
+      - generic [ref=e554]:
+        - generic [ref=e555]: Product
+        - list [ref=e556]:
+          - listitem [ref=e557]:
+            - link "FAQ" [ref=e558] [cursor=pointer]:
+              - /url: /doc/frequently-asked-questions-16656
+          - listitem [ref=e559]:
+            - link "Download" [ref=e560] [cursor=pointer]:
+              - /url: /download
+          - listitem [ref=e561]:
+            - link "400+ Features" [ref=e562] [cursor=pointer]:
+              - /url: /features
+          - listitem [ref=e563]:
+            - link "Affiliate Program" [ref=e564] [cursor=pointer]:
+              - /url: /affiliates
+          - listitem [ref=e565]:
+            - link "Documentation" [ref=e566] [cursor=pointer]:
+              - /url: /doc
+          - listitem [ref=e567]:
+            - link "Forum" [ref=e568] [cursor=pointer]:
+              - /url: /forum
+          - listitem [ref=e569]:
+            - link "Blog" [ref=e570] [cursor=pointer]:
+              - /url: /blog
+      - generic [ref=e571]:
+        - link "Themes & Templates" [ref=e573] [cursor=pointer]:
+          - /url: /templates
+        - list [ref=e574]:
+          - listitem [ref=e575]:
+            - link "Website Templates" [ref=e576] [cursor=pointer]:
+              - /url: /website-templates
+          - listitem [ref=e577]:
+            - link "WordPress Themes" [ref=e578] [cursor=pointer]:
+              - /url: /wordpress-themes
+          - listitem [ref=e579]:
+            - link "HTML Templates" [ref=e580] [cursor=pointer]:
+              - /url: /html-templates
+          - listitem [ref=e581]:
+            - link "CSS Templates" [ref=e582] [cursor=pointer]:
+              - /url: /css-templates
+          - listitem [ref=e583]:
+            - link "Joomla Templates" [ref=e584] [cursor=pointer]:
+              - /url: /joomla-templates
+          - listitem [ref=e585]:
+            - link "HTML5 Templates" [ref=e586] [cursor=pointer]:
+              - /url: /html5-template
+          - listitem [ref=e587]:
+            - link "One Page Templates" [ref=e588] [cursor=pointer]:
+              - /url: /one-page-template
+      - generic [ref=e589]:
+        - generic [ref=e590]: Nicepage
+        - list [ref=e591]:
+          - listitem [ref=e592]:
+            - link "Website Builder" [ref=e593] [cursor=pointer]:
+              - /url: /website-builder
+          - listitem [ref=e594]:
+            - link "HTML Website Builder" [ref=e595] [cursor=pointer]:
+              - /url: /html-website-builder
+          - listitem [ref=e596]:
+            - link "WordPress Website Builder" [ref=e597] [cursor=pointer]:
+              - /url: /wordpress-website-builder
+          - listitem [ref=e598]:
+            - link "Joomla Page Builder" [ref=e599] [cursor=pointer]:
+              - /url: /joomla-page-builder
+          - listitem [ref=e600]:
+            - link "WYSIWYG HTML Editor" [ref=e601] [cursor=pointer]:
+              - /url: /wysiwyg-html-editor
+          - listitem [ref=e602]:
+            - link "Static Site Generator" [ref=e603] [cursor=pointer]:
+              - /url: /static-site-generator
+          - listitem [ref=e604]:
+            - link "HTML Code Generator" [ref=e605] [cursor=pointer]:
+              - /url: /html-code
+      - generic [ref=e606]:
+        - generic [ref=e607]: Web Design
+        - list [ref=e608]:
+          - listitem [ref=e609]:
+            - link "Website Designs" [ref=e610] [cursor=pointer]:
+              - /url: /website-design
+          - listitem [ref=e611]:
+            - link "Web Page Designs" [ref=e612] [cursor=pointer]:
+              - /url: /web-page-design
+          - listitem [ref=e613]:
+            - link "Landing Pages" [ref=e614] [cursor=pointer]:
+              - /url: /landing-page
+          - listitem [ref=e615]:
+            - link "Homepage Designs" [ref=e616] [cursor=pointer]:
+              - /url: /homepage-design
+          - listitem [ref=e617]:
+            - link "Website Mockup" [ref=e618] [cursor=pointer]:
+              - /url: /website-mockup
+    - generic [ref=e622]:
+      - generic [ref=e624]:
+        - link "Facebook" [ref=e626] [cursor=pointer]:
+          - /url: https://facebook.com/nicepageapp
+          - img [ref=e627]
+        - link "Youtube" [ref=e631] [cursor=pointer]:
+          - /url: https://youtube.com/nicepage?sub_confirmation=1
+          - img [ref=e632]
+        - link "x.com" [ref=e636] [cursor=pointer]:
+          - /url: https://x.com/NicepageApp
+          - img [ref=e637]
+        - link "Pinterest" [ref=e641] [cursor=pointer]:
+          - /url: https://www.pinterest.com/nicepagecom/pins
+          - img [ref=e642]
+      - generic [ref=e645]: © 2026 Nicepage Website Builder Software - All Rights Reserved
+  - generic [ref=e646]:
+    - paragraph [ref=e648]:
+      - text: By using this website, you automatically accept that we use cookies. Learn more about our
+      - link "privacy and cookies policy" [ref=e649] [cursor=pointer]:
+        - /url: https://nicepage.com/privacy
+      - text: .
+    - button "Accept" [ref=e651] [cursor=pointer]

@@ -1,0 +1,2 @@
+[     904ms] [LOG] JQMIGRATE: Migrate is installed, version 3.4.1 @ https://landingpageagencia.com.br/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1:1
+[    1219ms] [ERROR] wpcf7 is not defined. @ https://landingpageagencia.com.br/wp-content/plugins/contact-form-7/includes/js/index.js?ver=6.0.6:0

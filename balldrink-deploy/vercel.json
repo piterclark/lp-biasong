@@ -1,0 +1,4 @@
+{
+  "name": "balldrink",
+  "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }]
+}

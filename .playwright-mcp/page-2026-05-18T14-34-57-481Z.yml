@@ -1,0 +1,125 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e10]:
+      - link [ref=e13] [cursor=pointer]:
+        - /url: https://atacadaodosmoveis.com.br
+      - generic [ref=e17]:
+        - text:  
+        - list [ref=e19]:
+          - listitem [ref=e20]:
+            - link "Início" [ref=e21] [cursor=pointer]:
+              - /url: /#inicio
+          - listitem [ref=e22]:
+            - link "Quem Somos" [ref=e23] [cursor=pointer]:
+              - /url: /#quem-somos
+          - listitem [ref=e24]:
+            - link "Lojas" [ref=e25] [cursor=pointer]:
+              - /url: /#lojas
+          - listitem [ref=e26]:
+            - link "Produtos" [ref=e27] [cursor=pointer]:
+              - /url: /#produtos
+          - listitem [ref=e28]:
+            - link "Política de Privacidade" [ref=e29] [cursor=pointer]:
+              - /url: /politica-de-privacidade
+      - link "RCS/SMS" [ref=e32] [cursor=pointer]:
+        - /url: "#elementor-action%3Aaction%3Dpopup%3Aopen%26settings%3DeyJpZCI6Ijg5OSIsInRvZ2dsZSI6ZmFsc2V9"
+        - generic [ref=e34]: RCS/SMS
+      - link "WhatsApp" [ref=e37] [cursor=pointer]:
+        - /url: "#elementor-action%3Aaction%3Dpopup%3Aopen%26settings%3DeyJpZCI6IjgwMiIsInRvZ2dsZSI6ZmFsc2V9"
+        - generic [ref=e39]: WhatsApp
+    - generic [ref=e41]:
+      - heading "No Atacadão dos Móveis, é preço de Black Friday todos os dias!" [level=2] [ref=e44]
+      - link "Encontrar a loja mais próxima!" [ref=e47] [cursor=pointer]:
+        - /url: /#lojas
+        - generic [ref=e49]: Encontrar a loja mais próxima!
+    - generic [ref=e57]:
+      - generic [ref=e58]:
+        - generic [ref=e63]: 
+        - heading "Parcele em até" [level=2] [ref=e66]
+        - heading "12x sem juros" [level=2] [ref=e69]
+      - generic [ref=e70]:
+        - generic [ref=e75]: 
+        - heading "Produtos a" [level=2] [ref=e78]
+        - heading "pronta entrega" [level=2] [ref=e81]
+      - generic [ref=e82]:
+        - generic [ref=e87]: 
+        - heading "Novas promoções" [level=2] [ref=e90]
+        - heading "Todos os dias!" [level=2] [ref=e93]
+    - generic [ref=e97]:
+      - heading "Quem Somos" [level=2] [ref=e100]
+      - generic [ref=e102]:
+        - paragraph [ref=e103]: Com mais de 50 anos de história no Rio Grande do Sul, o Atacadão dos Móveis é uma das maiores redes de varejo de móveis da região, focado em oferecer soluções completas para o lar com qualidade e agilidade. Desde 2015, nossa missão é transformar o sonho da casa ideal em realidade, proporcionando móveis para todos os ambientes, incluindo cozinha, dormitórios, sala de estar, sofás e banheiro.
+        - paragraph [ref=e104]: Nosso compromisso é resolver todas as necessidades em móveis com os melhores preços do mercado e entrega imediata, garantindo que cada cliente possa mobiliar seu lar com rapidez e praticidade. Atendemos principalmente ao público das classes C e D, mas nossa variedade de produtos também atrai clientes da classe B, oferecendo um amplo mix para atender diferentes estilos e necessidades.
+        - paragraph [ref=e105]: "O Atacadão dos Móveis é mais do que uma loja de móveis: é o parceiro ideal para quem busca qualidade, preço justo e a agilidade de um estoque sempre disponível para atender ao seu lar."
+    - generic [ref=e107]:
+      - heading "Encontre a loja mais próxima de você!" [level=2] [ref=e110]
+      - generic [ref=e114]:
+        - region "Mapa" [ref=e115]
+        - iframe [ref=e120]:
+          
+    - generic [ref=e128]:
+      - heading "CONHEÇA AS CATEGORIAS DE PRODUTOS QUE TRABALHAMOS!" [level=2] [ref=e131]
+      - generic [ref=e132]:
+        - generic [ref=e133]:
+          - heading "Cozinha completa" [level=2] [ref=e138]
+          - heading "Cozinhas modernas e funcionais com nossos conjuntos completos. Designs premium, alta durabilidade e praticidade para o seu dia a dia." [level=2] [ref=e141]
+          - link "Saiba mais" [ref=e144] [cursor=pointer]:
+            - /url: https://wa.me/5551995222350
+            - generic [ref=e146]: Saiba mais
+        - generic [ref=e147]:
+          - heading "Camas" [level=2] [ref=e152]
+          - heading "Encontre a cama ideal, com o preço ideal. Escolha sua cama box ou baú e garanta o melhor conforto para noites de sono tranquilas." [level=2] [ref=e155]
+          - link "Saiba mais" [ref=e158] [cursor=pointer]:
+            - /url: https://wa.me/5551995222350
+            - generic [ref=e160]: Saiba mais
+        - generic [ref=e161]:
+          - heading "Sofás" [level=2] [ref=e166]
+          - heading "Adicione conforto à sua sala com nossos sofás. São várias opções de modelos e cores para deixar seu ambiente mais bonito e acolhedor." [level=2] [ref=e169]
+          - link "Saiba mais" [ref=e172] [cursor=pointer]:
+            - /url: https://wa.me/5551995222350
+            - generic [ref=e174]: Saiba mais
+        - generic [ref=e175]:
+          - heading "Escritórios" [level=2] [ref=e180]
+          - heading "Monte seu home office com nossos móveis para escritório. Temos mesas e cadeiras que ajudam você a trabalhar com conforto e praticidade." [level=2] [ref=e183]
+          - link "Saiba mais" [ref=e186] [cursor=pointer]:
+            - /url: https://wa.me/5551995222350
+            - generic [ref=e188]: Saiba mais
+        - generic [ref=e189]:
+          - heading "Roupeiros" [level=2] [ref=e194]
+          - heading "Guarda-roupas espaçosas e bem projetadas para manter suas roupas organizadas. Soluções inteligentes para qualquer espaço e necessidade." [level=2] [ref=e197]
+          - link "Saiba mais" [ref=e200] [cursor=pointer]:
+            - /url: https://wa.me/5551995222350
+            - generic [ref=e202]: Saiba mais
+        - generic [ref=e203]:
+          - heading "Racks" [level=2] [ref=e208]
+          - heading "Rack com grande variedade de cores e tamanhos para você escolher o que mais combina com a sua sala." [level=2] [ref=e211]
+          - link "Saiba mais" [ref=e214] [cursor=pointer]:
+            - /url: https://wa.me/5551995222350
+            - generic [ref=e216]: Saiba mais
+        - generic [ref=e217]:
+          - heading "Mesas" [level=2] [ref=e222]
+          - heading "Mesas de diferentes tamanhos, com vários lugares. Também escolha entre o formato que quiser e a cor que mais combinar com seu ambiente." [level=2] [ref=e225]
+          - link "Saiba mais" [ref=e228] [cursor=pointer]:
+            - /url: https://wa.me/5551995222350
+            - generic [ref=e230]: Saiba mais
+        - generic [ref=e231]:
+          - heading "Banheiros" [level=2] [ref=e236]
+          - heading "Descubra a versatilidade em banheiros! Explore nossa variedade com armários embutidos, prateleiras e unidades de armazenamento que combinam estilo e praticidade, mantendo seu banheiro organizado e atraente." [level=2] [ref=e239]
+          - link "Saiba mais" [ref=e242] [cursor=pointer]:
+            - /url: https://wa.me/5551995222350
+            - generic [ref=e244]: Saiba mais
+        - generic [ref=e245]:
+          - heading "Poltronas" [level=2] [ref=e250]
+          - heading "Peças essenciais que unem conforto, estilo e funcionalidade, criando o refúgio perfeito para relaxamento." [level=2] [ref=e253]
+          - link "Saiba mais" [ref=e256] [cursor=pointer]:
+            - /url: https://wa.me/5551995222350
+            - generic [ref=e258]: Saiba mais
+    - generic [ref=e261]:
+      - heading "2026 © Atacadão dos Móveis - CNPJ 37.065.791/0001-48. A P Pilger da Costa Móveis. Todos os direitos reservados." [level=2] [ref=e265]
+      - heading "Desenvolvido por" [level=2] [ref=e269]:
+        - link "Desenvolvido por" [ref=e270] [cursor=pointer]:
+          - /url: https://empatiamkt.com.br
+        - link [ref=e271] [cursor=pointer]:
+          - /url: https://empatiamkt.com.br
+          - img [ref=e272]
+  - generic [ref=e273]: laptop

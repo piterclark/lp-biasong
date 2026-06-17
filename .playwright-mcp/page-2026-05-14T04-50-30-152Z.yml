@@ -1,0 +1,126 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]: NORI.
+    - link "Fazer pedido" [ref=e4] [cursor=pointer]:
+      - /url: "#pedir"
+  - generic [ref=e7]:
+    - generic [ref=e8]: Autêntico • Desde 2009
+    - heading "O sushi que faz você entender o Japão." [level=1] [ref=e9]:
+      - generic [ref=e11]: O
+      - generic [ref=e13]: sushi
+      - generic [ref=e15]: que
+      - generic [ref=e17]: faz
+      - generic [ref=e19]: você
+      - emphasis [ref=e20]:
+        - generic [ref=e22]: entender
+        - generic [ref=e24]: o Japão.
+    - paragraph [ref=e25]:
+      - text: Feito com o mesmo respeito de um chef em Osaka.
+      - text: Entregue em 45 minutos.
+    - generic [ref=e26]:
+      - link "Quero o meu agora" [ref=e27] [cursor=pointer]:
+        - /url: "#pedir"
+        - img [ref=e28]
+        - text: Quero o meu agora
+      - link "Ver o cardápio completo" [ref=e31] [cursor=pointer]:
+        - /url: "#menu"
+  - generic [ref=e32]:
+    - generic [ref=e33]:
+      - generic [ref=e34]: "15"
+      - generic [ref=e35]: Anos de Tradição
+    - generic [ref=e36]:
+      - generic [ref=e37]: 100%
+      - generic [ref=e38]: Peixe Fresco
+    - generic [ref=e39]:
+      - generic [ref=e40]: 45min
+      - generic [ref=e41]: Entrega Garantida
+    - generic [ref=e42]:
+      - generic [ref=e43]: "0"
+      - generic [ref=e44]: Congelados
+  - generic [ref=e45]:
+    - generic [ref=e46]:
+      - heading "Os favoritos" [level=2] [ref=e47]:
+        - text: Os
+        - emphasis [ref=e48]: favoritos
+      - generic [ref=e49]: O que os nossos clientes mais pedem
+    - generic [ref=e50]:
+      - link "O Sashimi ⚡ Chef's Choice O Sashimi Salmão norueguês, atum azul e peixe-branco chegam toda manhã. Cortados na espessura exata que o chef aprendeu em Osaka. Nenhum congelado. Nenhum compromisso. R$ 58 por porção Ver o prato" [ref=e51] [cursor=pointer]:
+        - /url: javascript:;
+        - generic [ref=e52]:
+          - img "O Sashimi" [ref=e53]
+          - generic [ref=e54]: ⚡ Chef's Choice
+        - generic [ref=e55]:
+          - generic [ref=e56]: O Sashimi
+          - paragraph [ref=e57]: Salmão norueguês, atum azul e peixe-branco chegam toda manhã. Cortados na espessura exata que o chef aprendeu em Osaka. Nenhum congelado. Nenhum compromisso.
+          - generic [ref=e58]: R$ 58 por porção
+          - generic [ref=e59]:
+            - text: Ver o prato
+            - img [ref=e60]
+      - link "O Hot Roll 🔥 Mais Pedido O Hot Roll Roll de salmão com cream cheese, empanado e frito na hora. Maionese japonesa, molho agridoce artesanal. Crocante por fora, cremoso por dentro. Imposssível comer um só. R$ 49 por porção Ver o prato" [ref=e62] [cursor=pointer]:
+        - /url: javascript:;
+        - generic [ref=e63]:
+          - img "O Hot Roll" [ref=e64]
+          - generic [ref=e65]: 🔥 Mais Pedido
+        - generic [ref=e66]:
+          - generic [ref=e67]: O Hot Roll
+          - paragraph [ref=e68]: Roll de salmão com cream cheese, empanado e frito na hora. Maionese japonesa, molho agridoce artesanal. Crocante por fora, cremoso por dentro. Imposssível comer um só.
+          - generic [ref=e69]: R$ 49 por porção
+          - generic [ref=e70]:
+            - text: Ver o prato
+            - img [ref=e71]
+      - link "O Temaki Tradicional O Temaki Alga nori crocante, arroz temperado com vinagre de arroz, salmão premium e um fio de maionese japonesa. Feito e entregue em minutos. A alga não espera. R$ 34 por unidade Ver o prato" [ref=e73] [cursor=pointer]:
+        - /url: javascript:;
+        - generic [ref=e74]:
+          - img "O Temaki" [ref=e75]
+          - generic [ref=e76]: Tradicional
+        - generic [ref=e77]:
+          - generic [ref=e78]: O Temaki
+          - paragraph [ref=e79]: Alga nori crocante, arroz temperado com vinagre de arroz, salmão premium e um fio de maionese japonesa. Feito e entregue em minutos. A alga não espera.
+          - generic [ref=e80]: R$ 34 por unidade
+          - generic [ref=e81]:
+            - text: Ver o prato
+            - img [ref=e82]
+  - generic [ref=e84]:
+    - heading "Não servimos comida japonesa. Servimos o respeito que os japoneses têm pela comida." [level=2] [ref=e86]:
+      - text: Não servimos
+      - text: comida japonesa.
+      - emphasis [ref=e87]:
+        - text: Servimos
+        - text: o respeito que
+        - text: os japoneses têm
+        - text: pela comida.
+    - paragraph [ref=e89]:
+      - text: Enquanto a maioria usa peixe congelado e arroz de panela elétrica, nosso chef prepara cada porção com o mesmo cuidado de um restaurante em Tokyo.
+      - text: O sushi não é comida rápida. É um ritual.
+      - strong [ref=e90]: E a gente leva isso a sério desde 2009.
+  - generic [ref=e91]:
+    - generic [ref=e92]: 🍣
+    - heading "Se não for a melhor experiência japonesa que você já teve, a gente devolve." [level=3] [ref=e93]:
+      - text: Se não for a melhor experiência
+      - text: japonesa que você já teve,
+      - emphasis [ref=e94]: a gente devolve.
+    - paragraph [ref=e95]: Sem burocracia. Sem pergunta. Se não ficar satisfeito com o primeiro pedido, devolveremos 100% do valor. Esse é o compromisso de quem sabe o que faz.
+  - generic [ref=e96]:
+    - generic [ref=e97]: Seu próximo pedido
+    - heading "Sente o cheiro do nori. Agora pede. Chega em 45 minutos." [level=2] [ref=e98]:
+      - text: Sente o cheiro do nori.
+      - text: Agora pede.
+      - emphasis [ref=e99]: Chega em 45 minutos.
+    - link "Fazer meu pedido no WhatsApp" [ref=e100] [cursor=pointer]:
+      - /url: https://wa.me/5511999999999
+      - img [ref=e101]
+      - text: Fazer meu pedido no WhatsApp
+    - paragraph [ref=e103]: Entrega em até 45min • Pagamento no recebimento • Satisfação garantida
+  - contentinfo [ref=e104]:
+    - generic [ref=e105]: NORI.
+    - paragraph [ref=e106]: © 2026 Nori. — Todos os direitos reservados
+  - dialog:
+    - generic:
+      - button "Fechar": ✕
+      - generic:
+        - paragraph
+        - link "Fazer pedido agora":
+          - /url: https://wa.me/5511999999999
+          - img
+          - generic: Fazer pedido agora
+        - paragraph: Satisfação garantida • Devolução 100% se não gostar

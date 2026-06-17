@@ -1,0 +1,152 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - text: MERCADÃO DOS
+        - emphasis [ref=e5]: MÓVEIS USADOS
+      - link " (34) 99125-5367" [ref=e6] [cursor=pointer]:
+        - /url: tel:+553499125-5367
+        - generic [ref=e7]: 
+        - text: (34) 99125-5367
+      - link " WhatsApp" [ref=e8] [cursor=pointer]:
+        - /url: https://wa.me/5534991255367?text=Olá! Vi o site e quero saber mais.
+        - generic [ref=e9]: 
+        - text: WhatsApp
+  - generic [ref=e10]:
+    - img "Loja de móveis" [ref=e12]
+    - generic [ref=e14]:
+      - generic [ref=e15]: UBERLÂNDIA / MG — JARDIM BRASÍLIA
+      - heading "COMPRA, VENDA E TROCA DE MÓVEIS COM O MELHOR PREÇO!" [level=1] [ref=e16]:
+        - text: COMPRA, VENDA
+        - text: E TROCA DE
+        - emphasis [ref=e17]: MÓVEIS
+        - text: COM O MELHOR PREÇO!
+      - paragraph [ref=e18]: Móveis novos e usados • Entregamos na sua casa • Uberlândia e região
+      - generic [ref=e19]:
+        - generic [ref=e20]:
+          - generic [ref=e21]: 
+          - text: (34) 99125-5367
+        - generic [ref=e22]:
+          - generic [ref=e23]: 
+          - text: (34) 98441-1497
+        - link " MANDA MENSAGEM AGORA" [ref=e24] [cursor=pointer]:
+          - /url: https://wa.me/5534991255367?text=Olá Paulo! Vi o site e tenho interesse.
+          - generic [ref=e25]: 
+          - text: MANDA MENSAGEM AGORA
+  - generic [ref=e27]:
+    - heading "O QUE A GENTE TRABALHA" [level=2] [ref=e28]:
+      - text: O QUE A GENTE
+      - emphasis [ref=e29]: TRABALHA
+    - paragraph [ref=e30]: Compramos, vendemos e trocamos tudo isso abaixo
+    - generic [ref=e31]:
+      - generic [ref=e32]:
+        - generic [ref=e33]: 
+        - heading "Sofás e Poltronas" [level=3] [ref=e34]
+      - generic [ref=e35]:
+        - generic [ref=e36]: 
+        - heading "Camas e Colchões" [level=3] [ref=e37]
+      - generic [ref=e38]:
+        - generic [ref=e39]: 
+        - heading "Guarda-Roupas" [level=3] [ref=e40]
+      - generic [ref=e41]:
+        - generic [ref=e42]: 
+        - heading "TVs e Eletrônicos" [level=3] [ref=e43]
+      - generic [ref=e44]:
+        - generic [ref=e45]: 
+        - heading "Geladeiras e Freezers" [level=3] [ref=e46]
+      - generic [ref=e47]:
+        - generic [ref=e48]: 
+        - heading "Fogões e Fornos" [level=3] [ref=e49]
+      - generic [ref=e50]:
+        - generic [ref=e51]: 
+        - heading "Máquinas de Lavar" [level=3] [ref=e52]
+      - generic [ref=e53]:
+        - generic [ref=e54]: +
+        - heading "E muito mais!" [level=3] [ref=e55]
+  - generic [ref=e57]:
+    - heading "COMO FUNCIONA?" [level=2] [ref=e58]:
+      - text: COMO
+      - emphasis [ref=e59]: FUNCIONA?
+    - paragraph [ref=e60]: Simples assim
+    - generic [ref=e61]:
+      - generic [ref=e62]:
+        - generic [ref=e63]: "01"
+        - generic [ref=e64]: 
+        - heading "FALE COM A GENTE" [level=3] [ref=e65]
+        - paragraph [ref=e66]: Manda foto e descrição do que tem pra vender, ou diz o que tá procurando pra comprar.
+      - generic [ref=e67]:
+        - generic [ref=e68]: "02"
+        - generic [ref=e69]: 
+        - heading "COMBINA O VALOR" [level=3] [ref=e70]
+        - paragraph [ref=e71]: A gente avalia na hora e faz uma proposta justa. Pagamento à vista ou parcelado no cartão.
+      - generic [ref=e72]:
+        - generic [ref=e73]: "03"
+        - generic [ref=e74]: 
+        - heading "BUSCA OU ENTREGA" [level=3] [ref=e75]
+        - paragraph [ref=e76]: Buscamos na sua casa ou entregamos o que você comprar. Rápido e sem complicação.
+  - generic [ref=e79]:
+    - generic [ref=e80]:
+      - heading "ONDE ESTAMOS?" [level=2] [ref=e81]:
+        - text: ONDE
+        - emphasis [ref=e82]: ESTAMOS?
+      - generic [ref=e83]:
+        - strong [ref=e84]:
+          - generic [ref=e85]: 
+          - text: Endereço
+        - paragraph [ref=e86]:
+          - text: Rua Astral, 49
+          - text: Bairro Jardim Brasília
+          - text: Uberlândia — MG
+          - text: CEP 38400-094
+      - generic [ref=e87]:
+        - strong [ref=e88]:
+          - generic [ref=e89]: 
+          - text: Horário de Atendimento
+        - paragraph [ref=e90]:
+          - text: "Segunda a Sexta: 8h às 18h"
+          - text: "Sábado: 8h às 14h"
+          - text: "Domingo: Fechado"
+      - link " COMO CHEGAR" [ref=e91] [cursor=pointer]:
+        - /url: https://maps.google.com/?q=Rua+Astral,+49,+Jardim+Brasília,+Uberlândia,+MG,+38400-094
+        - generic [ref=e92]: 
+        - text: COMO CHEGAR
+    - generic [ref=e93]:
+      - generic [ref=e97]: RUA ASTRAL
+      - generic [ref=e100]: MERCADÃO Nº 49
+      - generic [ref=e101]: Jardim Brasília · Uberlândia/MG
+  - generic [ref=e103]:
+    - heading "LIGUE OU MANDA MENSAGEM AGORA!" [level=2] [ref=e104]:
+      - text: LIGUE OU MANDA
+      - text: MENSAGEM AGORA!
+    - paragraph [ref=e105]: Paulo atende você na hora — compra, venda, troca e entrega
+    - generic [ref=e106]:
+      - generic [ref=e107]:
+        - link " (34) 99125-5367" [ref=e108] [cursor=pointer]:
+          - /url: https://wa.me/5534991255367?text=Olá Paulo! Vi o site e quero falar sobre um móvel.
+          - generic [ref=e109]: 
+          - text: (34) 99125-5367
+        - text: Paulo — WhatsApp
+      - generic [ref=e111]:
+        - link " (34) 98441-1497" [ref=e112] [cursor=pointer]:
+          - /url: https://wa.me/5534984411497?text=Olá! Vi o site e quero falar sobre um móvel.
+          - generic [ref=e113]: 
+          - text: (34) 98441-1497
+        - text: Segundo número
+    - link " ABRIR WHATSAPP" [ref=e114] [cursor=pointer]:
+      - /url: https://wa.me/5534991255367?text=Olá Paulo! Vi o site e quero falar sobre um móvel.
+      - generic [ref=e115]: 
+      - text: ABRIR WHATSAPP
+  - contentinfo [ref=e116]:
+    - generic [ref=e117]:
+      - generic [ref=e118]:
+        - text: MERCADÃO DOS
+        - emphasis [ref=e119]: MÓVEIS USADOS
+      - generic [ref=e120]:
+        - generic [ref=e121]: Rua Astral, 49 — Jardim Brasília — Uberlândia/MG
+        - generic [ref=e122]: "CNPJ: informar ao cliente"
+      - generic [ref=e123]:
+        - strong [ref=e124]: Horário
+        - text: "Seg–Sex: 8h–18h · Sáb: 8h–14h"
+  - link "WhatsApp" [ref=e125] [cursor=pointer]:
+    - /url: https://wa.me/5534991255367?text=Olá Paulo! Vi o site e quero falar sobre um móvel.
+    - generic [ref=e126]: 

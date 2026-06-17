@@ -1,0 +1,6 @@
+[     321ms] [ERROR] Access to script at 'https://www.pinheironeto.com.br/runtime.61cb859f2575d133.js' from origin 'http://localhost:4322' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ http://localhost:4322/advogado/index.html:0
+[     322ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://www.pinheironeto.com.br/runtime.61cb859f2575d133.js:0
+[     326ms] [ERROR] Access to script at 'https://www.pinheironeto.com.br/polyfills.3539621f729998ab.js' from origin 'http://localhost:4322' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ http://localhost:4322/advogado/index.html:0
+[     326ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://www.pinheironeto.com.br/polyfills.3539621f729998ab.js:0
+[     348ms] [ERROR] Access to script at 'https://www.pinheironeto.com.br/main.c3430600c963ac09.js' from origin 'http://localhost:4322' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ http://localhost:4322/advogado/index.html:0
+[     348ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://www.pinheironeto.com.br/main.c3430600c963ac09.js:0

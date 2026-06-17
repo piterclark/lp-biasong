@@ -1,0 +1,51 @@
+- generic [ref=e7]:
+  - banner [ref=e8]:
+    - generic [ref=e9]:
+      - generic [ref=e10]:
+        - text: J
+        - emphasis [ref=e11]: .
+        - text: A
+        - emphasis [ref=e12]: .
+        - text: R
+        - emphasis [ref=e13]: .
+        - text: V
+        - emphasis [ref=e14]: .
+        - text: I
+        - emphasis [ref=e15]: .
+        - text: S
+      - generic [ref=e16]: V.A.U.L.T. · MEGA BRAIN NEURAL OS
+    - generic [ref=e17]:
+      - generic [ref=e18]:
+        - generic [ref=e19]: SESSÃO
+        - text: 0m 0s
+      - generic [ref=e20]:
+        - generic [ref=e21]: QUERIES
+        - text: "0"
+      - generic [ref=e22]: 00:00:00
+  - complementary [ref=e24]:
+    - generic [ref=e27]: ONLINE
+    - generic [ref=e28]:
+      - generic [ref=e29]: // INPUT DE VOZ
+      - generic [ref=e31]: Aguardando input de voz_
+    - generic [ref=e32]:
+      - generic [ref=e33]: // OUTPUT JARVIS
+      - generic [ref=e34]:
+        - generic [ref=e35]: HAIKU
+        - generic [ref=e36]: Sistema inicializado. À sua disposição, senhor.
+    - generic [ref=e38]:
+      - generic [ref=e39]: // REGIÕES NEURAIS
+      - generic [ref=e40]:
+        - generic [ref=e43]: JARVIS CORE
+        - generic [ref=e47]: CLAUDE LLM
+        - generic [ref=e51]: MEMÓRIA
+        - generic [ref=e55]: MEGA BRAIN
+        - generic [ref=e59]: WHISPER STT
+        - generic [ref=e63]: ELEVENLABS
+        - generic [ref=e67]: ANÁLISE
+        - generic [ref=e71]: PREVISÃO
+  - contentinfo [ref=e73]:
+    - generic [ref=e74]: MEGA BRAIN · V.A.U.L.T. NEURAL DASHBOARD
+    - generic [ref=e75]:
+      - generic [ref=e76]: STTWhisper/cpu
+      - generic [ref=e77]: TTSElevenLabs Brian
+      - generic [ref=e78]: LLMClaude Haiku+Sonnet

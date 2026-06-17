@@ -1,0 +1,1034 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic:
+      - generic:
+        - generic:
+          - insertion
+    - banner [ref=e4]:
+      - generic [ref=e5]:
+        - link "TemplateMonster" [ref=e6] [cursor=pointer]:
+          - /url: https://www.templatemonster.com
+          - img [ref=e7]
+        - navigation [ref=e10]:
+          - button "Toggle navigation" [ref=e11] [cursor=pointer]:
+            - img [ref=e12]
+        - generic [ref=e20]:
+          - textbox "Search" [ref=e21]:
+            - /placeholder: e.g. "wordpress"
+          - button "Search" [ref=e22] [cursor=pointer]:
+            - img [ref=e23]
+        - generic [ref=e25]:
+          - button "EN" [ref=e27] [cursor=pointer]:
+            - img "EN" [ref=e28]
+          - link "Unlimited Downloads" [ref=e30] [cursor=pointer]:
+            - /url: https://www.templatemonster.com/monsterone/
+            - generic [ref=e31]:
+              - img "monsterEye" [ref=e32]
+              - text: Unlimited Downloads
+          - link "Sale" [ref=e35] [cursor=pointer]:
+            - /url: https://www.templatemonster.com/sale.php
+            - generic [ref=e36]:
+              - img "wallet" [ref=e37]
+              - text: Sale
+          - link "Favorites" [ref=e40] [cursor=pointer]:
+            - /url: https://www.templatemonster.com/collection/
+            - img [ref=e41]
+          - link "Log In" [ref=e44] [cursor=pointer]:
+            - /url: https://account.templatemonster.com/auth/
+            - img [ref=e45]
+          - button "Cart" [ref=e47] [cursor=pointer]:
+            - img [ref=e48]
+            - button "cart" [ref=e50]
+      - navigation [ref=e51]:
+        - link "Website Templates" [ref=e52] [cursor=pointer]:
+          - /url: /website-templates.php
+        - link "WordPress" [ref=e53] [cursor=pointer]:
+          - /url: /wordpress-themes.php
+        - link "Shopify" [ref=e54] [cursor=pointer]:
+          - /url: "/shopify-themes.php "
+        - link "HTML" [ref=e55] [cursor=pointer]:
+          - /url: /html5-website-templates/
+        - link "WooCommerce" [ref=e56] [cursor=pointer]:
+          - /url: /woocommerce-themes.php
+        - link "PrestaShop" [ref=e57] [cursor=pointer]:
+          - /url: /prestashop-themes.php
+        - link "Joomla" [ref=e58] [cursor=pointer]:
+          - /url: /joomla-templates.php
+        - link "PowerPoint" [ref=e59] [cursor=pointer]:
+          - /url: /powerpoint-templates.php
+        - link "Maintenance Service" [ref=e60] [cursor=pointer]:
+          - /url: /website-maintenance-services/
+        - link "Hire a Developer" [ref=e61] [cursor=pointer]:
+          - /url: /services/hire-web-developer-pay-per-hour/
+    - main [ref=e62]:
+      - generic [ref=e63]:
+        - generic [ref=e65]:
+          - link "Home" [ref=e66] [cursor=pointer]:
+            - /url: https://www.templatemonster.com
+          - link "Web Design Software" [ref=e67] [cursor=pointer]:
+            - /url: https://www.templatemonster.com/templates.php
+          - link "Website templates" [ref=e68] [cursor=pointer]:
+            - /url: https://www.templatemonster.com/website-templates.php
+          - link "Home & Family" [ref=e69] [cursor=pointer]:
+            - /url: https://www.templatemonster.com/category/home-family-website-templates/
+          - link "Interior & Furniture Templates" [ref=e70] [cursor=pointer]:
+            - /url: https://www.templatemonster.com/category/interior-furniture-website-templates/
+        - generic [ref=e71]:
+          - generic [ref=e72]:
+            - heading "491 Furniture Website Templates and Themes" [level=1] [ref=e73]
+            - 'heading "Download Best Furniture Website Templates - 2026`s Top HTML, WordPress, and eCommerce Web Themes" [level=2] [ref=e74]'
+          - generic [ref=e75]:
+            - button "Copy" [ref=e77] [cursor=pointer]:
+              - img [ref=e78]
+            - link "Pinterest" [ref=e81] [cursor=pointer]:
+              - /url: https://www.pinterest.com/pin/create/button/?media=https%3A%2F%2Fs3p.tmimgcdn.com%2Fassets%2Fshare_tm.jpg&description=%40templatemonster+Download+any+of+these+491+furniture+website+templates+from+%245+on+TemplateMonster.+Use+%E2%8F%A9simple%2C+%E2%8F%A9fast%2C+and+%E2%8F%A9responsive+themes+for+furniture+stores%2C+single+owners+of+unique%2C+solely+existing+furniture.&url=https%3A%2F%2Fwww.templatemonster.com%2Fcategory%2Ffurniture-website-templates%2F
+              - img [ref=e82]
+            - link "Twitter" [ref=e85] [cursor=pointer]:
+              - /url: https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.templatemonster.com%2Fcategory%2Ffurniture-website-templates%2F&text=%40templatemonster+Download+any+of+these+491+furniture+website+templates+from+%245+on+TemplateMonster.+Use+%E2%8F%A9simple%2C+%E2%8F%A9fast%2C+and+%E2%8F%A9responsive+themes+for+furniture+stores%2C+single+owners+of+unique%2C+solely+existing+furniture.
+              - img [ref=e86]
+            - link "Facebook" [ref=e89] [cursor=pointer]:
+              - /url: https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.templatemonster.com%2Fcategory%2Ffurniture-website-templates%2F
+              - img [ref=e90]
+            - link "LinkedIn" [ref=e93] [cursor=pointer]:
+              - /url: https://www.linkedin.com/shareArticle?url=https%3A%2F%2Fwww.templatemonster.com%2Fcategory%2Ffurniture-website-templates%2F&source=https%3A%2F%2Fs3p.tmimgcdn.com%2Fassets%2Fshare_tm.jpg&title=%40TemplateMonster.com+Download+any+of+these+491+furniture+website+templates+from+%245+on+TemplateMonster.+Use+%E2%8F%A9simple%2C+%E2%8F%A9fast%2C+and+%E2%8F%A9responsive+themes+for+furniture+stores%2C+single+owners+of+unique%2C+solely+existing+furniture.&mini=true
+              - img [ref=e94]
+        - generic [ref=e97]:
+          - generic [ref=e98]:
+            - generic [ref=e99]: "Applied filter(s):"
+            - generic [ref=e101]:
+              - generic [ref=e102]:
+                - text: "Categories:"
+                - generic [ref=e103]: Furniture Templates
+                - link "×" [ref=e104] [cursor=pointer]:
+                  - /url: https://www.templatemonster.com/website-templates.php
+              - link "Clear" [ref=e105] [cursor=pointer]:
+                - /url: https://www.templatemonster.com/templates.php
+          - generic [ref=e106]:
+            - generic [ref=e107]: "Sort by:"
+            - button "Bestsellers" [ref=e109] [cursor=pointer]:
+              - generic [ref=e110]: Bestsellers
+      - generic [ref=e112]:
+        - generic [ref=e113]:
+          - generic [ref=e114]:
+            - paragraph [ref=e115]: Categories
+            - generic [ref=e116]:
+              - link "All" [ref=e117] [cursor=pointer]:
+                - /url: https://www.templatemonster.com/templates.php
+              - generic [ref=e118]: Website Templates
+              - link "WordPress Themes (33)" [ref=e119] [cursor=pointer]:
+                - /url: https://www.templatemonster.com/category/furniture-wordpress-themes/
+              - link "HTML5 Site Templates (55)" [ref=e120] [cursor=pointer]:
+                - /url: https://www.templatemonster.com/category/furniture-html-website-templates/
+              - link "WooCommerce Themes (106)" [ref=e121] [cursor=pointer]:
+                - /url: https://www.templatemonster.com/category/furniture-woocommerce-themes/
+              - link "Shopify Themes (121)" [ref=e122] [cursor=pointer]:
+                - /url: https://www.templatemonster.com/category/furniture-shopify-themes/
+              - link "Landing Page Templates (11)" [ref=e123] [cursor=pointer]:
+                - /url: https://www.templatemonster.com/category/furniture-landing-page-templates/
+              - link "Joomla Templates (7)" [ref=e124] [cursor=pointer]:
+                - /url: https://www.templatemonster.com/category/furniture-joomla-templates/
+              - link "PrestaShop Themes (65)" [ref=e125] [cursor=pointer]:
+                - /url: https://www.templatemonster.com/category/furniture-prestashop-themes/
+              - link "OpenCart Templates (79)" [ref=e126] [cursor=pointer]:
+                - /url: https://www.templatemonster.com/category/furniture-opencart-templates/
+              - link "Magento Themes (6)" [ref=e127] [cursor=pointer]:
+                - /url: https://www.templatemonster.com/category/furniture-magento-themes/
+              - link "VirtueMart Templates (2)" [ref=e128] [cursor=pointer]:
+                - /url: https://www.templatemonster.com/category/furniture-virtuemart-templates/
+              - link "Elementor Kits (6)" [ref=e129] [cursor=pointer]:
+                - /url: https://www.templatemonster.com/products/types/elementor-templates/topic/furniture-templates/
+          - generic [ref=e130]:
+            - paragraph [ref=e131]: Topics
+            - generic [ref=e132]:
+              - link "Interior & Furniture Templates" [ref=e133] [cursor=pointer]:
+                - /url: https://www.templatemonster.com/category/interior-furniture-website-templates/
+              - generic [ref=e134]: Furniture Templates
+          - link "On Sale (Yes)" [ref=e137] [cursor=pointer]:
+            - /url: https://www.templatemonster.com/products/topic/furniture-templates/category/website-templates/sale/yes/
+            - paragraph [ref=e138]: On Sale (Yes)
+          - link "MonsterONE Subscription" [ref=e141] [cursor=pointer]:
+            - /url: https://www.templatemonster.com/products/topic/furniture-templates/category/website-templates/marketplace-membership/one/
+            - paragraph [ref=e142]: MonsterONE Subscription
+          - generic [ref=e143]:
+            - paragraph [ref=e144]: Tags
+            - generic [ref=e145]:
+              - link "furniture (402)" [ref=e146] [cursor=pointer]:
+                - /url: https://www.templatemonster.com/products/topic/furniture-templates/category/website-templates/tags/furniture/
+              - link "responsive (270)" [ref=e147] [cursor=pointer]:
+                - /url: https://www.templatemonster.com/products/topic/furniture-templates/category/website-templates/tags/responsive/
+              - link "interior (269)" [ref=e148] [cursor=pointer]:
+                - /url: https://www.templatemonster.com/products/topic/furniture-templates/category/website-templates/tags/interior/
+              - link "ecommerce (227)" [ref=e149] [cursor=pointer]:
+                - /url: https://www.templatemonster.com/products/topic/furniture-templates/category/website-templates/tags/ecommerce/
+              - link "multipurpose (222)" [ref=e150] [cursor=pointer]:
+                - /url: https://www.templatemonster.com/products/topic/furniture-templates/category/website-templates/tags/multipurpose/
+              - link "decor (211)" [ref=e151] [cursor=pointer]:
+                - /url: https://www.templatemonster.com/products/topic/furniture-templates/category/website-templates/tags/decor/
+              - link "accessories (210)" [ref=e152] [cursor=pointer]:
+                - /url: https://www.templatemonster.com/products/topic/furniture-templates/category/website-templates/tags/accessories/
+              - link "decoration (170)" [ref=e153] [cursor=pointer]:
+                - /url: https://www.templatemonster.com/products/topic/furniture-templates/category/website-templates/tags/decoration/
+              - link "modern (159)" [ref=e154] [cursor=pointer]:
+                - /url: https://www.templatemonster.com/products/topic/furniture-templates/category/website-templates/tags/modern/
+              - link "design (157)" [ref=e155] [cursor=pointer]:
+                - /url: https://www.templatemonster.com/products/topic/furniture-templates/category/website-templates/tags/design/
+              - button "All" [ref=e157] [cursor=pointer]
+          - generic [ref=e158]:
+            - paragraph [ref=e159]: Color
+            - generic [ref=e160]:
+              - link "white (409)" [ref=e161] [cursor=pointer]:
+                - /url: https://www.templatemonster.com/products/topic/furniture-templates/category/website-templates/color/white/
+                - text: white (409)
+              - link "grey (328)" [ref=e163] [cursor=pointer]:
+                - /url: https://www.templatemonster.com/products/topic/furniture-templates/category/website-templates/color/grey/
+                - text: grey (328)
+              - link "black (241)" [ref=e165] [cursor=pointer]:
+                - /url: https://www.templatemonster.com/products/topic/furniture-templates/category/website-templates/color/black/
+                - text: black (241)
+              - link "orange (47)" [ref=e167] [cursor=pointer]:
+                - /url: https://www.templatemonster.com/products/topic/furniture-templates/category/website-templates/color/orange/
+                - text: orange (47)
+              - link "brown (44)" [ref=e169] [cursor=pointer]:
+                - /url: https://www.templatemonster.com/products/topic/furniture-templates/category/website-templates/color/brown/
+                - text: brown (44)
+              - link "green (43)" [ref=e171] [cursor=pointer]:
+                - /url: https://www.templatemonster.com/products/topic/furniture-templates/category/website-templates/color/green/
+                - text: green (43)
+              - link "blue (25)" [ref=e173] [cursor=pointer]:
+                - /url: https://www.templatemonster.com/products/topic/furniture-templates/category/website-templates/color/blue/
+                - text: blue (25)
+              - link "cyan (23)" [ref=e175] [cursor=pointer]:
+                - /url: https://www.templatemonster.com/products/topic/furniture-templates/category/website-templates/color/cyan/
+                - text: cyan (23)
+              - link "pink (20)" [ref=e177] [cursor=pointer]:
+                - /url: https://www.templatemonster.com/products/topic/furniture-templates/category/website-templates/color/pink/
+                - text: pink (20)
+              - link "yellow (16)" [ref=e179] [cursor=pointer]:
+                - /url: https://www.templatemonster.com/products/topic/furniture-templates/category/website-templates/color/yellow/
+                - text: yellow (16)
+              - button "All" [ref=e182] [cursor=pointer]
+          - generic [ref=e183]:
+            - paragraph [ref=e184]: Features
+            - generic [ref=e185]:
+              - link "Responsive (469)" [ref=e186] [cursor=pointer]:
+                - /url: https://www.templatemonster.com/products/topic/furniture-templates/category/website-templates/features/responsive-design/
+              - link "Dropdown Menu (373)" [ref=e187] [cursor=pointer]:
+                - /url: https://www.templatemonster.com/products/topic/furniture-templates/category/website-templates/features/dropdown-menu/
+              - link "JQuery (363)" [ref=e188] [cursor=pointer]:
+                - /url: https://www.templatemonster.com/products/topic/furniture-templates/category/website-templates/features/jquery/
+              - link "HTML 5 (357)" [ref=e189] [cursor=pointer]:
+                - /url: https://www.templatemonster.com/products/topic/furniture-templates/category/website-templates/features/html-5/
+              - link "Search Engine Friendly (344)" [ref=e190] [cursor=pointer]:
+                - /url: https://www.templatemonster.com/products/topic/furniture-templates/category/website-templates/features/search-engine-friendly/
+              - link "eCommerce (325)" [ref=e191] [cursor=pointer]:
+                - /url: https://www.templatemonster.com/products/topic/furniture-templates/category/website-templates/features/ecommerce/
+              - link "Blog (313)" [ref=e192] [cursor=pointer]:
+                - /url: https://www.templatemonster.com/products/topic/furniture-templates/category/website-templates/features/blog/
+              - link "Online Store/Shop (310)" [ref=e193] [cursor=pointer]:
+                - /url: https://www.templatemonster.com/products/topic/furniture-templates/category/website-templates/features/online-store-shop/
+              - link "Premium (309)" [ref=e194] [cursor=pointer]:
+                - /url: https://www.templatemonster.com/products/topic/furniture-templates/category/website-templates/features/premium-templates/
+              - link "Ajax (302)" [ref=e195] [cursor=pointer]:
+                - /url: https://www.templatemonster.com/products/topic/furniture-templates/category/website-templates/features/ajax/
+              - button "All" [ref=e197] [cursor=pointer]
+          - generic [ref=e198]:
+            - paragraph [ref=e199]: Styles
+            - generic [ref=e200]:
+              - link "Clean (290)" [ref=e201] [cursor=pointer]:
+                - /url: https://www.templatemonster.com/products/topic/furniture-templates/category/website-templates/styles/clean/
+              - link "Neutral (222)" [ref=e202] [cursor=pointer]:
+                - /url: https://www.templatemonster.com/products/topic/furniture-templates/category/website-templates/styles/neutral/
+              - link "Minimalist (218)" [ref=e203] [cursor=pointer]:
+                - /url: https://www.templatemonster.com/products/topic/furniture-templates/category/website-templates/styles/minimalist/
+              - link "Mobile (198)" [ref=e204] [cursor=pointer]:
+                - /url: https://www.templatemonster.com/products/topic/furniture-templates/category/website-templates/styles/mobile/
+              - link "Flat (192)" [ref=e205] [cursor=pointer]:
+                - /url: https://www.templatemonster.com/products/topic/furniture-templates/category/website-templates/styles/flat-design/
+              - link "Futurist (130)" [ref=e206] [cursor=pointer]:
+                - /url: https://www.templatemonster.com/products/topic/furniture-templates/category/website-templates/styles/futurist/
+              - link "Collage (96)" [ref=e207] [cursor=pointer]:
+                - /url: https://www.templatemonster.com/products/topic/furniture-templates/category/website-templates/styles/collage/
+              - link "Corporate (80)" [ref=e208] [cursor=pointer]:
+                - /url: https://www.templatemonster.com/products/topic/furniture-templates/category/website-templates/styles/corporate/
+              - link "Web2.0 (77)" [ref=e209] [cursor=pointer]:
+                - /url: https://www.templatemonster.com/products/topic/furniture-templates/category/website-templates/styles/web2-0/
+              - link "Artworks (66)" [ref=e210] [cursor=pointer]:
+                - /url: https://www.templatemonster.com/products/topic/furniture-templates/category/website-templates/styles/artworks/
+              - button "All" [ref=e212] [cursor=pointer]
+          - link "Updated (in last 6 months)" [ref=e215] [cursor=pointer]:
+            - /url: https://www.templatemonster.com/category/furniture-website-templates/?lastupdated=2025-11-18
+            - paragraph [ref=e216]: Updated (in last 6 months)
+        - generic [ref=e217]:
+          - generic [ref=e218]:
+            - article [ref=e219]:
+              - generic [ref=e220] [cursor=pointer]:
+                - link "Electshop - Electronics and Digital Store Prestashop Responsive Theme" [ref=e221]:
+                  - /url: https://www.templatemonster.com/prestashop-themes/electshop-electronics-and-digital-store-prestashop-theme-202489.html
+                  - img "Electshop - Electronics and Digital Store Prestashop Responsive Theme" [ref=e223]
+                - link "Electshop - Electronics and Digital Store Prestashop Responsive Theme $81 Live Demo" [ref=e224]:
+                  - /url: https://www.templatemonster.com/prestashop-themes/electshop-electronics-and-digital-store-prestashop-theme-202489.html
+                  - generic [ref=e225]:
+                    - heading "Electshop - Electronics and Digital Store Prestashop Responsive Theme" [level=3] [ref=e228]:
+                      - generic "Electshop - Electronics and Digital Store Prestashop Responsive Theme" [ref=e229]:
+                        - generic [ref=e230]: Electshop - Electronics and Digital Store Prestashop Responsive Theme
+                    - generic [ref=e235]: $81
+                    - button "Live Demo" [ref=e236]
+            - article [ref=e237]:
+              - generic [ref=e238] [cursor=pointer]:
+                - link "Crazyshop - Multipurpose Sections Shopify 2.0 Responsive Theme" [ref=e239]:
+                  - /url: https://www.templatemonster.com/shopify-themes/crazyshop-multipurpose-sections-shopify-2-0-responsive-theme-486315.html
+                  - img "Crazyshop - Multipurpose Sections Shopify 2.0 Responsive Theme" [ref=e241]
+                - link "Crazyshop - Multipurpose Sections Shopify 2.0 Responsive Theme $71 Live Demo" [ref=e242]:
+                  - /url: https://www.templatemonster.com/shopify-themes/crazyshop-multipurpose-sections-shopify-2-0-responsive-theme-486315.html
+                  - generic [ref=e243]:
+                    - heading "Crazyshop - Multipurpose Sections Shopify 2.0 Responsive Theme" [level=3] [ref=e246]:
+                      - generic "Crazyshop - Multipurpose Sections Shopify 2.0 Responsive Theme" [ref=e247]:
+                        - generic [ref=e248]: Crazyshop - Multipurpose Sections Shopify 2.0 Responsive Theme
+                    - generic [ref=e253]: $71
+                    - button "Live Demo" [ref=e254]
+            - generic [ref=e255]:
+              - link "MonsterOne Unlimited Subscription for all your projects 540k+ premium items Unlimited downloads Simple commercial license Go Unlimited $9.90/mo" [ref=e256] [cursor=pointer]:
+                - /url: https://www.templatemonster.com/monsterone/#prices
+                - img "MonsterOne" [ref=e257]
+                - heading "Unlimited Subscription for all your projects" [level=3] [ref=e258]:
+                  - generic [ref=e259]: Unlimited Subscription
+                  - text: for all your projects
+                - list [ref=e260]:
+                  - listitem [ref=e261]:
+                    - strong [ref=e262]: 540k+
+                    - text: premium items
+                  - listitem [ref=e263]: Unlimited downloads
+                  - listitem [ref=e264]: Simple commercial license
+                - button "Go Unlimited $9.90/mo" [ref=e265]:
+                  - text: Go Unlimited
+                  - strong [ref=e266]: $9.90/mo
+              - img [ref=e267]
+            - article [ref=e270]:
+              - generic [ref=e271] [cursor=pointer]:
+                - link "Megzon - Electronics &amp;amp; Gadgets Mega Store Multipurpose Shopify 2.0 Responsive Theme FREE INSTALLATION" [ref=e272]:
+                  - /url: https://www.templatemonster.com/shopify-themes/megzon-electronics-amp-gadgets-mega-store-multipurpose-shopify-2-0-responsive-theme-520634.html
+                  - generic [ref=e273]:
+                    - img "Megzon - Electronics &amp;amp; Gadgets Mega Store Multipurpose Shopify 2.0 Responsive Theme" [ref=e274]
+                    - generic [ref=e275]: FREE INSTALLATION
+                - link "Megzon - Electronics & Gadgets Mega Store Multipurpose Shopify 2.0 Responsive Theme $41 Live Demo" [ref=e276]:
+                  - /url: https://www.templatemonster.com/shopify-themes/megzon-electronics-amp-gadgets-mega-store-multipurpose-shopify-2-0-responsive-theme-520634.html
+                  - generic [ref=e277]:
+                    - heading "Megzon - Electronics & Gadgets Mega Store Multipurpose Shopify 2.0 Responsive Theme" [level=3] [ref=e280]:
+                      - generic "Megzon - Electronics & Gadgets Mega Store Multipurpose Shopify 2.0 Responsive Theme" [ref=e281]:
+                        - generic [ref=e282]: Megzon - Electronics & Gadgets Mega Store Multipurpose Shopify 2.0 Responsive Theme
+                    - generic [ref=e286]: $41
+                    - button "Live Demo" [ref=e287]
+            - article [ref=e288]:
+              - generic [ref=e289] [cursor=pointer]:
+                - link "Wooden Work - Handyman Woodworking &amp;amp; Carpentry Services WordPress Elementor Theme" [ref=e290]:
+                  - /url: https://www.templatemonster.com/wordpress-themes/wooden-work-handyman-woodworking-amp-carpentry-services-wordpress-elementor-theme-558012.html
+                  - img "Wooden Work - Handyman Woodworking &amp;amp; Carpentry Services WordPress Elementor Theme" [ref=e292]
+                - link "Wooden Work - Handyman Woodworking & Carpentry Services WordPress Elementor Theme $41 Live Demo" [ref=e293]:
+                  - /url: https://www.templatemonster.com/wordpress-themes/wooden-work-handyman-woodworking-amp-carpentry-services-wordpress-elementor-theme-558012.html
+                  - generic [ref=e294]:
+                    - heading "Wooden Work - Handyman Woodworking & Carpentry Services WordPress Elementor Theme" [level=3] [ref=e297]:
+                      - generic "Wooden Work - Handyman Woodworking & Carpentry Services WordPress Elementor Theme" [ref=e298]:
+                        - generic [ref=e299]: Wooden Work - Handyman Woodworking & Carpentry Services WordPress Elementor Theme
+                    - generic [ref=e303]: $41
+                    - button "Live Demo" [ref=e304]
+            - article [ref=e305]:
+              - generic [ref=e306] [cursor=pointer]:
+                - link "Sofa - Interior Design Agency Multipage HTML Website Template" [ref=e307]:
+                  - /url: https://www.templatemonster.com/website-templates/interior-furniture-responsive-website-template-57820.html
+                  - img "Sofa - Interior Design Agency Multipage HTML Website Template" [ref=e309]
+                - link "Sofa - Interior Design Agency Multipage HTML Website Template $29 Live Demo" [ref=e310]:
+                  - /url: https://www.templatemonster.com/website-templates/interior-furniture-responsive-website-template-57820.html
+                  - generic [ref=e311]:
+                    - heading "Sofa - Interior Design Agency Multipage HTML Website Template" [level=3] [ref=e314]:
+                      - generic "Sofa - Interior Design Agency Multipage HTML Website Template" [ref=e315]:
+                        - generic [ref=e316]: Sofa - Interior Design Agency Multipage HTML Website Template
+                    - generic [ref=e321]: $29
+                    - button "Live Demo" [ref=e322]
+            - article [ref=e323]:
+              - generic [ref=e324] [cursor=pointer]:
+                - link "Lightness - Lighting and Home Decor Store Elementor WooCommerce Responsive Theme" [ref=e325]:
+                  - /url: https://www.templatemonster.com/woocommerce-themes/lightness-fancy-lights-store-woocommerce-theme-208279.html
+                  - img "Lightness - Lighting and Home Decor Store Elementor WooCommerce Responsive Theme" [ref=e327]
+                - link "Lightness - Lighting and Home Decor Store Elementor WooCommerce Responsive Theme $71 Live Demo" [ref=e328]:
+                  - /url: https://www.templatemonster.com/woocommerce-themes/lightness-fancy-lights-store-woocommerce-theme-208279.html
+                  - generic [ref=e329]:
+                    - heading "Lightness - Lighting and Home Decor Store Elementor WooCommerce Responsive Theme" [level=3] [ref=e332]:
+                      - generic "Lightness - Lighting and Home Decor Store Elementor WooCommerce Responsive Theme" [ref=e333]:
+                        - generic [ref=e334]: Lightness - Lighting and Home Decor Store Elementor WooCommerce Responsive Theme
+                    - generic [ref=e338]: $71
+                    - button "Live Demo" [ref=e339]
+            - article [ref=e340]:
+              - generic [ref=e341] [cursor=pointer]:
+                - link "Tooliza - Handyman &amp;amp; Power Tools Store Prestashop Responsive Theme" [ref=e342]:
+                  - /url: https://www.templatemonster.com/prestashop-themes/tooliza-handyman-amp-power-tools-store-prestashop-responsive-theme-379982.html
+                  - img "Tooliza - Handyman &amp;amp; Power Tools Store Prestashop Responsive Theme" [ref=e344]
+                - link "Tooliza - Handyman & Power Tools Store Prestashop Responsive Theme $81 Live Demo" [ref=e345]:
+                  - /url: https://www.templatemonster.com/prestashop-themes/tooliza-handyman-amp-power-tools-store-prestashop-responsive-theme-379982.html
+                  - generic [ref=e346]:
+                    - heading "Tooliza - Handyman & Power Tools Store Prestashop Responsive Theme" [level=3] [ref=e349]:
+                      - generic "Tooliza - Handyman & Power Tools Store Prestashop Responsive Theme" [ref=e350]:
+                        - generic [ref=e351]: Tooliza - Handyman & Power Tools Store Prestashop Responsive Theme
+                    - generic [ref=e356]: $81
+                    - button "Live Demo" [ref=e357]
+            - article [ref=e358]:
+              - generic [ref=e359] [cursor=pointer]:
+                - link "Cousen - Furniture Shopify Theme 2.0 – Modern, Elegant Fully Customizable" [ref=e360]:
+                  - /url: https://www.templatemonster.com/shopify-themes/cousen-furniture-shopify-theme-2-0-modern-elegant-fully-customizable-546741.html
+                  - img "Cousen - Furniture Shopify Theme 2.0 – Modern, Elegant Fully Customizable" [ref=e362]
+                - link "Cousen - Furniture Shopify Theme 2.0 – Modern, Elegant Fully Customizable $32 Live Demo" [ref=e363]:
+                  - /url: https://www.templatemonster.com/shopify-themes/cousen-furniture-shopify-theme-2-0-modern-elegant-fully-customizable-546741.html
+                  - generic [ref=e364]:
+                    - heading "Cousen - Furniture Shopify Theme 2.0 – Modern, Elegant Fully Customizable" [level=3] [ref=e367]:
+                      - generic "Cousen - Furniture Shopify Theme 2.0 – Modern, Elegant Fully Customizable" [ref=e368]:
+                        - generic [ref=e369]: Cousen - Furniture Shopify Theme 2.0 – Modern, Elegant Fully Customizable
+                    - generic [ref=e373]: $32
+                    - button "Live Demo" [ref=e374]
+            - article [ref=e375]:
+              - generic [ref=e376] [cursor=pointer]:
+                - link "StyleRoom - Construction &amp;amp; House Renovation WordPress Theme" [ref=e377]:
+                  - /url: https://www.templatemonster.com/wordpress-themes/64987.html
+                  - img "StyleRoom - Construction &amp;amp; House Renovation WordPress Theme" [ref=e379]
+                - link "StyleRoom - Construction & House Renovation WordPress Theme $66 Live Demo" [ref=e380]:
+                  - /url: https://www.templatemonster.com/wordpress-themes/64987.html
+                  - generic [ref=e381]:
+                    - heading "StyleRoom - Construction & House Renovation WordPress Theme" [level=3] [ref=e384]:
+                      - generic "StyleRoom - Construction & House Renovation WordPress Theme" [ref=e385]:
+                        - generic [ref=e386]: StyleRoom - Construction & House Renovation WordPress Theme
+                    - generic [ref=e391]: $66
+                    - button "Live Demo" [ref=e392]
+            - article [ref=e393]:
+              - generic [ref=e394] [cursor=pointer]:
+                - link "Optimall - Mega Store Shopify 2.0 Responsive Theme" [ref=e395]:
+                  - /url: https://www.templatemonster.com/shopify-themes/optimall-mega-store-shopify-2-0-responsive-theme-548160.html
+                  - img "Optimall - Mega Store Shopify 2.0 Responsive Theme" [ref=e397]
+                - link "Optimall - Mega Store Shopify 2.0 Responsive Theme $71 Live Demo" [ref=e398]:
+                  - /url: https://www.templatemonster.com/shopify-themes/optimall-mega-store-shopify-2-0-responsive-theme-548160.html
+                  - generic [ref=e399]:
+                    - heading "Optimall - Mega Store Shopify 2.0 Responsive Theme" [level=3] [ref=e402]:
+                      - generic "Optimall - Mega Store Shopify 2.0 Responsive Theme" [ref=e403]:
+                        - generic [ref=e404]: Optimall - Mega Store Shopify 2.0 Responsive Theme
+                    - generic [ref=e408]: $71
+                    - button "Live Demo" [ref=e409]
+            - article [ref=e410]:
+              - generic [ref=e411] [cursor=pointer]:
+                - link "ArchiCraft | Architecture &amp;amp; Interior Design HTML5 Template" [ref=e412]:
+                  - /url: https://www.templatemonster.com/website-templates/archicraft-architecture-amp-interior-design-html5-template-540786.html
+                  - img "ArchiCraft | Architecture &amp;amp; Interior Design HTML5 Template" [ref=e414]
+                - link "ArchiCraft | Architecture & Interior Design HTML5 Template $14 Live Demo" [ref=e415]:
+                  - /url: https://www.templatemonster.com/website-templates/archicraft-architecture-amp-interior-design-html5-template-540786.html
+                  - generic [ref=e416]:
+                    - heading "ArchiCraft | Architecture & Interior Design HTML5 Template" [level=3] [ref=e419]:
+                      - generic "ArchiCraft | Architecture & Interior Design HTML5 Template" [ref=e420]:
+                        - generic [ref=e421]: ArchiCraft | Architecture & Interior Design HTML5 Template
+                    - generic [ref=e425]: $14
+                    - button "Live Demo" [ref=e426]
+            - article [ref=e427]:
+              - generic [ref=e428] [cursor=pointer]:
+                - link "Woodart - Modern Furniture Store Prestashop Theme" [ref=e429]:
+                  - /url: https://www.templatemonster.com/prestashop-themes/woodart-modern-furniture-store-prestashop-theme-566317.html
+                  - img "Woodart - Modern Furniture Store Prestashop Theme" [ref=e431]
+                - link "Woodart - Modern Furniture Store Prestashop Theme $71 Live Demo" [ref=e432]:
+                  - /url: https://www.templatemonster.com/prestashop-themes/woodart-modern-furniture-store-prestashop-theme-566317.html
+                  - generic [ref=e433]:
+                    - heading "Woodart - Modern Furniture Store Prestashop Theme" [level=3] [ref=e436]:
+                      - generic "Woodart - Modern Furniture Store Prestashop Theme" [ref=e437]:
+                        - generic [ref=e438]: Woodart - Modern Furniture Store Prestashop Theme
+                    - generic [ref=e442]: $71
+                    - button "Live Demo" [ref=e443]
+            - article [ref=e444]:
+              - generic [ref=e445] [cursor=pointer]:
+                - link "Furnitureno - Furniture Store Modern eCommerce HTML Template" [ref=e446]:
+                  - /url: https://www.templatemonster.com/website-templates/furnitureno-furniture-store-modern-ecommerce-html-template-198008.html
+                  - img "Furnitureno - Furniture Store Modern eCommerce HTML Template" [ref=e448]
+                - link "Furnitureno - Furniture Store Modern eCommerce HTML Template $21 Live Demo" [ref=e449]:
+                  - /url: https://www.templatemonster.com/website-templates/furnitureno-furniture-store-modern-ecommerce-html-template-198008.html
+                  - generic [ref=e450]:
+                    - heading "Furnitureno - Furniture Store Modern eCommerce HTML Template" [level=3] [ref=e453]:
+                      - generic "Furnitureno - Furniture Store Modern eCommerce HTML Template" [ref=e454]:
+                        - generic [ref=e455]: Furnitureno - Furniture Store Modern eCommerce HTML Template
+                    - generic [ref=e459]: $21
+                    - button "Live Demo" [ref=e460]
+            - article [ref=e461]:
+              - generic [ref=e462] [cursor=pointer]:
+                - link "Furnitru - Furniture Store and Home Interior and Decor WooCommerce Theme" [ref=e463]:
+                  - /url: https://www.templatemonster.com/woocommerce-themes/furnitru-furniture-store-woocommerce-themes-243808.html
+                  - img "Furnitru - Furniture Store and Home Interior and Decor WooCommerce Theme" [ref=e465]
+                - link "Furnitru - Furniture Store and Home Interior and Decor WooCommerce Theme $71 Live Demo" [ref=e466]:
+                  - /url: https://www.templatemonster.com/woocommerce-themes/furnitru-furniture-store-woocommerce-themes-243808.html
+                  - generic [ref=e467]:
+                    - heading "Furnitru - Furniture Store and Home Interior and Decor WooCommerce Theme" [level=3] [ref=e470]:
+                      - generic "Furnitru - Furniture Store and Home Interior and Decor WooCommerce Theme" [ref=e471]:
+                        - generic [ref=e472]: Furnitru - Furniture Store and Home Interior and Decor WooCommerce Theme
+                    - generic [ref=e476]: $71
+                    - button "Live Demo" [ref=e477]
+            - article [ref=e478]:
+              - generic [ref=e479] [cursor=pointer]:
+                - link "Wido - Door Services WordPress Theme" [ref=e480]:
+                  - /url: https://www.templatemonster.com/wordpress-themes/wido-door-services-wordpress-theme-372952.html
+                  - img "Wido - Door Services WordPress Theme" [ref=e482]
+                - link "Wido - Door Services WordPress Theme $40 Live Demo" [ref=e483]:
+                  - /url: https://www.templatemonster.com/wordpress-themes/wido-door-services-wordpress-theme-372952.html
+                  - generic [ref=e484]:
+                    - heading "Wido - Door Services WordPress Theme" [level=3] [ref=e487]:
+                      - generic "Wido - Door Services WordPress Theme" [ref=e488]:
+                        - generic [ref=e489]: Wido - Door Services WordPress Theme
+                    - generic [ref=e493]: $40
+                    - button "Live Demo" [ref=e494]
+            - article [ref=e495]:
+              - generic [ref=e496] [cursor=pointer]:
+                - link "Zokka - Modern Furniture Store WordPress Elementor Theme" [ref=e497]:
+                  - /url: https://www.templatemonster.com/wordpress-themes/zokka-modern-furniture-store-wordpress-elementor-theme-547745.html
+                  - img "Zokka - Modern Furniture Store WordPress Elementor Theme" [ref=e499]
+                - link "Zokka - Modern Furniture Store WordPress Elementor Theme $41 Live Demo" [ref=e500]:
+                  - /url: https://www.templatemonster.com/wordpress-themes/zokka-modern-furniture-store-wordpress-elementor-theme-547745.html
+                  - generic [ref=e501]:
+                    - heading "Zokka - Modern Furniture Store WordPress Elementor Theme" [level=3] [ref=e504]:
+                      - generic "Zokka - Modern Furniture Store WordPress Elementor Theme" [ref=e505]:
+                        - generic [ref=e506]: Zokka - Modern Furniture Store WordPress Elementor Theme
+                    - generic [ref=e510]: $41
+                    - button "Live Demo" [ref=e511]
+            - article [ref=e512]:
+              - generic [ref=e513] [cursor=pointer]:
+                - link "Inova - Interior &amp;amp; Furniture Manufacturing WordPress Theme" [ref=e514]:
+                  - /url: https://www.templatemonster.com/wordpress-themes/inova-interior-amp-furniture-manufacturing-wordpress-theme-249541.html
+                  - img "Inova - Interior &amp;amp; Furniture Manufacturing WordPress Theme" [ref=e516]
+                - link "Inova - Interior & Furniture Manufacturing WordPress Theme $101 Live Demo" [ref=e517]:
+                  - /url: https://www.templatemonster.com/wordpress-themes/inova-interior-amp-furniture-manufacturing-wordpress-theme-249541.html
+                  - generic [ref=e518]:
+                    - heading "Inova - Interior & Furniture Manufacturing WordPress Theme" [level=3] [ref=e521]:
+                      - generic "Inova - Interior & Furniture Manufacturing WordPress Theme" [ref=e522]:
+                        - generic [ref=e523]: Inova - Interior & Furniture Manufacturing WordPress Theme
+                    - generic [ref=e527]: $101
+                    - button "Live Demo" [ref=e528]
+            - article [ref=e529]:
+              - generic [ref=e530] [cursor=pointer]:
+                - link "Toolgrip - Multipurpose Tools Store Elementor WooCommerce Responsive Theme" [ref=e531]:
+                  - /url: https://www.templatemonster.com/woocommerce-themes/toolgrip-multipurpose-tools-store-elementor-woocommerce-responsive-theme-469210.html
+                  - img "Toolgrip - Multipurpose Tools Store Elementor WooCommerce Responsive Theme" [ref=e533]
+                - link "Toolgrip - Multipurpose Tools Store Elementor WooCommerce Responsive Theme $71 Live Demo" [ref=e534]:
+                  - /url: https://www.templatemonster.com/woocommerce-themes/toolgrip-multipurpose-tools-store-elementor-woocommerce-responsive-theme-469210.html
+                  - generic [ref=e535]:
+                    - heading "Toolgrip - Multipurpose Tools Store Elementor WooCommerce Responsive Theme" [level=3] [ref=e538]:
+                      - generic "Toolgrip - Multipurpose Tools Store Elementor WooCommerce Responsive Theme" [ref=e539]:
+                        - generic [ref=e540]: Toolgrip - Multipurpose Tools Store Elementor WooCommerce Responsive Theme
+                    - generic [ref=e544]: $71
+                    - button "Live Demo" [ref=e545]
+            - article [ref=e546]:
+              - generic [ref=e547] [cursor=pointer]:
+                - link "Furniosh - Modern Furniture Store WooCommerce WordPress Theme" [ref=e548]:
+                  - /url: https://www.templatemonster.com/woocommerce-themes/furniosh-modern-furniture-store-woocommerce-wordpress-theme-509288.html
+                  - img "Furniosh - Modern Furniture Store WooCommerce WordPress Theme" [ref=e550]
+                - link "Furniosh - Modern Furniture Store WooCommerce WordPress Theme $71 Live Demo" [ref=e551]:
+                  - /url: https://www.templatemonster.com/woocommerce-themes/furniosh-modern-furniture-store-woocommerce-wordpress-theme-509288.html
+                  - generic [ref=e552]:
+                    - heading "Furniosh - Modern Furniture Store WooCommerce WordPress Theme" [level=3] [ref=e555]:
+                      - generic "Furniosh - Modern Furniture Store WooCommerce WordPress Theme" [ref=e556]:
+                        - generic [ref=e557]: Furniosh - Modern Furniture Store WooCommerce WordPress Theme
+                    - generic [ref=e561]: $71
+                    - button "Live Demo" [ref=e562]
+            - article [ref=e563]:
+              - generic [ref=e564] [cursor=pointer]:
+                - link "ModernCart - Mega Store Elementor WooCommerce Responsive Theme" [ref=e565]:
+                  - /url: https://www.templatemonster.com/woocommerce-themes/moderncart-mega-store-elementor-woocommerce-responsive-theme-434296.html
+                  - img "ModernCart - Mega Store Elementor WooCommerce Responsive Theme" [ref=e567]
+                - link "ModernCart - Mega Store Elementor WooCommerce Responsive Theme $71 Live Demo" [ref=e568]:
+                  - /url: https://www.templatemonster.com/woocommerce-themes/moderncart-mega-store-elementor-woocommerce-responsive-theme-434296.html
+                  - generic [ref=e569]:
+                    - heading "ModernCart - Mega Store Elementor WooCommerce Responsive Theme" [level=3] [ref=e572]:
+                      - generic "ModernCart - Mega Store Elementor WooCommerce Responsive Theme" [ref=e573]:
+                        - generic [ref=e574]: ModernCart - Mega Store Elementor WooCommerce Responsive Theme
+                    - generic [ref=e579]: $71
+                    - button "Live Demo" [ref=e580]
+            - article [ref=e581]:
+              - generic [ref=e582] [cursor=pointer]:
+                - link "Frunicha - Furniture &amp;amp; Interior Design WooCommerce Theme" [ref=e583]:
+                  - /url: https://www.templatemonster.com/woocommerce-themes/frunicha-furniture-amp-interior-design-woocommerce-theme-443238.html
+                  - img "Frunicha - Furniture &amp;amp; Interior Design WooCommerce Theme" [ref=e585]
+                - link "Frunicha - Furniture & Interior Design WooCommerce Theme $71 Live Demo" [ref=e586]:
+                  - /url: https://www.templatemonster.com/woocommerce-themes/frunicha-furniture-amp-interior-design-woocommerce-theme-443238.html
+                  - generic [ref=e587]:
+                    - heading "Frunicha - Furniture & Interior Design WooCommerce Theme" [level=3] [ref=e590]:
+                      - generic "Frunicha - Furniture & Interior Design WooCommerce Theme" [ref=e591]:
+                        - generic [ref=e592]: Frunicha - Furniture & Interior Design WooCommerce Theme
+                    - generic [ref=e596]: $71
+                    - button "Live Demo" [ref=e597]
+            - article [ref=e598]:
+              - generic [ref=e599] [cursor=pointer]:
+                - link "Kitchner - Kitchen Appliances Store Elementor WooCommerce Responsive Theme" [ref=e600]:
+                  - /url: https://www.templatemonster.com/woocommerce-themes/kitchner-kitchen-store-woocommerce-theme-95164.html
+                  - img "Kitchner - Kitchen Appliances Store Elementor WooCommerce Responsive Theme" [ref=e602]
+                - link "Kitchner - Kitchen Appliances Store Elementor WooCommerce Responsive Theme $71 Live Demo" [ref=e603]:
+                  - /url: https://www.templatemonster.com/woocommerce-themes/kitchner-kitchen-store-woocommerce-theme-95164.html
+                  - generic [ref=e604]:
+                    - heading "Kitchner - Kitchen Appliances Store Elementor WooCommerce Responsive Theme" [level=3] [ref=e607]:
+                      - generic "Kitchner - Kitchen Appliances Store Elementor WooCommerce Responsive Theme" [ref=e608]:
+                        - generic [ref=e609]: Kitchner - Kitchen Appliances Store Elementor WooCommerce Responsive Theme
+                    - generic [ref=e613]: $71
+                    - button "Live Demo" [ref=e614]
+            - article [ref=e615]:
+              - generic [ref=e616] [cursor=pointer]:
+                - link "Conifer - Gardening Plant Store Elementor WooCommerce Responsive Theme" [ref=e617]:
+                  - /url: https://www.templatemonster.com/woocommerce-themes/conifer-plant-store-woocommerce-theme-87167.html
+                  - img "Conifer - Gardening Plant Store Elementor WooCommerce Responsive Theme" [ref=e619]
+                - link "Conifer - Gardening Plant Store Elementor WooCommerce Responsive Theme $71 Live Demo" [ref=e620]:
+                  - /url: https://www.templatemonster.com/woocommerce-themes/conifer-plant-store-woocommerce-theme-87167.html
+                  - generic [ref=e621]:
+                    - heading "Conifer - Gardening Plant Store Elementor WooCommerce Responsive Theme" [level=3] [ref=e624]:
+                      - generic "Conifer - Gardening Plant Store Elementor WooCommerce Responsive Theme" [ref=e625]:
+                        - generic [ref=e626]: Conifer - Gardening Plant Store Elementor WooCommerce Responsive Theme
+                    - generic [ref=e631]: $71
+                    - button "Live Demo" [ref=e632]
+            - article [ref=e633]:
+              - generic [ref=e634] [cursor=pointer]:
+                - link "Megakart - Electronics &amp;amp; Gadget Mega Store Multipurpose Shopify 2.0 Responsive Theme" [ref=e635]:
+                  - /url: https://www.templatemonster.com/shopify-themes/megakart-mega-store-shopify-2-0-responsive-theme-422574.html
+                  - img "Megakart - Electronics &amp;amp; Gadget Mega Store Multipurpose Shopify 2.0 Responsive Theme" [ref=e637]
+                - link "Megakart - Electronics & Gadget Mega Store Multipurpose Shopify 2.0 Responsive Theme $37 Live Demo" [ref=e638]:
+                  - /url: https://www.templatemonster.com/shopify-themes/megakart-mega-store-shopify-2-0-responsive-theme-422574.html
+                  - generic [ref=e639]:
+                    - heading "Megakart - Electronics & Gadget Mega Store Multipurpose Shopify 2.0 Responsive Theme" [level=3] [ref=e642]:
+                      - generic "Megakart - Electronics & Gadget Mega Store Multipurpose Shopify 2.0 Responsive Theme" [ref=e643]:
+                        - generic [ref=e644]: Megakart - Electronics & Gadget Mega Store Multipurpose Shopify 2.0 Responsive Theme
+                    - generic [ref=e648]: $37
+                    - button "Live Demo" [ref=e649]
+            - article [ref=e650]:
+              - generic [ref=e651] [cursor=pointer]:
+                - link "Moduluxe – A Premium Shopify Theme for Furniture &amp;amp; Home Décor" [ref=e652]:
+                  - /url: https://www.templatemonster.com/shopify-themes/moduluxe-a-premium-shopify-theme-for-furniture-amp-home-d-cor-512425.html
+                  - img "Moduluxe – A Premium Shopify Theme for Furniture &amp;amp; Home Décor" [ref=e654]
+                - link "Moduluxe – A Premium Shopify Theme for Furniture & Home Décor $37 Live Demo" [ref=e655]:
+                  - /url: https://www.templatemonster.com/shopify-themes/moduluxe-a-premium-shopify-theme-for-furniture-amp-home-d-cor-512425.html
+                  - generic [ref=e656]:
+                    - heading "Moduluxe – A Premium Shopify Theme for Furniture & Home Décor" [level=3] [ref=e659]:
+                      - generic "Moduluxe – A Premium Shopify Theme for Furniture & Home Décor" [ref=e660]:
+                        - generic [ref=e661]: Moduluxe – A Premium Shopify Theme for Furniture & Home Décor
+                    - generic [ref=e665]: $37
+                    - button "Live Demo" [ref=e666]
+            - article [ref=e667]:
+              - generic [ref=e668] [cursor=pointer]:
+                - link "DR Mart - Modern Furniture OpenCart Template" [ref=e669]:
+                  - /url: https://www.templatemonster.com/opencart-templates/dr-mart-modern-furniture-opencart-template-151223.html
+                  - img "DR Mart - Modern Furniture OpenCart Template" [ref=e671]
+                - link "DR Mart - Modern Furniture OpenCart Template $41 Live Demo" [ref=e672]:
+                  - /url: https://www.templatemonster.com/opencart-templates/dr-mart-modern-furniture-opencart-template-151223.html
+                  - generic [ref=e673]:
+                    - heading "DR Mart - Modern Furniture OpenCart Template" [level=3] [ref=e676]:
+                      - generic "DR Mart - Modern Furniture OpenCart Template" [ref=e677]:
+                        - generic [ref=e678]: DR Mart - Modern Furniture OpenCart Template
+                    - generic [ref=e682]: $41
+                    - button "Live Demo" [ref=e683]
+            - article [ref=e684]:
+              - generic [ref=e685] [cursor=pointer]:
+                - link "TreePlant - Houseplant &amp;amp; Gardening Store PrestaShop Responsive Theme" [ref=e686]:
+                  - /url: https://www.templatemonster.com/prestashop-themes/treeplant-houseplant-amp-gardening-store-prestashop-responsive-theme-562857.html
+                  - img "TreePlant - Houseplant &amp;amp; Gardening Store PrestaShop Responsive Theme" [ref=e688]
+                - link "TreePlant - Houseplant & Gardening Store PrestaShop Responsive Theme $71 Live Demo" [ref=e689]:
+                  - /url: https://www.templatemonster.com/prestashop-themes/treeplant-houseplant-amp-gardening-store-prestashop-responsive-theme-562857.html
+                  - generic [ref=e690]:
+                    - heading "TreePlant - Houseplant & Gardening Store PrestaShop Responsive Theme" [level=3] [ref=e693]:
+                      - generic "TreePlant - Houseplant & Gardening Store PrestaShop Responsive Theme" [ref=e694]:
+                        - generic [ref=e695]: TreePlant - Houseplant & Gardening Store PrestaShop Responsive Theme
+                    - generic [ref=e699]: $71
+                    - button "Live Demo" [ref=e700]
+            - article [ref=e701]:
+              - generic [ref=e702] [cursor=pointer]:
+                - link "Cookware - Kitchen Accessories Store PrestaShop Responsive Theme" [ref=e703]:
+                  - /url: https://www.templatemonster.com/prestashop-themes/cookware-kitchen-accessories-store-prestashop-responsive-theme-562604.html
+                  - img "Cookware - Kitchen Accessories Store PrestaShop Responsive Theme" [ref=e705]
+                - link "Cookware - Kitchen Accessories Store PrestaShop Responsive Theme $71 Live Demo" [ref=e706]:
+                  - /url: https://www.templatemonster.com/prestashop-themes/cookware-kitchen-accessories-store-prestashop-responsive-theme-562604.html
+                  - generic [ref=e707]:
+                    - heading "Cookware - Kitchen Accessories Store PrestaShop Responsive Theme" [level=3] [ref=e710]:
+                      - generic "Cookware - Kitchen Accessories Store PrestaShop Responsive Theme" [ref=e711]:
+                        - generic [ref=e712]: Cookware - Kitchen Accessories Store PrestaShop Responsive Theme
+                    - generic [ref=e716]: $71
+                    - button "Live Demo" [ref=e717]
+            - article [ref=e718]:
+              - generic [ref=e719] [cursor=pointer]:
+                - link "Lookan - Furniture OpenCart 4 &amp;amp; Openccart 3 Template" [ref=e720]:
+                  - /url: https://www.templatemonster.com/opencart-templates/80246.html
+                  - img "Lookan - Furniture OpenCart 4 &amp;amp; Openccart 3 Template" [ref=e722]
+                - link "Lookan - Furniture OpenCart 4 & Openccart 3 Template $101 Live Demo" [ref=e723]:
+                  - /url: https://www.templatemonster.com/opencart-templates/80246.html
+                  - generic [ref=e724]:
+                    - heading "Lookan - Furniture OpenCart 4 & Openccart 3 Template" [level=3] [ref=e727]:
+                      - generic "Lookan - Furniture OpenCart 4 & Openccart 3 Template" [ref=e728]:
+                        - generic [ref=e729]: Lookan - Furniture OpenCart 4 & Openccart 3 Template
+                    - generic [ref=e733]: $101
+                    - button "Live Demo" [ref=e734]
+            - article [ref=e735]:
+              - generic [ref=e736] [cursor=pointer]:
+                - link "Planetary - Plants &amp;amp; Nursery Store PrestaShop Responsive Theme" [ref=e737]:
+                  - /url: https://www.templatemonster.com/prestashop-themes/planetary-plants-store-prestashop-theme-90652.html
+                  - img "Planetary - Plants &amp;amp; Nursery Store PrestaShop Responsive Theme" [ref=e739]
+                - link "Planetary - Plants & Nursery Store PrestaShop Responsive Theme $81 Live Demo" [ref=e740]:
+                  - /url: https://www.templatemonster.com/prestashop-themes/planetary-plants-store-prestashop-theme-90652.html
+                  - generic [ref=e741]:
+                    - heading "Planetary - Plants & Nursery Store PrestaShop Responsive Theme" [level=3] [ref=e744]:
+                      - generic "Planetary - Plants & Nursery Store PrestaShop Responsive Theme" [ref=e745]:
+                        - generic [ref=e746]: Planetary - Plants & Nursery Store PrestaShop Responsive Theme
+                    - generic [ref=e751]: $81
+                    - button "Live Demo" [ref=e752]
+            - article [ref=e753]:
+              - generic [ref=e754] [cursor=pointer]:
+                - link "Parquetry - Flooring Company HTML5 Website Template" [ref=e755]:
+                  - /url: https://www.templatemonster.com/website-templates/55694.html
+                  - img "Parquetry - Flooring Company HTML5 Website Template" [ref=e757]
+                - link "Parquetry - Flooring Company HTML5 Website Template $29 Live Demo" [ref=e758]:
+                  - /url: https://www.templatemonster.com/website-templates/55694.html
+                  - generic [ref=e759]:
+                    - heading "Parquetry - Flooring Company HTML5 Website Template" [level=3] [ref=e762]:
+                      - generic "Parquetry - Flooring Company HTML5 Website Template" [ref=e763]:
+                        - generic [ref=e764]: Parquetry - Flooring Company HTML5 Website Template
+                    - generic [ref=e769]: $29
+                    - button "Live Demo" [ref=e770]
+            - article [ref=e771]:
+              - generic [ref=e772] [cursor=pointer]:
+                - link "Furnitor - Furniture And Home Decor WordPress Elementor Theme" [ref=e773]:
+                  - /url: https://www.templatemonster.com/wordpress-themes/furnitor-furniture-and-home-decor-wordpress-elementor-theme-376705.html
+                  - img "Furnitor - Furniture And Home Decor WordPress Elementor Theme" [ref=e775]
+                - link "Furnitor - Furniture And Home Decor WordPress Elementor Theme $41 Live Demo" [ref=e776]:
+                  - /url: https://www.templatemonster.com/wordpress-themes/furnitor-furniture-and-home-decor-wordpress-elementor-theme-376705.html
+                  - generic [ref=e777]:
+                    - heading "Furnitor - Furniture And Home Decor WordPress Elementor Theme" [level=3] [ref=e780]:
+                      - generic "Furnitor - Furniture And Home Decor WordPress Elementor Theme" [ref=e781]:
+                        - generic [ref=e782]: Furnitor - Furniture And Home Decor WordPress Elementor Theme
+                    - generic [ref=e786]: $41
+                    - button "Live Demo" [ref=e787]
+            - article [ref=e788]:
+              - generic [ref=e789] [cursor=pointer]:
+                - link "Furento - Multipurpose Furniture WooCommerce Theme" [ref=e790]:
+                  - /url: https://www.templatemonster.com/woocommerce-themes/furento-multipurpose-furniture-woocommerce-theme-324759.html
+                  - img "Furento - Multipurpose Furniture WooCommerce Theme" [ref=e792]
+                - link "Furento - Multipurpose Furniture WooCommerce Theme $79 Live Demo" [ref=e793]:
+                  - /url: https://www.templatemonster.com/woocommerce-themes/furento-multipurpose-furniture-woocommerce-theme-324759.html
+                  - generic [ref=e794]:
+                    - heading "Furento - Multipurpose Furniture WooCommerce Theme" [level=3] [ref=e797]:
+                      - generic "Furento - Multipurpose Furniture WooCommerce Theme" [ref=e798]:
+                        - generic [ref=e799]: Furento - Multipurpose Furniture WooCommerce Theme
+                    - generic [ref=e804]: $79
+                    - button "Live Demo" [ref=e805]
+            - article [ref=e806]:
+              - generic [ref=e807] [cursor=pointer]:
+                - link "Wood - Woodworks &amp;amp; Furniture Store WooCommerce Elementor Theme" [ref=e808]:
+                  - /url: https://www.templatemonster.com/woocommerce-themes/wood-woodworks-amp-furniture-store-woocommerce-elementor-theme-511116.html
+                  - img "Wood - Woodworks &amp;amp; Furniture Store WooCommerce Elementor Theme" [ref=e810]
+                - link "Wood - Woodworks & Furniture Store WooCommerce Elementor Theme $51 Live Demo" [ref=e811]:
+                  - /url: https://www.templatemonster.com/woocommerce-themes/wood-woodworks-amp-furniture-store-woocommerce-elementor-theme-511116.html
+                  - generic [ref=e812]:
+                    - heading "Wood - Woodworks & Furniture Store WooCommerce Elementor Theme" [level=3] [ref=e815]:
+                      - generic "Wood - Woodworks & Furniture Store WooCommerce Elementor Theme" [ref=e816]:
+                        - generic [ref=e817]: Wood - Woodworks & Furniture Store WooCommerce Elementor Theme
+                    - generic [ref=e821]: $51
+                    - button "Live Demo" [ref=e822]
+            - article [ref=e823]:
+              - generic [ref=e824] [cursor=pointer]:
+                - link "Canva - Modern Furniture Shopify Template" [ref=e825]:
+                  - /url: https://www.templatemonster.com/shopify-themes/canva-modern-furniture-shopify-template-178131.html
+                  - img "Canva - Modern Furniture Shopify Template" [ref=e827]
+                - link "Canva - Modern Furniture Shopify Template $40 Live Demo" [ref=e828]:
+                  - /url: https://www.templatemonster.com/shopify-themes/canva-modern-furniture-shopify-template-178131.html
+                  - generic [ref=e829]:
+                    - heading "Canva - Modern Furniture Shopify Template" [level=3] [ref=e832]:
+                      - generic "Canva - Modern Furniture Shopify Template" [ref=e833]:
+                        - generic [ref=e834]: Canva - Modern Furniture Shopify Template
+                    - generic [ref=e839]: $40
+                    - button "Live Demo" [ref=e840]
+            - article [ref=e841]:
+              - generic [ref=e842] [cursor=pointer]:
+                - link "Style Vision - Interior Design Elementor WordPress Theme" [ref=e843]:
+                  - /url: https://www.templatemonster.com/wordpress-themes/style-vision-interior-design-multipurpose-modern-elementor-wordpress-theme-84367.html
+                  - img "Style Vision - Interior Design Elementor WordPress Theme" [ref=e845]
+                - link "Style Vision - Interior Design Elementor WordPress Theme $66 Live Demo" [ref=e846]:
+                  - /url: https://www.templatemonster.com/wordpress-themes/style-vision-interior-design-multipurpose-modern-elementor-wordpress-theme-84367.html
+                  - generic [ref=e847]:
+                    - heading "Style Vision - Interior Design Elementor WordPress Theme" [level=3] [ref=e850]:
+                      - generic "Style Vision - Interior Design Elementor WordPress Theme" [ref=e851]:
+                        - generic [ref=e852]: Style Vision - Interior Design Elementor WordPress Theme
+                    - generic [ref=e857]: $66
+                    - button "Live Demo" [ref=e858]
+          - list [ref=e860]:
+            - listitem [ref=e861]:
+              - generic [ref=e862]: «
+            - listitem [ref=e863]:
+              - link "1" [ref=e864] [cursor=pointer]:
+                - /url: //www.templatemonster.com/category/furniture-website-templates/
+            - listitem [ref=e865]:
+              - link "2" [ref=e866] [cursor=pointer]:
+                - /url: //www.templatemonster.com/category/furniture-website-templates/?page=2
+            - listitem [ref=e867]:
+              - link "3" [ref=e868] [cursor=pointer]:
+                - /url: //www.templatemonster.com/category/furniture-website-templates/?page=3
+            - listitem [ref=e869]:
+              - link "4" [ref=e870] [cursor=pointer]:
+                - /url: //www.templatemonster.com/category/furniture-website-templates/?page=4
+            - listitem [ref=e871]:
+              - link "5" [ref=e872] [cursor=pointer]:
+                - /url: //www.templatemonster.com/category/furniture-website-templates/?page=5
+            - listitem [ref=e873]:
+              - generic [ref=e874]: ...
+            - listitem [ref=e875]:
+              - link "14" [ref=e876] [cursor=pointer]:
+                - /url: //www.templatemonster.com/category/furniture-website-templates/?page=14
+            - listitem [ref=e877]:
+              - link "»" [ref=e878] [cursor=pointer]:
+                - /url: //www.templatemonster.com/category/furniture-website-templates/?page=2
+          - generic [ref=e879]:
+            - heading "Related Searches:" [level=2] [ref=e880]
+            - link "Furniture Corporate Identity" [ref=e881] [cursor=pointer]:
+              - /url: https://www.templatemonster.com/category/furniture-corporate-identity/
+              - generic [ref=e883]: Furniture Corporate Identity
+            - link "Furniture HTML Website Templates" [ref=e884] [cursor=pointer]:
+              - /url: https://www.templatemonster.com/category/furniture-html-website-templates/
+              - generic [ref=e886]: Furniture HTML Website Templates
+            - link "Furniture Logo Templates" [ref=e887] [cursor=pointer]:
+              - /url: https://www.templatemonster.com/category/furniture-logos/
+              - generic [ref=e889]: Furniture Logo Templates
+            - link "Furniture Shopify Themes" [ref=e890] [cursor=pointer]:
+              - /url: https://www.templatemonster.com/category/furniture-shopify-themes/
+              - generic [ref=e892]: Furniture Shopify Themes
+            - link "Furniture PrestaShop Themes" [ref=e893] [cursor=pointer]:
+              - /url: https://www.templatemonster.com/category/furniture-prestashop-themes/
+              - generic [ref=e895]: Furniture PrestaShop Themes
+            - link "Furniture WordPress Themes" [ref=e896] [cursor=pointer]:
+              - /url: https://www.templatemonster.com/category/furniture-wordpress-themes/
+              - generic [ref=e898]: Furniture WordPress Themes
+            - link "Furniture Google Slides Themes" [ref=e899] [cursor=pointer]:
+              - /url: https://www.templatemonster.com/category/furniture-google-slides-templates/
+              - generic [ref=e901]: Furniture Google Slides Themes
+            - link "Furniture PowerPoint Templates" [ref=e902] [cursor=pointer]:
+              - /url: https://www.templatemonster.com/category/furniture-powerpoint-templates/
+              - generic [ref=e904]: Furniture PowerPoint Templates
+            - link "Furniture OpenCart Templates" [ref=e905] [cursor=pointer]:
+              - /url: https://www.templatemonster.com/category/furniture-opencart-templates/
+              - generic [ref=e907]: Furniture OpenCart Templates
+            - link "Furniture WooCommerce Themes" [ref=e908] [cursor=pointer]:
+              - /url: https://www.templatemonster.com/category/furniture-woocommerce-themes/
+              - generic [ref=e910]: Furniture WooCommerce Themes
+          - generic [ref=e911]:
+            - heading "5 Best Furniture Website Templates and Themes 2026" [level=2] [ref=e912]
+            - table [ref=e913]:
+              - rowgroup [ref=e914]:
+                - row "Template Name Downloads Price" [ref=e915]:
+                  - columnheader "Template Name" [ref=e916]
+                  - columnheader "Downloads" [ref=e917]
+                  - columnheader "Price" [ref=e918]
+              - rowgroup [ref=e919]:
+                - row "Electshop - Electronics and Digital Store Prestashop Responsive Theme 321 $81" [ref=e920]:
+                  - cell "Electshop - Electronics and Digital Store Prestashop Responsive Theme" [ref=e921]:
+                    - link "Electshop - Electronics and Digital Store Prestashop Responsive Theme" [ref=e922] [cursor=pointer]:
+                      - /url: https://www.templatemonster.com/prestashop-themes/electshop-electronics-and-digital-store-prestashop-theme-202489.html
+                  - cell "321" [ref=e923]
+                  - cell "$81" [ref=e924]
+                - row "Crazyshop - Multipurpose Sections Shopify 2.0 Responsive Theme 77 $71" [ref=e925]:
+                  - cell "Crazyshop - Multipurpose Sections Shopify 2.0 Responsive Theme" [ref=e926]:
+                    - link "Crazyshop - Multipurpose Sections Shopify 2.0 Responsive Theme" [ref=e927] [cursor=pointer]:
+                      - /url: https://www.templatemonster.com/shopify-themes/crazyshop-multipurpose-sections-shopify-2-0-responsive-theme-486315.html
+                  - cell "77" [ref=e928]
+                  - cell "$71" [ref=e929]
+                - row "Megzon - Electronics & Gadgets Mega Store Multipurpose Shopify 2.0 Responsive Theme 6 $41" [ref=e930]:
+                  - cell "Megzon - Electronics & Gadgets Mega Store Multipurpose Shopify 2.0 Responsive Theme" [ref=e931]:
+                    - link "Megzon - Electronics & Gadgets Mega Store Multipurpose Shopify 2.0 Responsive Theme" [ref=e932] [cursor=pointer]:
+                      - /url: https://www.templatemonster.com/shopify-themes/megzon-electronics-amp-gadgets-mega-store-multipurpose-shopify-2-0-responsive-theme-520634.html
+                  - cell "6" [ref=e933]
+                  - cell "$41" [ref=e934]
+                - row "Wooden Work - Handyman Woodworking & Carpentry Services WordPress Elementor Theme 3 $41" [ref=e935]:
+                  - cell "Wooden Work - Handyman Woodworking & Carpentry Services WordPress Elementor Theme" [ref=e936]:
+                    - link "Wooden Work - Handyman Woodworking & Carpentry Services WordPress Elementor Theme" [ref=e937] [cursor=pointer]:
+                      - /url: https://www.templatemonster.com/wordpress-themes/wooden-work-handyman-woodworking-amp-carpentry-services-wordpress-elementor-theme-558012.html
+                  - cell "3" [ref=e938]
+                  - cell "$41" [ref=e939]
+                - row "Sofa - Interior Design Agency Multipage HTML Website Template 82 $29" [ref=e940]:
+                  - cell "Sofa - Interior Design Agency Multipage HTML Website Template" [ref=e941]:
+                    - link "Sofa - Interior Design Agency Multipage HTML Website Template" [ref=e942] [cursor=pointer]:
+                      - /url: https://www.templatemonster.com/website-templates/interior-furniture-responsive-website-template-57820.html
+                  - cell "82" [ref=e943]
+                  - cell "$29" [ref=e944]
+          - generic [ref=e945]:
+            - heading "Best Collection of Top Furniture Website Templates for Your Projects" [level=2] [ref=e946]
+            - paragraph [ref=e947]: Creating a page from scratch is challenging. It requires you to know all the aspects of web development. You need to optimize the components to decrease the loading time. That's when furniture website templates come into play. It facilitates the whole development process. You have a set of elements to put together.
+            - heading "Features and Characteristics of Furniture Shop Templates" [level=2] [ref=e948]
+            - paragraph [ref=e949]: "Our products have the following advantages:"
+            - list [ref=e950]:
+              - listitem [ref=e951]: Multiple layouts — choose the one you prefer or customize the included one.
+              - listitem [ref=e952]: Bootstrap — everything works correctly on devices with different screen sizes.
+              - listitem [ref=e953]: Hover effects — make your page look more impressive.
+              - listitem [ref=e954]: Ajax forms — high flexibility and optimization.
+              - listitem [ref=e955]: Retina-ready — all the elements look sharp on devices with the Retina screens.
+              - listitem [ref=e956]: SEO-friendly — your page is easy to find via search engines.
+              - listitem [ref=e957]: Smooth parallax scrolling — a modern depth effect.
+              - listitem [ref=e958]: Video background — make it look more dynamic.
+              - listitem [ref=e959]: eCommerce — everything necessary to manage the store.
+              - listitem [ref=e960]: Unlimited Google Fonts — use what you like.
+              - listitem [ref=e961]: Photo gallery — demonstrate your products.
+              - listitem [ref=e962]: Mega Menu — facilitates navigation.
+              - listitem [ref=e963]: Numerous UI blocks — incorporate the necessary ones.
+              - listitem [ref=e964]: Valid code, professional support, sticky menus, footers, headers, and more.
+            - heading "Who Needs to Create Furniture Shop Website" [level=2] [ref=e965]
+            - paragraph [ref=e966]: TemplateMonster's solutions are excellent for online stores. Furniture website design templates are great if you sell different items, like chairs, beds, tables, sofas, cabinets, etc. Our themes' flexibility allows you to create various designs from simple to modern and luxury-style. All the components are optimized to ensure minimal loading time. Our furniture templates are great for small shops and business networks with stores in different countries.
+            - heading "How to Create a Successful Furniture Website" [level=2] [ref=e967]
+            - paragraph [ref=e968]: Not too long ago, making a website required special knowledge, like coding skills. You aren't supposed to have experience or special education; site creation has become a piece of cake. The actual site-building process consists of 3 main steps.
+            - list [ref=e969]:
+              - listitem [ref=e970]: Pick a site-building platform. In simple words, it's a user-friendly interface helping you to control and adjust the website, add content and manage it. Popular platforms are WordPress, Magento, Joomla, OpenCart, etc. Some, for example, WordPress, are free; the others require spending money. You can choose any platform you like.
+              - listitem [ref=e971]: Create a Domain Name and register a Host. The domain name is the address users will see in the URL bar. Website hosting serves as a connection of your website with the internet. You can use free names on registered domains. We recommend thinking of a unique name; it will make your site look more professional. Do some brainstorming to create a unique name that reflects your future website. Hosting is also important. Choose a quality one that guarantees a quick load and minimum problems. You can register a domain name and choose to host on different web hosting providers. If you are ready for difficulties and have experience, you can try to host the site without intermediaries. It can be interesting, but it's a time-consuming and demanding job. We recommend considering professional services.
+              - listitem [ref=e972]: Website creation. When you register a name and a host, you can download the chosen platform. Many hosting providers offer a one-click WordPress installation, but it's possible to install it manually. After the installation is completed, you are ready to integrate a template you've chosen for the site.
+            - paragraph [ref=e973]: "The process of acquiring a furniture web template is simple. It involves the following steps:"
+            - list [ref=e974]:
+              - listitem [ref=e975]: Choose the product you like.
+              - listitem [ref=e976]: Add to cart.
+              - listitem [ref=e977]: Checkout.
+              - listitem [ref=e978]: Download, install and activate.
+              - listitem [ref=e979]: You may start customizing it.
+            - paragraph [ref=e980]: Please use our "Live Demo" option to get a better idea of what you get. You may see how everything looks and works before you buy anything.
+            - generic [ref=e982]:
+              - heading "Furniture Website Templates FAQ" [level=2] [ref=e983]
+              - heading "Can you help me install a furniture shop website template?" [level=3] [ref=e985] [cursor=pointer]
+              - heading "What advantages does a premium furniture website template have over a free product?" [level=3] [ref=e987] [cursor=pointer]
+              - heading "What elements should templates for furniture websites include?" [level=3] [ref=e989] [cursor=pointer]
+              - heading "Can you provide me with images for a furniture website template?" [level=3] [ref=e991] [cursor=pointer]
+            - heading [level=2]
+          - generic [ref=e993]:
+            - heading "Hottest Web Design Trends for Furniture Website Templates to Use in 2026" [level=2] [ref=e994]
+            - iframe [ref=e996]:
+              - img [ref=f35e2]
+            - text: Check a helpful video about the most relevant design trends and use them in your furniture website for the best results. Vivid colors, minimalism, fancy typography are the features that suit any antique, luxirious, modern, project.
+          - generic [ref=e997]:
+            - heading "Try Searching for:" [level=2] [ref=e998]
+            - link "Home & Family Templates" [ref=e999] [cursor=pointer]:
+              - /url: https://www.templatemonster.com/category/home-family/
+            - link "Interior & Furniture Templates" [ref=e1000] [cursor=pointer]:
+              - /url: https://www.templatemonster.com/category/interior-furniture/
+    - generic [ref=e1002]:
+      - paragraph [ref=e1003]: Get discounts and gifts every week!
+      - generic [ref=e1004]:
+        - textbox "Enter your email" [ref=e1005]
+        - button "Subscribe" [disabled] [ref=e1007]
+      - generic [ref=e1010] [cursor=pointer]:
+        - text: I agree that my data will be stored and handled according to the
+        - link "Privacy Policy" [ref=e1011]:
+          - /url: https://www.templatemonster.com/privacy-policy.php
+    - contentinfo [ref=e1012]:
+      - generic [ref=e1013]:
+        - generic [ref=e1014]:
+          - img [ref=e1015]
+          - paragraph [ref=e1018]: TemplateMonster is a marketplace where you can buy everything you need to create a website. Hundreds of independent developers sell their products here so that you could create your own unique project.
+          - navigation [ref=e1019]:
+            - link "Instagram" [ref=e1020] [cursor=pointer]:
+              - /url: https://www.instagram.com/template_monster/
+              - text: Instagram
+            - link "Facebook" [ref=e1022] [cursor=pointer]:
+              - /url: https://www.facebook.com/TemplateMonster
+              - text: Facebook
+            - link "YouTube" [ref=e1024] [cursor=pointer]:
+              - /url: https://www.youtube.com/user/TemplateMonsterCo
+              - text: YouTube
+            - link "Twitter" [ref=e1026] [cursor=pointer]:
+              - /url: https://twitter.com/templatemonster
+              - text: Twitter
+            - link "Pinterest" [ref=e1028] [cursor=pointer]:
+              - /url: https://www.pinterest.com/templatemonster/
+              - text: Pinterest
+            - link "TikTok" [ref=e1030] [cursor=pointer]:
+              - /url: https://www.tiktok.com/@templatemonster
+              - text: TikTok
+        - generic [ref=e1032]:
+          - navigation [ref=e1033]:
+            - paragraph [ref=e1034]: Products
+            - link "WordPress Themes" [ref=e1035] [cursor=pointer]:
+              - /url: /wordpress-themes.php
+            - link "WooCommerce Themes" [ref=e1036] [cursor=pointer]:
+              - /url: /woocommerce-themes.php
+            - link "HTML5 Templates" [ref=e1037] [cursor=pointer]:
+              - /url: /html5-website-templates/
+            - link "Shopify Themes" [ref=e1038] [cursor=pointer]:
+              - /url: /shopify-themes.php
+            - link "Zemez" [ref=e1039] [cursor=pointer]:
+              - /url: https://zemez.io/
+            - link "MotoCMS" [ref=e1040] [cursor=pointer]:
+              - /url: https://www.motocms.com/
+            - link "Weblium" [ref=e1041] [cursor=pointer]:
+              - /url: https://weblium.com/
+            - link "MotoPress" [ref=e1042] [cursor=pointer]:
+              - /url: https://motopress.com/
+            - link "MonsterONE" [ref=e1043] [cursor=pointer]:
+              - /url: https://monsterone.com/
+            - link "Novi Builder" [ref=e1044] [cursor=pointer]:
+              - /url: https://novibuilder.com/
+          - navigation [ref=e1045]:
+            - paragraph [ref=e1046]: Topics
+            - link "Business & Services" [ref=e1047] [cursor=pointer]:
+              - /url: /category/business/
+            - link "Fashion & Beauty" [ref=e1048] [cursor=pointer]:
+              - /url: /category/fashion-beauty/
+            - link "Home & Family" [ref=e1049] [cursor=pointer]:
+              - /url: /category/home-family/
+            - link "Design & Photography" [ref=e1050] [cursor=pointer]:
+              - /url: /category/design-photography/
+            - link "Real Estate" [ref=e1051] [cursor=pointer]:
+              - /url: /category/real-estate/
+            - link "Cars & Motorcycles" [ref=e1052] [cursor=pointer]:
+              - /url: /category/cars-motorcycles/
+            - link "Medical" [ref=e1053] [cursor=pointer]:
+              - /url: /category/medical/
+            - link "Sports, Outdoors & Travel" [ref=e1054] [cursor=pointer]:
+              - /url: /category/sports-outdoors-travel/
+            - link "Food & Restaurant" [ref=e1055] [cursor=pointer]:
+              - /url: /category/food-restaurant/
+            - link "Electronics" [ref=e1056] [cursor=pointer]:
+              - /url: /category/electronics/
+          - navigation [ref=e1057]:
+            - paragraph [ref=e1058]: Company
+            - link "About Us" [ref=e1059] [cursor=pointer]:
+              - /url: /about.php
+            - link "Licenses" [ref=e1060] [cursor=pointer]:
+              - /url: /licenses/
+            - link "Blog" [ref=e1061] [cursor=pointer]:
+              - /url: https://monsterspost.com/
+            - link "Promocodes/Coupons" [ref=e1062] [cursor=pointer]:
+              - /url: /promocodes/
+            - link "Best Website Hosting" [ref=e1063] [cursor=pointer]:
+              - /url: /landings/web-hosting-small-business-ecommerce/
+            - link "Service Center" [ref=e1064] [cursor=pointer]:
+              - /url: /services/
+            - link "Partners' Coupon Codes" [ref=e1065] [cursor=pointer]:
+              - /url: /partners/
+            - link "Contact Us" [ref=e1066] [cursor=pointer]:
+              - /url: /contact-us.php
+            - link "Gift Card" [ref=e1067] [cursor=pointer]:
+              - /url: https://www.templatemonster.com/gift-card/
+            - link "Monster's Award" [ref=e1068] [cursor=pointer]:
+              - /url: /awards/
+            - link "Brand Identity" [ref=e1069] [cursor=pointer]:
+              - /url: /brand-identity/
+            - link "Top Authors" [ref=e1070] [cursor=pointer]:
+              - /url: /authors/
+          - navigation [ref=e1071]:
+            - paragraph [ref=e1072]: Support
+            - link "Help Center" [ref=e1073] [cursor=pointer]:
+              - /url: https://helpdesk.templatemonster.com/
+            - link "Report Spam" [ref=e1074] [cursor=pointer]:
+              - /url: /report-spam.php
+            - link "Sitemap" [ref=e1075] [cursor=pointer]:
+              - /url: https://www.templatemonster.com/sitemap/
+            - link "Refund Policy" [ref=e1076] [cursor=pointer]:
+              - /url: /refund-policy.php
+            - link "Privacy Policy" [ref=e1077] [cursor=pointer]:
+              - /url: /privacy-policy.php
+      - generic [ref=e1078]:
+        - paragraph [ref=e1079]: © 2026 TemplateMonster.com. Jetimpex Inc. All rights reserved.
+        - paragraph [ref=e1080]:
+          - text: Last time updated
+          - time [ref=e1081]: 2026-05-18T07:02:07-04:00
+  - generic [ref=e1082]:
+    - generic [ref=e1083]:
+      - paragraph [ref=e1084]:
+        - img [ref=e1085]
+        - text: We use cookie files
+      - paragraph [ref=e1103]:
+        - text: We activate all cookies by default to ensure the proper functioning of our website, advertisement, and analytics according to the
+        - link "Privacy Policy" [ref=e1104] [cursor=pointer]:
+          - /url: https://www.templatemonster.com/privacy-policy.php
+        - text: .
+    - generic [ref=e1105]:
+      - button "Settings" [ref=e1106] [cursor=pointer]
+      - button "Accept All" [ref=e1107] [cursor=pointer]

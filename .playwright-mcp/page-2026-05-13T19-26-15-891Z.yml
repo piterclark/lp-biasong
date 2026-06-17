@@ -1,0 +1,173 @@
+- generic [ref=e4]:
+  - navigation [ref=e5]:
+    - link "Página inicial da Unsplash" [ref=e8] [cursor=pointer]:
+      - /url: /pt-br
+      - img "Página inicial da Unsplash" [ref=e9]
+    - generic [ref=e11]:
+      - link "Entrar / Cadastrar-se" [ref=e12] [cursor=pointer]:
+        - /url: /pt-br/login?referrer=%2Fpt-br%2Fs%2Ffotografias%2Fmacbook-coffee-dark
+        - img [ref=e13]
+      - button "Idioma" [ref=e15] [cursor=pointer]:
+        - img [ref=e16]
+      - button "Menu" [ref=e18] [cursor=pointer]:
+        - img [ref=e19]
+  - generic [ref=e21]:
+    - generic [ref=e22]:
+      - navigation [ref=e23]:
+        - search "Pesquise conteúdo visual em todo o site" [ref=e25]:
+          - button "Pesquise na Unsplash" [ref=e26] [cursor=pointer]:
+            - img [ref=e27]
+          - combobox [ref=e29]:
+            - searchbox "Pesquise na Unsplash" [ref=e30]: macbook coffee dark
+            - listbox
+          - button "Limpar" [ref=e31] [cursor=pointer]:
+            - img [ref=e32]
+          - button "Pesquisa visual" [ref=e36] [cursor=pointer]:
+            - img [ref=e37]
+        - button "Filtros" [ref=e39] [cursor=pointer]:
+          - img [ref=e41]
+      - generic [ref=e43]:
+        - list [ref=e50]:
+          - listitem [ref=e51]:
+            - link "Fotos 11 mil":
+              - /url: /pt-br/s/fotografias/macbook-coffee-dark
+              - img
+              - text: Fotos
+              - generic: 11 mil
+          - listitem [ref=e52]:
+            - link "Ilustrações 42" [ref=e53] [cursor=pointer]:
+              - /url: /pt-br/s/ilustra%C3%A7%C3%B5es/macbook-coffee-dark
+              - img [ref=e54]
+              - text: Ilustrações
+              - generic [ref=e56]: "42"
+          - listitem [ref=e57]:
+            - button "Mais" [ref=e58] [cursor=pointer]
+        - generic [ref=e59]:
+          - heading "Macbook coffee dark" [level=1] [ref=e61]
+          - generic [ref=e65]:
+            - link "computador portátil" [ref=e67] [cursor=pointer]:
+              - /url: /pt-br/s/fotografias/computador-port%C3%A1til
+            - link "Tecnologium" [ref=e69] [cursor=pointer]:
+              - /url: /pt-br/s/fotografias/tecnologium
+            - link "macbook" [ref=e71] [cursor=pointer]:
+              - /url: /pt-br/s/fotografias/macbook
+            - link "computador" [ref=e73] [cursor=pointer]:
+              - /url: /pt-br/s/fotografias/computador
+            - link "café" [ref=e75] [cursor=pointer]:
+              - /url: /pt-br/s/fotografias/caf%C3%A9
+            - link "mesa" [ref=e77] [cursor=pointer]:
+              - /url: /pt-br/s/fotografias/mesa
+            - link "computador pessoal" [ref=e79] [cursor=pointer]:
+              - /url: /pt-br/s/fotografias/computador-pessoal
+            - link "trabalho" [ref=e81] [cursor=pointer]:
+              - /url: /pt-br/s/fotografias/trabalho
+            - link "eletrônica" [ref=e83] [cursor=pointer]:
+              - /url: /pt-br/s/fotografias/eletr%C3%B4nica
+            - link "mínimo" [ref=e85] [cursor=pointer]:
+              - /url: /pt-br/s/fotografias/m%C3%ADnimo
+            - link "teclado" [ref=e87] [cursor=pointer]:
+              - /url: /pt-br/s/fotografias/teclado
+            - link "Mac" [ref=e89] [cursor=pointer]:
+              - /url: /pt-br/s/fotografias/mac
+        - generic [ref=e91]:
+          - generic [ref=e95]:
+            - generic [ref=e96]:
+              - figure [ref=e97]:
+                - link "uma xícara de café ao lado de um laptop e um telefone" [ref=e100]:
+                  - /url: /pt-br/fotografias/uma-xicara-de-cafe-ao-lado-de-um-laptop-e-um-telefone-iPLyFStfr_A
+                  - img "uma xícara de café ao lado de um laptop e um telefone" [ref=e101]
+              - figure [ref=e102]:
+                - link "computador portátil preto na cama branca" [ref=e105]:
+                  - /url: /pt-br/fotografias/computador-portatil-preto-na-cama-branca-JV_R_DNzIWU
+                  - img "computador portátil preto na cama branca" [ref=e106]
+              - generic [ref=e107]:
+                - heading "Imagens patrocinadas" [level=4] [ref=e108]:
+                  - generic [ref=e109]: Imagens patrocinadas
+                  - img [ref=e110]
+                - generic [ref=e117]: ––– – –– –– – –– –––– ––– ––––
+              - figure [ref=e118]:
+                - link "caneca na mesa" [ref=e121]:
+                  - /url: /pt-br/fotografias/caneca-na-mesa-Pmw_LMwmOdU
+                  - img "caneca na mesa" [ref=e122]
+              - figure [ref=e123]:
+                - link "interface gráfica do usuário" [ref=e126]:
+                  - /url: /pt-br/fotografias/interface-grafica-do-usuario-2WxnKStKQTs
+                  - img "interface gráfica do usuário" [ref=e127]
+              - figure [ref=e128]:
+                - link "ar macbook na mesa de madeira marrom" [ref=e131]:
+                  - /url: /pt-br/fotografias/ar-macbook-na-mesa-de-madeira-marrom-f5B1V962Uj4
+                  - img "ar macbook na mesa de madeira marrom" [ref=e132]
+              - figure [ref=e133]:
+                - link "Foto aérea do local de trabalho elegante escuro com laptop e suprimentos de escritório no fundo preto da mesa" [ref=e136]:
+                  - /url: /pt-br/fotografias/foto-aerea-do-local-de-trabalho-elegante-escuro-com-laptop-e-suprimentos-de-escritorio-no-fundo-preto-da-mesa-Rmfmt4rnQig
+                  - img "Foto aérea do local de trabalho elegante escuro com laptop e suprimentos de escritório no fundo preto da mesa" [ref=e137]
+              - figure [ref=e138]:
+                - link "um computador portátil sentado em cima de uma secretária" [ref=e141]:
+                  - /url: /pt-br/fotografias/um-computador-portatil-sentado-em-cima-de-uma-secretaria-Wx_ldtVrTUE
+                  - img "um computador portátil sentado em cima de uma secretária" [ref=e142]
+              - figure [ref=e143]:
+                - link "Mesa de couro escuro com gadget home office e espaço para cópia." [ref=e146]:
+                  - /url: /pt-br/fotografias/mesa-de-couro-escuro-com-gadget-home-office-e-espaco-para-copia-A-j1VCMpLKY
+                  - img "Mesa de couro escuro com gadget home office e espaço para cópia." [ref=e147]
+              - figure [ref=e148]:
+                - link "Uma xícara de café ao lado de um laptop da Apple" [ref=e151]:
+                  - /url: /pt-br/fotografias/uma-xicara-de-cafe-ao-lado-de-um-laptop-da-apple-QN_XrWmPpNU
+                  - img "Uma xícara de café ao lado de um laptop da Apple" [ref=e152]
+            - generic [ref=e153]:
+              - contentinfo [ref=e158]:
+                - generic [ref=e164]: –– ––– ––– –– ––– – ––– ––– –––– – – –– ––– – – ––– –– –– –––– ––
+              - figure [ref=e166]:
+                - link "macbook pro ao lado da caneca de cerâmica branca na mesa de madeira marrom" [ref=e169]:
+                  - /url: /pt-br/fotografias/macbook-pro-ao-lado-da-caneca-de-ceramica-branca-na-mesa-de-madeira-marrom-WmVtCFR1C1g
+                  - img "macbook pro ao lado da caneca de cerâmica branca na mesa de madeira marrom" [ref=e170]
+              - figure [ref=e171]:
+                - link "MacBook Pro desligado entre chávena de café, iPhone, portátil e caneta" [ref=e174]:
+                  - /url: /pt-br/fotografias/macbook-pro-desligado-entre-chavena-de-cafe-iphone-portatil-e-caneta-NuFUbftUu_s
+                  - img "MacBook Pro desligado entre chávena de café, iPhone, portátil e caneta" [ref=e175]
+              - figure [ref=e176]:
+                - link "uma pessoa usando um laptop em uma mesa de madeira" [ref=e179]:
+                  - /url: /pt-br/fotografias/uma-pessoa-usando-um-laptop-em-uma-mesa-de-madeira-O-jx-rc6Y0g
+                  - img "uma pessoa usando um laptop em uma mesa de madeira" [ref=e180]
+              - figure [ref=e181]:
+                - link "copo de vidro transparente no computador portátil preto e prateado" [ref=e184]:
+                  - /url: /pt-br/fotografias/copo-de-vidro-transparente-no-computador-portatil-preto-e-prateado-dbjk86SaRMU
+                  - img "copo de vidro transparente no computador portátil preto e prateado" [ref=e185]
+              - figure [ref=e186]:
+                - link "Vista superior do local de trabalho elegante com tablet digital e xícara de café no local de trabalho da mesa preta" [ref=e189]:
+                  - /url: /pt-br/fotografias/vista-superior-do-local-de-trabalho-elegante-com-tablet-digital-e-xicara-de-cafe-no-local-de-trabalho-da-mesa-preta-kho17icNpGk
+                  - img "Vista superior do local de trabalho elegante com tablet digital e xícara de café no local de trabalho da mesa preta" [ref=e190]
+              - figure [ref=e191]:
+                - link "MacBook Pro ao lado da xícara de chá" [ref=e194]:
+                  - /url: /pt-br/fotografias/macbook-pro-ao-lado-da-xicara-de-cha-KwJ3FEuwRlE
+                  - img "MacBook Pro ao lado da xícara de chá" [ref=e195]
+              - figure [ref=e196]:
+                - link "MacBook Pro ao lado caneca na mesa" [ref=e199]:
+                  - /url: /pt-br/fotografias/macbook-pro-ao-lado-caneca-na-mesa-9PRQ44avKik
+                  - img "MacBook Pro ao lado caneca na mesa" [ref=e200]
+              - figure [ref=e201]:
+                - link "MacBook Pro perto de xícara de chá branca" [ref=e204]:
+                  - /url: /pt-br/fotografias/macbook-pro-perto-de-xicara-de-cha-branca-24CcFvbRsBE
+                  - img "MacBook Pro perto de xícara de chá branca" [ref=e205]
+              - figure [ref=e206]:
+                - link "caneca de cerâmica branca no macbook de prata" [ref=e209]:
+                  - /url: /pt-br/fotografias/caneca-de-ceramica-branca-no-macbook-de-prata-mz-iSNAXmW4
+                  - img "caneca de cerâmica branca no macbook de prata" [ref=e210]
+              - figure [ref=e211]:
+                - link "caneca de cerâmica branca ao lado do Macbook aberto na mesa" [ref=e214]:
+                  - /url: /pt-br/fotografias/caneca-de-ceramica-branca-ao-lado-do-macbook-aberto-na-mesa-TZGRqxNqPdw
+                  - img "caneca de cerâmica branca ao lado do Macbook aberto na mesa" [ref=e215]
+              - figure [ref=e216]:
+                - link "colher de prata no prato redondo preto" [ref=e219]:
+                  - /url: /pt-br/fotografias/colher-de-prata-no-prato-redondo-preto-VTquhpAn99c
+                  - img "colher de prata no prato redondo preto" [ref=e220]
+          - heading "Pesquise imagens premium na iStock | Pegue seu desconto agora" [level=2] [ref=e224]:
+            - text: Pesquise imagens premium na iStock
+            - generic [ref=e225]: "| Pegue seu desconto agora"
+          - button "Carregar mais" [ref=e239] [cursor=pointer]
+          - generic [ref=e240]:
+            - link [ref=e241] [cursor=pointer]:
+              - /url: /pt-br
+              - img [ref=e242]
+            - paragraph [ref=e244]: Crie algo incrível
+    - generic:
+      - region "Notifications"

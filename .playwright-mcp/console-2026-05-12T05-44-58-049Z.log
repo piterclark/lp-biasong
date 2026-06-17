@@ -1,0 +1,34 @@
+[      39ms] Invalid or unexpected token
+[      64ms] [ERROR] Access to script at 'https://www.pinheironeto.com.br/runtime.61cb859f2575d133.js' from origin 'http://localhost:4322' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ http://localhost:4322/advogado/index.html:0
+[      64ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://www.pinheironeto.com.br/runtime.61cb859f2575d133.js:0
+[      64ms] [ERROR] Access to script at 'https://www.pinheironeto.com.br/polyfills.3539621f729998ab.js' from origin 'http://localhost:4322' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ http://localhost:4322/advogado/index.html:0
+[      65ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://www.pinheironeto.com.br/polyfills.3539621f729998ab.js:0
+[      74ms] [ERROR] Access to script at 'https://www.pinheironeto.com.br/main.c3430600c963ac09.js' from origin 'http://localhost:4322' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ http://localhost:4322/advogado/index.html:0
+[      74ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://www.pinheironeto.com.br/main.c3430600c963ac09.js:0
+[     150ms] Invalid or unexpected token
+[     180ms] [ERROR] Access to image at 'https://www.pinheironeto.com.br/assets/imgs/icons/search.svg' from origin 'http://localhost:4322' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ http://localhost:4322/advogado/index.html:0
+[     180ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://www.pinheironeto.com.br/assets/imgs/icons/search.svg:0
+[     180ms] [ERROR] Access to image at 'https://www.pinheironeto.com.br/assets/imgs/icons/search2.svg' from origin 'http://localhost:4322' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ http://localhost:4322/advogado/index.html:0
+[     180ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://www.pinheironeto.com.br/assets/imgs/icons/search2.svg:0
+[     180ms] [ERROR] Access to image at 'https://www.pinheironeto.com.br/assets/imgs/icons/arrow-right.svg' from origin 'http://localhost:4322' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ http://localhost:4322/advogado/index.html:0
+[     180ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://www.pinheironeto.com.br/assets/imgs/icons/arrow-right.svg:0
+[     192ms] [ERROR] Access to image at 'https://www.pinheironeto.com.br/assets/imgs/icons/arrow-left-small.svg' from origin 'http://localhost:4322' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ http://localhost:4322/advogado/index.html:0
+[     192ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://www.pinheironeto.com.br/assets/imgs/icons/arrow-left-small.svg:0
+[     192ms] [ERROR] Access to image at 'https://www.pinheironeto.com.br/assets/imgs/icons/arrow-top.svg' from origin 'http://localhost:4322' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ http://localhost:4322/advogado/index.html:0
+[     192ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://www.pinheironeto.com.br/assets/imgs/icons/arrow-top.svg:0
+[     193ms] [ERROR] Access to image at 'https://www.pinheironeto.com.br/assets/imgs/icons/arrow-right-small.svg' from origin 'http://localhost:4322' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ http://localhost:4322/advogado/index.html:0
+[     193ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://www.pinheironeto.com.br/assets/imgs/icons/arrow-right-small.svg:0
+[     442ms] [ERROR] Access to image at 'https://www.pinheironeto.com.br/assets/imgs/icons/calendar.svg' from origin 'http://localhost:4322' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ http://localhost:4322/advogado/index.html:0
+[     442ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://www.pinheironeto.com.br/assets/imgs/icons/calendar.svg:0
+[     461ms] [ERROR] Access to image at 'https://www.pinheironeto.com.br/assets/imgs/icons/timer.svg' from origin 'http://localhost:4322' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ http://localhost:4322/advogado/index.html:0
+[     461ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://www.pinheironeto.com.br/assets/imgs/icons/timer.svg:0
+[     468ms] [ERROR] Access to image at 'https://www.pinheironeto.com.br/assets/imgs/icons/location.svg' from origin 'http://localhost:4322' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ http://localhost:4322/advogado/index.html:0
+[     468ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://www.pinheironeto.com.br/assets/imgs/icons/location.svg:0
+[     789ms] [ERROR] Access to image at 'https://www.pinheironeto.com.br/assets/imgs/icons/email.svg' from origin 'http://localhost:4322' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ http://localhost:4322/advogado/index.html:0
+[     789ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://www.pinheironeto.com.br/assets/imgs/icons/email.svg:0
+[     790ms] [ERROR] Access to image at 'https://www.pinheironeto.com.br/assets/imgs/icons/linkedin.svg' from origin 'http://localhost:4322' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ http://localhost:4322/advogado/index.html:0
+[     790ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://www.pinheironeto.com.br/assets/imgs/icons/linkedin.svg:0
+[     810ms] [ERROR] Access to image at 'https://www.pinheironeto.com.br/assets/imgs/icons/youtube.svg' from origin 'http://localhost:4322' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ http://localhost:4322/advogado/index.html:0
+[     810ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://www.pinheironeto.com.br/assets/imgs/icons/youtube.svg:0
+[   14276ms] [ERROR] Access to image at 'https://www.pinheironeto.com.br/assets/imgs/icons/arrow-top.svg' from origin 'http://localhost:4322' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ http://localhost:4322/advogado/index.html:0
+[   14276ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://www.pinheironeto.com.br/assets/imgs/icons/arrow-top.svg:0

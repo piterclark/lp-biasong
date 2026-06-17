@@ -1,0 +1,2 @@
+[     134ms] [LOG] Flushing 0 events @ https://scripts.converteai.net/lib/js/smartplayer/v1/smartplayer.min.js:0
+[    3620ms] [WARNING] The resource https://cdn.converteai.net/86ad8771-657c-4660-99be-fcff012c81a0/691b1daa111bbf801ae8cf87/main.m3u8 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://site.biasong.com.br/:0

@@ -1,0 +1,604 @@
+- generic [active] [ref=e1]:
+  - text: \n \n\n \n \n \n \n \n\n \n \n \n \n \n\n \n \n\n \n \n \n
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - banner [ref=e5]:
+        - generic [ref=e7]:
+          - link "Pinheiro Neto Advogados Pinheiro Neto Advogados" [ref=e9] [cursor=pointer]:
+            - /url: ""
+            - img "Pinheiro Neto Advogados" [ref=e10]
+            - img "Pinheiro Neto Advogados" [ref=e11]
+          - combobox [ref=e13] [cursor=pointer]:
+            - option "PT" [selected]
+            - option "EN"
+            - option "CN"
+            - option "JP"
+            - option "KR"
+        - navigation [ref=e19]:
+          - list [ref=e20]:
+            - listitem [ref=e21]:
+              - link "Home" [ref=e22] [cursor=pointer]:
+                - /url: https://www.pinheironeto.com.br/home
+                - generic [ref=e24]: Home
+            - listitem [ref=e25]:
+              - link "O Escritório" [ref=e26] [cursor=pointer]:
+                - /url: https://www.pinheironeto.com.br/o-escritorio
+                - generic [ref=e28]: O Escritório
+              - list:
+                - listitem [ref=e29]:
+                  - link "Notícias do Escritório" [ref=e30] [cursor=pointer]:
+                    - /url: https://www.pinheironeto.com.br/o-escritorio/noticias-do-escritorio
+                    - generic [ref=e31]: Notícias do Escritório
+            - listitem [ref=e32]:
+              - link "Profissionais" [ref=e33] [cursor=pointer]:
+                - /url: https://www.pinheironeto.com.br/profissionais
+                - generic [ref=e35]: Profissionais
+              - list:
+                - listitem [ref=e36]:
+                  - link "Sócios" [ref=e37] [cursor=pointer]:
+                    - /url: https://www.pinheironeto.com.br/profissionais?type=1
+                    - generic [ref=e38]: Sócios
+                - listitem [ref=e39]:
+                  - link "Consultores" [ref=e40] [cursor=pointer]:
+                    - /url: https://www.pinheironeto.com.br/profissionais?type=2
+                    - generic [ref=e41]: Consultores
+                - listitem [ref=e42]:
+                  - link "Associados" [ref=e43] [cursor=pointer]:
+                    - /url: https://www.pinheironeto.com.br/profissionais?type=3
+                    - generic [ref=e44]: Associados
+                - listitem [ref=e45]:
+                  - link "Integrantes do jurídico" [ref=e46] [cursor=pointer]:
+                    - /url: https://www.pinheironeto.com.br/profissionais?type=4
+                    - generic [ref=e47]: Integrantes do jurídico
+                - listitem [ref=e48]:
+                  - link "Consultores Estrangeiros" [ref=e49] [cursor=pointer]:
+                    - /url: https://www.pinheironeto.com.br/profissionais?type=6
+                    - generic [ref=e50]: Consultores Estrangeiros
+            - listitem [ref=e51]:
+              - link "Carreira" [ref=e52] [cursor=pointer]:
+                - /url: https://www.pinheironeto.com.br/carreira
+                - generic [ref=e54]: Carreira
+            - listitem [ref=e55]:
+              - link "Áreas de Atuação" [ref=e56] [cursor=pointer]:
+                - /url: https://www.pinheironeto.com.br/areas-de-atuacao
+                - generic [ref=e58]: Áreas de Atuação
+            - listitem [ref=e59]:
+              - link "Conhecimento Jurídico" [ref=e60] [cursor=pointer]:
+                - /url: https://www.pinheironeto.com.br/conhecimento-juridico
+                - generic [ref=e62]: Conhecimento Jurídico
+              - list:
+                - listitem [ref=e63]:
+                  - link "Alerta" [ref=e64] [cursor=pointer]:
+                    - /url: https://www.pinheironeto.com.br/conhecimento-juridico/alerta
+                    - generic [ref=e65]: Alerta
+                - listitem [ref=e66]:
+                  - link "Artigo" [ref=e67] [cursor=pointer]:
+                    - /url: https://www.pinheironeto.com.br/conhecimento-juridico/artigo
+                    - generic [ref=e68]: Artigo
+                - listitem [ref=e69]:
+                  - link "E-book" [ref=e70] [cursor=pointer]:
+                    - /url: https://www.pinheironeto.com.br/conhecimento-juridico/e-book
+                    - generic [ref=e71]: E-book
+                - listitem [ref=e72]:
+                  - link "Notícia da Imprensa" [ref=e73] [cursor=pointer]:
+                    - /url: https://www.pinheironeto.com.br/conhecimento-juridico/noticia
+                    - generic [ref=e74]: Notícia da Imprensa
+                - listitem [ref=e75]:
+                  - link "Boletim" [ref=e76] [cursor=pointer]:
+                    - /url: https://www.pinheironeto.com.br/conhecimento-juridico/boletim
+                    - generic [ref=e77]: Boletim
+                - listitem [ref=e78]:
+                  - link "Podcast" [ref=e79] [cursor=pointer]:
+                    - /url: https://www.pinheironeto.com.br/conhecimento-juridico/podcast
+                    - generic [ref=e80]: Podcast
+                - listitem [ref=e81]:
+                  - link "Vídeos" [ref=e82] [cursor=pointer]:
+                    - /url: https://www.pinheironeto.com.br/conhecimento-juridico/video
+                    - generic [ref=e83]: Vídeos
+            - listitem [ref=e84]:
+              - link "Eventos" [ref=e85] [cursor=pointer]:
+                - /url: https://www.pinheironeto.com.br/eventos
+                - generic [ref=e87]: Eventos
+            - listitem [ref=e88]:
+              - link "Contato" [ref=e89] [cursor=pointer]:
+                - /url: https://www.pinheironeto.com.br/contato
+                - generic [ref=e91]: Contato
+            - listitem [ref=e92]:
+              - link "Cadastro" [ref=e93] [cursor=pointer]:
+                - /url: https://www.pinheironeto.com.br/landing/cadastro
+                - generic [ref=e95]: Cadastro
+        - generic [ref=e100]:
+          - textbox [ref=e103]
+          - generic: What are you searching for?
+          - generic: Learn more about us.
+          - paragraph [ref=e105]: Use the text area above for your search.
+      - generic [ref=e116]:
+        - generic [ref=e117]:
+          - link [ref=e118] [cursor=pointer]:
+            - /url: https://www.pinheironeto.com.br/conhecimento-juridico/e-book/panorama-esg-2026
+          - generic [ref=e120]:
+            - link [ref=e121] [cursor=pointer]:
+              - /url: https://www.pinheironeto.com.br/conhecimento-juridico/e-book/panorama-esg-2026
+            - generic [ref=e122]:
+              - link [ref=e123] [cursor=pointer]:
+                - /url: https://www.pinheironeto.com.br/conhecimento-juridico/e-book/panorama-esg-2026
+              - generic [ref=e124]:
+                - link "Panorama ESG 2026" [ref=e125] [cursor=pointer]:
+                  - /url: https://www.pinheironeto.com.br/conhecimento-juridico/e-book/panorama-esg-2026
+                  - heading "Panorama ESG 2026" [level=1] [ref=e126]
+                - link [ref=e127] [cursor=pointer]:
+                  - /url: https://www.pinheironeto.com.br/conhecimento-juridico/e-book/panorama-esg-2026
+        - generic [ref=e128]:
+          - link [ref=e129] [cursor=pointer]:
+            - /url: https://www.pinheironeto.com.br/conhecimento-juridico/e-book/infraestrutura-no-brasil-tendencias-e-oportunidades-em-2026
+          - generic [ref=e131]:
+            - link [ref=e132] [cursor=pointer]:
+              - /url: https://www.pinheironeto.com.br/conhecimento-juridico/e-book/infraestrutura-no-brasil-tendencias-e-oportunidades-em-2026
+            - generic [ref=e133]:
+              - link [ref=e134] [cursor=pointer]:
+                - /url: https://www.pinheironeto.com.br/conhecimento-juridico/e-book/infraestrutura-no-brasil-tendencias-e-oportunidades-em-2026
+              - generic [ref=e135]:
+                - link [ref=e136] [cursor=pointer]:
+                  - /url: https://www.pinheironeto.com.br/conhecimento-juridico/e-book/infraestrutura-no-brasil-tendencias-e-oportunidades-em-2026
+                  - heading [level=1] [ref=e137]: "Infrastructure in Brazil: Trends and Opportunities in 2026"
+                - link [ref=e138] [cursor=pointer]:
+                  - /url: https://www.pinheironeto.com.br/conhecimento-juridico/e-book/infraestrutura-no-brasil-tendencias-e-oportunidades-em-2026
+        - generic [ref=e139]:
+          - link [ref=e140] [cursor=pointer]:
+            - /url: https://www.pinheironeto.com.br/conhecimento-juridico/e-book/relatorio-anual-2025-confira-nossos-destaques-do-ultimo-ano-e-perspectivas-para-2026
+          - generic [ref=e142]:
+            - link [ref=e143] [cursor=pointer]:
+              - /url: https://www.pinheironeto.com.br/conhecimento-juridico/e-book/relatorio-anual-2025-confira-nossos-destaques-do-ultimo-ano-e-perspectivas-para-2026
+            - generic [ref=e144]:
+              - link [ref=e145] [cursor=pointer]:
+                - /url: https://www.pinheironeto.com.br/conhecimento-juridico/e-book/relatorio-anual-2025-confira-nossos-destaques-do-ultimo-ano-e-perspectivas-para-2026
+              - generic [ref=e146]:
+                - link [ref=e147] [cursor=pointer]:
+                  - /url: https://www.pinheironeto.com.br/conhecimento-juridico/e-book/relatorio-anual-2025-confira-nossos-destaques-do-ultimo-ano-e-perspectivas-para-2026
+                  - heading [level=1] [ref=e148]: "2025 Annual Report: Explore our key highlights and outlook for the year ahead"
+                - link [ref=e149] [cursor=pointer]:
+                  - /url: https://www.pinheironeto.com.br/conhecimento-juridico/e-book/relatorio-anual-2025-confira-nossos-destaques-do-ultimo-ano-e-perspectivas-para-2026
+        - generic [ref=e150]:
+          - link [ref=e151] [cursor=pointer]:
+            - /url: https://www.pinheironeto.com.br/conhecimento-juridico/alerta/reducao-das-aliquotas-de-pispasep-e-cofins-sobre-querosene-de-aviacao
+          - generic [ref=e153]:
+            - link [ref=e154] [cursor=pointer]:
+              - /url: https://www.pinheironeto.com.br/conhecimento-juridico/alerta/reducao-das-aliquotas-de-pispasep-e-cofins-sobre-querosene-de-aviacao
+            - generic [ref=e155]:
+              - link [ref=e156] [cursor=pointer]:
+                - /url: https://www.pinheironeto.com.br/conhecimento-juridico/alerta/reducao-das-aliquotas-de-pispasep-e-cofins-sobre-querosene-de-aviacao
+              - generic [ref=e157]:
+                - link [ref=e158] [cursor=pointer]:
+                  - /url: https://www.pinheironeto.com.br/conhecimento-juridico/alerta/reducao-das-aliquotas-de-pispasep-e-cofins-sobre-querosene-de-aviacao
+                  - heading [level=1] [ref=e159]: Reduction in PIS/Pasep and Cofins rates on aviation kerosene
+                - link [ref=e160] [cursor=pointer]:
+                  - /url: https://www.pinheironeto.com.br/conhecimento-juridico/alerta/reducao-das-aliquotas-de-pispasep-e-cofins-sobre-querosene-de-aviacao
+        - generic [ref=e161]:
+          - link [ref=e162] [cursor=pointer]:
+            - /url: https://www.pinheironeto.com.br/conhecimento-juridico/boletim/infraestrutura-em-foco-no-1
+          - generic [ref=e164]:
+            - link [ref=e165] [cursor=pointer]:
+              - /url: https://www.pinheironeto.com.br/conhecimento-juridico/boletim/infraestrutura-em-foco-no-1
+            - generic [ref=e166]:
+              - link [ref=e167] [cursor=pointer]:
+                - /url: https://www.pinheironeto.com.br/conhecimento-juridico/boletim/infraestrutura-em-foco-no-1
+              - generic [ref=e168]:
+                - link [ref=e169] [cursor=pointer]:
+                  - /url: https://www.pinheironeto.com.br/conhecimento-juridico/boletim/infraestrutura-em-foco-no-1
+                  - heading [level=1] [ref=e170]: Infrastructure in Focus | Nº 1
+                - link [ref=e171] [cursor=pointer]:
+                  - /url: https://www.pinheironeto.com.br/conhecimento-juridico/boletim/infraestrutura-em-foco-no-1
+        - generic [ref=e172]:
+          - link [ref=e173] [cursor=pointer]:
+            - /url: https://www.pinheironeto.com.br/conhecimento-juridico/alerta/banco-central-divulga-nova-norma-sobre-a-instrucao-dos-pedidos-de-autorizacao-de-spsav-dtvm-ctvm-e-corretora-de-cambio
+          - generic [ref=e175]:
+            - link [ref=e176] [cursor=pointer]:
+              - /url: https://www.pinheironeto.com.br/conhecimento-juridico/alerta/banco-central-divulga-nova-norma-sobre-a-instrucao-dos-pedidos-de-autorizacao-de-spsav-dtvm-ctvm-e-corretora-de-cambio
+            - generic [ref=e177]:
+              - link [ref=e178] [cursor=pointer]:
+                - /url: https://www.pinheironeto.com.br/conhecimento-juridico/alerta/banco-central-divulga-nova-norma-sobre-a-instrucao-dos-pedidos-de-autorizacao-de-spsav-dtvm-ctvm-e-corretora-de-cambio
+              - generic [ref=e179]:
+                - link [ref=e180] [cursor=pointer]:
+                  - /url: https://www.pinheironeto.com.br/conhecimento-juridico/alerta/banco-central-divulga-nova-norma-sobre-a-instrucao-dos-pedidos-de-autorizacao-de-spsav-dtvm-ctvm-e-corretora-de-cambio
+                  - heading [level=1] [ref=e181]: Central Bank of Brazil releases new guidance to applications for authorization for virtual asset service providers, brokerage firms, securities dealerships and foreign exchange brokers
+                - link [ref=e182] [cursor=pointer]:
+                  - /url: https://www.pinheironeto.com.br/conhecimento-juridico/alerta/banco-central-divulga-nova-norma-sobre-a-instrucao-dos-pedidos-de-autorizacao-de-spsav-dtvm-ctvm-e-corretora-de-cambio
+      - generic [ref=e183]:
+        - generic [ref=e188]:
+          - heading "Practice" [level=2] [ref=e189]: Practice
+          - generic [ref=e191]:
+            - paragraph [ref=e193]: We are a law firm with a global vision and lawyers specializing in more than 40 areas of law.
+            - link "See practice areas" [ref=e194] [cursor=pointer]:
+              - /url: https://www.pinheironeto.com.br/areas-de-atuacao?lng=en
+        - generic [ref=e196]:
+          - generic [ref=e198]:
+            - heading "Legal Knowledge" [level=2] [ref=e199]
+            - paragraph [ref=e201]: What you need to know to stay abreast of the changes in law.
+          - generic [ref=e206]:
+            - article [ref=e207]:
+              - link "Newsletter 05/11/2026 Energia | Nº 87 This content is not available in English Read the full text" [ref=e208] [cursor=pointer]:
+                - /url: https://www.pinheironeto.com.br/conhecimento-juridico/boletim/energia-no-87
+                - generic [ref=e209]:
+                  - generic [ref=e210]: Newsletter
+                  - time [ref=e211]: 05/11/2026
+                - heading "Energia | Nº 87" [level=3] [ref=e213]
+                - paragraph [ref=e215]: This content is not available in English
+                - generic [ref=e217]: Read the full text
+            - article [ref=e218]:
+              - link "Newsletter 05/07/2026 Infraestrutura em foco | Nº 9 This content is not available in English Read the full text" [ref=e219] [cursor=pointer]:
+                - /url: https://www.pinheironeto.com.br/conhecimento-juridico/boletim/infraestrutura-em-foco-no-9
+                - generic [ref=e220]:
+                  - generic [ref=e221]: Newsletter
+                  - time [ref=e222]: 05/07/2026
+                - heading "Infraestrutura em foco | Nº 9" [level=3] [ref=e224]
+                - paragraph [ref=e226]: This content is not available in English
+                - generic [ref=e228]: Read the full text
+            - article [ref=e229]:
+              - link [ref=e230] [cursor=pointer]:
+                - /url: https://www.pinheironeto.com.br/conhecimento-juridico/alerta/spamf-regulamenta-bloqueio-de-usuarios-do-programa-novo-desenrola-brasil-em-plataformas-de-apostas
+                - generic [ref=e231]:
+                  - generic [ref=e232]: Alerts
+                  - time [ref=e233]: 05/07/2026
+                - heading [level=3] [ref=e235]: SPA/MF regulates blocking of users of the Novo Desenrola Brasil Program on betting platforms
+                - paragraph [ref=e237]: Rules establish immediate operational obligations for fixed-odds betting operators, including mandatory consultations with SIGAP, account suspension, and refunds to blocked users.
+                - generic [ref=e239]: Read the full text
+            - article [ref=e240]:
+              - link [ref=e241] [cursor=pointer]:
+                - /url: https://www.pinheironeto.com.br/conhecimento-juridico/alerta/cmn-e-banco-central-publicam-regulamentacao-da-lei-no-152522025-novo-marco-legal-de-protecao-ao-usuario-de-servicos-financeiros
+                - generic [ref=e242]:
+                  - generic [ref=e243]: Alerts
+                  - time [ref=e244]: 05/06/2026
+                - heading [level=3] [ref=e246]: National Monetary Council and Central Bank of Brazil publish regulations for Law 15,252 of 2025 — New Legal Framework for the Protection of Financial Services Users
+                - paragraph [ref=e248]: The law itself granted CMN and BCB the authority to regulate these matters within 180 days, which has now been accomplished with the issuance of the new rules.
+                - generic [ref=e250]: Read the full text
+            - article [ref=e251]:
+              - link [ref=e252] [cursor=pointer]:
+                - /url: https://www.pinheironeto.com.br/conhecimento-juridico/e-book/panorama-esg-2026
+                - generic [ref=e253]:
+                  - generic [ref=e254]: E-book
+                  - time [ref=e255]: 05/05/2026
+                - heading [level=3] [ref=e257]: Panorama ESG 2026
+                - generic [ref=e259]: Read the full text
+            - article [ref=e260]:
+              - link [ref=e261] [cursor=pointer]:
+                - /url: https://www.pinheironeto.com.br/conhecimento-juridico/alerta/medida-provisoria-cria-restricoes-indiretas-de-acesso-a-plataformas-de-apostas-e-impoe-novas-obrigacoes-operacionais-ao-setor
+                - generic [ref=e262]:
+                  - generic [ref=e263]: Alerts
+                  - time [ref=e264]: 05/05/2026
+                - heading [level=3] [ref=e266]: Provisional Measure introduces indirect restrictions on access to betting platforms and imposes new operational obligations on the sector
+                - paragraph [ref=e268]: Although the measure primarily addresses financial matters, it also introduces provisions that directly impact on fixed-odds betting operators by imposing restrictions on user access and prohibitions related to the financing of bets.
+                - generic [ref=e270]: Read the full text
+          - generic [ref=e276]:
+            - link "See all" [ref=e278] [cursor=pointer]:
+              - /url: https://www.pinheironeto.com.br/conhecimento-juridico?lng=en
+            - generic [ref=e280]:
+              - strong [ref=e281]: "1"
+              - text: /3
+        - generic [ref=e283]:
+          - heading "Events" [level=2] [ref=e286]
+          - article [ref=e294]:
+            - heading "Lançamento Rota AmFi 2026 - São Paulo - A jornada que conecta os protagonistas do crédito privado | 19.5, 16h, SP" [level=3] [ref=e295]: Lançamento Rota AmFi 2026 - São Paulo - A jornada que conecta os protagonistas do crédito privado | 19.5, 16h, SP
+            - generic [ref=e297]:
+              - paragraph [ref=e298]:
+                - strong [ref=e300]: Pinheiro Neto Advogados e AmFi convidam para um encontro com Originadores, Investidores e Parceiros sobre a evolução do mercado de capitais brasileiro, com uma discussão de caminhos concretos para fortalecer o crédito privado no Brasil.
+              - generic [ref=e301]:
+                - paragraph [ref=e302]:
+                  - generic [ref=e304]: 05/19/2026
+                - paragraph [ref=e305]:
+                  - generic [ref=e307]: 16:00
+              - paragraph [ref=e308]:
+                - generic [ref=e310]: Pinheiro Neto Advogados
+              - link "See further details" [ref=e311] [cursor=pointer]:
+                - /url: https://www.pinheironeto.com.br/eventos/evento-presencial/lancamento-rota-amfi-2026-sao-paulo-a-jornada-que-conecta-os-protagonistas-do-credito-privado-195-16h-sp
+                - generic [ref=e312]: See further details
+          - generic [ref=e318]:
+            - link "See all" [ref=e320] [cursor=pointer]:
+              - /url: https://www.pinheironeto.com.br/eventos?lng=en
+            - generic [ref=e322]:
+              - strong [ref=e323]: "1"
+              - text: /2
+        - generic [ref=e325]:
+          - heading "Socioenvironmental responsibility" [level=2] [ref=e328]
+          - generic [ref=e333]:
+            - article [ref=e334]:
+              - link "126 Entitites receiving in 2022" [ref=e335] [cursor=pointer]:
+                - /url: https://www.pinheironeto.com.br/o-escritorio/responsabilidade-social?lng=en
+                - generic [ref=e337]:
+                  - heading "126" [level=5] [ref=e338]:
+                    - generic [ref=e340]: "126"
+                  - paragraph [ref=e341]: Entitites receiving in 2022
+            - article [ref=e342]:
+              - link "133 Thousand trees planted since 2007" [ref=e343] [cursor=pointer]:
+                - /url: https://www.pinheironeto.com.br/o-escritorio/responsabilidade-social?lng=en
+                - generic [ref=e345]:
+                  - heading "133" [level=5] [ref=e346]:
+                    - generic [ref=e348]: "133"
+                  - paragraph [ref=e349]: Thousand trees planted since 2007
+            - article [ref=e350]:
+              - link "143 Pro bono's cases advised in 2022" [ref=e351] [cursor=pointer]:
+                - /url: https://www.pinheironeto.com.br/o-escritorio/responsabilidade-social?lng=en
+                - generic [ref=e353]:
+                  - heading "143" [level=5] [ref=e354]:
+                    - generic [ref=e356]: "143"
+                  - paragraph [ref=e357]: Pro bono's cases advised in 2022
+          - generic [ref=e359]:
+            - link "See all" [ref=e361] [cursor=pointer]:
+              - /url: https://www.pinheironeto.com.br/o-escritorio/responsabilidade-social?lng=en
+            - generic [ref=e363]:
+              - strong [ref=e364]: "1"
+              - text: /1
+        - generic [ref=e369]:
+          - heading "Internship Program" [level=2] [ref=e370]: Internship Program
+          - generic [ref=e372]:
+            - paragraph [ref=e374]: We believe that our talents build our business. We develop professionals, but also persons able to cope with the challenges of today’s world.
+            - link "Know the program" [ref=e375] [cursor=pointer]:
+              - /url: https://www.pinheironeto.com.br/carreira/programa-de-estagio?lng=en
+        - generic [ref=e377]:
+          - generic [ref=e379]:
+            - heading "Recognitions of the firm" [level=2] [ref=e380]
+            - paragraph [ref=e382]: Know our main highlights in the major national and international publications.
+          - generic [ref=e387]:
+            - article [ref=e388]:
+              - heading "Antitrust Writing Awards 2025" [level=4] [ref=e390]
+              - generic [ref=e393]:
+                - paragraph [ref=e394]: "On April 1, we were honored in two categories at the 2025 Antitrust Writing Awards: “Business Articles – Americas” and “Business Articles – General Antitrust”."
+                - paragraph [ref=e395]: "In the first category, the winning article was \"Non-Compete Clauses: When Antitrust Meets Labor Law in Brazil and the USA\", written by counsel Manuela Mendes Prata and Amanda Athayde."
+                - paragraph [ref=e396]: "In the second category, the winning article was \"Non-Monetary Sanctions in Antitrust: Paths to Effectiveness\", written by counsel Amanda Athayde and associate Giovana Vieira Porto."
+            - article [ref=e397]:
+              - heading "Chambers Brazil Awards 2025" [level=4] [ref=e399]
+              - generic [ref=e402]:
+                - paragraph [ref=e403]:
+                  - text: We were awarded law firm of the year in
+                  - strong [ref=e404]: Data Protection, Environment and Tax
+                  - text: by the publication
+                  - link "Chambers and Partners" [ref=e405] [cursor=pointer]:
+                    - /url: https://chambers.com/events/chambers-brazil-awards-2024
+                  - text: .
+                - paragraph [ref=e406]:
+                  - link "The" [ref=e407] [cursor=pointer]:
+                    - /url: https://chambers.com/events/chambers-brazil-awards-2024
+                  - text: publication reviews achievements over the past 12 months, reflecting excellence in service and strategic growth.
+            - article [ref=e408]:
+              - 'heading "Chambers Brazil: Contentious 2025" [level=4] [ref=e410]'
+              - paragraph [ref=e414]:
+                - text: We are leaders in the
+                - strong [ref=e415]: "Chambers Brazil: Contentious 2025 Guide"
+                - text: ", with the highest number of Band 1 rankings, totaling six. In addition, we lead the ranking in both individual recognitions (36) and number of lawyers in top positions (six)."
+            - article [ref=e416]:
+              - heading [level=4] [ref=e418]: "Chambers Brazil: Industries and Sectors 2025"
+              - paragraph [ref=e422]:
+                - text: Pinheiro Neto Advogados has once again been featured in
+                - emphasis [ref=e423]: "Chambers Brazil: Industries & Sectors"
+                - text: ","
+                - emphasis [ref=e424]
+                - text: and
+                - emphasis [ref=e425]: Regions 2025
+                - text: . We were recognized in seven Band 1 categories in
+                - emphasis [ref=e426]: "Chambers Brazil: Industries & Sectors"
+                - text: ", including a standout debut in the newly introduced"
+                - strong [ref=e427]: Gambling & Betting
+                - text: ranking, where we were ranked Band 1. In the individual rankings, we highlight partner
+                - strong [ref=e428]: André Santa Ritta
+                - text: ", ranked Band 1, and associate"
+                - strong [ref=e429]: Gabriel Carvalho
+                - text: ", recognized as"
+                - emphasis [ref=e430]: Associate to Watch
+                - text: – both in the Gambling & Betting category.
+            - article [ref=e431]:
+              - heading [level=4] [ref=e433]: "Chambers Brazil: Regions 2025"
+              - paragraph [ref=e437]:
+                - text: In
+                - emphasis [ref=e438]: "Chambers Brazil: Regions 2025"
+                - text: ", our Rio de Janeiro office maintained its Band 1 ranking in Tax, with nine members of our team being individually ranked."
+            - article [ref=e439]:
+              - heading [level=4] [ref=e441]: Chambers Global 2025
+              - generic [ref=e444]:
+                - paragraph [ref=e445]:
+                  - text: The
+                  - link [ref=e446] [cursor=pointer]:
+                    - /url: https://chambers.com/law-firm/pinheiro-neto-advogados-global-2:3500
+                    - text: Chambers Global 2025
+                  - text: "guide recognized Pinheiro Neto Advogados as the Brazilian law firm with the highest number of ranked practices (28), many of which are classified in Band 1: Banking & Finance, Capital Markets: Debt, Capital Markets: Equity, Corporate/M&A: The Elite, Dispute Resolution: Litigation: Elite, Energy & Natural Resources: Mining, International & Cross-Border Capabilities, International Trade/WTO, Investment Funds, Tax Litigation: The Elite and Tax Non-contentious: The Elite."
+                - paragraph [ref=e447]: As for individual recognitions, we have 44 distinguished lawyers - one in the Star Individual category, two as Senior Statespeople, and seven in Band 1.
+            - article [ref=e448]:
+              - heading [level=4] [ref=e450]: Chambers High Net Worth 2025
+              - paragraph [ref=e454]:
+                - text: For the fourth consecutive year, we have been recognized in the
+                - emphasis [ref=e455]: Private Wealth
+                - text: ranking of the
+                - strong [ref=e456]: Chambers High Net Worth 2025
+                - text: guide, reflecting the excellence of our advisory services to high-net-worth individuals and families. This year, we were also ranked for the first time in the Family/Matrimonial category. Our partner
+                - strong [ref=e457]: Pythagoras Carvalho
+                - text: maintained his prominent position, while our counsel
+                - strong [ref=e458]: Priscila Stela Mariano da Silva
+                - text: made her debut in the guide.
+            - article [ref=e459]:
+              - heading [level=4] [ref=e461]: Client Choice Awards 2025
+              - paragraph [ref=e465]:
+                - text: Our partners Raphael Palmieri Salomão and Tatiana Guazzelli were recognized for the excellent client care they provide and the quality of their service. Raphael was awarded in the Banking and Financial Transactions category, while Tatiana was recognized in the Fintech & Blockchain in Brazil and Blockchain in Brazil categories. The awards were granted by
+                - emphasis [ref=e466]: Client Choice
+                - text: ", a Law Business Research Group publication in the UK."
+            - article [ref=e467]:
+              - heading [level=4] [ref=e469]: GAR 100 2025
+              - paragraph [ref=e473]: Once again, we have been recognized as one of the world's leading arbitration firms, according to the GAR 100 2025 list published by the British publication Global Arbitration Review. The survey selects firms that stand out for their consistent experience in international arbitration. Partners Gilberto Giusti, Rodrigo Grion, Celso Mori, Thaís Chebatt, Rodrigo Carneiro, consultant Gustavo Carneiro de Albuquerque, and associates Thiago Del Pozzo Zanelato and Bruna Anita Teruchkin Felberg were recognized for their work.
+            - article [ref=e474]:
+              - heading [level=4] [ref=e476]: GCR - Women in Antitrust 2025
+              - paragraph [ref=e480]:
+                - text: Pinheiro Neto Advogados is once again represented in the
+                - emphasis [ref=e481]: Global Competition Review – Women in Antitrust 2025
+                - text: guide. Partner Cristianne Zarzur has been recognized once more for her outstanding work, and this year, partner Amanda Athayde joins the guide for the first time.
+            - article [ref=e482]:
+              - heading [level=4] [ref=e484]: GCR Awards 2025
+              - paragraph [ref=e488]: Our firm was awarded the “Bunge/Viterra” case of the year in the “Merger Control Matter of the Year – Americas” category. Partner Leonardo Rocha e Silva and associate Alexandre Horn Pureza Oliveira participated in the case.
+            - article [ref=e489]:
+              - heading [level=4] [ref=e491]: IFLR Americas Awards 2025
+              - generic [ref=e494]:
+                - paragraph [ref=e495]:
+                  - text: We were recognized as
+                  - strong [ref=e496]: Brazil law firm of the year
+                  - text: in the
+                  - strong [ref=e497]: “Capital Markets”
+                  - text: category and acknowledged for
+                  - strong [ref=e498]: our expertise in Digital Finance
+                  - text: at the
+                  - strong [ref=e499]: IFLR Americas Awards 2025.
+                - paragraph [ref=e500]:
+                  - text: The “
+                  - strong [ref=e501]: Light Group”
+                  - text: case was also distinguished in the “
+                  - strong [ref=e502]: Restructuring Deal of the Year”
+                  - text: category.
+            - article [ref=e503]:
+              - heading [level=4] [ref=e505]: Latin Lawyer Deal of the Year Awards 2025
+              - generic [ref=e508]:
+                - paragraph [ref=e509]: "We are proud to share that Pinheiro Neto Advogados was recognized by Latin Lawyer in the “Diversity Initiative Award” category for our internal project “PapodeHomem.\" In addition, two cases in which we were involved were recognized at the “Deal of the Year Awards 2025”:"
+                - list [ref=e510]:
+                  - listitem [ref=e511]:
+                    - paragraph [ref=e512]: "Capital markets: SABESP completes largest LatAm privatisation deal of 2024."
+                  - listitem [ref=e513]:
+                    - paragraph [ref=e514]: "Restructuring: Americanas gets Chapter 15 approval for restructuring plan."
+            - article [ref=e515]:
+              - heading [level=4] [ref=e517]: The Latin American Lawyer Women Awards 2025
+              - paragraph [ref=e521]:
+                - text: Two of our partners were honored in
+                - emphasis [ref=e522]: The Latin American Lawyer Women Awards 2025
+                - text: ", which celebrates women lawyers who stand out in their respective fields. Angela Kung was named"
+                - emphasis [ref=e523]: Lawyer of the Year – Pharma, Healthcare & Life Sciences
+                - text: ", whereas Cristianne Zarzur was recognized as"
+                - emphasis [ref=e524]: Lawyer of the Year – Competition & Antitrust
+                - text: .
+            - article [ref=e525]:
+              - heading [level=4] [ref=e527]: The Legal 500 Brazil Awards 2025
+              - generic [ref=e530]:
+                - paragraph [ref=e531]:
+                  - text: We received six awards in The Legal 500 Brazil Awards 2025. Pinheiro Neto Advogados was recognized as
+                  - strong [ref=e532]: firm of the year
+                  - text: in
+                  - strong [ref=e533]: Competition and Antitrust
+                  - text: ","
+                  - strong [ref=e534]: Environment, and Dispute Resolution
+                  - text: ",also earning two individual recognitions:"
+                - list [ref=e535]:
+                  - listitem [ref=e536]:
+                    - paragraph [ref=e537]:
+                      - strong [ref=e538]: "Capital Markets Lawyer of the Year:"
+                      - text: Guilherme Sampaio Monteiro
+                  - listitem [ref=e539]:
+                    - paragraph [ref=e540]:
+                      - strong [ref=e541]: "Public Law Lawyer of the Year:"
+                      - text: Ricardo Levy
+                - paragraph [ref=e542]: "In addition, one of the deals we advised on was awarded:"
+                - list [ref=e543]:
+                  - listitem [ref=e544]:
+                    - paragraph [ref=e545]:
+                      - strong [ref=e546]: "Deal of the Year:"
+                      - text: Samarco Mineração Restructuring
+            - article [ref=e547]:
+              - heading [level=4] [ref=e549]: Uqbar 2025
+              - paragraph [ref=e553]: We led the market in number of Agribusiness Receivables Certificates (CRA) transactions and ranked first in total issuance volume. In the Credit Rights Investment Funds (FIDC) segment, we ranked third both in issuance volume and in number of transactions. We were also recognized for our performance in the Real Estate Receivables Certificates (CRI) market, in terms of both volume and transaction count. The rankings are based on transactions carried out in 2024. The Uqbar guide highlights key players across Brazil’s main structured finance markets.
+            - article [ref=e554]:
+              - heading [level=4] [ref=e556]: Women in Business Law Awards 2025
+              - paragraph [ref=e560]: The awards recognized the outstanding work in 2024 of our partners Camila Martino Parise in the category “Latin America Life Sciences Lawyer of the Year”, and Tatiana Guazzelli in the category “Latin America Outstanding Achievement Award”.
+            - article [ref=e561]:
+              - heading [level=4] [ref=e563]: Women in Investigations 2025
+              - paragraph [ref=e567]: Our partner Natalia Lugero de Almeida was recognized in the publication Global Investigations Review, which highlights 100 remarkable women in the white-collar crime investigations world.
+            - article [ref=e568]:
+              - heading [level=4] [ref=e570]: WTR 1000 2025
+              - paragraph [ref=e574]: This content is not available.
+          - generic [ref=e580]:
+            - link "See all" [ref=e582] [cursor=pointer]:
+              - /url: https://www.pinheironeto.com.br/o-escritorio
+              - generic [ref=e583]: See all
+            - generic [ref=e585]:
+              - strong [ref=e586]: "1"
+              - text: /7
+        - generic [ref=e592]:
+          - heading "Receive our legal updates" [level=2] [ref=e593]: Receive our legal updates
+          - generic [ref=e595]:
+            - paragraph [ref=e597]: To read where and when you want. Select the matters of interest and register yourself informing only your full name and e-mail to keep abreast of the legal news.
+            - link "Register your data" [ref=e598] [cursor=pointer]:
+              - /url: https://www.pinheironeto.com.br/landing/cadastro
+              - generic [ref=e599]: Register your data
+    - generic [ref=e600]:
+      - contentinfo [ref=e601]:
+        - generic [ref=e602]:
+          - generic [ref=e603]:
+            - link "Pinheiro Neto Advogados" [ref=e605] [cursor=pointer]:
+              - /url: ""
+              - img "Pinheiro Neto Advogados" [ref=e606]
+            - list [ref=e608]:
+              - listitem [ref=e609]:
+                - link [ref=e610] [cursor=pointer]:
+                  - /url: https://www.pinheironeto.com.br/contato
+              - listitem [ref=e611]:
+                - link [ref=e612] [cursor=pointer]:
+                  - /url: https://br.linkedin.com/company/pinheironeto
+              - listitem [ref=e613]:
+                - link [ref=e614] [cursor=pointer]:
+                  - /url: https://www.youtube.com/c/PinheiroNetoAdvogados
+          - generic [ref=e615]:
+            - paragraph [ref=e617]:
+              - strong [ref=e618]: São Paulo
+              - generic [ref=e619]:
+                - text: Rua Hungria, 1100
+                - text: 01455-906
+                - text: São Paulo - SP
+                - text: +55 (11) 3247.8400
+            - paragraph [ref=e621]:
+              - strong [ref=e622]: Rio de Janeiro
+              - generic [ref=e623]:
+                - text: Rua Humaitá, 275,
+                - text: 16º andar
+                - text: 22261-005,
+                - text: Rio de Janeiro - RJ
+                - text: +55 (21) 2506.1600
+            - paragraph [ref=e625]:
+              - strong [ref=e626]: Brasília
+              - generic [ref=e627]:
+                - text: SAFS, Qd. 2 - Bloco B
+                - text: 70070-600
+                - text: Brasília - DF
+                - text: +55 (61) 3312.9400
+            - paragraph [ref=e629]:
+              - strong [ref=e630]: Palo Alto
+              - generic [ref=e631]:
+                - text: 228 Hamilton Avenue
+                - text: 3rd floor
+                - text: CA 94301 / USA
+                - text: +1 (650) 798.5222
+            - paragraph [ref=e633]:
+              - strong [ref=e634]: Tokyo
+              - generic [ref=e635]:
+                - text: 1-6-2 Marunouchi
+                - text: Chiyoda-ku,
+                - text: 21st floor
+                - text: Tokyo / Japan
+                - text: +81 (3) 3216.7191
+          - generic [ref=e636]:
+            - paragraph [ref=e638]: Pinheiro Neto Advogados. Todos os direitos reservados.
+            - paragraph [ref=e640]:
+              - link "Política de Privacidade e LGPD" [ref=e641] [cursor=pointer]:
+                - /url: https://www.pinheironeto.com.br/politica-de-privacidade-e-lgpd
+            - paragraph [ref=e643]:
+              - link "Termos de uso" [ref=e644] [cursor=pointer]:
+                - /url: https://www.pinheironeto.com.br/termos-de-uso
+      - generic [ref=e647]:
+        - paragraph [ref=e649]: Este site utiliza cookies para realização de análises estatísticas acerca de sua utilização. Não são coletados dados pessoais por meio de cookies.
+        - list [ref=e651]:
+          - listitem [ref=e652]:
+            - link "Política de Privacidade e LGPD" [ref=e653] [cursor=pointer]:
+              - /url: https://www.pinheironeto.com.br/politica-de-privacidade-e-lgpd
+          - listitem [ref=e654]:
+            - link "Termos de uso" [ref=e655] [cursor=pointer]:
+              - /url: https://www.pinheironeto.com.br/termos-de-uso
+        - generic [ref=e657] [cursor=pointer]: Entendi
+  - text: \n
+  - generic [ref=e658]:
+    - text: \n
+    - generic [ref=e659] [cursor=pointer]:
+      - img "Conteúdo acessível em Libras usando o VLibras Widget com opções dos Avatares Ícaro, Hosana ou Guga." [ref=e660]
+      - text: \n
+      - img "Conteúdo acessível em Libras usando o VLibras Widget com opções dos Avatares Ícaro, Hosana ou Guga." [ref=e661]
+      - text: \n
+    - text: \n \n
+  - text: \n \n \n \n\n

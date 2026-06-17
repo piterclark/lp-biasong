@@ -1,0 +1,97 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - img "Resultiva" [ref=e3]:
+      - generic [ref=e4]: Resultiva
+  - generic [ref=e7]:
+    - generic [ref=e8]: Portfólio de landing pages
+    - heading "Páginas que mudam o que as pessoas fazem." [level=1] [ref=e9]:
+      - generic [ref=e11]: Páginas
+      - generic [ref=e13]: que
+      - generic [ref=e15]: mudam
+      - generic [ref=e17]: o
+      - generic [ref=e19]: que
+      - generic [ref=e21]: as
+      - generic [ref=e23]: pessoas
+      - emphasis [ref=e24]:
+        - generic [ref=e26]: fazem.
+    - paragraph [ref=e27]:
+      - text: "Construídas para um único resultado:"
+      - text: que o visitante avançe.
+  - generic [ref=e29]:
+    - generic [ref=e30]:
+      - generic [ref=e31]: 2+
+      - generic [ref=e32]: Nichos no portfólio
+    - generic [ref=e33]:
+      - generic [ref=e34]: 100%
+      - generic [ref=e35]: Sob medida
+    - generic [ref=e36]:
+      - generic [ref=e37]: "0"
+      - generic [ref=e38]: Templates genéricos
+    - generic [ref=e39]:
+      - generic [ref=e40]: ∞
+      - generic [ref=e41]: Expansões possíveis
+  - generic [ref=e42]:
+    - heading "Não vendemos páginas. Vendemos resultados." [level=2] [ref=e44]:
+      - text: Não vendemos
+      - text: páginas.
+      - emphasis [ref=e45]:
+        - text: Vendemos
+        - text: resultados.
+    - paragraph [ref=e47]:
+      - text: A maioria das páginas falha porque tenta
+      - strong [ref=e48]: impressionar
+      - text: em vez de
+      - strong [ref=e49]: converter
+      - text: .
+      - text: "Cada projeto começa de uma pergunta: o que precisa acontecer para o visitante dizer sim? O design é a resposta visual dessa pergunta."
+  - generic [ref=e50]:
+    - generic [ref=e51]:
+      - heading "O trabalho fala." [level=2] [ref=e52]:
+        - text: O trabalho
+        - emphasis [ref=e53]: fala.
+      - generic [ref=e54]: 02 projetos
+    - generic [ref=e55]:
+      - link "Advocacia Ferreira & Associados LP de luxo para escritório de advocacia. Copy que posiciona, design que fecha. Abrir" [ref=e56] [cursor=pointer]:
+        - /url: advogado/index.html
+        - img [ref=e60]
+        - generic [ref=e63]:
+          - generic [ref=e64]: Advocacia
+          - generic [ref=e65]: Ferreira & Associados
+          - paragraph [ref=e66]: LP de luxo para escritório de advocacia. Copy que posiciona, design que fecha.
+          - generic [ref=e67]:
+            - text: Abrir
+            - img [ref=e68]
+      - link "Imóveis Arbórea Alphagran LP de lançamento imobiliário premium. Experiência que vende antes da visita. Abrir" [ref=e70] [cursor=pointer]:
+        - /url: arborea/index.html
+        - img [ref=e74]
+        - generic [ref=e78]:
+          - generic [ref=e79]: Imóveis
+          - generic [ref=e80]: Arbórea Alphagran
+          - paragraph [ref=e81]: LP de lançamento imobiliário premium. Experiência que vende antes da visita.
+          - generic [ref=e82]:
+            - text: Abrir
+            - img [ref=e83]
+  - generic [ref=e87]:
+    - generic [ref=e88]: A verdade
+    - heading "Design certo. Copy certa. Resultado certo." [level=2] [ref=e89]:
+      - text: Design certo.
+      - text: Copy certa.
+      - emphasis [ref=e90]: Resultado certo.
+    - paragraph [ref=e91]:
+      - text: Cada elemento existe por uma razão. Cada palavra foi escolhida. Cada píxel serve o objetivo de
+      - strong [ref=e92]: fazer o visitante avançar
+      - text: — não admirar.
+  - generic [ref=e93]:
+    - generic [ref=e94]: Próximo passo
+    - heading "Quer uma assim para você?" [level=2] [ref=e95]:
+      - text: Quer uma assim
+      - text: para
+      - emphasis [ref=e96]: você?
+    - link "Falar no WhatsApp" [ref=e97] [cursor=pointer]:
+      - /url: https://wa.me/5511999999999
+      - img [ref=e98]
+      - text: Falar no WhatsApp
+    - paragraph [ref=e100]: Resposta rápida • Sem enrolação
+  - contentinfo [ref=e101]:
+    - generic [ref=e102]: Resultiva
+    - paragraph [ref=e103]: © 2026 Resultiva Studio

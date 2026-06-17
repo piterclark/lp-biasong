@@ -1,0 +1,284 @@
+- generic [active] [ref=e1]:
+  - dialog "Sua privacidade é importante" [ref=e2]:
+    - generic [ref=e3]:
+      - tabpanel "Consentir" [ref=e6]:
+        - generic [ref=e8]:
+          - heading "Sua privacidade é importante" [level=2] [ref=e9]
+          - generic [ref=e10]:
+            - paragraph [ref=e11]:
+              - text: Utilizamos cookies para melhorar sua experiência, analisar o tráfego e oferecer conteúdo personalizado. Clique em 'Aceitar todos' para consentir de acordo com nossas políticas de
+              - link "Cookies" [ref=e12] [cursor=pointer]:
+                - /url: https://www.envato.com/cookies/
+              - text: e
+              - link "Privacidade" [ref=e13] [cursor=pointer]:
+                - /url: https://www.envato.com/privacy/
+              - text: .
+            - paragraph [ref=e14]
+      - generic [ref=e18]:
+        - button "Rejeitar todos" [ref=e19] [cursor=pointer]
+        - button "Gerenciar preferências" [ref=e20] [cursor=pointer]: Gerenciar preferências
+        - button "Aceitar todos" [ref=e22] [cursor=pointer]
+  - banner [ref=e23]:
+    - 'link "Envato: Go unlimited!" [ref=e25] [cursor=pointer]':
+      - /url: https://elements.envato.com/pricing?utm_source=mixkit&utm_medium=referral&utm_campaign=elements_mixkit_headerbar_14APR2025
+      - generic [ref=e26]:
+        - strong [ref=e27]: "Envato:"
+        - text: Go unlimited!
+    - generic [ref=e28]:
+      - link "Mixkit - Free assets for your next video project" [ref=e29] [cursor=pointer]:
+        - /url: /
+        - img [ref=e30]
+      - generic [ref=e36]:
+        - generic [ref=e37] [cursor=pointer]:
+          - generic [ref=e38]: Videos
+          - generic:
+            - generic: Videos
+            - generic: Music
+            - generic: Sound Effects
+            - generic: Templates
+            - generic: Icons
+        - generic [ref=e39]:
+          - searchbox "Enter Search Text" [ref=e40]: "914"
+          - button "Clear" [ref=e41] [cursor=pointer]:
+            - img [ref=e42]
+      - button "Toggle Navigation" [ref=e45] [cursor=pointer]
+      - navigation "global-navigation":
+        - link "Video" [ref=e47] [cursor=pointer]:
+          - /url: /free-stock-video/
+        - link "Music" [ref=e48] [cursor=pointer]:
+          - /url: /free-stock-music/
+        - link "Sound Effects" [ref=e49] [cursor=pointer]:
+          - /url: /free-sound-effects/
+        - generic [ref=e50]:
+          - link "Templates" [ref=e51] [cursor=pointer]:
+            - /url: /free-video-templates/
+          - generic [ref=e52]:
+            - link "Premiere Pro" [ref=e53] [cursor=pointer]:
+              - /url: /free-premiere-pro-templates/
+            - link "After Effects" [ref=e54] [cursor=pointer]:
+              - /url: /free-after-effects-templates/
+            - link "Final Cut Pro" [ref=e55] [cursor=pointer]:
+              - /url: /free-final-cut-pro-templates/
+            - link "DaVinci Resolve" [ref=e56] [cursor=pointer]:
+              - /url: /free-davinci-resolve-templates/
+        - link "Unlimited stock assets" [ref=e58] [cursor=pointer]:
+          - /url: https://elements.envato.com/all-items?utm_source=mixkit&utm_medium=referral&utm_campaign=elements_mixkit_cs_nav_switcher_31JULY2024
+    - navigation [ref=e60]:
+      - link "New" [ref=e62] [cursor=pointer]:
+        - /url: /free-stock-video/new/
+      - link "Backgrounds" [ref=e64] [cursor=pointer]:
+        - /url: /free-stock-video/background/
+      - link "Vertical" [ref=e66] [cursor=pointer]:
+        - /url: /free-vertical-videos/
+      - link "Nature" [ref=e68] [cursor=pointer]:
+        - /url: /free-stock-video/nature/
+      - link "Lifestyle" [ref=e70] [cursor=pointer]:
+        - /url: /free-stock-video/lifestyle/
+      - link "Animals" [ref=e72] [cursor=pointer]:
+        - /url: /free-stock-video/animal/
+      - link "Food" [ref=e74] [cursor=pointer]:
+        - /url: /free-stock-video/food/
+      - link "Transport" [ref=e76] [cursor=pointer]:
+        - /url: /free-stock-video/transport/
+      - link "More Videos" [ref=e78] [cursor=pointer]:
+        - /url: "#"
+  - main [ref=e79]:
+    - generic [ref=e80]:
+      - link "Mixkit" [ref=e81] [cursor=pointer]:
+        - /url: /
+      - link "Free Stock Video" [ref=e82] [cursor=pointer]:
+        - /url: https://mixkit.co/free-stock-video/
+      - text: "914"
+    - generic [ref=e84]:
+      - heading "No results found." [level=1] [ref=e85]
+      - paragraph [ref=e86]:
+        - text: Okay, you've stumped us! We do not currently have any results for
+        - strong [ref=e87]: "\"914\""
+        - text: "- Help us improve Mixkit’s search results with this"
+        - link "quick survey" [ref=e88] [cursor=pointer]:
+          - /url: https://envatocommunity.typeform.com/mixkitsearch
+        - text: .
+  - contentinfo [ref=e93]:
+    - generic [ref=e94]:
+      - generic [ref=e95]:
+        - generic [ref=e96]:
+          - link "Videos" [ref=e98] [cursor=pointer]:
+            - /url: /free-stock-video/
+          - generic [ref=e99]:
+            - link "4K Videos" [ref=e100] [cursor=pointer]:
+              - /url: /free-stock-video/discover/?resolution=4k
+            - link "Nature" [ref=e101] [cursor=pointer]:
+              - /url: /free-stock-video/nature/
+            - link "Lifestyle" [ref=e102] [cursor=pointer]:
+              - /url: /free-stock-video/lifestyle/
+            - link "Business" [ref=e103] [cursor=pointer]:
+              - /url: /free-stock-video/business/
+            - link "Animals" [ref=e104] [cursor=pointer]:
+              - /url: /free-stock-video/animal/
+            - link "Zoom Backgrounds" [ref=e105] [cursor=pointer]:
+              - /url: /free-stock-video/zoom-virtual-background/
+            - link "Vertical" [ref=e106] [cursor=pointer]:
+              - /url: /free-vertical-videos/
+            - link "Backgrounds" [ref=e107] [cursor=pointer]:
+              - /url: /free-video-backgrounds/
+        - generic [ref=e108]:
+          - link "Music" [ref=e110] [cursor=pointer]:
+            - /url: /free-stock-music/
+          - generic [ref=e111]:
+            - link "Ambient" [ref=e112] [cursor=pointer]:
+              - /url: /free-stock-music/ambient/
+            - link "Drum & Bass" [ref=e113] [cursor=pointer]:
+              - /url: /free-stock-music/drum-and-bass/
+            - link "Funk" [ref=e114] [cursor=pointer]:
+              - /url: /free-stock-music/funk/
+            - link "Hip-Hop" [ref=e115] [cursor=pointer]:
+              - /url: /free-stock-music/hip-hop/
+            - link "Jazz" [ref=e116] [cursor=pointer]:
+              - /url: /free-stock-music/jazz/
+        - generic [ref=e117]:
+          - link "Sound Effects" [ref=e119] [cursor=pointer]:
+            - /url: /free-sound-effects/
+          - generic [ref=e120]:
+            - link "Animals" [ref=e121] [cursor=pointer]:
+              - /url: /free-sound-effects/animals/
+            - link "Game" [ref=e122] [cursor=pointer]:
+              - /url: /free-sound-effects/game/
+            - link "Human" [ref=e123] [cursor=pointer]:
+              - /url: /free-sound-effects/human/
+            - link "Instrument" [ref=e124] [cursor=pointer]:
+              - /url: /free-sound-effects/instrument/
+            - link "Lifestyle" [ref=e125] [cursor=pointer]:
+              - /url: /free-sound-effects/lifestyle/
+            - link "Nature" [ref=e126] [cursor=pointer]:
+              - /url: /free-sound-effects/nature/
+            - link "Technology" [ref=e127] [cursor=pointer]:
+              - /url: /free-sound-effects/technology/
+            - link "Transition" [ref=e128] [cursor=pointer]:
+              - /url: /free-sound-effects/transition/
+            - link "Warfare" [ref=e129] [cursor=pointer]:
+              - /url: /free-sound-effects/warfare/
+        - generic [ref=e130]:
+          - link "Premiere Pro" [ref=e132] [cursor=pointer]:
+            - /url: /free-premiere-pro-templates
+          - generic [ref=e133]:
+            - link "Subscribe" [ref=e134] [cursor=pointer]:
+              - /url: /free-premiere-pro-templates/subscribe/
+            - link "Instagram" [ref=e135] [cursor=pointer]:
+              - /url: /free-premiere-pro-templates/instagram/
+            - link "Logo" [ref=e136] [cursor=pointer]:
+              - /url: /free-premiere-pro-templates/logo/
+            - link "Lower-thirds" [ref=e137] [cursor=pointer]:
+              - /url: /free-premiere-pro-templates/lower-thirds/
+            - link "Opener" [ref=e138] [cursor=pointer]:
+              - /url: /free-premiere-pro-templates/openers/
+            - link "Slideshows" [ref=e139] [cursor=pointer]:
+              - /url: /free-premiere-pro-templates/slideshow/
+            - link "Titles" [ref=e140] [cursor=pointer]:
+              - /url: /free-premiere-pro-templates/titles/
+            - link "Transitions" [ref=e141] [cursor=pointer]:
+              - /url: /free-premiere-pro-templates/transitions/
+            - link "YouTube" [ref=e142] [cursor=pointer]:
+              - /url: /free-premiere-pro-templates/youtube/
+        - generic [ref=e143]:
+          - link "After Effects" [ref=e145] [cursor=pointer]:
+            - /url: /free-after-effects-templates
+          - generic [ref=e146]:
+            - link "Audio visualizer" [ref=e147] [cursor=pointer]:
+              - /url: /free-after-effects-templates/audio-visualizer/
+            - link "Call-outs" [ref=e148] [cursor=pointer]:
+              - /url: /free-after-effects-templates/call-outs/
+            - link "Instagram" [ref=e149] [cursor=pointer]:
+              - /url: /free-after-effects-templates/instagram/
+            - link "Lower-thirds" [ref=e150] [cursor=pointer]:
+              - /url: /free-after-effects-templates/lower-thirds/
+            - link "Opener" [ref=e151] [cursor=pointer]:
+              - /url: /free-after-effects-templates/openers/
+            - link "Slideshows" [ref=e152] [cursor=pointer]:
+              - /url: /free-after-effects-templates/slideshow/
+            - link "Titles" [ref=e153] [cursor=pointer]:
+              - /url: /free-after-effects-templates/title/
+            - link "Transitions" [ref=e154] [cursor=pointer]:
+              - /url: /free-after-effects-templates/transitions/
+            - link "YouTube" [ref=e155] [cursor=pointer]:
+              - /url: /free-after-effects-templates/youtube/
+        - generic [ref=e156]:
+          - link "Final Cut Pro" [ref=e158] [cursor=pointer]:
+            - /url: /free-final-cut-pro-templates
+          - generic [ref=e159]:
+            - link "Instagram" [ref=e160] [cursor=pointer]:
+              - /url: /free-final-cut-pro-templates/instagram/
+            - link "Logo" [ref=e161] [cursor=pointer]:
+              - /url: /free-final-cut-pro-templates/logo/
+            - link "Lower-thirds" [ref=e162] [cursor=pointer]:
+              - /url: /free-final-cut-pro-templates/lower-thirds/
+            - link "Opener" [ref=e163] [cursor=pointer]:
+              - /url: /free-final-cut-pro-templates/openers/
+            - link "Promotion" [ref=e164] [cursor=pointer]:
+              - /url: /free-final-cut-pro-templates/promotion/
+            - link "Slideshows" [ref=e165] [cursor=pointer]:
+              - /url: /free-final-cut-pro-templates/slideshow/
+            - link "Titles" [ref=e166] [cursor=pointer]:
+              - /url: /free-final-cut-pro-templates/title/
+            - link "Transitions" [ref=e167] [cursor=pointer]:
+              - /url: /free-final-cut-pro-templates/transitions/
+            - link "YouTube" [ref=e168] [cursor=pointer]:
+              - /url: /free-final-cut-pro-templates/youtube/
+        - generic [ref=e169]:
+          - link "DaVinci Resolve" [ref=e171] [cursor=pointer]:
+            - /url: /free-davinci-resolve-templates
+          - generic [ref=e172]:
+            - link "Call-outs" [ref=e173] [cursor=pointer]:
+              - /url: /free-davinci-resolve-templates/call-outs/
+            - link "Instagram" [ref=e174] [cursor=pointer]:
+              - /url: /free-davinci-resolve-templates/instagram/
+            - link "Lower-thirds" [ref=e175] [cursor=pointer]:
+              - /url: /free-davinci-resolve-templates/lower-thirds/
+            - link "Titles" [ref=e176] [cursor=pointer]:
+              - /url: /free-davinci-resolve-templates/titles/
+            - link "YouTube" [ref=e177] [cursor=pointer]:
+              - /url: /free-davinci-resolve-templates/youtube/
+        - generic [ref=e178]:
+          - link "Mixkit" [ref=e180] [cursor=pointer]:
+            - /url: /
+          - generic [ref=e181]:
+            - link "License" [ref=e182] [cursor=pointer]:
+              - /url: /license/
+            - link "Terms" [ref=e183] [cursor=pointer]:
+              - /url: /terms/
+            - link "Sitemap" [ref=e184] [cursor=pointer]:
+              - /url: /sitemap/
+            - link "Privacy" [ref=e185] [cursor=pointer]:
+              - /url: https://envato.com/privacy/
+            - link "Cookies" [ref=e186] [cursor=pointer]:
+              - /url: https://www.envato.com/cookies/
+            - link "Cookie Settings" [ref=e187] [cursor=pointer]:
+              - /url: javascript:void(0)
+            - link "Do not sell or share my personal information" [ref=e188] [cursor=pointer]:
+              - /url: https://www.envato.com/privacy/my-personal-information/
+            - link "Hey AI, learn about Mixkit" [ref=e189] [cursor=pointer]:
+              - /url: /llm-info/
+            - link "Art" [ref=e190] [cursor=pointer]:
+              - /url: /free-stock-art/
+      - generic [ref=e191]:
+        - link "Mixkit home." [ref=e193] [cursor=pointer]:
+          - /url: /
+          - img "Mixkit home." [ref=e194]
+        - paragraph [ref=e196]:
+          - text: Copyright © 2026. All rights reserved - Made by
+          - link "Envato" [ref=e197] [cursor=pointer]:
+            - /url: https://elements.envato.com/?utm_source=mixkit&utm_medium=referral&utm_campaign=elements_mixkit_footer_31JULY2024
+        - generic [ref=e198]:
+          - link "Twitter" [ref=e199] [cursor=pointer]:
+            - /url: https://twitter.com/mixkit_co
+            - img "Twitter" [ref=e200]
+          - link "YouTube" [ref=e202] [cursor=pointer]:
+            - /url: https://www.youtube.com/channel/UCtmuFBbkECnsHJujGDcE9SA
+            - img "YouTube" [ref=e203]
+          - link "Instagram" [ref=e206] [cursor=pointer]:
+            - /url: https://instagram.com/mixkit_co
+            - img "Instagram" [ref=e207]
+          - link "TikTok" [ref=e209] [cursor=pointer]:
+            - /url: https://www.tiktok.com/@mixkit.co
+            - img "TikTok" [ref=e210]
+  - iframe [ref=e212]:
+    

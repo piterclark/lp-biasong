@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>PROP TEATRAL — Laboratório CENALAB</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&family=Inter:wght@300;400;600;700&display=swap');
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      background: #e8e8e8;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      padding: 40px 20px;
+      font-family: 'Inter', sans-serif;
+    }
+
+    .laudo {
+      width: 794px;
+      min-height: 1123px;
+      background: #ffffff;
+      padding: 48px 56px;
+      box-shadow: 0 4px 32px rgba(0,0,0,0.18);
+      position: relative;
+      border-top: 6px solid #1a3a5c;
+    }
+
+    /* MARCA D'ÁGUA */
+    .watermark {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%) rotate(-35deg);
+      font-size: 52px;
+      font-weight: 700;
+      color: rgba(180, 0, 0, 0.07);
+      white-space: nowrap;
+      pointer-events: none;
+      text-transform: uppercase;
+      letter-spacing: 4px;
+      z-index: 0;
+    }
+
+    .content { position: relative; z-index: 1; }
+
+    /* CABEÇALHO */
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      border-bottom: 2px solid #1a3a5c;
+      padding-bottom: 20px;
+      margin-bottom: 24px;
+    }
+
+    .logo-area {}
+    .lab-name {
+      font-size: 26px;
+      font-weight: 700;
+      color: #1a3a5c;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+    }
+    .lab-subtitle {
+      font-size: 11px;
+      color: #666;
+      margin-top: 2px;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+    }
+    .lab-address {
+      font-size: 10px;
+      color: #888;
+      margin-top: 6px;
+      line-height: 1.5;
+    }
+
+    .ref-box {
+      text-align: right;
+    }
+    .ref-label {
+      font-size: 9px;
+      color: #999;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+    .ref-number {
+      font-size: 16px;
+      font-weight: 700;
+      color: #1a3a5c;
+      font-family: 'Courier Prime', monospace;
+    }
+
+    /* FICÇÃO */
+    .aviso-ficcao {
+      background: #fff3cd;
+      border: 1px solid #ffc107;
+      border-left: 4px solid #e6a800;
+      padding: 6px 14px;
+      font-size: 9px;
+      color: #856404;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      margin-bottom: 20px;
+      font-weight: 600;
+    }
+
+    /* TÍTULO */
+    .titulo-laudo {
+      text-align: center;
+      font-size: 13px;
+      font-weight: 600;
+      color: #1a3a5c;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      border: 1px solid #1a3a5c;
+      padding: 8px;
+      margin-bottom: 24px;
+    }
+
+    /* PACIENTE */
+    .secao-titulo {
+      font-size: 9px;
+      font-weight: 700;
+      color: #1a3a5c;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      border-bottom: 1px solid #dde3ea;
+      padding-bottom: 4px;
+      margin-bottom: 12px;
+      margin-top: 20px;
+    }
+
+    .grid-dados {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 12px 24px;
+      margin-bottom: 8px;
+    }
+    .campo {}
+    .campo-label {
+      font-size: 8px;
+      color: #999;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+    .campo-valor {
+      font-size: 12px;
+      color: #1a1a1a;
+      font-weight: 600;
+      margin-top: 2px;
+      border-bottom: 1px solid #eee;
+      padding-bottom: 4px;
+    }
+
+    /* EXAME */
+    .exame-linha {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: #f5f7fa;
+      border: 1px solid #dde3ea;
+      padding: 10px 16px;
+      margin-bottom: 4px;
+      font-size: 11px;
+    }
+    .exame-nome { font-weight: 600; color: #1a3a5c; }
+    .exame-metodo { color: #888; font-size: 10px; }
+
+    /* RESULTADO */
+    .resultado-box {
+      margin: 28px 0;
+      border: 2px solid #c0392b;
+      border-radius: 2px;
+      overflow: hidden;
+    }
+    .resultado-header {
+      background: #1a3a5c;
+      color: white;
+      font-size: 9px;
+      font-weight: 700;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      padding: 8px 16px;
+    }
+    .resultado-body {
+      padding: 28px 24px;
+      display: flex;
+      align-items: center;
+      gap: 28px;
+    }
+    .resultado-icone {
+      width: 72px;
+      height: 72px;
+      border-radius: 50%;
+      background: #c0392b;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+    }
+    .resultado-icone span {
+      color: white;
+      font-size: 36px;
+      font-weight: 700;
+    }
+    .resultado-texto {}
+    .resultado-principal {
+      font-size: 28px;
+      font-weight: 700;
+      color: #c0392b;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+    }
+    .resultado-sub {
+      font-size: 11px;
+      color: #666;
+      margin-top: 4px;
+    }
+    .resultado-obs {
+      font-size: 10px;
+      color: #444;
+      margin-top: 10px;
+      line-height: 1.6;
+      border-top: 1px solid #eee;
+      padding-top: 10px;
+    }
+
+    /* VALORES REFERÊNCIA */
+    .tabela-ref {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 10px;
+      margin-top: 8px;
+    }
+    .tabela-ref th {
+      background: #f0f3f8;
+      color: #1a3a5c;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      padding: 6px 10px;
+      text-align: left;
+      font-size: 9px;
+      border: 1px solid #dde3ea;
+    }
+    .tabela-ref td {
+      padding: 6px 10px;
+      border: 1px solid #eee;
+      color: #444;
+    }
+    .tag-reagente {
+      background: #c0392b;
+      color: white;
+      padding: 2px 8px;
+      font-size: 9px;
+      font-weight: 700;
+      border-radius: 2px;
+      text-transform: uppercase;
+    }
+    .tag-nao {
+      background: #27ae60;
+      color: white;
+      padding: 2px 8px;
+      font-size: 9px;
+      font-weight: 700;
+      border-radius: 2px;
+      text-transform: uppercase;
+    }
+
+    /* RODAPÉ */
+    .rodape {
+      margin-top: 40px;
+      padding-top: 16px;
+      border-top: 1px solid #dde3ea;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+    }
+    .assinatura {
+      text-align: center;
+    }
+    .linha-assinatura {
+      width: 200px;
+      border-top: 1px solid #333;
+      margin: 0 auto 4px;
+    }
+    .assinatura-nome {
+      font-size: 10px;
+      font-weight: 700;
+      color: #1a3a5c;
+    }
+    .assinatura-crm {
+      font-size: 9px;
+      color: #888;
+    }
+
+    .rodape-direito {
+      text-align: right;
+      font-size: 9px;
+      color: #aaa;
+      line-height: 1.6;
+    }
+
+    .aviso-final {
+      margin-top: 20px;
+      text-align: center;
+      font-size: 8px;
+      color: #bbb;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+    }
+
+    @media print {
+      body { background: white; padding: 0; }
+      .laudo { box-shadow: none; border-top: 6px solid #1a3a5c; }
+    }
+  </style>
+</head>
+<body>
+  <div class="laudo">
+
+    <div class="content">
+
+      <!-- CABEÇALHO -->
+      <div class="header">
+        <div class="logo-area">
+          <div class="lab-name">⬡ CENALAB</div>
+          <div class="lab-subtitle">Análises Clínicas</div>
+          <div class="lab-address">
+            Rua das Artes Cênicas, 142 — São Paulo — SP<br>
+            CRF Nº 00.000 &nbsp;|&nbsp; CNES: 0000000<br>
+            Tel: (00) 0000-0000
+          </div>
+        </div>
+        <div class="ref-box">
+          <div class="ref-label">Protocolo</div>
+          <div class="ref-number">CL-1987-08</div>
+          <div style="font-size:9px;color:#aaa;margin-top:8px;">Código interno</div>
+        </div>
+      </div>
+
+<!-- TÍTULO -->
+      <div class="titulo-laudo">Laudo de Resultado — Sorologia</div>
+
+      <!-- DADOS DO PACIENTE -->
+      <div class="secao-titulo">Dados do Paciente</div>
+      <div class="grid-dados">
+        <div class="campo" style="grid-column: span 2;">
+          <div class="campo-label">Nome completo</div>
+          <div class="campo-valor">Patrick Barreto</div>
+        </div>
+        <div class="campo">
+          <div class="campo-label">Sexo</div>
+          <div class="campo-valor">Masculino</div>
+        </div>
+        <div class="campo">
+          <div class="campo-label">Data de Nascimento</div>
+          <div class="campo-valor">18/09/2001</div>
+        </div>
+        <div class="campo">
+          <div class="campo-label">Idade</div>
+          <div class="campo-valor">24 anos</div>
+        </div>
+        <div class="campo">
+          <div class="campo-label">Prontuário</div>
+          <div class="campo-valor">0000-2001-08</div>
+        </div>
+      </div>
+
+      <div class="grid-dados" style="margin-top:8px;">
+        <div class="campo">
+          <div class="campo-label">Data da Coleta</div>
+          <div class="campo-valor">___/___/________</div>
+        </div>
+        <div class="campo">
+          <div class="campo-label">Data de Emissão</div>
+          <div class="campo-valor">___/___/________</div>
+        </div>
+        <div class="campo">
+          <div class="campo-label">Médico Solicitante</div>
+          <div class="campo-valor">Dr. Guilherme Leicam</div>
+        </div>
+      </div>
+
+      <!-- EXAME -->
+      <div class="secao-titulo">Exame Solicitado</div>
+      <div class="exame-linha">
+        <div>
+          <div class="exame-nome">Anti-HIV-1 (Sorologia)</div>
+          <div class="exame-metodo">Método: Imunoensaio de 4ª geração (ELISA) + Western Blot confirmatório</div>
+        </div>
+      </div>
+
+      <!-- RESULTADO -->
+      <div class="secao-titulo">Resultado</div>
+      <div class="resultado-box">
+        <div class="resultado-header">⚠ Resultado do Exame</div>
+        <div class="resultado-body">
+          <div class="resultado-icone"><span>+</span></div>
+          <div class="resultado-texto">
+            <div class="resultado-principal">Reagente</div>
+            <div class="resultado-sub">Anticorpos anti-HIV-1 detectados</div>
+            <div class="resultado-obs">
+              Resultado confirmatório pelo método Western Blot.<br>
+              Recomenda-se acompanhamento imediato com especialista em infectologia.<br>
+              Este resultado não substitui avaliação clínica completa.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- VALORES DE REFERÊNCIA -->
+      <div class="secao-titulo">Valores de Referência</div>
+      <table class="tabela-ref">
+        <thead>
+          <tr>
+            <th>Exame</th>
+            <th>Este Resultado</th>
+            <th>Referência Normal</th>
+            <th>Interpretação</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Anti-HIV-1 (ELISA)</td>
+            <td><span class="tag-reagente">Reagente</span></td>
+            <td>Não Reagente</td>
+            <td>Fora do padrão de referência</td>
+          </tr>
+          <tr>
+            <td>Western Blot (conf.)</td>
+            <td><span class="tag-reagente">Positivo</span></td>
+            <td>Negativo</td>
+            <td>Confirmatório para HIV-1</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <!-- RODAPÉ -->
+      <div class="rodape">
+        <div class="assinatura">
+          <div class="linha-assinatura"></div>
+          <div class="assinatura-nome">Dr. Guilherme Leicam</div>
+          <div class="assinatura-crm">CRM 00000/SP — Biomédico</div>
+        </div>
+        <div class="rodape-direito">
+          CENALAB — Análises Clínicas<br>
+          Protocolo: CL-1987-08
+        </div>
+      </div>
+
+
+    </div><!-- /content -->
+  </div><!-- /laudo -->
+</body>
+</html>

@@ -1,0 +1,176 @@
+- generic [ref=e4]:
+  - navigation [ref=e5]:
+    - link "Página inicial da Unsplash" [ref=e8] [cursor=pointer]:
+      - /url: /pt-br
+      - img "Página inicial da Unsplash" [ref=e9]
+    - generic [ref=e11]:
+      - link "Entrar / Cadastrar-se" [ref=e12] [cursor=pointer]:
+        - /url: /pt-br/login?referrer=%2Fpt-br%2Fs%2Ffotografias%2Fperson-typing-macbook-dark-coffee
+        - img [ref=e13]
+      - button "Idioma" [ref=e15] [cursor=pointer]:
+        - img [ref=e16]
+      - button "Menu" [ref=e18] [cursor=pointer]:
+        - img [ref=e19]
+  - generic [ref=e21]:
+    - generic [ref=e22]:
+      - navigation [ref=e23]:
+        - search "Pesquise conteúdo visual em todo o site" [ref=e25]:
+          - button "Pesquise na Unsplash" [ref=e26] [cursor=pointer]:
+            - img [ref=e27]
+          - combobox [ref=e29]:
+            - searchbox "Pesquise na Unsplash" [ref=e30]: person typing macbook dark coffee
+            - listbox
+          - button "Limpar" [ref=e31] [cursor=pointer]:
+            - img [ref=e32]
+          - button "Pesquisa visual" [ref=e36] [cursor=pointer]:
+            - img [ref=e37]
+        - button "Filtros" [ref=e39] [cursor=pointer]:
+          - img [ref=e41]
+      - generic [ref=e43]:
+        - list [ref=e50]:
+          - listitem [ref=e51]:
+            - link "Fotos 512":
+              - /url: /pt-br/s/fotografias/person-typing-macbook-dark-coffee
+              - img
+              - text: Fotos
+              - generic: "512"
+          - listitem [ref=e52]:
+            - link "Ilustrações 0" [ref=e53] [cursor=pointer]:
+              - /url: /pt-br/s/ilustra%C3%A7%C3%B5es/person-typing-macbook-dark-coffee
+              - img [ref=e54]
+              - text: Ilustrações
+              - generic [ref=e56]: "0"
+          - listitem [ref=e57]:
+            - button "Mais" [ref=e58] [cursor=pointer]
+        - generic [ref=e59]:
+          - heading "Person typing macbook dark coffee" [level=1] [ref=e61]
+          - generic [ref=e65]:
+            - link "macbook" [ref=e67] [cursor=pointer]:
+              - /url: /pt-br/s/fotografias/macbook
+            - link "computador portátil" [ref=e69] [cursor=pointer]:
+              - /url: /pt-br/s/fotografias/computador-port%C3%A1til
+            - link "Tecnologium" [ref=e71] [cursor=pointer]:
+              - /url: /pt-br/s/fotografias/tecnologium
+            - link "trabalho" [ref=e73] [cursor=pointer]:
+              - /url: /pt-br/s/fotografias/trabalho
+            - link "computador" [ref=e75] [cursor=pointer]:
+              - /url: /pt-br/s/fotografias/computador
+            - link "teclado" [ref=e77] [cursor=pointer]:
+              - /url: /pt-br/s/fotografias/teclado
+            - link "digitação" [ref=e79] [cursor=pointer]:
+              - /url: /pt-br/s/fotografias/digita%C3%A7%C3%A3o
+            - link "Trabalhe em casa" [ref=e81] [cursor=pointer]:
+              - /url: /pt-br/s/fotografias/trabalhe-em-casa
+            - link "cinza" [ref=e83] [cursor=pointer]:
+              - /url: /pt-br/s/fotografias/cinza
+            - link "área de trabalho" [ref=e85] [cursor=pointer]:
+              - /url: /pt-br/s/fotografias/%C3%A1rea-de-trabalho
+            - link "mesa" [ref=e87] [cursor=pointer]:
+              - /url: /pt-br/s/fotografias/mesa
+            - link "freelancer" [ref=e89] [cursor=pointer]:
+              - /url: /pt-br/s/fotografias/freelancer
+        - generic [ref=e91]:
+          - generic [ref=e95]:
+            - generic [ref=e96]:
+              - figure [ref=e97]:
+                - link "uma pessoa digitando em um laptop em uma mesa" [ref=e100]:
+                  - /url: /pt-br/fotografias/uma-pessoa-digitando-em-um-laptop-em-uma-mesa-FVxTymHKYV8
+                  - img "uma pessoa digitando em um laptop em uma mesa" [ref=e101]
+              - figure [ref=e102]:
+                - link "computador portátil cinza na mesa de madeira marrom ao lado da pessoa sentada na cadeira" [ref=e105]:
+                  - /url: /pt-br/fotografias/computador-portatil-cinza-na-mesa-de-madeira-marrom-ao-lado-da-pessoa-sentada-na-cadeira-gxD8hCmi0IQ
+                  - img "computador portátil cinza na mesa de madeira marrom ao lado da pessoa sentada na cadeira" [ref=e106]
+              - generic [ref=e107]:
+                - heading "Imagens patrocinadas" [level=4] [ref=e108]:
+                  - generic [ref=e109]: Imagens patrocinadas
+                  - link [ref=e110] [cursor=pointer]:
+                    - /url: https://www.istockphoto.com/search/2/image?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fpt-br%2Fs%2Ffotografias%2Fperson-typing-macbook-dark-coffee&utm_term=person+typing+macbook+dark+coffee%3A%3A%3A%3A&phrase=person+typing+macbook+dark+coffee&alloweduse=availableforalluses&excludenudity=true&sort=best&mediatype=photography
+                    - img [ref=e111]
+                - link "Ganhe 20% de desconto com o código UNSPLASH20" [ref=e118] [cursor=pointer]:
+                  - /url: https://www.istockphoto.com/search/2/image?utm_source=unsplash&utm_medium=affiliate&utm_campaign=srp_photos_top&utm_content=https%3A%2F%2Funsplash.com%2Fpt-br%2Fs%2Ffotografias%2Fperson-typing-macbook-dark-coffee&utm_term=person+typing+macbook+dark+coffee%3A%3A%3A%3A&phrase=person+typing+macbook+dark+coffee&alloweduse=availableforalluses&excludenudity=true&sort=best&mediatype=photography
+              - figure [ref=e119]:
+                - link "computador portátil preto na cama branca" [ref=e122]:
+                  - /url: /pt-br/fotografias/computador-portatil-preto-na-cama-branca-OvLXbURo9Wo
+                  - img "computador portátil preto na cama branca" [ref=e123]
+              - figure [ref=e124]:
+                - link "um computador portátil sentado em cima de uma mesa de madeira" [ref=e127]:
+                  - /url: /pt-br/fotografias/um-computador-portatil-sentado-em-cima-de-uma-mesa-de-madeira-Xl7dHBBCQQk
+                  - img "um computador portátil sentado em cima de uma mesa de madeira" [ref=e128]
+              - figure [ref=e129]:
+                - link "uma pessoa usando um laptop" [ref=e132]:
+                  - /url: /pt-br/fotografias/uma-pessoa-usando-um-laptop-SRQ9JIST484
+                  - img "uma pessoa usando um laptop" [ref=e133]
+              - figure [ref=e134]:
+                - link "macbook pro na mesa de madeira marrom" [ref=e137]:
+                  - /url: /pt-br/fotografias/macbook-pro-na-mesa-de-madeira-marrom-XRigYo3k7CE
+                  - img "macbook pro na mesa de madeira marrom" [ref=e138]
+              - figure [ref=e139]:
+                - link "Uma pessoa digitando em um laptop em uma mesa" [ref=e142]:
+                  - /url: /pt-br/fotografias/uma-pessoa-digitando-em-um-laptop-em-uma-mesa-244qprZN_eE
+                  - img "Uma pessoa digitando em um laptop em uma mesa" [ref=e143]
+              - figure [ref=e144]:
+                - link "uma pessoa digitando em um laptop em uma mesa de madeira" [ref=e147]:
+                  - /url: /pt-br/fotografias/uma-pessoa-digitando-em-um-laptop-em-uma-mesa-de-madeira-vK9vttoXn_0
+                  - img "uma pessoa digitando em um laptop em uma mesa de madeira" [ref=e148]
+              - figure [ref=e149]:
+                - link "Uma pessoa sentada na frente de um computador laptop" [ref=e152]:
+                  - /url: /pt-br/fotografias/uma-pessoa-sentada-na-frente-de-um-computador-laptop-VJROaJaMaJM
+                  - img "Uma pessoa sentada na frente de um computador laptop" [ref=e153]
+            - generic [ref=e154]:
+              - contentinfo [ref=e159]:
+                - generic [ref=e165]: –– ––– ––– –– ––– – ––– ––– –––– – – –– ––– – – ––– –– –– –––– ––
+              - figure [ref=e167]:
+                - link "pessoa usando computador portátil" [ref=e170]:
+                  - /url: /pt-br/fotografias/pessoa-usando-computador-portatil-FSyPLjF6A9w
+                  - img "pessoa usando computador portátil" [ref=e171]
+              - figure [ref=e172]:
+                - link "pessoa usando macbook pro na mesa de madeira marrom" [ref=e175]:
+                  - /url: /pt-br/fotografias/pessoa-usando-macbook-pro-na-mesa-de-madeira-marrom-djyf3cKrwF0
+                  - img "pessoa usando macbook pro na mesa de madeira marrom" [ref=e176]
+              - figure [ref=e177]:
+                - link "uma pessoa segurando uma xícara de café na frente de um laptop" [ref=e180]:
+                  - /url: /pt-br/fotografias/uma-pessoa-segurando-uma-xicara-de-cafe-na-frente-de-um-laptop-FEsXGsNyTTw
+                  - img "uma pessoa segurando uma xícara de café na frente de um laptop" [ref=e181]
+              - figure [ref=e182]:
+                - link "uma pessoa segurando uma xícara de café na frente de um laptop" [ref=e185]:
+                  - /url: /pt-br/fotografias/uma-pessoa-segurando-uma-xicara-de-cafe-na-frente-de-um-laptop-KXKfgAS_yMI
+                  - img "uma pessoa segurando uma xícara de café na frente de um laptop" [ref=e186]
+              - figure [ref=e187]:
+                - link "um homem sentado em uma mesa usando um computador portátil" [ref=e190]:
+                  - /url: /pt-br/fotografias/um-homem-sentado-em-uma-mesa-usando-um-computador-portatil-LR7X4Ly9NlQ
+                  - img "um homem sentado em uma mesa usando um computador portátil" [ref=e191]
+              - figure [ref=e192]:
+                - link "um homem sentado em um sofá usando um computador portátil" [ref=e195]:
+                  - /url: /pt-br/fotografias/um-homem-sentado-em-um-sofa-usando-um-computador-portatil-GLwp8InyT8Q
+                  - img "um homem sentado em um sofá usando um computador portátil" [ref=e196]
+              - figure [ref=e197]:
+                - link "Alguém está digitando em um laptop." [ref=e200]:
+                  - /url: /pt-br/fotografias/alguem-esta-digitando-em-um-laptop-RBTwAUTSDUI
+                  - img "Alguém está digitando em um laptop." [ref=e201]
+              - figure [ref=e202]:
+                - link "Mão da criança em um teclado do portátil" [ref=e205]:
+                  - /url: /pt-br/fotografias/mao-da-crianca-em-um-teclado-do-portatil-Se1bA1PY_1g
+                  - img "Mão da criança em um teclado do portátil" [ref=e206]
+              - figure [ref=e207]:
+                - link "pessoa vestindo camisa de manga comprida xadrez azul e verde de manga comprida sentada enquanto usa o MacBook Pro" [ref=e210]:
+                  - /url: /pt-br/fotografias/pessoa-vestindo-camisa-de-manga-comprida-xadrez-azul-e-verde-de-manga-comprida-sentada-enquanto-usa-o-macbook-pro-Ib2pdxR8fY0
+                  - img "pessoa vestindo camisa de manga comprida xadrez azul e verde de manga comprida sentada enquanto usa o MacBook Pro" [ref=e211]
+              - figure [ref=e212]:
+                - link "caneca de cerâmica branca no computador portátil branco e preto" [ref=e215]:
+                  - /url: /pt-br/fotografias/caneca-de-ceramica-branca-no-computador-portatil-branco-e-preto-AFVJ46r0jP4
+                  - img "caneca de cerâmica branca no computador portátil branco e preto" [ref=e216]
+              - figure [ref=e217]:
+                - link "pessoa que usa MacBook" [ref=e220]:
+                  - /url: /pt-br/fotografias/pessoa-que-usa-macbook--EnI0H6Wm6s
+                  - img "pessoa que usa MacBook" [ref=e221]
+          - heading "Pesquise imagens premium na iStock | Pegue seu desconto agora" [level=2] [ref=e225]:
+            - text: Pesquise imagens premium na iStock
+            - generic [ref=e226]: "| Pegue seu desconto agora"
+          - button "Carregar mais" [ref=e240] [cursor=pointer]
+          - generic [ref=e241]:
+            - link [ref=e242] [cursor=pointer]:
+              - /url: /pt-br
+              - img [ref=e243]
+            - paragraph [ref=e245]: Crie algo incrível
+    - generic:
+      - region "Notifications"

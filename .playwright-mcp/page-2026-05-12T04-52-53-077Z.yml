@@ -1,0 +1,135 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - text: Portfólio de landing pages —
+      - emphasis [ref=e5]: cada segmento, uma página.
+    - generic [ref=e6]:
+      - text: Feita do zero, sem reaproveitamento —
+      - emphasis [ref=e7]: design pensado para vender.
+    - generic [ref=e8]:
+      - text: Clique, veja, escolha —
+      - emphasis [ref=e9]: simples assim.
+    - generic [ref=e10]:
+      - text: Portfólio de landing pages —
+      - emphasis [ref=e11]: cada segmento, uma página.
+    - generic [ref=e12]:
+      - text: Feita do zero, sem reaproveitamento —
+      - emphasis [ref=e13]: design pensado para vender.
+    - generic [ref=e14]:
+      - text: Clique, veja, escolha —
+      - emphasis [ref=e15]: simples assim.
+  - banner [ref=e16]:
+    - link ">> CREAT" [ref=e17] [cursor=pointer]:
+      - /url: "#"
+      - generic [ref=e18]: ">>"
+      - text: CREAT
+    - navigation [ref=e19]:
+      - link "Páginas" [ref=e20] [cursor=pointer]:
+        - /url: "#portfolio"
+      - link "Contato" [ref=e21] [cursor=pointer]:
+        - /url: "#contato"
+    - link "Ver as páginas" [ref=e22] [cursor=pointer]:
+      - /url: "#portfolio"
+  - generic [ref=e23]:
+    - generic [ref=e24]:
+      - img [ref=e25]
+      - text: Portfólio de landing pages_
+    - heading "Landing pages feitas para vender." [level=1] [ref=e27]:
+      - text: Landing pages
+      - text: feitas para vender.
+    - paragraph [ref=e28]: Cada página criada do zero para um tipo de negócio diferente. Só clicar e ver.
+    - generic [ref=e29]:
+      - link "Ver as páginas" [ref=e30] [cursor=pointer]:
+        - /url: "#portfolio"
+        - text: Ver as páginas
+        - img [ref=e31]
+      - link "Quero uma assim →" [ref=e33] [cursor=pointer]:
+        - /url: "#contato"
+  - code [ref=e35]: const paginas = await fetch("creat.studio/portfolio"); // escolha um segmento abaixo_
+  - generic [ref=e36]:
+    - generic [ref=e37]:
+      - paragraph [ref=e38]: Páginas // CREAT
+      - heading "Veja. Clique. Abre." [level=2] [ref=e39]
+    - generic [ref=e40]:
+      - link "No ar Saúde Dentista Para consultórios e clínicas. Foco em agendamento e confiança. Abrir página" [ref=e41] [cursor=pointer]:
+        - /url: dentista/index.html
+        - generic [ref=e42]:
+          - generic [ref=e43]: No ar
+          - img [ref=e45]
+        - generic [ref=e48]:
+          - paragraph [ref=e49]: Saúde
+          - heading "Dentista" [level=3] [ref=e50]
+          - paragraph [ref=e51]: Para consultórios e clínicas. Foco em agendamento e confiança.
+          - generic [ref=e52]:
+            - text: Abrir página
+            - img [ref=e53]
+      - link "No ar Beleza Salão de Beleza Para salões e profissionais. Design que atrai e converte agendamentos. Abrir página" [ref=e55] [cursor=pointer]:
+        - /url: salao/index.html
+        - generic [ref=e56]:
+          - generic [ref=e57]: No ar
+          - img [ref=e59]
+        - generic [ref=e64]:
+          - paragraph [ref=e65]: Beleza
+          - heading "Salão de Beleza" [level=3] [ref=e66]
+          - paragraph [ref=e67]: Para salões e profissionais. Design que atrai e converte agendamentos.
+          - generic [ref=e68]:
+            - text: Abrir página
+            - img [ref=e69]
+      - link "No ar Advocacia Advogado Para advogados e escritórios. Autoridade e captação de clientes. Abrir página" [ref=e71] [cursor=pointer]:
+        - /url: advogado/index.html
+        - generic [ref=e72]:
+          - generic [ref=e73]: No ar
+          - img [ref=e75]
+        - generic [ref=e78]:
+          - paragraph [ref=e79]: Advocacia
+          - heading "Advogado" [level=3] [ref=e80]
+          - paragraph [ref=e81]: Para advogados e escritórios. Autoridade e captação de clientes.
+          - generic [ref=e82]:
+            - text: Abrir página
+            - img [ref=e83]
+      - generic:
+        - generic:
+          - generic: Em breve
+          - generic:
+            - img
+        - generic:
+          - paragraph: Alto Valor
+          - heading "Mentoria" [level=3]
+          - paragraph: Para mentorias e programas com valor elevado.
+          - generic: Em breve
+      - generic:
+        - generic:
+          - generic: Em breve
+          - generic:
+            - img
+        - generic:
+          - paragraph: Compras
+          - heading "Loja Online" [level=3]
+          - paragraph: Para lojas que vendem pela internet.
+          - generic: Em breve
+      - generic:
+        - generic:
+          - generic: Em breve
+          - generic:
+            - img
+        - generic:
+          - paragraph: Local
+          - heading "Negócio de Bairro" [level=3]
+          - paragraph: Para restaurantes, academias e comércios locais.
+          - generic: Em breve
+  - generic [ref=e86]:
+    - paragraph [ref=e87]: Contato_
+    - heading "Quer uma página assim para você?" [level=2] [ref=e88]:
+      - text: Quer uma página
+      - text: assim para você?
+    - paragraph [ref=e89]: Fale direto. Sem formulário longo, sem reunião de 1 hora.
+    - link "Falar no WhatsApp" [ref=e90] [cursor=pointer]:
+      - /url: https://wa.me/5511999999999
+      - text: Falar no WhatsApp
+      - img [ref=e91]
+    - paragraph [ref=e93]: Resposta rápida. Sem enrolação.
+  - contentinfo [ref=e94]:
+    - generic [ref=e95]:
+      - generic [ref=e96]: ">>"
+      - text: CREAT
+    - paragraph [ref=e97]: © 2026 CREAT Studio

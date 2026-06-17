@@ -1,0 +1,651 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e4]:
+        - link [ref=e5] [cursor=pointer]:
+          - /url: /
+        - img [ref=e8]
+    - generic [ref=e11]:
+      - list [ref=e12]:
+        - listitem [ref=e13]:
+          - link "Hashtag Generator" [ref=e14] [cursor=pointer]:
+            - /url: /tools/instagram-hashtag-generator/
+            - img [ref=e15]
+            - generic [ref=e17]: Hashtag Generator
+        - listitem [ref=e18]:
+          - generic [ref=e19]:
+            - img [ref=e20]
+            - generic [ref=e22]: Instagram Viewer
+        - listitem [ref=e23]:
+          - link "Instagram Downloader" [ref=e24] [cursor=pointer]:
+            - /url: /instagram-downloader/
+            - img [ref=e25]
+            - generic [ref=e27]: Instagram Downloader
+        - listitem [ref=e28]:
+          - link "Profile Analyzer" [ref=e29] [cursor=pointer]:
+            - /url: /tools/profile-analyzer/
+            - img [ref=e30]
+            - generic [ref=e32]: Profile Analyzer
+        - listitem [ref=e33]:
+          - link "User search" [ref=e34] [cursor=pointer]:
+            - /url: /tools/instagram-search/
+            - img [ref=e35]
+            - generic [ref=e37]: User search
+      - generic [ref=e38]:
+        - generic [ref=e39]:
+          - heading "Anonymous Instagram Profile Viewer" [level=1] [ref=e40]
+          - paragraph [ref=e41]: The service is a smart solution for those who are looking for an anon Insta profile viewer. Be sure the account owner, as well as Instagram, will never see any personal identifiers about you during the viewing or downloading process.
+        - generic [ref=e43]:
+          - generic [ref=e44]:
+            - link "Profile" [ref=e45] [cursor=pointer]:
+              - /url: /instagram-viewer/profile/
+              - img [ref=e46]
+              - generic [ref=e48]: Profile
+            - link "Stories" [ref=e49] [cursor=pointer]:
+              - /url: /instagram-viewer/stories/
+              - img [ref=e50]
+              - generic [ref=e52]: Stories
+            - link "Highlights" [ref=e53] [cursor=pointer]:
+              - /url: /instagram-viewer/highlights/
+              - img [ref=e54]
+              - generic [ref=e56]: Highlights
+            - link "Posts" [ref=e57] [cursor=pointer]:
+              - /url: /instagram-viewer/posts/
+              - img [ref=e58]
+              - generic [ref=e60]: Posts
+            - link "Reels" [ref=e61] [cursor=pointer]:
+              - /url: /instagram-viewer/reels/
+              - img [ref=e62]
+              - generic [ref=e64]: Reels
+          - generic [ref=e65]:
+            - generic [ref=e67]:
+              - img
+              - textbox [ref=e68]:
+                - /placeholder: " "
+              - generic: Insert link or username
+            - button "View Profile" [ref=e69]:
+              - generic [ref=e70]: View Profile
+              - img [ref=e71]
+            - generic [ref=e74]:
+              - generic [ref=e75]: "Free daily limit:"
+              - generic [ref=e76]: profiles
+              - generic [ref=e77]: 1/1
+              - generic [ref=e78]: views
+              - generic [ref=e79]: 3/3
+              - link "Get unlimited" [ref=e80] [cursor=pointer]:
+                - /url: https://inflact.com/signup/?after=%2Finstagram-viewer%2F
+        - generic [ref=e81]:
+          - generic [ref=e82]:
+            - generic [ref=e84]: 100% anonymous view
+            - generic [ref=e86]: Without account
+            - generic [ref=e88]: Tracks and saves stories
+          - paragraph [ref=e89]:
+            - text: Inflact is not affiliated with Instagram™. We do not host any Instagram content. All rights belong to their respective owners.
+            - text: We respect privacy — only public content is available.
+        - generic [ref=e90]:
+          - heading "What is an Anonymous Instagram Profile Viewer?" [level=2] [ref=e91]
+          - paragraph [ref=e92]: An Instagram profile viewer is an anonymous service that provides access to public account content. Use the tool to view an Instagram pfp or full profile information; it can handle both tasks. There are several important things to keep in mind when using Insta profile viewer. The account owner, as well as Instagram, will never see any personal identifiers about you during the process. You don’t need to log in to the platform—just use a search bar on this site and get Insta profile pic view or other profile content you are looking for.
+        - generic [ref=e93]:
+          - generic [ref=e95]:
+            - generic [ref=e96]:
+              - heading "Benefits of IG Anonymous Profile Viewer" [level=2] [ref=e97]
+              - generic [ref=e98]:
+                - img [ref=e99]
+                - generic [ref=e101]: Premium option
+            - paragraph [ref=e102]: The Insta profile pic viewer allows a deeper dive into the account’s content.
+            - list [ref=e103]:
+              - listitem [ref=e104]: Full anonymity
+              - listitem [ref=e105]: No Instagram account is required
+              - listitem [ref=e106]: Multi-device accessibility
+              - listitem [ref=e107]: Discover content and accounts more efficiently
+              - listitem [ref=e108]: Easy-to-learn UI
+              - listitem [ref=e109]: Free to use
+            - paragraph [ref=e110]: Whether you’re using the tool as an Instagram avatar viewer or full profile viewer, the service is capable of it all.
+            - link "Get Premium" [ref=e111] [cursor=pointer]:
+              - /url: /signup/?after=%2Finstagram-viewer%2F
+              - generic [ref=e112]: Get Premium
+          - generic [ref=e114]:
+            - generic [ref=e115]:
+              - heading "IG Profile Viewer for Any Number of Accounts" [level=2] [ref=e116]
+              - generic [ref=e117]:
+                - img [ref=e118]
+                - generic [ref=e120]: Premium option
+            - paragraph [ref=e121]:
+              - text: If you’re worried about not being able to use the free picture viewer how you want, don’t be. This free tool means you have full access and autonomy from the jump. Easily look up as many accounts as you’d like and get the full HD quality that you would find on the official IG app.
+              - text: Keep in mind that private accounts can’t be accessed, so you’ll have to stick to public information only. This falls in line with our ethics, as well as the rules of the Instagram platform.
+        - generic [ref=e122]:
+          - generic [ref=e123]:
+            - heading "Pricing for Anon IG Profile Viewer" [level=2] [ref=e125]:
+              - generic [ref=e126]: Pricing
+              - generic [ref=e127]: for Anon IG Profile Viewer
+            - paragraph [ref=e128]: Another standout point of this particular service is that it’s free but with some daily limitations. The IG profile picture viewer provides you with a few free attempts per day. You can enjoy viewing a profile pic in full anonymity any time you need. In case you want to track more profiles, a Premium package with unlimited viewing is available.
+          - generic [ref=e129]:
+            - generic [ref=e130]:
+              - generic [ref=e131]: Free
+              - generic [ref=e132]:
+                - generic [ref=e133]: $
+                - generic [ref=e134]: "0.00"
+              - generic [ref=e135]:
+                - link "Get Premium" [ref=e136] [cursor=pointer]:
+                  - /url: /signup/?after=%2Finstagram-viewer%2F
+                - text: to unlock more limits in Instagram viewer
+            - generic [ref=e138]:
+              - generic [ref=e139]:
+                - generic [ref=e140]: Stories saver and profile tracker
+                - img [ref=e141]
+              - generic [ref=e143]:
+                - generic [ref=e144]: Viewer profiles limit
+                - img [ref=e146]
+              - generic [ref=e148]:
+                - generic [ref=e149]: Viewer content views limit
+                - img [ref=e151]
+              - generic [ref=e153]:
+                - generic [ref=e154]: Content downloads limits
+                - img [ref=e156]
+              - generic [ref=e158]:
+                - generic [ref=e159]: Profile analytics
+                - generic [ref=e160]: Limited
+              - generic [ref=e161]:
+                - generic [ref=e162]: Followers tracking
+                - img [ref=e163]
+              - generic [ref=e165]:
+                - generic [ref=e166]: Comments & likes tracking
+                - img [ref=e167]
+              - generic [ref=e169]:
+                - generic [ref=e170]: Premium proxies
+                - img [ref=e171]
+          - generic [ref=e173]:
+            - generic [ref=e174]:
+              - generic [ref=e175]: Premium
+              - generic [ref=e176]:
+                - generic [ref=e177]: $
+                - generic [ref=e178]: "7.8"
+                - generic [ref=e179]: Per month
+              - link "Get Premium" [ref=e180] [cursor=pointer]:
+                - /url: https://inflact.com/signup/?after=https%3A%2F%2Finflact.com%2Fcabinet%2Ftools%2Fsubscription%2F%3Foffer%3Dstories
+                - generic [ref=e181]: Get Premium
+            - generic [ref=e183]:
+              - generic [ref=e184]:
+                - generic [ref=e185]: Stories saver and profile tracker
+                - img [ref=e186]
+                - generic [ref=e188]:
+                  - generic [ref=e191]:
+                    - img [ref=e192]
+                    - generic [ref=e194]: 1 Profile
+                    - img [ref=e195]
+                  - generic [ref=e198]: Public accounts only
+              - generic [ref=e199]:
+                - generic [ref=e200]: Viewer profiles limit
+                - generic [ref=e201]: Unlimited
+              - generic [ref=e202]:
+                - generic [ref=e203]: Viewer content views limit
+                - generic [ref=e204]: Unlimited
+              - generic [ref=e205]:
+                - generic [ref=e206]: Content downloads limits
+                - generic [ref=e207]: Unlimited
+              - generic [ref=e208]:
+                - generic [ref=e209]: Profile analytics
+                - generic [ref=e210]: Unlimited
+              - generic [ref=e211]:
+                - generic [ref=e212]: Followers tracking
+                - img [ref=e213]
+              - generic [ref=e215]:
+                - generic [ref=e216]: Comments & likes tracking
+                - img [ref=e217]
+              - generic [ref=e219]:
+                - generic [ref=e220]: Premium proxies
+                - img [ref=e221]
+        - generic [ref=e224]:
+          - generic [ref=e225]:
+            - heading "Premium Profile Viewer and Stories Tracker" [level=2] [ref=e226]
+            - generic [ref=e227]:
+              - paragraph [ref=e228]: Use the incognito Instagram profile viewer to its fullest potential with a Premium plan.
+              - list [ref=e229]:
+                - listitem [ref=e230]:
+                  - img [ref=e231]
+                  - generic [ref=e233]: Remain anonymous 100% of the time
+                - listitem [ref=e234]:
+                  - img [ref=e235]
+                  - generic [ref=e237]: No third-party access required
+          - generic [ref=e238]:
+            - generic [ref=e240]:
+              - generic [ref=e241]: Unlimited profile
+              - generic [ref=e242]: viewer
+            - generic [ref=e244]:
+              - generic [ref=e245]: Premium proxies
+              - generic [ref=e246]: without waiting
+            - generic [ref=e249]:
+              - generic [ref=e250]: Stories tracking & auto-
+              - generic [ref=e251]: saving 24/7
+            - generic [ref=e253]:
+              - generic [ref=e254]: Followers, likes and
+              - generic [ref=e255]: comments analytics
+            - generic [ref=e256]:
+              - link "Get Premium" [ref=e257] [cursor=pointer]:
+                - /url: /signup/?after=%2Finstagram-viewer%2F
+                - img [ref=e258]
+                - generic [ref=e260]: Get Premium
+              - generic [ref=e261]:
+                - img [ref=e262]
+                - generic [ref=e264]: Pricing
+        - generic [ref=e265]:
+          - heading "Over 200K satisfied clients worldwide" [level=3] [ref=e267]
+          - generic [ref=e269]:
+            - generic [ref=e271]:
+              - generic [ref=e272]: Excellent
+              - generic [ref=e273]: 4.2 of 5
+              - generic [ref=e274]:
+                - img [ref=e277]
+                - img [ref=e280]
+                - img [ref=e283]
+                - img [ref=e286]
+                - img [ref=e289]
+              - generic [ref=e291]:
+                - text: Based on
+                - link "641 reviews" [ref=e292] [cursor=pointer]:
+                  - /url: https://www.trustpilot.com/review/inflact.com
+              - generic [ref=e293]:
+                - img [ref=e294]
+                - text: Trustpilot
+            - generic [ref=e297]:
+              - generic [ref=e302]:
+                - generic [ref=e303]: Patrick Harper
+                - link "Review" [ref=e304] [cursor=pointer]:
+                  - /url: https://www.trustpilot.com/reviews/68c471e20dfcaa2e1a476250
+              - generic [ref=e306]:
+                - generic [ref=e307]:
+                  - generic [ref=e308]:
+                    - img [ref=e311]
+                    - img [ref=e314]
+                    - img [ref=e317]
+                    - img [ref=e320]
+                    - img [ref=e323]
+                  - generic [ref=e325]: Sep 12, 2025
+                - generic [ref=e326]: The Insta Viewer runs smoothly every…
+                - generic [ref=e327]: The Insta Viewer runs smoothly every time. I watch stories and reels without an account, and the quality is always clear. Perfect if you just want to check Instagram without being signed in.
+            - generic [ref=e329]:
+              - generic [ref=e334]:
+                - generic [ref=e335]: Tyler Benson
+                - link "Review" [ref=e336] [cursor=pointer]:
+                  - /url: https://www.trustpilot.com/reviews/68b9bba5b26b6c8f5a311af0
+              - generic [ref=e338]:
+                - generic [ref=e339]:
+                  - generic [ref=e340]:
+                    - img [ref=e343]
+                    - img [ref=e346]
+                    - img [ref=e349]
+                    - img [ref=e352]
+                    - img [ref=e355]
+                  - generic [ref=e357]: Sep 04, 2025
+                - generic [ref=e358]: I use this Instagram Viewer when I want
+                - generic [ref=e359]: I use this Instagram Viewer when I want to see reels or posts quickly without logging into Instagram. It makes viewing simple and private, which is exactly what I needed.
+            - generic [ref=e361]:
+              - generic [ref=e366]:
+                - generic [ref=e367]: Sierra Lawson
+                - link "Review" [ref=e368] [cursor=pointer]:
+                  - /url: https://www.trustpilot.com/reviews/68b898751dd35f3073b62b8f
+              - generic [ref=e370]:
+                - generic [ref=e371]:
+                  - generic [ref=e372]:
+                    - img [ref=e375]
+                    - img [ref=e378]
+                    - img [ref=e381]
+                    - img [ref=e384]
+                    - img [ref=e387]
+                  - generic [ref=e389]: Sep 03, 2025
+                - generic [ref=e390]: My go-to Insta viewer
+                - generic [ref=e391]: This Insta Viewer is exactly what I needed for discreet viewing. I use it to watch reels and stories without logging in, and it loads quickly every time. It’s very convenient for following trends without cluttering my own Instagram feed.
+            - generic [ref=e393]:
+              - generic [ref=e397]:
+                - generic [ref=e398]: Jack Daniel
+                - link "Review" [ref=e399] [cursor=pointer]:
+                  - /url: https://www.trustpilot.com/reviews/68b25244e190b8bc388e97da
+              - generic [ref=e401]:
+                - generic [ref=e402]:
+                  - generic [ref=e403]:
+                    - img [ref=e406]
+                    - img [ref=e409]
+                    - img [ref=e412]
+                    - img [ref=e415]
+                    - img [ref=e418]
+                  - generic [ref=e420]: Aug 31, 2025
+                - generic [ref=e421]: Best Instagram viewer I’ve tried
+                - generic [ref=e422]: The Instagram Viewer from Inflact is perfect for when I want to watch reels, stories, and posts without logging into my account. It works fast, the quality is clear, and I can view everything anonymously.
+            - generic [ref=e424]:
+              - generic [ref=e428]:
+                - generic [ref=e429]: Weston Reyes
+                - link "Review" [ref=e430] [cursor=pointer]:
+                  - /url: https://www.trustpilot.com/reviews/682cab2873a641ca8303ace6
+              - generic [ref=e432]:
+                - generic [ref=e433]:
+                  - generic [ref=e434]:
+                    - img [ref=e437]
+                    - img [ref=e440]
+                    - img [ref=e443]
+                    - img [ref=e446]
+                    - img [ref=e449]
+                  - generic [ref=e451]: Jun 19, 2025
+                - generic [ref=e452]: Useful for checking out profiles…
+                - generic [ref=e453]: Useful for checking out profiles anonymously, but sometimes certain accounts won’t load properly.
+            - generic [ref=e455]:
+              - generic [ref=e460]:
+                - generic [ref=e461]: Christos Gkoutzidis
+                - link "Review" [ref=e462] [cursor=pointer]:
+                  - /url: https://www.trustpilot.com/reviews/680821b6339e4a852cb7dff1
+              - generic [ref=e464]:
+                - generic [ref=e465]:
+                  - generic [ref=e466]:
+                    - img [ref=e469]
+                    - img [ref=e472]
+                    - img [ref=e475]
+                    - img [ref=e478]
+                    - img [ref=e481]
+                  - generic [ref=e483]: Jun 19, 2025
+                - generic [ref=e484]: For as long as I have used inflact as a…
+                - generic [ref=e485]: For as long as I have used inflact as a platform, it is very good and specifically the function that I have used the most, the Instagram viewer, is excellent. I would prefer it again in the future!
+            - generic [ref=e487]:
+              - generic [ref=e492]:
+                - generic [ref=e493]: Edward Mccarty
+                - link "Review" [ref=e494] [cursor=pointer]:
+                  - /url: https://www.trustpilot.com/reviews/681ce17ae83fa996dde3f862
+              - generic [ref=e496]:
+                - generic [ref=e497]:
+                  - generic [ref=e498]:
+                    - img [ref=e501]
+                    - img [ref=e504]
+                    - img [ref=e507]
+                    - img [ref=e510]
+                    - img [ref=e513]
+                  - generic [ref=e515]: May 08, 2025
+                - generic [ref=e516]: Great for checking out public profiles…
+                - generic [ref=e517]: Great for checking out public profiles without signing in. A lifesaver
+            - generic [ref=e519]:
+              - generic [ref=e524]:
+                - generic [ref=e525]: Carlo De Luca
+                - link "Review" [ref=e526] [cursor=pointer]:
+                  - /url: https://www.trustpilot.com/users/67f8211083edc03a185a3085
+              - generic [ref=e528]:
+                - generic [ref=e529]:
+                  - generic [ref=e530]:
+                    - img [ref=e533]
+                    - img [ref=e536]
+                    - img [ref=e539]
+                    - img [ref=e542]
+                    - img [ref=e545]
+                  - generic [ref=e547]: Apr 11, 2025
+                - generic [ref=e548]: Super easy !
+                - generic [ref=e549]: Super easy way to browse Instagram anonymously without logging in.
+            - generic [ref=e551]:
+              - generic [ref=e556]:
+                - generic [ref=e557]: Terry Pham
+                - link "Review" [ref=e558] [cursor=pointer]:
+                  - /url: https://www.trustpilot.com/users/6822e68a75d981247c84ce15
+              - generic [ref=e560]:
+                - generic [ref=e561]:
+                  - generic [ref=e562]:
+                    - img [ref=e565]
+                    - img [ref=e568]
+                    - img [ref=e571]
+                    - img [ref=e574]
+                    - img [ref=e577]
+                  - generic [ref=e579]: Mar 13, 2025
+                - generic [ref=e580]: Works well
+                - generic [ref=e581]: Works well, but I wish there was a mobile-friendly version for easier access on the go.
+            - generic [ref=e583]:
+              - generic [ref=e588]:
+                - generic [ref=e589]: Mirko Sanna
+                - link "Review" [ref=e590] [cursor=pointer]:
+                  - /url: https://www.trustpilot.com/users/67d22c7643ebc8bc99db8e3d
+              - generic [ref=e592]:
+                - generic [ref=e593]:
+                  - generic [ref=e594]:
+                    - img [ref=e597]
+                    - img [ref=e600]
+                    - img [ref=e603]
+                    - img [ref=e606]
+                    - img [ref=e609]
+                  - generic [ref=e611]: Mar 13, 2025
+                - generic [ref=e612]: Helpful, but could be cheaper
+                - generic [ref=e613]: I like Inflact’s tools, especially the story downloader and post scheduler. They work well, but I feel like the pricing is a bit high compared to similar services. Still, it does what it promises.
+        - generic [ref=e614]:
+          - link "All Instagram Viewer Tools" [ref=e616] [cursor=pointer]:
+            - /url: /instagram-viewer/
+            - heading "All Instagram Viewer Tools" [level=2] [ref=e617]
+          - generic [ref=e618]:
+            - link "Story Viewer" [ref=e619] [cursor=pointer]:
+              - /url: /instagram-viewer/stories/
+              - img [ref=e620]
+              - generic [ref=e622]: Story Viewer
+              - img [ref=e623]
+            - link "Highlights Viewer" [ref=e625] [cursor=pointer]:
+              - /url: /instagram-viewer/highlights/
+              - img [ref=e626]
+              - generic [ref=e628]: Highlights Viewer
+              - img [ref=e629]
+            - link "Posts Viewer" [ref=e631] [cursor=pointer]:
+              - /url: /instagram-viewer/posts/
+              - img [ref=e632]
+              - generic [ref=e634]: Posts Viewer
+              - img [ref=e635]
+            - link "Reels Viewer" [ref=e637] [cursor=pointer]:
+              - /url: /instagram-viewer/reels/
+              - img [ref=e638]
+              - generic [ref=e640]: Reels Viewer
+              - img [ref=e641]
+        - generic [ref=e643]:
+          - generic [ref=e644]:
+            - heading "Need help?" [level=3] [ref=e645]
+            - paragraph [ref=e646]: Read our blog to learn more about some new techniques for Instagram promotion. If you have any questions about our service, visit our FAQ section.
+          - generic [ref=e648]:
+            - generic [ref=e649]:
+              - heading "FAQ" [level=3] [ref=e650]
+              - link "Full List of Questions" [ref=e651] [cursor=pointer]:
+                - /url: /support/
+                - text: Full List of Questions
+                - img [ref=e652]
+            - generic [ref=e653]:
+              - generic [ref=e654]:
+                - generic [ref=e655]: About
+                - generic [ref=e656]: Functionality
+              - generic [ref=e659]:
+                - generic [ref=e661]:
+                  - heading "What is an Instagram profile viewer online?" [level=4] [ref=e662]
+                  - img [ref=e663]
+                - generic [ref=e665]:
+                  - heading "Does Instagram punish a user for turning to an IG profile viewer?" [level=4] [ref=e666]
+                  - img [ref=e667]
+    - contentinfo [ref=e668]:
+      - generic [ref=e669]:
+        - generic [ref=e670]:
+          - link "Inflact Logo" [ref=e672] [cursor=pointer]:
+            - /url: /
+            - img "Inflact Logo" [ref=e673]
+          - generic [ref=e674]:
+            - generic [ref=e675]: Any questions?
+            - link "hello@inflact.com" [ref=e676] [cursor=pointer]:
+              - /url: mailto:hello@inflact.com
+              - img [ref=e677]
+              - generic [ref=e679]: hello@inflact.com
+          - generic [ref=e683]:
+            - img [ref=e684]
+            - generic [ref=e686]: EN
+            - img [ref=e687]
+        - generic [ref=e689]:
+          - generic [ref=e690]:
+            - generic [ref=e691]: Inflact
+            - generic [ref=e692]:
+              - link "Support" [ref=e693] [cursor=pointer]:
+                - /url: /support/
+              - link "Blog" [ref=e694] [cursor=pointer]:
+                - /url: /blog/
+              - link "Reviews" [ref=e695] [cursor=pointer]:
+                - /url: /reviews/
+              - link "Become a Partner" [ref=e696] [cursor=pointer]:
+                - /url: /become-a-partner/
+              - link "Promo Codes" [ref=e697] [cursor=pointer]:
+                - /url: /promo-code/
+          - generic [ref=e698]:
+            - generic [ref=e699]: SERVICES
+            - generic [ref=e700]:
+              - link "Direct Messages" [ref=e701] [cursor=pointer]:
+                - /url: /direct-messages/
+              - link "Scheduled Posting" [ref=e702] [cursor=pointer]:
+                - /url: /scheduled-posting/
+              - link "Promo" [ref=e703] [cursor=pointer]:
+                - /url: https://bot.inflact.com/
+          - generic [ref=e704]:
+            - generic [ref=e705]: TOOLS
+            - generic [ref=e706]:
+              - link "Hashtag Generator" [ref=e707] [cursor=pointer]:
+                - /url: /tools/instagram-hashtag-generator/
+              - link "Hashtag Trends" [ref=e708] [cursor=pointer]:
+                - /url: /tools/instagram-top-hashtags/
+              - link "Instagram Downloader" [ref=e709] [cursor=pointer]:
+                - /url: /instagram-downloader/
+              - link "Instagram Tracker" [ref=e710] [cursor=pointer]:
+                - /url: /tracker/
+              - link "Profile Analyzer" [ref=e711] [cursor=pointer]:
+                - /url: /tools/profile-analyzer/
+              - link "Instagram Search" [ref=e712] [cursor=pointer]:
+                - /url: /tools/instagram-search/
+              - link "Instagram Viewer" [ref=e713] [cursor=pointer]:
+                - /url: /instagram-viewer/
+              - link "Fonts Generator" [ref=e714] [cursor=pointer]:
+                - /url: /tools/fonts-generator/
+          - generic [ref=e715]:
+            - generic [ref=e716]: LEGAL
+            - generic [ref=e717]:
+              - link "Terms of Service" [ref=e718] [cursor=pointer]:
+                - /url: /terms-of-service/
+              - link "Privacy Policy" [ref=e719] [cursor=pointer]:
+                - /url: /privacy-policy/
+              - link "Billing Information" [ref=e720] [cursor=pointer]:
+                - /url: /billing-information/
+              - link "Refund and Cancellation Policy" [ref=e721] [cursor=pointer]:
+                - /url: /refund-and-cancellation-policy/
+              - button "Cookie consent" [ref=e722]
+        - generic [ref=e723]:
+          - generic [ref=e724]:
+            - generic [ref=e725]: Copyright © 2026
+            - generic [ref=e726]: "Inflact is not endorsed or certified by Instagram. All Instagram TM logos and trademarks displayed on this application are property of Instagram. Service provider: Wiseway SIA, Avotu iela 23-3, Riga, LV-1011, Latvia"
+          - generic [ref=e727]:
+            - link "Youtube" [ref=e728] [cursor=pointer]:
+              - /url: https://www.youtube.com/@inflact
+              - img [ref=e729]
+              - generic [ref=e731]: Youtube
+            - link "Telegram" [ref=e732] [cursor=pointer]:
+              - /url: https://t.me/inflact_official
+              - img [ref=e733]
+              - generic [ref=e735]: Telegram
+            - link "X" [ref=e736] [cursor=pointer]:
+              - /url: https://x.com/inflact
+              - img [ref=e737]
+              - generic [ref=e739]: X
+  - generic [ref=e742]:
+    - generic [ref=e743]:
+      - generic [ref=e744]: Welcome back!
+      - generic [ref=e745]: Use your credentials to Sign In
+      - img [ref=e747]
+    - generic [ref=e749]:
+      - generic [ref=e750]:
+        - generic [ref=e752]:
+          - img
+          - textbox "Enter your email" [ref=e753]
+        - generic [ref=e755]:
+          - img
+          - textbox "Enter your password" [ref=e756]
+          - img [ref=e759]
+        - link "Forgot your Password?" [ref=e763] [cursor=pointer]:
+          - /url: "#"
+        - button "SIGN IN" [ref=e764]:
+          - img [ref=e765]
+          - generic [ref=e767]: SIGN IN
+      - generic [ref=e768]:
+        - generic [ref=e770]: or connect with
+        - generic [ref=e771]:
+          - link "Google" [ref=e772] [cursor=pointer]:
+            - /url: /site/auth/?after=%2Finstagram-viewer%2F&from_landing=story&authclient=google
+            - img [ref=e773]
+            - generic [ref=e775]: Google
+          - link "Apple" [ref=e776] [cursor=pointer]:
+            - /url: /site/auth/?after=%2Finstagram-viewer%2F&from_landing=story&authclient=apple
+            - img [ref=e777]
+            - generic [ref=e779]: Apple
+    - generic [ref=e781]:
+      - text: Don't have an Account?
+      - link "Sign Up" [ref=e782] [cursor=pointer]:
+        - /url: "#"
+  - generic [ref=e785]:
+    - generic [ref=e786]:
+      - generic [ref=e787]: Sign Up
+      - generic [ref=e788]: Create your Inflact account
+      - img [ref=e790]
+    - generic [ref=e792]:
+      - generic [ref=e793]:
+        - generic [ref=e795]:
+          - img
+          - textbox "Enter your email" [ref=e796]
+        - generic [ref=e798]:
+          - img
+          - textbox "Enter your password" [ref=e799]
+          - img [ref=e802]
+        - generic [ref=e805]:
+          - img
+          - textbox "Confirm your password" [ref=e806]
+          - img [ref=e809]
+        - generic [ref=e811]:
+          - generic [ref=e812]:
+            - checkbox "I agree to the Terms of Service and Privacy Policy" [checked] [ref=e813]
+            - img [ref=e814]
+          - generic [ref=e816]:
+            - text: I agree to the
+            - link "Terms of Service" [ref=e817] [cursor=pointer]:
+              - /url: /terms-of-service/
+            - text: and
+            - link "Privacy Policy" [ref=e818] [cursor=pointer]:
+              - /url: /privacy-policy/
+        - button "SIGN UP" [ref=e819]:
+          - img [ref=e820]
+          - generic [ref=e822]: SIGN UP
+      - generic [ref=e823]:
+        - generic [ref=e825]: or connect with
+        - generic [ref=e826]:
+          - link "Google" [ref=e827] [cursor=pointer]:
+            - /url: /site/auth/?after=%2Finstagram-viewer%2F&from_landing=story&authclient=google
+            - img [ref=e828]
+            - generic [ref=e830]: Google
+          - link "Apple" [ref=e831] [cursor=pointer]:
+            - /url: /site/auth/?after=%2Finstagram-viewer%2F&from_landing=story&authclient=apple
+            - img [ref=e832]
+            - generic [ref=e834]: Apple
+    - generic [ref=e836]:
+      - text: Already have an account?
+      - link "Sign In" [ref=e837] [cursor=pointer]:
+        - /url: "#"
+  - generic [ref=e840]:
+    - generic [ref=e841]:
+      - generic [ref=e842]: Password recovery
+      - generic [ref=e843]: Enter your email address below and we'll send you a link to reset your password
+      - img [ref=e845]
+    - generic [ref=e849]:
+      - generic [ref=e851]:
+        - img
+        - textbox "Enter your email" [ref=e852]
+      - button "SEND RESET PASSWORD EMAIL" [ref=e853]:
+        - img [ref=e854]
+        - generic [ref=e856]: SEND RESET PASSWORD EMAIL
+    - generic [ref=e858]:
+      - text: Ready to go inside?
+      - link "Sign In" [ref=e859] [cursor=pointer]:
+        - /url: "#"
+  - generic:
+    - region "Bandeira de biscoitos" [ref=e860]:
+      - dialog "Privacidade" [ref=e861]:
+        - generic [ref=e863]:
+          - generic [ref=e866]: Ao clicar em "Aceitar todos os cookies", concorda com o armazenamento de cookies no seu dispositivo para melhorar a navegação no site, analisar a utilização do site e ajudar nas nossas iniciativas de marketing.
+          - generic [ref=e868]:
+            - button "Definições de cookies" [ref=e869] [cursor=pointer]
+            - button "Rejeitar Todos" [ref=e870] [cursor=pointer]
+            - button "Aceitar todos os cookies" [ref=e871] [cursor=pointer]
+        - button "Fechar" [ref=e873] [cursor=pointer]
+    - text: Definições de cookies

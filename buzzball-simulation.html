@@ -1,0 +1,1377 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BallDrink — Pronto pra Arrasar?</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --white:  #FFFFFF;
+  --cream:  #F7F5F2;
+  --dark:   #1A1A1A;
+  --mid:    #555555;
+  --muted:  #999999;
+  --border: #E8E4DF;
+  --accent: #FF4D00;
+  --display: 'Barlow Condensed', sans-serif;
+  --body:    'Inter', sans-serif;
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: var(--body);
+  background: var(--white);
+  color: var(--dark);
+  overflow-x: hidden;
+}
+
+h1, h2, h3 {
+  font-family: var(--display);
+  letter-spacing: 0px;
+}
+
+a { text-decoration: none; color: inherit; }
+img { max-width: 100%; display: block; }
+
+/* ── AGE GATE ─────────────────────────────── */
+#age-gate {
+  position: fixed; inset: 0;
+  background: rgba(26,26,26,.96);
+  z-index: 9999;
+  display: flex; align-items: center; justify-content: center;
+  backdrop-filter: blur(6px);
+}
+.age-box {
+  background: var(--white);
+  border: 1.5px solid var(--border);
+  border-radius: 20px;
+  padding: 52px 44px;
+  text-align: center;
+  max-width: 440px; width: 92%;
+  box-shadow: 0 8px 48px rgba(0,0,0,.1);
+  animation: fadeUp .4s ease;
+}
+@keyframes fadeUp {
+  from { transform: translateY(20px); opacity: 0; }
+  to   { transform: translateY(0);    opacity: 1; }
+}
+.age-logo {
+  display: flex; align-items: center; justify-content: center;
+  gap: 10px; margin-bottom: 28px;
+  font-family: var(--display);
+  font-size: 1.6rem; font-weight: 900; color: var(--dark);
+}
+.age-logo-ball {
+  width: 34px; height: 34px; border-radius: 50%;
+  background: radial-gradient(circle at 35% 30%, #FF8DC7, var(--accent));
+  box-shadow: 0 4px 12px rgba(255,26,94,.3); position: relative;
+}
+.age-logo-ball::before {
+  content: ''; position: absolute;
+  top: 15%; left: 20%; width: 28%; height: 18%;
+  background: rgba(255,255,255,.5); border-radius: 50%;
+  transform: rotate(-30deg);
+}
+.age-box h2 {
+  font-family: var(--display);
+  font-size: 1.7rem; font-weight: 900; color: var(--dark); margin-bottom: 8px;
+}
+.age-box > p { color: var(--muted); font-size: .9rem; margin-bottom: 28px; line-height: 1.5; }
+.age-btns {
+  display: flex; gap: 12px; margin-bottom: 20px;
+}
+.btn-age-yes {
+  flex: 1; padding: 16px;
+  background: var(--white); color: var(--dark);
+  font-family: var(--display); font-size: 1.1rem; font-weight: 800;
+  border: none; border-radius: 12px; cursor: pointer;
+  letter-spacing: 1.5px; text-transform: uppercase; transition: background .2s;
+}
+.btn-age-yes:hover { background: #e8e8e8; }
+.btn-age-no {
+  flex: 1; padding: 16px;
+  background: transparent; color: var(--mid);
+  font-family: var(--display); font-size: 1.1rem; font-weight: 800;
+  border: 2px solid var(--border); border-radius: 12px; cursor: pointer;
+  letter-spacing: 1.5px; text-transform: uppercase; transition: border-color .2s, color .2s;
+}
+.btn-age-no:hover { border-color: var(--mid); color: var(--dark); }
+.age-denied {
+  display: none; padding: 14px 18px;
+  background: #fff3f3; border: 1.5px solid #ffcccc;
+  border-radius: 10px; font-size: .85rem; color: #cc0000;
+  line-height: 1.5; margin-bottom: 8px;
+}
+.age-legal { margin-top: 16px; font-size: .72rem; color: #bbb; }
+
+/* ── HEADER ───────────────────────────────── */
+header {
+  position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+  height: 72px; padding: 0 5%;
+  display: flex; align-items: center; justify-content: space-between;
+  background: var(--dark);
+}
+.logo {
+  display: flex; align-items: center; gap: 10px;
+  font-family: var(--display);
+  font-size: 1.5rem; font-weight: 900; color: var(--white); letter-spacing: 1px;
+}
+.logo-ball {
+  width: 32px; height: 32px; border-radius: 50%; position: relative;
+  background: radial-gradient(circle at 35% 30%, #FF8DC7, #C70064);
+  flex-shrink: 0;
+}
+.logo-ball::before {
+  content: ''; position: absolute;
+  top: 15%; left: 20%; width: 28%; height: 18%;
+  background: rgba(255,255,255,.5); border-radius: 50%;
+  transform: rotate(-30deg);
+}
+nav { display: flex; align-items: center; gap: 28px; }
+nav a {
+  font-family: var(--display);
+  font-size: .95rem; font-weight: 700; color: rgba(255,255,255,.75);
+  letter-spacing: .5px; transition: color .2s;
+}
+nav a:hover { color: var(--white); }
+.btn-nav {
+  padding: 9px 22px;
+  background: var(--white); color: var(--dark);
+  border-radius: 50px;
+  font-family: var(--display);
+  font-size: .9rem; font-weight: 800; letter-spacing: 1px;
+  transition: background .2s;
+}
+.btn-nav:hover { background: #e8e8e8; }
+.hamburger { display: none; cursor: pointer; flex-direction: column; gap: 5px; }
+.hamburger span { display: block; width: 24px; height: 2px; background: var(--white); border-radius: 2px; }
+
+/* ── HERO ─────────────────────────────────── */
+#hero {
+  padding-top: 72px; min-height: 88vh;
+  background: var(--cream);
+  display: flex; align-items: center;
+  position: relative; overflow: hidden;
+}
+.hero-inner {
+  width: 100%; max-width: 1200px; margin: 0 auto;
+  padding: 60px 5%;
+  display: grid; grid-template-columns: 1fr 1fr;
+  gap: 60px; align-items: center; position: relative; z-index: 1;
+}
+.hero-eyebrow {
+  display: inline-block;
+  font-family: var(--body);
+  font-size: .72rem; font-weight: 700; letter-spacing: 3px;
+  text-transform: uppercase; color: var(--muted); margin-bottom: 16px;
+}
+.hero-text h1 {
+  font-size: clamp(3.2rem, 6vw, 5.5rem);
+  font-weight: 900; line-height: 1; letter-spacing: .5px;
+  color: var(--dark); margin-bottom: 20px; text-transform: uppercase;
+}
+.hero-text h1 em { font-style: normal; color: var(--accent); }
+.hero-eyebrow { color: var(--muted); }
+.hero-text p {
+  font-size: 1rem; color: var(--mid); line-height: 1.7;
+  margin-bottom: 36px; max-width: 440px;
+}
+.hero-ctas { display: flex; gap: 12px; flex-wrap: wrap; }
+.btn-primary {
+  display: inline-block; padding: 13px 30px;
+  background: var(--dark); color: var(--white);
+  font-family: var(--display);
+  font-size: .95rem; font-weight: 800; border-radius: 50px;
+  letter-spacing: 1.5px; text-transform: uppercase;
+  transition: background .2s, transform .15s; cursor: pointer; border: none;
+}
+.btn-primary:hover { background: #333; transform: translateY(-1px); }
+.btn-outline {
+  display: inline-block; padding: 13px 30px;
+  background: transparent; color: var(--dark);
+  font-family: var(--display);
+  font-size: .95rem; font-weight: 800;
+  border: 2px solid var(--dark); border-radius: 50px;
+  letter-spacing: 1.5px; text-transform: uppercase;
+  transition: background .2s, color .2s; cursor: pointer;
+}
+.btn-outline:hover { background: var(--dark); color: var(--white); }
+.hero-stats {
+  display: flex; gap: 36px;
+  margin-top: 44px; padding-top: 28px;
+  border-top: 1.5px solid var(--border); flex-wrap: wrap;
+}
+.stat-num {
+  font-family: var(--display);
+  font-size: 2.2rem; font-weight: 900; color: var(--dark); line-height: 1;
+}
+.stat-label {
+  font-size: .7rem; font-weight: 700; color: var(--muted);
+  letter-spacing: 1px; text-transform: uppercase; margin-top: 4px;
+}
+
+/* Hero product grid */
+.hero-products {
+  display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; padding: 10px;
+}
+.hero-products svg {
+  width: 100%; height: auto; filter: drop-shadow(0 16px 24px rgba(0,0,0,.18));
+  transition: transform .35s ease;
+  animation: softFloat linear infinite;
+}
+.hero-products svg:hover { transform: scale(1.04); }
+.hero-products svg:nth-child(1) { animation-duration: 4s; }
+.hero-products svg:nth-child(2) { animation-duration: 5s; animation-delay: -.8s; }
+.hero-products svg:nth-child(3) { animation-duration: 4.5s; animation-delay: -1.5s; }
+.hero-products svg:nth-child(4) { animation-duration: 3.8s; animation-delay: -.4s; }
+@keyframes softFloat {
+  0%   { transform: translateY(0); }
+  50%  { transform: translateY(-10px); }
+  100% { transform: translateY(0); }
+}
+
+/* ── STRIP ────────────────────────────────── */
+.strip { background: var(--dark); padding: 12px 5%; overflow: hidden; }
+.strip-track {
+  display: flex; gap: 48px; white-space: nowrap;
+  animation: marquee 20s linear infinite;
+}
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); }
+}
+.strip-item {
+  font-family: var(--display);
+  font-size: .85rem; font-weight: 700; letter-spacing: 2px;
+  text-transform: uppercase; color: var(--white);
+  display: flex; align-items: center; gap: 12px; flex-shrink: 0;
+}
+.strip-dot { width: 5px; height: 5px; border-radius: 50%; background: var(--accent); }
+
+/* ── SEÇÃO GENÉRICA ───────────────────────── */
+section { padding: 90px 5%; }
+.section-inner { max-width: 1200px; margin: 0 auto; }
+.section-header { text-align: center; margin-bottom: 56px; }
+.eyebrow {
+  display: inline-block;
+  font-family: var(--body);
+  font-size: .7rem; font-weight: 700; letter-spacing: 3px;
+  text-transform: uppercase; color: var(--muted); margin-bottom: 12px;
+}
+.section-header h2 {
+  font-size: clamp(2.2rem, 4vw, 3.2rem); font-weight: 900;
+  color: var(--dark); margin-bottom: 12px; text-transform: uppercase;
+}
+.section-header p { font-size: .95rem; color: var(--mid); max-width: 480px; margin: 0 auto; line-height: 1.7; }
+
+/* ── PRODUTOS ─────────────────────────────── */
+#produtos { background: var(--white); }
+.filters { display: flex; gap: 8px; justify-content: center; margin-bottom: 44px; flex-wrap: wrap; }
+.filter-btn {
+  padding: 8px 20px; border-radius: 50px;
+  border: 1.5px solid var(--border); background: var(--white); color: var(--mid);
+  font-family: var(--display); font-size: .85rem; font-weight: 700;
+  cursor: pointer; transition: all .2s; letter-spacing: 1px; text-transform: uppercase;
+}
+.filter-btn:hover { border-color: var(--dark); color: var(--dark); }
+.filter-btn.active { background: var(--dark); color: var(--white); border-color: var(--dark); }
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 24px;
+}
+.product-card {
+  background: var(--white); border: 1.5px solid var(--border);
+  border-radius: 20px; padding: 28px 20px 22px;
+  text-align: center;
+  transition: transform .25s, box-shadow .25s; cursor: pointer; position: relative;
+}
+.product-card:hover { transform: translateY(-5px); box-shadow: 0 16px 40px rgba(0,0,0,.1); }
+.new-badge {
+  position: absolute; top: 16px; right: 16px; z-index: 10;
+  background: var(--dark); color: var(--white);
+  font-family: var(--display);
+  font-size: .65rem; font-weight: 800; padding: 4px 10px;
+  border-radius: 50px; letter-spacing: 1.5px; text-transform: uppercase;
+  pointer-events: none;
+}
+.product-card svg {
+  width: 130px; height: auto; margin: 0 auto 18px;
+  filter: drop-shadow(0 10px 18px rgba(0,0,0,.16));
+  transition: transform .3s;
+}
+.product-card:hover svg { transform: scale(1.06) rotate(3deg); }
+.product-img {
+  height: 170px; width: auto; max-width: 100%;
+  object-fit: contain;
+  margin: 0 auto 18px; display: block;
+  filter: drop-shadow(0 8px 20px rgba(0,0,0,.18));
+  transition: transform .35s;
+}
+.product-card:hover .product-img { transform: scale(1.07) rotate(2deg); }
+.product-name {
+  font-family: var(--display);
+  font-size: 1.1rem; font-weight: 900; color: var(--dark);
+  margin-bottom: 4px; letter-spacing: .3px; text-transform: uppercase;
+}
+.product-flavor { font-size: .78rem; color: var(--muted); margin-bottom: 10px; font-weight: 600; }
+.abv-pill {
+  display: inline-block; padding: 3px 12px;
+  background: var(--white); border: 1.5px solid var(--border);
+  border-radius: 50px;
+  font-family: var(--display);
+  font-size: .75rem; font-weight: 800; color: var(--mid); margin-bottom: 10px; letter-spacing: 1px;
+}
+.stars { color: #E08000; font-size: .85rem; letter-spacing: 1px; margin-bottom: 4px; }
+.review-count { font-size: .72rem; color: var(--muted); font-weight: 600; margin-bottom: 16px; }
+.btn-card {
+  display: block; width: 100%; padding: 11px;
+  background: var(--dark); color: var(--white);
+  font-family: var(--display); font-size: .82rem; font-weight: 800;
+  border: none; border-radius: 10px; cursor: pointer;
+  letter-spacing: 1.5px; text-transform: uppercase; transition: background .2s;
+}
+.btn-card:hover { background: #333; }
+
+/* ── MISSÃO ───────────────────────────────── */
+#missao { background: var(--cream); }
+.pillars { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; margin-top: 52px; }
+.pillar {
+  background: var(--white); border: 1.5px solid var(--border);
+  border-radius: 20px; padding: 36px 28px; text-align: center;
+  transition: transform .25s, box-shadow .25s;
+}
+.pillar:hover { transform: translateY(-4px); box-shadow: 0 12px 32px rgba(0,0,0,.08); }
+.pillar-icon {
+  width: 64px; height: 64px; border-radius: 50%;
+  margin: 0 auto 20px;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 1.6rem; background: var(--white); border: 1.5px solid var(--border);
+}
+.pillar h3 {
+  font-size: 1.15rem; font-weight: 900; color: var(--dark);
+  margin-bottom: 10px; text-transform: uppercase; letter-spacing: .5px;
+}
+.pillar p { font-size: .85rem; color: var(--mid); line-height: 1.7; }
+
+/* ── CLUBE ────────────────────────────────── */
+#clube { background: var(--white); }
+.clube-inner {
+  max-width: 1100px; margin: 0 auto;
+  display: grid; grid-template-columns: 1fr 1fr;
+  gap: 72px; align-items: center;
+}
+.clube-eyebrow {
+  font-family: var(--body);
+  font-size: .7rem; font-weight: 700; letter-spacing: 3px;
+  text-transform: uppercase; color: var(--accent); margin-bottom: 12px; display: block;
+}
+.clube-text h2 {
+  font-size: clamp(2rem, 3.5vw, 2.8rem); font-weight: 900;
+  color: var(--dark); margin-bottom: 14px; text-transform: uppercase; margin-top: 8px;
+}
+.clube-text p { font-size: .93rem; color: var(--mid); line-height: 1.75; margin-bottom: 28px; }
+.benefits { display: flex; flex-direction: column; gap: 12px; margin-bottom: 32px; }
+.benefit-row {
+  display: flex; align-items: center; gap: 14px; padding: 14px 18px;
+  background: var(--cream); border: 1px solid var(--border); border-radius: 12px;
+}
+.ben-icon { font-size: 1.3rem; width: 40px; text-align: center; flex-shrink: 0; }
+.ben-info strong { display: block; font-family: var(--display); font-size: .95rem; font-weight: 800; color: var(--dark); letter-spacing: .3px; }
+.ben-info span { font-size: .78rem; color: var(--muted); font-weight: 500; }
+.clube-card-wrap { perspective: 800px; }
+.clube-card {
+  background: var(--dark); color: var(--white);
+  border-radius: 20px; padding: 32px; position: relative; overflow: hidden;
+  box-shadow: 0 20px 48px rgba(0,0,0,.25); transform: rotate(-2deg);
+  transition: transform .3s;
+}
+.clube-card:hover { transform: rotate(0deg) scale(1.02); }
+.clube-card::before {
+  content: ''; position: absolute; top: -80px; right: -80px;
+  width: 240px; height: 240px; border-radius: 50%; background: rgba(255,255,255,.05);
+}
+.cc-label {
+  font-family: var(--body);
+  font-size: .65rem; font-weight: 700; letter-spacing: 3px;
+  text-transform: uppercase; color: rgba(255,255,255,.45); margin-bottom: 10px;
+}
+.cc-name {
+  font-family: var(--display);
+  font-size: 1.5rem; font-weight: 900; letter-spacing: .5px; margin-bottom: 28px;
+}
+.cc-pts {
+  font-family: var(--display);
+  font-size: 2.8rem; font-weight: 900; line-height: 1;
+}
+.cc-pts-label {
+  font-family: var(--body);
+  font-size: .7rem; color: rgba(255,255,255,.45); font-weight: 700;
+  letter-spacing: 1px; text-transform: uppercase; margin-top: 6px;
+}
+.cc-ball {
+  position: absolute; bottom: 24px; right: 24px;
+  width: 60px; height: 60px; border-radius: 50%; opacity: .6; z-index: 1;
+  background: radial-gradient(circle at 35% 30%, #FF8DC7, #C70064);
+}
+.cc-ball::before {
+  content: ''; position: absolute; top: 15%; left: 20%;
+  width: 28%; height: 18%; background: rgba(255,255,255,.5);
+  border-radius: 50%; transform: rotate(-30deg);
+}
+
+/* ── DEPOIMENTOS ──────────────────────────── */
+#depoimentos { background: var(--cream); }
+.reviews-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+.review-card {
+  background: var(--white); border: 1.5px solid var(--border);
+  border-radius: 16px; padding: 28px;
+  transition: transform .25s, box-shadow .25s;
+}
+.review-card:hover { transform: translateY(-4px); box-shadow: 0 12px 32px rgba(0,0,0,.08); }
+.rv-stars { color: #E08000; font-size: .9rem; margin-bottom: 12px; }
+.rv-text { font-size: .88rem; color: var(--mid); line-height: 1.75; margin-bottom: 20px; font-style: italic; }
+.rv-author { display: flex; align-items: center; gap: 12px; }
+.rv-avatar { width: 40px; height: 40px; border-radius: 50%; flex-shrink: 0; }
+.rv-name { font-family: var(--display); font-size: .92rem; font-weight: 800; color: var(--dark); letter-spacing: .3px; }
+.rv-city { font-size: .75rem; color: var(--muted); font-weight: 500; }
+
+/* ── ONDE COMPRAR ─────────────────────────── */
+#onde { background: var(--white); text-align: center; }
+.onde-inner { max-width: 680px; margin: 0 auto; }
+.onde-inner h2 {
+  font-size: clamp(2rem, 4vw, 3rem); font-weight: 900; color: var(--dark);
+  margin-bottom: 12px; margin-top: 10px; text-transform: uppercase;
+}
+.onde-inner > p { color: var(--mid); font-size: .93rem; line-height: 1.7; margin-bottom: 36px; }
+.stores { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; margin-bottom: 40px; }
+.store-tag {
+  padding: 12px 24px; background: var(--cream);
+  border: 1.5px solid var(--border); border-radius: 12px;
+  font-family: var(--display); font-size: .9rem; font-weight: 800;
+  color: var(--dark); letter-spacing: .5px;
+  transition: background .2s, border-color .2s;
+}
+.store-tag:hover { background: var(--dark); color: var(--white); border-color: var(--dark); }
+.cep-row { display: flex; gap: 10px; max-width: 420px; margin: 0 auto; }
+.cep-input {
+  flex: 1; padding: 13px 18px;
+  background: var(--cream); border: 1.5px solid var(--border);
+  border-radius: 10px; color: var(--dark); font-family: var(--body);
+  font-size: .9rem; font-weight: 600; outline: none; transition: border-color .2s;
+}
+.cep-input:focus { border-color: var(--dark); }
+.cep-input::placeholder { color: #bbb; }
+
+/* ── NEWSLETTER ───────────────────────────── */
+#newsletter {
+  background: var(--dark);
+  text-align: center; position: relative; overflow: hidden;
+}
+.nl-inner { position: relative; z-index: 1; max-width: 540px; margin: 0 auto; }
+.nl-inner .eyebrow { color: rgba(255,255,255,.4); }
+.nl-inner h2 {
+  font-size: clamp(2rem, 3.5vw, 2.8rem); font-weight: 900;
+  color: var(--white); margin-bottom: 12px; text-transform: uppercase;
+}
+.nl-inner p { color: rgba(255,255,255,.55); font-size: .9rem; margin-bottom: 28px; }
+.nl-form { display: flex; gap: 10px; }
+.nl-input {
+  flex: 1; padding: 14px 18px;
+  background: rgba(255,255,255,.08); border: 1.5px solid rgba(255,255,255,.15);
+  border-radius: 10px; color: var(--white); font-family: var(--body); font-size: .9rem;
+  outline: none; transition: border-color .2s;
+}
+.nl-input::placeholder { color: rgba(255,255,255,.3); }
+.nl-input:focus { border-color: rgba(255,255,255,.4); }
+.btn-nl {
+  padding: 14px 26px; background: var(--white); color: var(--dark);
+  font-family: var(--display); font-size: .9rem; font-weight: 900;
+  border: none; border-radius: 10px; cursor: pointer;
+  text-transform: uppercase; letter-spacing: 1.5px; white-space: nowrap;
+  transition: background .2s;
+}
+.btn-nl:hover { background: #e8e8e8; }
+
+/* ── FOOTER ───────────────────────────────── */
+footer { background: var(--dark); padding: 64px 5% 32px; }
+.footer-brand p { color: rgba(255,255,255,.45) !important; }
+.fcol h4 { color: rgba(255,255,255,.4) !important; }
+.fcol a { color: rgba(255,255,255,.65) !important; }
+.fcol a:hover { color: var(--white) !important; }
+.footer-bottom p, .footer-legal a { color: rgba(255,255,255,.3) !important; }
+.footer-legal a:hover { color: rgba(255,255,255,.6) !important; }
+.footer-bottom { border-top-color: rgba(255,255,255,.1) !important; }
+.footer-grid {
+  max-width: 1200px; margin: 0 auto;
+  display: grid; grid-template-columns: 2fr 1fr 1fr 1fr;
+  gap: 48px; margin-bottom: 48px;
+}
+.footer-brand p { color: var(--muted); font-size: .85rem; line-height: 1.7; margin: 14px 0 24px; max-width: 260px; }
+.socials { display: flex; gap: 10px; }
+.social-btn {
+  width: 38px; height: 38px; border-radius: 10px;
+  background: var(--cream); border: 1.5px solid var(--border);
+  display: flex; align-items: center; justify-content: center;
+  font-size: .9rem; transition: background .2s, border-color .2s;
+}
+.social-btn:hover { background: var(--dark); border-color: var(--dark); }
+.fcol h4 {
+  font-family: var(--body);
+  font-size: .7rem; font-weight: 700; letter-spacing: 2px;
+  text-transform: uppercase; color: var(--muted); margin-bottom: 18px;
+}
+.fcol ul { list-style: none; display: flex; flex-direction: column; gap: 10px; }
+.fcol a { font-size: .85rem; font-weight: 600; color: var(--mid); transition: color .2s; }
+.fcol a:hover { color: var(--dark); }
+.footer-bottom {
+  max-width: 1200px; margin: 0 auto; padding-top: 24px;
+  border-top: 1.5px solid var(--border);
+  display: flex; justify-content: space-between; align-items: center;
+  flex-wrap: wrap; gap: 14px;
+}
+.footer-bottom p { font-size: .78rem; color: #bbb; font-weight: 500; }
+.footer-legal { display: flex; gap: 20px; flex-wrap: wrap; }
+.footer-legal a { font-size: .78rem; color: #bbb; font-weight: 500; transition: color .2s; }
+.footer-legal a:hover { color: var(--mid); }
+.age-bar {
+  background: var(--cream); border-top: 1.5px solid var(--border);
+  padding: 10px 5%; text-align: center;
+  font-size: .72rem; color: var(--muted); font-weight: 600; letter-spacing: .2px;
+}
+
+/* ── TOAST & REVEAL ───────────────────────── */
+.toast {
+  position: fixed; bottom: 28px; right: 28px;
+  background: var(--dark); color: var(--white);
+  padding: 12px 20px; border-radius: 12px;
+  font-family: var(--display); font-size: .95rem; font-weight: 700;
+  box-shadow: 0 8px 28px rgba(0,0,0,.2); z-index: 1000;
+  transform: translateX(140%); transition: transform .35s ease;
+}
+.toast.show { transform: translateX(0); }
+.reveal { opacity: 0; transform: translateY(24px); transition: opacity .55s ease, transform .55s ease; }
+.reveal.visible { opacity: 1; transform: none; }
+
+/* ── LIFESTYLE FULL-WIDTH ─────────────────── */
+#lifestyle {
+  position: relative; height: 72vh; min-height: 480px;
+  overflow: hidden; display: flex; align-items: center; justify-content: center;
+}
+.lifestyle-img {
+  position: absolute; inset: 0;
+  width: 100%; height: 100%; object-fit: cover; object-position: center;
+}
+.lifestyle-overlay {
+  position: absolute; inset: 0;
+  background: rgba(0,0,0,.48);
+}
+.lifestyle-content {
+  position: relative; z-index: 2;
+  text-align: center; padding: 0 5%; max-width: 680px;
+}
+.lifestyle-content h2 {
+  font-size: clamp(2.6rem, 5vw, 4.2rem); font-weight: 900;
+  color: var(--white); text-transform: uppercase;
+  letter-spacing: .5px; margin-bottom: 16px; line-height: 1.05;
+}
+.lifestyle-content p {
+  font-size: 1.05rem; color: rgba(255,255,255,.8);
+  line-height: 1.7; margin-bottom: 32px;
+}
+.btn-light {
+  display: inline-block; padding: 13px 32px;
+  background: var(--white); color: var(--dark);
+  font-family: var(--display); font-size: .95rem; font-weight: 800;
+  border-radius: 50px; letter-spacing: 1.5px; text-transform: uppercase;
+  transition: background .2s; border: none; cursor: pointer;
+}
+.btn-light:hover { background: #e8e8e8; }
+
+/* ── MOMENTOS GRID ────────────────────────── */
+#momentos { background: var(--white); }
+.momentos-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 240px);
+  gap: 12px;
+}
+.momento {
+  position: relative; overflow: hidden; border-radius: 16px; cursor: pointer;
+}
+.momento img {
+  width: 100%; height: 100%; object-fit: cover;
+  transition: transform .5s ease;
+}
+.momento:hover img { transform: scale(1.06); }
+.momento-overlay {
+  position: absolute; inset: 0;
+  background: linear-gradient(to top, rgba(0,0,0,.55) 0%, transparent 55%);
+  transition: background .3s;
+}
+.momento:hover .momento-overlay { background: linear-gradient(to top, rgba(0,0,0,.7) 0%, rgba(0,0,0,.1) 55%); }
+.momento-label {
+  position: absolute; bottom: 16px; left: 20px;
+  font-family: var(--display); font-size: 1rem; font-weight: 800;
+  color: var(--white); text-transform: uppercase; letter-spacing: 1px;
+}
+.momento-tag {
+  position: absolute; top: 14px; left: 16px;
+  background: var(--white); color: var(--dark);
+  font-family: var(--display); font-size: .65rem; font-weight: 800;
+  padding: 4px 10px; border-radius: 50px; letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+/* Células maiores no grid */
+.momento:nth-child(1) { grid-column: span 2; grid-row: span 2; }
+.momento:nth-child(4) { grid-row: span 2; }
+
+/* ── RESPONSIVO ───────────────────────────── */
+@media (max-width: 1024px) {
+  .hero-inner { grid-template-columns: 1fr; }
+  .hero-products { max-width: 340px; margin: 0 auto; }
+  .pillars { grid-template-columns: repeat(2, 1fr); }
+  .reviews-grid { grid-template-columns: repeat(2, 1fr); }
+  .clube-inner { grid-template-columns: 1fr; }
+  .footer-grid { grid-template-columns: 1fr 1fr; }
+  .momentos-grid { grid-template-columns: repeat(2, 1fr); grid-template-rows: repeat(3, 200px); }
+  .momento:nth-child(1) { grid-column: span 2; grid-row: span 1; }
+  .momento:nth-child(4) { grid-row: span 1; }
+}
+@media (max-width: 768px) {
+  nav { display: none; }
+  .hamburger { display: flex; }
+  section { padding: 64px 4%; }
+  .pillars { grid-template-columns: 1fr; }
+  .reviews-grid { grid-template-columns: 1fr; }
+  .product-grid { grid-template-columns: repeat(2, 1fr); }
+  .footer-grid { grid-template-columns: 1fr; }
+  .nl-form { flex-direction: column; }
+  .cep-row { flex-direction: column; }
+  .momentos-grid { grid-template-columns: 1fr 1fr; grid-template-rows: repeat(3, 180px); }
+  .momento:nth-child(1) { grid-column: span 2; }
+  .momento:nth-child(4) { grid-row: span 1; }
+  #lifestyle { height: 56vh; }
+}
+
+</style>
+</head>
+<body>
+
+<!-- AGE GATE -->
+<div id="age-gate">
+  <div class="age-box">
+    <div class="age-logo"><div class="age-logo-ball"></div>BallDrink</div>
+    <h2>Você tem 18 anos ou mais?</h2>
+    <p>Este site contém bebidas alcoólicas.<br>Confirme sua idade para continuar.</p>
+    <div class="age-denied" id="age-denied">
+      ⛔ Acesso restrito. A venda e o consumo de bebidas alcoólicas são proibidos para menores de 18 anos.
+    </div>
+    <div class="age-btns">
+      <button class="btn-age-yes" onclick="allowEntry()">Sim</button>
+      <button class="btn-age-no" onclick="denyEntry()">Não</button>
+    </div>
+    <p class="age-legal">Venda proibida para menores de 18 anos. Beba com responsabilidade.</p>
+  </div>
+</div>
+
+<!-- HEADER -->
+<header>
+  <div class="logo"><div class="logo-ball"></div>BallDrink</div>
+  <nav>
+    <a href="#produtos">Produtos</a>
+    <a href="#missao">Nossa Missão</a>
+    <a href="#clube">BallClub</a>
+    <a href="#onde">Onde Comprar</a>
+    <a href="#clube" class="btn-nav">Entrar no Clube</a>
+  </nav>
+  <div class="hamburger" onclick="showToast('Menu disponível em breve!')">
+    <span></span><span></span><span></span>
+  </div>
+</header>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="hero-inner">
+
+    <div class="hero-text">
+      <span class="hero-eyebrow">🍹 Pronto pra Beber — 15% Teor Alcoólico</span>
+      <h1>Pronto pra<br><em>Arrasar?</em></h1>
+      <p>Coquetéis prontos pra curtir em qualquer momento. Leve pra praia, festas, piqueniques — ou onde sua vibe levar.</p>
+      <div class="hero-ctas">
+        <a href="#produtos" class="btn-primary">Ver Sabores</a>
+        <a href="#onde" class="btn-outline">Onde Comprar</a>
+      </div>
+      <div class="hero-stats">
+        <div><div class="stat-num">15%</div><div class="stat-label">Teor Alcoólico</div></div>
+        <div><div class="stat-num">12+</div><div class="stat-label">Sabores</div></div>
+        <div><div class="stat-num">100%</div><div class="stat-label">Pronto pra Beber</div></div>
+      </div>
+    </div>
+
+    <!-- Hero products — SVG ball bottles -->
+    <div class="hero-products">
+
+      <!-- Frutas Vermelhas -->
+      <svg viewBox="0 0 160 200" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <radialGradient id="hg1" cx="35%" cy="30%" r="65%">
+            <stop offset="0%" stop-color="#FF8DC7"/>
+            <stop offset="60%" stop-color="#E0005A"/>
+            <stop offset="100%" stop-color="#8B0040"/>
+          </radialGradient>
+          <radialGradient id="hcap1" cx="50%" cy="40%" r="60%">
+            <stop offset="0%" stop-color="#555"/>
+            <stop offset="100%" stop-color="#222"/>
+          </radialGradient>
+        </defs>
+        <ellipse cx="80" cy="186" rx="44" ry="8" fill="rgba(0,0,0,0.12)"/>
+        <circle cx="80" cy="104" r="72" fill="url(#hg1)"/>
+        <rect x="8" y="88" width="144" height="32" rx="4" fill="rgba(255,255,255,0.13)"/>
+        <text x="80" y="103" text-anchor="middle" font-family="Barlow Condensed,sans-serif" font-weight="800" font-size="13" fill="white" letter-spacing="2">FRUTAS</text>
+        <text x="80" y="117" text-anchor="middle" font-family="Barlow Condensed,sans-serif" font-weight="700" font-size="10" fill="rgba(255,255,255,0.8)" letter-spacing="1.5">VERMELHAS</text>
+        <ellipse cx="52" cy="72" rx="24" ry="14" fill="rgba(255,255,255,0.28)" transform="rotate(-20 52 72)"/>
+        <circle cx="44" cy="62" r="9" fill="rgba(255,255,255,0.18)"/>
+        <rect x="62" y="22" width="36" height="22" rx="5" fill="url(#hcap1)"/>
+        <rect x="66" y="12" width="28" height="12" rx="4" fill="#2a2a2a"/>
+        <line x1="63" y1="27" x2="97" y2="27" stroke="rgba(255,255,255,0.12)" stroke-width="1"/>
+        <line x1="63" y1="32" x2="97" y2="32" stroke="rgba(255,255,255,0.12)" stroke-width="1"/>
+        <line x1="63" y1="37" x2="97" y2="37" stroke="rgba(255,255,255,0.12)" stroke-width="1"/>
+        <ellipse cx="80" cy="44" rx="19" ry="5" fill="rgba(0,0,0,0.18)"/>
+        <ellipse cx="95" cy="158" rx="22" ry="7" fill="rgba(255,255,255,0.08)"/>
+      </svg>
+
+      <!-- Cítrico Dourado -->
+      <svg viewBox="0 0 160 200" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <radialGradient id="hg2" cx="35%" cy="30%" r="65%">
+            <stop offset="0%" stop-color="#FFD86E"/>
+            <stop offset="60%" stop-color="#FF8C00"/>
+            <stop offset="100%" stop-color="#B85C00"/>
+          </radialGradient>
+          <radialGradient id="hcap2" cx="50%" cy="40%" r="60%">
+            <stop offset="0%" stop-color="#666"/>
+            <stop offset="100%" stop-color="#222"/>
+          </radialGradient>
+        </defs>
+        <ellipse cx="80" cy="186" rx="44" ry="8" fill="rgba(0,0,0,0.12)"/>
+        <circle cx="80" cy="104" r="72" fill="url(#hg2)"/>
+        <rect x="8" y="88" width="144" height="32" rx="4" fill="rgba(255,255,255,0.13)"/>
+        <text x="80" y="103" text-anchor="middle" font-family="Barlow Condensed,sans-serif" font-weight="800" font-size="13" fill="white" letter-spacing="2">CÍTRICO</text>
+        <text x="80" y="117" text-anchor="middle" font-family="Barlow Condensed,sans-serif" font-weight="700" font-size="10" fill="rgba(255,255,255,0.85)" letter-spacing="1.5">DOURADO</text>
+        <ellipse cx="52" cy="72" rx="24" ry="14" fill="rgba(255,255,255,0.3)" transform="rotate(-20 52 72)"/>
+        <circle cx="44" cy="62" r="9" fill="rgba(255,255,255,0.2)"/>
+        <rect x="62" y="22" width="36" height="22" rx="5" fill="url(#hcap2)"/>
+        <rect x="66" y="12" width="28" height="12" rx="4" fill="#2a2a2a"/>
+        <line x1="63" y1="27" x2="97" y2="27" stroke="rgba(255,255,255,0.12)" stroke-width="1"/>
+        <line x1="63" y1="32" x2="97" y2="32" stroke="rgba(255,255,255,0.12)" stroke-width="1"/>
+        <line x1="63" y1="37" x2="97" y2="37" stroke="rgba(255,255,255,0.12)" stroke-width="1"/>
+        <ellipse cx="80" cy="44" rx="19" ry="5" fill="rgba(0,0,0,0.18)"/>
+        <ellipse cx="95" cy="158" rx="22" ry="7" fill="rgba(255,255,255,0.08)"/>
+      </svg>
+
+      <!-- Lagoa Azul -->
+      <svg viewBox="0 0 160 200" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <radialGradient id="hg3" cx="35%" cy="30%" r="65%">
+            <stop offset="0%" stop-color="#6ED4FF"/>
+            <stop offset="60%" stop-color="#0088CC"/>
+            <stop offset="100%" stop-color="#004A88"/>
+          </radialGradient>
+          <radialGradient id="hcap3" cx="50%" cy="40%" r="60%">
+            <stop offset="0%" stop-color="#555"/>
+            <stop offset="100%" stop-color="#222"/>
+          </radialGradient>
+        </defs>
+        <ellipse cx="80" cy="186" rx="44" ry="8" fill="rgba(0,0,0,0.12)"/>
+        <circle cx="80" cy="104" r="72" fill="url(#hg3)"/>
+        <rect x="8" y="88" width="144" height="32" rx="4" fill="rgba(255,255,255,0.13)"/>
+        <text x="80" y="103" text-anchor="middle" font-family="Barlow Condensed,sans-serif" font-weight="800" font-size="13" fill="white" letter-spacing="2">LAGOA</text>
+        <text x="80" y="117" text-anchor="middle" font-family="Barlow Condensed,sans-serif" font-weight="700" font-size="10" fill="rgba(255,255,255,0.85)" letter-spacing="1.5">AZUL</text>
+        <ellipse cx="52" cy="72" rx="24" ry="14" fill="rgba(255,255,255,0.28)" transform="rotate(-20 52 72)"/>
+        <circle cx="44" cy="62" r="9" fill="rgba(255,255,255,0.18)"/>
+        <rect x="62" y="22" width="36" height="22" rx="5" fill="url(#hcap3)"/>
+        <rect x="66" y="12" width="28" height="12" rx="4" fill="#2a2a2a"/>
+        <line x1="63" y1="27" x2="97" y2="27" stroke="rgba(255,255,255,0.12)" stroke-width="1"/>
+        <line x1="63" y1="32" x2="97" y2="32" stroke="rgba(255,255,255,0.12)" stroke-width="1"/>
+        <line x1="63" y1="37" x2="97" y2="37" stroke="rgba(255,255,255,0.12)" stroke-width="1"/>
+        <ellipse cx="80" cy="44" rx="19" ry="5" fill="rgba(0,0,0,0.18)"/>
+        <ellipse cx="95" cy="158" rx="22" ry="7" fill="rgba(255,255,255,0.08)"/>
+      </svg>
+
+      <!-- Manga Ardente -->
+      <svg viewBox="0 0 160 200" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <radialGradient id="hg4" cx="35%" cy="30%" r="65%">
+            <stop offset="0%" stop-color="#FFAB6E"/>
+            <stop offset="60%" stop-color="#E05000"/>
+            <stop offset="100%" stop-color="#8B2200"/>
+          </radialGradient>
+          <radialGradient id="hcap4" cx="50%" cy="40%" r="60%">
+            <stop offset="0%" stop-color="#555"/>
+            <stop offset="100%" stop-color="#222"/>
+          </radialGradient>
+        </defs>
+        <ellipse cx="80" cy="186" rx="44" ry="8" fill="rgba(0,0,0,0.12)"/>
+        <circle cx="80" cy="104" r="72" fill="url(#hg4)"/>
+        <rect x="8" y="88" width="144" height="32" rx="4" fill="rgba(255,255,255,0.13)"/>
+        <text x="80" y="103" text-anchor="middle" font-family="Barlow Condensed,sans-serif" font-weight="800" font-size="13" fill="white" letter-spacing="2">MANGA</text>
+        <text x="80" y="117" text-anchor="middle" font-family="Barlow Condensed,sans-serif" font-weight="700" font-size="10" fill="rgba(255,255,255,0.85)" letter-spacing="1.5">ARDENTE</text>
+        <ellipse cx="52" cy="72" rx="24" ry="14" fill="rgba(255,255,255,0.28)" transform="rotate(-20 52 72)"/>
+        <circle cx="44" cy="62" r="9" fill="rgba(255,255,255,0.18)"/>
+        <rect x="62" y="22" width="36" height="22" rx="5" fill="url(#hcap4)"/>
+        <rect x="66" y="12" width="28" height="12" rx="4" fill="#2a2a2a"/>
+        <line x1="63" y1="27" x2="97" y2="27" stroke="rgba(255,255,255,0.12)" stroke-width="1"/>
+        <line x1="63" y1="32" x2="97" y2="32" stroke="rgba(255,255,255,0.12)" stroke-width="1"/>
+        <line x1="63" y1="37" x2="97" y2="37" stroke="rgba(255,255,255,0.12)" stroke-width="1"/>
+        <ellipse cx="80" cy="44" rx="19" ry="5" fill="rgba(0,0,0,0.18)"/>
+        <ellipse cx="95" cy="158" rx="22" ry="7" fill="rgba(255,255,255,0.08)"/>
+      </svg>
+
+    </div><!-- /hero-products -->
+  </div>
+</section>
+
+<!-- STRIP -->
+<div class="strip">
+  <div class="strip-track">
+    <span class="strip-item"><span class="strip-dot"></span>PRONTO PRA BEBER</span>
+    <span class="strip-item"><span class="strip-dot"></span>15% TEOR ALCOÓLICO</span>
+    <span class="strip-item"><span class="strip-dot"></span>12+ SABORES</span>
+    <span class="strip-item"><span class="strip-dot"></span>INGREDIENTES NATURAIS</span>
+    <span class="strip-item"><span class="strip-dot"></span>PERFEITO PRA FESTAS</span>
+    <span class="strip-item"><span class="strip-dot"></span>PRONTO PRA BEBER</span>
+    <span class="strip-item"><span class="strip-dot"></span>15% TEOR ALCOÓLICO</span>
+    <span class="strip-item"><span class="strip-dot"></span>12+ SABORES</span>
+    <span class="strip-item"><span class="strip-dot"></span>INGREDIENTES NATURAIS</span>
+    <span class="strip-item"><span class="strip-dot"></span>PERFEITO PRA FESTAS</span>
+  </div>
+</div>
+
+<!-- LIFESTYLE FULL-WIDTH -->
+<section id="lifestyle">
+  <img class="lifestyle-img"
+       src="https://images.unsplash.com/photo-1527529482837-4698179dc6ce?w=1920&q=80&auto=format&fit=crop"
+       alt="Amigos celebrando com drinks">
+  <div class="lifestyle-overlay"></div>
+  <div class="lifestyle-content reveal">
+    <h2>Leve pra<br>Qualquer Momento</h2>
+    <p>Praia, festa, piquenique ou só uma sexta à noite. A bola vai onde você vai.</p>
+    <a href="#produtos" class="btn-light">Ver Sabores</a>
+  </div>
+</section>
+
+<!-- PRODUTOS -->
+<section id="produtos">
+  <div class="section-inner">
+    <div class="section-header reveal">
+      <div class="eyebrow">Nossos Sabores</div>
+      <h2>Escolha sua Vibe</h2>
+      <p>Cada ball, um sabor diferente. Qual é a sua?</p>
+    </div>
+    <div class="filters reveal">
+      <button class="filter-btn active" onclick="filterProducts('all',this)">Todos</button>
+      <button class="filter-btn" onclick="filterProducts('classico',this)">Clássicos</button>
+      <button class="filter-btn" onclick="filterProducts('tropical',this)">Tropicais</button>
+      <button class="filter-btn" onclick="filterProducts('especial',this)">Especiais</button>
+      <button class="filter-btn" onclick="filterProducts('novo',this)">Novidades</button>
+    </div>
+
+    <div class="product-grid" id="product-grid">
+
+      <!-- 1 Frutas Vermelhas -->
+      <div class="product-card reveal" data-cat="classico">
+        <svg viewBox="0 0 160 200" xmlns="http://www.w3.org/2000/svg">
+          <defs><radialGradient id="pg1" cx="35%" cy="30%" r="65%"><stop offset="0%" stop-color="#FF8DC7"/><stop offset="60%" stop-color="#E0005A"/><stop offset="100%" stop-color="#8B0040"/></radialGradient><radialGradient id="pc1" cx="50%" cy="40%" r="60%"><stop offset="0%" stop-color="#555"/><stop offset="100%" stop-color="#222"/></radialGradient></defs>
+          <ellipse cx="80" cy="186" rx="44" ry="8" fill="rgba(0,0,0,0.1)"/>
+          <circle cx="80" cy="104" r="72" fill="url(#pg1)"/>
+          <rect x="8" y="88" width="144" height="32" rx="4" fill="rgba(255,255,255,0.14)"/>
+          <text x="80" y="103" text-anchor="middle" font-family="Barlow Condensed,sans-serif" font-weight="800" font-size="13" fill="white" letter-spacing="2">FRUTAS</text>
+          <text x="80" y="117" text-anchor="middle" font-family="Barlow Condensed,sans-serif" font-weight="700" font-size="10" fill="rgba(255,255,255,0.82)" letter-spacing="1.5">VERMELHAS</text>
+          <ellipse cx="52" cy="72" rx="24" ry="14" fill="rgba(255,255,255,0.28)" transform="rotate(-20 52 72)"/>
+          <circle cx="44" cy="62" r="9" fill="rgba(255,255,255,0.18)"/>
+          <rect x="62" y="22" width="36" height="22" rx="5" fill="url(#pc1)"/>
+          <rect x="66" y="12" width="28" height="12" rx="4" fill="#2a2a2a"/>
+          <line x1="63" y1="27" x2="97" y2="27" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+          <line x1="63" y1="33" x2="97" y2="33" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+          <ellipse cx="80" cy="44" rx="19" ry="5" fill="rgba(0,0,0,0.16)"/>
+        </svg>
+        <div class="product-name">Frutas Vermelhas</div>
+        <div class="product-flavor">Morango + Framboesa</div>
+        <div class="abv-pill">15% T.A.</div>
+        <div class="stars">★★★★★</div>
+        <div class="review-count">621 avaliações</div>
+        <button class="btn-card">Ver Detalhes</button>
+      </div>
+
+      <!-- 2 Cítrico Dourado -->
+      <div class="product-card reveal" data-cat="tropical">
+        <svg viewBox="0 0 160 200" xmlns="http://www.w3.org/2000/svg">
+          <defs><radialGradient id="pg2" cx="35%" cy="30%" r="65%"><stop offset="0%" stop-color="#FFD86E"/><stop offset="60%" stop-color="#FF8C00"/><stop offset="100%" stop-color="#B85C00"/></radialGradient><radialGradient id="pc2" cx="50%" cy="40%" r="60%"><stop offset="0%" stop-color="#555"/><stop offset="100%" stop-color="#222"/></radialGradient></defs>
+          <ellipse cx="80" cy="186" rx="44" ry="8" fill="rgba(0,0,0,0.1)"/>
+          <circle cx="80" cy="104" r="72" fill="url(#pg2)"/>
+          <rect x="8" y="88" width="144" height="32" rx="4" fill="rgba(255,255,255,0.14)"/>
+          <text x="80" y="103" text-anchor="middle" font-family="Barlow Condensed,sans-serif" font-weight="800" font-size="13" fill="white" letter-spacing="2">CÍTRICO</text>
+          <text x="80" y="117" text-anchor="middle" font-family="Barlow Condensed,sans-serif" font-weight="700" font-size="10" fill="rgba(255,255,255,0.85)" letter-spacing="1.5">DOURADO</text>
+          <ellipse cx="52" cy="72" rx="24" ry="14" fill="rgba(255,255,255,0.3)" transform="rotate(-20 52 72)"/>
+          <circle cx="44" cy="62" r="9" fill="rgba(255,255,255,0.2)"/>
+          <rect x="62" y="22" width="36" height="22" rx="5" fill="url(#pc2)"/>
+          <rect x="66" y="12" width="28" height="12" rx="4" fill="#2a2a2a"/>
+          <line x1="63" y1="27" x2="97" y2="27" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+          <line x1="63" y1="33" x2="97" y2="33" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+          <ellipse cx="80" cy="44" rx="19" ry="5" fill="rgba(0,0,0,0.16)"/>
+        </svg>
+        <div class="product-name">Cítrico Dourado</div>
+        <div class="product-flavor">Laranja + Maracujá</div>
+        <div class="abv-pill">15% T.A.</div>
+        <div class="stars">★★★★★</div>
+        <div class="review-count">488 avaliações</div>
+        <button class="btn-card">Ver Detalhes</button>
+      </div>
+
+      <!-- 3 Lagoa Azul -->
+      <div class="product-card reveal" data-cat="classico">
+        <svg viewBox="0 0 160 200" xmlns="http://www.w3.org/2000/svg">
+          <defs><radialGradient id="pg3" cx="35%" cy="30%" r="65%"><stop offset="0%" stop-color="#6ED4FF"/><stop offset="60%" stop-color="#0088CC"/><stop offset="100%" stop-color="#004A88"/></radialGradient><radialGradient id="pc3" cx="50%" cy="40%" r="60%"><stop offset="0%" stop-color="#555"/><stop offset="100%" stop-color="#222"/></radialGradient></defs>
+          <ellipse cx="80" cy="186" rx="44" ry="8" fill="rgba(0,0,0,0.1)"/>
+          <circle cx="80" cy="104" r="72" fill="url(#pg3)"/>
+          <rect x="8" y="88" width="144" height="32" rx="4" fill="rgba(255,255,255,0.14)"/>
+          <text x="80" y="103" text-anchor="middle" font-family="Barlow Condensed,sans-serif" font-weight="800" font-size="13" fill="white" letter-spacing="2">LAGOA</text>
+          <text x="80" y="117" text-anchor="middle" font-family="Barlow Condensed,sans-serif" font-weight="700" font-size="10" fill="rgba(255,255,255,0.85)" letter-spacing="1.5">AZUL</text>
+          <ellipse cx="52" cy="72" rx="24" ry="14" fill="rgba(255,255,255,0.28)" transform="rotate(-20 52 72)"/>
+          <circle cx="44" cy="62" r="9" fill="rgba(255,255,255,0.18)"/>
+          <rect x="62" y="22" width="36" height="22" rx="5" fill="url(#pc3)"/>
+          <rect x="66" y="12" width="28" height="12" rx="4" fill="#2a2a2a"/>
+          <line x1="63" y1="27" x2="97" y2="27" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+          <line x1="63" y1="33" x2="97" y2="33" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+          <ellipse cx="80" cy="44" rx="19" ry="5" fill="rgba(0,0,0,0.16)"/>
+        </svg>
+        <div class="product-name">Lagoa Azul</div>
+        <div class="product-flavor">Mirtilo + Limão</div>
+        <div class="abv-pill">15% T.A.</div>
+        <div class="stars">★★★★★</div>
+        <div class="review-count">354 avaliações</div>
+        <button class="btn-card">Ver Detalhes</button>
+      </div>
+
+      <!-- 4 Kiwi Limão -->
+      <div class="product-card reveal" data-cat="tropical">
+        <svg viewBox="0 0 160 200" xmlns="http://www.w3.org/2000/svg">
+          <defs><radialGradient id="pg4" cx="35%" cy="30%" r="65%"><stop offset="0%" stop-color="#AAEE66"/><stop offset="60%" stop-color="#4CA800"/><stop offset="100%" stop-color="#2A6600"/></radialGradient><radialGradient id="pc4" cx="50%" cy="40%" r="60%"><stop offset="0%" stop-color="#555"/><stop offset="100%" stop-color="#222"/></radialGradient></defs>
+          <ellipse cx="80" cy="186" rx="44" ry="8" fill="rgba(0,0,0,0.1)"/>
+          <circle cx="80" cy="104" r="72" fill="url(#pg4)"/>
+          <rect x="8" y="88" width="144" height="32" rx="4" fill="rgba(255,255,255,0.14)"/>
+          <text x="80" y="103" text-anchor="middle" font-family="Barlow Condensed,sans-serif" font-weight="800" font-size="13" fill="white" letter-spacing="2">KIWI</text>
+          <text x="80" y="117" text-anchor="middle" font-family="Barlow Condensed,sans-serif" font-weight="700" font-size="10" fill="rgba(255,255,255,0.85)" letter-spacing="1.5">LIMÃO</text>
+          <ellipse cx="52" cy="72" rx="24" ry="14" fill="rgba(255,255,255,0.28)" transform="rotate(-20 52 72)"/>
+          <circle cx="44" cy="62" r="9" fill="rgba(255,255,255,0.18)"/>
+          <rect x="62" y="22" width="36" height="22" rx="5" fill="url(#pc4)"/>
+          <rect x="66" y="12" width="28" height="12" rx="4" fill="#2a2a2a"/>
+          <line x1="63" y1="27" x2="97" y2="27" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+          <line x1="63" y1="33" x2="97" y2="33" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+          <ellipse cx="80" cy="44" rx="19" ry="5" fill="rgba(0,0,0,0.16)"/>
+        </svg>
+        <div class="product-name">Kiwi Limão</div>
+        <div class="product-flavor">Kiwi + Limão Siciliano</div>
+        <div class="abv-pill">15% T.A.</div>
+        <div class="stars">★★★★☆</div>
+        <div class="review-count">239 avaliações</div>
+        <button class="btn-card">Ver Detalhes</button>
+      </div>
+
+      <!-- 5 Manga Ardente -->
+      <div class="product-card reveal" data-cat="especial">
+        <svg viewBox="0 0 160 200" xmlns="http://www.w3.org/2000/svg">
+          <defs><radialGradient id="pg5" cx="35%" cy="30%" r="65%"><stop offset="0%" stop-color="#FFAB6E"/><stop offset="60%" stop-color="#E05000"/><stop offset="100%" stop-color="#8B2200"/></radialGradient><radialGradient id="pc5" cx="50%" cy="40%" r="60%"><stop offset="0%" stop-color="#555"/><stop offset="100%" stop-color="#222"/></radialGradient></defs>
+          <ellipse cx="80" cy="186" rx="44" ry="8" fill="rgba(0,0,0,0.1)"/>
+          <circle cx="80" cy="104" r="72" fill="url(#pg5)"/>
+          <rect x="8" y="88" width="144" height="32" rx="4" fill="rgba(255,255,255,0.14)"/>
+          <text x="80" y="103" text-anchor="middle" font-family="Barlow Condensed,sans-serif" font-weight="800" font-size="13" fill="white" letter-spacing="2">MANGA</text>
+          <text x="80" y="117" text-anchor="middle" font-family="Barlow Condensed,sans-serif" font-weight="700" font-size="10" fill="rgba(255,255,255,0.85)" letter-spacing="1.5">ARDENTE</text>
+          <ellipse cx="52" cy="72" rx="24" ry="14" fill="rgba(255,255,255,0.28)" transform="rotate(-20 52 72)"/>
+          <circle cx="44" cy="62" r="9" fill="rgba(255,255,255,0.18)"/>
+          <rect x="62" y="22" width="36" height="22" rx="5" fill="url(#pc5)"/>
+          <rect x="66" y="12" width="28" height="12" rx="4" fill="#2a2a2a"/>
+          <line x1="63" y1="27" x2="97" y2="27" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+          <line x1="63" y1="33" x2="97" y2="33" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+          <ellipse cx="80" cy="44" rx="19" ry="5" fill="rgba(0,0,0,0.16)"/>
+        </svg>
+        <div class="product-name">Manga Ardente</div>
+        <div class="product-flavor">Manga + Pimenta</div>
+        <div class="abv-pill">15% T.A.</div>
+        <div class="stars">★★★★★</div>
+        <div class="review-count">176 avaliações</div>
+        <button class="btn-card">Ver Detalhes</button>
+      </div>
+
+      <!-- 6 Chuva Roxa -->
+      <div class="product-card reveal" data-cat="especial">
+        <svg viewBox="0 0 160 200" xmlns="http://www.w3.org/2000/svg">
+          <defs><radialGradient id="pg6" cx="35%" cy="30%" r="65%"><stop offset="0%" stop-color="#D4A1FF"/><stop offset="60%" stop-color="#8B00CC"/><stop offset="100%" stop-color="#4A007A"/></radialGradient><radialGradient id="pc6" cx="50%" cy="40%" r="60%"><stop offset="0%" stop-color="#555"/><stop offset="100%" stop-color="#222"/></radialGradient></defs>
+          <ellipse cx="80" cy="186" rx="44" ry="8" fill="rgba(0,0,0,0.1)"/>
+          <circle cx="80" cy="104" r="72" fill="url(#pg6)"/>
+          <rect x="8" y="88" width="144" height="32" rx="4" fill="rgba(255,255,255,0.14)"/>
+          <text x="80" y="103" text-anchor="middle" font-family="Barlow Condensed,sans-serif" font-weight="800" font-size="13" fill="white" letter-spacing="2">CHUVA</text>
+          <text x="80" y="117" text-anchor="middle" font-family="Barlow Condensed,sans-serif" font-weight="700" font-size="10" fill="rgba(255,255,255,0.85)" letter-spacing="1.5">ROXA</text>
+          <ellipse cx="52" cy="72" rx="24" ry="14" fill="rgba(255,255,255,0.28)" transform="rotate(-20 52 72)"/>
+          <circle cx="44" cy="62" r="9" fill="rgba(255,255,255,0.18)"/>
+          <rect x="62" y="22" width="36" height="22" rx="5" fill="url(#pc6)"/>
+          <rect x="66" y="12" width="28" height="12" rx="4" fill="#2a2a2a"/>
+          <line x1="63" y1="27" x2="97" y2="27" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+          <line x1="63" y1="33" x2="97" y2="33" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+          <ellipse cx="80" cy="44" rx="19" ry="5" fill="rgba(0,0,0,0.16)"/>
+        </svg>
+        <div class="product-name">Chuva Roxa</div>
+        <div class="product-flavor">Uva + Lavanda</div>
+        <div class="abv-pill">15% T.A.</div>
+        <div class="stars">★★★★☆</div>
+        <div class="review-count">98 avaliações</div>
+        <button class="btn-card">Ver Detalhes</button>
+      </div>
+
+      <!-- 7 Bomba de Cereja -->
+      <div class="product-card reveal" data-cat="novo">
+        <span class="new-badge">Novo</span>
+        <svg viewBox="0 0 160 200" xmlns="http://www.w3.org/2000/svg">
+          <defs><radialGradient id="pg7" cx="35%" cy="30%" r="65%"><stop offset="0%" stop-color="#FF8080"/><stop offset="60%" stop-color="#CC0022"/><stop offset="100%" stop-color="#6B0010"/></radialGradient><radialGradient id="pc7" cx="50%" cy="40%" r="60%"><stop offset="0%" stop-color="#555"/><stop offset="100%" stop-color="#222"/></radialGradient></defs>
+          <ellipse cx="80" cy="186" rx="44" ry="8" fill="rgba(0,0,0,0.1)"/>
+          <circle cx="80" cy="104" r="72" fill="url(#pg7)"/>
+          <rect x="8" y="88" width="144" height="32" rx="4" fill="rgba(255,255,255,0.14)"/>
+          <text x="80" y="103" text-anchor="middle" font-family="Barlow Condensed,sans-serif" font-weight="800" font-size="11" fill="white" letter-spacing="1.5">BOMBA DE</text>
+          <text x="80" y="117" text-anchor="middle" font-family="Barlow Condensed,sans-serif" font-weight="700" font-size="10" fill="rgba(255,255,255,0.85)" letter-spacing="1.5">CEREJA</text>
+          <ellipse cx="52" cy="72" rx="24" ry="14" fill="rgba(255,255,255,0.28)" transform="rotate(-20 52 72)"/>
+          <circle cx="44" cy="62" r="9" fill="rgba(255,255,255,0.18)"/>
+          <rect x="62" y="22" width="36" height="22" rx="5" fill="url(#pc7)"/>
+          <rect x="66" y="12" width="28" height="12" rx="4" fill="#2a2a2a"/>
+          <line x1="63" y1="27" x2="97" y2="27" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+          <line x1="63" y1="33" x2="97" y2="33" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+          <ellipse cx="80" cy="44" rx="19" ry="5" fill="rgba(0,0,0,0.16)"/>
+        </svg>
+        <div class="product-name">Bomba de Cereja</div>
+        <div class="product-flavor">Cereja + Hibisco</div>
+        <div class="abv-pill">15% T.A.</div>
+        <div class="stars">★★★★★</div>
+        <div class="review-count">43 avaliações</div>
+        <button class="btn-card">Ver Detalhes</button>
+      </div>
+
+      <!-- 8 Respingo de Menta -->
+      <div class="product-card reveal" data-cat="novo">
+        <span class="new-badge">Novo</span>
+        <svg viewBox="0 0 160 200" xmlns="http://www.w3.org/2000/svg">
+          <defs><radialGradient id="pg8" cx="35%" cy="30%" r="65%"><stop offset="0%" stop-color="#7EEEDD"/><stop offset="60%" stop-color="#00AA88"/><stop offset="100%" stop-color="#006655"/></radialGradient><radialGradient id="pc8" cx="50%" cy="40%" r="60%"><stop offset="0%" stop-color="#555"/><stop offset="100%" stop-color="#222"/></radialGradient></defs>
+          <ellipse cx="80" cy="186" rx="44" ry="8" fill="rgba(0,0,0,0.1)"/>
+          <circle cx="80" cy="104" r="72" fill="url(#pg8)"/>
+          <rect x="8" y="88" width="144" height="32" rx="4" fill="rgba(255,255,255,0.14)"/>
+          <text x="80" y="103" text-anchor="middle" font-family="Barlow Condensed,sans-serif" font-weight="800" font-size="11" fill="white" letter-spacing="1.5">RESPINGO</text>
+          <text x="80" y="117" text-anchor="middle" font-family="Barlow Condensed,sans-serif" font-weight="700" font-size="10" fill="rgba(255,255,255,0.85)" letter-spacing="1.5">DE MENTA</text>
+          <ellipse cx="52" cy="72" rx="24" ry="14" fill="rgba(255,255,255,0.28)" transform="rotate(-20 52 72)"/>
+          <circle cx="44" cy="62" r="9" fill="rgba(255,255,255,0.18)"/>
+          <rect x="62" y="22" width="36" height="22" rx="5" fill="url(#pc8)"/>
+          <rect x="66" y="12" width="28" height="12" rx="4" fill="#2a2a2a"/>
+          <line x1="63" y1="27" x2="97" y2="27" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+          <line x1="63" y1="33" x2="97" y2="33" stroke="rgba(255,255,255,0.1)" stroke-width="1"/>
+          <ellipse cx="80" cy="44" rx="19" ry="5" fill="rgba(0,0,0,0.16)"/>
+        </svg>
+        <div class="product-name">Respingo de Menta</div>
+        <div class="product-flavor">Menta + Pepino</div>
+        <div class="abv-pill">15% T.A.</div>
+        <div class="stars">★★★★☆</div>
+        <div class="review-count">27 avaliações</div>
+        <button class="btn-card">Ver Detalhes</button>
+      </div>
+
+    </div><!-- /product-grid -->
+  </div>
+</section>
+
+<!-- MOMENTOS -->
+<section id="momentos">
+  <div class="section-inner">
+    <div class="section-header reveal">
+      <div class="eyebrow">Sua Vibe, Seu Momento</div>
+      <h2>Em Todo Lugar</h2>
+      <p>Cada ocasião pede uma bola diferente. Qual é a sua?</p>
+    </div>
+
+    <div class="momentos-grid reveal">
+
+      <div class="momento">
+        <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1200&q=80&auto=format&fit=crop"
+             alt="Na praia">
+        <div class="momento-overlay"></div>
+        <span class="momento-tag">☀️ Verão</span>
+        <div class="momento-label">Na Praia</div>
+      </div>
+
+      <div class="momento">
+        <img src="https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?w=800&q=80&auto=format&fit=crop"
+             alt="Na festa">
+        <div class="momento-overlay"></div>
+        <span class="momento-tag">🎉 Festa</span>
+        <div class="momento-label">Na Balada</div>
+      </div>
+
+      <div class="momento">
+        <img src="https://images.unsplash.com/photo-1529543544282-ea669407fca3?w=800&q=80&auto=format&fit=crop"
+             alt="No piquenique">
+        <div class="momento-overlay"></div>
+        <span class="momento-tag">🌿 Casual</span>
+        <div class="momento-label">No Piquenique</div>
+      </div>
+
+      <div class="momento">
+        <img src="https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?w=800&q=80&auto=format&fit=crop"
+             alt="No festival">
+        <div class="momento-overlay"></div>
+        <span class="momento-tag">🎵 Festival</span>
+        <div class="momento-label">No Festival</div>
+      </div>
+
+      <div class="momento">
+        <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&q=80&auto=format&fit=crop"
+             alt="No churrasco">
+        <div class="momento-overlay"></div>
+        <span class="momento-tag">🔥 Final de Semana</span>
+        <div class="momento-label">No Churrasco</div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- MISSÃO -->
+<section id="missao">
+  <div class="section-inner">
+    <div class="section-header reveal">
+      <div class="eyebrow">Nossa Missão</div>
+      <h2>Por Trás da Bola</h2>
+      <p>Mais que uma bebida — um propósito.</p>
+    </div>
+    <div class="pillars">
+      <div class="pillar reveal">
+        <div class="pillar-icon">💜</div>
+        <h3>Fundado com Paixão</h3>
+        <p>Criado por quem vive a cultura das festas e entende o que o mercado pede: praticidade sem abrir mão do sabor.</p>
+      </div>
+      <div class="pillar reveal">
+        <div class="pillar-icon">🌿</div>
+        <h3>Ingredientes Naturais</h3>
+        <p>Sem aromas artificiais. Sabores reais que você reconhece. Bebida boa começa com matéria-prima de verdade.</p>
+      </div>
+      <div class="pillar reveal">
+        <div class="pillar-icon">♻️</div>
+        <h3>Sustentabilidade</h3>
+        <p>Embalagem pensada para minimizar impacto. Comprometidos com um futuro mais responsável, um ball de cada vez.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CLUBE -->
+<section id="clube">
+  <div class="section-inner">
+    <div class="clube-inner">
+      <div class="clube-text reveal">
+        <span class="clube-eyebrow">BallClub</span>
+        <h2>Faça Parte do Clube</h2>
+        <p>Acumule pontos a cada compra, troque por produtos exclusivos e acesse novidades antes de todo mundo.</p>
+        <div class="benefits">
+          <div class="benefit-row">
+            <span class="ben-icon">⭐</span>
+            <div class="ben-info"><strong>Ganhe Ballpoints</strong><span>Pontos a cada compra realizada</span></div>
+          </div>
+          <div class="benefit-row">
+            <span class="ben-icon">🎁</span>
+            <div class="ben-info"><strong>Troque por Exclusivos</strong><span>Merchs, kits e produtos especiais</span></div>
+          </div>
+          <div class="benefit-row">
+            <span class="ben-icon">🔑</span>
+            <div class="ben-info"><strong>Acesso Antecipado</strong><span>Lançamentos em primeira mão</span></div>
+          </div>
+        </div>
+        <a href="#" class="btn-primary" onclick="showToast('Em breve! 🎉'); return false;">Quero Entrar</a>
+      </div>
+      <div class="clube-card-wrap reveal">
+        <div class="clube-card">
+          <div class="cc-label">Membro BallClub</div>
+          <div class="cc-name">Seu Nome Aqui</div>
+          <div class="cc-pts">1.250</div>
+          <div class="cc-pts-label">Ballpoints Disponíveis</div>
+          <div class="cc-ball"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- DEPOIMENTOS -->
+<section id="depoimentos">
+  <div class="section-inner">
+    <div class="section-header reveal">
+      <div class="eyebrow">Quem Já Provou</div>
+      <h2>A Galera Aprovou 🔥</h2>
+      <p>Mais de 2.000 avaliações. A bola rolou e o povo amou.</p>
+    </div>
+    <div class="reviews-grid">
+      <div class="review-card reveal">
+        <div class="rv-stars">★★★★★</div>
+        <p class="rv-text">"Levei pro churrasco e todo mundo perguntou onde comprei. Frutas Vermelhas é incrível — parece um drinque de bar, mas é só abrir e tomar."</p>
+        <div class="rv-author">
+          <div class="rv-avatar" style="background:radial-gradient(circle at 35% 30%,#FF8DC7,#C70064);"></div>
+          <div><div class="rv-name">Ana Beatriz S.</div><div class="rv-city">São Paulo, SP</div></div>
+        </div>
+      </div>
+      <div class="review-card reveal">
+        <div class="rv-stars">★★★★★</div>
+        <p class="rv-text">"Perfeito pra festival. Cabe no bolso, não precisa de gelo e o teor é generoso. Manga Ardente virou meu favorito absoluto."</p>
+        <div class="rv-author">
+          <div class="rv-avatar" style="background:radial-gradient(circle at 35% 30%,#FFAB6E,#E05000);"></div>
+          <div><div class="rv-name">Rafael M.</div><div class="rv-city">Rio de Janeiro, RJ</div></div>
+        </div>
+      </div>
+      <div class="review-card reveal">
+        <div class="rv-stars">★★★★★</div>
+        <p class="rv-text">"Finalmente uma bebida pronta que não parece suco aguado. Lagoa Azul tem sabor real, não adoça demais e o design é lindo. Já comprei a segunda caixa!"</p>
+        <div class="rv-author">
+          <div class="rv-avatar" style="background:radial-gradient(circle at 35% 30%,#6ED4FF,#0088CC);"></div>
+          <div><div class="rv-name">Camila T.</div><div class="rv-city">Florianópolis, SC</div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ONDE COMPRAR -->
+<section id="onde">
+  <div class="onde-inner">
+    <div class="eyebrow reveal">Onde Comprar</div>
+    <h2 class="reveal">Onde Você Estiver,<br>a Bola Chega</h2>
+    <p class="reveal">Disponível nas principais redes do Brasil e com entrega rápida pelo nosso site.</p>
+    <div class="stores reveal">
+      <div class="store-tag">iFood</div>
+      <div class="store-tag">Rappi</div>
+      <div class="store-tag">Mercadão</div>
+      <div class="store-tag">Pão de Açúcar</div>
+      <div class="store-tag">Extra</div>
+    </div>
+    <p class="reveal" style="font-size:.85rem;color:var(--muted);font-weight:600;margin-bottom:14px;">Ou encontre o ponto de venda mais perto de você:</p>
+    <div class="cep-row reveal">
+      <input type="text" class="cep-input" placeholder="Digite seu CEP...">
+      <button class="btn-primary" style="padding:13px 24px;white-space:nowrap" onclick="showToast('📍 Em breve nessa região!')">Buscar</button>
+    </div>
+  </div>
+</section>
+
+<!-- NEWSLETTER -->
+<section id="newsletter">
+  <div class="nl-inner">
+    <div class="eyebrow">Fique por Dentro</div>
+    <h2>Novidades Direto<br>pra Você</h2>
+    <p>Novos sabores, promoções e muito mais. Sem spam — só vibe boa.</p>
+    <div class="nl-form">
+      <input type="email" class="nl-input" placeholder="seu@email.com">
+      <button class="btn-nl" onclick="showToast('✅ Inscrito com sucesso!')">Inscrever</button>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <div class="logo"><div class="logo-ball"></div>BallDrink</div>
+      <p>Coquetéis prontos pra beber. Criados pra quem curte sabor de verdade, sem complicação.</p>
+    </div>
+    <div class="fcol">
+      <h4>Produtos</h4>
+      <ul>
+        <li><a href="#">Clássicos</a></li>
+        <li><a href="#">Tropicais</a></li>
+        <li><a href="#">Especiais</a></li>
+        <li><a href="#">Novidades</a></li>
+      </ul>
+    </div>
+    <div class="fcol">
+      <h4>Empresa</h4>
+      <ul>
+        <li><a href="#">Nossa História</a></li>
+        <li><a href="#">Eventos</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Distribuidores</a></li>
+      </ul>
+    </div>
+    <div class="fcol">
+      <h4>Contato</h4>
+      <ul>
+        <li><a href="#">Fale Conosco</a></li>
+        <li><a href="#">Perguntas Frequentes</a></li>
+        <li><a href="#">Imprensa</a></li>
+        <li><a href="#">Parcerias</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© 2025 BallDrink. Todos os direitos reservados.</p>
+    <div class="footer-legal">
+      <a href="#">Privacidade</a>
+      <a href="#">Termos de Uso</a>
+      <a href="#">Política de Cookies</a>
+    </div>
+  </div>
+</footer>
+
+<div class="age-bar">
+  Beba com responsabilidade. Venda e consumo de bebidas alcoólicas são proibidos para menores de 18 anos. Não dirija após beber.
+</div>
+
+<div class="toast" id="toast"></div>
+
+<script>
+  function allowEntry() {
+    const gate = document.getElementById('age-gate');
+    gate.style.opacity = '0';
+    gate.style.transition = 'opacity .4s';
+    setTimeout(() => gate.remove(), 400);
+  }
+
+  function denyEntry() {
+    document.getElementById('age-denied').style.display = 'block';
+    document.querySelector('.age-box h2').textContent = 'Acesso não permitido';
+    document.querySelector('.age-box > p').style.display = 'none';
+    document.querySelector('.age-btns').style.display = 'none';
+    document.querySelector('.age-box').style.borderColor = '#FF4D4D';
+  }
+
+  function filterProducts(cat, btn) {
+    document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    document.querySelectorAll('.product-card').forEach(c => {
+      c.style.display = (cat === 'all' || c.dataset.cat === cat) ? '' : 'none';
+    });
+  }
+
+  const io = new IntersectionObserver(entries => {
+    entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
+  }, { threshold: 0.1, rootMargin: '0px 0px -30px 0px' });
+  document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+
+  function showToast(msg) {
+    const t = document.getElementById('toast');
+    t.textContent = msg; t.classList.add('show');
+    setTimeout(() => t.classList.remove('show'), 3000);
+  }
+
+  document.querySelectorAll('.btn-card').forEach(btn =>
+    btn.addEventListener('click', () => showToast('Produto adicionado! 🛒'))
+  );
+</script>
+</body>
+</html>

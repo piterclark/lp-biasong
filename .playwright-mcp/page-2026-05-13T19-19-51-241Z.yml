@@ -1,0 +1,98 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - img "Resultiva" [ref=e3]:
+      - generic [ref=e4]: Resultiva
+      - generic [ref=e5]: Resultiva
+  - generic [ref=e21]:
+    - generic [ref=e22]: Portfólio de landing pages
+    - heading "Páginas que mudam o que as pessoas fazem." [level=1] [ref=e23]:
+      - generic [ref=e25]: Páginas
+      - generic [ref=e27]: que
+      - generic [ref=e29]: mudam
+      - generic [ref=e31]: o
+      - generic [ref=e33]: que
+      - generic [ref=e35]: as
+      - generic [ref=e37]: pessoas
+      - emphasis [ref=e38]:
+        - generic [ref=e40]: fazem.
+    - paragraph [ref=e41]:
+      - text: "Construídas para um único resultado:"
+      - text: que o visitante avançe.
+  - generic [ref=e43]:
+    - generic [ref=e44]:
+      - generic [ref=e45]: 2+
+      - generic [ref=e46]: Nichos no portfólio
+    - generic [ref=e47]:
+      - generic [ref=e48]: 100%
+      - generic [ref=e49]: Sob medida
+    - generic [ref=e50]:
+      - generic [ref=e51]: "0"
+      - generic [ref=e52]: Templates genéricos
+    - generic [ref=e53]:
+      - generic [ref=e54]: ∞
+      - generic [ref=e55]: Expansões possíveis
+  - generic [ref=e56]:
+    - heading "Não vendemos páginas. Vendemos resultados." [level=2] [ref=e58]:
+      - text: Não vendemos
+      - text: páginas.
+      - emphasis [ref=e59]:
+        - text: Vendemos
+        - text: resultados.
+    - paragraph [ref=e61]:
+      - text: A maioria das páginas falha porque tenta
+      - strong [ref=e62]: impressionar
+      - text: em vez de
+      - strong [ref=e63]: converter
+      - text: .
+      - text: "Cada projeto começa de uma pergunta: o que precisa acontecer para o visitante dizer sim? O design é a resposta visual dessa pergunta."
+  - generic [ref=e64]:
+    - generic [ref=e65]:
+      - heading "O trabalho fala." [level=2] [ref=e66]:
+        - text: O trabalho
+        - emphasis [ref=e67]: fala.
+      - generic [ref=e68]: 02 projetos
+    - generic [ref=e69]:
+      - link "Advocacia Ferreira & Associados LP de luxo para escritório de advocacia. Copy que posiciona, design que fecha. Abrir" [ref=e70] [cursor=pointer]:
+        - /url: advogado/index.html
+        - img [ref=e74]
+        - generic [ref=e77]:
+          - generic [ref=e78]: Advocacia
+          - generic [ref=e79]: Ferreira & Associados
+          - paragraph [ref=e80]: LP de luxo para escritório de advocacia. Copy que posiciona, design que fecha.
+          - generic [ref=e81]:
+            - text: Abrir
+            - img [ref=e82]
+      - link "Imóveis Arbórea Alphagran LP de lançamento imobiliário premium. Experiência que vende antes da visita. Abrir" [ref=e84] [cursor=pointer]:
+        - /url: arborea/index.html
+        - img [ref=e88]
+        - generic [ref=e92]:
+          - generic [ref=e93]: Imóveis
+          - generic [ref=e94]: Arbórea Alphagran
+          - paragraph [ref=e95]: LP de lançamento imobiliário premium. Experiência que vende antes da visita.
+          - generic [ref=e96]:
+            - text: Abrir
+            - img [ref=e97]
+  - generic [ref=e101]:
+    - generic [ref=e102]: A verdade
+    - heading "Design certo. Copy certa. Resultado certo." [level=2] [ref=e103]:
+      - text: Design certo.
+      - text: Copy certa.
+      - emphasis [ref=e104]: Resultado certo.
+    - paragraph [ref=e105]:
+      - text: Cada elemento existe por uma razão. Cada palavra foi escolhida. Cada píxel serve o objetivo de
+      - strong [ref=e106]: fazer o visitante avançar
+      - text: — não admirar.
+  - generic [ref=e107]:
+    - generic [ref=e108]: Próximo passo
+    - heading "Quer uma assim para você?" [level=2] [ref=e109]:
+      - text: Quer uma assim
+      - text: para
+      - emphasis [ref=e110]: você?
+    - link "Falar no WhatsApp" [ref=e111] [cursor=pointer]:
+      - /url: https://wa.me/5511999999999
+      - img [ref=e112]
+      - text: Falar no WhatsApp
+    - paragraph [ref=e114]: Resposta rápida • Sem enrolação
+  - contentinfo [ref=e115]:
+    - generic [ref=e116]: Resultiva
+    - paragraph [ref=e117]: © 2026 Resultiva Studio

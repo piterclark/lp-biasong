@@ -158,6 +158,16 @@ minds:
     source: "TSC Methodology"
     location: "agents/minds/the-scalable-company/"
 
+  - id: thiago-finch
+    role: "Knowledge Systems & AI Expert"
+    icon: "🧠"
+    element: "Air"
+    source: "Mega Brain / Money Club"
+    location: "agents/minds/thiago-finch/"
+    status: ACTIVE
+    maturidade: INICIAL
+    fontes: 1
+
 # =============================================================================
 # CARGO ROLES (L4)
 # =============================================================================
@@ -294,7 +304,7 @@ operatives:
 totals:
   L0_system: 6
   L1_conclave: 3
-  L3_minds: 5
+  L3_minds: 6
   L4_cargo: 14
   sub_agents: 5
-  total: 33
+  total: 34

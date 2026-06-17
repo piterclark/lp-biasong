@@ -1,0 +1,213 @@
+- generic [active] [ref=e1]:
+  - navigation [ref=e8]:
+    - generic [ref=e9]: BOOMBALL
+    - list [ref=e10]:
+      - listitem [ref=e11]:
+        - link "Sabores" [ref=e12] [cursor=pointer]:
+          - /url: "#flavors"
+      - listitem [ref=e13]:
+        - link "Sobre" [ref=e14] [cursor=pointer]:
+          - /url: "#mission"
+      - listitem [ref=e15]:
+        - link "Reviews" [ref=e16] [cursor=pointer]:
+          - /url: "#reviews"
+      - listitem [ref=e17]:
+        - link "Onde Comprar" [ref=e18] [cursor=pointer]:
+          - /url: "#where"
+    - link "Seja o Primeiro" [ref=e19] [cursor=pointer]:
+      - /url: "#cta"
+  - generic [ref=e20]:
+    - generic [ref=e26]:
+      - generic [ref=e27]:
+        - generic [ref=e28]: 🔥 Novo no Brasil
+        - heading "READY TO BOOM." [level=1] [ref=e29]:
+          - text: READY
+          - text: TO BOOM.
+        - paragraph [ref=e30]: O drink premium em formato de esfera que você abre, toma e vai direto pra festa. Sem frescura, sem copo, só sabor.
+        - generic [ref=e31]:
+          - link "Ver Sabores" [ref=e32] [cursor=pointer]:
+            - /url: "#flavors"
+          - link "Onde Comprar" [ref=e33] [cursor=pointer]:
+            - /url: "#where"
+      - generic [ref=e36]: BOOMBALL
+    - generic [ref=e40]: Scroll
+  - generic [ref=e43]:
+    - generic [ref=e44]:
+      - generic [ref=e45]: 8+
+      - generic [ref=e46]: Sabores Exclusivos
+    - generic [ref=e48]:
+      - generic [ref=e49]: 15%
+      - generic [ref=e50]: Vol. Alcoólico
+    - generic [ref=e52]:
+      - generic [ref=e53]: 200ml
+      - generic [ref=e54]: Por Esfera
+    - generic [ref=e56]:
+      - generic [ref=e57]: "0"
+      - generic [ref=e58]: Conservantes
+    - generic [ref=e60]:
+      - generic [ref=e61]: 100%
+      - generic [ref=e62]: Modo Festa
+  - generic [ref=e63]:
+    - generic [ref=e64]:
+      - generic [ref=e65]: Linha de Sabores
+      - heading "ESCOLHA SEU BOOM" [level=2] [ref=e66]
+      - paragraph [ref=e67]: Cada esfera é uma explosão de sabor. Qual vai ser a sua?
+    - generic [ref=e68]:
+      - generic [ref=e69] [cursor=pointer]:
+        - generic [ref=e70]: 🍓
+        - generic [ref=e71]: Morango Boom
+        - generic [ref=e72]: 15% ABV · 200ml
+        - generic [ref=e73]: Morango fresco com toque de limão. Doce na medida certa, forte do jeito certo.
+        - generic [ref=e74]: 🔥 Mais Vendido
+      - generic [ref=e75] [cursor=pointer]:
+        - generic [ref=e76]: 🍇
+        - generic [ref=e77]: Uva Roxa
+        - generic [ref=e78]: 14% ABV · 200ml
+        - generic [ref=e79]: Uva concord com um toque de açaí. Sabor intenso que gruda na memória.
+        - generic [ref=e80]: ⚡ Novo
+      - generic [ref=e81] [cursor=pointer]:
+        - generic [ref=e82]: 🥥
+        - generic [ref=e83]: Coco Gelado
+        - generic [ref=e84]: 13% ABV · 200ml
+        - generic [ref=e85]: Coco cremoso com rum tropical. Fecha o olho e você está na praia.
+        - generic [ref=e86]: 🌊 Verão
+      - generic [ref=e87] [cursor=pointer]:
+        - generic [ref=e88]: 🍋
+        - generic [ref=e89]: Limão Elétrico
+        - generic [ref=e90]: 15% ABV · 200ml
+        - generic [ref=e91]: Lima + limão siciliano + ginger. Acidez que acorda a festa.
+        - generic [ref=e92]: ⚡ Top Verão
+      - generic [ref=e93] [cursor=pointer]:
+        - generic [ref=e94]: 🍉
+        - generic [ref=e95]: Melancia Neon
+        - generic [ref=e96]: 14% ABV · 200ml
+        - generic [ref=e97]: Melancia fresca com vodka cristalina. Leve, refrescante, irresistível.
+        - generic [ref=e98]: 💚 Favorito
+      - generic [ref=e99] [cursor=pointer]:
+        - generic [ref=e100]: 🍑
+        - generic [ref=e101]: Pêssego Sunset
+        - generic [ref=e102]: 13% ABV · 200ml
+        - generic [ref=e103]: Pêssego maduro com baunilha suave. O drink do final de tarde.
+        - generic [ref=e104]: 🌅 Edição Limitada
+  - generic [ref=e106]:
+    - generic [ref=e108]:
+      - generic [ref=e109]:
+        - generic [ref=e110]: 🌿
+        - generic [ref=e111]: Ingredientes Reais
+        - generic [ref=e112]: Sem aromas artificiais. Só frutas de verdade em cada gole.
+      - generic [ref=e113]:
+        - generic [ref=e114]: ♻️
+        - generic [ref=e115]: Embalagem Sustentável
+        - generic [ref=e116]: 100% reciclável. Curtir a vida sem comprometer o planeta.
+      - generic [ref=e117]:
+        - generic [ref=e118]: ❄️
+        - generic [ref=e119]: Gelado Mais Rápido
+        - generic [ref=e120]: A esfera gela em 8 minutos. Nunca mais espere pelo drink.
+      - generic [ref=e121]:
+        - generic [ref=e122]: 🎯
+        - generic [ref=e123]: Dose Perfeita
+        - generic [ref=e124]: 200ml calibrados. Sabor premium, teor certo, festa garantida.
+    - generic [ref=e125]:
+      - generic [ref=e126]: Nossa Missão
+      - heading "FEITO PRA QUEM NÃO PARA." [level=2] [ref=e127]:
+        - text: FEITO PRA
+        - text: QUEM NÃO
+        - text: PARA.
+      - paragraph [ref=e128]: Enquanto outros complicam o drink, a gente simplificou. Uma esfera. Uma experiência. Destampou, tomou, foi embora na festa.
+      - generic [ref=e129]:
+        - generic [ref=e130]:
+          - generic [ref=e131]: ✓
+          - generic [ref=e132]: Sem conservantes ou corantes artificiais
+        - generic [ref=e133]:
+          - generic [ref=e134]: ✓
+          - generic [ref=e135]: Produzido com tecnologia premium de selagem
+        - generic [ref=e136]:
+          - generic [ref=e137]: ✓
+          - generic [ref=e138]: Testado e aprovado por +10.000 beta-testers
+        - generic [ref=e139]:
+          - generic [ref=e140]: ✓
+          - generic [ref=e141]: Registro ANVISA em processo final
+      - link "Quero Ser o Primeiro" [ref=e142] [cursor=pointer]:
+        - /url: "#cta"
+  - generic [ref=e143]:
+    - generic [ref=e144]:
+      - generic [ref=e145]: Quem já provou
+      - heading "A FESTA FALOU" [level=2] [ref=e146]
+      - paragraph [ref=e147]: Mais de 10 mil pessoas no beta. Elas aprovaram.
+    - generic [ref=e148]:
+      - generic [ref=e149]:
+        - generic [ref=e150]: ⭐⭐⭐⭐⭐
+        - paragraph [ref=e151]: "\"Cara, a esfera de morango é surreal. Tomei no show, no rolê, na praia — funciona em qualquer lugar. Nunca mais volto pra lata.\""
+        - generic [ref=e152]:
+          - generic [ref=e153]: LM
+          - generic [ref=e154]:
+            - generic [ref=e155]: Lucas M.
+            - generic [ref=e156]: São Paulo, SP — Beta Tester
+      - generic [ref=e157]:
+        - generic [ref=e158]: ⭐⭐⭐⭐⭐
+        - paragraph [ref=e159]: "\"Comprei pra testar no aniversário. Acabaram em 40 minutos. Tive que pedir de novo no delivery. O pessoal enlouqueceu com o formato.\""
+        - generic [ref=e160]:
+          - generic [ref=e161]: CA
+          - generic [ref=e162]:
+            - generic [ref=e163]: Carolina A.
+            - generic [ref=e164]: Rio de Janeiro, RJ — Beta Tester
+      - generic [ref=e165]:
+        - generic [ref=e166]: ⭐⭐⭐⭐⭐
+        - paragraph [ref=e167]: "\"Trabalho com eventos. BOOMBALL é o drink mais instagramável que já vi. Todo mundo foto antes de tomar. Virou patrocínio automático.\""
+        - generic [ref=e168]:
+          - generic [ref=e169]: RF
+          - generic [ref=e170]:
+            - generic [ref=e171]: Rafael F.
+            - generic [ref=e172]: Curitiba, PR — Event Producer
+  - generic [ref=e173]:
+    - generic [ref=e174]:
+      - generic [ref=e175]: Disponível em Breve
+      - heading "ONDE ENCONTRAR SEU BOOM" [level=2] [ref=e176]:
+        - text: ONDE ENCONTRAR
+        - text: SEU BOOM
+      - paragraph [ref=e177]: Lançamento em breve nos melhores pontos do país.
+    - generic [ref=e178]:
+      - generic [ref=e179]:
+        - generic [ref=e180]: 🏪
+        - generic [ref=e181]: Supermercados Parceiros
+      - generic [ref=e182]:
+        - generic [ref=e183]: 🛵
+        - generic [ref=e184]: Delivery (iFood · Rappi)
+      - generic [ref=e185]:
+        - generic [ref=e186]: 🌐
+        - generic [ref=e187]: Loja Online Oficial
+      - generic [ref=e188]:
+        - generic [ref=e189]: 🎪
+        - generic [ref=e190]: Eventos & Festivais
+  - generic [ref=e192]:
+    - generic [ref=e193]: Lançamento em breve
+    - heading "SEJA O PRIMEIRO A EXPLODIR." [level=2] [ref=e194]:
+      - text: SEJA O
+      - text: PRIMEIRO
+      - text: A EXPLODIR.
+    - paragraph [ref=e195]: Cadastre seu email e garanta acesso antecipado ao lançamento — com desconto exclusivo de early bird.
+    - generic [ref=e196]:
+      - textbox "seu@email.com" [ref=e197]
+      - button "Quero Acesso 🔥" [ref=e198] [cursor=pointer]
+    - paragraph [ref=e199]: Sem spam. Só BOOM.
+  - contentinfo [ref=e200]:
+    - generic [ref=e201]: BOOMBALL
+    - generic [ref=e202]:
+      - link "Sabores" [ref=e203] [cursor=pointer]:
+        - /url: "#"
+      - link "Sobre Nós" [ref=e204] [cursor=pointer]:
+        - /url: "#"
+      - link "Press Kit" [ref=e205] [cursor=pointer]:
+        - /url: "#"
+      - link "Seja Parceiro" [ref=e206] [cursor=pointer]:
+        - /url: "#"
+      - link "Contato" [ref=e207] [cursor=pointer]:
+        - /url: "#"
+    - generic [ref=e208]:
+      - link "📸" [ref=e209] [cursor=pointer]:
+        - /url: "#"
+      - link "🎵" [ref=e210] [cursor=pointer]:
+        - /url: "#"
+      - link "🐦" [ref=e211] [cursor=pointer]:
+        - /url: "#"
+    - generic [ref=e212]: © 2025 BOOMBALL. Beba com responsabilidade. Proibido para menores de 18 anos.

@@ -1,0 +1,82 @@
+[     307ms] Invalid or unexpected token
+[   48771ms] [ERROR] Error: <svg> attribute x: Expected length, "\\\"0px\\\"". @ http://localhost:4322/salao/index.html:1
+[   48774ms] [ERROR] Error: <svg> attribute y: Expected length, "\\\"0px\\\"". @ http://localhost:4322/salao/index.html:1
+[   48775ms] [ERROR] Error: <svg> attribute viewBox: Expected number, "\\\"0". @ http://localhost:4322/salao/index.html:1
+[   48775ms] [ERROR] Error: <svg> attribute width: Expected length, "\\\"512\\\"". @ http://localhost:4322/salao/index.html:1
+[   48775ms] [ERROR] Error: <svg> attribute height: Expected length, "\\\"512\\\"". @ http://localhost:4322/salao/index.html:1
+[   49146ms] [ERROR] Error: <path> attribute d: Expected moveto path command ('M' or 'm'), "\\\"M480,224H32c-1…". @ http://localhost:4322/salao/index.html:1
+[   49146ms] [ERROR] Error: <path> attribute d: Expected moveto path command ('M' or 'm'), "\\\"M32,138.667h44…". @ http://localhost:4322/salao/index.html:1
+[   49147ms] [ERROR] Error: <path> attribute d: Expected moveto path command ('M' or 'm'), "\\\"M480,373.333H3…". @ http://localhost:4322/salao/index.html:1
+[   49147ms] [ERROR] Error: <svg> attribute viewBox: Expected number, "\\\"0". @ http://localhost:4322/salao/index.html:1
+[   49148ms] [ERROR] Error: <path> attribute d: Expected moveto path command ('M' or 'm'), "\\\"M143". @ http://localhost:4322/salao/index.html:1
+[   49148ms] [ERROR] Error: <svg> attribute viewBox: Expected number, "\\\"0". @ http://localhost:4322/salao/index.html:1
+[   49148ms] [ERROR] Error: <path> attribute d: Expected moveto path command ('M' or 'm'), "\\\"M143". @ http://localhost:4322/salao/index.html:1
+[   49148ms] [ERROR] Error: <svg> attribute viewBox: Expected number, "\\\"0". @ http://localhost:4322/salao/index.html:1
+[   49149ms] [ERROR] Error: <path> attribute d: Expected moveto path command ('M' or 'm'), "\\\"M143". @ http://localhost:4322/salao/index.html:1
+[   49149ms] [ERROR] Error: <svg> attribute viewBox: Expected number, "\\\"0". @ http://localhost:4322/salao/index.html:1
+[   49149ms] [ERROR] Error: <path> attribute d: Expected moveto path command ('M' or 'm'), "\\\"M104". @ http://localhost:4322/salao/index.html:1
+[   49149ms] [ERROR] Error: <svg> attribute viewBox: Expected number, "\\\"0". @ http://localhost:4322/salao/index.html:1
+[   49149ms] [ERROR] Error: <path> attribute d: Expected moveto path command ('M' or 'm'), "\\\"M742". @ http://localhost:4322/salao/index.html:1
+[   49150ms] [ERROR] Error: <svg> attribute viewBox: Expected number, "\\\"0". @ http://localhost:4322/salao/index.html:1
+[   49151ms] [ERROR] Error: <path> attribute d: Expected moveto path command ('M' or 'm'), "\\\"M143". @ http://localhost:4322/salao/index.html:1
+[   49151ms] [ERROR] Error: <svg> attribute viewBox: Expected number, "\\\"0". @ http://localhost:4322/salao/index.html:1
+[   49152ms] [ERROR] Error: <path> attribute d: Expected moveto path command ('M' or 'm'), "\\\"M143". @ http://localhost:4322/salao/index.html:1
+[   49152ms] [ERROR] Error: <svg> attribute viewBox: Expected number, "\\\"0". @ http://localhost:4322/salao/index.html:1
+[   49152ms] [ERROR] Error: <path> attribute d: Expected moveto path command ('M' or 'm'), "\\\"M143". @ http://localhost:4322/salao/index.html:1
+[   49152ms] [ERROR] Error: <svg> attribute x: Expected length, "\\\"0px\\\"". @ http://localhost:4322/salao/index.html:1
+[   49152ms] [ERROR] Error: <svg> attribute y: Expected length, "\\\"0px\\\"". @ http://localhost:4322/salao/index.html:1
+[   49152ms] [ERROR] Error: <svg> attribute viewBox: Expected number, "\\\"0". @ http://localhost:4322/salao/index.html:1
+[   49152ms] [ERROR] Error: <svg> attribute width: Expected length, "\\\"512\\\"". @ http://localhost:4322/salao/index.html:1
+[   49152ms] [ERROR] Error: <svg> attribute height: Expected length, "\\\"512\\\"". @ http://localhost:4322/salao/index.html:1
+[   49153ms] [ERROR] Error: <path> attribute d: Expected moveto path command ('M' or 'm'), "\\\"M24,12.073c0,5…". @ http://localhost:4322/salao/index.html:1
+[   49153ms] [ERROR] Error: <svg> attribute x: Expected length, "\\\"0px\\\"". @ http://localhost:4322/salao/index.html:1
+[   49153ms] [ERROR] Error: <svg> attribute y: Expected length, "\\\"0px\\\"". @ http://localhost:4322/salao/index.html:1
+[   49153ms] [ERROR] Error: <svg> attribute viewBox: Expected number, "\\\"0". @ http://localhost:4322/salao/index.html:1
+[   49153ms] [ERROR] Error: <svg> attribute width: Expected length, "\\\"512\\\"". @ http://localhost:4322/salao/index.html:1
+[   49153ms] [ERROR] Error: <svg> attribute height: Expected length, "\\\"512\\\"". @ http://localhost:4322/salao/index.html:1
+[   49153ms] [ERROR] Error: <path> attribute d: Expected moveto path command ('M' or 'm'), "\\\"M12,2.162c3.20…". @ http://localhost:4322/salao/index.html:1
+[   49153ms] [ERROR] Error: <path> attribute d: Expected moveto path command ('M' or 'm'), "\\\"M12,5.838c-3.4…". @ http://localhost:4322/salao/index.html:1
+[   49153ms] [ERROR] Error: <circle> attribute cx: Expected length, "\\\"18.406\\\"". @ http://localhost:4322/salao/index.html:1
+[   49153ms] [ERROR] Error: <circle> attribute cy: Expected length, "\\\"5.594\\\"". @ http://localhost:4322/salao/index.html:1
+[   49153ms] [ERROR] Error: <circle> attribute r: Expected length, "\\\"1.44\\\"". @ http://localhost:4322/salao/index.html:1
+[   49154ms] [ERROR] Error: <svg> attribute x: Expected length, "\\\"0px\\\"". @ http://localhost:4322/salao/index.html:1
+[   49154ms] [ERROR] Error: <svg> attribute y: Expected length, "\\\"0px\\\"". @ http://localhost:4322/salao/index.html:1
+[   49154ms] [ERROR] Error: <svg> attribute viewBox: Expected number, "\\\"0". @ http://localhost:4322/salao/index.html:1
+[   49154ms] [ERROR] Error: <svg> attribute width: Expected length, "\\\"512\\\"". @ http://localhost:4322/salao/index.html:1
+[   49154ms] [ERROR] Error: <svg> attribute height: Expected length, "\\\"512\\\"". @ http://localhost:4322/salao/index.html:1
+[   49154ms] [ERROR] Error: <path> attribute d: Expected moveto path command ('M' or 'm'), "\\\"M23.498,6.186c…". @ http://localhost:4322/salao/index.html:1
+[   49155ms] [ERROR] Error: <svg> attribute viewBox: Expected number, "\\\"0". @ http://localhost:4322/salao/index.html:1
+[   49156ms] [ERROR] Error: <path> attribute d: Expected moveto path command ('M' or 'm'), "\\\"M646". @ http://localhost:4322/salao/index.html:1
+[   49156ms] [ERROR] Error: <svg> attribute viewBox: Expected number, "\\\"0". @ http://localhost:4322/salao/index.html:1
+[   49157ms] [ERROR] Error: <path> attribute d: Expected moveto path command ('M' or 'm'), "\\\"M696". @ http://localhost:4322/salao/index.html:1
+[   49171ms] [ERROR] Error: <svg> attribute x: Expected length, "\\\"0px\\\"". @ http://localhost:4322/salao/index.html:1
+[   49171ms] [ERROR] Error: <svg> attribute y: Expected length, "\\\"0px\\\"". @ http://localhost:4322/salao/index.html:1
+[   49171ms] [ERROR] Error: <svg> attribute viewBox: Expected number, "\\\"0". @ http://localhost:4322/salao/index.html:1
+[   49171ms] [ERROR] Error: <svg> attribute width: Expected length, "\\\"512\\\"". @ http://localhost:4322/salao/index.html:1
+[   49172ms] [ERROR] Error: <svg> attribute height: Expected length, "\\\"512\\\"". @ http://localhost:4322/salao/index.html:1
+[   49172ms] [ERROR] Error: <path> attribute d: Expected moveto path command ('M' or 'm'), "\\\"M12,2.162c3.20…". @ http://localhost:4322/salao/index.html:1
+[   49172ms] [ERROR] Error: <path> attribute d: Expected moveto path command ('M' or 'm'), "\\\"M12,5.838c-3.4…". @ http://localhost:4322/salao/index.html:1
+[   49172ms] [ERROR] Error: <circle> attribute cx: Expected length, "\\\"18.406\\\"". @ http://localhost:4322/salao/index.html:1
+[   49172ms] [ERROR] Error: <circle> attribute cy: Expected length, "\\\"5.594\\\"". @ http://localhost:4322/salao/index.html:1
+[   49172ms] [ERROR] Error: <circle> attribute r: Expected length, "\\\"1.44\\\"". @ http://localhost:4322/salao/index.html:1
+[   49173ms] [ERROR] Error: <svg> attribute x: Expected length, "\\\"0px\\\"". @ http://localhost:4322/salao/index.html:1
+[   49173ms] [ERROR] Error: <svg> attribute y: Expected length, "\\\"0px\\\"". @ http://localhost:4322/salao/index.html:1
+[   49173ms] [ERROR] Error: <svg> attribute viewBox: Expected number, "\\\"0". @ http://localhost:4322/salao/index.html:1
+[   49173ms] [ERROR] Error: <svg> attribute width: Expected length, "\\\"512\\\"". @ http://localhost:4322/salao/index.html:1
+[   49173ms] [ERROR] Error: <svg> attribute height: Expected length, "\\\"512\\\"". @ http://localhost:4322/salao/index.html:1
+[   49173ms] [ERROR] Error: <path> attribute d: Expected moveto path command ('M' or 'm'), "\\\"M24,12.073c0,5…". @ http://localhost:4322/salao/index.html:1
+[   49173ms] [ERROR] Error: <svg> attribute x: Expected length, "\\\"0px\\\"". @ http://localhost:4322/salao/index.html:1
+[   49173ms] [ERROR] Error: <svg> attribute y: Expected length, "\\\"0px\\\"". @ http://localhost:4322/salao/index.html:1
+[   49173ms] [ERROR] Error: <svg> attribute viewBox: Expected number, "\\\"0". @ http://localhost:4322/salao/index.html:1
+[   49173ms] [ERROR] Error: <svg> attribute width: Expected length, "\\\"512\\\"". @ http://localhost:4322/salao/index.html:1
+[   49173ms] [ERROR] Error: <svg> attribute height: Expected length, "\\\"512\\\"". @ http://localhost:4322/salao/index.html:1
+[   49173ms] [ERROR] Error: <path> attribute d: Expected moveto path command ('M' or 'm'), "\\\"M23.498,6.186c…". @ http://localhost:4322/salao/index.html:1
+[   49174ms] [ERROR] Error: <svg> attribute viewBox: Expected number, "\\\"0". @ http://localhost:4322/salao/index.html:1
+[   49174ms] [ERROR] Error: <path> attribute d: Expected moveto path command ('M' or 'm'), "\\\"M464". @ http://localhost:4322/salao/index.html:1
+[   49174ms] [ERROR] Error: <svg> attribute viewBox: Expected number, "\\\"0". @ http://localhost:4322/salao/index.html:1
+[   49174ms] [ERROR] Error: <path> attribute d: Expected moveto path command ('M' or 'm'), "\\\"M497.39". @ http://localhost:4322/salao/index.html:1
+[   49174ms] [ERROR] Error: <svg> attribute viewBox: Expected number, "\\\"0". @ http://localhost:4322/salao/index.html:1
+[   49175ms] [ERROR] Error: <path> attribute d: Expected moveto path command ('M' or 'm'), "\\\"M380.9". @ http://localhost:4322/salao/index.html:1
+[   49180ms] Invalid or unexpected token
+[   49180ms] Invalid or unexpected token
+[   49181ms] Invalid or unexpected token

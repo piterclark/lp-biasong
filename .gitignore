@@ -243,3 +243,6 @@ scripts/filter-patterns.txt
 # === LARGE FILES ===
 **/SellTheAgency.com_Presentation.pdf
 *.docx
+
+# Modelos de voz (arquivos grandes)
+voice/

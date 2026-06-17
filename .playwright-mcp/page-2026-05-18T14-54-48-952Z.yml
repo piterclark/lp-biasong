@@ -1,0 +1,536 @@
+- generic [active] [ref=e1]:
+  - img
+  - img
+  - link "o frio à porta bate ❄️ peças pro inverno até 50% off" [ref=e3] [cursor=pointer]:
+    - /url: https://www.enjoei.com.br/feminino-roupas-casacos-e-jaquetas/s?action_source=home_flash_message_home&dep=feminino&dg=10&dl=50&ref=home_flash_message_home&rsp=1&rspix=1&s=feminino-roupas-calcas&s=feminino-roupas-casacos-e-jaquetas&s=feminino-calcados-botas&sls=super%2Cgood&spt=very_high%2Chigh%2Cmedium&sr=near_regions
+    - generic [ref=e4]: o frio à porta bate ❄️
+    - generic [ref=e5]: peças pro inverno até 50% off
+  - banner [ref=e7]:
+    - generic [ref=e9]:
+      - link "ir para a página inicial" [ref=e11] [cursor=pointer]:
+        - /url: /
+        - img [ref=e12]
+      - search [ref=e17]:
+        - button "Buscar" [ref=e18] [cursor=pointer]:
+          - img [ref=e19]
+        - textbox "busca" [ref=e21]:
+          - /placeholder: busque "Banana Republic"
+      - generic [ref=e24]:
+        - link "Moças" [ref=e25] [cursor=pointer]:
+          - /url: /feminino/s?dep=feminino&ref=search_department_menu
+        - link "Rapazes" [ref=e26] [cursor=pointer]:
+          - /url: /masculino/s?dep=masculino&ref=search_department_menu
+        - link "Crianças" [ref=e27] [cursor=pointer]:
+          - /url: /infantil/s?dep=infantil&ref=search_department_menu
+        - link "enjoei pro" [ref=e28] [cursor=pointer]:
+          - /url: /enjoei-pro
+        - link "Outros" [ref=e29] [cursor=pointer]:
+          - /url: /s?ref=search_department_menu
+      - navigation [ref=e32]:
+        - link "ir para a página de ajuda" [ref=e33] [cursor=pointer]:
+          - /url: /t/ajuda
+          - img [ref=e35]
+        - link "entrar" [ref=e38] [cursor=pointer]:
+          - /url: /usuario/identifique-se
+        - link "quero vender" [ref=e39] [cursor=pointer]:
+          - /url: /quero-vender
+  - main [ref=e40]:
+    - generic [ref=e42]:
+      - dialog:
+        - generic [ref=e45]:
+          - button "Fechar modal" [ref=e46] [cursor=pointer]:
+            - img [ref=e47]
+          - generic [ref=e49]:
+            - img [ref=e50]
+            - generic [ref=e52]:
+              - link "crie até 3 anúncios no modo grátis basta definir o valor e fazer a venda pra tooodo o dinheiro ir direto para o seu bolso." [ref=e54] [cursor=pointer]:
+                - /url: /usuario/cadastre-se
+                - generic [ref=e55]: crie até 3 anúncios no modo grátis
+                - generic [ref=e56]: basta definir o valor e fazer a venda pra tooodo o dinheiro ir direto para o seu bolso.
+              - link "criar conta" [ref=e57] [cursor=pointer]:
+                - /url: /usuario/cadastre-se
+            - generic [ref=e58]:
+              - text: ao criar uma conta, você está de acordo com
+              - text: os
+              - link "termos de serviço" [ref=e59] [cursor=pointer]:
+                - /url: /ajuda/permalink/312
+              - text: e a
+              - link "política de privacidade" [ref=e60] [cursor=pointer]:
+                - /url: /ajuda/permalink/316
+              - text: do enjoei.
+      - generic [ref=e61]:
+        - generic [ref=e66]:
+          - generic [ref=e68]:
+            - generic [ref=e69] [cursor=pointer]:
+              - heading "tá baratéeesimo" [level=2] [ref=e70]
+              - paragraph [ref=e71]: só clicando pra acreditar
+            - link "nem precisa ser bff pra ter passe livre nesse closet" [ref=e72] [cursor=pointer]:
+              - /url: https://www.enjoei.com.br/@fepaesleme?action_source=39849&ref=home_home&rsp=1&rspix=1
+              - generic [ref=e74]:
+                - heading "nem precisa ser bff" [level=2] [ref=e75]
+                - paragraph [ref=e76]: pra ter passe livre nesse closet
+            - link "corre pra grade pois já está esgotando tudo" [ref=e78] [cursor=pointer]:
+              - /url: https://www.enjoei.com.br/feminino-roupas-casacos-e-jaquetas/s?action_source=63278&b=columbia&b=the-north-face&b=uniqlo&b=anselmi&dep=feminino&ref=home_home&rsp=1&rspix=1&s=feminino-calcados-botas&s=feminino-roupas-calcas&s=feminino-roupas-casacos-e-jaquetas&sls=super%2Cgood&spt=very_high%2Chigh%2Cmedium&sr=near_regions
+              - generic [ref=e80]:
+                - heading "corre pra grade" [level=2] [ref=e81]
+                - paragraph [ref=e82]: pois já está esgotando tudo
+            - link "novo modo de anunciar fique com todo dinheiro que ganhar" [ref=e594] [cursor=pointer]:
+              - /url: https://www.enjoei.com.br/quero-vender?action_source=62948&ref=home_home&rsp=1&rspix=1
+              - generic [ref=e84]:
+                - heading "novo modo de anunciar" [level=2] [ref=e85]
+                - paragraph [ref=e86]: fique com todo dinheiro que ganhar
+            - link "camarote do enjoei pro com desconto pra espantar o frio":
+              - /url: https://www.enjoei.com.br/@enjoei-pro?action_source=63443&ref=home_home&rsp=1&rspix=1
+              - generic [ref=e87] [cursor=pointer]:
+                - heading "camarote do enjoei pro" [level=2] [ref=e88]
+                - paragraph [ref=e89]: com desconto pra espantar o frio
+            - link "tá baratéeesimo só clicando pra acreditar":
+              - /url: https://www.enjoei.com.br/feminino-roupas-casacos-e-jaquetas/s?action_source=63344&dep=feminino&pl=159&ref=home_home&rsp=1&rspix=1&s=feminino-roupas-casacos-e-jaquetas&sls=super%2Cgood&spt=very_high%2Chigh%2Cmedium&sr=near_regions
+              - generic [ref=e90] [cursor=pointer]:
+                - heading "tá baratéeesimo" [level=2] [ref=e91]
+                - paragraph [ref=e92]: só clicando pra acreditar
+            - generic [ref=e95] [cursor=pointer]:
+              - heading "nem precisa ser bff" [level=2] [ref=e96]
+              - paragraph [ref=e97]: pra ter passe livre nesse closet
+          - generic:
+            - list [ref=e99]:
+              - listitem [ref=e100] [cursor=pointer]: step-0
+              - listitem [ref=e101] [cursor=pointer]: step-1
+              - listitem [ref=e102] [cursor=pointer]: step-2
+              - listitem [ref=e103] [cursor=pointer]: step-3
+              - listitem [ref=e104] [cursor=pointer]: step-4
+            - generic:
+              - button "imagem anterior" [ref=e105] [cursor=pointer]:
+                - img [ref=e106]
+              - button "próxima imagem" [ref=e108] [cursor=pointer]:
+                - img [ref=e109]
+        - generic [ref=e111]:
+          - article [ref=e114]:
+            - generic [ref=e115]:
+              - link "cupooom novo a cada 2 horas chega mais rápido que frente fria ficar de olho" [ref=e117] [cursor=pointer]:
+                - /url: https://www.enjoei.com.br/s?action_source=71941&pg=5000&pp=1&ref=home_home&rsp=1&rspix=1&sls=super%2Cgood&spt=very_low%2Clow%2Cmedium&sr=near_regions
+                - heading "cupooom novo a cada 2 horas" [level=2] [ref=e118]
+                - paragraph [ref=e119]: chega mais rápido que frente fria
+                - generic [ref=e120]: ficar de olho
+              - generic [ref=e121]:
+                - generic [ref=e122]:
+                  - link "enjoei pro?action_source=71941&d=feminino&pg=70&ref=home_home&rsp=1&rspix=1&s=feminino roupas casacos e jaquetas&s=feminino calcados botas&s=feminino calcados tenis&s=feminino roupas calcas no enjoei pro" [ref=e125] [cursor=pointer]:
+                    - /url: https://www.enjoei.com.br/@enjoei-pro?action_source=71941&d=feminino&pg=70&ref=home_home&rsp=1&rspix=1&s=feminino-roupas-casacos-e-jaquetas&s=feminino-calcados-botas&s=feminino-calcados-tenis&s=feminino-roupas-calcas
+                    - img "enjoei pro?action_source=71941&d=feminino&pg=70&ref=home_home&rsp=1&rspix=1&s=feminino roupas casacos e jaquetas&s=feminino calcados botas&s=feminino calcados tenis&s=feminino roupas calcas" [ref=e127]
+                    - paragraph [ref=e129]: no enjoei pro
+                  - link "só agora" [ref=e132] [cursor=pointer]:
+                    - /url: https://www.enjoei.com.br/feminino-roupas-casacos-e-jaquetas/s?action_source=71941&d=feminino&pg=300&pp=1&ref=home_home&rsp=1&rspix=1&s=feminino-calcados-botas&s=feminino-roupas-calcas&s=feminino-roupas-casacos-e-jaquetas&s=feminino-calcados-tenis&sls=super%2Cgood&spt=very_high%2Chigh%2Cmedium
+                    - paragraph [ref=e135]: só agora
+                  - link "bom negócio" [ref=e138] [cursor=pointer]:
+                    - /url: https://www.enjoei.com.br/s?action_source=71941&pg=5000&pp=1&ref=home_home&rsp=1&rspix=1&sls=super%2Cgood&spt=very_low%2Clow%2Cmedium&sr=near_regions
+                    - paragraph [ref=e141]: bom negócio
+                  - link "liberou" [ref=e144] [cursor=pointer]:
+                    - /url: https://www.enjoei.com.br/s?action_source=71941&pg=650&pp=1&ref=home_home&rsp=1&rspix=1&sls=super%2Cgood&spt=very_high%2Chigh%2Cmedium
+                    - paragraph [ref=e147]: liberou
+                - generic [ref=e148]:
+                  - paragraph [ref=e149]: corree, se não perde
+                  - generic [ref=e150]:
+                    - generic [ref=e153]: "01"
+                    - generic [ref=e154]:
+                      - text: ":"
+                      - generic [ref=e156]: "04"
+                    - generic [ref=e157]:
+                      - text: ":"
+                      - generic [ref=e597]: "13"
+          - article [ref=e162]:
+            - generic [ref=e163]:
+              - link "novidades vestidos diria que é seu dia de sorte corre pra pegar" [ref=e165] [cursor=pointer]:
+                - /url: https://www.enjoei.com.br/feminino-roupas-vestidos/s?action_source=31319&cat=feminino-roupas&dep=feminino&lp=30d&pp=1%2C34&ref=home_home&rsp=1&rspix=1&sls=super%2Cgood&spt=very_high%2Chigh%2Cmedium&sr=near_regions&sub=feminino-roupas-vestidos
+                - heading "novidades vestidos" [level=2] [ref=e166]
+                - paragraph [ref=e167]: diria que é seu dia de sorte
+                - generic [ref=e168]: corre pra pegar
+              - generic [ref=e170]:
+                - link "vestido bo bo julie preto 139444862?action_source=31319&ref=home_home&rsp=1&rspix=1 R$ 531 R$ 589" [ref=e173] [cursor=pointer]:
+                  - /url: https://www.enjoei.com.br/p/vestido-bo-bo-julie-preto-139444862?action_source=31319&ref=home_home&rsid=f8b42d10-6337-4fb8-a563-903985336def&rsp=1&rspix=1
+                  - img "vestido bo bo julie preto 139444862?action_source=31319&ref=home_home&rsp=1&rspix=1" [ref=e175]
+                  - paragraph [ref=e177]:
+                    - strong [ref=e178]:
+                      - emphasis [ref=e179]: R$ 531
+                    - deletion [ref=e180]: R$ 589
+                - link "vestido de festa rosa fucsia 140267503?action_source=31319&ref=home_home&rsp=1&rspix=1 R$ 210" [ref=e183] [cursor=pointer]:
+                  - /url: https://www.enjoei.com.br/p/vestido-de-festa-rosa-fucsia-140267503?action_source=31319&ref=home_home&rsid=f8b42d10-6337-4fb8-a563-903985336def&rsp=1&rspix=1
+                  - img "vestido de festa rosa fucsia 140267503?action_source=31319&ref=home_home&rsp=1&rspix=1" [ref=e185]
+                  - paragraph [ref=e187]:
+                    - strong [ref=e188]: R$ 210
+                - link "vestido croche 134801415?action_source=31319&ref=home_home&rsp=1&rspix=1 R$ 226 R$ 280" [ref=e191] [cursor=pointer]:
+                  - /url: https://www.enjoei.com.br/p/vestido-croche-134801415?action_source=31319&ref=home_home&rsid=f8b42d10-6337-4fb8-a563-903985336def&rsp=1&rspix=1
+                  - img "vestido croche 134801415?action_source=31319&ref=home_home&rsp=1&rspix=1" [ref=e193]
+                  - paragraph [ref=e195]:
+                    - strong [ref=e196]:
+                      - emphasis [ref=e197]: R$ 226
+                    - deletion [ref=e198]: R$ 280
+                - link "vestido lanca perfume vermelho p 141670012?action_source=31319&ref=home_home&rsp=1&rspix=1 R$ 280" [ref=e201] [cursor=pointer]:
+                  - /url: https://www.enjoei.com.br/p/vestido-lanca-perfume-vermelho-p-141670012?action_source=31319&ref=home_home&rsid=f8b42d10-6337-4fb8-a563-903985336def&rsp=1&rspix=1
+                  - img "vestido lanca perfume vermelho p 141670012?action_source=31319&ref=home_home&rsp=1&rspix=1" [ref=e203]
+                  - paragraph [ref=e205]:
+                    - strong [ref=e206]: R$ 280
+                - link "vestido lindissimo 139945572?action_source=31319&ref=home_home&rsp=1&rspix=1 R$ 224" [ref=e209] [cursor=pointer]:
+                  - /url: https://www.enjoei.com.br/p/vestido-lindissimo-139945572?action_source=31319&ref=home_home&rsid=f8b42d10-6337-4fb8-a563-903985336def&rsp=1&rspix=1
+                  - img "vestido lindissimo 139945572?action_source=31319&ref=home_home&rsp=1&rspix=1" [ref=e211]
+                  - paragraph [ref=e213]:
+                    - strong [ref=e214]: R$ 224
+                - link "vestido farm longo estampado floral mali bege pp 134127103?action_source=31319&ref=home_home&rsp=1&rspix=1 R$ 598" [ref=e217] [cursor=pointer]:
+                  - /url: https://www.enjoei.com.br/p/vestido-farm-longo-estampado-floral-mali-bege-pp-134127103?action_source=31319&ref=home_home&rsid=f8b42d10-6337-4fb8-a563-903985336def&rsp=1&rspix=1
+                  - img "vestido farm longo estampado floral mali bege pp 134127103?action_source=31319&ref=home_home&rsp=1&rspix=1" [ref=e219]
+                  - paragraph [ref=e221]:
+                    - strong [ref=e222]: R$ 598
+          - article [ref=e225]:
+            - generic [ref=e226]:
+              - link "favoritas com 70% de desconto marcas que lançam hit atrás de hit aproveite" [ref=e228] [cursor=pointer]:
+                - /url: https://www.enjoei.com.br/the-north-face/s?action_source=71842&b=the-north-face&dg=10&dl=70&ref=home_home&rsp=1&rspix=1&sls=super%2Cgood&spt=very_high%2Chigh%2Cmedium%2Clow
+                - heading "favoritas com 70% de desconto" [level=2] [ref=e229]
+                - paragraph [ref=e230]: marcas que lançam hit atrás de hit
+                - generic [ref=e231]: aproveite
+              - generic [ref=e233]:
+                - link "quentinho" [ref=e236] [cursor=pointer]:
+                  - /url: https://www.enjoei.com.br/anselmi/s?action_source=71842&b=anselmi&dg=10&dl=70&q=anselmi&ref=home_home&rsp=1&rspix=1&sls=super%2Cgood&spt=very_high%2Chigh%2Cmedium%2Clow
+                  - paragraph [ref=e239]: quentinho
+                - link "sem pique" [ref=e242] [cursor=pointer]:
+                  - /url: https://www.enjoei.com.br/feminino/s?action_source=71842&b=nike&dep=feminino&dg=10&dl=70&ref=home_home&rsp=1&rspix=1&sls=super%2Cgood&spt=very_high%2Chigh%2Cmedium%2Clow
+                  - paragraph [ref=e245]: sem pique
+                - link "listrou" [ref=e248] [cursor=pointer]:
+                  - /url: https://www.enjoei.com.br/feminino/s?action_source=71842&b=adidas&dep=feminino&dg=10&dl=70&ref=home_home&rsp=1&rspix=1&sls=super%2Cgood&spt=very_high%2Chigh%2Cmedium%2Clow&sr=near_regions
+                  - paragraph [ref=e251]: listrou
+                - link "adoro" [ref=e254] [cursor=pointer]:
+                  - /url: https://www.enjoei.com.br/columbia/s?action_source=71842&dg=10&dl=70&q=columbia&ref=home_home&rsp=1&rspix=1&sls=super%2Cgood&spt=very_high%2Chigh%2Cmedium%2Clow
+                  - paragraph [ref=e257]: adoro
+          - article [ref=e260]:
+            - generic [ref=e261]:
+              - link "mais buscados da estação fazem a turma toooda pedir bis pois corre" [ref=e263] [cursor=pointer]:
+                - /url: https://www.enjoei.com.br/inverno/s?action_source=71711&q=inverno&ref=home_home&rsp=1&rspix=1&sls=super%2Cgood&spt=very_high%2Chigh%2Cmedium%2Clow
+                - heading "mais buscados da estação" [level=2] [ref=e264]
+                - paragraph [ref=e265]: fazem a turma toooda pedir bis
+                - generic [ref=e266]: pois corre
+              - generic [ref=e268]:
+                - link "R$ 75" [ref=e271] [cursor=pointer]:
+                  - /url: https://www.enjoei.com.br/p/casaco-feminino-cinza-com-gola-de-pelo-142524694?action_source=71711&ref=home_home&rsid=f8b42d10-6337-4fb8-a563-903985336def&rsp=1&rspix=1
+                  - paragraph [ref=e274]:
+                    - strong [ref=e275]: R$ 75
+                - link "R$ 92 R$ 98" [ref=e278] [cursor=pointer]:
+                  - /url: https://www.enjoei.com.br/p/colete-de-pelos-feminino-cinza-141746092?action_source=71711&ref=home_home&rsid=f8b42d10-6337-4fb8-a563-903985336def&rsp=1&rspix=1
+                  - paragraph [ref=e281]:
+                    - strong [ref=e282]:
+                      - emphasis [ref=e283]: R$ 92
+                    - deletion [ref=e284]: R$ 98
+                - link "R$ 376 R$ 400" [ref=e287] [cursor=pointer]:
+                  - /url: https://www.enjoei.com.br/p/casaco-de-pelos-marrom-gg-141228545?action_source=71711&ref=home_home&rsid=f8b42d10-6337-4fb8-a563-903985336def&rsp=1&rspix=1
+                  - paragraph [ref=e290]:
+                    - strong [ref=e291]:
+                      - emphasis [ref=e292]: R$ 376
+                    - deletion [ref=e293]: R$ 400
+                - link "R$ 85" [ref=e296] [cursor=pointer]:
+                  - /url: https://www.enjoei.com.br/p/sueter-zara-trico-lilas-gola-alta-142454405?action_source=71711&ref=home_home&rsid=f8b42d10-6337-4fb8-a563-903985336def&rsp=1&rspix=1
+                  - paragraph [ref=e299]:
+                    - strong [ref=e300]: R$ 85
+                - link "R$ 129 R$ 199" [ref=e303] [cursor=pointer]:
+                  - /url: https://www.enjoei.com.br/p/casaco-pierre-cardin-cinza-degrade-gg-142121478?action_source=71711&ref=home_home&rsid=f8b42d10-6337-4fb8-a563-903985336def&rsp=1&rspix=1
+                  - paragraph [ref=e306]:
+                    - strong [ref=e307]:
+                      - emphasis [ref=e308]: R$ 129
+                    - deletion [ref=e309]: R$ 199
+                - link "R$ 56 R$ 60" [ref=e312] [cursor=pointer]:
+                  - /url: https://www.enjoei.com.br/p/jaqueta-blazer-jeans-141822791?action_source=71711&ref=home_home&rsid=f8b42d10-6337-4fb8-a563-903985336def&rsp=1&rspix=1
+                  - paragraph [ref=e315]:
+                    - strong [ref=e316]:
+                      - emphasis [ref=e317]: R$ 56
+                    - deletion [ref=e318]: R$ 60
+          - article [ref=e321]:
+            - link [ref=e327] [cursor=pointer]:
+              - /url: https://www.enjoei.com.br/feminino-roupas-casacos-e-jaquetas/s?action_source=72073&dep=feminino&ref=home_home&rsp=1&rspix=1&s=feminino-roupas-calcas&s=feminino-roupas-casacos-e-jaquetas&s=feminino-calcados-tenis&s=feminino-calcados-botas&sls=super%2Cgood&spt=very_high%2Chigh%2Cmedium&sr=near_regions
+          - article [ref=e331]:
+            - generic [ref=e332]:
+              - link "eletro até 12x pode pagar em suaves prestações ouié" [ref=e334] [cursor=pointer]:
+                - /url: https://www.enjoei.com.br/eletronicos-informatica-notebooks/s?action_source=71677&cat=eletronicos-informatica&dep=eletronicos&pb=7d&pg=300&ref=home_home&rsp=1&rspix=1&sls=super%2Cgood&spt=very_high%2Chigh%2Cmedium%2Clow&sub=eletronicos-informatica-notebooks
+                - heading "eletro até 12x" [level=2] [ref=e335]
+                - paragraph [ref=e336]: pode pagar em suaves prestações
+                - generic [ref=e337]: ouié
+              - generic [ref=e339]:
+                - link "samsung" [ref=e342] [cursor=pointer]:
+                  - /url: https://www.enjoei.com.br/eletronicos-smartphones-e-acessorios-smartphones/s?action_source=71677&b=samsung&cat=eletronicos-smartphones-e-acessorios&dep=eletronicos&pb=7d&pg=300&ref=home_home&rsp=1&rspix=1&sls=super%2Cgood&spt=very_high%2Chigh%2Cmedium%2Clow&sub=eletronicos-smartphones-e-acessorios-smartphones
+                  - paragraph [ref=e345]: samsung
+                - link "câmera digital" [ref=e348] [cursor=pointer]:
+                  - /url: https://www.enjoei.com.br/eletronicos-fotografia-cameras-digitais/s?action_source=71677&cat=eletronicos-fotografia&dep=eletronicos&pb=7d&pg=300&ref=home_home&rsp=1&rspix=1&sls=super%2Cgood&spt=very_high%2Chigh%2Cmedium%2Clow&sub=eletronicos-fotografia-cameras-digitais
+                  - paragraph [ref=e351]: câmera digital
+                - link "iphone" [ref=e354] [cursor=pointer]:
+                  - /url: https://www.enjoei.com.br/eletronicos-smartphones-e-acessorios-smartphones/s?action_source=71677&b=apple&cat=eletronicos-smartphones-e-acessorios&dep=eletronicos&pb=7d&pg=300&ref=home_home&rsp=1&rspix=1&sls=super%2Cgood&spt=very_high%2Chigh%2Cmedium%2Clow&sub=eletronicos-smartphones-e-acessorios-smartphones
+                  - paragraph [ref=e357]: iphone
+                - link "ipad" [ref=e360] [cursor=pointer]:
+                  - /url: https://www.enjoei.com.br/eletronicos-tablets-ipad/s?action_source=71677&b=apple&cat=eletronicos-tablets&dep=eletronicos&pb=7d&pg=300&ref=home_home&rsp=1&rspix=1&sls=super%2Cgood&spt=very_high%2Chigh%2Cmedium%2Clow&sub=eletronicos-tablets-ipad
+                  - paragraph [ref=e363]: ipad
+          - article [ref=e366]:
+            - generic [ref=e367]:
+              - link "favoritos do inverno pros embalos de sábado à noite uiuiui" [ref=e369] [cursor=pointer]:
+                - /url: https://www.enjoei.com.br/inverno/s?action_source=70522&q=inverno&ref=home_home&rsp=1&rspix=1&sls=super%2Cgood&spt=very_high%2Chigh%2Cmedium
+                - heading "favoritos do inverno" [level=2] [ref=e370]
+                - paragraph [ref=e371]: pros embalos de sábado à noite
+                - generic [ref=e372]: uiuiui
+              - generic [ref=e374]:
+                - link "R$ 278 R$ 298" [ref=e377] [cursor=pointer]:
+                  - /url: https://www.enjoei.com.br/p/sweater-teddy-bear-marinho-142355647?action_source=70522&ref=home_home&rsid=f8b42d10-6337-4fb8-a563-903985336def&rsp=1&rspix=1
+                  - paragraph [ref=e380]:
+                    - strong [ref=e381]:
+                      - emphasis [ref=e382]: R$ 278
+                    - deletion [ref=e383]: R$ 298
+                - link "R$ 85" [ref=e386] [cursor=pointer]:
+                  - /url: https://www.enjoei.com.br/p/casaco-mcbling-pelo-bege-142356437?action_source=70522&ref=home_home&rsid=f8b42d10-6337-4fb8-a563-903985336def&rsp=1&rspix=1
+                  - paragraph [ref=e389]:
+                    - strong [ref=e390]: R$ 85
+                - link "R$ 86" [ref=e393] [cursor=pointer]:
+                  - /url: https://www.enjoei.com.br/p/pijama-de-botoes-feminino-verde-m-novo-142245174?action_source=70522&ref=home_home&rsid=f8b42d10-6337-4fb8-a563-903985336def&rsp=1&rspix=1
+                  - paragraph [ref=e396]:
+                    - strong [ref=e397]: R$ 86
+                - link "R$ 480" [ref=e400] [cursor=pointer]:
+                  - /url: https://www.enjoei.com.br/p/casaco-de-la-feminino-longo-bege-36-140554341?action_source=70522&ref=home_home&rsid=f8b42d10-6337-4fb8-a563-903985336def&rsp=1&rspix=1
+                  - paragraph [ref=e403]:
+                    - strong [ref=e404]: R$ 480
+                - link "R$ 55" [ref=e407] [cursor=pointer]:
+                  - /url: https://www.enjoei.com.br/p/jaqueta-feminina-rovittex-marrom-142016229?action_source=70522&ref=home_home&rsid=f8b42d10-6337-4fb8-a563-903985336def&rsp=1&rspix=1
+                  - paragraph [ref=e410]:
+                    - strong [ref=e411]: R$ 55
+                - link "R$ 299" [ref=e414] [cursor=pointer]:
+                  - /url: https://www.enjoei.com.br/p/casaco-biamar-bege-tam-unico-140646889?action_source=70522&ref=home_home&rsid=f8b42d10-6337-4fb8-a563-903985336def&rsp=1&rspix=1
+                  - paragraph [ref=e417]:
+                    - strong [ref=e418]: R$ 299
+      - generic [ref=e420]:
+        - heading "*vibrou*" [level=2] [ref=e422]
+        - generic [ref=e423]:
+          - heading "baixe agora o app do enjoei" [level=2] [ref=e424]
+          - paragraph [ref=e425]:
+            - text: altas tendências nas modas em preços de oportunidade.
+            - text: tudo o que realmente importa na vida do internauta.
+          - list [ref=e426]:
+            - listitem [ref=e427]:
+              - link "baixar na app store" [ref=e428] [cursor=pointer]:
+                - /url: https://play.google.com/store/apps/details?id=br.com.enjoei.app&hl=pt_BR&gl=US
+            - listitem [ref=e429]:
+              - link "baixar na google play" [ref=e430] [cursor=pointer]:
+                - /url: https://apps.apple.com/us/app/enjoei-comprar-e-vender-roupa/id783409492
+          - img "Enjuapp" [ref=e432]
+    - generic [ref=e433]:
+      - paragraph [ref=e434]:
+        - text: "🍪 cookies: salvamos os dados da sua navegação pra personalizar e melhorar sua experiência por aqui. entenda tudo na nossa"
+        - link "política de privacidade" [ref=e435] [cursor=pointer]:
+          - /url: /ajuda/permalink/316
+      - generic [ref=e436] [cursor=pointer]: entendi e concordo
+  - contentinfo [ref=e437]:
+    - generic [ref=e438]:
+      - generic [ref=e440]:
+        - group [ref=e441]:
+          - generic "Categorias":
+            - generic:
+              - generic:
+                - generic: Categorias
+          - navigation [ref=e443]:
+            - list [ref=e444]:
+              - listitem [ref=e445]:
+                - link "Enjoei" [ref=e446] [cursor=pointer]:
+                  - /url: /
+              - listitem [ref=e447]:
+                - link "Moda Feminina" [ref=e448] [cursor=pointer]:
+                  - /url: /feminino/s?dep=feminino&ref=search_department_footer
+              - listitem [ref=e449]:
+                - link "Moda Masculina" [ref=e450] [cursor=pointer]:
+                  - /url: /masculino/s?dep=masculino&ref=search_department_footer
+              - listitem [ref=e451]:
+                - link "Casa & Decor" [ref=e452] [cursor=pointer]:
+                  - /url: /casa-e-decor/s?dep=casa-e-decor&ref=search_department_footer
+              - listitem [ref=e453]:
+                - link "Eletrônicos" [ref=e454] [cursor=pointer]:
+                  - /url: /eletronicos/s?dep=eletronicos&ref=search_department_footer
+              - listitem [ref=e455]:
+                - link "Eletrodomésticos" [ref=e456] [cursor=pointer]:
+                  - /url: /eletrodomesticos/s?dep=eletrodomesticos&ref=search_department_footer
+              - listitem [ref=e457]:
+                - link "Antiguidades" [ref=e458] [cursor=pointer]:
+                  - /url: /antiguidades-e-colecionaveis/s?dep=antiguidades-e-colecionaveis&ref=search_department_footer
+              - listitem [ref=e459]:
+                - link "Pets" [ref=e460] [cursor=pointer]:
+                  - /url: /pets/s?dep=pets&ref=search_department_footer
+              - listitem [ref=e461]:
+                - link "Enjoei Pro" [ref=e462] [cursor=pointer]:
+                  - /url: /pro
+        - group [ref=e463]:
+          - generic "Destaques":
+            - generic:
+              - generic:
+                - generic: Destaques
+          - navigation [ref=e465]:
+            - list [ref=e466]:
+              - listitem [ref=e467]:
+                - link "Cupom do dia" [ref=e468] [cursor=pointer]:
+                  - /url: /l/cupons-de-desconto
+              - listitem [ref=e469]:
+                - link "Tipos de vestidos" [ref=e470] [cursor=pointer]:
+                  - /url: /c/tipos-de-vestidos
+              - listitem [ref=e471]:
+                - link "Modelos de bolsas" [ref=e472] [cursor=pointer]:
+                  - /url: /c/tipos-de-bolsas-femininas
+              - listitem [ref=e473]:
+                - link "Marcas de tênis" [ref=e474] [cursor=pointer]:
+                  - /url: /c/marcas-de-tenis
+              - listitem [ref=e475]:
+                - link "Ver tudo" [ref=e476] [cursor=pointer]:
+                  - /url: /c/conteudos
+        - group [ref=e477]:
+          - generic "Marcas mais buscadas":
+            - generic:
+              - generic:
+                - generic: Marcas mais buscadas
+          - navigation [ref=e479]:
+            - list [ref=e480]:
+              - listitem [ref=e481]:
+                - link "Farm" [ref=e482] [cursor=pointer]:
+                  - /url: /farm/s?b=farm&ref=search_brand_footer
+              - listitem [ref=e483]:
+                - link "Adidas" [ref=e484] [cursor=pointer]:
+                  - /url: /adidas/s?b=adidas&ref=search_brand_footer
+              - listitem [ref=e485]:
+                - link "Melissa" [ref=e486] [cursor=pointer]:
+                  - /url: /melissa/s?b=melissa&ref=search_brand_footer
+              - listitem [ref=e487]:
+                - link "Zara" [ref=e488] [cursor=pointer]:
+                  - /url: /zara/s?b=zara&ref=search_brand_footer
+              - listitem [ref=e489]:
+                - link "Vans" [ref=e490] [cursor=pointer]:
+                  - /url: /vans/s?b=vans&ref=search_brand_footer
+              - listitem [ref=e491]:
+                - link "Nike" [ref=e492] [cursor=pointer]:
+                  - /url: /nike/s?b=nike&ref=search_brand_footer
+              - listitem [ref=e493]:
+                - link "Pandora" [ref=e494] [cursor=pointer]:
+                  - /url: /pandora/s?b=pandora&ref=search_brand_footer
+              - listitem [ref=e495]:
+                - link "Vivara" [ref=e496] [cursor=pointer]:
+                  - /url: /vivara/s?b=vivara&ref=search_brand_footer
+              - listitem [ref=e497]:
+                - link "All Star" [ref=e498] [cursor=pointer]:
+                  - /url: /all-star/s?b=all-star&ref=search_brand_footer
+              - listitem [ref=e499]:
+                - link "Antix" [ref=e500] [cursor=pointer]:
+                  - /url: /antix/s?b=antix&ref=search_brand_footer
+              - listitem [ref=e501]:
+                - link "Louis Vuitton" [ref=e502] [cursor=pointer]:
+                  - /url: /louis-vuitton/s?b=louis-vuitton&ref=search_brand_footer
+              - listitem [ref=e503]:
+                - link "Schutz" [ref=e504] [cursor=pointer]:
+                  - /url: /schutz/s?b=schutz&ref=search_brand_footer
+              - listitem [ref=e505]:
+                - link "Apple" [ref=e506] [cursor=pointer]:
+                  - /url: /apple/s?b=apple&ref=search_brand_footer
+              - listitem [ref=e507]:
+                - link "Ver todas" [ref=e508] [cursor=pointer]:
+                  - /url: /m
+        - group [ref=e509]:
+          - generic "Utilidades":
+            - generic:
+              - generic:
+                - generic: Utilidades
+          - navigation [ref=e511]:
+            - list [ref=e512]:
+              - listitem [ref=e513]:
+                - link "Ajuda" [ref=e514] [cursor=pointer]:
+                  - /url: /t/ajuda
+              - listitem [ref=e515]:
+                - link "Como vender" [ref=e516] [cursor=pointer]:
+                  - /url: /l/como-vender
+              - listitem [ref=e517]:
+                - link "Como comprar" [ref=e518] [cursor=pointer]:
+                  - /url: /l/como-comprar
+              - listitem [ref=e519]:
+                - link "Tarifas" [ref=e520] [cursor=pointer]:
+                  - /url: /l/tarifas
+              - listitem [ref=e521]:
+                - link "Marcas" [ref=e522] [cursor=pointer]:
+                  - /url: /m
+              - listitem [ref=e523]:
+                - link "Termos de uso" [ref=e524] [cursor=pointer]:
+                  - /url: /ajuda/sobre-o-enjoei/politica-de-privacidade-e-termos-de-uso-do-enjoei/termos-de-uso-do-enjoei
+              - listitem [ref=e525]:
+                - link "segurança" [ref=e526] [cursor=pointer]:
+                  - /url: /seguranca
+              - listitem [ref=e527]:
+                - link "Política de privacidade" [ref=e528] [cursor=pointer]:
+                  - /url: /politica-de-privacidade
+              - listitem [ref=e529]:
+                - link "Devolução e reembolso" [ref=e530] [cursor=pointer]:
+                  - /url: /c/cancelamento-devolucao-reembolso
+              - listitem [ref=e531]:
+                - link "Trabalhe no enjoei" [ref=e532] [cursor=pointer]:
+                  - /url: https://enjoei.gupy.io/
+              - listitem [ref=e533]:
+                - link "lojas físicas" [ref=e534] [cursor=pointer]:
+                  - /url: /c/lojas-fisicas
+              - listitem [ref=e535]:
+                - link "Investidores" [ref=e536] [cursor=pointer]:
+                  - /url: https://ri.enjoei.com
+              - listitem [ref=e537]:
+                - link "Mapa do site" [ref=e538] [cursor=pointer]:
+                  - /url: /sitemap
+              - listitem [ref=e539]:
+                - link "Cupons" [ref=e540] [cursor=pointer]:
+                  - /url: /l/cupons-de-desconto
+        - group [ref=e541]:
+          - generic "Minha conta":
+            - generic:
+              - generic:
+                - generic: Minha conta
+          - navigation [ref=e543]:
+            - list [ref=e544]:
+              - listitem [ref=e545]:
+                - link "Minha loja" [ref=e546] [cursor=pointer]:
+                  - /url: /meu-perfil
+              - listitem [ref=e547]:
+                - link "Minhas vendas" [ref=e548] [cursor=pointer]:
+                  - /url: /perfil/minha-lojinha
+              - listitem [ref=e549]:
+                - link "Minhas compras" [ref=e550] [cursor=pointer]:
+                  - /url: /perfil/compras
+              - listitem [ref=e551]:
+                - link "Enjugrana" [ref=e552] [cursor=pointer]:
+                  - /url: /enjugrana
+              - listitem [ref=e553]:
+                - link "yeyezados" [ref=e554] [cursor=pointer]:
+                  - /url: /perfil/yeyezados
+              - listitem [ref=e555]:
+                - link "Configurações" [ref=e556] [cursor=pointer]:
+                  - /url: /perfil/alterar
+        - group [ref=e557]:
+          - generic "Siga a gente":
+            - generic:
+              - generic:
+                - generic: Siga a gente
+          - navigation [ref=e559]:
+            - list [ref=e560]:
+              - listitem [ref=e561]:
+                - link "Facebook" [ref=e562] [cursor=pointer]:
+                  - /url: https://www.facebook.com/enjoei
+              - listitem [ref=e563]:
+                - link "Twitter" [ref=e564] [cursor=pointer]:
+                  - /url: https://twitter.com/enjoei
+              - listitem [ref=e565]:
+                - link "Instagram" [ref=e566] [cursor=pointer]:
+                  - /url: https://instagram.com/enjoei
+              - listitem [ref=e567]:
+                - link "Tiktok" [ref=e568] [cursor=pointer]:
+                  - /url: https://www.tiktok.com/@enjoei
+              - listitem [ref=e569]:
+                - link "LinkedIn" [ref=e570] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/company/enjoei
+      - separator [ref=e574]
+      - generic [ref=e576]:
+        - paragraph [ref=e578]: o enjoei é uma empresa alegre, colorida, nascida e criada na internet que fala a língua desse lugar. comprar e vender roupas, sapatos, móveis e muito mais ficou mais fácil uma plataforma própria e adequada ao tempo moderno em que vivemos. encontre no enjoei uma nova maneira de comprar e vender online. roupas, sapatos, móveis, e tudo o que você precisar, anunciados por pessoas reais, com histórias reais e preços reais.
+        - link "exibir mais informações sobre o enjoei" [ref=e580] [cursor=pointer]:
+          - /url: "#"
+      - separator [ref=e584]
+      - generic [ref=e586]:
+        - link "ir para a página inicial" [ref=e588] [cursor=pointer]:
+          - /url: /
+          - img [ref=e590]
+        - paragraph [ref=e593]:
+          - text: "enjoei © 2026 - Todos os direitos reservados - Enjoei S.A. CNPJ: 16.922.038/0001-51"
+          - text: Avenida Ipiranga, 200, Loja 87, Andar Terraço, Edifício Copan, República, São Paulo, SP, 01046-925

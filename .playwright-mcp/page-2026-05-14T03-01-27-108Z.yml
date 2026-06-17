@@ -1,0 +1,121 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]: BURGER.CO
+    - link "Fazer pedido" [ref=e4] [cursor=pointer]:
+      - /url: "#pedir"
+  - generic [ref=e7]:
+    - generic [ref=e8]: Artesanal • Desde 2019
+    - heading "O burguer que faz você voltar." [level=1] [ref=e9]:
+      - generic [ref=e11]: O
+      - generic [ref=e13]: burguer
+      - generic [ref=e15]: que
+      - generic [ref=e17]: faz
+      - generic [ref=e19]: você
+      - emphasis [ref=e20]:
+        - generic [ref=e22]: voltar.
+    - paragraph [ref=e23]:
+      - text: Blend artesanal, cheddar derretido na hora, bacon crocante no ponto.
+      - text: Feito para quem sabe a diferença.
+    - generic [ref=e24]:
+      - link "Quero o meu agora" [ref=e25] [cursor=pointer]:
+        - /url: "#pedir"
+        - img [ref=e26]
+        - text: Quero o meu agora
+      - link "Ver o cardápio completo" [ref=e28] [cursor=pointer]:
+        - /url: "#menu"
+  - generic [ref=e29]:
+    - generic [ref=e30]:
+      - generic [ref=e31]: 180g
+      - generic [ref=e32]: Blend Artesanal
+    - generic [ref=e33]:
+      - generic [ref=e34]: 100%
+      - generic [ref=e35]: Feito na Hora
+    - generic [ref=e36]:
+      - generic [ref=e37]: 45min
+      - generic [ref=e38]: Entrega Garantida
+    - generic [ref=e39]:
+      - generic [ref=e40]: "0"
+      - generic [ref=e41]: Congelados
+  - generic [ref=e42]:
+    - generic [ref=e43]:
+      - heading "Os clássicos" [level=2] [ref=e44]:
+        - text: Os
+        - emphasis [ref=e45]: clássicos
+      - generic [ref=e46]: O que os nossos clientes mais pedem
+    - generic [ref=e47]:
+      - generic [ref=e48] [cursor=pointer]:
+        - generic [ref=e49]:
+          - img "O Clássico" [ref=e50]
+          - generic [ref=e51]: ⭐ Mais Pedido
+        - generic [ref=e52]:
+          - generic [ref=e53]: O Clássico
+          - paragraph [ref=e54]: Blend 180g temperado na mão, cheddar artesanal derretido, bacon crocante, alface americana, tomate sweet e molho da casa. O que os nossos clientes mais pedem há 5 anos.
+          - generic [ref=e55]: R$ 45 por unidade
+          - generic [ref=e56]:
+            - text: Ver o burguer
+            - img [ref=e57]
+      - generic [ref=e59] [cursor=pointer]:
+        - generic [ref=e60]:
+          - img "O Smash" [ref=e61]
+          - generic [ref=e62]: Novo
+        - generic [ref=e63]:
+          - generic [ref=e64]: O Smash
+          - paragraph [ref=e65]: Dois blends smashados na chapa, dupla de cheddar americano, pickles artesanais, cebola caramelizada, mostarda dijon. Uma explosão que sua boca não esquece.
+          - generic [ref=e66]: R$ 52 por unidade
+          - generic [ref=e67]:
+            - text: Ver o burguer
+            - img [ref=e68]
+      - generic [ref=e70] [cursor=pointer]:
+        - generic [ref=e71]:
+          - img "O Trufa" [ref=e72]
+          - generic [ref=e73]: Premium
+        - generic [ref=e74]:
+          - generic [ref=e75]: O Trufa
+          - paragraph [ref=e76]: Blend premium 200g, molho de trufa negra, gorgonzola cremoso, rúcula selvagem, cebola roxa marinada. Para quem quer o melhor da casa — e sabe quando chegou lá.
+          - generic [ref=e77]: R$ 68 por unidade
+          - generic [ref=e78]:
+            - text: Ver o burguer
+            - img [ref=e79]
+  - generic [ref=e81]:
+    - heading "Não vendemos fast food. Vendemos a melhor hora do seu dia." [level=2] [ref=e83]:
+      - text: Não vendemos
+      - text: fast food.
+      - emphasis [ref=e84]:
+        - text: Vendemos
+        - text: a melhor hora
+        - text: do seu dia.
+    - paragraph [ref=e86]:
+      - text: A maioria das hamburguerias usa blend congelado, queijo industrializado e tudo pronto em 5 minutos. A sua próxima refeição não vai ser assim.
+      - text: Cada burguer começa com carne fresca entregue toda manhã, temperada à mão e preparada quando você pede.
+      - strong [ref=e87]: Porque comida boa exige respeito com o tempo.
+  - generic [ref=e88]:
+    - generic [ref=e89]: 🔥
+    - heading "Se não for o melhor burguer que você já provou, a gente devolve." [level=3] [ref=e90]:
+      - text: Se não for o melhor burguer
+      - text: que você já provou,
+      - emphasis [ref=e91]: a gente devolve.
+    - paragraph [ref=e92]: Sem burocracia. Sem pergunta. Se não ficar satisfeito com o primeiro pedido, devolveremos 100% do valor. Esse é nosso compromisso com cada cliente.
+  - generic [ref=e93]:
+    - generic [ref=e94]: Seu próximo pedido
+    - heading "Sente aquele cheiro. Agora pede. Chega em 45 minutos." [level=2] [ref=e95]:
+      - text: Sente aquele cheiro.
+      - text: Agora pede.
+      - emphasis [ref=e96]: Chega em 45 minutos.
+    - link "Fazer meu pedido no WhatsApp" [ref=e97] [cursor=pointer]:
+      - /url: https://wa.me/5511999999999
+      - img [ref=e98]
+      - text: Fazer meu pedido no WhatsApp
+    - paragraph [ref=e100]: Entrega em até 45min • Pagamento no recebimento • Satisfação garantida
+  - contentinfo [ref=e101]:
+    - generic [ref=e102]: BURGER.CO
+    - paragraph [ref=e103]: © 2026 Burger Co. — Todos os direitos reservados
+  - dialog:
+    - generic:
+      - button "Fechar": ✕
+      - generic:
+        - paragraph
+        - link "Fazer pedido agora":
+          - /url: https://wa.me/5511999999999
+          - img
+          - generic: Fazer pedido agora
+        - paragraph: Satisfação garantida • Devolução 100% se não gostar

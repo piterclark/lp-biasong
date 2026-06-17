@@ -1,0 +1,11 @@
+[     966ms] TypeError: Cannot read properties of null (reading 'dataset')
+    at https://dock2.com.br/:509:1635
+    at https://dock2.com.br/:509:3099
+[    4142ms] [ERROR] Shopify's Google Analytics stub called with: [create, UA-50288217-5, Object] 
+See https://help.shopify.com/manual/promoting-marketing/pixels/pixel-migration#google for more information. @ https://dock2.com.br/:705
+[    4143ms] [ERROR] Shopify's Google Analytics stub called with: [] 
+See https://help.shopify.com/manual/promoting-marketing/pixels/pixel-migration#google for more information. @ https://dock2.com.br/:705
+[    4144ms] [ERROR] Shopify's Google Analytics stub called with: [gtag_UA_50288217_5.set, Object] 
+See https://help.shopify.com/manual/promoting-marketing/pixels/pixel-migration#google for more information. @ https://dock2.com.br/:705
+[    4146ms] [ERROR] Shopify's Google Analytics stub called with: [gtag_UA_50288217_5.send, pageview, Object] 
+See https://help.shopify.com/manual/promoting-marketing/pixels/pixel-migration#google for more information. @ https://dock2.com.br/:705

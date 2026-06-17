@@ -1,0 +1,24 @@
+[    1390ms] [WARNING] cdn.tailwindcss.com should not be used in production. To use Tailwind CSS in production, install it as a PostCSS plugin or use the Tailwind CLI: https://tailwindcss.com/docs/installation @ https://cdn.tailwindcss.com/:63
+[    1621ms] [LOG] JQMIGRATE: Migrate is installed, version 3.4.1 @ https://site.biasong.com.br/wp-content/litespeed/js/fd5f6881ba74276e41127fe421251dc3.js?ver=f391f:1
+[    1641ms] ReferenceError: elementorFrontendConfig is not defined
+    at 8309 (https://site.biasong.com.br/wp-content/litespeed/js/fd5f6881ba74276e41127fe421251dc3.js?ver=f391f:122:25844)
+    at __webpack_require__ (https://site.biasong.com.br/wp-content/litespeed/js/fd5f6881ba74276e41127fe421251dc3.js?ver=f391f:4:155)
+    at 7603 (https://site.biasong.com.br/wp-content/litespeed/js/fd5f6881ba74276e41127fe421251dc3.js?ver=f391f:122:19823)
+    at __webpack_require__ (https://site.biasong.com.br/wp-content/litespeed/js/fd5f6881ba74276e41127fe421251dc3.js?ver=f391f:4:155)
+    at https://site.biasong.com.br/wp-content/litespeed/js/fd5f6881ba74276e41127fe421251dc3.js?ver=f391f:122:31856
+    at __webpack_require__.O (https://site.biasong.com.br/wp-content/litespeed/js/fd5f6881ba74276e41127fe421251dc3.js?ver=f391f:4:513)
+    at https://site.biasong.com.br/wp-content/litespeed/js/fd5f6881ba74276e41127fe421251dc3.js?ver=f391f:122:31875
+    at webpackJsonpCallback (https://site.biasong.com.br/wp-content/litespeed/js/fd5f6881ba74276e41127fe421251dc3.js?ver=f391f:4:5355)
+    at https://site.biasong.com.br/wp-content/litespeed/js/fd5f6881ba74276e41127fe421251dc3.js?ver=f391f:122:91
+[    1646ms] ReferenceError: wp is not defined
+    at data:text/javascript;base64,d3AuaTE4bi5zZXRMb2NhbGVEYXRhKHsndGV4dCBkaXJlY3Rpb25cdTAwMDRsdHInOlsnbHRyJ119KQ==:1:1
+[    1633ms] [LOG] JQMIGRATE: Migrate plugin loaded multiple times @ https://site.biasong.com.br/wp-content/litespeed/js/fd5f6881ba74276e41127fe421251dc3.js?ver=f391f:1
+[    1633ms] [LOG] JQMIGRATE: Migrate is installed, version 3.4.1 @ https://site.biasong.com.br/wp-content/litespeed/js/fd5f6881ba74276e41127fe421251dc3.js?ver=f391f:1
+[    2542ms] [INFO] ::VTURB:: v(1.36.1) @ https://scripts.converteai.net/lib/js/smartplayer/v1/smartplayer.min.js:0
+[    2571ms] [WARNING] Specifying 'overflow: visible' on img, video and canvas tags may cause them to produce visual content outside of the element bounds. See https://github.com/WICG/view-transitions/blob/main/debugging_overflow_on_images.md for details. @ https://scripts.converteai.net/lib/js/smartplayer/v1/smartplayer.min.js:0
+[    2587ms] [WARNING] A preload for 'https://cdn.converteai.net/86ad8771-657c-4660-99be-fcff012c81a0/691b1daa111bbf801ae8cf87/main.m3u8' is found, but is not used because the request credentials mode does not match. Consider taking a look at crossorigin attribute. @ https://scripts.converteai.net/lib/js/smartplayer/v1/smartplayer.min.js:0
+[    2622ms] [LOG] Flushing 1 events @ https://scripts.converteai.net/lib/js/smartplayer/v1/smartplayer.min.js:0
+[    2624ms] [LOG] Flushing 2 events @ https://scripts.converteai.net/lib/js/smartplayer/v1/smartplayer.min.js:0
+[    3951ms] [LOG] [LiteSpeed] Start Lazy Load @ https://site.biasong.com.br/:370
+[    3952ms] [LOG] [LiteSpeed] Start Lazy Load @ https://site.biasong.com.br/:370
+[    9972ms] [WARNING] The resource https://cdn.converteai.net/86ad8771-657c-4660-99be-fcff012c81a0/691b1daa111bbf801ae8cf87/main.m3u8 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://site.biasong.com.br/:0

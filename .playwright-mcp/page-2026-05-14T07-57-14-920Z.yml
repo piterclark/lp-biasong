@@ -1,0 +1,580 @@
+- generic [ref=e11]:
+  - generic [ref=e13]:
+    - link "Instagram" [ref=e16] [cursor=pointer]:
+      - /url: /
+      - img "Instagram" [ref=e19]
+    - generic [ref=e24]:
+      - link "Entrar" [ref=e26] [cursor=pointer]:
+        - /url: /accounts/login/?next=%2Fp%2FDV_gVlIFRSK%2F%3Fimg_index%3D1&source=desktop_nav
+      - link "Cadastre-se" [ref=e28] [cursor=pointer]:
+        - /url: /accounts/emailsignup/
+  - main [ref=e29]:
+    - dialog [ref=e34]:
+      - generic [ref=e35]:
+        - button "Fechar" [ref=e37] [cursor=pointer]:
+          - img "Fechar" [ref=e39]
+        - generic [ref=e43]:
+          - generic [ref=e44]:
+            - link "Foto do perfil de dayantorresart" [ref=e46] [cursor=pointer]:
+              - img "Foto do perfil de dayantorresart" [ref=e47]
+            - generic [ref=e49]:
+              - generic [ref=e50]: Veja este post no app
+              - generic [ref=e52]: Use o app para ver todos os comentários e descobrir mais posts.
+              - generic [ref=e54]:
+                - text: Ao continuar, você concorda com os
+                - link "Termos de Uso" [ref=e55] [cursor=pointer]:
+                  - /url: https://help.instagram.com/581066165581870/?locale=pt_BR
+                - text: e a
+                - link "Política de Privacidade" [ref=e56] [cursor=pointer]:
+                  - /url: https://privacycenter.instagram.com/policy/
+                - text: do Instagram.
+          - generic [ref=e57]:
+            - link "Abrir Instagram" [ref=e60] [cursor=pointer]:
+              - /url: https://applink.instagram.com/p/DV_gVlIFRSK/?img_index=1&ig_mid=9E46908B-65E0-4142-96B2-05F46DB9774A&utm_source=instagramweb&fall_back_to_web=false&is_ipad=true&utm_campaign=ig_web_ipad_upsell
+            - link "Cadastre-se" [ref=e63] [cursor=pointer]:
+              - /url: /accounts/emailsignup/?next=%2Fp%2FDV_gVlIFRSK%2F%3Fimg_index%3D1
+    - generic [ref=e64]:
+      - generic [ref=e66]:
+        - generic [ref=e78]:
+          - list [ref=e80]:
+            - listitem [ref=e81]
+            - listitem [ref=e82]:
+              - img [ref=e89]
+            - listitem [ref=e91]:
+              - img [ref=e98]
+          - button "Avançar" [ref=e100] [cursor=pointer]
+        - generic [ref=e103]:
+          - generic [ref=e105]:
+            - button "Foto do perfil de dayantorresart" [disabled] [ref=e107]:
+              - link "Foto do perfil de dayantorresart" [disabled] [ref=e109] [cursor=pointer]:
+                - img "Foto do perfil de dayantorresart" [ref=e110]
+            - generic [ref=e113]:
+              - generic [ref=e115]:
+                - link "dayantorresart" [ref=e117] [cursor=pointer]:
+                  - /url: /dayantorresart/
+                  - generic [ref=e120]: dayantorresart
+                - img "Verificado" [ref=e122]
+              - generic [ref=e124]:
+                - generic [ref=e126]: •
+                - button "Seguir" [ref=e127] [cursor=pointer]
+            - button "Mais opções" [ref=e130] [cursor=pointer]:
+              - img "Mais opções" [ref=e133]
+          - separator [ref=e137]
+          - generic [ref=e139]:
+            - generic [ref=e141]:
+              - link "Foto do perfil de dayantorresart" [ref=e143] [cursor=pointer]:
+                - /url: /dayantorresart/
+                - img "Foto do perfil de dayantorresart" [ref=e144]
+              - generic [ref=e148]:
+                - generic [ref=e149]:
+                  - link "dayantorresart Verificado" [ref=e150] [cursor=pointer]:
+                    - /url: /dayantorresart/
+                    - generic [ref=e152]:
+                      - generic [ref=e153]: dayantorresart
+                      - img "Verificado" [ref=e155]
+                  - time [ref=e158]: 8 sem
+                - generic [ref=e159]:
+                  - text: Full back with Hercules and Cerberus healed, indoors and outdoors with natural lighting.
+                  - text: This project is a few months healed! Thanks Brandon for your trust!
+                  - text: Done using
+                  - link "@bishoprotary" [ref=e160] [cursor=pointer]:
+                    - /url: /bishoprotary/
+                  - link "@hornetarttattoosupply" [ref=e161] [cursor=pointer]:
+                    - /url: /hornetarttattoosupply/
+                  - link "#tattoo" [ref=e162] [cursor=pointer]:
+                    - /url: /explore/tags/tattoo/
+                  - link "#blackandgreytattoo" [ref=e163] [cursor=pointer]:
+                    - /url: /explore/tags/blackandgreytattoo/
+                  - link "#tatuaje" [ref=e164] [cursor=pointer]:
+                    - /url: /explore/tags/tatuaje/
+                  - link "#tatuagem" [ref=e165] [cursor=pointer]:
+                    - /url: /explore/tags/tatuagem/
+                  - link "#tattooartists" [ref=e166] [cursor=pointer]:
+                    - /url: /explore/tags/tattooartists/
+            - button "Carregar mais comentários" [ref=e168] [cursor=pointer]:
+              - img "Carregar mais comentários" [ref=e170]
+            - generic [ref=e172]:
+              - generic [ref=e175]:
+                - link "Foto do perfil de obakesumi" [ref=e178] [cursor=pointer]:
+                  - /url: /obakesumi/
+                  - img "Foto do perfil de obakesumi" [ref=e179]
+                - generic [ref=e181]:
+                  - generic [ref=e183]:
+                    - generic [ref=e184]:
+                      - link "obakesumi" [ref=e186] [cursor=pointer]:
+                        - /url: /obakesumi/
+                        - generic [ref=e189]: obakesumi
+                      - link "4 sem" [ref=e191] [cursor=pointer]:
+                        - /url: /p/DV_gVlIFRSK/c/17954573049107866/
+                        - time [ref=e192]: 4 sem
+                    - generic [ref=e194]: 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+                  - generic [ref=e195]:
+                    - button "1 curtida" [ref=e196] [cursor=pointer]:
+                      - generic [ref=e198]: 1 curtida
+                    - button "Responder" [ref=e199] [cursor=pointer]:
+                      - generic [ref=e201]: Responder
+              - generic [ref=e204]:
+                - link "Foto do perfil de studio_pixadao" [ref=e207] [cursor=pointer]:
+                  - /url: /studio_pixadao/
+                  - img "Foto do perfil de studio_pixadao" [ref=e208]
+                - generic [ref=e210]:
+                  - generic [ref=e212]:
+                    - generic [ref=e213]:
+                      - link "studio_pixadao" [ref=e215] [cursor=pointer]:
+                        - /url: /studio_pixadao/
+                        - generic [ref=e218]: studio_pixadao
+                      - link "6 sem" [ref=e220] [cursor=pointer]:
+                        - /url: /p/DV_gVlIFRSK/c/18087139529245510/
+                        - time [ref=e221]: 6 sem
+                    - generic [ref=e223]: 🔥🔥🔥
+                  - generic [ref=e224]:
+                    - button "Curtir" [ref=e225] [cursor=pointer]:
+                      - generic [ref=e226]: Curtir
+                    - button "Responder" [ref=e227] [cursor=pointer]:
+                      - generic [ref=e229]: Responder
+              - generic [ref=e232]:
+                - link "Foto do perfil de tim.steimer" [ref=e235] [cursor=pointer]:
+                  - /url: /tim.steimer/
+                  - img "Foto do perfil de tim.steimer" [ref=e236]
+                - generic [ref=e238]:
+                  - generic [ref=e240]:
+                    - generic [ref=e241]:
+                      - link "tim.steimer" [ref=e243] [cursor=pointer]:
+                        - /url: /tim.steimer/
+                        - generic [ref=e246]: tim.steimer
+                      - link "7 sem" [ref=e248] [cursor=pointer]:
+                        - /url: /p/DV_gVlIFRSK/c/17942753876997302/
+                        - time [ref=e249]: 7 sem
+                    - generic [ref=e251]: Where did you find this picture of Herakles ?
+                  - generic [ref=e252]:
+                    - button "Curtir" [ref=e253] [cursor=pointer]:
+                      - generic [ref=e254]: Curtir
+                    - button "Responder" [ref=e255] [cursor=pointer]:
+                      - generic [ref=e257]: Responder
+              - generic [ref=e260]:
+                - link "Foto do perfil de yazzi_ink" [ref=e263] [cursor=pointer]:
+                  - /url: /yazzi_ink/
+                  - img "Foto do perfil de yazzi_ink" [ref=e264]
+                - generic [ref=e266]:
+                  - generic [ref=e268]:
+                    - generic [ref=e269]:
+                      - link "yazzi_ink" [ref=e271] [cursor=pointer]:
+                        - /url: /yazzi_ink/
+                        - generic [ref=e274]: yazzi_ink
+                      - link "7 sem" [ref=e276] [cursor=pointer]:
+                        - /url: /p/DV_gVlIFRSK/c/18059195573413743/
+                        - time [ref=e277]: 7 sem
+                    - generic [ref=e279]: 👏
+                  - generic [ref=e280]:
+                    - button "Curtir" [ref=e281] [cursor=pointer]:
+                      - generic [ref=e282]: Curtir
+                    - button "Responder" [ref=e283] [cursor=pointer]:
+                      - generic [ref=e285]: Responder
+              - generic [ref=e288]:
+                - link "Foto do perfil de chime.oner" [ref=e291] [cursor=pointer]:
+                  - /url: /chime.oner/
+                  - img "Foto do perfil de chime.oner" [ref=e292]
+                - generic [ref=e294]:
+                  - generic [ref=e296]:
+                    - generic [ref=e297]:
+                      - link "chime.oner" [ref=e299] [cursor=pointer]:
+                        - /url: /chime.oner/
+                        - generic [ref=e302]: chime.oner
+                      - link "7 sem" [ref=e304] [cursor=pointer]:
+                        - /url: /p/DV_gVlIFRSK/c/18096798977075533/
+                        - time [ref=e305]: 7 sem
+                    - generic [ref=e307]: 💣💣💣🤘🤘🤘
+                  - generic [ref=e308]:
+                    - button "Curtir" [ref=e309] [cursor=pointer]:
+                      - generic [ref=e310]: Curtir
+                    - button "Responder" [ref=e311] [cursor=pointer]:
+                      - generic [ref=e313]: Responder
+              - generic [ref=e316]:
+                - link "Foto do perfil de kasandrasiljanoski" [ref=e319] [cursor=pointer]:
+                  - /url: /kasandrasiljanoski/
+                  - img "Foto do perfil de kasandrasiljanoski" [ref=e320]
+                - generic [ref=e322]:
+                  - generic [ref=e324]:
+                    - generic [ref=e325]:
+                      - link "kasandrasiljanoski Verificado" [ref=e327] [cursor=pointer]:
+                        - /url: /kasandrasiljanoski/
+                        - generic [ref=e329]:
+                          - generic [ref=e330]: kasandrasiljanoski
+                          - img "Verificado" [ref=e332]
+                      - link "7 sem" [ref=e335] [cursor=pointer]:
+                        - /url: /p/DV_gVlIFRSK/c/17853101703686960/
+                        - time [ref=e336]: 7 sem
+                    - generic [ref=e338]: 👏
+                  - generic [ref=e339]:
+                    - button "Curtir" [ref=e340] [cursor=pointer]:
+                      - generic [ref=e341]: Curtir
+                    - button "Responder" [ref=e342] [cursor=pointer]:
+                      - generic [ref=e344]: Responder
+              - generic [ref=e347]:
+                - link "Foto do perfil de ndra.logo" [ref=e350] [cursor=pointer]:
+                  - /url: /ndra.logo/
+                  - img "Foto do perfil de ndra.logo" [ref=e351]
+                - generic [ref=e353]:
+                  - generic [ref=e355]:
+                    - generic [ref=e356]:
+                      - link "ndra.logo" [ref=e358] [cursor=pointer]:
+                        - /url: /ndra.logo/
+                        - generic [ref=e361]: ndra.logo
+                      - link "7 sem" [ref=e363] [cursor=pointer]:
+                        - /url: /p/DV_gVlIFRSK/c/17951699982067648/
+                        - time [ref=e364]: 7 sem
+                    - generic [ref=e366]: 🔥👏😍
+                  - generic [ref=e367]:
+                    - button "Curtir" [ref=e368] [cursor=pointer]:
+                      - generic [ref=e369]: Curtir
+                    - button "Responder" [ref=e370] [cursor=pointer]:
+                      - generic [ref=e372]: Responder
+              - generic [ref=e375]:
+                - link "Foto do perfil de whitesloth.tattoo" [ref=e378] [cursor=pointer]:
+                  - /url: /whitesloth.tattoo/
+                  - img "Foto do perfil de whitesloth.tattoo" [ref=e379]
+                - generic [ref=e381]:
+                  - generic [ref=e383]:
+                    - generic [ref=e384]:
+                      - link "whitesloth.tattoo Verificado" [ref=e386] [cursor=pointer]:
+                        - /url: /whitesloth.tattoo/
+                        - generic [ref=e388]:
+                          - generic [ref=e389]: whitesloth.tattoo
+                          - img "Verificado" [ref=e391]
+                      - link "8 sem" [ref=e394] [cursor=pointer]:
+                        - /url: /p/DV_gVlIFRSK/c/17894888592423289/
+                        - time [ref=e395]: 8 sem
+                    - generic [ref=e397]: Beautiful art work 🙌🙌🙌❤️❤️❤️
+                  - generic [ref=e398]:
+                    - button "Curtir" [ref=e399] [cursor=pointer]:
+                      - generic [ref=e400]: Curtir
+                    - button "Responder" [ref=e401] [cursor=pointer]:
+                      - generic [ref=e403]: Responder
+              - generic [ref=e406]:
+                - link "Foto do perfil de koichimynichi" [ref=e409] [cursor=pointer]:
+                  - /url: /koichimynichi/
+                  - img "Foto do perfil de koichimynichi" [ref=e410]
+                - generic [ref=e412]:
+                  - generic [ref=e414]:
+                    - generic [ref=e415]:
+                      - link "koichimynichi" [ref=e417] [cursor=pointer]:
+                        - /url: /koichimynichi/
+                        - generic [ref=e420]: koichimynichi
+                      - link "8 sem" [ref=e422] [cursor=pointer]:
+                        - /url: /p/DV_gVlIFRSK/c/18332995924168595/
+                        - time [ref=e423]: 8 sem
+                    - generic [ref=e425]: Solid brotha 🔥
+                  - generic [ref=e426]:
+                    - button "Curtir" [ref=e427] [cursor=pointer]:
+                      - generic [ref=e428]: Curtir
+                    - button "Responder" [ref=e429] [cursor=pointer]:
+                      - generic [ref=e431]: Responder
+              - generic [ref=e434]:
+                - link "Foto do perfil de outanduncharted" [ref=e437] [cursor=pointer]:
+                  - /url: /outanduncharted/
+                  - img "Foto do perfil de outanduncharted" [ref=e438]
+                - generic [ref=e440]:
+                  - generic [ref=e442]:
+                    - generic [ref=e443]:
+                      - link "outanduncharted" [ref=e445] [cursor=pointer]:
+                        - /url: /outanduncharted/
+                        - generic [ref=e448]: outanduncharted
+                      - link "8 sem" [ref=e450] [cursor=pointer]:
+                        - /url: /p/DV_gVlIFRSK/c/18123852562607481/
+                        - time [ref=e451]: 8 sem
+                    - generic [ref=e453]: Solid work!
+                  - generic [ref=e454]:
+                    - button "Curtir" [ref=e455] [cursor=pointer]:
+                      - generic [ref=e456]: Curtir
+                    - button "Responder" [ref=e457] [cursor=pointer]:
+                      - generic [ref=e459]: Responder
+              - generic [ref=e462]:
+                - link "Foto do perfil de travelling_crow_woman" [ref=e465] [cursor=pointer]:
+                  - /url: /travelling_crow_woman/
+                  - img "Foto do perfil de travelling_crow_woman" [ref=e466]
+                - generic [ref=e468]:
+                  - generic [ref=e470]:
+                    - generic [ref=e471]:
+                      - link "travelling_crow_woman" [ref=e473] [cursor=pointer]:
+                        - /url: /travelling_crow_woman/
+                        - generic [ref=e476]: travelling_crow_woman
+                      - link "8 sem" [ref=e478] [cursor=pointer]:
+                        - /url: /p/DV_gVlIFRSK/c/18075608444385713/
+                        - time [ref=e479]: 8 sem
+                    - generic [ref=e481]: 👏🏼😍🔥
+                  - generic [ref=e482]:
+                    - button "Curtir" [ref=e483] [cursor=pointer]:
+                      - generic [ref=e484]: Curtir
+                    - button "Responder" [ref=e485] [cursor=pointer]:
+                      - generic [ref=e487]: Responder
+              - generic [ref=e490]:
+                - link "Foto do perfil de zitacu_ink" [ref=e493] [cursor=pointer]:
+                  - /url: /zitacu_ink/
+                  - img "Foto do perfil de zitacu_ink" [ref=e494]
+                - generic [ref=e496]:
+                  - generic [ref=e498]:
+                    - generic [ref=e499]:
+                      - link "zitacu_ink" [ref=e501] [cursor=pointer]:
+                        - /url: /zitacu_ink/
+                        - generic [ref=e504]: zitacu_ink
+                      - link "8 sem" [ref=e506] [cursor=pointer]:
+                        - /url: /p/DV_gVlIFRSK/c/18017432702656453/
+                        - time [ref=e507]: 8 sem
+                    - generic [ref=e509]: amazing🙌
+                  - generic [ref=e510]:
+                    - button "Curtir" [ref=e511] [cursor=pointer]:
+                      - generic [ref=e512]: Curtir
+                    - button "Responder" [ref=e513] [cursor=pointer]:
+                      - generic [ref=e515]: Responder
+              - generic [ref=e518]:
+                - link "Foto do perfil de shanelynntattoos" [ref=e521] [cursor=pointer]:
+                  - /url: /shanelynntattoos/
+                  - img "Foto do perfil de shanelynntattoos" [ref=e522]
+                - generic [ref=e524]:
+                  - generic [ref=e526]:
+                    - generic [ref=e527]:
+                      - link "shanelynntattoos" [ref=e529] [cursor=pointer]:
+                        - /url: /shanelynntattoos/
+                        - generic [ref=e532]: shanelynntattoos
+                      - link "8 sem" [ref=e534] [cursor=pointer]:
+                        - /url: /p/DV_gVlIFRSK/c/18411807991131374/
+                        - time [ref=e535]: 8 sem
+                    - generic [ref=e537]: This is the best back tattoo I’ve ever seen. The composition is breathtaking!
+                  - generic [ref=e538]:
+                    - button "Curtir" [ref=e539] [cursor=pointer]:
+                      - generic [ref=e540]: Curtir
+                    - button "Responder" [ref=e541] [cursor=pointer]:
+                      - generic [ref=e543]: Responder
+              - generic [ref=e546]:
+                - link "Foto do perfil de lizaache" [ref=e549] [cursor=pointer]:
+                  - /url: /lizaache/
+                  - img "Foto do perfil de lizaache" [ref=e550]
+                - generic [ref=e552]:
+                  - generic [ref=e554]:
+                    - generic [ref=e555]:
+                      - link "lizaache" [ref=e557] [cursor=pointer]:
+                        - /url: /lizaache/
+                        - generic [ref=e560]: lizaache
+                      - link "8 sem" [ref=e562] [cursor=pointer]:
+                        - /url: /p/DV_gVlIFRSK/c/17861486256613174/
+                        - time [ref=e563]: 8 sem
+                    - generic [ref=e565]: Fire👏
+                  - generic [ref=e566]:
+                    - button "Curtir" [ref=e567] [cursor=pointer]:
+                      - generic [ref=e568]: Curtir
+                    - button "Responder" [ref=e569] [cursor=pointer]:
+                      - generic [ref=e571]: Responder
+              - generic [ref=e574]:
+                - link "Foto do perfil de lizaache" [ref=e577] [cursor=pointer]:
+                  - /url: /lizaache/
+                  - img "Foto do perfil de lizaache" [ref=e578]
+                - generic [ref=e580]:
+                  - generic [ref=e582]:
+                    - generic [ref=e583]:
+                      - link "lizaache" [ref=e585] [cursor=pointer]:
+                        - /url: /lizaache/
+                        - generic [ref=e588]: lizaache
+                      - link "8 sem" [ref=e590] [cursor=pointer]:
+                        - /url: /p/DV_gVlIFRSK/c/18260046973295018/
+                        - time [ref=e591]: 8 sem
+                    - generic [ref=e593]: Wow😍😍
+                  - generic [ref=e594]:
+                    - button "Curtir" [ref=e595] [cursor=pointer]:
+                      - generic [ref=e596]: Curtir
+                    - button "Responder" [ref=e597] [cursor=pointer]:
+                      - generic [ref=e599]: Responder
+              - progressbar [ref=e602]:
+                - img "Carregando..." [ref=e603]
+          - generic [ref=e616]:
+            - generic [ref=e617]:
+              - generic [ref=e618]:
+                - button "Curtir" [ref=e621] [cursor=pointer]:
+                  - img "Curtir" [ref=e624]
+                - button "6,3 mil" [ref=e626] [cursor=pointer]
+                - button "Comentar" [ref=e628] [cursor=pointer]:
+                  - img "Comentar" [ref=e630]
+                - button "55" [ref=e632] [cursor=pointer]
+                - button "Compartilhar" [ref=e633] [cursor=pointer]:
+                  - img "Compartilhar" [ref=e634]
+              - button "Salvar" [ref=e638] [cursor=pointer]:
+                - img "Salvar" [ref=e640]
+            - link "17 de março" [ref=e644] [cursor=pointer]:
+              - /url: /dayantorresart/p/DV_gVlIFRSK/
+              - time [ref=e646]: 17 de março
+          - generic [ref=e651]:
+            - link "Entrar" [ref=e652] [cursor=pointer]:
+              - /url: /accounts/login/?next=%2Fp%2FDV_gVlIFRSK%2F&source=post_comment_input
+            - text: para curtir ou comentar.
+      - separator [ref=e654]
+      - generic [ref=e655]:
+        - generic [ref=e657]:
+          - text: Mais posts de
+          - link "dayantorresart" [ref=e658] [cursor=pointer]:
+            - /url: /dayantorresart/
+        - generic [ref=e661]:
+          - generic [ref=e662]:
+            - link "Clipe" [ref=e664] [cursor=pointer]:
+              - /url: /dayantorresart/reel/DP1hzdbkX5o/
+              - generic:
+                - generic:
+                  - generic:
+                    - img "Clipe"
+            - link "Clipe" [ref=e669] [cursor=pointer]:
+              - /url: /dayantorresart/reel/DQpH4Sgjzky/
+              - generic:
+                - generic:
+                  - generic:
+                    - img "Clipe"
+            - link [ref=e674] [cursor=pointer]:
+              - /url: /dayantorresart/p/DP6pHWmDQPQ/
+          - generic [ref=e678]:
+            - link "Carrossel" [ref=e680] [cursor=pointer]:
+              - /url: /dayantorresart/p/DYSOZm1FXb1/
+              - generic:
+                - generic:
+                  - generic:
+                    - img "Carrossel"
+            - link "Clipe" [ref=e685] [cursor=pointer]:
+              - /url: /dayantorresart/reel/DYPpPRuv1Zf/
+              - generic:
+                - generic:
+                  - generic:
+                    - img "Clipe"
+            - link "Carrossel" [ref=e690] [cursor=pointer]:
+              - /url: /dayantorresart/p/DYKhMOXFSp_/
+              - generic:
+                - generic:
+                  - generic:
+                    - img "Carrossel"
+          - generic [ref=e694]:
+            - link "Clipe" [ref=e696] [cursor=pointer]:
+              - /url: /lamanigancetattootoronto/reel/DYFVOhoPVPC/
+              - generic:
+                - generic:
+                  - generic:
+                    - img "Clipe"
+            - link "Clipe" [ref=e701] [cursor=pointer]:
+              - /url: /dayantorresart/reel/DYC1tKtvlIR/
+              - generic:
+                - generic:
+                  - generic:
+                    - img "Clipe"
+            - link "Clipe" [ref=e706] [cursor=pointer]:
+              - /url: /dayantorresart/reel/DYAPKg8QmCJ/
+              - generic:
+                - generic:
+                  - generic:
+                    - img "Clipe"
+        - generic [ref=e710]:
+          - link "Ver mais posts" [ref=e712] [cursor=pointer]:
+            - /url: /dayantorresart/
+            - generic [ref=e713]: Ver mais posts
+          - separator [ref=e714]
+  - contentinfo [ref=e715]:
+    - generic [ref=e716]:
+      - generic [ref=e718]:
+        - link "Meta" [ref=e720] [cursor=pointer]:
+          - /url: https://about.meta.com/
+          - generic [ref=e721]: Meta
+        - link "Sobre" [ref=e723] [cursor=pointer]:
+          - /url: https://about.instagram.com/
+          - generic [ref=e724]: Sobre
+        - link "Blog" [ref=e726] [cursor=pointer]:
+          - /url: https://about.instagram.com/blog/
+          - generic [ref=e727]: Blog
+        - link "Carreiras" [ref=e729] [cursor=pointer]:
+          - /url: https://about.instagram.com/about-us/careers
+          - generic [ref=e730]: Carreiras
+        - link "Ajuda" [ref=e732] [cursor=pointer]:
+          - /url: https://help.instagram.com/
+          - generic [ref=e733]: Ajuda
+        - link "API" [ref=e735] [cursor=pointer]:
+          - /url: https://developers.facebook.com/docs/instagram
+          - generic [ref=e736]: API
+        - link "Privacidade" [ref=e738] [cursor=pointer]:
+          - /url: /legal/privacy/
+          - generic [ref=e739]: Privacidade
+        - link "Termos" [ref=e741] [cursor=pointer]:
+          - /url: /legal/terms/
+          - generic [ref=e742]: Termos
+        - link "Localizações" [ref=e744] [cursor=pointer]:
+          - /url: /explore/locations/
+          - generic [ref=e745]: Localizações
+        - link "Popular" [ref=e747] [cursor=pointer]:
+          - /url: /popular/
+          - generic [ref=e748]: Popular
+        - link "Instagram Lite" [ref=e750] [cursor=pointer]:
+          - /url: /web/lite/
+          - generic [ref=e751]: Instagram Lite
+        - link "Meta AI" [ref=e753] [cursor=pointer]:
+          - /url: https://www.meta.ai/?utm_source=foa_web_footer
+          - generic [ref=e754]: Meta AI
+        - link "Threads" [ref=e756] [cursor=pointer]:
+          - /url: https://www.threads.com/
+          - generic [ref=e757]: Threads
+        - link "Upload de contatos e não usuários" [ref=e759] [cursor=pointer]:
+          - /url: https://www.facebook.com/help/instagram/261704639352628
+          - generic [ref=e760]: Upload de contatos e não usuários
+        - link "Meta Verified" [ref=e762] [cursor=pointer]:
+          - /url: /accounts/meta_verified/?entrypoint=web_footer
+          - generic [ref=e763]: Meta Verified
+      - generic [ref=e764]:
+        - generic [ref=e765] [cursor=pointer]:
+          - generic [ref=e766]:
+            - generic [ref=e767]: Português (Brasil)
+            - img "Ícone de seta para baixo" [ref=e770]
+          - combobox "Trocar idioma de exibição" [ref=e772]:
+            - option "Afrikaans"
+            - option "العربية"
+            - option "Čeština"
+            - option "Dansk"
+            - option "Deutsch"
+            - option "Ελληνικά"
+            - option "English"
+            - option "English (UK)"
+            - option "Español (España)"
+            - option "Español"
+            - option "فارسی"
+            - option "Suomi"
+            - option "Français"
+            - option "עברית"
+            - option "Bahasa Indonesia"
+            - option "Italiano"
+            - option "日本語"
+            - option "한국어"
+            - option "Bahasa Melayu"
+            - option "Norsk"
+            - option "Nederlands"
+            - option "Polski"
+            - option "Português (Brasil)" [selected]
+            - option "Português (Portugal)"
+            - option "Русский"
+            - option "Svenska"
+            - option "ภาษาไทย"
+            - option "Filipino"
+            - option "Türkçe"
+            - option "中文(简体)"
+            - option "中文(台灣)"
+            - option "বাংলা"
+            - option "ગુજરાતી"
+            - option "हिन्दी"
+            - option "Hrvatski"
+            - option "Magyar"
+            - option "ಕನ್ನಡ"
+            - option "മലയാളം"
+            - option "मराठी"
+            - option "नेपाली"
+            - option "ਪੰਜਾਬੀ"
+            - option "සිංහල"
+            - option "Slovenčina"
+            - option "தமிழ்"
+            - option "తెలుగు"
+            - option "اردو"
+            - option "Tiếng Việt"
+            - option "中文(香港)"
+            - option "Български"
+            - option "Français (Canada)"
+            - option "Română"
+            - option "Српски"
+            - option "Українська"
+        - generic [ref=e774]: © 2026 Instagram from Meta

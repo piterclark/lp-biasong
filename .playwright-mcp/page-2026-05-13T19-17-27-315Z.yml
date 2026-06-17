@@ -1,0 +1,762 @@
+- generic [active] [ref=e1]:
+  - dialog "Sua privacidade é importante" [ref=e2]:
+    - generic [ref=e3]:
+      - tabpanel "Consentir" [ref=e6]:
+        - generic [ref=e8]:
+          - heading "Sua privacidade é importante" [level=2] [ref=e9]
+          - generic [ref=e10]:
+            - paragraph [ref=e11]:
+              - text: Utilizamos cookies para melhorar sua experiência, analisar o tráfego e oferecer conteúdo personalizado. Clique em 'Aceitar todos' para consentir de acordo com nossas políticas de
+              - link "Cookies" [ref=e12] [cursor=pointer]:
+                - /url: https://www.envato.com/cookies/
+              - text: e
+              - link "Privacidade" [ref=e13] [cursor=pointer]:
+                - /url: https://www.envato.com/privacy/
+              - text: .
+            - paragraph [ref=e14]
+      - generic [ref=e18]:
+        - button "Rejeitar todos" [ref=e19] [cursor=pointer]
+        - button "Gerenciar preferências" [ref=e20] [cursor=pointer]: Gerenciar preferências
+        - button "Aceitar todos" [ref=e22] [cursor=pointer]
+  - banner [ref=e23]:
+    - 'link "Envato: Go unlimited!" [ref=e25] [cursor=pointer]':
+      - /url: https://elements.envato.com/pricing?utm_source=mixkit&utm_medium=referral&utm_campaign=elements_mixkit_headerbar_14APR2025
+      - generic [ref=e26]:
+        - strong [ref=e27]: "Envato:"
+        - text: Go unlimited!
+    - generic [ref=e28]:
+      - link "Mixkit - Free assets for your next video project" [ref=e29] [cursor=pointer]:
+        - /url: /
+        - img [ref=e30]
+      - generic [ref=e36]:
+        - generic [ref=e37] [cursor=pointer]:
+          - generic [ref=e38]: Videos
+          - generic:
+            - generic: Videos
+            - generic: Music
+            - generic: Sound Effects
+            - generic: Templates
+            - generic: Icons
+        - generic [ref=e39]:
+          - searchbox "Enter Search Text" [ref=e40]: Working
+          - button "Clear" [ref=e41] [cursor=pointer]:
+            - img [ref=e42]
+      - button "Toggle Navigation" [ref=e45] [cursor=pointer]
+      - navigation "global-navigation":
+        - link "Video" [ref=e47] [cursor=pointer]:
+          - /url: /free-stock-video/
+        - link "Music" [ref=e48] [cursor=pointer]:
+          - /url: /free-stock-music/
+        - link "Sound Effects" [ref=e49] [cursor=pointer]:
+          - /url: /free-sound-effects/
+        - generic [ref=e50]:
+          - link "Templates" [ref=e51] [cursor=pointer]:
+            - /url: /free-video-templates/
+          - generic [ref=e52]:
+            - link "Premiere Pro" [ref=e53] [cursor=pointer]:
+              - /url: /free-premiere-pro-templates/
+            - link "After Effects" [ref=e54] [cursor=pointer]:
+              - /url: /free-after-effects-templates/
+            - link "Final Cut Pro" [ref=e55] [cursor=pointer]:
+              - /url: /free-final-cut-pro-templates/
+            - link "DaVinci Resolve" [ref=e56] [cursor=pointer]:
+              - /url: /free-davinci-resolve-templates/
+        - link "Unlimited stock assets" [ref=e58] [cursor=pointer]:
+          - /url: https://elements.envato.com/all-items?utm_source=mixkit&utm_medium=referral&utm_campaign=elements_mixkit_cs_nav_switcher_31JULY2024
+    - navigation [ref=e60]:
+      - link "New" [ref=e62] [cursor=pointer]:
+        - /url: /free-stock-video/new/
+      - link "Backgrounds" [ref=e64] [cursor=pointer]:
+        - /url: /free-stock-video/background/
+      - link "Vertical" [ref=e66] [cursor=pointer]:
+        - /url: /free-vertical-videos/
+      - link "Nature" [ref=e68] [cursor=pointer]:
+        - /url: /free-stock-video/nature/
+      - link "Lifestyle" [ref=e70] [cursor=pointer]:
+        - /url: /free-stock-video/lifestyle/
+      - link "Animals" [ref=e72] [cursor=pointer]:
+        - /url: /free-stock-video/animal/
+      - link "Food" [ref=e74] [cursor=pointer]:
+        - /url: /free-stock-video/food/
+      - link "Transport" [ref=e76] [cursor=pointer]:
+        - /url: /free-stock-video/transport/
+      - link "More Videos" [ref=e78] [cursor=pointer]:
+        - /url: "#"
+  - main [ref=e79]:
+    - generic [ref=e80]:
+      - link "Mixkit" [ref=e81] [cursor=pointer]:
+        - /url: https://mixkit.co/
+      - link "Free Stock Video" [ref=e82] [cursor=pointer]:
+        - /url: https://mixkit.co/free-stock-video/
+      - text: Working
+    - generic [ref=e84]:
+      - heading "2078 Free Working Stock Videos Filter" [level=1] [ref=e85]:
+        - text: 2078 Free Working Stock Videos
+        - button "Filter" [ref=e86] [cursor=pointer]
+      - generic [ref=e89]:
+        - text: All working stock video clips can be downloaded for free, without watermark, to be used in your next awesome video project under the
+        - link "Mixkit License" [ref=e90] [cursor=pointer]:
+          - /url: /license/#videoFree
+        - text: "! Also check out"
+        - link "Profession" [ref=e91] [cursor=pointer]:
+          - /url: /free-stock-video/profession/
+        - text: ","
+        - link "Work" [ref=e92] [cursor=pointer]:
+          - /url: /free-stock-video/work/
+        - text: ","
+        - link "Close Up" [ref=e93] [cursor=pointer]:
+          - /url: /free-stock-video/close-up/
+        - text: ","
+        - link "Office" [ref=e94] [cursor=pointer]:
+          - /url: /free-stock-video/office/
+        - text: ","
+        - link "Laptop" [ref=e95] [cursor=pointer]:
+          - /url: /free-stock-video/laptop/
+        - text: ","
+        - link "Woman" [ref=e96] [cursor=pointer]:
+          - /url: /free-stock-video/woman/
+        - text: and
+        - link "Medium Shot" [ref=e97] [cursor=pointer]:
+          - /url: /free-stock-video/medium-shot/
+        - text: .
+    - generic [ref=e99]:
+      - generic [ref=e102]:
+        - generic [ref=e104]:
+          - link "Envato Elements" [ref=e106] [cursor=pointer]:
+            - /url: https://elements.envato.com/stock-video/working?utm_source=mixkit&utm_medium=referral&utm_campaign=elements_mixkit_cs_video_tag_results_31JULY2024
+            - img "Envato Elements" [ref=e107]
+          - generic [ref=e108]:
+            - paragraph [ref=e109]: Quality artist-created Working videos
+            - paragraph [ref=e110]: Create with unlimited stock video, templates, music & more, all in one value-packed subscription.
+          - link "Start creating now" [ref=e112] [cursor=pointer]:
+            - /url: https://elements.envato.com/stock-video/working?utm_source=mixkit&utm_medium=referral&utm_campaign=elements_mixkit_cs_video_tag_results_31JULY2024
+        - generic [ref=e114]:
+          - button "Previous Slide" [ref=e115] [cursor=pointer]:
+            - img [ref=e117]
+          - button "Next Slide" [ref=e119] [cursor=pointer]:
+            - img [ref=e121]
+          - generic [ref=e123]:
+            - generic [ref=e124]: slide 7 to 9 of 8
+            - generic [ref=e127]:
+              - generic [ref=e129] [cursor=pointer]:
+                - img [ref=e131]
+                - link [ref=e135]:
+                  - /url: https://elements.envato.com/work-BAZ5K8V?utm_source=mixkit&utm_medium=referral&utm_campaign=elements_mixkit_cs_video_tag_results_31JULY2024
+              - generic [ref=e137] [cursor=pointer]:
+                - img [ref=e139]
+                - link [ref=e143]:
+                  - /url: https://elements.envato.com/work-M6K5ALE?utm_source=mixkit&utm_medium=referral&utm_campaign=elements_mixkit_cs_video_tag_results_31JULY2024
+              - generic [ref=e145] [cursor=pointer]:
+                - img [ref=e147]
+                - link [ref=e151]:
+                  - /url: https://elements.envato.com/work-5Z4GTS8?utm_source=mixkit&utm_medium=referral&utm_campaign=elements_mixkit_cs_video_tag_results_31JULY2024
+              - generic [ref=e153] [cursor=pointer]:
+                - img [ref=e155]
+                - link [ref=e159]:
+                  - /url: https://elements.envato.com/working-PS2EVYB?utm_source=mixkit&utm_medium=referral&utm_campaign=elements_mixkit_cs_video_tag_results_31JULY2024
+              - generic [ref=e161] [cursor=pointer]:
+                - img [ref=e163]
+                - link [ref=e167]:
+                  - /url: https://elements.envato.com/freelance-working-B8E2YPA?utm_source=mixkit&utm_medium=referral&utm_campaign=elements_mixkit_cs_video_tag_results_31JULY2024
+              - generic [ref=e169] [cursor=pointer]:
+                - img [ref=e171]
+                - link [ref=e175]:
+                  - /url: https://elements.envato.com/modern-craftswoman-starting-workday-EKMNA6S?utm_source=mixkit&utm_medium=referral&utm_campaign=elements_mixkit_cs_video_tag_results_31JULY2024
+              - generic [ref=e177] [cursor=pointer]:
+                - img "Working." [ref=e179]
+                - link [ref=e183]:
+                  - /url: https://elements.envato.com/working-HDTW2YB?utm_source=mixkit&utm_medium=referral&utm_campaign=elements_mixkit_cs_video_tag_results_31JULY2024
+              - generic [ref=e185] [cursor=pointer]:
+                - img "Working." [ref=e187]
+                - link [ref=e191]:
+                  - /url: https://elements.envato.com/working-ZL8PFGY?utm_source=mixkit&utm_medium=referral&utm_campaign=elements_mixkit_cs_video_tag_results_31JULY2024
+              - generic [ref=e193] [cursor=pointer]:
+                - img "Work." [ref=e195]
+                - link [ref=e199]:
+                  - /url: https://elements.envato.com/work-BAZ5K8V?utm_source=mixkit&utm_medium=referral&utm_campaign=elements_mixkit_cs_video_tag_results_31JULY2024
+              - generic [ref=e201] [cursor=pointer]:
+                - img [ref=e203]
+                - link [ref=e207]:
+                  - /url: https://elements.envato.com/work-M6K5ALE?utm_source=mixkit&utm_medium=referral&utm_campaign=elements_mixkit_cs_video_tag_results_31JULY2024
+              - generic [ref=e209] [cursor=pointer]:
+                - img [ref=e211]
+                - link [ref=e215]:
+                  - /url: https://elements.envato.com/work-5Z4GTS8?utm_source=mixkit&utm_medium=referral&utm_campaign=elements_mixkit_cs_video_tag_results_31JULY2024
+              - generic [ref=e217] [cursor=pointer]:
+                - img [ref=e219]
+                - link [ref=e223]:
+                  - /url: https://elements.envato.com/working-PS2EVYB?utm_source=mixkit&utm_medium=referral&utm_campaign=elements_mixkit_cs_video_tag_results_31JULY2024
+              - generic [ref=e225] [cursor=pointer]:
+                - img [ref=e227]
+                - link [ref=e231]:
+                  - /url: https://elements.envato.com/freelance-working-B8E2YPA?utm_source=mixkit&utm_medium=referral&utm_campaign=elements_mixkit_cs_video_tag_results_31JULY2024
+              - generic [ref=e233] [cursor=pointer]:
+                - img [ref=e235]
+                - link [ref=e239]:
+                  - /url: https://elements.envato.com/modern-craftswoman-starting-workday-EKMNA6S?utm_source=mixkit&utm_medium=referral&utm_campaign=elements_mixkit_cs_video_tag_results_31JULY2024
+              - generic [ref=e241] [cursor=pointer]:
+                - img [ref=e243]
+                - link [ref=e247]:
+                  - /url: https://elements.envato.com/working-HDTW2YB?utm_source=mixkit&utm_medium=referral&utm_campaign=elements_mixkit_cs_video_tag_results_31JULY2024
+              - generic [ref=e249] [cursor=pointer]:
+                - img [ref=e251]
+                - link [ref=e255]:
+                  - /url: https://elements.envato.com/working-ZL8PFGY?utm_source=mixkit&utm_medium=referral&utm_campaign=elements_mixkit_cs_video_tag_results_31JULY2024
+              - generic [ref=e257] [cursor=pointer]:
+                - img [ref=e259]
+                - link [ref=e263]:
+                  - /url: https://elements.envato.com/work-BAZ5K8V?utm_source=mixkit&utm_medium=referral&utm_campaign=elements_mixkit_cs_video_tag_results_31JULY2024
+              - generic [ref=e265] [cursor=pointer]:
+                - img [ref=e267]
+                - link [ref=e271]:
+                  - /url: https://elements.envato.com/work-M6K5ALE?utm_source=mixkit&utm_medium=referral&utm_campaign=elements_mixkit_cs_video_tag_results_31JULY2024
+              - generic [ref=e273] [cursor=pointer]:
+                - img [ref=e275]
+                - link [ref=e279]:
+                  - /url: https://elements.envato.com/work-5Z4GTS8?utm_source=mixkit&utm_medium=referral&utm_campaign=elements_mixkit_cs_video_tag_results_31JULY2024
+              - generic [ref=e281] [cursor=pointer]:
+                - img [ref=e283]
+                - link [ref=e287]:
+                  - /url: https://elements.envato.com/working-PS2EVYB?utm_source=mixkit&utm_medium=referral&utm_campaign=elements_mixkit_cs_video_tag_results_31JULY2024
+      - generic [ref=e288]:
+        - generic [ref=e289]:
+          - generic [ref=e291]:
+            - generic [ref=e292]:
+              - img "Open office space." [ref=e295]
+              - generic [ref=e298]:
+                - link "Open office space" [ref=e299] [cursor=pointer]:
+                  - /url: /free-stock-video/open-office-space-914/
+                - button "View Fullscreen" [ref=e300] [cursor=pointer]
+            - generic [ref=e301]:
+              - heading "Open office space" [level=2] [ref=e302]:
+                - link "Open office space" [ref=e303] [cursor=pointer]:
+                  - /url: /free-stock-video/open-office-space-914/
+              - paragraph [ref=e304]: An open floor office space with several long tables and computers, people sitting at desks working or walking among the desks. White walls with plants in the background.
+          - generic [ref=e306]:
+            - generic [ref=e307]:
+              - img "Intensely focused young man working on a computer." [ref=e310]
+              - generic [ref=e313]:
+                - link "Intensely focused young man working on a computer" [ref=e314] [cursor=pointer]:
+                  - /url: /free-stock-video/intensely-focused-young-man-working-on-a-computer-48503/
+                - button "View Fullscreen" [ref=e315] [cursor=pointer]
+            - heading "Intensely focused young man working on a computer" [level=2] [ref=e317]:
+              - link "Intensely focused young man working on a computer" [ref=e318] [cursor=pointer]:
+                - /url: /free-stock-video/intensely-focused-young-man-working-on-a-computer-48503/
+          - generic [ref=e320]:
+            - generic [ref=e321]:
+              - img "Frustrated boy throws a tantrum while working on his computer." [ref=e324]
+              - generic [ref=e327]:
+                - link "Frustrated boy throws a tantrum while working on his computer" [ref=e328] [cursor=pointer]:
+                  - /url: /free-stock-video/frustrated-boy-throws-a-tantrum-while-working-on-his-computer-25585/
+                - button "View Fullscreen" [ref=e329] [cursor=pointer]
+            - generic [ref=e330]:
+              - heading "Frustrated boy throws a tantrum while working on his computer" [level=2] [ref=e331]:
+                - link "Frustrated boy throws a tantrum while working on his computer" [ref=e332] [cursor=pointer]:
+                  - /url: /free-stock-video/frustrated-boy-throws-a-tantrum-while-working-on-his-computer-25585/
+              - paragraph [ref=e333]: Stressed man working on his computer, sitting at a table, with papers, notebooks and a calculator, when frustrated he throws all the papers from the table and leaves annoyed.
+          - generic [ref=e335]:
+            - generic [ref=e336]:
+              - text: 4K
+              - img "Business people at work meeting." [ref=e339]
+              - generic [ref=e342]:
+                - link "Business people at work meeting" [ref=e343] [cursor=pointer]:
+                  - /url: /free-stock-video/business-people-at-work-meeting-4809/
+                - button "View Fullscreen" [ref=e344] [cursor=pointer]
+            - generic [ref=e345]:
+              - heading "Business people at work meeting" [level=2] [ref=e346]:
+                - link "Business people at work meeting" [ref=e347] [cursor=pointer]:
+                  - /url: /free-stock-video/business-people-at-work-meeting-4809/
+              - paragraph [ref=e348]: Coworkers discussing graphics in a meeting, in an office, with laptops and many documents.
+          - generic [ref=e350]:
+            - generic [ref=e351]:
+              - img "Thoughtful woman working in her office." [ref=e354]
+              - generic [ref=e357]:
+                - link "Thoughtful woman working in her office" [ref=e358] [cursor=pointer]:
+                  - /url: /free-stock-video/thoughtful-woman-working-in-her-office-42656/
+                - button "View Fullscreen" [ref=e359] [cursor=pointer]
+            - generic [ref=e360]:
+              - heading "Thoughtful woman working in her office" [level=2] [ref=e361]:
+                - link "Thoughtful woman working in her office" [ref=e362] [cursor=pointer]:
+                  - /url: /free-stock-video/thoughtful-woman-working-in-her-office-42656/
+              - paragraph [ref=e363]: Thoughtful woman rubbing her temple in front of the computer at her work.
+          - generic [ref=e365]:
+            - generic [ref=e366]:
+              - img "Software developer working while drinks coffee." [ref=e369]
+              - generic [ref=e372]:
+                - link "Software developer working while drinks coffee" [ref=e373] [cursor=pointer]:
+                  - /url: /free-stock-video/software-developer-working-while-drinks-coffee-1730/
+                - button "View Fullscreen" [ref=e374] [cursor=pointer]
+            - generic [ref=e375]:
+              - heading "Software developer working while drinks coffee" [level=2] [ref=e376]:
+                - link "Software developer working while drinks coffee" [ref=e377] [cursor=pointer]:
+                  - /url: /free-stock-video/software-developer-working-while-drinks-coffee-1730/
+              - paragraph [ref=e378]: Software developer working on code on a laptop while drinks coffee from a cup.
+          - generic [ref=e380]:
+            - generic [ref=e381]:
+              - text: 4K
+              - img "Reflection of a screen in glasses." [ref=e384]
+              - generic [ref=e387]:
+                - link "Reflection of a screen in glasses" [ref=e388] [cursor=pointer]:
+                  - /url: /free-stock-video/reflection-of-a-screen-in-glasses-221/
+                - button "View Fullscreen" [ref=e389] [cursor=pointer]
+            - generic [ref=e390]:
+              - heading "Reflection of a screen in glasses" [level=2] [ref=e391]:
+                - link "Reflection of a screen in glasses" [ref=e392] [cursor=pointer]:
+                  - /url: /free-stock-video/reflection-of-a-screen-in-glasses-221/
+              - paragraph [ref=e393]: A person wears glasses while looking at a screen, the screen is reflected in the glasses.
+          - generic [ref=e395]:
+            - generic [ref=e396]:
+              - text: 4K
+              - img "Man in a suit works from the kitchen." [ref=e399]
+              - generic [ref=e402]:
+                - link "Man in a suit works from the kitchen" [ref=e403] [cursor=pointer]:
+                  - /url: /free-stock-video/man-in-a-suit-works-from-the-kitchen-4830/
+                - button "View Fullscreen" [ref=e404] [cursor=pointer]
+            - generic [ref=e405]:
+              - heading "Man in a suit works from the kitchen" [level=2] [ref=e406]:
+                - link "Man in a suit works from the kitchen" [ref=e407] [cursor=pointer]:
+                  - /url: /free-stock-video/man-in-a-suit-works-from-the-kitchen-4830/
+              - paragraph [ref=e408]: Bearded man dressed in black suit and white shirt, while typing on a laptop on a kitchen table.
+          - generic [ref=e410]:
+            - generic [ref=e411]:
+              - img "Busy office space." [ref=e414]
+              - generic [ref=e417]:
+                - link "Busy office space" [ref=e418] [cursor=pointer]:
+                  - /url: /free-stock-video/busy-office-space-918/
+                - button "View Fullscreen" [ref=e419] [cursor=pointer]
+            - generic [ref=e420]:
+              - heading "Busy office space" [level=2] [ref=e421]:
+                - link "Busy office space" [ref=e422] [cursor=pointer]:
+                  - /url: /free-stock-video/busy-office-space-918/
+              - paragraph [ref=e423]: Work environment of a startup office with people sitting working on their computers and people walking from one place to another.
+          - generic [ref=e425]:
+            - generic [ref=e426]:
+              - img "People walking in front of a building." [ref=e429]
+              - generic [ref=e432]:
+                - link "People walking in front of a building" [ref=e433] [cursor=pointer]:
+                  - /url: /free-stock-video/people-walking-in-front-of-a-building-4169/
+                - button "View Fullscreen" [ref=e434] [cursor=pointer]
+            - generic [ref=e435]:
+              - heading "People walking in front of a building" [level=2] [ref=e436]:
+                - link "People walking in front of a building" [ref=e437] [cursor=pointer]:
+                  - /url: /free-stock-video/people-walking-in-front-of-a-building-4169/
+              - paragraph [ref=e438]: People walking to their work in the morning in front of a building in a city's financial area.
+          - generic [ref=e440]:
+            - generic [ref=e441]:
+              - text: 4K
+              - img "Hands of a girl working on a computer." [ref=e444]
+              - generic [ref=e447]:
+                - link "Hands of a girl working on a computer" [ref=e448] [cursor=pointer]:
+                  - /url: /free-stock-video/hands-of-a-girl-working-on-a-computer-4938/
+                - button "View Fullscreen" [ref=e449] [cursor=pointer]
+            - generic [ref=e450]:
+              - heading "Hands of a girl working on a computer" [level=2] [ref=e451]:
+                - link "Hands of a girl working on a computer" [ref=e452] [cursor=pointer]:
+                  - /url: /free-stock-video/hands-of-a-girl-working-on-a-computer-4938/
+              - paragraph [ref=e453]: The hands of a young woman typing on a computer working from home, with a cup of tea, a notebook with a pencil and a smartphone, on a wooden table.
+          - generic [ref=e455]:
+            - generic [ref=e456]:
+              - img "Young woman working remotely." [ref=e459]
+              - generic [ref=e462]:
+                - link "Young woman working remotely" [ref=e463] [cursor=pointer]:
+                  - /url: /free-stock-video/young-woman-working-remotely-4957/
+                - button "View Fullscreen" [ref=e464] [cursor=pointer]
+            - generic [ref=e465]:
+              - heading "Young woman working remotely" [level=2] [ref=e466]:
+                - link "Young woman working remotely" [ref=e467] [cursor=pointer]:
+                  - /url: /free-stock-video/young-woman-working-remotely-4957/
+              - paragraph [ref=e468]: Girl writing in pencil, while working on a computer from home, sitting in a dining room, with a vase on the side of a window.
+          - generic [ref=e470]:
+            - generic [ref=e471]:
+              - text: 4K
+              - img "Close up a hand writing notes on a notebook with a pen." [ref=e474]
+              - generic [ref=e477]:
+                - link "Close up a hand writing notes on a notebook with a pen" [ref=e478] [cursor=pointer]:
+                  - /url: /free-stock-video/close-up-a-hand-writing-notes-on-a-notebook-with-99890/
+                - button "View Fullscreen" [ref=e479] [cursor=pointer]
+            - generic [ref=e480]:
+              - heading "Close up a hand writing notes on a notebook with a pen" [level=2] [ref=e481]:
+                - link "Close up a hand writing notes on a notebook with a pen" [ref=e482] [cursor=pointer]:
+                  - /url: /free-stock-video/close-up-a-hand-writing-notes-on-a-notebook-with-99890/
+              - paragraph [ref=e483]: Close up, a hand carefully writes notes in a notebook with a pen, the pen gliding smoothly across the paper. Each word takes shape with precision, capturing thoughts and ideas in a moment of focused concentration.
+          - generic [ref=e485]:
+            - generic [ref=e486]:
+              - text: 4K
+              - img "Two coworkers talking and laughing." [ref=e489]
+              - generic [ref=e492]:
+                - link "Two coworkers talking and laughing" [ref=e493] [cursor=pointer]:
+                  - /url: /free-stock-video/two-coworkers-talking-and-laughing-4872/
+                - button "View Fullscreen" [ref=e494] [cursor=pointer]
+            - generic [ref=e495]:
+              - heading "Two coworkers talking and laughing" [level=2] [ref=e496]:
+                - link "Two coworkers talking and laughing" [ref=e497] [cursor=pointer]:
+                  - /url: /free-stock-video/two-coworkers-talking-and-laughing-4872/
+              - paragraph [ref=e498]: Two co-workers, in a meeting talking and laughing about something on the computer, surrounded by gadgets and documents, in a corporate room.
+          - generic [ref=e500]:
+            - generic [ref=e501]:
+              - text: 4K
+              - img "Young man sitting scrolling on his cell phone." [ref=e504]
+              - generic [ref=e507]:
+                - link "Young man sitting scrolling on his cell phone" [ref=e508] [cursor=pointer]:
+                  - /url: /free-stock-video/young-man-sitting-scrolling-on-his-cell-phone-4801/
+                - button "View Fullscreen" [ref=e509] [cursor=pointer]
+            - generic [ref=e510]:
+              - heading "Young man sitting scrolling on his cell phone" [level=2] [ref=e511]:
+                - link "Young man sitting scrolling on his cell phone" [ref=e512] [cursor=pointer]:
+                  - /url: /free-stock-video/young-man-sitting-scrolling-on-his-cell-phone-4801/
+              - paragraph [ref=e513]: Young man sitting at a table in an office, with papers, coffee and a computer, while scrolling on his cell phone.
+          - generic [ref=e515]:
+            - generic [ref=e516]:
+              - text: 4K
+              - img "People having a work meeting around a table." [ref=e519]
+              - generic [ref=e522]:
+                - link "People having a work meeting around a table" [ref=e523] [cursor=pointer]:
+                  - /url: /free-stock-video/people-having-a-work-meeting-around-a-table-4547/
+                - button "View Fullscreen" [ref=e524] [cursor=pointer]
+            - generic [ref=e525]:
+              - heading "People having a work meeting around a table" [level=2] [ref=e526]:
+                - link "People having a work meeting around a table" [ref=e527] [cursor=pointer]:
+                  - /url: /free-stock-video/people-having-a-work-meeting-around-a-table-4547/
+              - paragraph [ref=e528]: Business people sitting around a table at a successful business meeting, with water, computers, and papers.
+          - generic [ref=e530]:
+            - generic [ref=e531]:
+              - text: 4K
+              - img "Close-Up of Hands Typing and Using Mouse." [ref=e534]
+              - generic [ref=e537]:
+                - link "Close-Up of Hands Typing and Using Mouse" [ref=e538] [cursor=pointer]:
+                  - /url: /free-stock-video/close-up-of-hands-typing-and-using-mouse-101553/
+                - button "View Fullscreen" [ref=e539] [cursor=pointer]
+            - generic [ref=e540]:
+              - heading "Close-Up of Hands Typing and Using Mouse" [level=2] [ref=e541]:
+                - link "Close-Up of Hands Typing and Using Mouse" [ref=e542] [cursor=pointer]:
+                  - /url: /free-stock-video/close-up-of-hands-typing-and-using-mouse-101553/
+              - paragraph [ref=e543]: Close-up follows a man’s hands as he types and moves the mouse. Perfect for office B-roll, tech tutorials, or corporate videos.
+          - generic [ref=e545]:
+            - generic [ref=e546]:
+              - text: 4K
+              - img "Office workers hands typing on their devices." [ref=e549]
+              - generic [ref=e552]:
+                - link "Office workers hands typing on their devices" [ref=e553] [cursor=pointer]:
+                  - /url: /free-stock-video/office-workers-hands-typing-on-their-devices-4835/
+                - button "View Fullscreen" [ref=e554] [cursor=pointer]
+            - generic [ref=e555]:
+              - heading "Office workers hands typing on their devices" [level=2] [ref=e556]:
+                - link "Office workers hands typing on their devices" [ref=e557] [cursor=pointer]:
+                  - /url: /free-stock-video/office-workers-hands-typing-on-their-devices-4835/
+              - paragraph [ref=e558]: Workers in a business office with many sheets of charts, held up to their hands as they type on their devices.
+          - generic [ref=e560]:
+            - generic [ref=e561]:
+              - text: 4K
+              - img "People ending a business meeting." [ref=e564]
+              - generic [ref=e567]:
+                - link "People ending a business meeting" [ref=e568] [cursor=pointer]:
+                  - /url: /free-stock-video/people-ending-a-business-meeting-4802/
+                - button "View Fullscreen" [ref=e569] [cursor=pointer]
+            - generic [ref=e570]:
+              - heading "People ending a business meeting" [level=2] [ref=e571]:
+                - link "People ending a business meeting" [ref=e572] [cursor=pointer]:
+                  - /url: /free-stock-video/people-ending-a-business-meeting-4802/
+              - paragraph [ref=e573]: Two people finishing a meeting in an office, at a table with sheets with graphics, pens and technological gadgets, as they say goodbye and leave.
+          - generic [ref=e575]:
+            - generic [ref=e576]:
+              - text: 4K
+              - img "Professional woman working in an office." [ref=e579]
+              - generic [ref=e582]:
+                - link "Professional woman working in an office" [ref=e583] [cursor=pointer]:
+                  - /url: /free-stock-video/professional-woman-working-in-an-office-42664/
+                - button "View Fullscreen" [ref=e584] [cursor=pointer]
+            - generic [ref=e585]:
+              - heading "Professional woman working in an office" [level=2] [ref=e586]:
+                - link "Professional woman working in an office" [ref=e587] [cursor=pointer]:
+                  - /url: /free-stock-video/professional-woman-working-in-an-office-42664/
+              - paragraph [ref=e588]: Professional woman working on a computer in an office, taking notes of some graphs in a notebook.
+          - generic [ref=e590]:
+            - generic [ref=e591]:
+              - img "Typing on a laptop, close up. ." [ref=e594]
+              - generic [ref=e597]:
+                - link "Typing on a laptop, close up." [ref=e598] [cursor=pointer]:
+                  - /url: /free-stock-video/typing-on-a-laptop-close-up-1781/
+                - button "View Fullscreen" [ref=e599] [cursor=pointer]
+            - generic [ref=e600]:
+              - heading "Typing on a laptop, close up." [level=2] [ref=e601]:
+                - link "Typing on a laptop, close up." [ref=e602] [cursor=pointer]:
+                  - /url: /free-stock-video/typing-on-a-laptop-close-up-1781/
+              - paragraph [ref=e603]: Close up view of a person working on a laptop.
+          - generic [ref=e605]:
+            - generic [ref=e606]:
+              - text: 4K
+              - img "Signing a contract." [ref=e609]
+              - generic [ref=e612]:
+                - link "Signing a contract" [ref=e613] [cursor=pointer]:
+                  - /url: /free-stock-video/signing-a-contract-241/
+                - button "View Fullscreen" [ref=e614] [cursor=pointer]
+            - generic [ref=e615]:
+              - heading "Signing a contract" [level=2] [ref=e616]:
+                - link "Signing a contract" [ref=e617] [cursor=pointer]:
+                  - /url: /free-stock-video/signing-a-contract-241/
+              - paragraph [ref=e618]: A left-handed person wearing a white shirt signs the bottom of a contract with a blue pen on a wooden table. Next to the contract there is a cellular phone.
+          - generic [ref=e620]:
+            - generic [ref=e621]:
+              - text: 4K
+              - img "Man visiting Twitter on his laptop." [ref=e624]
+              - generic [ref=e627]:
+                - link "Man visiting Twitter on his laptop" [ref=e628] [cursor=pointer]:
+                  - /url: /free-stock-video/man-visiting-twitter-on-his-laptop-4916/
+                - button "View Fullscreen" [ref=e629] [cursor=pointer]
+            - generic [ref=e630]:
+              - heading "Man visiting Twitter on his laptop" [level=2] [ref=e631]:
+                - link "Man visiting Twitter on his laptop" [ref=e632] [cursor=pointer]:
+                  - /url: /free-stock-video/man-visiting-twitter-on-his-laptop-4916/
+              - paragraph [ref=e633]: Man on his back with a beard working visiting a social network on his computer on a wooden table.
+          - generic [ref=e635]:
+            - generic [ref=e636]:
+              - img "Corporate Employee with Laughing Emoji Face." [ref=e639]
+              - generic [ref=e642]:
+                - link "Corporate Employee with Laughing Emoji Face" [ref=e643] [cursor=pointer]:
+                  - /url: /free-stock-video/corporate-employee-with-laughing-emoji-face-100848/
+                - button "View Fullscreen" [ref=e644] [cursor=pointer]
+            - generic [ref=e645]:
+              - heading "Corporate Employee with Laughing Emoji Face" [level=2] [ref=e646]:
+                - link "Corporate Employee with Laughing Emoji Face" [ref=e647] [cursor=pointer]:
+                  - /url: /free-stock-video/corporate-employee-with-laughing-emoji-face-100848/
+              - paragraph [ref=e648]: A vertical shot of a corporate employee laughing in a conference room, with their face replaced by a laughing emoji. Perfect for showing a lighthearted workspace vibe or everyday moments of joy in real-life settings.
+        - generic [ref=e649]:
+          - link "Go to page 1" [ref=e650] [cursor=pointer]:
+            - /url: /free-stock-video/working/
+            - text: "1"
+          - link "Go to page 2" [ref=e651] [cursor=pointer]:
+            - /url: /free-stock-video/working/?page=2
+            - text: "2"
+          - link "Go to page 3" [ref=e652] [cursor=pointer]:
+            - /url: /free-stock-video/working/?page=3
+            - text: "3"
+          - link "Go to page 4" [ref=e653] [cursor=pointer]:
+            - /url: /free-stock-video/working/?page=4
+            - text: "4"
+          - link "Go to page 5" [ref=e654] [cursor=pointer]:
+            - /url: /free-stock-video/working/?page=5
+            - text: "5"
+          - link "Go to page 6" [ref=e655] [cursor=pointer]:
+            - /url: /free-stock-video/working/?page=6
+            - text: "6"
+          - generic [ref=e656]: ...
+          - link "Go to page 86" [ref=e657] [cursor=pointer]:
+            - /url: /free-stock-video/working/?page=86
+            - text: "86"
+          - link "Go to page 87" [ref=e658] [cursor=pointer]:
+            - /url: /free-stock-video/working/?page=87
+            - text: "87"
+          - link "Go to next page" [ref=e659] [cursor=pointer]:
+            - /url: /free-stock-video/working/?page=2
+            - img [ref=e660]
+    - generic [ref=e662]:
+      - generic [ref=e663]: Related Video Categories
+      - generic [ref=e665]:
+        - link "Profession" [ref=e666] [cursor=pointer]:
+          - /url: /free-stock-video/profession/
+        - link "Work" [ref=e667] [cursor=pointer]:
+          - /url: /free-stock-video/work/
+        - link "Close Up" [ref=e668] [cursor=pointer]:
+          - /url: /free-stock-video/close-up/
+        - link "Office" [ref=e669] [cursor=pointer]:
+          - /url: /free-stock-video/office/
+        - link "Laptop" [ref=e670] [cursor=pointer]:
+          - /url: /free-stock-video/laptop/
+        - link "Woman" [ref=e671] [cursor=pointer]:
+          - /url: /free-stock-video/woman/
+        - link "Medium Shot" [ref=e672] [cursor=pointer]:
+          - /url: /free-stock-video/medium-shot/
+    - generic [ref=e674]:
+      - link "Envato Elements" [ref=e675] [cursor=pointer]:
+        - /url: https://elements.envato.com/all-items?utm_source=mixkit&utm_medium=referral&utm_campaign=elements_mixkit_cs_banner_31JULY2024
+        - img "Envato Elements" [ref=e676]
+      - paragraph [ref=e677]: Unlimited creative stock assets, all in one place.
+      - list [ref=e678]:
+        - listitem [ref=e679]: Millions of premium assets
+        - listitem [ref=e680]: Lifetime commercial licence
+      - link "Start creating now" [ref=e681] [cursor=pointer]:
+        - /url: https://elements.envato.com/all-items?utm_source=mixkit&utm_medium=referral&utm_campaign=elements_mixkit_cs_banner_31JULY2024
+  - contentinfo [ref=e682]:
+    - generic [ref=e683]:
+      - generic [ref=e684]:
+        - generic [ref=e685]:
+          - link "Videos" [ref=e687] [cursor=pointer]:
+            - /url: /free-stock-video/
+          - generic [ref=e688]:
+            - link "4K Videos" [ref=e689] [cursor=pointer]:
+              - /url: /free-stock-video/discover/?resolution=4k
+            - link "Nature" [ref=e690] [cursor=pointer]:
+              - /url: /free-stock-video/nature/
+            - link "Lifestyle" [ref=e691] [cursor=pointer]:
+              - /url: /free-stock-video/lifestyle/
+            - link "Business" [ref=e692] [cursor=pointer]:
+              - /url: /free-stock-video/business/
+            - link "Animals" [ref=e693] [cursor=pointer]:
+              - /url: /free-stock-video/animal/
+            - link "Zoom Backgrounds" [ref=e694] [cursor=pointer]:
+              - /url: /free-stock-video/zoom-virtual-background/
+            - link "Vertical" [ref=e695] [cursor=pointer]:
+              - /url: /free-vertical-videos/
+            - link "Backgrounds" [ref=e696] [cursor=pointer]:
+              - /url: /free-video-backgrounds/
+        - generic [ref=e697]:
+          - link "Music" [ref=e699] [cursor=pointer]:
+            - /url: /free-stock-music/
+          - generic [ref=e700]:
+            - link "Ambient" [ref=e701] [cursor=pointer]:
+              - /url: /free-stock-music/ambient/
+            - link "Drum & Bass" [ref=e702] [cursor=pointer]:
+              - /url: /free-stock-music/drum-and-bass/
+            - link "Funk" [ref=e703] [cursor=pointer]:
+              - /url: /free-stock-music/funk/
+            - link "Hip-Hop" [ref=e704] [cursor=pointer]:
+              - /url: /free-stock-music/hip-hop/
+            - link "Jazz" [ref=e705] [cursor=pointer]:
+              - /url: /free-stock-music/jazz/
+        - generic [ref=e706]:
+          - link "Sound Effects" [ref=e708] [cursor=pointer]:
+            - /url: /free-sound-effects/
+          - generic [ref=e709]:
+            - link "Animals" [ref=e710] [cursor=pointer]:
+              - /url: /free-sound-effects/animals/
+            - link "Game" [ref=e711] [cursor=pointer]:
+              - /url: /free-sound-effects/game/
+            - link "Human" [ref=e712] [cursor=pointer]:
+              - /url: /free-sound-effects/human/
+            - link "Instrument" [ref=e713] [cursor=pointer]:
+              - /url: /free-sound-effects/instrument/
+            - link "Lifestyle" [ref=e714] [cursor=pointer]:
+              - /url: /free-sound-effects/lifestyle/
+            - link "Nature" [ref=e715] [cursor=pointer]:
+              - /url: /free-sound-effects/nature/
+            - link "Technology" [ref=e716] [cursor=pointer]:
+              - /url: /free-sound-effects/technology/
+            - link "Transition" [ref=e717] [cursor=pointer]:
+              - /url: /free-sound-effects/transition/
+            - link "Warfare" [ref=e718] [cursor=pointer]:
+              - /url: /free-sound-effects/warfare/
+        - generic [ref=e719]:
+          - link "Premiere Pro" [ref=e721] [cursor=pointer]:
+            - /url: /free-premiere-pro-templates
+          - generic [ref=e722]:
+            - link "Subscribe" [ref=e723] [cursor=pointer]:
+              - /url: /free-premiere-pro-templates/subscribe/
+            - link "Instagram" [ref=e724] [cursor=pointer]:
+              - /url: /free-premiere-pro-templates/instagram/
+            - link "Logo" [ref=e725] [cursor=pointer]:
+              - /url: /free-premiere-pro-templates/logo/
+            - link "Lower-thirds" [ref=e726] [cursor=pointer]:
+              - /url: /free-premiere-pro-templates/lower-thirds/
+            - link "Opener" [ref=e727] [cursor=pointer]:
+              - /url: /free-premiere-pro-templates/openers/
+            - link "Slideshows" [ref=e728] [cursor=pointer]:
+              - /url: /free-premiere-pro-templates/slideshow/
+            - link "Titles" [ref=e729] [cursor=pointer]:
+              - /url: /free-premiere-pro-templates/titles/
+            - link "Transitions" [ref=e730] [cursor=pointer]:
+              - /url: /free-premiere-pro-templates/transitions/
+            - link "YouTube" [ref=e731] [cursor=pointer]:
+              - /url: /free-premiere-pro-templates/youtube/
+        - generic [ref=e732]:
+          - link "After Effects" [ref=e734] [cursor=pointer]:
+            - /url: /free-after-effects-templates
+          - generic [ref=e735]:
+            - link "Audio visualizer" [ref=e736] [cursor=pointer]:
+              - /url: /free-after-effects-templates/audio-visualizer/
+            - link "Call-outs" [ref=e737] [cursor=pointer]:
+              - /url: /free-after-effects-templates/call-outs/
+            - link "Instagram" [ref=e738] [cursor=pointer]:
+              - /url: /free-after-effects-templates/instagram/
+            - link "Lower-thirds" [ref=e739] [cursor=pointer]:
+              - /url: /free-after-effects-templates/lower-thirds/
+            - link "Opener" [ref=e740] [cursor=pointer]:
+              - /url: /free-after-effects-templates/openers/
+            - link "Slideshows" [ref=e741] [cursor=pointer]:
+              - /url: /free-after-effects-templates/slideshow/
+            - link "Titles" [ref=e742] [cursor=pointer]:
+              - /url: /free-after-effects-templates/title/
+            - link "Transitions" [ref=e743] [cursor=pointer]:
+              - /url: /free-after-effects-templates/transitions/
+            - link "YouTube" [ref=e744] [cursor=pointer]:
+              - /url: /free-after-effects-templates/youtube/
+        - generic [ref=e745]:
+          - link "Final Cut Pro" [ref=e747] [cursor=pointer]:
+            - /url: /free-final-cut-pro-templates
+          - generic [ref=e748]:
+            - link "Instagram" [ref=e749] [cursor=pointer]:
+              - /url: /free-final-cut-pro-templates/instagram/
+            - link "Logo" [ref=e750] [cursor=pointer]:
+              - /url: /free-final-cut-pro-templates/logo/
+            - link "Lower-thirds" [ref=e751] [cursor=pointer]:
+              - /url: /free-final-cut-pro-templates/lower-thirds/
+            - link "Opener" [ref=e752] [cursor=pointer]:
+              - /url: /free-final-cut-pro-templates/openers/
+            - link "Promotion" [ref=e753] [cursor=pointer]:
+              - /url: /free-final-cut-pro-templates/promotion/
+            - link "Slideshows" [ref=e754] [cursor=pointer]:
+              - /url: /free-final-cut-pro-templates/slideshow/
+            - link "Titles" [ref=e755] [cursor=pointer]:
+              - /url: /free-final-cut-pro-templates/title/
+            - link "Transitions" [ref=e756] [cursor=pointer]:
+              - /url: /free-final-cut-pro-templates/transitions/
+            - link "YouTube" [ref=e757] [cursor=pointer]:
+              - /url: /free-final-cut-pro-templates/youtube/
+        - generic [ref=e758]:
+          - link "DaVinci Resolve" [ref=e760] [cursor=pointer]:
+            - /url: /free-davinci-resolve-templates
+          - generic [ref=e761]:
+            - link "Call-outs" [ref=e762] [cursor=pointer]:
+              - /url: /free-davinci-resolve-templates/call-outs/
+            - link "Instagram" [ref=e763] [cursor=pointer]:
+              - /url: /free-davinci-resolve-templates/instagram/
+            - link "Lower-thirds" [ref=e764] [cursor=pointer]:
+              - /url: /free-davinci-resolve-templates/lower-thirds/
+            - link "Titles" [ref=e765] [cursor=pointer]:
+              - /url: /free-davinci-resolve-templates/titles/
+            - link "YouTube" [ref=e766] [cursor=pointer]:
+              - /url: /free-davinci-resolve-templates/youtube/
+        - generic [ref=e767]:
+          - link "Mixkit" [ref=e769] [cursor=pointer]:
+            - /url: /
+          - generic [ref=e770]:
+            - link "License" [ref=e771] [cursor=pointer]:
+              - /url: /license/
+            - link "Terms" [ref=e772] [cursor=pointer]:
+              - /url: /terms/
+            - link "Sitemap" [ref=e773] [cursor=pointer]:
+              - /url: /sitemap/
+            - link "Privacy" [ref=e774] [cursor=pointer]:
+              - /url: https://envato.com/privacy/
+            - link "Cookies" [ref=e775] [cursor=pointer]:
+              - /url: https://www.envato.com/cookies/
+            - link "Cookie Settings" [ref=e776] [cursor=pointer]:
+              - /url: javascript:void(0)
+            - link "Do not sell or share my personal information" [ref=e777] [cursor=pointer]:
+              - /url: https://www.envato.com/privacy/my-personal-information/
+            - link "Hey AI, learn about Mixkit" [ref=e778] [cursor=pointer]:
+              - /url: /llm-info/
+            - link "Art" [ref=e779] [cursor=pointer]:
+              - /url: /free-stock-art/
+      - generic [ref=e780]:
+        - link "Mixkit home." [ref=e782] [cursor=pointer]:
+          - /url: /
+          - img "Mixkit home." [ref=e783]
+        - paragraph [ref=e785]:
+          - text: Copyright © 2026. All rights reserved - Made by
+          - link "Envato" [ref=e786] [cursor=pointer]:
+            - /url: https://elements.envato.com/?utm_source=mixkit&utm_medium=referral&utm_campaign=elements_mixkit_footer_31JULY2024
+        - generic [ref=e787]:
+          - link "Twitter" [ref=e788] [cursor=pointer]:
+            - /url: https://twitter.com/mixkit_co
+            - img "Twitter" [ref=e789]
+          - link "YouTube" [ref=e791] [cursor=pointer]:
+            - /url: https://www.youtube.com/channel/UCtmuFBbkECnsHJujGDcE9SA
+            - img "YouTube" [ref=e792]
+          - link "Instagram" [ref=e795] [cursor=pointer]:
+            - /url: https://instagram.com/mixkit_co
+            - img "Instagram" [ref=e796]
+          - link "TikTok" [ref=e798] [cursor=pointer]:
+            - /url: https://www.tiktok.com/@mixkit.co
+            - img "TikTok" [ref=e799]
+  - iframe [ref=e801]:
+    

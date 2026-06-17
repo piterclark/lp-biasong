@@ -1,0 +1,2145 @@
+- generic [ref=e3]:
+  - generic [ref=e4]:
+    - generic [ref=e6]:
+      - link "Nomade Home" [ref=e7] [cursor=pointer]:
+        - /url: https://www.nomadehome.com.br
+        - img "Nomade Home" [ref=e8]
+      - generic [ref=e9]:
+        - generic [ref=e10]: O que você procura?
+        - textbox "O que você procura?" [ref=e11]
+        - button "Pesquisar" [ref=e12] [cursor=pointer]:
+          - img [ref=e13]
+      - generic [ref=e18]:
+        - generic [ref=e19] [cursor=pointer]:
+          - img [ref=e20]
+          - generic [ref=e24]: SAC
+        - generic [ref=e25] [cursor=pointer]:
+          - img [ref=e26]
+          - generic [ref=e28]: Minha conta
+        - generic [ref=e30] [cursor=pointer]:
+          - img [ref=e31]
+          - generic [ref=e33]: "0"
+    - navigation [ref=e34]:
+      - list [ref=e36]:
+        - listitem [ref=e37]:
+          - link "MÓVEIS" [ref=e38] [cursor=pointer]:
+            - /url: https://www.nomadehome.com.br/moveis
+            - generic [ref=e39]: MÓVEIS
+        - listitem [ref=e40]:
+          - link "ÁREA EXTERNA" [ref=e41] [cursor=pointer]:
+            - /url: https://www.nomadehome.com.br/area-externa
+            - generic [ref=e42]: ÁREA EXTERNA
+        - listitem [ref=e43]:
+          - link "LUMINÁRIAS" [ref=e44] [cursor=pointer]:
+            - /url: https://www.nomadehome.com.br/luminarias
+            - generic [ref=e45]: LUMINÁRIAS
+        - listitem [ref=e46]:
+          - link "DECORAÇÃO" [ref=e47] [cursor=pointer]:
+            - /url: https://www.nomadehome.com.br/decoracao
+            - generic [ref=e48]: DECORAÇÃO
+        - listitem [ref=e49]:
+          - link "NOVIDADES" [ref=e50] [cursor=pointer]:
+            - /url: https://www.nomadehome.com.br/novidades
+            - generic [ref=e51]: NOVIDADES
+        - listitem [ref=e52]:
+          - link "SHOWROOM" [ref=e53] [cursor=pointer]:
+            - /url: https://www.nomadehome.com.br/showroom
+            - generic [ref=e54]: SHOWROOM
+        - listitem [ref=e55]:
+          - link "DESIGN ASSINADO" [ref=e56] [cursor=pointer]:
+            - /url: https://www.nomadehome.com.br/design
+            - generic [ref=e57]: DESIGN ASSINADO
+        - listitem [ref=e58]:
+          - link "CLÁSSICOS" [ref=e59] [cursor=pointer]:
+            - /url: https://www.nomadehome.com.br/classicos
+            - generic [ref=e60]: CLÁSSICOS
+        - listitem [ref=e61]:
+          - link "BAZAR" [ref=e62] [cursor=pointer]:
+            - /url: https://www.nomadehome.com.br/bazar
+            - generic [ref=e63]: BAZAR
+        - listitem [ref=e64]:
+          - generic [ref=e66] [cursor=pointer]: Mais categorias
+  - main [ref=e67]:
+    - generic [ref=e71]:
+      - generic [ref=e77]:
+        - generic [ref=e78]:
+          - generic [ref=e79]:
+            - heading "Categorias" [level=4] [ref=e80] [cursor=pointer]: Categorias
+            - list [ref=e82]:
+              - listitem [ref=e83]:
+                - checkbox "ÁREA EXTERNA (6)"
+                - generic [ref=e84]:
+                  - generic [ref=e86] [cursor=pointer]: ÁREA EXTERNA
+                  - generic [ref=e87]: (6)
+              - listitem [ref=e88]:
+                - checkbox "Armários, Cômodas e Móvel Bar (73)"
+                - generic [ref=e89]:
+                  - generic [ref=e91] [cursor=pointer]: Armários, Cômodas e Móvel Bar
+                  - generic [ref=e92]: (73)
+              - listitem [ref=e93]:
+                - checkbox "Balanços (1)"
+                - generic [ref=e94]:
+                  - generic [ref=e96] [cursor=pointer]: Balanços
+                  - generic [ref=e97]: (1)
+              - listitem [ref=e98]:
+                - checkbox "Bancos, Banquetas e Puffs (151)"
+                - generic [ref=e99]:
+                  - generic [ref=e101] [cursor=pointer]: Bancos, Banquetas e Puffs
+                  - generic [ref=e102]: (151)
+              - listitem [ref=e103]:
+                - checkbox "BAZAR (141)"
+                - generic [ref=e104]:
+                  - generic [ref=e106] [cursor=pointer]: BAZAR
+                  - generic [ref=e107]: (141)
+              - listitem [ref=e108]:
+                - checkbox "Buffets, Aparadores e Rack's (69)"
+                - generic [ref=e109]:
+                  - generic [ref=e111] [cursor=pointer]: Buffets, Aparadores e Rack's
+                  - generic [ref=e112]: (69)
+              - listitem [ref=e113]:
+                - checkbox "Cadeiras (181)"
+                - generic [ref=e114]:
+                  - generic [ref=e116] [cursor=pointer]: Cadeiras
+                  - generic [ref=e117]: (181)
+              - listitem [ref=e118]:
+                - checkbox "Camas, Cabeceiras e Mesas cabeceira (33)"
+                - generic [ref=e119]:
+                  - generic [ref=e121] [cursor=pointer]: Camas, Cabeceiras e Mesas cabeceira
+                  - generic [ref=e122]: (33)
+              - listitem [ref=e123]:
+                - checkbox "CLÁSSICOS (45)"
+                - generic [ref=e124]:
+                  - generic [ref=e126] [cursor=pointer]: CLÁSSICOS
+                  - generic [ref=e127]: (45)
+              - listitem [ref=e128]:
+                - checkbox "Desapegos da Luanna Toniolo (4)"
+                - generic [ref=e129]:
+                  - generic [ref=e131] [cursor=pointer]: Desapegos da Luanna Toniolo
+                  - generic [ref=e132]: (4)
+              - listitem [ref=e133]:
+                - checkbox "DESIGN ASSINADO (166)"
+                - generic [ref=e134]:
+                  - generic [ref=e136] [cursor=pointer]: DESIGN ASSINADO
+                  - generic [ref=e137]: (166)
+              - listitem [ref=e138]:
+                - checkbox "Firma Casa Warehouse (14)"
+                - generic [ref=e139]:
+                  - generic [ref=e141] [cursor=pointer]: Firma Casa Warehouse
+                  - generic [ref=e142]: (14)
+              - listitem [ref=e143]:
+                - checkbox "Infantil (6)"
+                - generic [ref=e144]:
+                  - generic [ref=e146] [cursor=pointer]: Infantil
+                  - generic [ref=e147]: (6)
+              - listitem [ref=e148]:
+                - checkbox "LUMINÁRIAS (2)"
+                - generic [ref=e149]:
+                  - generic [ref=e151] [cursor=pointer]: LUMINÁRIAS
+                  - generic [ref=e152]: (2)
+              - listitem [ref=e153]:
+                - checkbox "Mesa de Jogos (1)"
+                - generic [ref=e154]:
+                  - generic [ref=e156] [cursor=pointer]: Mesa de Jogos
+                  - generic [ref=e157]: (1)
+              - listitem [ref=e158]:
+                - checkbox "Mesas de Centro (121)"
+                - generic [ref=e159]:
+                  - generic [ref=e161] [cursor=pointer]: Mesas de Centro
+                  - generic [ref=e162]: (121)
+              - listitem [ref=e163]:
+                - checkbox "Mesas de Jantar (120)"
+                - generic [ref=e164]:
+                  - generic [ref=e166] [cursor=pointer]: Mesas de Jantar
+                  - generic [ref=e167]: (120)
+              - listitem [ref=e168]:
+                - checkbox "Mesas Laterais (110)"
+                - generic [ref=e169]:
+                  - generic [ref=e171] [cursor=pointer]: Mesas Laterais
+                  - generic [ref=e172]: (110)
+              - listitem [ref=e173]:
+                - checkbox "MÓVEIS (1197)"
+                - generic [ref=e174]:
+                  - generic [ref=e176] [cursor=pointer]: MÓVEIS
+                  - generic [ref=e177]: (1197)
+              - listitem [ref=e178]:
+                - checkbox "Móveis de Escritório (12)"
+                - generic [ref=e179]:
+                  - generic [ref=e181] [cursor=pointer]: Móveis de Escritório
+                  - generic [ref=e182]: (12)
+              - listitem [ref=e183]:
+                - checkbox "NOVIDADES (150)"
+                - generic [ref=e184]:
+                  - generic [ref=e186] [cursor=pointer]: NOVIDADES
+                  - generic [ref=e187]: (150)
+              - listitem [ref=e188]:
+                - checkbox "Poltronas (167)"
+                - generic [ref=e189]:
+                  - generic [ref=e191] [cursor=pointer]: Poltronas
+                  - generic [ref=e192]: (167)
+              - listitem [ref=e193]:
+                - checkbox "Saccaro (57)"
+                - generic [ref=e194]:
+                  - generic [ref=e196] [cursor=pointer]: Saccaro
+                  - generic [ref=e197]: (57)
+              - listitem [ref=e198]:
+                - checkbox "SHOWROOM (688)"
+                - generic [ref=e199]:
+                  - generic [ref=e201] [cursor=pointer]: SHOWROOM
+                  - generic [ref=e202]: (688)
+              - listitem [ref=e203]:
+                - checkbox "Sofás (147)"
+                - generic [ref=e204]:
+                  - generic [ref=e206] [cursor=pointer]: Sofás
+                  - generic [ref=e207]: (147)
+          - generic [ref=e208]:
+            - heading "Preço" [level=4] [ref=e209] [cursor=pointer]: Preço
+            - list [ref=e211]:
+              - listitem [ref=e212]:
+                - checkbox "Até R$ 30.124,99"
+                - generic [ref=e215] [cursor=pointer]: Até R$ 30.124,99
+              - listitem [ref=e216]:
+                - checkbox "De R$ 30.125,00 à R$ 59.999,99"
+                - generic [ref=e219] [cursor=pointer]: De R$ 30.125,00 à R$ 59.999,99
+              - listitem [ref=e220]:
+                - checkbox "De R$ 60.000,00 à R$ 89.874,99"
+                - generic [ref=e223] [cursor=pointer]: De R$ 60.000,00 à R$ 89.874,99
+              - listitem [ref=e224]:
+                - checkbox "De R$ 89.875,00 à R$ 119.749,99"
+                - generic [ref=e227] [cursor=pointer]: De R$ 89.875,00 à R$ 119.749,99
+              - listitem [ref=e228]:
+                - checkbox "De R$ 119.750,00 à R$ 149.624,99"
+                - generic [ref=e231] [cursor=pointer]: De R$ 119.750,00 à R$ 149.624,99
+              - listitem [ref=e232]:
+                - checkbox "Acima de R$ 179.500,00"
+                - generic [ref=e235] [cursor=pointer]: Acima de R$ 179.500,00
+          - generic [ref=e236]:
+            - heading "Disponibilidade" [level=4] [ref=e237] [cursor=pointer]: Disponibilidade
+            - list [ref=e239]:
+              - listitem [ref=e240]:
+                - checkbox "Imediata (19)"
+                - generic [ref=e241]:
+                  - generic [ref=e243] [cursor=pointer]: Imediata
+                  - generic [ref=e244]: (19)
+              - listitem [ref=e245]:
+                - checkbox "Imediata, sujeito a confirmação (1133)"
+                - generic [ref=e246]:
+                  - generic [ref=e248] [cursor=pointer]: Imediata, sujeito a confirmação
+                  - generic [ref=e249]: (1133)
+          - generic [ref=e250]:
+            - heading "Marcas" [level=4] [ref=e251] [cursor=pointer]: Marcas
+            - list [ref=e253]:
+              - listitem [ref=e254]:
+                - checkbox "7 Ball (1)"
+                - generic [ref=e255]:
+                  - generic [ref=e257] [cursor=pointer]: 7 Ball
+                  - generic [ref=e258]: (1)
+              - listitem [ref=e259]:
+                - checkbox "Affari (1)"
+                - generic [ref=e260]:
+                  - generic [ref=e262] [cursor=pointer]: Affari
+                  - generic [ref=e263]: (1)
+              - listitem [ref=e264]:
+                - checkbox "Arte couro (1)"
+                - generic [ref=e265]:
+                  - generic [ref=e267] [cursor=pointer]: Arte couro
+                  - generic [ref=e268]: (1)
+              - listitem [ref=e269]:
+                - checkbox "Artefacto (56)"
+                - generic [ref=e270]:
+                  - generic [ref=e272] [cursor=pointer]: Artefacto
+                  - generic [ref=e273]: (56)
+              - listitem [ref=e274]:
+                - checkbox "Artesian (27)"
+                - generic [ref=e275]:
+                  - generic [ref=e277] [cursor=pointer]: Artesian
+                  - generic [ref=e278]: (27)
+              - listitem [ref=e279]:
+                - checkbox "Bell'Arte (1)"
+                - generic [ref=e280]:
+                  - generic [ref=e282] [cursor=pointer]: Bell'Arte
+                  - generic [ref=e283]: (1)
+              - listitem [ref=e284]:
+                - checkbox "Brentwood (1)"
+                - generic [ref=e285]:
+                  - generic [ref=e287] [cursor=pointer]: Brentwood
+                  - generic [ref=e288]: (1)
+              - listitem [ref=e289]:
+                - checkbox "Breton (6)"
+                - generic [ref=e290]:
+                  - generic [ref=e292] [cursor=pointer]: Breton
+                  - generic [ref=e293]: (6)
+              - listitem [ref=e294]:
+                - checkbox "Butzke (1)"
+                - generic [ref=e295]:
+                  - generic [ref=e297] [cursor=pointer]: Butzke
+                  - generic [ref=e298]: (1)
+              - listitem [ref=e299]:
+                - checkbox "Celina Dias (2)"
+                - generic [ref=e300]:
+                  - generic [ref=e302] [cursor=pointer]: Celina Dias
+                  - generic [ref=e303]: (2)
+              - listitem [ref=e304]:
+                - checkbox "Century (3)"
+                - generic [ref=e305]:
+                  - generic [ref=e307] [cursor=pointer]: Century
+                  - generic [ref=e308]: (3)
+              - listitem [ref=e309]:
+                - checkbox "Cinex (4)"
+                - generic [ref=e310]:
+                  - generic [ref=e312] [cursor=pointer]: Cinex
+                  - generic [ref=e313]: (4)
+              - listitem [ref=e314]:
+                - checkbox "Clássica Design (1)"
+                - generic [ref=e315]:
+                  - generic [ref=e317] [cursor=pointer]: Clássica Design
+                  - generic [ref=e318]: (1)
+              - listitem [ref=e319]:
+                - checkbox "Collab Studio (1)"
+                - generic [ref=e320]:
+                  - generic [ref=e322] [cursor=pointer]: Collab Studio
+                  - generic [ref=e323]: (1)
+              - listitem [ref=e324]:
+                - checkbox "Crate & Barrel (1)"
+                - generic [ref=e325]:
+                  - generic [ref=e327] [cursor=pointer]: Crate & Barrel
+                  - generic [ref=e328]: (1)
+              - listitem [ref=e329]:
+                - checkbox "Cremme (1)"
+                - generic [ref=e330]:
+                  - generic [ref=e332] [cursor=pointer]: Cremme
+                  - generic [ref=e333]: (1)
+              - listitem [ref=e334]:
+                - checkbox "Desmobilia (2)"
+                - generic [ref=e335]:
+                  - generic [ref=e337] [cursor=pointer]: Desmobilia
+                  - generic [ref=e338]: (2)
+              - listitem [ref=e339]:
+                - checkbox "Destack (2)"
+                - generic [ref=e340]:
+                  - generic [ref=e342] [cursor=pointer]: Destack
+                  - generic [ref=e343]: (2)
+              - listitem [ref=e344]:
+                - checkbox "Doimo (2)"
+                - generic [ref=e345]:
+                  - generic [ref=e347] [cursor=pointer]: Doimo
+                  - generic [ref=e348]: (2)
+              - listitem [ref=e349]:
+                - checkbox "Dpot (1)"
+                - generic [ref=e350]:
+                  - generic [ref=e352] [cursor=pointer]: Dpot
+                  - generic [ref=e353]: (1)
+              - listitem [ref=e354]:
+                - checkbox "Dunelli (2)"
+                - generic [ref=e355]:
+                  - generic [ref=e357] [cursor=pointer]: Dunelli
+                  - generic [ref=e358]: (2)
+              - listitem [ref=e359]:
+                - checkbox "Ekornes (1)"
+                - generic [ref=e360]:
+                  - generic [ref=e362] [cursor=pointer]: Ekornes
+                  - generic [ref=e363]: (1)
+              - listitem [ref=e364]:
+                - checkbox "Estúdio Fresa (1)"
+                - generic [ref=e365]:
+                  - generic [ref=e367] [cursor=pointer]: Estúdio Fresa
+                  - generic [ref=e368]: (1)
+              - listitem [ref=e369]:
+                - checkbox "Etel (1)"
+                - generic [ref=e370]:
+                  - generic [ref=e372] [cursor=pointer]: Etel
+                  - generic [ref=e373]: (1)
+              - listitem [ref=e374]:
+                - checkbox "Feeling (6)"
+                - generic [ref=e375]:
+                  - generic [ref=e377] [cursor=pointer]: Feeling
+                  - generic [ref=e378]: (6)
+              - listitem [ref=e379]:
+                - checkbox "Firma Casa (1)"
+                - generic [ref=e380]:
+                  - generic [ref=e382] [cursor=pointer]: Firma Casa
+                  - generic [ref=e383]: (1)
+              - listitem [ref=e384]:
+                - checkbox "Florense (2)"
+                - generic [ref=e385]:
+                  - generic [ref=e387] [cursor=pointer]: Florense
+                  - generic [ref=e388]: (2)
+              - listitem [ref=e389]:
+                - checkbox "Forma (1)"
+                - generic [ref=e390]:
+                  - generic [ref=e392] [cursor=pointer]: Forma
+                  - generic [ref=e393]: (1)
+              - listitem [ref=e394]:
+                - checkbox "Franccino Giardini (1)"
+                - generic [ref=e395]:
+                  - generic [ref=e397] [cursor=pointer]: Franccino Giardini
+                  - generic [ref=e398]: (1)
+              - listitem [ref=e399]:
+                - checkbox "Gottems (11)"
+                - generic [ref=e400]:
+                  - generic [ref=e402] [cursor=pointer]: Gottems
+                  - generic [ref=e403]: (11)
+              - listitem [ref=e404]:
+                - checkbox "Habitable (5)"
+                - generic [ref=e405]:
+                  - generic [ref=e407] [cursor=pointer]: Habitable
+                  - generic [ref=e408]: (5)
+              - listitem [ref=e409]:
+                - checkbox "Hamilton Conte (1)"
+                - generic [ref=e410]:
+                  - generic [ref=e412] [cursor=pointer]: Hamilton Conte
+                  - generic [ref=e413]: (1)
+              - listitem [ref=e414]:
+                - checkbox "Herman Miller (2)"
+                - generic [ref=e415]:
+                  - generic [ref=e417] [cursor=pointer]: Herman Miller
+                  - generic [ref=e418]: (2)
+              - listitem [ref=e419]:
+                - checkbox "Herval (1)"
+                - generic [ref=e420]:
+                  - generic [ref=e422] [cursor=pointer]: Herval
+                  - generic [ref=e423]: (1)
+              - listitem [ref=e424]:
+                - checkbox "Inove (1)"
+                - generic [ref=e425]:
+                  - generic [ref=e427] [cursor=pointer]: Inove
+                  - generic [ref=e428]: (1)
+              - listitem [ref=e429]:
+                - checkbox "Jader Almeida (21)"
+                - generic [ref=e430]:
+                  - generic [ref=e432] [cursor=pointer]: Jader Almeida
+                  - generic [ref=e433]: (21)
+              - listitem [ref=e434]:
+                - checkbox "Kartell (1)"
+                - generic [ref=e435]:
+                  - generic [ref=e437] [cursor=pointer]: Kartell
+                  - generic [ref=e438]: (1)
+              - listitem [ref=e439]:
+                - checkbox "Kraft (1)"
+                - generic [ref=e440]:
+                  - generic [ref=e442] [cursor=pointer]: Kraft
+                  - generic [ref=e443]: (1)
+              - listitem [ref=e444]:
+                - checkbox "L'oeil (1)"
+                - generic [ref=e445]:
+                  - generic [ref=e447] [cursor=pointer]: L'oeil
+                  - generic [ref=e448]: (1)
+              - listitem [ref=e449]:
+                - checkbox "Lattoog (1)"
+                - generic [ref=e450]:
+                  - generic [ref=e452] [cursor=pointer]: Lattoog
+                  - generic [ref=e453]: (1)
+              - listitem [ref=e454]:
+                - checkbox "Lider Interiores (2)"
+                - generic [ref=e455]:
+                  - generic [ref=e457] [cursor=pointer]: Lider Interiores
+                  - generic [ref=e458]: (2)
+              - listitem [ref=e459]:
+                - checkbox "Linteloo (1)"
+                - generic [ref=e460]:
+                  - generic [ref=e462] [cursor=pointer]: Linteloo
+                  - generic [ref=e463]: (1)
+              - listitem [ref=e464]:
+                - checkbox "Magis Design (2)"
+                - generic [ref=e465]:
+                  - generic [ref=e467] [cursor=pointer]: Magis Design
+                  - generic [ref=e468]: (2)
+              - listitem [ref=e469]:
+                - checkbox "Maisofá (5)"
+                - generic [ref=e470]:
+                  - generic [ref=e472] [cursor=pointer]: Maisofá
+                  - generic [ref=e473]: (5)
+              - listitem [ref=e474]:
+                - checkbox "Masotti (2)"
+                - generic [ref=e475]:
+                  - generic [ref=e477] [cursor=pointer]: Masotti
+                  - generic [ref=e478]: (2)
+              - listitem [ref=e479]:
+                - checkbox "Mauricio Bomfim (10)"
+                - generic [ref=e480]:
+                  - generic [ref=e482] [cursor=pointer]: Mauricio Bomfim
+                  - generic [ref=e483]: (10)
+              - listitem [ref=e484]:
+                - checkbox "Memor (1)"
+                - generic [ref=e485]:
+                  - generic [ref=e487] [cursor=pointer]: Memor
+                  - generic [ref=e488]: (1)
+              - listitem [ref=e489]:
+                - checkbox "Micasa (3)"
+                - generic [ref=e490]:
+                  - generic [ref=e492] [cursor=pointer]: Micasa
+                  - generic [ref=e493]: (3)
+              - listitem [ref=e494]:
+                - checkbox "Modalle (3)"
+                - generic [ref=e495]:
+                  - generic [ref=e497] [cursor=pointer]: Modalle
+                  - generic [ref=e498]: (3)
+              - listitem [ref=e499]:
+                - checkbox "Momentum (3)"
+                - generic [ref=e500]:
+                  - generic [ref=e502] [cursor=pointer]: Momentum
+                  - generic [ref=e503]: (3)
+              - listitem [ref=e504]:
+                - checkbox "Móveis Campo Largo (3)"
+                - generic [ref=e505]:
+                  - generic [ref=e507] [cursor=pointer]: Móveis Campo Largo
+                  - generic [ref=e508]: (3)
+              - listitem [ref=e509]:
+                - checkbox "Mula Preta (4)"
+                - generic [ref=e510]:
+                  - generic [ref=e512] [cursor=pointer]: Mula Preta
+                  - generic [ref=e513]: (4)
+              - listitem [ref=e514]:
+                - checkbox "Natuzzi (4)"
+                - generic [ref=e515]:
+                  - generic [ref=e517] [cursor=pointer]: Natuzzi
+                  - generic [ref=e518]: (4)
+              - listitem [ref=e519]:
+                - checkbox "Neobox (1)"
+                - generic [ref=e520]:
+                  - generic [ref=e522] [cursor=pointer]: Neobox
+                  - generic [ref=e523]: (1)
+              - listitem [ref=e524]:
+                - checkbox "Nos Furniture (1)"
+                - generic [ref=e525]:
+                  - generic [ref=e527] [cursor=pointer]: Nos Furniture
+                  - generic [ref=e528]: (1)
+              - listitem [ref=e529]:
+                - checkbox "Ovo (4)"
+                - generic [ref=e530]:
+                  - generic [ref=e532] [cursor=pointer]: Ovo
+                  - generic [ref=e533]: (4)
+              - listitem [ref=e534]:
+                - checkbox "Pátio Brasil (1)"
+                - generic [ref=e535]:
+                  - generic [ref=e537] [cursor=pointer]: Pátio Brasil
+                  - generic [ref=e538]: (1)
+              - listitem [ref=e539]:
+                - checkbox "Pols Potten (1)"
+                - generic [ref=e540]:
+                  - generic [ref=e542] [cursor=pointer]: Pols Potten
+                  - generic [ref=e543]: (1)
+              - listitem [ref=e544]:
+                - checkbox "Reseda (1)"
+                - generic [ref=e545]:
+                  - generic [ref=e547] [cursor=pointer]: Reseda
+                  - generic [ref=e548]: (1)
+              - listitem [ref=e549]:
+                - checkbox "Saccaro (69)"
+                - generic [ref=e550]:
+                  - generic [ref=e552] [cursor=pointer]: Saccaro
+                  - generic [ref=e553]: (69)
+              - listitem [ref=e554]:
+                - checkbox "Salva (3)"
+                - generic [ref=e555]:
+                  - generic [ref=e557] [cursor=pointer]: Salva
+                  - generic [ref=e558]: (3)
+              - listitem [ref=e559]:
+                - checkbox "Sierra (121)"
+                - generic [ref=e560]:
+                  - generic [ref=e562] [cursor=pointer]: Sierra
+                  - generic [ref=e563]: (121)
+              - listitem [ref=e564]:
+                - checkbox "Simmetria (4)"
+                - generic [ref=e565]:
+                  - generic [ref=e567] [cursor=pointer]: Simmetria
+                  - generic [ref=e568]: (4)
+              - listitem [ref=e569]:
+                - checkbox "Steel (1)"
+                - generic [ref=e570]:
+                  - generic [ref=e572] [cursor=pointer]: Steel
+                  - generic [ref=e573]: (1)
+              - listitem [ref=e574]:
+                - checkbox "Tonsurton (1)"
+                - generic [ref=e575]:
+                  - generic [ref=e577] [cursor=pointer]: Tonsurton
+                  - generic [ref=e578]: (1)
+              - listitem [ref=e579]:
+                - checkbox "Vimme (2)"
+                - generic [ref=e580]:
+                  - generic [ref=e582] [cursor=pointer]: Vimme
+                  - generic [ref=e583]: (2)
+              - listitem [ref=e584]:
+                - checkbox "Voler (1)"
+                - generic [ref=e585]:
+                  - generic [ref=e587] [cursor=pointer]: Voler
+                  - generic [ref=e588]: (1)
+              - listitem [ref=e589]:
+                - checkbox "Way Design (1)"
+                - generic [ref=e590]:
+                  - generic [ref=e592] [cursor=pointer]: Way Design
+                  - generic [ref=e593]: (1)
+              - listitem [ref=e594]:
+                - checkbox "West Elm (1)"
+                - generic [ref=e595]:
+                  - generic [ref=e597] [cursor=pointer]: West Elm
+                  - generic [ref=e598]: (1)
+              - listitem [ref=e599]:
+                - checkbox "Yamakawa (1)"
+                - generic [ref=e600]:
+                  - generic [ref=e602] [cursor=pointer]: Yamakawa
+                  - generic [ref=e603]: (1)
+              - listitem [ref=e604]:
+                - checkbox "Zanotta (2)"
+                - generic [ref=e605]:
+                  - generic [ref=e607] [cursor=pointer]: Zanotta
+                  - generic [ref=e608]: (2)
+          - generic [ref=e609]:
+            - heading "Base" [level=4] [ref=e610] [cursor=pointer]: Base
+            - list [ref=e612]:
+              - listitem [ref=e613]:
+                - checkbox "Acrílico (1)"
+                - generic [ref=e614]:
+                  - generic [ref=e616] [cursor=pointer]: Acrílico
+                  - generic [ref=e617]: (1)
+              - listitem [ref=e618]:
+                - checkbox "Alumínio (9)"
+                - generic [ref=e619]:
+                  - generic [ref=e621] [cursor=pointer]: Alumínio
+                  - generic [ref=e622]: (9)
+              - listitem [ref=e623]:
+                - checkbox "Aço (40)"
+                - generic [ref=e624]:
+                  - generic [ref=e626] [cursor=pointer]: Aço
+                  - generic [ref=e627]: (40)
+              - listitem [ref=e628]:
+                - checkbox "Corda náutica (1)"
+                - generic [ref=e629]:
+                  - generic [ref=e631] [cursor=pointer]: Corda náutica
+                  - generic [ref=e632]: (1)
+              - listitem [ref=e633]:
+                - checkbox "Couro (9)"
+                - generic [ref=e634]:
+                  - generic [ref=e636] [cursor=pointer]: Couro
+                  - generic [ref=e637]: (9)
+              - listitem [ref=e638]:
+                - checkbox "Cromada (31)"
+                - generic [ref=e639]:
+                  - generic [ref=e641] [cursor=pointer]: Cromada
+                  - generic [ref=e642]: (31)
+              - listitem [ref=e643]:
+                - checkbox "Espelho (1)"
+                - generic [ref=e644]:
+                  - generic [ref=e646] [cursor=pointer]: Espelho
+                  - generic [ref=e647]: (1)
+              - listitem [ref=e648]:
+                - checkbox "Fibra de vidro (1)"
+                - generic [ref=e649]:
+                  - generic [ref=e651] [cursor=pointer]: Fibra de vidro
+                  - generic [ref=e652]: (1)
+              - listitem [ref=e653]:
+                - checkbox "Fibra natural (4)"
+                - generic [ref=e654]:
+                  - generic [ref=e656] [cursor=pointer]: Fibra natural
+                  - generic [ref=e657]: (4)
+              - listitem [ref=e658]:
+                - checkbox "Laca (21)"
+                - generic [ref=e659]:
+                  - generic [ref=e661] [cursor=pointer]: Laca
+                  - generic [ref=e662]: (21)
+              - listitem [ref=e663]:
+                - checkbox "Madeira (369)"
+                - generic [ref=e664]:
+                  - generic [ref=e666] [cursor=pointer]: Madeira
+                  - generic [ref=e667]: (369)
+              - listitem [ref=e668]:
+                - checkbox "Metálica (162)"
+                - generic [ref=e669]:
+                  - generic [ref=e671] [cursor=pointer]: Metálica
+                  - generic [ref=e672]: (162)
+              - listitem [ref=e673]:
+                - checkbox "Mármore (2)"
+                - generic [ref=e674]:
+                  - generic [ref=e676] [cursor=pointer]: Mármore
+                  - generic [ref=e677]: (2)
+              - listitem [ref=e678]:
+                - checkbox "Vidro (1)"
+                - generic [ref=e679]:
+                  - generic [ref=e681] [cursor=pointer]: Vidro
+                  - generic [ref=e682]: (1)
+          - generic [ref=e683]:
+            - heading "Cor" [level=4] [ref=e684] [cursor=pointer]: Cor
+            - list [ref=e686]:
+              - listitem [ref=e687]:
+                - checkbox "Amarelo (7)"
+                - generic [ref=e688]:
+                  - generic [ref=e690] [cursor=pointer]: Amarelo
+                  - generic [ref=e691]: (7)
+              - listitem [ref=e692]:
+                - checkbox "Areia (2)"
+                - generic [ref=e693]:
+                  - generic [ref=e695] [cursor=pointer]: Areia
+                  - generic [ref=e696]: (2)
+              - listitem [ref=e697]:
+                - checkbox "Azul (25)"
+                - generic [ref=e698]:
+                  - generic [ref=e700] [cursor=pointer]: Azul
+                  - generic [ref=e701]: (25)
+              - listitem [ref=e702]:
+                - checkbox "Azul marinho (2)"
+                - generic [ref=e703]:
+                  - generic [ref=e705] [cursor=pointer]: Azul marinho
+                  - generic [ref=e706]: (2)
+              - listitem [ref=e707]:
+                - checkbox "Bege (63)"
+                - generic [ref=e708]:
+                  - generic [ref=e710] [cursor=pointer]: Bege
+                  - generic [ref=e711]: (63)
+              - listitem [ref=e712]:
+                - checkbox "Branco (40)"
+                - generic [ref=e713]:
+                  - generic [ref=e715] [cursor=pointer]: Branco
+                  - generic [ref=e716]: (40)
+              - listitem [ref=e717]:
+                - checkbox "Branco e preto (3)"
+                - generic [ref=e718]:
+                  - generic [ref=e720] [cursor=pointer]: Branco e preto
+                  - generic [ref=e721]: (3)
+              - listitem [ref=e722]:
+                - checkbox "Bronze (1)"
+                - generic [ref=e723]:
+                  - generic [ref=e725] [cursor=pointer]: Bronze
+                  - generic [ref=e726]: (1)
+              - listitem [ref=e727]:
+                - checkbox "Caramelo (30)"
+                - generic [ref=e728]:
+                  - generic [ref=e730] [cursor=pointer]: Caramelo
+                  - generic [ref=e731]: (30)
+              - listitem [ref=e732]:
+                - checkbox "Cinza (143)"
+                - generic [ref=e733]:
+                  - generic [ref=e735] [cursor=pointer]: Cinza
+                  - generic [ref=e736]: (143)
+              - listitem [ref=e737]:
+                - checkbox "Cru (5)"
+                - generic [ref=e738]:
+                  - generic [ref=e740] [cursor=pointer]: Cru
+                  - generic [ref=e741]: (5)
+              - listitem [ref=e742]:
+                - checkbox "Dourado (21)"
+                - generic [ref=e743]:
+                  - generic [ref=e745] [cursor=pointer]: Dourado
+                  - generic [ref=e746]: (21)
+              - listitem [ref=e747]:
+                - checkbox "Fendi (27)"
+                - generic [ref=e748]:
+                  - generic [ref=e750] [cursor=pointer]: Fendi
+                  - generic [ref=e751]: (27)
+              - listitem [ref=e752]:
+                - checkbox "Ferrugem (1)"
+                - generic [ref=e753]:
+                  - generic [ref=e755] [cursor=pointer]: Ferrugem
+                  - generic [ref=e756]: (1)
+              - listitem [ref=e757]:
+                - checkbox "Goiaba (2)"
+                - generic [ref=e758]:
+                  - generic [ref=e760] [cursor=pointer]: Goiaba
+                  - generic [ref=e761]: (2)
+              - listitem [ref=e762]:
+                - checkbox "Grafite (2)"
+                - generic [ref=e763]:
+                  - generic [ref=e765] [cursor=pointer]: Grafite
+                  - generic [ref=e766]: (2)
+              - listitem [ref=e767]:
+                - checkbox "Incolor (7)"
+                - generic [ref=e768]:
+                  - generic [ref=e770] [cursor=pointer]: Incolor
+                  - generic [ref=e771]: (7)
+              - listitem [ref=e772]:
+                - checkbox "Laranja (7)"
+                - generic [ref=e773]:
+                  - generic [ref=e775] [cursor=pointer]: Laranja
+                  - generic [ref=e776]: (7)
+              - listitem [ref=e777]:
+                - checkbox "Marrom (92)"
+                - generic [ref=e778]:
+                  - generic [ref=e780] [cursor=pointer]: Marrom
+                  - generic [ref=e781]: (92)
+              - listitem [ref=e782]:
+                - checkbox "Mostarda (2)"
+                - generic [ref=e783]:
+                  - generic [ref=e785] [cursor=pointer]: Mostarda
+                  - generic [ref=e786]: (2)
+              - listitem [ref=e787]:
+                - checkbox "Off-white (119)"
+                - generic [ref=e788]:
+                  - generic [ref=e790] [cursor=pointer]: Off-white
+                  - generic [ref=e791]: (119)
+              - listitem [ref=e792]:
+                - checkbox "Prata (10)"
+                - generic [ref=e793]:
+                  - generic [ref=e795] [cursor=pointer]: Prata
+                  - generic [ref=e796]: (10)
+              - listitem [ref=e797]:
+                - checkbox "Preto (130)"
+                - generic [ref=e798]:
+                  - generic [ref=e800] [cursor=pointer]: Preto
+                  - generic [ref=e801]: (130)
+              - listitem [ref=e802]:
+                - checkbox "Rosa (6)"
+                - generic [ref=e803]:
+                  - generic [ref=e805] [cursor=pointer]: Rosa
+                  - generic [ref=e806]: (6)
+              - listitem [ref=e807]:
+                - checkbox "Terracota (8)"
+                - generic [ref=e808]:
+                  - generic [ref=e810] [cursor=pointer]: Terracota
+                  - generic [ref=e811]: (8)
+              - listitem [ref=e812]:
+                - checkbox "Verde (19)"
+                - generic [ref=e813]:
+                  - generic [ref=e815] [cursor=pointer]: Verde
+                  - generic [ref=e816]: (19)
+              - listitem [ref=e817]:
+                - checkbox "Vermelho (9)"
+                - generic [ref=e818]:
+                  - generic [ref=e820] [cursor=pointer]: Vermelho
+                  - generic [ref=e821]: (9)
+              - listitem [ref=e822]:
+                - checkbox "Vermelho e azul (1)"
+                - generic [ref=e823]:
+                  - generic [ref=e825] [cursor=pointer]: Vermelho e azul
+                  - generic [ref=e826]: (1)
+              - listitem [ref=e827]:
+                - checkbox "Vinho (11)"
+                - generic [ref=e828]:
+                  - generic [ref=e830] [cursor=pointer]: Vinho
+                  - generic [ref=e831]: (11)
+          - generic [ref=e832]:
+            - heading "Designer" [level=4] [ref=e833] [cursor=pointer]: Designer
+            - list [ref=e835]:
+              - listitem [ref=e836]:
+                - checkbox "Alain Blatché (1)"
+                - generic [ref=e837]:
+                  - generic [ref=e839] [cursor=pointer]: Alain Blatché
+                  - generic [ref=e840]: (1)
+              - listitem [ref=e841]:
+                - checkbox "Ale Alvarenga (2)"
+                - generic [ref=e842]:
+                  - generic [ref=e844] [cursor=pointer]: Ale Alvarenga
+                  - generic [ref=e845]: (2)
+              - listitem [ref=e846]:
+                - checkbox "Alessandro Ansolin (4)"
+                - generic [ref=e847]:
+                  - generic [ref=e849] [cursor=pointer]: Alessandro Ansolin
+                  - generic [ref=e850]: (4)
+              - listitem [ref=e851]:
+                - checkbox "Ana Revello Vazquez e Renato Solio (2)"
+                - generic [ref=e852]:
+                  - generic [ref=e854] [cursor=pointer]: Ana Revello Vazquez e Renato Solio
+                  - generic [ref=e855]: (2)
+              - listitem [ref=e856]:
+                - checkbox "Anders Norgaard (1)"
+                - generic [ref=e857]:
+                  - generic [ref=e859] [cursor=pointer]: Anders Norgaard
+                  - generic [ref=e860]: (1)
+              - listitem [ref=e861]:
+                - checkbox "Bell Design (2)"
+                - generic [ref=e862]:
+                  - generic [ref=e864] [cursor=pointer]: Bell Design
+                  - generic [ref=e865]: (2)
+              - listitem [ref=e866]:
+                - checkbox "Bruno Faucz (6)"
+                - generic [ref=e867]:
+                  - generic [ref=e869] [cursor=pointer]: Bruno Faucz
+                  - generic [ref=e870]: (6)
+              - listitem [ref=e871]:
+                - checkbox "Cini Boeri (1)"
+                - generic [ref=e872]:
+                  - generic [ref=e874] [cursor=pointer]: Cini Boeri
+                  - generic [ref=e875]: (1)
+              - listitem [ref=e876]:
+                - checkbox "Claudia Moreira Salles (2)"
+                - generic [ref=e877]:
+                  - generic [ref=e879] [cursor=pointer]: Claudia Moreira Salles
+                  - generic [ref=e880]: (2)
+              - listitem [ref=e881]:
+                - checkbox "Damian Williamson (1)"
+                - generic [ref=e882]:
+                  - generic [ref=e884] [cursor=pointer]: Damian Williamson
+                  - generic [ref=e885]: (1)
+              - listitem [ref=e886]:
+                - checkbox "Eduardo Bortolai (1)"
+                - generic [ref=e887]:
+                  - generic [ref=e889] [cursor=pointer]: Eduardo Bortolai
+                  - generic [ref=e890]: (1)
+              - listitem [ref=e891]:
+                - checkbox "Esteban Fidelis (1)"
+                - generic [ref=e892]:
+                  - generic [ref=e894] [cursor=pointer]: Esteban Fidelis
+                  - generic [ref=e895]: (1)
+              - listitem [ref=e896]:
+                - checkbox "Estudio Bola (4)"
+                - generic [ref=e897]:
+                  - generic [ref=e899] [cursor=pointer]: Estudio Bola
+                  - generic [ref=e900]: (4)
+              - listitem [ref=e901]:
+                - checkbox "Estudio Mooringa (1)"
+                - generic [ref=e902]:
+                  - generic [ref=e904] [cursor=pointer]: Estudio Mooringa
+                  - generic [ref=e905]: (1)
+              - listitem [ref=e906]:
+                - checkbox "estúdio Adriano Design (1)"
+                - generic [ref=e907]:
+                  - generic [ref=e909] [cursor=pointer]: estúdio Adriano Design
+                  - generic [ref=e910]: (1)
+              - listitem [ref=e911]:
+                - checkbox "Fabricio Ronca (3)"
+                - generic [ref=e912]:
+                  - generic [ref=e914] [cursor=pointer]: Fabricio Ronca
+                  - generic [ref=e915]: (3)
+              - listitem [ref=e916]:
+                - checkbox "Fernando Jaeger (5)"
+                - generic [ref=e917]:
+                  - generic [ref=e919] [cursor=pointer]: Fernando Jaeger
+                  - generic [ref=e920]: (5)
+              - listitem [ref=e921]:
+                - checkbox "Fernando Zanardi (8)"
+                - generic [ref=e922]:
+                  - generic [ref=e924] [cursor=pointer]: Fernando Zanardi
+                  - generic [ref=e925]: (8)
+              - listitem [ref=e926]:
+                - checkbox "Fetiche Design (1)"
+                - generic [ref=e927]:
+                  - generic [ref=e929] [cursor=pointer]: Fetiche Design
+                  - generic [ref=e930]: (1)
+              - listitem [ref=e931]:
+                - checkbox "Gabriel Bordin (1)"
+                - generic [ref=e932]:
+                  - generic [ref=e934] [cursor=pointer]: Gabriel Bordin
+                  - generic [ref=e935]: (1)
+              - listitem [ref=e936]:
+                - checkbox "Gaetano Pesce (1)"
+                - generic [ref=e937]:
+                  - generic [ref=e939] [cursor=pointer]: Gaetano Pesce
+                  - generic [ref=e940]: (1)
+              - listitem [ref=e941]:
+                - checkbox "Gerrit Rietveld (1)"
+                - generic [ref=e942]:
+                  - generic [ref=e944] [cursor=pointer]: Gerrit Rietveld
+                  - generic [ref=e945]: (1)
+              - listitem [ref=e946]:
+                - checkbox "Graça Kazan e Luiz Mario Moura (1)"
+                - generic [ref=e947]:
+                  - generic [ref=e949] [cursor=pointer]: Graça Kazan e Luiz Mario Moura
+                  - generic [ref=e950]: (1)
+              - listitem [ref=e951]:
+                - checkbox "Guido Faleschini (1)"
+                - generic [ref=e952]:
+                  - generic [ref=e954] [cursor=pointer]: Guido Faleschini
+                  - generic [ref=e955]: (1)
+              - listitem [ref=e956]:
+                - checkbox "Guilherme Rocco (1)"
+                - generic [ref=e957]:
+                  - generic [ref=e959] [cursor=pointer]: Guilherme Rocco
+                  - generic [ref=e960]: (1)
+              - listitem [ref=e961]:
+                - checkbox "Guilherme Torres (2)"
+                - generic [ref=e962]:
+                  - generic [ref=e964] [cursor=pointer]: Guilherme Torres
+                  - generic [ref=e965]: (2)
+              - listitem [ref=e966]:
+                - checkbox "Guilherme Wentz (1)"
+                - generic [ref=e967]:
+                  - generic [ref=e969] [cursor=pointer]: Guilherme Wentz
+                  - generic [ref=e970]: (1)
+              - listitem [ref=e971]:
+                - checkbox "Hans Wegner (2)"
+                - generic [ref=e972]:
+                  - generic [ref=e974] [cursor=pointer]: Hans Wegner
+                  - generic [ref=e975]: (2)
+              - listitem [ref=e976]:
+                - checkbox "Ibanez Razzera (5)"
+                - generic [ref=e977]:
+                  - generic [ref=e979] [cursor=pointer]: Ibanez Razzera
+                  - generic [ref=e980]: (5)
+              - listitem [ref=e981]:
+                - checkbox "Ilmar Dressel (2)"
+                - generic [ref=e982]:
+                  - generic [ref=e984] [cursor=pointer]: Ilmar Dressel
+                  - generic [ref=e985]: (2)
+              - listitem [ref=e986]:
+                - checkbox "Ivan Wodzinski (1)"
+                - generic [ref=e987]:
+                  - generic [ref=e989] [cursor=pointer]: Ivan Wodzinski
+                  - generic [ref=e990]: (1)
+              - listitem [ref=e991]:
+                - checkbox "Jader Almeida (29)"
+                - generic [ref=e992]:
+                  - generic [ref=e994] [cursor=pointer]: Jader Almeida
+                  - generic [ref=e995]: (29)
+              - listitem [ref=e996]:
+                - checkbox "Jayme Bernardo (3)"
+                - generic [ref=e997]:
+                  - generic [ref=e999] [cursor=pointer]: Jayme Bernardo
+                  - generic [ref=e1000]: (3)
+              - listitem [ref=e1001]:
+                - checkbox "Jhovini (1)"
+                - generic [ref=e1002]:
+                  - generic [ref=e1004] [cursor=pointer]: Jhovini
+                  - generic [ref=e1005]: (1)
+              - listitem [ref=e1006]:
+                - checkbox "Juliana Pippe (1)"
+                - generic [ref=e1007]:
+                  - generic [ref=e1009] [cursor=pointer]: Juliana Pippe
+                  - generic [ref=e1010]: (1)
+              - listitem [ref=e1011]:
+                - checkbox "Konstantin Grcic (3)"
+                - generic [ref=e1012]:
+                  - generic [ref=e1014] [cursor=pointer]: Konstantin Grcic
+                  - generic [ref=e1015]: (3)
+              - listitem [ref=e1016]:
+                - checkbox "Larissa Diegoli (5)"
+                - generic [ref=e1017]:
+                  - generic [ref=e1019] [cursor=pointer]: Larissa Diegoli
+                  - generic [ref=e1020]: (5)
+              - listitem [ref=e1021]:
+                - checkbox "Larissa Tavares (1)"
+                - generic [ref=e1022]:
+                  - generic [ref=e1024] [cursor=pointer]: Larissa Tavares
+                  - generic [ref=e1025]: (1)
+              - listitem [ref=e1026]:
+                - checkbox "Lattoog (1)"
+                - generic [ref=e1027]:
+                  - generic [ref=e1029] [cursor=pointer]: Lattoog
+                  - generic [ref=e1030]: (1)
+              - listitem [ref=e1031]:
+                - checkbox "Leo Capote (2)"
+                - generic [ref=e1032]:
+                  - generic [ref=e1034] [cursor=pointer]: Leo Capote
+                  - generic [ref=e1035]: (2)
+              - listitem [ref=e1036]:
+                - checkbox "Louis Kazan (13)"
+                - generic [ref=e1037]:
+                  - generic [ref=e1039] [cursor=pointer]: Louis Kazan
+                  - generic [ref=e1040]: (13)
+              - listitem [ref=e1041]:
+                - checkbox "Luciano Mandelli (1)"
+                - generic [ref=e1042]:
+                  - generic [ref=e1044] [cursor=pointer]: Luciano Mandelli
+                  - generic [ref=e1045]: (1)
+              - listitem [ref=e1046]:
+                - checkbox "Marcelo Ligieri (7)"
+                - generic [ref=e1047]:
+                  - generic [ref=e1049] [cursor=pointer]: Marcelo Ligieri
+                  - generic [ref=e1050]: (7)
+              - listitem [ref=e1051]:
+                - checkbox "Marcelo Salum e Frederico Cruz (1)"
+                - generic [ref=e1052]:
+                  - generic [ref=e1054] [cursor=pointer]: Marcelo Salum e Frederico Cruz
+                  - generic [ref=e1055]: (1)
+              - listitem [ref=e1056]:
+                - checkbox "Marcenaria (1)"
+                - generic [ref=e1057]:
+                  - generic [ref=e1059] [cursor=pointer]: Marcenaria
+                  - generic [ref=e1060]: (1)
+              - listitem [ref=e1061]:
+                - checkbox "Martin Aisler (1)"
+                - generic [ref=e1062]:
+                  - generic [ref=e1064] [cursor=pointer]: Martin Aisler
+                  - generic [ref=e1065]: (1)
+              - listitem [ref=e1066]:
+                - checkbox "Mauricio Bomfim (15)"
+                - generic [ref=e1067]:
+                  - generic [ref=e1069] [cursor=pointer]: Mauricio Bomfim
+                  - generic [ref=e1070]: (15)
+              - listitem [ref=e1071]:
+                - checkbox "Mauricio Coelho (1)"
+                - generic [ref=e1072]:
+                  - generic [ref=e1074] [cursor=pointer]: Mauricio Coelho
+                  - generic [ref=e1075]: (1)
+              - listitem [ref=e1076]:
+                - checkbox "Muar Diseño (1)"
+                - generic [ref=e1077]:
+                  - generic [ref=e1079] [cursor=pointer]: Muar Diseño
+                  - generic [ref=e1080]: (1)
+              - listitem [ref=e1081]:
+                - checkbox "Mula Preta (1)"
+                - generic [ref=e1082]:
+                  - generic [ref=e1084] [cursor=pointer]: Mula Preta
+                  - generic [ref=e1085]: (1)
+              - listitem [ref=e1086]:
+                - checkbox "Móveis Cimo (2)"
+                - generic [ref=e1087]:
+                  - generic [ref=e1089] [cursor=pointer]: Móveis Cimo
+                  - generic [ref=e1090]: (2)
+              - listitem [ref=e1091]:
+                - checkbox "Oslo Design (1)"
+                - generic [ref=e1092]:
+                  - generic [ref=e1094] [cursor=pointer]: Oslo Design
+                  - generic [ref=e1095]: (1)
+              - listitem [ref=e1096]:
+                - checkbox "Paulo Alves (1)"
+                - generic [ref=e1097]:
+                  - generic [ref=e1099] [cursor=pointer]: Paulo Alves
+                  - generic [ref=e1100]: (1)
+              - listitem [ref=e1101]:
+                - checkbox "Paulo Mendes da Rocha (2)"
+                - generic [ref=e1102]:
+                  - generic [ref=e1104] [cursor=pointer]: Paulo Mendes da Rocha
+                  - generic [ref=e1105]: (2)
+              - listitem [ref=e1106]:
+                - checkbox "Paulo Teixeira (1)"
+                - generic [ref=e1107]:
+                  - generic [ref=e1109] [cursor=pointer]: Paulo Teixeira
+                  - generic [ref=e1110]: (1)
+              - listitem [ref=e1111]:
+                - checkbox "Pedro Franco (2)"
+                - generic [ref=e1112]:
+                  - generic [ref=e1114] [cursor=pointer]: Pedro Franco
+                  - generic [ref=e1115]: (2)
+              - listitem [ref=e1116]:
+                - checkbox "Pedro Mendes (1)"
+                - generic [ref=e1117]:
+                  - generic [ref=e1119] [cursor=pointer]: Pedro Mendes
+                  - generic [ref=e1120]: (1)
+              - listitem [ref=e1121]:
+                - checkbox "Philippe Nigro (1)"
+                - generic [ref=e1122]:
+                  - generic [ref=e1124] [cursor=pointer]: Philippe Nigro
+                  - generic [ref=e1125]: (1)
+              - listitem [ref=e1126]:
+                - checkbox "Philippe Starck (1)"
+                - generic [ref=e1127]:
+                  - generic [ref=e1129] [cursor=pointer]: Philippe Starck
+                  - generic [ref=e1130]: (1)
+              - listitem [ref=e1131]:
+                - checkbox "Plataforma 4 (1)"
+                - generic [ref=e1132]:
+                  - generic [ref=e1134] [cursor=pointer]: Plataforma 4
+                  - generic [ref=e1135]: (1)
+              - listitem [ref=e1136]:
+                - checkbox "Pols Potten Studio (1)"
+                - generic [ref=e1137]:
+                  - generic [ref=e1139] [cursor=pointer]: Pols Potten Studio
+                  - generic [ref=e1140]: (1)
+              - listitem [ref=e1141]:
+                - checkbox "Regina Leite (1)"
+                - generic [ref=e1142]:
+                  - generic [ref=e1144] [cursor=pointer]: Regina Leite
+                  - generic [ref=e1145]: (1)
+              - listitem [ref=e1146]:
+                - checkbox "Rejane Carvalho Leite (7)"
+                - generic [ref=e1147]:
+                  - generic [ref=e1149] [cursor=pointer]: Rejane Carvalho Leite
+                  - generic [ref=e1150]: (7)
+              - listitem [ref=e1151]:
+                - checkbox "Ronald Sasson (3)"
+                - generic [ref=e1152]:
+                  - generic [ref=e1154] [cursor=pointer]: Ronald Sasson
+                  - generic [ref=e1155]: (3)
+              - listitem [ref=e1156]:
+                - checkbox "Roque Frizzo (5)"
+                - generic [ref=e1157]:
+                  - generic [ref=e1159] [cursor=pointer]: Roque Frizzo
+                  - generic [ref=e1160]: (5)
+              - listitem [ref=e1161]:
+                - checkbox "Sergio Rodrigues (7)"
+                - generic [ref=e1162]:
+                  - generic [ref=e1164] [cursor=pointer]: Sergio Rodrigues
+                  - generic [ref=e1165]: (7)
+              - listitem [ref=e1166]:
+                - checkbox "Silvio Romero (1)"
+                - generic [ref=e1167]:
+                  - generic [ref=e1169] [cursor=pointer]: Silvio Romero
+                  - generic [ref=e1170]: (1)
+              - listitem [ref=e1171]:
+                - checkbox "Studio Mooringa (2)"
+                - generic [ref=e1172]:
+                  - generic [ref=e1174] [cursor=pointer]: Studio Mooringa
+                  - generic [ref=e1175]: (2)
+              - listitem [ref=e1176]:
+                - checkbox "Superlimão (2)"
+                - generic [ref=e1177]:
+                  - generic [ref=e1179] [cursor=pointer]: Superlimão
+                  - generic [ref=e1180]: (2)
+              - listitem [ref=e1181]:
+                - checkbox "Tiago Curioni (1)"
+                - generic [ref=e1182]:
+                  - generic [ref=e1184] [cursor=pointer]: Tiago Curioni
+                  - generic [ref=e1185]: (1)
+              - listitem [ref=e1186]:
+                - checkbox "Vinicius Siega (1)"
+                - generic [ref=e1187]:
+                  - generic [ref=e1189] [cursor=pointer]: Vinicius Siega
+                  - generic [ref=e1190]: (1)
+              - listitem [ref=e1191]:
+                - checkbox "Walter Cuco (2)"
+                - generic [ref=e1192]:
+                  - generic [ref=e1194] [cursor=pointer]: Walter Cuco
+                  - generic [ref=e1195]: (2)
+              - listitem [ref=e1196]:
+                - checkbox "Zanine Caldas (1)"
+                - generic [ref=e1197]:
+                  - generic [ref=e1199] [cursor=pointer]: Zanine Caldas
+                  - generic [ref=e1200]: (1)
+          - generic [ref=e1201]:
+            - heading "Material" [level=4] [ref=e1202] [cursor=pointer]: Material
+            - list [ref=e1204]:
+              - listitem [ref=e1205]:
+                - checkbox "Acrílico (1)"
+                - generic [ref=e1206]:
+                  - generic [ref=e1208] [cursor=pointer]: Acrílico
+                  - generic [ref=e1209]: (1)
+              - listitem [ref=e1210]:
+                - checkbox "Alumínio (2)"
+                - generic [ref=e1211]:
+                  - generic [ref=e1213] [cursor=pointer]: Alumínio
+                  - generic [ref=e1214]: (2)
+              - listitem [ref=e1215]:
+                - checkbox "Corda náutica (3)"
+                - generic [ref=e1216]:
+                  - generic [ref=e1218] [cursor=pointer]: Corda náutica
+                  - generic [ref=e1219]: (3)
+              - listitem [ref=e1220]:
+                - checkbox "Corian (1)"
+                - generic [ref=e1221]:
+                  - generic [ref=e1223] [cursor=pointer]: Corian
+                  - generic [ref=e1224]: (1)
+              - listitem [ref=e1225]:
+                - checkbox "Couro (18)"
+                - generic [ref=e1226]:
+                  - generic [ref=e1228] [cursor=pointer]: Couro
+                  - generic [ref=e1229]: (18)
+              - listitem [ref=e1230]:
+                - checkbox "Espelho (3)"
+                - generic [ref=e1231]:
+                  - generic [ref=e1233] [cursor=pointer]: Espelho
+                  - generic [ref=e1234]: (3)
+              - listitem [ref=e1235]:
+                - checkbox "Fibra natural (7)"
+                - generic [ref=e1236]:
+                  - generic [ref=e1238] [cursor=pointer]: Fibra natural
+                  - generic [ref=e1239]: (7)
+              - listitem [ref=e1240]:
+                - checkbox "Laca (7)"
+                - generic [ref=e1241]:
+                  - generic [ref=e1243] [cursor=pointer]: Laca
+                  - generic [ref=e1244]: (7)
+              - listitem [ref=e1245]:
+                - checkbox "Laca Brilhante (7)"
+                - generic [ref=e1246]:
+                  - generic [ref=e1248] [cursor=pointer]: Laca Brilhante
+                  - generic [ref=e1249]: (7)
+              - listitem [ref=e1250]:
+                - checkbox "Madeira (196)"
+                - generic [ref=e1251]:
+                  - generic [ref=e1253] [cursor=pointer]: Madeira
+                  - generic [ref=e1254]: (196)
+              - listitem [ref=e1255]:
+                - checkbox "Madeira ebanizada (5)"
+                - generic [ref=e1256]:
+                  - generic [ref=e1258] [cursor=pointer]: Madeira ebanizada
+                  - generic [ref=e1259]: (5)
+              - listitem [ref=e1260]:
+                - checkbox "madeira freijó (2)"
+                - generic [ref=e1261]:
+                  - generic [ref=e1263] [cursor=pointer]: madeira freijó
+                  - generic [ref=e1264]: (2)
+              - listitem [ref=e1265]:
+                - checkbox "Mdf (3)"
+                - generic [ref=e1266]:
+                  - generic [ref=e1268] [cursor=pointer]: Mdf
+                  - generic [ref=e1269]: (3)
+              - listitem [ref=e1270]:
+                - checkbox "Mármore (2)"
+                - generic [ref=e1271]:
+                  - generic [ref=e1273] [cursor=pointer]: Mármore
+                  - generic [ref=e1274]: (2)
+              - listitem [ref=e1275]:
+                - checkbox "Polipropileno (1)"
+                - generic [ref=e1276]:
+                  - generic [ref=e1278] [cursor=pointer]: Polipropileno
+                  - generic [ref=e1279]: (1)
+              - listitem [ref=e1280]:
+                - checkbox "Vidro (5)"
+                - generic [ref=e1281]:
+                  - generic [ref=e1283] [cursor=pointer]: Vidro
+                  - generic [ref=e1284]: (5)
+          - generic [ref=e1285]:
+            - heading "Tampo" [level=4] [ref=e1286] [cursor=pointer]: Tampo
+            - list [ref=e1288]:
+              - listitem [ref=e1289]:
+                - checkbox "Corian (1)"
+                - generic [ref=e1290]:
+                  - generic [ref=e1292] [cursor=pointer]: Corian
+                  - generic [ref=e1293]: (1)
+              - listitem [ref=e1294]:
+                - checkbox "Couro (5)"
+                - generic [ref=e1295]:
+                  - generic [ref=e1297] [cursor=pointer]: Couro
+                  - generic [ref=e1298]: (5)
+              - listitem [ref=e1299]:
+                - checkbox "Espelho (15)"
+                - generic [ref=e1300]:
+                  - generic [ref=e1302] [cursor=pointer]: Espelho
+                  - generic [ref=e1303]: (15)
+              - listitem [ref=e1304]:
+                - checkbox "Granito (1)"
+                - generic [ref=e1305]:
+                  - generic [ref=e1307] [cursor=pointer]: Granito
+                  - generic [ref=e1308]: (1)
+              - listitem [ref=e1309]:
+                - checkbox "Laca (7)"
+                - generic [ref=e1310]:
+                  - generic [ref=e1312] [cursor=pointer]: Laca
+                  - generic [ref=e1313]: (7)
+              - listitem [ref=e1314]:
+                - checkbox "Laca Brilhante (9)"
+                - generic [ref=e1315]:
+                  - generic [ref=e1317] [cursor=pointer]: Laca Brilhante
+                  - generic [ref=e1318]: (9)
+              - listitem [ref=e1319]:
+                - checkbox "Laminado melamínico (4)"
+                - generic [ref=e1320]:
+                  - generic [ref=e1322] [cursor=pointer]: Laminado melamínico
+                  - generic [ref=e1323]: (4)
+              - listitem [ref=e1324]:
+                - checkbox "Madeira (61)"
+                - generic [ref=e1325]:
+                  - generic [ref=e1327] [cursor=pointer]: Madeira
+                  - generic [ref=e1328]: (61)
+              - listitem [ref=e1329]:
+                - checkbox "Metálico (1)"
+                - generic [ref=e1330]:
+                  - generic [ref=e1332] [cursor=pointer]: Metálico
+                  - generic [ref=e1333]: (1)
+              - listitem [ref=e1334]:
+                - checkbox "Microtextura (1)"
+                - generic [ref=e1335]:
+                  - generic [ref=e1337] [cursor=pointer]: Microtextura
+                  - generic [ref=e1338]: (1)
+              - listitem [ref=e1339]:
+                - checkbox "Mármore (24)"
+                - generic [ref=e1340]:
+                  - generic [ref=e1342] [cursor=pointer]: Mármore
+                  - generic [ref=e1343]: (24)
+              - listitem [ref=e1344]:
+                - checkbox "Pedra natural (2)"
+                - generic [ref=e1345]:
+                  - generic [ref=e1347] [cursor=pointer]: Pedra natural
+                  - generic [ref=e1348]: (2)
+              - listitem [ref=e1349]:
+                - checkbox "Porcelanato (1)"
+                - generic [ref=e1350]:
+                  - generic [ref=e1352] [cursor=pointer]: Porcelanato
+                  - generic [ref=e1353]: (1)
+              - listitem [ref=e1354]:
+                - checkbox "Silestone (1)"
+                - generic [ref=e1355]:
+                  - generic [ref=e1357] [cursor=pointer]: Silestone
+                  - generic [ref=e1358]: (1)
+              - listitem [ref=e1359]:
+                - checkbox "Vidro (99)"
+                - generic [ref=e1360]:
+                  - generic [ref=e1362] [cursor=pointer]: Vidro
+                  - generic [ref=e1363]: (99)
+          - generic [ref=e1364]:
+            - heading "Tecido" [level=4] [ref=e1365] [cursor=pointer]: Tecido
+            - list [ref=e1367]:
+              - listitem [ref=e1368]:
+                - checkbox "Adamascado (1)"
+                - generic [ref=e1369]:
+                  - generic [ref=e1371] [cursor=pointer]: Adamascado
+                  - generic [ref=e1372]: (1)
+              - listitem [ref=e1373]:
+                - checkbox "Algodão (21)"
+                - generic [ref=e1374]:
+                  - generic [ref=e1376] [cursor=pointer]: Algodão
+                  - generic [ref=e1377]: (21)
+              - listitem [ref=e1378]:
+                - checkbox "Bouclé (21)"
+                - generic [ref=e1379]:
+                  - generic [ref=e1381] [cursor=pointer]: Bouclé
+                  - generic [ref=e1382]: (21)
+              - listitem [ref=e1383]:
+                - checkbox "Camurça (40)"
+                - generic [ref=e1384]:
+                  - generic [ref=e1386] [cursor=pointer]: Camurça
+                  - generic [ref=e1387]: (40)
+              - listitem [ref=e1388]:
+                - checkbox "Chenile (31)"
+                - generic [ref=e1389]:
+                  - generic [ref=e1391] [cursor=pointer]: Chenile
+                  - generic [ref=e1392]: (31)
+              - listitem [ref=e1393]:
+                - checkbox "Chevron (1)"
+                - generic [ref=e1394]:
+                  - generic [ref=e1396] [cursor=pointer]: Chevron
+                  - generic [ref=e1397]: (1)
+              - listitem [ref=e1398]:
+                - checkbox "Couro (32)"
+                - generic [ref=e1399]:
+                  - generic [ref=e1401] [cursor=pointer]: Couro
+                  - generic [ref=e1402]: (32)
+              - listitem [ref=e1403]:
+                - checkbox "Couro ecológico (32)"
+                - generic [ref=e1404]:
+                  - generic [ref=e1406] [cursor=pointer]: Couro ecológico
+                  - generic [ref=e1407]: (32)
+              - listitem [ref=e1408]:
+                - checkbox "Couro Natural (30)"
+                - generic [ref=e1409]:
+                  - generic [ref=e1411] [cursor=pointer]: Couro Natural
+                  - generic [ref=e1412]: (30)
+              - listitem [ref=e1413]:
+                - checkbox "Impermeável (7)"
+                - generic [ref=e1414]:
+                  - generic [ref=e1416] [cursor=pointer]: Impermeável
+                  - generic [ref=e1417]: (7)
+              - listitem [ref=e1418]:
+                - checkbox "Linho (133)"
+                - generic [ref=e1419]:
+                  - generic [ref=e1421] [cursor=pointer]: Linho
+                  - generic [ref=e1422]: (133)
+              - listitem [ref=e1423]:
+                - checkbox "Linho Sintético (11)"
+                - generic [ref=e1424]:
+                  - generic [ref=e1426] [cursor=pointer]: Linho Sintético
+                  - generic [ref=e1427]: (11)
+              - listitem [ref=e1428]:
+                - checkbox "Listrado (3)"
+                - generic [ref=e1429]:
+                  - generic [ref=e1431] [cursor=pointer]: Listrado
+                  - generic [ref=e1432]: (3)
+              - listitem [ref=e1433]:
+                - checkbox "Lona (7)"
+                - generic [ref=e1434]:
+                  - generic [ref=e1436] [cursor=pointer]: Lona
+                  - generic [ref=e1437]: (7)
+              - listitem [ref=e1438]:
+                - checkbox "Palha (2)"
+                - generic [ref=e1439]:
+                  - generic [ref=e1441] [cursor=pointer]: Palha
+                  - generic [ref=e1442]: (2)
+              - listitem [ref=e1443]:
+                - checkbox "Palha natural (2)"
+                - generic [ref=e1444]:
+                  - generic [ref=e1446] [cursor=pointer]: Palha natural
+                  - generic [ref=e1447]: (2)
+              - listitem [ref=e1448]:
+                - checkbox "Percinta elástica (2)"
+                - generic [ref=e1449]:
+                  - generic [ref=e1451] [cursor=pointer]: Percinta elástica
+                  - generic [ref=e1452]: (2)
+              - listitem [ref=e1453]:
+                - checkbox "Plissado (1)"
+                - generic [ref=e1454]:
+                  - generic [ref=e1456] [cursor=pointer]: Plissado
+                  - generic [ref=e1457]: (1)
+              - listitem [ref=e1458]:
+                - checkbox "Pêlo (2)"
+                - generic [ref=e1459]:
+                  - generic [ref=e1461] [cursor=pointer]: Pêlo
+                  - generic [ref=e1462]: (2)
+              - listitem [ref=e1463]:
+                - checkbox "Sarja (10)"
+                - generic [ref=e1464]:
+                  - generic [ref=e1466] [cursor=pointer]: Sarja
+                  - generic [ref=e1467]: (10)
+              - listitem [ref=e1468]:
+                - checkbox "Seda (5)"
+                - generic [ref=e1469]:
+                  - generic [ref=e1471] [cursor=pointer]: Seda
+                  - generic [ref=e1472]: (5)
+              - listitem [ref=e1473]:
+                - checkbox "Suede (9)"
+                - generic [ref=e1474]:
+                  - generic [ref=e1476] [cursor=pointer]: Suede
+                  - generic [ref=e1477]: (9)
+              - listitem [ref=e1478]:
+                - checkbox "Tela (1)"
+                - generic [ref=e1479]:
+                  - generic [ref=e1481] [cursor=pointer]: Tela
+                  - generic [ref=e1482]: (1)
+              - listitem [ref=e1483]:
+                - checkbox "Veludo (27)"
+                - generic [ref=e1484]:
+                  - generic [ref=e1486] [cursor=pointer]: Veludo
+                  - generic [ref=e1487]: (27)
+              - listitem [ref=e1488]:
+                - checkbox "Vinil (1)"
+                - generic [ref=e1489]:
+                  - generic [ref=e1491] [cursor=pointer]: Vinil
+                  - generic [ref=e1492]: (1)
+              - listitem [ref=e1493]:
+                - checkbox "Xadrez (1)"
+                - generic [ref=e1494]:
+                  - generic [ref=e1496] [cursor=pointer]: Xadrez
+                  - generic [ref=e1497]: (1)
+        - button "Filtrar" [ref=e1498] [cursor=pointer]
+        - link "Limpar Filtros" [ref=e1499] [cursor=pointer]:
+          - /url: moveis
+      - generic [ref=e1500]:
+        - generic [ref=e1501]:
+          - link "Home" [ref=e1503] [cursor=pointer]:
+            - /url: /
+          - generic [ref=e1504]: MÓVEIS
+        - generic [ref=e1505]:
+          - heading "MÓVEIS" [level=1] [ref=e1506]
+          - generic [ref=e1508]:
+            - generic:
+              - text: "Ordenar por: Classificar Por"
+              - 'combobox "Ordenar por: Classificar Por" [ref=e1509]':
+                - option "Nome do Produto"
+                - option "Menor Preço"
+                - option "Maior Preço"
+                - option "Mais Vendido"
+                - option "Destaque"
+                - option "Lançamento" [selected]
+            - text: "Ordenar por:"
+        - paragraph [ref=e1512]: O bom design é sustentável. Por isso, apostamos em garantir seu uso repetidas vezes.
+        - list [ref=e1515]:
+          - listitem [ref=e1516]:
+            - generic [ref=e1517]:
+              - link "Aparador em madeira demolição Aparador em madeira demolição LANÇAMENTO" [ref=e1519] [cursor=pointer]:
+                - /url: https://www.nomadehome.com.br/moveis/buffets-aparadores-e-rack-s/aparador-em-madeira-demolicao
+                - img "Aparador em madeira demolição" [ref=e1520]
+                - img "Aparador em madeira demolição" [ref=e1521]
+                - generic [ref=e1523]: LANÇAMENTO
+              - link "Aparador em madeira demolição R$ 2.500,00 ou 1x de R$ 2.500,00 PIX ou 5x de R$ 555,00 Cartão Visa" [ref=e1524] [cursor=pointer]:
+                - /url: https://www.nomadehome.com.br/moveis/buffets-aparadores-e-rack-s/aparador-em-madeira-demolicao
+                - generic [ref=e1525]: Aparador em madeira demolição
+                - generic [ref=e1527]:
+                  - generic [ref=e1530]: R$ 2.500,00
+                  - generic [ref=e1531]:
+                    - generic [ref=e1532]:
+                      - text: ou
+                      - strong [ref=e1534]: 1x
+                    - text: de
+                    - strong [ref=e1536]:
+                      - text: R$
+                      - generic [ref=e1538]:
+                        - text: "2.500"
+                        - generic [ref=e1539]: ",00"
+                    - text: PIX
+                    - generic [ref=e1542]:
+                      - text: ou
+                      - strong [ref=e1543]: 5x
+                    - text: de
+                    - strong [ref=e1545]:
+                      - text: R$
+                      - generic [ref=e1547]:
+                        - text: "555"
+                        - generic [ref=e1548]: ",00"
+                    - text: Cartão Visa
+              - button "Adicionar ao carrinho" [ref=e1552] [cursor=pointer]
+          - listitem [ref=e1553]:
+            - generic [ref=e1554]:
+              - link "Rack em madeira Rack em madeira LANÇAMENTO" [ref=e1556] [cursor=pointer]:
+                - /url: https://www.nomadehome.com.br/moveis/buffets-aparadores-e-rack-s/rack-em-madeira
+                - img "Rack em madeira" [ref=e1557]
+                - img "Rack em madeira" [ref=e1558]
+                - generic [ref=e1560]: LANÇAMENTO
+              - link "Rack em madeira R$ 6.000,00 ou 1x de R$ 6.000,00 PIX ou 10x de R$ 666,00 Cartão Visa" [ref=e1561] [cursor=pointer]:
+                - /url: https://www.nomadehome.com.br/moveis/buffets-aparadores-e-rack-s/rack-em-madeira
+                - generic [ref=e1562]: Rack em madeira
+                - generic [ref=e1564]:
+                  - generic [ref=e1567]: R$ 6.000,00
+                  - generic [ref=e1568]:
+                    - generic [ref=e1569]:
+                      - text: ou
+                      - strong [ref=e1571]: 1x
+                    - text: de
+                    - strong [ref=e1573]:
+                      - text: R$
+                      - generic [ref=e1575]:
+                        - text: "6.000"
+                        - generic [ref=e1576]: ",00"
+                    - text: PIX
+                    - generic [ref=e1579]:
+                      - text: ou
+                      - strong [ref=e1580]: 10x
+                    - text: de
+                    - strong [ref=e1582]:
+                      - text: R$
+                      - generic [ref=e1584]:
+                        - text: "666"
+                        - generic [ref=e1585]: ",00"
+                    - text: Cartão Visa
+              - button "Adicionar ao carrinho" [ref=e1589] [cursor=pointer]
+          - listitem [ref=e1590]:
+            - generic [ref=e1591]:
+              - link "Estante Circuit - Lider Estante Circuit - Lider LANÇAMENTO" [ref=e1593] [cursor=pointer]:
+                - /url: https://www.nomadehome.com.br/moveis/comodas-mesas-de-cabeceira-e-penteadeiras/estante-circut-lider
+                - img "Estante Circuit - Lider" [ref=e1594]
+                - img "Estante Circuit - Lider" [ref=e1595]
+                - generic [ref=e1597]: LANÇAMENTO
+              - link "Estante Circuit - Lider R$ 7.000,00 ou 1x de R$ 7.000,00 PIX ou 10x de R$ 777,00 Cartão Visa" [ref=e1598] [cursor=pointer]:
+                - /url: https://www.nomadehome.com.br/moveis/comodas-mesas-de-cabeceira-e-penteadeiras/estante-circut-lider
+                - generic [ref=e1599]: Estante Circuit - Lider
+                - generic [ref=e1601]:
+                  - generic [ref=e1604]: R$ 7.000,00
+                  - generic [ref=e1605]:
+                    - generic [ref=e1606]:
+                      - text: ou
+                      - strong [ref=e1608]: 1x
+                    - text: de
+                    - strong [ref=e1610]:
+                      - text: R$
+                      - generic [ref=e1612]:
+                        - text: "7.000"
+                        - generic [ref=e1613]: ",00"
+                    - text: PIX
+                    - generic [ref=e1616]:
+                      - text: ou
+                      - strong [ref=e1617]: 10x
+                    - text: de
+                    - strong [ref=e1619]:
+                      - text: R$
+                      - generic [ref=e1621]:
+                        - text: "777"
+                        - generic [ref=e1622]: ",00"
+                    - text: Cartão Visa
+              - button "Adicionar ao carrinho" [ref=e1626] [cursor=pointer]
+          - listitem [ref=e1627]:
+            - generic [ref=e1628]:
+              - link "Cristaleira Plumb Cristaleira Plumb LANÇAMENTO" [ref=e1630] [cursor=pointer]:
+                - /url: https://www.nomadehome.com.br/moveis/comodas-mesas-de-cabeceira-e-penteadeiras/cristaleira-plumb
+                - img "Cristaleira Plumb" [ref=e1631]
+                - img "Cristaleira Plumb" [ref=e1632]
+                - generic [ref=e1634]: LANÇAMENTO
+              - link "Cristaleira Plumb R$ 23.000,00 ou 1x de R$ 23.000,00 PIX ou 10x de R$ 2.553,00 Cartão Visa" [ref=e1635] [cursor=pointer]:
+                - /url: https://www.nomadehome.com.br/moveis/comodas-mesas-de-cabeceira-e-penteadeiras/cristaleira-plumb
+                - generic [ref=e1636]: Cristaleira Plumb
+                - generic [ref=e1638]:
+                  - generic [ref=e1641]: R$ 23.000,00
+                  - generic [ref=e1642]:
+                    - generic [ref=e1643]:
+                      - text: ou
+                      - strong [ref=e1645]: 1x
+                    - text: de
+                    - strong [ref=e1647]:
+                      - text: R$
+                      - generic [ref=e1649]:
+                        - text: "23.000"
+                        - generic [ref=e1650]: ",00"
+                    - text: PIX
+                    - generic [ref=e1653]:
+                      - text: ou
+                      - strong [ref=e1654]: 10x
+                    - text: de
+                    - strong [ref=e1656]:
+                      - text: R$
+                      - generic [ref=e1658]:
+                        - text: "2.553"
+                        - generic [ref=e1659]: ",00"
+                    - text: Cartão Visa
+              - button "Adicionar ao carrinho" [ref=e1663] [cursor=pointer]
+          - listitem [ref=e1664]:
+            - generic [ref=e1665]:
+              - link "Aparador Nature - Sierra Aparador Nature - Sierra LANÇAMENTO" [ref=e1667] [cursor=pointer]:
+                - /url: https://www.nomadehome.com.br/moveis/buffets-aparadores-e-rack-s/aparador-nature-sierra
+                - img "Aparador Nature - Sierra" [ref=e1668]
+                - img "Aparador Nature - Sierra" [ref=e1669]
+                - generic [ref=e1671]: LANÇAMENTO
+              - link "Aparador Nature - Sierra R$ 4.500,00 ou 1x de R$ 4.500,00 PIX ou 9x de R$ 555,00 Cartão Visa" [ref=e1672] [cursor=pointer]:
+                - /url: https://www.nomadehome.com.br/moveis/buffets-aparadores-e-rack-s/aparador-nature-sierra
+                - generic [ref=e1673]: Aparador Nature - Sierra
+                - generic [ref=e1675]:
+                  - generic [ref=e1678]: R$ 4.500,00
+                  - generic [ref=e1679]:
+                    - generic [ref=e1680]:
+                      - text: ou
+                      - strong [ref=e1682]: 1x
+                    - text: de
+                    - strong [ref=e1684]:
+                      - text: R$
+                      - generic [ref=e1686]:
+                        - text: "4.500"
+                        - generic [ref=e1687]: ",00"
+                    - text: PIX
+                    - generic [ref=e1690]:
+                      - text: ou
+                      - strong [ref=e1691]: 9x
+                    - text: de
+                    - strong [ref=e1693]:
+                      - text: R$
+                      - generic [ref=e1695]:
+                        - text: "555"
+                        - generic [ref=e1696]: ",00"
+                    - text: Cartão Visa
+              - button "Adicionar ao carrinho" [ref=e1700] [cursor=pointer]
+          - listitem [ref=e1701]:
+            - generic [ref=e1702]:
+              - link "Mesa de centro Pandia - Artefacto Mesa de centro Pandia - Artefacto LANÇAMENTO" [ref=e1704] [cursor=pointer]:
+                - /url: https://www.nomadehome.com.br/moveis/mesas-de-centro/mesa-de-centro-pandia-artefacto
+                - img "Mesa de centro Pandia - Artefacto" [ref=e1705]
+                - img "Mesa de centro Pandia - Artefacto" [ref=e1706]
+                - generic [ref=e1708]: LANÇAMENTO
+              - link "Mesa de centro Pandia - Artefacto R$ 2.500,00 ou 1x de R$ 2.500,00 PIX ou 5x de R$ 555,00 Cartão Visa" [ref=e1709] [cursor=pointer]:
+                - /url: https://www.nomadehome.com.br/moveis/mesas-de-centro/mesa-de-centro-pandia-artefacto
+                - generic [ref=e1710]: Mesa de centro Pandia - Artefacto
+                - generic [ref=e1712]:
+                  - generic [ref=e1715]: R$ 2.500,00
+                  - generic [ref=e1716]:
+                    - generic [ref=e1717]:
+                      - text: ou
+                      - strong [ref=e1719]: 1x
+                    - text: de
+                    - strong [ref=e1721]:
+                      - text: R$
+                      - generic [ref=e1723]:
+                        - text: "2.500"
+                        - generic [ref=e1724]: ",00"
+                    - text: PIX
+                    - generic [ref=e1727]:
+                      - text: ou
+                      - strong [ref=e1728]: 5x
+                    - text: de
+                    - strong [ref=e1730]:
+                      - text: R$
+                      - generic [ref=e1732]:
+                        - text: "555"
+                        - generic [ref=e1733]: ",00"
+                    - text: Cartão Visa
+              - button "Adicionar ao carrinho" [ref=e1737] [cursor=pointer]
+          - listitem [ref=e1738]:
+            - generic [ref=e1739]:
+              - link "Mesa de centro Yego - Artefacto Mesa de centro Yego - Artefacto LANÇAMENTO" [ref=e1741] [cursor=pointer]:
+                - /url: https://www.nomadehome.com.br/moveis/mesas-de-centro/mesa-de-centro-yego-artefacto
+                - img "Mesa de centro Yego - Artefacto" [ref=e1742]
+                - img "Mesa de centro Yego - Artefacto" [ref=e1743]
+                - generic [ref=e1745]: LANÇAMENTO
+              - link "Mesa de centro Yego - Artefacto R$ 5.100,00 ou 1x de R$ 5.100,00 PIX ou 10x de R$ 566,10 Cartão Visa" [ref=e1746] [cursor=pointer]:
+                - /url: https://www.nomadehome.com.br/moveis/mesas-de-centro/mesa-de-centro-yego-artefacto
+                - generic [ref=e1747]: Mesa de centro Yego - Artefacto
+                - generic [ref=e1749]:
+                  - generic [ref=e1752]: R$ 5.100,00
+                  - generic [ref=e1753]:
+                    - generic [ref=e1754]:
+                      - text: ou
+                      - strong [ref=e1756]: 1x
+                    - text: de
+                    - strong [ref=e1758]:
+                      - text: R$
+                      - generic [ref=e1760]:
+                        - text: "5.100"
+                        - generic [ref=e1761]: ",00"
+                    - text: PIX
+                    - generic [ref=e1764]:
+                      - text: ou
+                      - strong [ref=e1765]: 10x
+                    - text: de
+                    - strong [ref=e1767]:
+                      - text: R$
+                      - generic [ref=e1769]:
+                        - text: "566"
+                        - generic [ref=e1770]: ",10"
+                    - text: Cartão Visa
+              - button "Adicionar ao carrinho" [ref=e1774] [cursor=pointer]
+          - listitem [ref=e1775]:
+            - generic [ref=e1776]:
+              - link "Puff Bouvrie Botone em couro - Artefacto Puff Bouvrie Botone em couro - Artefacto LANÇAMENTO" [ref=e1778] [cursor=pointer]:
+                - /url: https://www.nomadehome.com.br/moveis/banqueta/puff-bouvrie-botone-em-couro-artefacto
+                - img "Puff Bouvrie Botone em couro - Artefacto" [ref=e1779]
+                - img "Puff Bouvrie Botone em couro - Artefacto" [ref=e1780]
+                - generic [ref=e1782]: LANÇAMENTO
+              - link "Puff Bouvrie Botone em couro - Artefacto R$ 3.100,00 ou 1x de R$ 3.100,00 PIX ou 6x de R$ 573,50 Cartão Visa" [ref=e1783] [cursor=pointer]:
+                - /url: https://www.nomadehome.com.br/moveis/banqueta/puff-bouvrie-botone-em-couro-artefacto
+                - generic [ref=e1784]: Puff Bouvrie Botone em couro - Artefacto
+                - generic [ref=e1786]:
+                  - generic [ref=e1789]: R$ 3.100,00
+                  - generic [ref=e1790]:
+                    - generic [ref=e1791]:
+                      - text: ou
+                      - strong [ref=e1793]: 1x
+                    - text: de
+                    - strong [ref=e1795]:
+                      - text: R$
+                      - generic [ref=e1797]:
+                        - text: "3.100"
+                        - generic [ref=e1798]: ",00"
+                    - text: PIX
+                    - generic [ref=e1801]:
+                      - text: ou
+                      - strong [ref=e1802]: 6x
+                    - text: de
+                    - strong [ref=e1804]:
+                      - text: R$
+                      - generic [ref=e1806]:
+                        - text: "573"
+                        - generic [ref=e1807]: ",50"
+                    - text: Cartão Visa
+              - button "Adicionar ao carrinho" [ref=e1811] [cursor=pointer]
+          - listitem [ref=e1812]:
+            - generic [ref=e1813]:
+              - link "Poltrona Bouvrie Botone em couro - Artefacto Poltrona Bouvrie Botone em couro - Artefacto LANÇAMENTO" [ref=e1815] [cursor=pointer]:
+                - /url: https://www.nomadehome.com.br/moveis/poltrona/poltrona-bouvrie-botone-em-couro-artefacto
+                - img "Poltrona Bouvrie Botone em couro - Artefacto" [ref=e1816]
+                - img "Poltrona Bouvrie Botone em couro - Artefacto" [ref=e1817]
+                - generic [ref=e1819]: LANÇAMENTO
+              - link "Poltrona Bouvrie Botone em couro - Artefacto R$ 9.050,00 ou 1x de R$ 9.050,00 PIX ou 10x de R$ 1.004,55 Cartão Visa" [ref=e1820] [cursor=pointer]:
+                - /url: https://www.nomadehome.com.br/moveis/poltrona/poltrona-bouvrie-botone-em-couro-artefacto
+                - generic [ref=e1821]: Poltrona Bouvrie Botone em couro - Artefacto
+                - generic [ref=e1823]:
+                  - generic [ref=e1826]: R$ 9.050,00
+                  - generic [ref=e1827]:
+                    - generic [ref=e1828]:
+                      - text: ou
+                      - strong [ref=e1830]: 1x
+                    - text: de
+                    - strong [ref=e1832]:
+                      - text: R$
+                      - generic [ref=e1834]:
+                        - text: "9.050"
+                        - generic [ref=e1835]: ",00"
+                    - text: PIX
+                    - generic [ref=e1838]:
+                      - text: ou
+                      - strong [ref=e1839]: 10x
+                    - text: de
+                    - strong [ref=e1841]:
+                      - text: R$
+                      - generic [ref=e1843]:
+                        - text: "1.004"
+                        - generic [ref=e1844]: ",55"
+                    - text: Cartão Visa
+              - button "Adicionar ao carrinho" [ref=e1848] [cursor=pointer]
+          - listitem [ref=e1849]:
+            - generic [ref=e1850]:
+              - link "Mesa tronco Mesa tronco LANÇAMENTO" [ref=e1852] [cursor=pointer]:
+                - /url: https://www.nomadehome.com.br/moveis/mesas-de-jantar/mesa-tronco
+                - img "Mesa tronco" [ref=e1853]
+                - img "Mesa tronco" [ref=e1854]
+                - generic [ref=e1856]: LANÇAMENTO
+              - link "Mesa tronco R$ 4.000,00 ou 1x de R$ 4.000,00 PIX ou 8x de R$ 555,00 Cartão Visa" [ref=e1857] [cursor=pointer]:
+                - /url: https://www.nomadehome.com.br/moveis/mesas-de-jantar/mesa-tronco
+                - generic [ref=e1858]: Mesa tronco
+                - generic [ref=e1860]:
+                  - generic [ref=e1863]: R$ 4.000,00
+                  - generic [ref=e1864]:
+                    - generic [ref=e1865]:
+                      - text: ou
+                      - strong [ref=e1867]: 1x
+                    - text: de
+                    - strong [ref=e1869]:
+                      - text: R$
+                      - generic [ref=e1871]:
+                        - text: "4.000"
+                        - generic [ref=e1872]: ",00"
+                    - text: PIX
+                    - generic [ref=e1875]:
+                      - text: ou
+                      - strong [ref=e1876]: 8x
+                    - text: de
+                    - strong [ref=e1878]:
+                      - text: R$
+                      - generic [ref=e1880]:
+                        - text: "555"
+                        - generic [ref=e1881]: ",00"
+                    - text: Cartão Visa
+              - button "Adicionar ao carrinho" [ref=e1885] [cursor=pointer]
+          - listitem [ref=e1886]:
+            - generic [ref=e1887]:
+              - link "Coluna de jantar Catalan - Artefacto Coluna de jantar Catalan - Artefacto LANÇAMENTO" [ref=e1889] [cursor=pointer]:
+                - /url: https://www.nomadehome.com.br/moveis/mesas-de-jantar/coluna-de-jantar-catalan-artefacto
+                - img "Coluna de jantar Catalan - Artefacto" [ref=e1890]
+                - img "Coluna de jantar Catalan - Artefacto" [ref=e1891]
+                - generic [ref=e1893]: LANÇAMENTO
+              - link "Coluna de jantar Catalan - Artefacto R$ 6.900,00 ou 1x de R$ 6.900,00 PIX ou 10x de R$ 765,90 Cartão Visa" [ref=e1894] [cursor=pointer]:
+                - /url: https://www.nomadehome.com.br/moveis/mesas-de-jantar/coluna-de-jantar-catalan-artefacto
+                - generic [ref=e1895]: Coluna de jantar Catalan - Artefacto
+                - generic [ref=e1897]:
+                  - generic [ref=e1900]: R$ 6.900,00
+                  - generic [ref=e1901]:
+                    - generic [ref=e1902]:
+                      - text: ou
+                      - strong [ref=e1904]: 1x
+                    - text: de
+                    - strong [ref=e1906]:
+                      - text: R$
+                      - generic [ref=e1908]:
+                        - text: "6.900"
+                        - generic [ref=e1909]: ",00"
+                    - text: PIX
+                    - generic [ref=e1912]:
+                      - text: ou
+                      - strong [ref=e1913]: 10x
+                    - text: de
+                    - strong [ref=e1915]:
+                      - text: R$
+                      - generic [ref=e1917]:
+                        - text: "765"
+                        - generic [ref=e1918]: ",90"
+                    - text: Cartão Visa
+              - button "Adicionar ao carrinho" [ref=e1922] [cursor=pointer]
+          - listitem [ref=e1923]:
+            - generic [ref=e1924]:
+              - link "Sofá Madrid 4 lugares com capa - Artefacto Sofá Madrid 4 lugares com capa - Artefacto LANÇAMENTO" [ref=e1926] [cursor=pointer]:
+                - /url: https://www.nomadehome.com.br/moveis/sofa/sofa-madrid-4-lugares-com-capa-artefacto
+                - img "Sofá Madrid 4 lugares com capa - Artefacto" [ref=e1927]
+                - img "Sofá Madrid 4 lugares com capa - Artefacto" [ref=e1928]
+                - generic [ref=e1930]: LANÇAMENTO
+              - link "Sofá Madrid 4 lugares com capa - Artefacto R$ 11.900,00 ou 1x de R$ 11.900,00 PIX ou 10x de R$ 1.320,90 Cartão Visa" [ref=e1931] [cursor=pointer]:
+                - /url: https://www.nomadehome.com.br/moveis/sofa/sofa-madrid-4-lugares-com-capa-artefacto
+                - generic [ref=e1932]: Sofá Madrid 4 lugares com capa - Artefacto
+                - generic [ref=e1934]:
+                  - generic [ref=e1937]: R$ 11.900,00
+                  - generic [ref=e1938]:
+                    - generic [ref=e1939]:
+                      - text: ou
+                      - strong [ref=e1941]: 1x
+                    - text: de
+                    - strong [ref=e1943]:
+                      - text: R$
+                      - generic [ref=e1945]:
+                        - text: "11.900"
+                        - generic [ref=e1946]: ",00"
+                    - text: PIX
+                    - generic [ref=e1949]:
+                      - text: ou
+                      - strong [ref=e1950]: 10x
+                    - text: de
+                    - strong [ref=e1952]:
+                      - text: R$
+                      - generic [ref=e1954]:
+                        - text: "1.320"
+                        - generic [ref=e1955]: ",90"
+                    - text: Cartão Visa
+              - button "Adicionar ao carrinho" [ref=e1959] [cursor=pointer]
+          - listitem [ref=e1960]:
+            - generic [ref=e1961]:
+              - link "Sofá Madrid 3 lugares com capa - Artefacto Sofá Madrid 3 lugares com capa - Artefacto LANÇAMENTO" [ref=e1963] [cursor=pointer]:
+                - /url: https://www.nomadehome.com.br/moveis/sofa/sofa-madrid-3-lugares-com-capa-artefacto
+                - img "Sofá Madrid 3 lugares com capa - Artefacto" [ref=e1964]
+                - img "Sofá Madrid 3 lugares com capa - Artefacto" [ref=e1965]
+                - generic [ref=e1967]: LANÇAMENTO
+              - link "Sofá Madrid 3 lugares com capa - Artefacto R$ 8.400,00 ou 1x de R$ 8.400,00 PIX ou 10x de R$ 932,40 Cartão Visa" [ref=e1968] [cursor=pointer]:
+                - /url: https://www.nomadehome.com.br/moveis/sofa/sofa-madrid-3-lugares-com-capa-artefacto
+                - generic [ref=e1969]: Sofá Madrid 3 lugares com capa - Artefacto
+                - generic [ref=e1971]:
+                  - generic [ref=e1974]: R$ 8.400,00
+                  - generic [ref=e1975]:
+                    - generic [ref=e1976]:
+                      - text: ou
+                      - strong [ref=e1978]: 1x
+                    - text: de
+                    - strong [ref=e1980]:
+                      - text: R$
+                      - generic [ref=e1982]:
+                        - text: "8.400"
+                        - generic [ref=e1983]: ",00"
+                    - text: PIX
+                    - generic [ref=e1986]:
+                      - text: ou
+                      - strong [ref=e1987]: 10x
+                    - text: de
+                    - strong [ref=e1989]:
+                      - text: R$
+                      - generic [ref=e1991]:
+                        - text: "932"
+                        - generic [ref=e1992]: ",40"
+                    - text: Cartão Visa
+              - button "Adicionar ao carrinho" [ref=e1996] [cursor=pointer]
+          - listitem [ref=e1997]:
+            - generic [ref=e1998]:
+              - link "Poltrona Basile em couro - Artefacto Poltrona Basile em couro - Artefacto LANÇAMENTO" [ref=e2000] [cursor=pointer]:
+                - /url: https://www.nomadehome.com.br/moveis/poltrona/poltrona-basile-em-couro-artefacto
+                - img "Poltrona Basile em couro - Artefacto" [ref=e2001]
+                - img "Poltrona Basile em couro - Artefacto" [ref=e2002]
+                - generic [ref=e2004]: LANÇAMENTO
+              - link "Poltrona Basile em couro - Artefacto R$ 12.850,00 ou 1x de R$ 12.850,00 PIX ou 10x de R$ 1.426,35 Cartão Visa" [ref=e2005] [cursor=pointer]:
+                - /url: https://www.nomadehome.com.br/moveis/poltrona/poltrona-basile-em-couro-artefacto
+                - generic [ref=e2006]: Poltrona Basile em couro - Artefacto
+                - generic [ref=e2008]:
+                  - generic [ref=e2011]: R$ 12.850,00
+                  - generic [ref=e2012]:
+                    - generic [ref=e2013]:
+                      - text: ou
+                      - strong [ref=e2015]: 1x
+                    - text: de
+                    - strong [ref=e2017]:
+                      - text: R$
+                      - generic [ref=e2019]:
+                        - text: "12.850"
+                        - generic [ref=e2020]: ",00"
+                    - text: PIX
+                    - generic [ref=e2023]:
+                      - text: ou
+                      - strong [ref=e2024]: 10x
+                    - text: de
+                    - strong [ref=e2026]:
+                      - text: R$
+                      - generic [ref=e2028]:
+                        - text: "1.426"
+                        - generic [ref=e2029]: ",35"
+                    - text: Cartão Visa
+              - button "Adicionar ao carrinho" [ref=e2033] [cursor=pointer]
+          - listitem [ref=e2034]:
+            - generic [ref=e2035]:
+              - link "Poltrona Wally giratória - Natuzzi Poltrona Wally giratória - Natuzzi LANÇAMENTO" [ref=e2037] [cursor=pointer]:
+                - /url: https://www.nomadehome.com.br/moveis/poltrona/poltrona-wally-giratoria-natuzzi
+                - img "Poltrona Wally giratória - Natuzzi" [ref=e2038]
+                - img "Poltrona Wally giratória - Natuzzi" [ref=e2039]
+                - generic [ref=e2041]: LANÇAMENTO
+              - link "Poltrona Wally giratória - Natuzzi R$ 10.000,00 ou 1x de R$ 10.000,00 PIX ou 10x de R$ 1.110,00 Cartão Visa" [ref=e2042] [cursor=pointer]:
+                - /url: https://www.nomadehome.com.br/moveis/poltrona/poltrona-wally-giratoria-natuzzi
+                - generic [ref=e2043]: Poltrona Wally giratória - Natuzzi
+                - generic [ref=e2045]:
+                  - generic [ref=e2048]: R$ 10.000,00
+                  - generic [ref=e2049]:
+                    - generic [ref=e2050]:
+                      - text: ou
+                      - strong [ref=e2052]: 1x
+                    - text: de
+                    - strong [ref=e2054]:
+                      - text: R$
+                      - generic [ref=e2056]:
+                        - text: "10.000"
+                        - generic [ref=e2057]: ",00"
+                    - text: PIX
+                    - generic [ref=e2060]:
+                      - text: ou
+                      - strong [ref=e2061]: 10x
+                    - text: de
+                    - strong [ref=e2063]:
+                      - text: R$
+                      - generic [ref=e2065]:
+                        - text: "1.110"
+                        - generic [ref=e2066]: ",00"
+                    - text: Cartão Visa
+              - button "Adicionar ao carrinho" [ref=e2070] [cursor=pointer]
+        - generic [ref=e2073]:
+          - generic [ref=e2074]: "1"
+          - link "2" [ref=e2076] [cursor=pointer]:
+            - /url: https://www.nomadehome.com.br/moveis?pg=2
+          - link "3" [ref=e2078] [cursor=pointer]:
+            - /url: https://www.nomadehome.com.br/moveis?pg=3
+          - link "4" [ref=e2080] [cursor=pointer]:
+            - /url: https://www.nomadehome.com.br/moveis?pg=4
+          - link "Próxima página" [ref=e2082] [cursor=pointer]:
+            - /url: https://www.nomadehome.com.br/moveis?pg=2
+  - contentinfo [ref=e2083]:
+    - generic [ref=e2084]:
+      - generic [ref=e2085]:
+        - generic [ref=e2086]:
+          - img [ref=e2088]
+          - generic [ref=e2099]:
+            - generic [ref=e2100]: ENTRE NA NOSSA CASA
+            - generic [ref=e2101]: Inscreva-se e receba nossas novidades e promoções
+        - generic [ref=e2102]:
+          - generic [ref=e2103]: Digite o seu e-mail
+          - textbox "Digite o seu e-mail" [ref=e2104]
+          - button "INSCREVER-SE" [ref=e2105] [cursor=pointer]
+      - generic [ref=e2106]:
+        - link [ref=e2108] [cursor=pointer]:
+          - /url: https://www.nomadehome.com.br
+        - generic [ref=e2109]:
+          - generic [ref=e2110]: Institucional
+          - list [ref=e2112]:
+            - listitem [ref=e2113]:
+              - link "Notícias" [ref=e2114] [cursor=pointer]:
+                - /url: /loja/busca_noticias.php
+            - listitem [ref=e2115]:
+              - link "Sobre nós" [ref=e2116] [cursor=pointer]:
+                - /url: /sobre-nos
+            - listitem [ref=e2117]:
+              - link "Quero vender" [ref=e2118] [cursor=pointer]:
+                - /url: /quero-vender
+            - listitem [ref=e2119]:
+              - link "Segurança" [ref=e2120] [cursor=pointer]:
+                - /url: /seguranca
+            - listitem [ref=e2121]:
+              - link "Política de envio" [ref=e2122] [cursor=pointer]:
+                - /url: /politica-de-envio
+            - listitem [ref=e2123]:
+              - link "Formas de pagamento" [ref=e2124] [cursor=pointer]:
+                - /url: /formas-de-pagamento
+            - listitem [ref=e2125]:
+              - link "Trocas e devoluções" [ref=e2126] [cursor=pointer]:
+                - /url: /trocas-e-devolucoes-
+            - listitem [ref=e2127]:
+              - link "Politica de privacidade" [ref=e2128] [cursor=pointer]:
+                - /url: /politica-de-privacidade
+            - listitem [ref=e2129]:
+              - link "Termos de uso" [ref=e2130] [cursor=pointer]:
+                - /url: /termos-de-uso
+            - listitem [ref=e2131]:
+              - link "Dúvidas frequentes" [ref=e2132] [cursor=pointer]:
+                - /url: /duvidas-frequentes
+            - listitem [ref=e2133]:
+              - link "Cupons de desconto" [ref=e2134] [cursor=pointer]:
+                - /url: /cupons-de-desconto
+            - listitem [ref=e2135]:
+              - link "Contato" [ref=e2136] [cursor=pointer]:
+                - /url: /contato
+        - generic [ref=e2137]:
+          - generic [ref=e2138]: Atendimento
+          - generic [ref=e2139]:
+            - generic [ref=e2140]:
+              - img [ref=e2142]
+              - generic [ref=e2146]:
+                - link "41 99892-4807" [ref=e2148] [cursor=pointer]:
+                  - /url: tel:41998924807
+                - generic:
+                  - link:
+                    - /url: "tel:"
+            - link "41 98471-9346" [ref=e2149] [cursor=pointer]:
+              - /url: https://api.whatsapp.com/send?l=pt&phone=5541984719346&text=Poderia%20me%20ajudar?
+              - img [ref=e2151]
+              - generic [ref=e2153]: 41 98471-9346
+            - generic [ref=e2154]:
+              - img [ref=e2156]
+              - link "atendimento@nomadehome.com.br" [ref=e2162] [cursor=pointer]:
+                - /url: mailto:atendimento@nomadehome.com.br
+            - generic [ref=e2165]: Seg. a Sex 9h as 18h
+        - generic [ref=e2166]:
+          - generic [ref=e2167]: Formas de pagamento
+          - list [ref=e2168]:
+            - listitem [ref=e2169]:
+              - img "Cartão Visa" [ref=e2170]
+            - listitem [ref=e2171]:
+              - img "Cartão Master" [ref=e2172]
+            - listitem [ref=e2173]:
+              - img "Cartão Amex" [ref=e2174]
+            - listitem [ref=e2175]:
+              - img "Cartão Diners" [ref=e2176]
+            - listitem [ref=e2177]:
+              - img "Cartão Elo" [ref=e2178]
+            - listitem [ref=e2179]:
+              - img "Cartão Discover" [ref=e2180]
+            - listitem [ref=e2181]:
+              - img "Cartão Aura" [ref=e2182]
+            - listitem [ref=e2183]:
+              - img "Cartão MasterCard Maestro" [ref=e2184]
+            - listitem [ref=e2185]:
+              - img "Depósito Bancário" [ref=e2186]
+            - listitem [ref=e2187]:
+              - img "PIX" [ref=e2188]
+            - listitem [ref=e2189]:
+              - img "Pix - Pagar.me" [ref=e2190]
+            - listitem [ref=e2191]:
+              - img "Boleto - Pagar.me" [ref=e2192]
+        - generic [ref=e2193]:
+          - generic [ref=e2194]: Compre com Segurança
+          - list [ref=e2195]:
+            - listitem [ref=e2196]:
+              - link "Loja Protegida" [ref=e2198] [cursor=pointer]:
+                - /url: https://www.lojaprotegida.com.br/1208016
+                - img "Loja Protegida" [ref=e2199]
+            - listitem [ref=e2200]:
+              - link [ref=e2201] [cursor=pointer]:
+                - /url: https://transparencyreport.google.com/safe-browsing/search?url=https://www.nomadehome.com.br
+                - img [ref=e2202]
+      - generic [ref=e2207]:
+        - link "Facebook" [ref=e2208] [cursor=pointer]:
+          - /url: https://facebook.com/nomadehomedecor
+          - img [ref=e2210]
+        - link "Instagram" [ref=e2212] [cursor=pointer]:
+          - /url: https://instagram.com/nomadehome
+          - img [ref=e2214]
+        - link "Pinterest" [ref=e2218] [cursor=pointer]:
+          - /url: https://br.pinterest.com/nomadehomebr/
+          - img [ref=e2220]
+        - link "Youtube" [ref=e2222] [cursor=pointer]:
+          - /url: https://www.youtube.com/https://www.youtube.com/@nomadehome
+          - img [ref=e2224]
+      - generic [ref=e2226]:
+        - generic [ref=e2227]: "CNPJ: 54.936.365/0001-51"
+        - generic [ref=e2229]:
+          - text: Tecnologia
+          - link "Tray" [ref=e2230] [cursor=pointer]:
+            - /url: http://www.tray.com.br/?utm_source=rodape&utm_medium=lojas&utm_campaign=1208016&utm_term=Varejo
+  - link [ref=e2232] [cursor=pointer]:
+    - /url: https://api.whatsapp.com/send?l=pt&phone=5541984719346
+    - img [ref=e2233]

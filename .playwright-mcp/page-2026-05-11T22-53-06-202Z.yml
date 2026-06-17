@@ -1,0 +1,298 @@
+- generic [ref=e11]:
+  - generic [ref=e13]:
+    - link "Instagram" [ref=e16] [cursor=pointer]:
+      - /url: /
+      - img "Instagram" [ref=e19]
+    - generic [ref=e24]:
+      - link "Entrar" [ref=e26] [cursor=pointer]:
+        - /url: /accounts/login/?next=%2Fp%2FDXkjh3-Dhg0%2F&source=desktop_nav
+      - link "Cadastre-se" [ref=e28] [cursor=pointer]:
+        - /url: /accounts/emailsignup/
+  - main [ref=e29]:
+    - dialog [ref=e34]:
+      - generic [ref=e35]:
+        - button "Fechar" [ref=e37] [cursor=pointer]:
+          - img "Fechar" [ref=e39]
+        - generic [ref=e43]:
+          - generic [ref=e44]:
+            - link "Foto do perfil de michelhilg" [ref=e46] [cursor=pointer]:
+              - img "Foto do perfil de michelhilg" [ref=e47]
+            - generic [ref=e49]:
+              - generic [ref=e50]: Não perca nenhum post de michelhilg
+              - generic [ref=e52]: Cadastre-se no Instagram para ficar por dentro das novidades.
+              - generic [ref=e54]:
+                - text: Ao continuar, você concorda com os
+                - link "Termos de Uso" [ref=e55] [cursor=pointer]:
+                  - /url: https://help.instagram.com/581066165581870/?locale=pt_BR
+                - text: e a
+                - link "Política de Privacidade" [ref=e56] [cursor=pointer]:
+                  - /url: https://privacycenter.instagram.com/policy/
+                - text: do Instagram.
+          - generic [ref=e57]:
+            - link "Cadastre-se" [ref=e60] [cursor=pointer]:
+              - /url: /accounts/emailsignup/
+            - link "Entrar" [ref=e63] [cursor=pointer]:
+              - /url: /accounts/login/?source=desktop_dynamic_landing_dialog
+    - generic [ref=e64]:
+      - generic [ref=e66]:
+        - img [ref=e76]
+        - generic [ref=e79]:
+          - generic [ref=e81]:
+            - button "Foto do perfil de michelhilg" [disabled] [ref=e83]:
+              - link "Foto do perfil de michelhilg" [disabled] [ref=e85] [cursor=pointer]:
+                - img "Foto do perfil de michelhilg" [ref=e86]
+            - generic [ref=e88]:
+              - generic [ref=e89]:
+                - link "michelhilg" [ref=e93] [cursor=pointer]:
+                  - /url: /michelhilg/
+                  - generic [ref=e96]: michelhilg
+                - generic [ref=e97]:
+                  - generic [ref=e99]: •
+                  - button "Seguir" [ref=e100] [cursor=pointer]
+              - link "Áudio original" [ref=e104] [cursor=pointer]:
+                - /url: /reels/audio/26726088297081086/
+                - generic [ref=e107]: Áudio original
+            - button "Mais opções" [ref=e110] [cursor=pointer]:
+              - img "Mais opções" [ref=e113]
+          - separator [ref=e117]
+          - generic [ref=e119]:
+            - generic [ref=e121]:
+              - link "Foto do perfil de michelhilg" [ref=e123] [cursor=pointer]:
+                - /url: /michelhilg/
+                - img "Foto do perfil de michelhilg" [ref=e124]
+              - generic [ref=e128]:
+                - generic [ref=e129]:
+                  - link "michelhilg" [ref=e130] [cursor=pointer]:
+                    - /url: /michelhilg/
+                    - generic [ref=e133]: michelhilg
+                  - time [ref=e135]: 2 sem
+                - generic [ref=e136]:
+                  - text: Criei uma landing page combinando Claude com Google Antigravity para o meu novo grupo GRATUITO de IA na PRÁTICA.
+                  - text: Clica no link da bio e VEM fazer parte!
+            - button "Carregar mais comentários" [ref=e138] [cursor=pointer]:
+              - img "Carregar mais comentários" [ref=e140]
+            - generic [ref=e142]:
+              - generic [ref=e145]:
+                - link "Foto do perfil de virthus.company" [ref=e148] [cursor=pointer]:
+                  - /url: /virthus.company/
+                  - img "Foto do perfil de virthus.company" [ref=e149]
+                - generic [ref=e151]:
+                  - generic [ref=e153]:
+                    - generic [ref=e154]:
+                      - link "virthus.company" [ref=e156] [cursor=pointer]:
+                        - /url: /virthus.company/
+                        - generic [ref=e159]: virthus.company
+                      - link "6 d" [ref=e161] [cursor=pointer]:
+                        - /url: /p/DXkjh3-Dhg0/c/17965160700104323/
+                        - time [ref=e162]: 6 d
+                    - generic [ref=e164]: Pq não usou o lovable logo?
+                  - generic [ref=e165]:
+                    - button "Curtir" [ref=e166] [cursor=pointer]:
+                      - generic [ref=e167]: Curtir
+                    - button "Responder" [ref=e168] [cursor=pointer]:
+                      - generic [ref=e170]: Responder
+              - generic [ref=e173]:
+                - link "Foto do perfil de 3reisj" [ref=e176] [cursor=pointer]:
+                  - /url: /3reisj/
+                  - img "Foto do perfil de 3reisj" [ref=e177]
+                - generic [ref=e179]:
+                  - generic [ref=e181]:
+                    - generic [ref=e182]:
+                      - link "3reisj" [ref=e184] [cursor=pointer]:
+                        - /url: /3reisj/
+                        - generic [ref=e187]: 3reisj
+                      - link "1 sem" [ref=e189] [cursor=pointer]:
+                        - /url: /p/DXkjh3-Dhg0/c/18105742822911418/
+                        - time [ref=e190]: 1 sem
+                    - generic [ref=e192]: Quero entrar no grupo de whats
+                  - generic [ref=e193]:
+                    - button "1 curtida" [ref=e194] [cursor=pointer]:
+                      - generic [ref=e196]: 1 curtida
+                    - button "Responder" [ref=e197] [cursor=pointer]:
+                      - generic [ref=e199]: Responder
+              - generic [ref=e202]:
+                - link "Foto do perfil de sajiburdesign" [ref=e205] [cursor=pointer]:
+                  - /url: /sajiburdesign/
+                  - img "Foto do perfil de sajiburdesign" [ref=e206]
+                - generic [ref=e208]:
+                  - generic [ref=e210]:
+                    - generic [ref=e211]:
+                      - link "sajiburdesign" [ref=e213] [cursor=pointer]:
+                        - /url: /sajiburdesign/
+                        - generic [ref=e216]: sajiburdesign
+                      - link "1 sem" [ref=e218] [cursor=pointer]:
+                        - /url: /p/DXkjh3-Dhg0/c/17997613634923654/
+                        - time [ref=e219]: 1 sem
+                    - generic [ref=e221]: Awesome Work
+                  - generic [ref=e222]:
+                    - button "1 curtida" [ref=e223] [cursor=pointer]:
+                      - generic [ref=e225]: 1 curtida
+                    - button "Responder" [ref=e226] [cursor=pointer]:
+                      - generic [ref=e228]: Responder
+              - generic [ref=e231]:
+                - link "Foto do perfil de sarahrb16" [ref=e234] [cursor=pointer]:
+                  - /url: /sarahrb16/
+                  - img "Foto do perfil de sarahrb16" [ref=e235]
+                - generic [ref=e237]:
+                  - generic [ref=e239]:
+                    - generic [ref=e240]:
+                      - link "sarahrb16" [ref=e242] [cursor=pointer]:
+                        - /url: /sarahrb16/
+                        - generic [ref=e245]: sarahrb16
+                      - link "2 sem" [ref=e247] [cursor=pointer]:
+                        - /url: /p/DXkjh3-Dhg0/c/18049478720745150/
+                        - time [ref=e248]: 2 sem
+                    - generic [ref=e250]: Vou entrar no grupo
+                  - generic [ref=e251]:
+                    - button "1 curtida" [ref=e252] [cursor=pointer]:
+                      - generic [ref=e254]: 1 curtida
+                    - button "Responder" [ref=e255] [cursor=pointer]:
+                      - generic [ref=e257]: Responder
+              - generic [ref=e260]:
+                - link "Foto do perfil de sarahrb16" [ref=e263] [cursor=pointer]:
+                  - /url: /sarahrb16/
+                  - img "Foto do perfil de sarahrb16" [ref=e264]
+                - generic [ref=e266]:
+                  - generic [ref=e268]:
+                    - generic [ref=e269]:
+                      - link "sarahrb16" [ref=e271] [cursor=pointer]:
+                        - /url: /sarahrb16/
+                        - generic [ref=e274]: sarahrb16
+                      - link "2 sem" [ref=e276] [cursor=pointer]:
+                        - /url: /p/DXkjh3-Dhg0/c/17897192766440327/
+                        - time [ref=e277]: 2 sem
+                    - generic [ref=e279]: Ficou linda demais
+                  - generic [ref=e280]:
+                    - button "1 curtida" [ref=e281] [cursor=pointer]:
+                      - generic [ref=e283]: 1 curtida
+                    - button "Responder" [ref=e284] [cursor=pointer]:
+                      - generic [ref=e286]: Responder
+          - generic [ref=e287]:
+            - generic [ref=e288]:
+              - generic [ref=e289]:
+                - button "Curtir" [ref=e292] [cursor=pointer]:
+                  - img "Curtir" [ref=e295]
+                - button "251" [ref=e297] [cursor=pointer]
+                - button "Comentar" [ref=e299] [cursor=pointer]:
+                  - img "Comentar" [ref=e301]
+                - button "6" [ref=e303] [cursor=pointer]
+                - button "Compartilhar" [ref=e304] [cursor=pointer]:
+                  - img "Compartilhar" [ref=e305]
+              - button "Salvar" [ref=e309] [cursor=pointer]:
+                - img "Salvar" [ref=e311]
+            - link "25 de abril" [ref=e315] [cursor=pointer]:
+              - /url: /michelhilg/reel/DXkjh3-Dhg0/
+              - time [ref=e317]: 25 de abril
+          - generic [ref=e322]:
+            - link "Entrar" [ref=e323] [cursor=pointer]:
+              - /url: /accounts/login/?next=%2Fp%2FDXkjh3-Dhg0%2F&source=post_comment_input
+            - text: para curtir ou comentar.
+      - separator [ref=e325]
+  - contentinfo [ref=e326]:
+    - generic [ref=e327]:
+      - generic [ref=e329]:
+        - link "Meta" [ref=e331] [cursor=pointer]:
+          - /url: https://about.meta.com/
+          - generic [ref=e332]: Meta
+        - link "Sobre" [ref=e334] [cursor=pointer]:
+          - /url: https://about.instagram.com/
+          - generic [ref=e335]: Sobre
+        - link "Blog" [ref=e337] [cursor=pointer]:
+          - /url: https://about.instagram.com/blog/
+          - generic [ref=e338]: Blog
+        - link "Carreiras" [ref=e340] [cursor=pointer]:
+          - /url: https://about.instagram.com/about-us/careers
+          - generic [ref=e341]: Carreiras
+        - link "Ajuda" [ref=e343] [cursor=pointer]:
+          - /url: https://help.instagram.com/
+          - generic [ref=e344]: Ajuda
+        - link "API" [ref=e346] [cursor=pointer]:
+          - /url: https://developers.facebook.com/docs/instagram
+          - generic [ref=e347]: API
+        - link "Privacidade" [ref=e349] [cursor=pointer]:
+          - /url: /legal/privacy/
+          - generic [ref=e350]: Privacidade
+        - link "Termos" [ref=e352] [cursor=pointer]:
+          - /url: /legal/terms/
+          - generic [ref=e353]: Termos
+        - link "Localizações" [ref=e355] [cursor=pointer]:
+          - /url: /explore/locations/
+          - generic [ref=e356]: Localizações
+        - link "Popular" [ref=e358] [cursor=pointer]:
+          - /url: /popular/
+          - generic [ref=e359]: Popular
+        - link "Instagram Lite" [ref=e361] [cursor=pointer]:
+          - /url: /web/lite/
+          - generic [ref=e362]: Instagram Lite
+        - link "Meta AI" [ref=e364] [cursor=pointer]:
+          - /url: https://www.meta.ai/?utm_source=foa_web_footer
+          - generic [ref=e365]: Meta AI
+        - link "Threads" [ref=e367] [cursor=pointer]:
+          - /url: https://www.threads.com/
+          - generic [ref=e368]: Threads
+        - link "Upload de contatos e não usuários" [ref=e370] [cursor=pointer]:
+          - /url: https://www.facebook.com/help/instagram/261704639352628
+          - generic [ref=e371]: Upload de contatos e não usuários
+        - link "Meta Verified" [ref=e373] [cursor=pointer]:
+          - /url: /accounts/meta_verified/?entrypoint=web_footer
+          - generic [ref=e374]: Meta Verified
+      - generic [ref=e375]:
+        - generic [ref=e376] [cursor=pointer]:
+          - generic [ref=e377]:
+            - generic [ref=e378]: Português (Brasil)
+            - img "Ícone de seta para baixo" [ref=e381]
+          - combobox "Trocar idioma de exibição" [ref=e383]:
+            - option "Afrikaans"
+            - option "العربية"
+            - option "Čeština"
+            - option "Dansk"
+            - option "Deutsch"
+            - option "Ελληνικά"
+            - option "English"
+            - option "English (UK)"
+            - option "Español (España)"
+            - option "Español"
+            - option "فارسی"
+            - option "Suomi"
+            - option "Français"
+            - option "עברית"
+            - option "Bahasa Indonesia"
+            - option "Italiano"
+            - option "日本語"
+            - option "한국어"
+            - option "Bahasa Melayu"
+            - option "Norsk"
+            - option "Nederlands"
+            - option "Polski"
+            - option "Português (Brasil)" [selected]
+            - option "Português (Portugal)"
+            - option "Русский"
+            - option "Svenska"
+            - option "ภาษาไทย"
+            - option "Filipino"
+            - option "Türkçe"
+            - option "中文(简体)"
+            - option "中文(台灣)"
+            - option "বাংলা"
+            - option "ગુજરાતી"
+            - option "हिन्दी"
+            - option "Hrvatski"
+            - option "Magyar"
+            - option "ಕನ್ನಡ"
+            - option "മലയാളം"
+            - option "मराठी"
+            - option "नेपाली"
+            - option "ਪੰਜਾਬੀ"
+            - option "සිංහල"
+            - option "Slovenčina"
+            - option "தமிழ்"
+            - option "తెలుగు"
+            - option "اردو"
+            - option "Tiếng Việt"
+            - option "中文(香港)"
+            - option "Български"
+            - option "Français (Canada)"
+            - option "Română"
+            - option "Српски"
+            - option "Українська"
+        - generic [ref=e385]: © 2026 Instagram from Meta

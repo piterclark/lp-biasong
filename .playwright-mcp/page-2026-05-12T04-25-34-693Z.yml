@@ -1,0 +1,277 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - text: LPs que convertem de verdade —
+      - emphasis [ref=e5]: nenhum template genérico.
+    - generic [ref=e6]:
+      - text: Design + copy integrados —
+      - emphasis [ref=e7]: cada nicho tem sua linguagem.
+    - generic [ref=e8]:
+      - text: Do briefing ao ar —
+      - emphasis [ref=e9]: em dias, não meses.
+    - generic [ref=e10]:
+      - text: Sem achismo, sem sorte —
+      - emphasis [ref=e11]: estratégia antes de design.
+    - generic [ref=e12]:
+      - text: LPs que convertem de verdade —
+      - emphasis [ref=e13]: nenhum template genérico.
+    - generic [ref=e14]:
+      - text: Design + copy integrados —
+      - emphasis [ref=e15]: cada nicho tem sua linguagem.
+    - generic [ref=e16]:
+      - text: Do briefing ao ar —
+      - emphasis [ref=e17]: em dias, não meses.
+    - generic [ref=e18]:
+      - text: Sem achismo, sem sorte —
+      - emphasis [ref=e19]: estratégia antes de design.
+  - banner [ref=e20]:
+    - link "CREAT Studio" [ref=e21] [cursor=pointer]:
+      - /url: "#"
+      - text: CREAT Studio
+    - navigation [ref=e26]:
+      - link "Portfólio" [ref=e27] [cursor=pointer]:
+        - /url: "#portfolio"
+      - link "Nichos" [ref=e28] [cursor=pointer]:
+        - /url: "#nichos"
+      - link "Processo" [ref=e29] [cursor=pointer]:
+        - /url: "#processo"
+      - link "Contato" [ref=e30] [cursor=pointer]:
+        - /url: "#contato"
+    - link "Ver projetos" [ref=e31] [cursor=pointer]:
+      - /url: "#portfolio"
+  - generic [ref=e32]:
+    - generic [ref=e33]: › O estúdio que transforma cliques em clientes_
+    - heading "Landing pages que fazem dinheiro." [level=1] [ref=e35]:
+      - text: Landing pages que
+      - text: fazem dinheiro.
+    - paragraph [ref=e36]: Sem template, sem achismo, sem esperar.
+    - paragraph [ref=e37]: Portfólio de LPs desenvolvidas por nicho — com design, copy e estratégia calibrados para a jornada real de compra do seu cliente.
+    - generic [ref=e38]:
+      - link "Ver os projetos" [ref=e39] [cursor=pointer]:
+        - /url: "#portfolio"
+        - text: Ver os projetos
+        - img [ref=e40]
+      - link "Solicitar proposta →" [ref=e42] [cursor=pointer]:
+        - /url: "#contato"
+  - generic [ref=e43]:
+    - paragraph [ref=e44]: Portfólio em números
+    - generic [ref=e45]:
+      - generic [ref=e46]:
+        - generic [ref=e47]:
+          - text: "3"
+          - emphasis [ref=e48]: +
+        - generic [ref=e49]: Nichos ativos
+      - generic [ref=e50]:
+        - generic [ref=e51]:
+          - text: "100"
+          - emphasis [ref=e52]: "%"
+        - generic [ref=e53]: Sob medida
+      - generic [ref=e54]:
+        - generic [ref=e55]:
+          - text: "0"
+          - emphasis [ref=e56]: x
+        - generic [ref=e57]: Templates genéricos
+      - generic [ref=e58]:
+        - emphasis [ref=e60]: ∞
+        - generic [ref=e61]: Possibilidades
+  - code [ref=e63]: const projetos = await fetch("https://creat.studio/portfolio"); // carregando portfólio_
+  - generic [ref=e65]:
+    - paragraph [ref=e66]: Portfólio // CREAT
+    - heading "LPs que funcionam. Veja por você mesmo." [level=2] [ref=e67]:
+      - text: LPs que funcionam.
+      - text: Veja por você mesmo.
+    - paragraph [ref=e68]: Cada projeto criado do zero para o nicho — copy e design calibrados para a jornada de compra real do cliente final.
+    - generic [ref=e69]:
+      - link "Ativo 🦷 Saúde / Odontologia Clínica Odontológica LP de alta conversão para consultórios e clínicas dentárias. Copy focada em confiança, autoridade e agendamento direto. Agendamento WhatsApp Autoridade Ver LP" [ref=e70] [cursor=pointer]:
+        - /url: dentista/index.html
+        - generic [ref=e71]:
+          - generic [ref=e72]: Ativo
+          - generic [ref=e73]: 🦷
+        - generic [ref=e74]:
+          - paragraph [ref=e75]: Saúde / Odontologia
+          - heading "Clínica Odontológica" [level=3] [ref=e76]
+          - paragraph [ref=e77]: LP de alta conversão para consultórios e clínicas dentárias. Copy focada em confiança, autoridade e agendamento direto.
+          - generic [ref=e78]:
+            - generic [ref=e79]:
+              - generic [ref=e80]: Agendamento
+              - generic [ref=e81]: WhatsApp
+              - generic [ref=e82]: Autoridade
+            - generic [ref=e83]:
+              - text: Ver LP
+              - img [ref=e84]
+      - link "Ativo 💇 Beleza / Estética Salão de Beleza LP premium para salões e studios. Posicionamento aspiracional, design que eleva o status e CTA direto para agendamento. Premium Agendamento Aspiracional Ver LP" [ref=e86] [cursor=pointer]:
+        - /url: salao/index.html
+        - generic [ref=e87]:
+          - generic [ref=e88]: Ativo
+          - generic [ref=e89]: 💇
+        - generic [ref=e90]:
+          - paragraph [ref=e91]: Beleza / Estética
+          - heading "Salão de Beleza" [level=3] [ref=e92]
+          - paragraph [ref=e93]: LP premium para salões e studios. Posicionamento aspiracional, design que eleva o status e CTA direto para agendamento.
+          - generic [ref=e94]:
+            - generic [ref=e95]:
+              - generic [ref=e96]: Premium
+              - generic [ref=e97]: Agendamento
+              - generic [ref=e98]: Aspiracional
+            - generic [ref=e99]:
+              - text: Ver LP
+              - img [ref=e100]
+      - link "Ativo ⚖️ Advocacia / Jurídico Escritório de Advocacia LP institucional com credibilidade e autoridade máximas para advogados. Foco em captação de clientes qualificados. Autoridade Leads qualif. Institucional Ver LP" [ref=e102] [cursor=pointer]:
+        - /url: advogado/index.html
+        - generic [ref=e103]:
+          - generic [ref=e104]: Ativo
+          - generic [ref=e105]: ⚖️
+        - generic [ref=e106]:
+          - paragraph [ref=e107]: Advocacia / Jurídico
+          - heading "Escritório de Advocacia" [level=3] [ref=e108]
+          - paragraph [ref=e109]: LP institucional com credibilidade e autoridade máximas para advogados. Foco em captação de clientes qualificados.
+          - generic [ref=e110]:
+            - generic [ref=e111]:
+              - generic [ref=e112]: Autoridade
+              - generic [ref=e113]: Leads qualif.
+              - generic [ref=e114]: Institucional
+            - generic [ref=e115]:
+              - text: Ver LP
+              - img [ref=e116]
+      - generic [ref=e118]:
+        - generic [ref=e119]:
+          - generic [ref=e120]: Em breve
+          - generic [ref=e121]: 🚀
+        - generic [ref=e122]:
+          - paragraph [ref=e123]: Alto Valor
+          - heading "High Ticket" [level=3] [ref=e124]
+          - paragraph [ref=e125]: LP para produtos e serviços premium. Copywriting persuasivo onde o posicionamento define a conversão.
+          - generic [ref=e126]:
+            - generic [ref=e128]: Em dev.
+            - generic [ref=e129]: Em breve
+      - generic [ref=e130]:
+        - generic [ref=e131]:
+          - generic [ref=e132]: Em breve
+          - generic [ref=e133]: 🛒
+        - generic [ref=e134]:
+          - paragraph [ref=e135]: E-commerce
+          - heading "Produto Físico" [level=3] [ref=e136]
+          - paragraph [ref=e137]: LP de produto para e-commerce — da headline ao checkout, cada elemento pensado para reduzir fricção.
+          - generic [ref=e138]:
+            - generic [ref=e140]: Em dev.
+            - generic [ref=e141]: Em breve
+      - generic [ref=e142]:
+        - generic [ref=e143]:
+          - generic [ref=e144]: Em breve
+          - generic [ref=e145]: 📚
+        - generic [ref=e146]:
+          - paragraph [ref=e147]: Infoproduto
+          - heading "Curso / Mentoria" [level=3] [ref=e148]
+          - paragraph [ref=e149]: LP de lançamento e perpétuo para cursos e mentorias. VSL, prova social e funil de objeções integrados.
+          - generic [ref=e150]:
+            - generic [ref=e152]: Em dev.
+            - generic [ref=e153]: Em breve
+  - generic [ref=e156]:
+    - paragraph [ref=e157]: Nichos // CREAT
+    - 'heading "Cinco frentes. Um padrão: converter." [level=2] [ref=e158]':
+      - text: Cinco frentes.
+      - text: "Um padrão: converter."
+    - paragraph [ref=e159]: Especialização por nicho significa copy mais certeira, design mais adequado — e resultado mais rápido.
+    - generic [ref=e160]:
+      - generic [ref=e161]:
+        - generic [ref=e162]: 🦷
+        - heading "Saúde & Odonto" [level=3] [ref=e163]
+        - paragraph [ref=e164]: Clínicas e consultórios que precisam gerar agendamentos de forma consistente e previsível.
+      - generic [ref=e165]:
+        - generic [ref=e166]: 💇
+        - heading "Beleza" [level=3] [ref=e167]
+        - paragraph [ref=e168]: Salões, studios e estéticas que querem clientes de maior ticket e fidelização real.
+      - generic [ref=e169]:
+        - generic [ref=e170]: ⚖️
+        - heading "Advocacia" [level=3] [ref=e171]
+        - paragraph [ref=e172]: Escritórios que precisam de autoridade online e captação de clientes qualificados.
+      - generic [ref=e173]:
+        - generic [ref=e174]: 🚀
+        - heading "High Ticket" [level=3] [ref=e175]
+        - paragraph [ref=e176]: Mentorias e serviços premium onde o posicionamento define 80% da conversão.
+      - generic [ref=e177]:
+        - generic [ref=e178]: 📦
+        - heading "E-commerce & Info" [level=3] [ref=e179]
+        - paragraph [ref=e180]: Produto físico e digital com funil de objeções e checkout direto integrado.
+  - code [ref=e182]: const processo = await fetch("https://creat.studio/metodologia"); // carregando processo_
+  - generic [ref=e185]:
+    - generic [ref=e186]:
+      - paragraph [ref=e187]: Processo // CREAT
+      - heading "Do briefing ao ar em dias." [level=2] [ref=e188]:
+        - text: Do briefing
+        - text: ao ar em dias.
+      - paragraph [ref=e189]: Sem burocracia, sem vai e vem infinito. Uma LP que converte — entregue no prazo, pronta para hospedar.
+      - link "Começar agora →" [ref=e190] [cursor=pointer]:
+        - /url: "#contato"
+    - generic [ref=e191]:
+      - generic [ref=e192]:
+        - generic [ref=e193]: 01 //
+        - generic [ref=e194]:
+          - heading "Diagnóstico do nicho" [level=3] [ref=e195]
+          - paragraph [ref=e196]: Mapeamos o ICP, a dor principal e o que faz o cliente do seu cliente tomar uma decisão de compra.
+      - generic [ref=e197]:
+        - generic [ref=e198]: 02 //
+        - generic [ref=e199]:
+          - heading "Arquitetura da LP" [level=3] [ref=e200]
+          - paragraph [ref=e201]: Definimos o fluxo, os gatilhos mentais e a ordem das seções para máxima conversão.
+      - generic [ref=e202]:
+        - generic [ref=e203]: 03 //
+        - generic [ref=e204]:
+          - heading "Copy + Design integrados" [level=3] [ref=e205]
+          - paragraph [ref=e206]: Texto e visual criados juntos — o design serve a copy, a copy potencializa o design.
+      - generic [ref=e207]:
+        - generic [ref=e208]: 04 //
+        - generic [ref=e209]:
+          - heading "Entrega & revisão" [level=3] [ref=e210]
+          - paragraph [ref=e211]: Uma rodada de revisão inclusa. HTML puro, pronto para hospedar em qualquer lugar — GitHub, Vercel, ou seu servidor.
+  - generic [ref=e214]:
+    - paragraph [ref=e215]: Diagnóstico_
+    - heading "Sua LP ainda não está convertindo." [level=2] [ref=e216]:
+      - text: Sua LP ainda não
+      - text: está convertindo.
+    - paragraph [ref=e217]: Solicite um diagnóstico gratuito. Em 24h você sabe exatamente o que está travando sua conversão — e como resolver.
+    - generic [ref=e218]:
+      - link "Solicitar diagnóstico" [ref=e219] [cursor=pointer]:
+        - /url: https://wa.me/5511999999999
+        - text: Solicitar diagnóstico
+        - img [ref=e220]
+      - link "Enviar e-mail →" [ref=e222] [cursor=pointer]:
+        - /url: mailto:contato@creat.studio
+    - paragraph [ref=e223]: Sem custo. Sem cartão. Resposta em até 24h úteis.
+  - contentinfo [ref=e224]:
+    - generic [ref=e225]:
+      - generic [ref=e226]:
+        - generic [ref=e227]: CREAT Studio
+        - paragraph [ref=e232]: Portfólio de landing pages de alta conversão para os nichos que mais crescem no Brasil. Design, copy e estratégia — tudo integrado.
+      - generic [ref=e233]:
+        - heading "Portfólio" [level=4] [ref=e234]
+        - link "Clínica Odontológica" [ref=e235] [cursor=pointer]:
+          - /url: dentista/index.html
+        - link "Salão de Beleza" [ref=e236] [cursor=pointer]:
+          - /url: salao/index.html
+        - link "Escritório de Advocacia" [ref=e237] [cursor=pointer]:
+          - /url: advogado/index.html
+      - generic [ref=e238]:
+        - heading "Nichos" [level=4] [ref=e239]
+        - link "Saúde & Odonto" [ref=e240] [cursor=pointer]:
+          - /url: "#nichos"
+        - link "Beleza" [ref=e241] [cursor=pointer]:
+          - /url: "#nichos"
+        - link "Advocacia" [ref=e242] [cursor=pointer]:
+          - /url: "#nichos"
+        - link "High Ticket" [ref=e243] [cursor=pointer]:
+          - /url: "#nichos"
+        - link "E-commerce & Info" [ref=e244] [cursor=pointer]:
+          - /url: "#nichos"
+      - generic [ref=e245]:
+        - heading "Contato" [level=4] [ref=e246]
+        - link "Solicitar proposta" [ref=e247] [cursor=pointer]:
+          - /url: "#contato"
+        - link "Diagnóstico gratuito" [ref=e248] [cursor=pointer]:
+          - /url: "#contato"
+        - link "contato@creat.studio" [ref=e249] [cursor=pointer]:
+          - /url: mailto:contato@creat.studio
+    - generic [ref=e250]:
+      - paragraph [ref=e251]: © 2026 CREAT Studio
+      - paragraph [ref=e252]: Landing pages que convertem.
+  - generic: ↑

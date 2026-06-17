@@ -1,0 +1,63 @@
+- application:
+  - iframe [ref=e1]:
+    
+  - region
+  - generic [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e8]:
+        - img [ref=e12]
+        - generic [ref=e16]:
+          - text: Captura de tela 2026-04-20 003902.png
+          - tooltip [ref=e17]
+        - menubar "Barra de menus" [ref=e19]:
+          - button "Arquivo" [ref=e23] [cursor=pointer]:
+            - generic [ref=e24]: Arquivo
+          - button "Acessar" [ref=e28] [cursor=pointer]:
+            - generic [ref=e29]: Acessar
+          - button "Ajuda" [ref=e33] [cursor=pointer]:
+            - generic [ref=e34]: Ajuda
+        - link "Fazer login" [ref=e41] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?service=wise&passive=1209600&osid=1&continue=https://drive.google.com/file/d/1swIrTwRLEtN1d0om1SA22IaeNfdAxQ97/view&followup=https://drive.google.com/file/d/1swIrTwRLEtN1d0om1SA22IaeNfdAxQ97/view&ec=GAZAGQ
+      - generic [ref=e43]:
+        - generic [ref=e44]:
+          - generic [ref=e45]:
+            - generic [ref=e47]:
+              - button "Baixar" [ref=e48] [cursor=pointer]:
+                - img [ref=e51]
+              - tooltip [ref=e54]: Baixar
+            - generic [ref=e56]:
+              - button "Imprimir" [ref=e57] [cursor=pointer]:
+                - img [ref=e60]
+              - tooltip [ref=e63]: Imprimir
+          - generic [ref=e65]:
+            - generic [ref=e66]:
+              - button "Diminuir o zoom" [disabled] [ref=e67]:
+                - img [ref=e70]
+              - tooltip [ref=e73]: Diminuir o zoom
+            - generic [ref=e74]:
+              - button "Redefinir zoom" [disabled] [ref=e75]:
+                - img [ref=e78]
+              - tooltip [ref=e81]: Redefinir zoom
+            - generic [ref=e82]:
+              - button "Aumentar o zoom" [ref=e83] [cursor=pointer]:
+                - img [ref=e86]
+              - tooltip [ref=e89]: Aumentar o zoom
+        - generic [ref=e92]:
+          - button "Ocultar cabeçalho do arquivo" [ref=e93] [cursor=pointer]:
+            - img [ref=e96]
+            - img [ref=e100]
+          - tooltip [ref=e103]: Ocultar cabeçalho do arquivo
+    - generic "Mostrando leitor." [ref=e104]:
+      - generic "Exibindo Captura de tela 2026-04-20 003902.png…" [active]
+      - generic [ref=e105]:
+        - generic "Anterior" [ref=e106]
+        - generic "Avançar" [ref=e107]
+        - main [ref=e108]:
+          - generic:
+            - generic:
+              - generic [ref=e110]:
+                - generic:
+                  - list
+              - img "Exibindo Captura de tela 2026-04-20 003902.png" [ref=e111]:
+                - img [ref=e112]
+  - generic [ref=e113]: Exibindo Captura de tela 2026-04-20 003902.png…

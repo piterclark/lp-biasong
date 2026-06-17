@@ -1,0 +1,227 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]: NOIR. STUDIO
+    - link "Agendar consulta" [ref=e4] [cursor=pointer]:
+      - /url: "#contato"
+  - generic [ref=e8]:
+    - generic [ref=e9]: Tatuagem Ultra Realista • Desde 2016
+    - heading "Não é tatuagem. É fotografia gravada na pele." [level=1] [ref=e10]:
+      - generic [ref=e12]: Não
+      - generic [ref=e14]: é
+      - generic [ref=e16]: tatuagem.
+      - emphasis [ref=e17]: É fotografia gravada na pele.
+    - paragraph [ref=e18]:
+      - text: Ultra realismo onde cada detalhe é indistinguível do real.
+      - text: Porque sua pele merece uma obra de arte permanente.
+    - generic [ref=e19]:
+      - link "Quero minha tatuagem" [ref=e20] [cursor=pointer]:
+        - /url: "#contato"
+        - img [ref=e21]
+        - text: Quero minha tatuagem
+      - link "Ver o portfólio" [ref=e23] [cursor=pointer]:
+        - /url: "#portfolio"
+  - generic [ref=e24]:
+    - generic [ref=e25]:
+      - generic [ref=e26]: "8"
+      - generic [ref=e27]: Anos de experiência
+    - generic [ref=e28]:
+      - generic [ref=e29]: "+1.500"
+      - generic [ref=e30]: Obras concluídas
+    - generic [ref=e31]:
+      - generic [ref=e32]: 100%
+      - generic [ref=e33]: Ultra realismo
+    - generic [ref=e34]:
+      - generic [ref=e35]: "0"
+      - generic [ref=e36]: Erro aceito aqui
+  - generic [ref=e37]:
+    - generic [ref=e38]:
+      - heading "As especialidades" [level=2] [ref=e39]:
+        - text: As
+        - emphasis [ref=e40]: especialidades
+      - generic [ref=e41]: Clique para ver cada estilo
+    - generic [ref=e42]:
+      - link "Retrato Realista ⚡ Carro-chefe Retrato Realista Rostos, figuras humanas, expressões. Cada poro visível, cada cabelo no lugar exato. Tão vívido que as pessoas perguntam se é foto. 8 a 16h de sessão • A partir de R$ 2.400 Ver o estilo" [ref=e43] [cursor=pointer]:
+        - /url: javascript:;
+        - generic [ref=e44]:
+          - img "Retrato Realista" [ref=e45]
+          - generic [ref=e46]: ⚡ Carro-chefe
+        - generic [ref=e47]:
+          - generic [ref=e48]: Retrato Realista
+          - paragraph [ref=e49]: Rostos, figuras humanas, expressões. Cada poro visível, cada cabelo no lugar exato. Tão vívido que as pessoas perguntam se é foto.
+          - generic [ref=e50]: 8 a 16h de sessão • A partir de R$ 2.400
+          - generic [ref=e51]:
+            - text: Ver o estilo
+            - img [ref=e52]
+      - link "Mitologia & Figuras Mitologia Mitologia & Figuras Zeus, Poseidon, deuses gregos, guerreiros. Figuras com poder, expressão e profundidade. Cada sleeve conta uma história que ninguém esquece. 10 a 20h de sessão • A partir de R$ 2.800 Ver o estilo" [ref=e54] [cursor=pointer]:
+        - /url: javascript:;
+        - generic [ref=e55]:
+          - img "Mitologia & Figuras" [ref=e56]
+          - generic [ref=e57]: Mitologia
+        - generic [ref=e58]:
+          - generic [ref=e59]: Mitologia & Figuras
+          - paragraph [ref=e60]: Zeus, Poseidon, deuses gregos, guerreiros. Figuras com poder, expressão e profundidade. Cada sleeve conta uma história que ninguém esquece.
+          - generic [ref=e61]: 10 a 20h de sessão • A partir de R$ 2.800
+          - generic [ref=e62]:
+            - text: Ver o estilo
+            - img [ref=e63]
+      - link "Escultura & Figura Arte Clássica Escultura & Figura David de Michelangelo, Vênus, Móisés. A perfeição clássica do mármore traduzida em tinta preta. Para quem quer carregar arte consigo. 6 a 12h de sessão • A partir de R$ 1.600 Ver o estilo" [ref=e65] [cursor=pointer]:
+        - /url: javascript:;
+        - generic [ref=e66]:
+          - img "Escultura & Figura" [ref=e67]
+          - generic [ref=e68]: Arte Clássica
+        - generic [ref=e69]:
+          - generic [ref=e70]: Escultura & Figura
+          - paragraph [ref=e71]: David de Michelangelo, Vênus, Móisés. A perfeição clássica do mármore traduzida em tinta preta. Para quem quer carregar arte consigo.
+          - generic [ref=e72]: 6 a 12h de sessão • A partir de R$ 1.600
+          - generic [ref=e73]:
+            - text: Ver o estilo
+            - img [ref=e74]
+  - generic [ref=e76]:
+    - generic [ref=e77]:
+      - heading "O portfólio" [level=2] [ref=e78]:
+        - text: O
+        - emphasis [ref=e79]: portfólio
+      - paragraph [ref=e80]: Obras concluídas
+    - generic [ref=e81]:
+      - generic [ref=e82] [cursor=pointer]:
+        - img "Reaper tatuagem" [ref=e83]
+        - generic [ref=e85]: Reaper — Preto e cinza realista
+      - generic [ref=e86] [cursor=pointer]:
+        - img "Asas ultra realistas" [ref=e87]
+        - generic [ref=e89]: Asas — Full back realista
+      - generic [ref=e90] [cursor=pointer]:
+        - img "Olhos realistas" [ref=e91]
+        - generic [ref=e93]: Olhos — Ultra realismo extremo
+      - generic [ref=e94] [cursor=pointer]:
+        - img "Sleeve gótico" [ref=e95]
+        - generic [ref=e97]: Sleeve gótico — Preto e cinza
+      - generic [ref=e98] [cursor=pointer]:
+        - img "Leão realista" [ref=e99]
+        - generic [ref=e101]: Leão — Wildlife ultra realismo
+      - generic [ref=e102] [cursor=pointer]:
+        - img "Sleeve marítimo" [ref=e103]
+        - generic [ref=e105]: Sleeve — Realismo aquático
+      - generic [ref=e106] [cursor=pointer]:
+        - img "Artista em ação" [ref=e107]
+        - generic [ref=e109]: Bastidores — Precisão cirúrgica
+  - generic [ref=e110]:
+    - generic [ref=e111]:
+      - heading "Do primeiro contato à cura completa" [level=2] [ref=e112]:
+        - text: Do primeiro contato
+        - emphasis [ref=e113]: à cura completa
+      - paragraph [ref=e114]: Cada etapa pensada para que o resultado na sua pele seja exatamente o que você imaginou — ou melhor.
+    - generic [ref=e115]:
+      - generic [ref=e116]:
+        - generic: "01"
+        - img [ref=e118]
+        - generic [ref=e120]: Consulta e referências
+        - paragraph [ref=e121]: Você traz referências, nós escutamos a ideia. Juntos definimos composição, tamanho, posicionamento e o nível de detalhe. Nenhum traço começa sem alinhamento total.
+      - generic [ref=e122]:
+        - generic: "02"
+        - img [ref=e124]
+        - generic [ref=e126]: Arte exclusiva
+        - paragraph [ref=e127]: O desenho é criado especificamente para o seu corpo — não usamos templates. Aprovação antes de colocar qualquer máquina na pele.
+      - generic [ref=e128]:
+        - generic: "03"
+        - img [ref=e130]
+        - generic [ref=e133]: Sessão sem pressa
+        - paragraph [ref=e134]: Trabalhamos no seu ritmo. Pausas quando precisar. Nenhum traço apressado — porque um detalhe errado em ultra realismo arruína tudo.
+      - generic [ref=e135]:
+        - generic: "04"
+        - img [ref=e137]
+        - generic [ref=e139]: Cuidado e cicatrização
+        - paragraph [ref=e140]: Kit de cicatrização incluso, protocolo detalhado por escrito e suporte direto por 30 dias. Fazemos o acompanhamento até a cura total.
+  - generic [ref=e141]:
+    - heading "Não tatuamos. Gravamos fotografia permanente na pele." [level=2] [ref=e143]:
+      - text: Não tatuamos.
+      - emphasis [ref=e144]:
+        - text: Gravamos
+        - text: fotografia
+        - text: permanente
+        - text: na pele.
+    - paragraph [ref=e146]:
+      - text: Qualquer um aprende a tatuar em meses. Dominar o ultra realismo leva anos — e mesmo assim nunca para de exigir.
+      - strong [ref=e147]: Cada milímetro é calculado. Cada sombra é estudada. Cada obra só sai daqui quando está perfeita.
+  - generic [ref=e148]:
+    - heading "Dúvidas antes de agendar" [level=2] [ref=e149]:
+      - text: Dúvidas
+      - emphasis [ref=e150]: antes de agendar
+    - generic [ref=e151]:
+      - generic [ref=e152]:
+        - button "Quanto tempo leva uma tatuagem ultra realista?" [ref=e153] [cursor=pointer]:
+          - text: Quanto tempo leva uma tatuagem ultra realista?
+          - img [ref=e155]
+        - paragraph [ref=e157]: Depende do tamanho e complexidade. Peças pequenas levam de 4 a 8h. Retratos completos de 8 a 16h, geralmente divididos em 2 sessões. Sleevesfull de 30 a 60h ao longo de meses. Nunca pressionamos para terminar em menos tempo — um detalhe apressado arruína a obra inteira.
+      - generic [ref=e158]:
+        - button "Funciona em qualquer tom de pele?" [ref=e159] [cursor=pointer]:
+          - text: Funciona em qualquer tom de pele?
+          - img [ref=e161]
+        - paragraph [ref=e163]: Sim, com adaptações técnicas. Em peles mais escuras, trabalhamos com contraste diferenciado e pigmentos específicos. Na consulta avaliamos seu tom e definimos a melhor abordagem para garantir o mesmo nível de realismo independente da tonalidade.
+      - generic [ref=e164]:
+        - button "Posso tatuar sobre uma tatuagem antiga?" [ref=e165] [cursor=pointer]:
+          - text: Posso tatuar sobre uma tatuagem antiga?
+          - img [ref=e167]
+        - paragraph [ref=e169]: Em alguns casos sim, em outros não. Tatuagens antigas muito carregadas ou cicatrizadas de forma irregular podem comprometer o realismo. Avaliamos foto por foto na consulta. Se não for possível fazer ultra realismo com qualidade acima, somos honestos — não fazemos algo que não vai ficar impecável.
+      - generic [ref=e170]:
+        - button "Quanto custa? Como funciona o orçamento?" [ref=e171] [cursor=pointer]:
+          - text: Quanto custa? Como funciona o orçamento?
+          - img [ref=e173]
+        - paragraph [ref=e175]: Cobramos por sessão (R$800 a R$1.200/sessão dependendo da complexidade) ou por obra fechada. Orçamento detalhado só após a consulta — não existe preço justo sem ver referências e entender o que você quer. A consulta é gratuita e sem compromisso.
+      - generic [ref=e176]:
+        - button "Como é o processo de cicatrização?" [ref=e177] [cursor=pointer]:
+          - text: Como é o processo de cicatrização?
+          - img [ref=e179]
+        - paragraph [ref=e181]: "Fornecemos kit completo de cicatrização e um guia detalhado por escrito. Nos primeiros 15 dias: sem sol, sem piscina, sem academia intensa. A cura total leva de 3 a 6 semanas. Durante todo esse período, suporte direto via WhatsApp — qualquer dúvida, respondemos."
+  - generic [ref=e182]:
+    - heading "O que dizem nossos clientes" [level=2] [ref=e183]:
+      - text: O que dizem
+      - emphasis [ref=e184]: nossos clientes
+    - generic [ref=e185]:
+      - generic [ref=e186]:
+        - text: ❝
+        - generic [ref=e187]: ★★★★★
+        - paragraph [ref=e188]: "\"Meu pai olhou o retrato da minha avó na minha pele e ficou em silêncio por 10 segundos. Depois disse que parecia estar viva. Esse é o poder do que fazem aqui.\""
+        - generic [ref=e189]: Marcos T.
+        - generic [ref=e190]: Retrato Realista • Antebraço • 12h
+      - generic [ref=e191]:
+        - text: ❝
+        - generic [ref=e192]: ★★★★★
+        - paragraph [ref=e193]: "\"As pessoas param na rua para perguntar se é foto ou tatuagem. Nunca sei se é elogio ao artista ou a mim mesmo. Provavelmente os dois.\""
+        - generic [ref=e194]: Felipe G.
+        - generic [ref=e195]: Leão Wildlife • Coxa • 8h
+      - generic [ref=e196]:
+        - text: ❝
+        - generic [ref=e197]: ★★★★★
+        - paragraph [ref=e198]: "\"Pessoas me pararam no museu para fotografar meu braço achando que era obra do acervo. Não é exagero. É ultra realismo de verdade.\""
+        - generic [ref=e199]: Carolina M.
+        - generic [ref=e200]: Escultura clássica • Braço inteiro • 20h
+  - generic [ref=e201]:
+    - generic [ref=e202]: 🖤
+    - heading "Se não ficar impecável, refazemos gratuitamente." [level=3] [ref=e203]:
+      - text: Se não ficar impecável,
+      - emphasis [ref=e204]: refazemos gratuitamente.
+    - paragraph [ref=e205]: Retoques inclusos por 60 dias após a cura. Se qualquer detalhe perder definição na cicatrização, voltamos e corrigimos sem custo. Porque ultra realismo não pode ser "quase certo".
+  - generic [ref=e206]:
+    - generic [ref=e207]: Sua obra permanente
+    - heading "Pronto para ter arte gravada para sempre?" [level=2] [ref=e208]:
+      - text: Pronto para ter arte
+      - emphasis [ref=e209]: gravada para sempre?
+    - paragraph [ref=e210]: Consulta gratuita. Sem compromisso. Avaliamos sua ideia e te dizemos exatamente o que é possível fazer.
+    - link "Agendar consulta gratuita" [ref=e211] [cursor=pointer]:
+      - /url: https://wa.me/5511999999999
+      - img [ref=e212]
+      - text: Agendar consulta gratuita
+    - paragraph [ref=e214]: Consulta 100% gratuita • Resposta em minutos • Retoques incluídos
+  - contentinfo [ref=e215]:
+    - generic [ref=e216]: NOIR. STUDIO
+    - paragraph [ref=e217]: © 2026 Noir. Studio — Tatuagem Ultra Realista
+  - dialog:
+    - generic:
+      - button "Fechar": ✕
+      - generic:
+        - paragraph
+        - link "Agendar consulta":
+          - /url: https://wa.me/5511999999999
+          - img
+          - generic: Agendar consulta
+        - paragraph: Consulta gratuita • Retoques incluídos por 60 dias

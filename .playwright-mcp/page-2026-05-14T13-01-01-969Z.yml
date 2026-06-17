@@ -1,0 +1,161 @@
+- generic [ref=e11]:
+  - generic [ref=e13]:
+    - link "Instagram" [ref=e16] [cursor=pointer]:
+      - /url: /
+      - img "Instagram" [ref=e19]
+    - generic [ref=e24]:
+      - link "Entrar" [ref=e26] [cursor=pointer]:
+        - /url: /accounts/login/?next=%2Fp%2FDSvAZxCERoa%2F%3Fimg_index%3D6&source=desktop_nav
+      - link "Cadastre-se" [ref=e28] [cursor=pointer]:
+        - /url: /accounts/emailsignup/
+  - main [ref=e29]:
+    - dialog [ref=e34]:
+      - generic [ref=e35]:
+        - button "Fechar" [ref=e37] [cursor=pointer]:
+          - img "Fechar" [ref=e39]
+        - generic [ref=e43]:
+          - generic [ref=e44]:
+            - link "Foto do perfil de dayantorresart" [ref=e46] [cursor=pointer]:
+              - img "Foto do perfil de dayantorresart" [ref=e47]
+            - generic [ref=e49]:
+              - generic [ref=e50]: Não perca nenhum post de dayantorresart
+              - generic [ref=e52]: Cadastre-se no Instagram para ficar por dentro das novidades.
+              - generic [ref=e54]:
+                - text: Ao continuar, você concorda com os
+                - link "Termos de Uso" [ref=e55] [cursor=pointer]:
+                  - /url: https://help.instagram.com/581066165581870/?locale=pt_BR
+                - text: e a
+                - link "Política de Privacidade" [ref=e56] [cursor=pointer]:
+                  - /url: https://privacycenter.instagram.com/policy/
+                - text: do Instagram.
+          - generic [ref=e57]:
+            - link "Cadastre-se" [ref=e60] [cursor=pointer]:
+              - /url: /accounts/emailsignup/
+            - link "Entrar" [ref=e63] [cursor=pointer]:
+              - /url: /accounts/login/?source=desktop_dynamic_landing_dialog
+    - generic [ref=e64]:
+      - article [ref=e65]:
+        - generic [ref=e66]:
+          - generic [ref=e67]:
+            - button "Foto do perfil de dayantorresart" [disabled] [ref=e69]:
+              - link "Foto do perfil de dayantorresart" [disabled] [ref=e71] [cursor=pointer]:
+                - /url: /dayantorresart/
+                - img "Foto do perfil de dayantorresart" [ref=e72]
+            - generic [ref=e74]:
+              - generic [ref=e77]:
+                - link "dayantorresart" [ref=e80] [cursor=pointer]:
+                  - /url: /dayantorresart/
+                  - generic [ref=e81]: dayantorresart
+                - img "Verificado" [ref=e83]
+              - generic [ref=e85]:
+                - generic [ref=e88]: •
+                - button "Seguir" [ref=e89] [cursor=pointer]:
+                  - generic [ref=e91]: Seguir
+          - button "Mais opções" [ref=e93] [cursor=pointer]:
+            - img "Mais opções" [ref=e96]
+        - generic [ref=e109]:
+          - generic [ref=e111]:
+            - generic [ref=e112]:
+              - button "Curtir" [ref=e115] [cursor=pointer]:
+                - img "Curtir" [ref=e118]
+              - button "3,9 mil" [ref=e120] [cursor=pointer]
+              - button "Comentar" [ref=e122] [cursor=pointer]:
+                - img "Comentar" [ref=e124]
+              - button "63" [ref=e126] [cursor=pointer]
+              - button "Compartilhar" [ref=e127] [cursor=pointer]:
+                - img "Compartilhar" [ref=e128]
+            - button "Salvar" [ref=e132] [cursor=pointer]:
+              - img "Salvar" [ref=e134]
+          - generic [ref=e138]:
+            - link "dayantorresart" [ref=e139] [cursor=pointer]:
+              - /url: /dayantorresart/
+              - generic [ref=e142]: dayantorresart
+            - img "Verificado" [ref=e144]
+            - generic [ref=e146]:
+              - heading "Full back projects I completed throughout 2025. Which back piece is your favourite? These projects depict statues and" [level=1] [ref=e148]
+              - generic [ref=e149]:
+                - text: ...
+                - button "mais" [ref=e150] [cursor=pointer]:
+                  - generic [ref=e151]: mais
+          - link "Ver todos os 63 comentários" [ref=e153] [cursor=pointer]:
+            - /url: "#"
+            - generic [ref=e154]: Ver todos os 63 comentários
+          - generic [ref=e155]:
+            - generic [ref=e157]:
+              - link "dont.blaim.me" [ref=e158] [cursor=pointer]:
+                - /url: /dont.blaim.me/
+                - generic [ref=e161]: dont.blaim.me
+              - generic [ref=e163]: 🔥🔥
+            - generic [ref=e165]:
+              - link "dmitrii_gilev" [ref=e166] [cursor=pointer]:
+                - /url: /dmitrii_gilev/
+                - generic [ref=e169]: dmitrii_gilev
+              - generic [ref=e171]: 💣💣💣💣💣👍👍👍
+          - link "26 de dezembro de 2025" [ref=e174] [cursor=pointer]:
+            - /url: /dayantorresart/p/DSvAZxCERoa/
+            - time [ref=e176]: 26 de dezembro de 2025
+      - separator [ref=e178]
+      - generic [ref=e179]:
+        - generic [ref=e181]:
+          - text: Mais posts de
+          - link "dayantorresart" [ref=e182] [cursor=pointer]:
+            - /url: /dayantorresart/
+        - generic [ref=e185]:
+          - generic [ref=e186]:
+            - link "Clipe" [ref=e188] [cursor=pointer]:
+              - /url: /dayantorresart/reel/DP1hzdbkX5o/
+              - generic:
+                - generic:
+                  - generic:
+                    - img "Clipe"
+            - link "Clipe" [ref=e193] [cursor=pointer]:
+              - /url: /dayantorresart/reel/DQpH4Sgjzky/
+              - generic:
+                - generic:
+                  - generic:
+                    - img "Clipe"
+            - link [ref=e198] [cursor=pointer]:
+              - /url: /dayantorresart/p/DP6pHWmDQPQ/
+          - generic [ref=e202]:
+            - link "Carrossel" [ref=e204] [cursor=pointer]:
+              - /url: /dayantorresart/p/DYSOZm1FXb1/
+              - generic:
+                - generic:
+                  - generic:
+                    - img "Carrossel"
+            - link "Clipe" [ref=e209] [cursor=pointer]:
+              - /url: /dayantorresart/reel/DYPpPRuv1Zf/
+              - generic:
+                - generic:
+                  - generic:
+                    - img "Clipe"
+            - link "Carrossel" [ref=e214] [cursor=pointer]:
+              - /url: /dayantorresart/p/DYKhMOXFSp_/
+              - generic:
+                - generic:
+                  - generic:
+                    - img "Carrossel"
+          - generic [ref=e218]:
+            - link "Clipe" [ref=e220] [cursor=pointer]:
+              - /url: /lamanigancetattootoronto/reel/DYFVOhoPVPC/
+              - generic:
+                - generic:
+                  - generic:
+                    - img "Clipe"
+            - link "Clipe" [ref=e225] [cursor=pointer]:
+              - /url: /dayantorresart/reel/DYC1tKtvlIR/
+              - generic:
+                - generic:
+                  - generic:
+                    - img "Clipe"
+            - link "Clipe" [ref=e230] [cursor=pointer]:
+              - /url: /dayantorresart/reel/DYAPKg8QmCJ/
+              - generic:
+                - generic:
+                  - generic:
+                    - img "Clipe"
+        - generic [ref=e234]:
+          - link "Ver mais posts" [ref=e236] [cursor=pointer]:
+            - /url: /dayantorresart/
+            - generic [ref=e237]: Ver mais posts
+          - separator [ref=e238]

@@ -1,0 +1,397 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - heading "Sua música no Spotify esta semana — sem produtora, sem mensalidade e sem o erro que te faz perder royalties para sempre." [level=1] [ref=e4]:
+      - text: Sua música no Spotify esta semana —
+      - text: sem produtora, sem mensalidade
+      - text: e sem o erro que te faz
+      - emphasis [ref=e5]: perder royalties para sempre
+      - text: .
+    - paragraph [ref=e6]: Você assiste enquanto distribuo 2 músicas reais do zero — cada clique, cada campo, cada decisão na tela. Depois você faz o mesmo com a sua.
+    - generic [ref=e7]:
+      - iframe [ref=e8]:
+        - generic [active] [ref=f20e1]:
+          - generic "Player de vídeo do YouTube" [ref=f20e3]
+          - button "Mostrar controles do player" [ref=f20e7] [cursor=pointer]
+      - generic [ref=e9] [cursor=pointer]:
+        - generic:
+          - generic: 🔊
+          - paragraph: Seu vídeo já começou
+          - paragraph: Clique para ouvir
+    - link "Quero minha música no Spotify esta semana" [ref=e11] [cursor=pointer]:
+      - /url: "#checkout"
+  - generic [ref=e13]:
+    - paragraph [ref=e14]: Artistas distribuídos por Bia Song
+    - strong [ref=e17]: "[ Nomes dos artistas em breve ]"
+  - generic [ref=e19]:
+    - heading "Distribuir parece fácil. Até você descobrir que alguns erros não têm correção." [level=2] [ref=e20]:
+      - text: Distribuir parece fácil.
+      - text: Até você descobrir que alguns erros
+      - emphasis [ref=e21]: não têm correção
+      - text: .
+    - paragraph [ref=e22]: Os erros mais graves na distribuição musical não aparecem na hora — aparecem meses depois, quando a música já está no ar, o contrato já foi assinado e o dinheiro já foi embora.
+    - generic [ref=e23]:
+      - generic [ref=e24]:
+        - generic [ref=e25]: Erro irreversível
+        - generic [ref=e26]: 📄
+        - heading "Assinar um contrato sem entender o que está cedendo" [level=3] [ref=e27]
+        - paragraph [ref=e28]: Alguns contratos de distribuidoras transferem direitos que são seus por lei. Você assina, sobe a música — e só descobre quando vai cobrar um royalty que sumiu.
+      - generic [ref=e29]:
+        - generic [ref=e30]: Erro irreversível
+        - generic [ref=e31]: 🔢
+        - heading "Cadastrar o ISRC errado e perder royalties para sempre" [level=3] [ref=e32]
+        - paragraph [ref=e33]: O ISRC é o CPF da sua música. Cadastrado errado, sua faixa fica sem identificação nas plataformas — e os plays não geram renda nenhuma pra você.
+      - generic [ref=e34]:
+        - generic [ref=e35]: Erro irreversível
+        - generic [ref=e36]: 🚫
+        - heading "Não se filiar à associação de direitos autorais antes de distribuir" [level=3] [ref=e37]
+        - paragraph [ref=e38]: Se você distribui sem filiação, está cedendo execução pública de graça. Depois que a música está no ar, esse dinheiro não volta.
+    - generic [ref=e39]:
+      - generic [ref=e40]: 💡
+      - paragraph [ref=e41]:
+        - text: Esses erros acontecem porque a maioria aprende distribuição lendo tutorial no Google — sem nunca ter visto alguém
+        - strong [ref=e42]: fazer, com uma música real, na tela, do começo ao fim
+        - text: .
+  - generic [ref=e44]:
+    - generic [ref=e45]: Por que este método funciona
+    - heading "A maioria aprende distribuição lendo tutorial. Você vai ver acontecer — na tela, com músicas reais." [level=2] [ref=e46]:
+      - text: A maioria aprende distribuição lendo tutorial.
+      - text: Você vai
+      - emphasis [ref=e47]: ver acontecer — na tela, com músicas reais
+      - text: .
+    - paragraph [ref=e48]: Não tem teoria. Não tem slide. Você assiste enquanto distribuo 2 músicas reais do zero — cada clique, cada campo, cada decisão na tela. Em 2 distribuidoras diferentes. Em 2 associações diferentes. Você vê o erro antes de cometê-lo.
+    - generic [ref=e49]:
+      - generic [ref=e50]:
+        - generic [ref=e51]: Passo 1
+        - img [ref=e53]
+        - heading "Ver Acontecer" [level=3] [ref=e59]
+        - paragraph [ref=e60]: Você não lê sobre distribuição. Você assiste enquanto distribuo músicas reais na tela — do arquivo ao play, sem corte, sem pular nada.
+      - generic [ref=e61]: →
+      - generic [ref=e62]:
+        - generic [ref=e63]: Passo 2
+        - img [ref=e65]
+        - heading "Proteger Antes" [level=3] [ref=e71]
+        - paragraph [ref=e72]: Você entende os pontos que não têm volta — ISRC, obra vs fonograma, direitos autorais, escolha da distribuidora — antes de fazer o primeiro upload.
+      - generic [ref=e73]: →
+      - generic [ref=e74]:
+        - generic [ref=e75]: Passo 3
+        - img [ref=e77]
+        - heading "Replicar" [level=3] [ref=e83]
+        - paragraph [ref=e84]: Com o checklist na mão e a distribuidora exclusiva no bolso, você faz o mesmo processo com a sua música — certo, da primeira vez.
+    - generic [ref=e85]:
+      - generic [ref=e86]: 🎬
+      - paragraph [ref=e87]:
+        - text: A única experiência onde você
+        - strong [ref=e88]: assiste 2 músicas reais sendo distribuídas na tela, do zero ao play
+        - text: — e sai com a sua no ar, com os direitos protegidos, sem ter assinado nada que você vai se arrepender.
+  - generic [ref=e90]:
+    - heading "O que muda na sua vida depois do workshop" [level=2] [ref=e91]
+    - paragraph [ref=e92]: Não é só colocar a música no Spotify. É sair com os direitos protegidos, a renda blindada e o processo na mão para fazer de novo sempre que quiser.
+    - generic [ref=e93]:
+      - generic [ref=e94]:
+        - generic [ref=e95]: "01"
+        - heading "Toda vez que sua música tocar em qualquer lugar, você recebe" [level=3] [ref=e96]
+        - paragraph [ref=e97]: Execução pública gera dinheiro por lei. A maioria dos artistas não cobra porque não sabe como se filiar. Você vai sair sabendo — a filiação é de graça.
+      - generic [ref=e98]:
+        - generic [ref=e99]: "02"
+        - heading "Você nunca mais vai assinar um contrato sem saber o que está cedendo" [level=3] [ref=e100]
+        - paragraph [ref=e101]: A diferença entre obra e fonograma é a que separa quem assina contrato seguro de quem transfere direito sem perceber. Você entende de vez, em menos de 10 minutos.
+      - generic [ref=e102]:
+        - generic [ref=e103]: "03"
+        - heading "Sua música distribuída sem pagar mensalidade nem entrar em contrato que te prende" [level=3] [ref=e104]
+        - paragraph [ref=e105]: Você vai entender como cada distribuidora funciona, qual faz sentido pro seu momento agora — e vai receber uma indicação exclusiva de uma distribuidora sem taxa mensal.
+      - generic [ref=e106]:
+        - generic [ref=e107]: "04"
+        - heading "Você vê cada passo na tela — e replica com a sua música ainda essa semana" [level=3] [ref=e108]
+        - paragraph [ref=e109]: Do arquivo MP3 ao play no Spotify. Sem pular etapa, sem travamento, sem dúvida. O caminho feito na tela — e você vai embora sabendo fazer sozinho.
+  - generic [ref=e111]:
+    - heading "O que tem dentro do workshop" [level=2] [ref=e112]
+    - paragraph [ref=e113]: 12 aulas práticas. Direto ao ponto. Sem enrolação.
+    - generic [ref=e114]:
+      - generic [ref=e115]:
+        - generic [ref=e116]: "01"
+        - generic [ref=e117]: Boas-vindas ao workshop
+        - generic [ref=e118]: Introdução
+      - generic [ref=e119]:
+        - generic [ref=e120]: "02"
+        - generic [ref=e121]: O panorama da distribuição musical
+        - generic [ref=e122]: Fundamento
+      - generic [ref=e123]:
+        - generic [ref=e124]: "03"
+        - generic [ref=e125]: Como colocar sua música no Spotify do jeito certo
+        - generic [ref=e126]: Prática
+      - generic [ref=e127]:
+        - generic [ref=e128]: "04"
+        - generic [ref=e129]: Como escolher a distribuidora ideal para sua música
+        - generic [ref=e130]: Prática
+      - generic [ref=e131]:
+        - generic [ref=e132]: "05"
+        - generic [ref=e133]: "Obra e fonograma: a diferença que você precisa entender"
+        - generic [ref=e134]: Essencial
+      - generic [ref=e135]:
+        - generic [ref=e136]: "06"
+        - generic [ref=e137]: Distribuindo uma música real na prática
+        - generic [ref=e138]: Prática
+      - generic [ref=e139]:
+        - generic [ref=e140]: "07"
+        - generic [ref=e141]: O que você precisa resolver antes de distribuir
+        - generic [ref=e142]: Checklist
+      - generic [ref=e143]:
+        - generic [ref=e144]: "08"
+        - generic [ref=e145]: Do ISRC à distribuição pela AlgoHits na prática
+        - generic [ref=e146]: Prática
+      - generic [ref=e147]:
+        - generic [ref=e148]: "09"
+        - generic [ref=e149]: Checklist para lançar sua música com segurança
+        - generic [ref=e150]: Checklist
+      - generic [ref=e151]:
+        - generic [ref=e152]: "10"
+        - generic [ref=e153]: Dá para distribuir uma música sem ISRC?
+        - generic [ref=e154]: FAQ
+      - generic [ref=e155]:
+        - generic [ref=e156]: "11"
+        - generic [ref=e157]: Royalty share na prática
+        - generic [ref=e158]: Avançado
+      - generic [ref=e159]:
+        - generic [ref=e160]: "12"
+        - generic [ref=e161]: Parabéns — sua música está nas plataformas 🎉
+        - generic [ref=e162]: Conclusão
+  - generic [ref=e164]:
+    - heading "Pra quem é este workshop?" [level=2] [ref=e165]
+    - generic [ref=e166]:
+      - generic [ref=e167]:
+        - heading "✓ É pra você se…" [level=4] [ref=e168]
+        - list [ref=e169]:
+          - listitem [ref=e170]: ✓ Você tem música pronta e ainda não distribuiu
+          - listitem [ref=e171]: ✓ Você distribui mas não entende de verdade o que está fazendo
+          - listitem [ref=e172]: ✓ Você quer parar de depender só de show e cachê
+          - listitem [ref=e173]: ✓ Você quer ganhar royalties mesmo quando não está trabalhando
+          - listitem [ref=e174]: ✓ Você é produtor e quer lançar artistas nas plataformas
+          - listitem [ref=e175]: ✓ Você abriu a distribuidora, travou, fechou e não fez nada
+      - generic [ref=e176]:
+        - heading "✗ Não é pra você se…" [level=4] [ref=e177]
+        - list [ref=e178]:
+          - listitem [ref=e179]: ✗ Você já tem distribuidora consolidada e processo definido
+          - listitem [ref=e180]: ✗ Você não tem nenhuma música produzida ainda
+          - listitem [ref=e181]: ✗ Você está buscando aprender a produzir música — isso é distribuição
+  - generic [ref=e183]:
+    - heading "E ainda tem bônus:" [level=2] [ref=e184]
+    - generic [ref=e185]:
+      - generic [ref=e186]: 🎁
+      - generic [ref=e187]:
+        - generic [ref=e188]: Bônus exclusivo
+        - heading "Distribuidora exclusiva sem taxa mensal — só para alunos" [level=3] [ref=e189]
+        - paragraph [ref=e190]: Consegui um link exclusivo para os alunos deste workshop. Uma distribuidora que não cobra assinatura mensal e que você não vai encontrar em nenhum outro lugar. Você distribui, mantém 100% dos direitos. Um produtor cobraria pelo menos R$1.000 só pra te apresentar essa indicação.
+  - generic [ref=e192]:
+    - heading "Quem já distribuiu com Bia Song" [level=2] [ref=e193]
+    - paragraph [ref=e194]: Músicos e produtores que saíram do workshop com a música nas plataformas.
+    - generic [ref=e195]:
+      - generic [ref=e196]:
+        - iframe [ref=e198]
+        - generic [ref=e199]:
+          - paragraph [ref=e200]: MC Braz
+          - paragraph [ref=e201]: "\"A estratégia mudou meu game no Spotify...\""
+      - generic [ref=e202]:
+        - iframe [ref=e204]
+        - generic [ref=e205]:
+          - paragraph [ref=e206]: Sofia Brasil
+          - paragraph [ref=e207]: "\"Agora meu lançamento tem estratégia e resultado real.\""
+      - generic [ref=e208]:
+        - iframe [ref=e210]
+        - generic [ref=e211]:
+          - paragraph [ref=e212]: Juliana Arv
+          - paragraph [ref=e213]: "\"Entendi que não preciso viralizar para ter renda.\""
+  - generic [ref=e216]:
+    - generic [ref=e217]:
+      - generic [ref=e218]: Quem vai te ensinar
+      - heading "Bia Song" [level=2] [ref=e219]
+      - generic [ref=e220]:
+        - generic [ref=e221]:
+          - strong [ref=e222]: 50 bi+
+          - generic [ref=e223]: plays na editora
+        - generic [ref=e225]:
+          - strong [ref=e226]: 6.000+
+          - generic [ref=e227]: obras gerenciadas
+        - generic [ref=e229]:
+          - strong [ref=e230]: Obra Digital
+          - generic [ref=e231]: fundadora & diretora
+      - paragraph [ref=e232]:
+        - text: Formada em música, começou na indústria como
+        - strong [ref=e233]: A&R na ONErpm
+        - text: — onde foi responsável pela abertura do escritório de Belo Horizonte. Aprendeu de dentro como a máquina da música funciona de verdade.
+      - paragraph [ref=e234]:
+        - text: Foi
+        - strong [ref=e235]: A&R do Djonga
+        - text: no período de maior ascensão do artista. Hoje é empresária do
+        - strong [ref=e236]: MC Braz
+        - text: e responsável pelo digital do
+        - strong [ref=e237]: Eduardinho dos Teclados
+        - text: — nomes que somam centenas de milhões de streams.
+      - paragraph [ref=e238]:
+        - text: É fundadora e diretora executiva da
+        - strong [ref=e239]: Obra Digital
+        - text: ", uma das maiores editoras independentes do Brasil. Os autores que a editora cuida somam mais de"
+        - strong [ref=e240]: 50 bilhões de plays
+        - text: .
+      - paragraph [ref=e241]: Ela não ensina teoria. Ela ensina o que faz todos os dias.
+      - link "Quero minha música no Spotify esta semana →" [ref=e242] [cursor=pointer]:
+        - /url: "#checkout"
+    - generic [ref=e243]:
+      - img "Bia Song com MC Braz" [ref=e245]
+      - img "Bia Song — ObraDigital" [ref=e247]
+      - img "Bia Song — Revista Cool Empresarial" [ref=e249]
+  - generic [ref=e251]:
+    - heading "Mais de 300 Milhões de Streams. Artistas reais. Resultados reais." [level=2] [ref=e252]:
+      - text: Mais de
+      - emphasis [ref=e253]: 300 Milhões
+      - text: de Streams.
+      - text: Artistas reais. Resultados reais.
+    - paragraph [ref=e254]: Esses são alguns dos artistas que já distribuíram com a ObraDigital — e os números falam por si.
+    - generic [ref=e255]:
+      - generic [ref=e256]:
+        - generic [ref=e257]: 300M+
+        - generic [ref=e258]: Streams distribuídos
+      - generic [ref=e259]:
+        - generic [ref=e260]: 4M+
+        - generic [ref=e261]: Ouvintes mensais gerados
+      - generic [ref=e262]:
+        - generic [ref=e263]: 500+
+        - generic [ref=e264]: Artistas distribuídos
+    - generic [ref=e265]:
+      - generic [ref=e266]:
+        - img "MC Dena — 200 milhões de streams" [ref=e267]
+        - generic [ref=e268]:
+          - paragraph [ref=e269]: MC Dena
+          - paragraph [ref=e270]: 200.000.000
+          - paragraph [ref=e271]: streams
+      - generic [ref=e272]:
+        - img "MC Braz — 3 milhões de ouvintes mensais" [ref=e273]
+        - generic [ref=e274]:
+          - paragraph [ref=e275]: MC Braz
+          - paragraph [ref=e276]: 3.000.000
+          - paragraph [ref=e277]: ouvintes mensais
+      - generic [ref=e278]:
+        - img "AJuliaCosta — 40 milhões de streams" [ref=e279]
+        - generic [ref=e280]:
+          - paragraph [ref=e281]: AJuliaCosta
+          - paragraph [ref=e282]: 40.000.000
+          - paragraph [ref=e283]: streams
+      - generic [ref=e284]:
+        - img "Marcela — 15 milhões de streams" [ref=e285]
+        - generic [ref=e286]:
+          - paragraph [ref=e287]: Marcela
+          - paragraph [ref=e288]: 15.000.000
+          - paragraph [ref=e289]: streams
+    - generic [ref=e290]:
+      - img "Dashboard Spotify — crescimento real" [ref=e291]
+      - generic [ref=e292]:
+        - strong [ref=e293]: Não é sorte. É método.
+        - text: +1.195% de ouvintes mensais. +1.893% de streams. Em menos de 12 meses.
+    - link "Quero esses resultados para minha música ↗" [ref=e294] [cursor=pointer]:
+      - /url: "#checkout"
+  - generic [ref=e296]:
+    - heading "Tudo que você precisa para distribuir sua música esta semana — com os direitos protegidos" [level=2] [ref=e297]:
+      - text: Tudo que você precisa para distribuir
+      - text: sua música esta semana — com os direitos protegidos
+    - paragraph [ref=e298]:
+      - text: Um produtor musical cobra entre R$500 e R$2.000 para te ensinar esse processo — quando ensina.
+      - text: Hoje você aprende a fazer sozinho, por R$97.
+    - generic [ref=e299]:
+      - heading "Como Distribuir uma Música" [level=3] [ref=e300]
+      - list [ref=e301]:
+        - listitem [ref=e302]:
+          - generic [ref=e303]: ✓
+          - text: 12 aulas práticas — do zero ao play no Spotify
+        - listitem [ref=e304]:
+          - generic [ref=e305]: ✓
+          - text: Você assiste 2 músicas reais sendo distribuídas na tela
+        - listitem [ref=e306]:
+          - generic [ref=e307]: ✓
+          - text: Como se filiar à associação de direitos autorais e começar a receber execução pública
+        - listitem [ref=e308]:
+          - generic [ref=e309]: ✓
+          - text: A diferença entre obra e fonograma — a que salva contratos
+        - listitem [ref=e310]:
+          - generic [ref=e311]: ✓
+          - text: Como escolher a distribuidora certa sem mensalidade e sem contrato que te prende
+        - listitem [ref=e312]:
+          - generic [ref=e313]: ✓
+          - text: Checklist completo para lançar sua música sem erro
+        - listitem [ref=e314]:
+          - generic [ref=e315]: ✓
+          - text: "🎁 Bônus: indicação exclusiva de distribuidora sem taxa mensal — só para alunos"
+      - generic [ref=e316]:
+        - generic [ref=e317]: De R$ 397,00
+        - generic [ref=e318]:
+          - generic [ref=e319]: por 12x
+          - generic [ref=e320]: R$ 8,09
+        - generic [ref=e321]: ou R$ 97,00 à vista
+        - generic [ref=e322]: Acesso imediato · Vitalício
+      - paragraph [ref=e324]:
+        - text: "Menos que uma assinatura do Spotify. Com uma diferença: em vez de pagar pra"
+        - strong [ref=e325]: ouvir
+        - text: a música dos outros — você começa a
+        - emphasis [ref=e326]: receber pela sua
+        - text: .
+      - link "Quero minha música no Spotify esta semana" [ref=e327] [cursor=pointer]:
+        - /url: "#LINK-HOTMART-AQUI"
+      - generic [ref=e328]:
+        - generic [ref=e329]: 🛡️
+        - paragraph [ref=e330]:
+          - strong [ref=e331]: Garantia total de 15 dias.
+          - text: Não sentiu que valeu? Eu devolvo cada centavo. Sem burocracia, sem pergunta, sem precisar explicar nada.
+  - generic [ref=e332]:
+    - generic: Garantia
+    - generic [ref=e334]:
+      - generic [ref=e335]:
+        - generic [ref=e336]:
+          - generic [ref=e337]: ✦
+          - generic [ref=e338]: Garantia Blindada
+        - heading "Risco Zero:" [level=2] [ref=e339]
+        - generic [ref=e340]:
+          - paragraph [ref=e341]: Eu sei que investir no seu conhecimento pode gerar dúvidas — e é por isso que quero tirar todo o risco das suas mãos.
+          - paragraph [ref=e342]:
+            - text: Ao entrar no
+            - strong [ref=e343]: Como Distribuir uma Música
+            - text: ", você terá"
+            - strong [ref=e344]: 15 dias completos
+            - text: para assistir às aulas, aplicar o conteúdo e sentir se essa experiência realmente faz sentido para você.
+          - paragraph [ref=e345]: "\"Essa é a minha forma de mostrar o quanto acredito no poder transformador deste método e no impacto que ele pode ter nos seus resultados.\""
+        - link "Quero me inscrever sem nenhum risco →" [ref=e346] [cursor=pointer]:
+          - /url: "#checkout"
+      - generic [ref=e348]:
+        - generic [ref=e351]: "15"
+        - img [ref=e352]:
+          - generic [ref=e354]: • Dias de Garantia • Risco Zero •
+  - generic [ref=e356]:
+    - heading "Dúvidas frequentes" [level=2] [ref=e357]
+    - generic [ref=e358]:
+      - group [ref=e359]:
+        - generic "Preciso ter experiência com tecnologia para seguir o workshop? +" [ref=e360] [cursor=pointer]
+      - group [ref=e361]:
+        - generic "Em quanto tempo consigo colocar minha música nas plataformas? +" [ref=e362] [cursor=pointer]
+      - group [ref=e363]:
+        - generic "Vou precisar pagar mensalidade para a distribuidora? +" [ref=e364] [cursor=pointer]
+      - group [ref=e365]:
+        - generic "Funciona para qualquer gênero musical? +" [ref=e366] [cursor=pointer]
+      - group [ref=e367]:
+        - generic "O acesso expira? +" [ref=e368] [cursor=pointer]
+      - group [ref=e369]:
+        - generic "E se não valer? +" [ref=e370] [cursor=pointer]
+  - generic [ref=e372]:
+    - heading "Da próxima vez que alguém perguntar \"qual é o seu Spotify?\" você vai responder com o link." [level=2] [ref=e373]:
+      - text: Da próxima vez que alguém perguntar
+      - emphasis [ref=e374]: "\"qual é o seu Spotify?\""
+      - text: você vai responder com o link.
+    - paragraph [ref=e375]: Sua música está pronta. O que falta é só esse passo.
+    - link "Garantir minha vaga por R$97" [ref=e376] [cursor=pointer]:
+      - /url: "#checkout"
+    - generic [ref=e377]: Acesso imediato · Garantia de 15 dias · Sem risco
+  - contentinfo [ref=e378]:
+    - paragraph [ref=e379]:
+      - text: © 2025 Como Distribuir uma Música — Todos os direitos reservados
+      - link "Política de Privacidade" [ref=e380] [cursor=pointer]:
+        - /url: "#"
+      - text: ·
+      - link "Termos de Uso" [ref=e381] [cursor=pointer]:
+        - /url: "#"
+      - text: Este produto é distribuído pela Hotmart. Ao efetuar a compra você concorda com os termos da plataforma.

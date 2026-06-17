@@ -1,0 +1,40 @@
+[     732ms] [WARNING] %c[Função Depreciada] font-weight: bolder; Você está utilizando a função do Twig 'themePath', que encontra-se depreciada. Recomendamos que você ajuste o arquivo '/View/Elements/snippets/modal-email.html' de acordo com a nossa base de conhecimento. 
+Acesse Agora: https://partners.tray.com.br/v/themes/construindo-seu-template/referencias/objetos/themepath @ https://www.nomadehome.com.br/moveis:248
+[     743ms] [WARNING] %c[Função Depreciada] font-weight: bolder; Você está utilizando a função do Twig 'themePath', que encontra-se depreciada. Recomendamos que você ajuste o arquivo '/View/Elements/header.html' de acordo com a nossa base de conhecimento. 
+Acesse Agora: https://partners.tray.com.br/v/themes/construindo-seu-template/referencias/objetos/themepath @ https://www.nomadehome.com.br/moveis:1200
+[    1424ms] [LOG] JQMIGRATE: Migrate is installed with logging active, version 3.3.2 @ https://images.tcdn.com.br/commerce/assets/store/js/dist/jquery-migrate-3.3.2.min.js?643f4dd63f64f6c6c6ceda343cbcaea5:0
+[    1503ms] [WARNING] JQMIGRATE: jQuery.fn.bind() is deprecated @ https://images.tcdn.com.br/commerce/assets/store/js/dist/jquery-migrate-3.3.2.min.js?643f4dd63f64f6c6c6ceda343cbcaea5:0
+[    1504ms] [LOG] Pricing Module @ https://images.tcdn.com.br/commerce/assets/store/js/dist/application-2.0.min.js?643f4dd63f64f6c6c6ceda343cbcaea5:0
+[    1608ms] [WARNING] %c[Função Depreciada] font-weight: bolder; Você está utilizando a função do Twig 'themePath', que encontra-se depreciada. Recomendamos que você ajuste o arquivo '/View/Elements/scripts.html' de acordo com a nossa base de conhecimento. 
+Acesse Agora: https://partners.tray.com.br/v/themes/construindo-seu-template/referencias/objetos/themepath @ https://www.nomadehome.com.br/moveis:6901
+[    1699ms] [INFO] [Store] module [render] successfully initialized. @ https://images.tcdn.com.br/commerce/assets/store/js/dist/application-2.0.min.js?643f4dd63f64f6c6c6ceda343cbcaea5:0
+[    1816ms] [INFO] ACTION Init @ https://smart-xp.wake.tech/tags/smb.tray.min.js?v=22:0
+[    1952ms] [INFO] [Render] Successfully rendered! (snippets/cart_preview) @ https://images.tcdn.com.br/commerce/assets/store/js/dist/application-2.0.min.js?643f4dd63f64f6c6c6ceda343cbcaea5:0
+[    1954ms] [INFO] [CartPreview] module [modal] successfully initialized. @ https://images.tcdn.com.br/commerce/assets/store/js/dist/application-2.0.min.js?643f4dd63f64f6c6c6ceda343cbcaea5:0
+[    1954ms] [INFO] [Store] module [cartPreview] successfully initialized. @ https://images.tcdn.com.br/commerce/assets/store/js/dist/application-2.0.min.js?643f4dd63f64f6c6c6ceda343cbcaea5:0
+[    2028ms] [LOG] UNOMI Inject SDK @ https://smart-xp.wake.tech/tags/smb.tray.min.js?v=22:0
+[    2080ms] [LOG] UNOMI Configs {unomiConfig: Object} @ https://smart-xp.wake.tech/tags/smb.tray.min.js?v=22:0
+[    2084ms] [INFO] UNOMI Init tracker @ https://smart-xp.wake.tech/tags/smb.tray.min.js?v=22:0
+[    2128ms] [INFO] [WEM] registering context load callback: Default tracker @ https://smb-data-exp.wake.tech/tag/unomi-web-tracker.js:3436
+[    2129ms] [INFO] UNOMI Start tracker @ https://smart-xp.wake.tech/tags/smb.tray.min.js?v=22:0
+[    2129ms] [INFO] TRAY Start @ https://smart-xp.wake.tech/tags/smb.tray.min.js?v=22:0
+[    2130ms] [LOG] iframe lightbox JSHandle@node JSHandle@node @ https://smart-xp.wake.tech/tags/smb.tray.min.js?v=22:0
+[    2137ms] [INFO] [WEM] digitalData object present but not loaded, registering sort callback... @ https://smb-data-exp.wake.tech/tag/unomi-web-tracker.js:3474
+[    2149ms] [INFO] [WEM] context loading... @ https://smb-data-exp.wake.tech/tag/unomi-web-tracker.js:2633
+[    2366ms] [INFO] [WEM] Found context server load callbacks, calling now... @ https://smb-data-exp.wake.tech/tag/unomi-web-tracker.js:3524
+[    2367ms] [INFO] [WEM] executing context load callback: Default tracker @ https://smb-data-exp.wake.tech/tag/unomi-web-tracker.js:3574
+[    2368ms] [INFO] [WEM] Check for tracked conditions and attach related HTML listeners @ https://smb-data-exp.wake.tech/tag/unomi-web-tracker.js:3162
+[    2499ms] [LOG] event handler Checking event... @ https://smart-xp.wake.tech/tags/smb.tray.min.js?v=22:0
+[    3140ms] [LOG] close element found @ https://smb-data-exp.wake.tech/plugins/lightbox.js:191
+[    3483ms] [WARNING] JQMIGRATE: jQuery.fn.delegate() is deprecated @ https://images.tcdn.com.br/commerce/assets/store/js/dist/jquery-migrate-3.3.2.min.js?643f4dd63f64f6c6c6ceda343cbcaea5:0
+[    3490ms] [INFO] [DataLayer] UpdateGTM executed. @ https://www.nomadehome.com.br/mvc/store/1208016/google_tag_manager/updateGTM.js?1779115889942:11
+[    4041ms] [LOG] event handler Checking event... @ https://smart-xp.wake.tech/tags/smb.tray.min.js?v=22:0
+[    4041ms] [LOG] Channel Could not parse event data TypeError: Cannot read properties of undefined (reading 'event')
+    at t.LightBoxInit.receiveMessage (https://smart-xp.wake.tech/tags/smb.tray.min.js?v=22:1:12909) @ https://smart-xp.wake.tech/tags/smb.tray.min.js?v=22:0
+[    9098ms] [WARNING] The resource https://images.tcdn.com.br/files/1208016/themes/105/css/fonts/nunitosans-regular.woff2?9073254c266fe3ab3cf1e35905705685 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.nomadehome.com.br/moveis:0
+[    9099ms] [WARNING] The resource https://images.tcdn.com.br/files/1208016/themes/105/css/fonts/nunito-bold.woff2?9073254c266fe3ab3cf1e35905705685 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.nomadehome.com.br/moveis:0
+[    9099ms] [WARNING] The resource https://images.tcdn.com.br/files/1208016/themes/105/css/fonts/nunitosans-bold.woff2?9073254c266fe3ab3cf1e35905705685 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.nomadehome.com.br/moveis:0
+[   12372ms] [LOG] UNOMI Send plugin event {pluginEvent: Object} @ https://smart-xp.wake.tech/tags/smb.tray.min.js?v=22:0
+[   15544ms] [WARNING] The resource https://images.tcdn.com.br/files/1208016/themes/105/css/fonts/nunitosans-regular.woff2?9073254c266fe3ab3cf1e35905705685 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.nomadehome.com.br/moveis:0
+[   15544ms] [WARNING] The resource https://images.tcdn.com.br/files/1208016/themes/105/css/fonts/nunito-bold.woff2?9073254c266fe3ab3cf1e35905705685 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.nomadehome.com.br/moveis:0
+[   15545ms] [WARNING] The resource https://images.tcdn.com.br/files/1208016/themes/105/css/fonts/nunitosans-bold.woff2?9073254c266fe3ab3cf1e35905705685 was preloaded using link preload but not used within a few seconds from the window's load event. Please make sure it has an appropriate `as` value and it is preloaded intentionally. @ https://www.nomadehome.com.br/moveis:0

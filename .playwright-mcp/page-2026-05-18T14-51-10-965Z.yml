@@ -1,0 +1,275 @@
+- generic [ref=e1]:
+  - link "Pular para o conteúdo" [ref=e2] [cursor=pointer]:
+    - /url: "#MainContent"
+  - banner [ref=e5]:
+    - navigation [ref=e6]:
+      - list [ref=e7]:
+        - listitem [ref=e8]:
+          - link "Ver Produtos" [ref=e9] [cursor=pointer]:
+            - /url: /collections/all
+            - generic [ref=e10]: Ver Produtos
+        - listitem [ref=e11]:
+          - group [ref=e13]:
+            - button "Ambientes" [ref=e14] [cursor=pointer]:
+              - generic [ref=e15]: Ambientes
+              - img [ref=e16]
+        - listitem [ref=e17]:
+          - group [ref=e19]:
+            - button "Acessórios" [ref=e20] [cursor=pointer]:
+              - generic [ref=e21]: Acessórios
+              - img [ref=e22]
+        - listitem [ref=e23]:
+          - group [ref=e25]:
+            - button "Atendimento" [ref=e26] [cursor=pointer]:
+              - generic [ref=e27]: Atendimento
+              - img [ref=e28]
+    - heading "Dock2" [level=1] [ref=e29]:
+      - link "Dock2" [ref=e30] [cursor=pointer]:
+        - /url: /
+        - img "Dock2" [ref=e32]
+    - generic [ref=e33]:
+      - group [ref=e35]:
+        - button "Pesquisar" [ref=e36] [cursor=pointer]:
+          - img [ref=e38]
+      - link "Fazer login" [ref=e40] [cursor=pointer]:
+        - /url: https://dock2.com.br/customer_authentication/redirect?locale=pt-BR&region_country=BR
+        - img [ref=e42]
+        - generic [ref=e43]: Fazer login
+      - button "Carrinho" [ref=e44] [cursor=pointer]:
+        - img [ref=e45]
+        - generic [ref=e47]: Carrinho
+  - main [ref=e48]:
+    - generic [ref=e53]:
+      - heading "Design e conforto agora ao alcance de todos." [level=2] [ref=e54]
+      - paragraph [ref=e56]: A DOCK2 é um outlet online focado em móveis reembalados.
+    - generic [ref=e59]:
+      - heading "AS MELHORES OPORTUNIDADES" [level=2] [ref=e61]
+      - list "Controle deslizante" [ref=e63]:
+        - listitem [ref=e64]:
+          - generic [ref=e66]:
+            - img "Homedock Poltrona Nadia - Linho Fendi c/ PU Preto Mobel" [ref=e70]
+            - generic [ref=e73]:
+              - heading "Reembalado - Poltrona Nadia - Linho Fendi c/ PU Preto" [level=3] [ref=e74]:
+                - link "Reembalado - Poltrona Nadia - Linho Fendi c/ PU Preto" [ref=e75] [cursor=pointer]:
+                  - /url: /products/reembalados-poltrona-nadia-linho-fendi-c-pu-preto
+              - generic [ref=e79]:
+                - generic [ref=e80]: Preço normal
+                - generic [ref=e81]: R$ 1.014,50
+        - listitem [ref=e82]:
+          - generic [ref=e84]:
+            - img "Homedock Sofá Wood 242 cm - Couro Fendi Minuano" [ref=e88]
+            - generic [ref=e91]:
+              - heading "Reembalado - Sofá Wood 242 cm - Couro Fendi" [level=3] [ref=e92]:
+                - link "Reembalado - Sofá Wood 242 cm - Couro Fendi" [ref=e93] [cursor=pointer]:
+                  - /url: /products/reembalado-sofa-wood-242-cm-couro-fendi
+              - generic [ref=e97]:
+                - generic [ref=e98]: Preço normal
+                - generic [ref=e99]: R$ 2.954,39
+        - listitem [ref=e100]:
+          - generic [ref=e102]:
+            - img "Reembalado - Cadeira Grisha - PU Verde Musgo c/ Preto" [ref=e106]
+            - generic [ref=e109]:
+              - heading "Reembalado - Cadeira Grisha - PU Verde Musgo c/ Preto" [level=3] [ref=e110]:
+                - link "Reembalado - Cadeira Grisha - PU Verde Musgo c/ Preto" [ref=e111] [cursor=pointer]:
+                  - /url: /products/reembalado-cadeira-grisha-pu-verde-musgo-c-preto
+              - generic [ref=e115]:
+                - generic [ref=e116]: Preço normal
+                - generic [ref=e117]: R$ 800,10
+        - listitem [ref=e118]:
+          - generic [ref=e120]:
+            - img "Mostruário - Banqueta Alta Frank - PU Caramelo c/ Preto" [ref=e124]
+            - generic [ref=e127]:
+              - heading "Mostruário - Banqueta Alta Frank - PU Caramelo c/ Preto" [level=3] [ref=e128]:
+                - link "Mostruário - Banqueta Alta Frank - PU Caramelo c/ Preto" [ref=e129] [cursor=pointer]:
+                  - /url: /products/kit-com-2-banquetas-alta-frank-pu-caramelo-c-preto-copia
+              - generic [ref=e133]:
+                - generic [ref=e134]: Preço normal
+                - generic [ref=e135]: R$ 314,46
+        - listitem [ref=e136]:
+          - generic [ref=e138]:
+            - img "Homedock Cômoda Sapateira Sid c/ 4 Gavetas e 2 Nichos Branco Decoratta" [ref=e142]
+            - generic [ref=e145]:
+              - heading "Mostruário - Cômoda Sapateira Sid c/ 4 Gavetas e 2 Nichos Branco" [level=3] [ref=e146]:
+                - link "Mostruário - Cômoda Sapateira Sid c/ 4 Gavetas e 2 Nichos Branco" [ref=e147] [cursor=pointer]:
+                  - /url: /products/mostruario-comoda-sapateira-sid-c-4-gavetas-e-2-nichos-branco
+              - generic [ref=e151]:
+                - generic [ref=e152]: Preço normal
+                - generic [ref=e153]: R$ 787,38
+        - listitem [ref=e154]:
+          - generic [ref=e156]:
+            - img "Homedock Sofá Geon 250 cm - Boucle Cinza Claro Criativa" [ref=e160]
+            - generic [ref=e163]:
+              - heading "Reembalado - Sofá Geon 250 cm - Boucle Cinza Claro" [level=3] [ref=e164]:
+                - link "Reembalado - Sofá Geon 250 cm - Boucle Cinza Claro" [ref=e165] [cursor=pointer]:
+                  - /url: /products/reembalado-sofa-geon-250-cm-boucle-cinza-claro
+              - generic [ref=e169]:
+                - generic [ref=e170]: Preço normal
+                - generic [ref=e171]: R$ 2.109,60
+        - listitem [ref=e172]:
+          - generic [ref=e174]:
+            - img "Reembalado - Cadeira de Aço Estofada Beetle - Dourado c/ Veludo Fendi" [ref=e178]
+            - generic [ref=e181]:
+              - heading "Reembalado - Cadeira de Aço Estofada Beetle - Dourado c/ Veludo Fendi" [level=3] [ref=e182]:
+                - link "Reembalado - Cadeira de Aço Estofada Beetle - Dourado c/ Veludo Fendi" [ref=e183] [cursor=pointer]:
+                  - /url: /products/reembalado-cadeira-de-aco-estofada-beetle-dourado-c-veludo-fendi
+              - generic [ref=e187]:
+                - generic [ref=e188]: Preço normal
+                - generic [ref=e189]: R$ 274,13
+        - listitem [ref=e190]:
+          - generic [ref=e192]:
+            - img "Reembalado - Cadeira com Palhinha Saga - Natural c/ PU Off White" [ref=e196]
+            - generic [ref=e199]:
+              - heading "Reembalado - Cadeira com Palhinha Saga - Natural c/ PU Off White" [level=3] [ref=e200]:
+                - link "Reembalado - Cadeira com Palhinha Saga - Natural c/ PU Off White" [ref=e201] [cursor=pointer]:
+                  - /url: /products/reembalado-cadeira-com-palhinha-saga-natural-c-pu-off-white
+              - generic [ref=e205]:
+                - generic [ref=e206]: Preço normal
+                - generic [ref=e207]: R$ 374,03
+        - listitem [ref=e208]:
+          - generic [ref=e210]:
+            - img "Reembalado - Cadeira Felix - PU Carbono c/ Preto" [ref=e214]
+            - generic [ref=e217]:
+              - heading "Reembalado - Cadeira Felix - PU Carbono c/ Preto" [level=3] [ref=e218]:
+                - link "Reembalado - Cadeira Felix - PU Carbono c/ Preto" [ref=e219] [cursor=pointer]:
+                  - /url: /products/reembalado-cadeira-felix-pu-carbono-c-preto
+              - generic [ref=e223]:
+                - generic [ref=e224]: Preço normal
+                - generic [ref=e225]: R$ 675,39
+        - listitem [ref=e226]:
+          - generic [ref=e228]:
+            - img "Reembalado - Cadeira Maytê - Natural c/ Linho Areia" [ref=e232]
+            - generic [ref=e235]:
+              - heading "Reembalado - Cadeira Maytê - Natural c/ Linho Areia" [level=3] [ref=e236]:
+                - link "Reembalado - Cadeira Maytê - Natural c/ Linho Areia" [ref=e237] [cursor=pointer]:
+                  - /url: /products/reembalado-cadeira-mayte-natural-c-linho-areia-1
+              - generic [ref=e241]:
+                - generic [ref=e242]: Preço normal
+                - generic [ref=e243]: R$ 383,30
+      - link "Ver todos os produtos da coleção Outlet 2025 - Qualidade que cabe no seu bolso!" [ref=e245] [cursor=pointer]:
+        - /url: /collections/outlet-da-dock
+        - text: Ver tudo
+    - list [ref=e250]:
+      - listitem [ref=e251]:
+        - generic [ref=e255]:
+          - heading "Uma segunda chance ao design." [level=3] [ref=e256]
+          - paragraph [ref=e258]: Somos um e-commerce especializado na venda de móveis reembalados ou provenientes de saldos de indústria. Proporcionamos a chance de esses produtos serem acessados por quem sempre busca o melhor custo benefício.
+      - listitem [ref=e259]:
+        - generic [ref=e263]:
+          - heading "Mas o que são produtos reembalados?" [level=3] [ref=e264]
+          - paragraph [ref=e266]: São produtos vendidos online que foram devolvidos por consumidores por arrependimento. Esses são devidamente inspecionados, classificados e disponibilizados em nosso site com um desconto incrível.
+    - heading "\"Dar uma nova chance aos produtos, às pessoas e ao planeta. Esta é nossa missão. Acreditamos em um futuro sustentável, pois sabemos que por trás de cada produto existem muitas histórias.\"" [level=2] [ref=e272]
+    - generic [ref=e281]:
+      - heading "Bom para as pessoas e para o planeta." [level=2] [ref=e282]
+      - generic [ref=e283]:
+        - paragraph [ref=e284]: As devoluções causadas por arrependimento geram milhões de produtos descartados todos os anos.
+        - paragraph [ref=e285]: Além do prejuízo econômico, este é um problema de grande impacto ecológico enfrentado em todo o mundo.
+        - paragraph [ref=e286]: Comprando na DOCK2 você economiza e ajuda a dar uma segunda chance a esses produtos, evitando desperdícios.
+    - generic [ref=e291]:
+      - heading "Sabe o que é Re-commerce?" [level=2] [ref=e292]
+      - generic [ref=e293]:
+        - paragraph [ref=e294]: Re-commerce é a prática de comprar e vender produtos usados ou recondicionados de forma online. Este mercado inclui itens como eletrônicos, roupas, móveis e outros bens, permitindo a reutilização e a redução de desperdício.
+        - paragraph [ref=e295]: Esta prática está em alta na Europa e EUA e somos pioneiros em trazer o conceito para o mercado de móveis brasileiro.
+  - contentinfo [ref=e297]:
+    - generic [ref=e298]:
+      - generic [ref=e299]:
+        - generic [ref=e304]:
+          - heading "Atendimento" [level=3] [ref=e305]:
+            - strong [ref=e306]: Atendimento
+          - paragraph [ref=e307]:
+            - text: Seg. a Sex. 8h às 18h
+            - link "dock2@hmdk.digital" [ref=e308] [cursor=pointer]:
+              - /url: /pages/central-de-atendimento
+            - text: CNPJ 18.988.586/0003-71
+        - generic [ref=e309]:
+          - heading "Institucional" [level=2] [ref=e310]
+          - list [ref=e311]:
+            - listitem [ref=e312]:
+              - link "Rastreio de pedido" [ref=e313] [cursor=pointer]:
+                - /url: /pages/rastreamento
+            - listitem [ref=e314]:
+              - link "Central de Atendimento" [ref=e315] [cursor=pointer]:
+                - /url: /pages/central-de-atendimento
+            - listitem [ref=e316]:
+              - link "Termos de Serviço" [ref=e317] [cursor=pointer]:
+                - /url: /policies/terms-of-service
+            - listitem [ref=e318]:
+              - link "FAQ - LGPD" [ref=e319] [cursor=pointer]:
+                - /url: /pages/faq
+        - generic [ref=e320]:
+          - heading "Políticas" [level=2] [ref=e321]
+          - list [ref=e322]:
+            - listitem [ref=e323]:
+              - link "Política de Devolução" [ref=e324] [cursor=pointer]:
+                - /url: /pages/politica-de-devolucao
+            - listitem [ref=e325]:
+              - link "Política de Reembolso" [ref=e326] [cursor=pointer]:
+                - /url: /policies/refund-policy
+            - listitem [ref=e327]:
+              - link "Política de Montagem" [ref=e328] [cursor=pointer]:
+                - /url: /pages/politica-de-montagem
+            - listitem [ref=e329]:
+              - link "Política de Cookies" [ref=e330] [cursor=pointer]:
+                - /url: /pages/politica-de-cookies
+            - listitem [ref=e331]:
+              - link "Política de Privacidade" [ref=e332] [cursor=pointer]:
+                - /url: /pages/politica-de-privacidade
+            - listitem [ref=e333]:
+              - link "Política de Entrega" [ref=e334] [cursor=pointer]:
+                - /url: /pages/politica-de-entrega
+      - generic [ref=e335]:
+        - generic [ref=e336]:
+          - heading "Não perca as novidades!" [level=2] [ref=e337]
+          - generic [ref=e340]:
+            - textbox "E-mail" [ref=e341]
+            - generic: E-mail
+            - button "Assinar" [ref=e342] [cursor=pointer]:
+              - img [ref=e343]
+        - list [ref=e344]:
+          - listitem [ref=e345]:
+            - link "Facebook" [ref=e346] [cursor=pointer]:
+              - /url: https://www.facebook.com/dock2oficial
+              - img [ref=e347]
+              - generic [ref=e349]: Facebook
+          - listitem [ref=e350]:
+            - link "Instagram" [ref=e351] [cursor=pointer]:
+              - /url: https://instagram.com/dock2oficial
+              - img [ref=e352]
+              - generic [ref=e354]: Instagram
+    - generic [ref=e355]:
+      - generic [ref=e358]:
+        - generic [ref=e359]: Formas de pagamento
+        - list [ref=e360]:
+          - listitem [ref=e361]:
+            - img "American Express" [ref=e362]
+          - listitem [ref=e371]:
+            - img "Diners Club" [ref=e372]
+          - listitem [ref=e376]:
+            - img "Discover" [ref=e377]
+          - listitem [ref=e386]:
+            - img "Elo" [ref=e387]
+          - listitem [ref=e394]:
+            - img "Hypercard" [ref=e395]
+          - listitem [ref=e401]:
+            - img "JCB" [ref=e402]
+          - listitem [ref=e411]:
+            - img "Mastercard" [ref=e412]
+          - listitem [ref=e418]:
+            - img "Visa" [ref=e419]
+      - generic [ref=e424]:
+        - generic [ref=e425]:
+          - text: © 2026,
+          - link "Dock2" [ref=e426] [cursor=pointer]:
+            - /url: /
+        - link "Com tecnologia da Shopify" [ref=e428] [cursor=pointer]:
+          - /url: https://pt.shopify.com?utm_campaign=poweredby&utm_medium=shopify&utm_source=onlinestore
+  - region "Cookie banner" [active] [ref=e429]:
+    - dialog "Privacidade" [ref=e430]:
+      - generic [ref=e432]:
+        - generic [ref=e435]:
+          - text: Ao clicar em “Aceitar todos os cookies”, você concorda com o armazenamento de cookies no seu dispositivo para melhorar a navegação no site, analisar o uso do site e ajudar em nossos esforços de marketing. Acesse nossa
+          - link "Mais informações sobre a sua privacidade, abre em uma nova guia" [ref=e436] [cursor=pointer]:
+            - /url: https://dock2.com.br/pages/politica-de-privacidade
+            - text: política de privacidade.
+        - generic [ref=e438]:
+          - button "Definições de cookies" [ref=e439] [cursor=pointer]
+          - button "Aceitar todos" [ref=e440] [cursor=pointer]

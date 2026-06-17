@@ -1,0 +1,103 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e10]:
+      - link [ref=e13] [cursor=pointer]:
+        - /url: https://atacadaodosmoveis.com.br
+      - text:  
+      - link "RCS/SMS" [ref=e16] [cursor=pointer]:
+        - /url: "#elementor-action%3Aaction%3Dpopup%3Aopen%26settings%3DeyJpZCI6Ijg5OSIsInRvZ2dsZSI6ZmFsc2V9"
+        - generic [ref=e18]: RCS/SMS
+      - link "WhatsApp" [ref=e21] [cursor=pointer]:
+        - /url: "#elementor-action%3Aaction%3Dpopup%3Aopen%26settings%3DeyJpZCI6IjgwMiIsInRvZ2dsZSI6ZmFsc2V9"
+        - generic [ref=e23]: WhatsApp
+    - generic [ref=e25]:
+      - heading "No Atacadão dos Móveis, é preço de Black Friday todos os dias!" [level=2] [ref=e28]
+      - link "Encontrar a loja mais próxima!" [ref=e31] [cursor=pointer]:
+        - /url: /#lojas
+        - generic [ref=e33]: Encontrar a loja mais próxima!
+    - generic [ref=e41]:
+      - generic [ref=e42]:
+        - generic [ref=e47]: 
+        - heading "Parcele em até" [level=2] [ref=e50]
+        - heading "12x sem juros" [level=2] [ref=e53]
+      - generic [ref=e54]:
+        - generic [ref=e59]: 
+        - heading "Produtos a" [level=2] [ref=e62]
+        - heading "pronta entrega" [level=2] [ref=e65]
+      - generic [ref=e66]:
+        - generic [ref=e71]: 
+        - heading "Novas promoções" [level=2] [ref=e74]
+        - heading "Todos os dias!" [level=2] [ref=e77]
+    - generic [ref=e81]:
+      - heading "Quem Somos" [level=2] [ref=e84]
+      - generic [ref=e86]:
+        - paragraph [ref=e87]: Com mais de 50 anos de história no Rio Grande do Sul, o Atacadão dos Móveis é uma das maiores redes de varejo de móveis da região, focado em oferecer soluções completas para o lar com qualidade e agilidade. Desde 2015, nossa missão é transformar o sonho da casa ideal em realidade, proporcionando móveis para todos os ambientes, incluindo cozinha, dormitórios, sala de estar, sofás e banheiro.
+        - paragraph [ref=e88]: Nosso compromisso é resolver todas as necessidades em móveis com os melhores preços do mercado e entrega imediata, garantindo que cada cliente possa mobiliar seu lar com rapidez e praticidade. Atendemos principalmente ao público das classes C e D, mas nossa variedade de produtos também atrai clientes da classe B, oferecendo um amplo mix para atender diferentes estilos e necessidades.
+        - paragraph [ref=e89]: "O Atacadão dos Móveis é mais do que uma loja de móveis: é o parceiro ideal para quem busca qualidade, preço justo e a agilidade de um estoque sempre disponível para atender ao seu lar."
+    - heading "Encontre a loja mais próxima de você!" [level=2] [ref=e94]
+    - generic [ref=e106]:
+      - heading "CONHEÇA AS CATEGORIAS DE PRODUTOS QUE TRABALHAMOS!" [level=2] [ref=e109]
+      - generic [ref=e110]:
+        - generic [ref=e111]:
+          - heading "Cozinha completa" [level=2] [ref=e116]
+          - heading "Cozinhas modernas e funcionais com nossos conjuntos completos. Designs premium, alta durabilidade e praticidade para o seu dia a dia." [level=2] [ref=e119]
+          - link "Saiba mais" [ref=e122] [cursor=pointer]:
+            - /url: https://wa.me/5551995222350
+            - generic [ref=e124]: Saiba mais
+        - generic [ref=e125]:
+          - heading "Camas" [level=2] [ref=e130]
+          - heading "Encontre a cama ideal, com o preço ideal. Escolha sua cama box ou baú e garanta o melhor conforto para noites de sono tranquilas." [level=2] [ref=e133]
+          - link "Saiba mais" [ref=e136] [cursor=pointer]:
+            - /url: https://wa.me/5551995222350
+            - generic [ref=e138]: Saiba mais
+        - generic [ref=e139]:
+          - heading "Sofás" [level=2] [ref=e144]
+          - heading "Adicione conforto à sua sala com nossos sofás. São várias opções de modelos e cores para deixar seu ambiente mais bonito e acolhedor." [level=2] [ref=e147]
+          - link "Saiba mais" [ref=e150] [cursor=pointer]:
+            - /url: https://wa.me/5551995222350
+            - generic [ref=e152]: Saiba mais
+        - generic [ref=e153]:
+          - heading "Escritórios" [level=2] [ref=e158]
+          - heading "Monte seu home office com nossos móveis para escritório. Temos mesas e cadeiras que ajudam você a trabalhar com conforto e praticidade." [level=2] [ref=e161]
+          - link "Saiba mais" [ref=e164] [cursor=pointer]:
+            - /url: https://wa.me/5551995222350
+            - generic [ref=e166]: Saiba mais
+        - generic [ref=e167]:
+          - heading "Roupeiros" [level=2] [ref=e172]
+          - heading "Guarda-roupas espaçosas e bem projetadas para manter suas roupas organizadas. Soluções inteligentes para qualquer espaço e necessidade." [level=2] [ref=e175]
+          - link "Saiba mais" [ref=e178] [cursor=pointer]:
+            - /url: https://wa.me/5551995222350
+            - generic [ref=e180]: Saiba mais
+        - generic [ref=e181]:
+          - heading "Racks" [level=2] [ref=e186]
+          - heading "Rack com grande variedade de cores e tamanhos para você escolher o que mais combina com a sua sala." [level=2] [ref=e189]
+          - link "Saiba mais" [ref=e192] [cursor=pointer]:
+            - /url: https://wa.me/5551995222350
+            - generic [ref=e194]: Saiba mais
+        - generic [ref=e195]:
+          - heading "Mesas" [level=2] [ref=e200]
+          - heading "Mesas de diferentes tamanhos, com vários lugares. Também escolha entre o formato que quiser e a cor que mais combinar com seu ambiente." [level=2] [ref=e203]
+          - link "Saiba mais" [ref=e206] [cursor=pointer]:
+            - /url: https://wa.me/5551995222350
+            - generic [ref=e208]: Saiba mais
+        - generic [ref=e209]:
+          - heading "Banheiros" [level=2] [ref=e214]
+          - heading "Descubra a versatilidade em banheiros! Explore nossa variedade com armários embutidos, prateleiras e unidades de armazenamento que combinam estilo e praticidade, mantendo seu banheiro organizado e atraente." [level=2] [ref=e217]
+          - link "Saiba mais" [ref=e220] [cursor=pointer]:
+            - /url: https://wa.me/5551995222350
+            - generic [ref=e222]: Saiba mais
+        - generic [ref=e223]:
+          - heading "Poltronas" [level=2] [ref=e228]
+          - heading "Peças essenciais que unem conforto, estilo e funcionalidade, criando o refúgio perfeito para relaxamento." [level=2] [ref=e231]
+          - link "Saiba mais" [ref=e234] [cursor=pointer]:
+            - /url: https://wa.me/5551995222350
+            - generic [ref=e236]: Saiba mais
+    - generic [ref=e239]:
+      - heading "2026 © Atacadão dos Móveis - CNPJ 37.065.791/0001-48. A P Pilger da Costa Móveis. Todos os direitos reservados." [level=2] [ref=e243]
+      - heading "Desenvolvido por" [level=2] [ref=e247]:
+        - link "Desenvolvido por" [ref=e248] [cursor=pointer]:
+          - /url: https://empatiamkt.com.br
+        - link [ref=e249] [cursor=pointer]:
+          - /url: https://empatiamkt.com.br
+          - img [ref=e250]
+  - generic [ref=e251]: mobile

@@ -1,0 +1,39 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e4]:
+    - contentinfo [ref=e5]:
+      - generic [ref=e6]:
+        - generic [ref=e7]:
+          - link "Pinheiro Neto Advogados" [ref=e9] [cursor=pointer]:
+            - /url: ""
+            - img "Pinheiro Neto Advogados" [ref=e10]
+          - list [ref=e12]:
+            - listitem [ref=e13]:
+              - link [ref=e14] [cursor=pointer]:
+                - /url: /contato
+            - listitem [ref=e15]:
+              - link [ref=e16] [cursor=pointer]:
+                - /url: https://br.linkedin.com/company/pinheironeto
+            - listitem [ref=e17]:
+              - link [ref=e18] [cursor=pointer]:
+                - /url: https://www.youtube.com/c/PinheiroNetoAdvogados
+        - generic [ref=e19]:
+          - paragraph [ref=e21]: Pinheiro Neto Advogados. Todos os direitos reservados.
+          - paragraph [ref=e23]:
+            - link "Política de Privacidade e LGPD" [ref=e24] [cursor=pointer]:
+              - /url: /politica-de-privacidade-e-lgpd
+          - paragraph [ref=e26]:
+            - link "Termos de uso" [ref=e27] [cursor=pointer]:
+              - /url: /termos-de-uso
+    - generic [ref=e30]:
+      - paragraph [ref=e32]: Este site utiliza cookies para realização de análises estatísticas acerca de sua utilização. Não são coletados dados pessoais por meio de cookies.
+      - list [ref=e34]:
+        - listitem [ref=e35]:
+          - link "Política de Privacidade e LGPD" [ref=e36] [cursor=pointer]:
+            - /url: /politica-de-privacidade-e-lgpd
+        - listitem [ref=e37]:
+          - link "Termos de uso" [ref=e38] [cursor=pointer]:
+            - /url: /termos-de-uso
+      - generic [ref=e40] [cursor=pointer]: Entendi
+  - generic [ref=e42] [cursor=pointer]:
+    - img "Conteúdo acessível em Libras usando o VLibras Widget com opções dos Avatares Ícaro, Hosana ou Guga." [ref=e43]
+    - img "Conteúdo acessível em Libras usando o VLibras Widget com opções dos Avatares Ícaro, Hosana ou Guga." [ref=e44]

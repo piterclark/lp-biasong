@@ -1,0 +1,75 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]: CREAT
+    - link "Falar agora" [ref=e4]:
+      - /url: "#cta"
+  - generic [ref=e5]:
+    - generic [ref=e6]:
+      - generic [ref=e7]: Portfólio de landing pages
+      - heading "Páginas que mudam o que as pessoas fazem." [level=1] [ref=e8]:
+        - generic [ref=e10]: Páginas
+        - generic [ref=e12]: que
+        - generic [ref=e14]: mudam
+        - generic [ref=e16]: o
+        - generic [ref=e18]: que
+        - generic [ref=e20]: as
+        - generic [ref=e22]: pessoas
+        - emphasis [ref=e23]:
+          - generic [ref=e25]: fazem.
+      - paragraph [ref=e26]:
+        - text: "Construídas para um único resultado:"
+        - text: que o visitante avançe.
+    - generic [ref=e27]: Scroll
+  - generic [ref=e29]:
+    - generic [ref=e30]:
+      - heading "O trabalho fala." [level=2] [ref=e31]:
+        - text: O trabalho
+        - emphasis [ref=e32]: fala.
+      - generic [ref=e33]: 02 projetos
+    - generic [ref=e34]:
+      - link "Advocacia Ferreira & Associados LP de luxo para escritório de advocacia. Copy que posiciona, design que fecha. Abrir" [ref=e35]:
+        - /url: advogado/index.html
+        - img [ref=e39]
+        - generic [ref=e42]:
+          - generic [ref=e43]: Advocacia
+          - generic [ref=e44]: Ferreira & Associados
+          - paragraph [ref=e45]: LP de luxo para escritório de advocacia. Copy que posiciona, design que fecha.
+          - generic [ref=e46]:
+            - text: Abrir
+            - img [ref=e47]
+      - link "Imóveis Arbórea Alphagran LP de lançamento imobiliário premium. Experiência que vende antes da visita. Abrir" [ref=e49]:
+        - /url: arborea/index.html
+        - img [ref=e53]
+        - generic [ref=e57]:
+          - generic [ref=e58]: Imóveis
+          - generic [ref=e59]: Arbórea Alphagran
+          - paragraph [ref=e60]: LP de lançamento imobiliário premium. Experiência que vende antes da visita.
+          - generic [ref=e61]:
+            - text: Abrir
+            - img [ref=e62]
+  - generic [ref=e64]:
+    - heading "Design certo. Copy certa. Resultado certo." [level=2] [ref=e66]:
+      - text: Design certo.
+      - text: Copy certa.
+      - emphasis [ref=e67]: Resultado certo.
+    - paragraph [ref=e69]:
+      - text: A maioria das páginas falha porque tenta
+      - strong [ref=e70]: impressionar
+      - text: em vez de
+      - strong [ref=e71]: converter
+      - text: .
+      - text: "Cada página que construímos começa de uma pergunta: o que precisa acontecer para o visitante dizer sim? O design é a resposta visual dessa pergunta."
+  - generic [ref=e72]:
+    - generic [ref=e73]: Próximo passo
+    - heading "Quer uma assim para você?" [level=2] [ref=e74]:
+      - text: Quer uma assim
+      - text: para
+      - emphasis [ref=e75]: você?
+    - link "Falar no WhatsApp" [ref=e76]:
+      - /url: https://wa.me/5511999999999
+      - img [ref=e77]
+      - text: Falar no WhatsApp
+    - paragraph [ref=e79]: Resposta rápida. Sem enrolação.
+  - contentinfo [ref=e80]:
+    - generic [ref=e81]: CREAT
+    - paragraph [ref=e82]: © 2026 CREAT Studio

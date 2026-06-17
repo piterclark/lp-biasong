@@ -1,0 +1,298 @@
+- generic [active] [ref=e1]:
+  - region "We value your privacy" [ref=e2]:
+    - generic [ref=e4]:
+      - heading "Valorizamos a sua privacidade" [level=1] [ref=e5]
+      - generic [ref=e6]:
+        - paragraph [ref=e8]: Usamos cookies para melhorar sua experiência de navegação, exibir anúncios ou conteúdo personalizados e analisar nosso tráfego. Ao clicar em "Aceitar tudo", você concorda com o uso de cookies.
+        - generic [ref=e9]:
+          - button "Rejeitar tudo" [ref=e10] [cursor=pointer]
+          - button "Aceitar tudo" [ref=e11] [cursor=pointer]
+  - generic [ref=e12]:
+    - generic [ref=e15]:
+      - navigation "Menu" [ref=e17]:
+        - list [ref=e18]:
+          - listitem [ref=e19]:
+            - link "Sobre" [ref=e20] [cursor=pointer]:
+              - /url: "#sobre"
+          - listitem [ref=e21]:
+            - link "Galeria" [ref=e22] [cursor=pointer]:
+              - /url: "#galeria"
+          - listitem [ref=e23]:
+            - link "Plantas" [ref=e24] [cursor=pointer]:
+              - /url: "#plantas"
+          - listitem [ref=e25]:
+            - link "Localização" [ref=e26] [cursor=pointer]:
+              - /url: "#localizacao"
+      - link "Contato" [ref=e28] [cursor=pointer]:
+        - /url: https://wa.me/5511969377606?text=Ol%C3%A1%2C%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20do%20Arb%C3%B3rea%20Alphagran.
+        - generic [ref=e30]: Contato
+    - generic [ref=e31]:
+      - generic:
+        - generic:
+          - group "1 / 4"
+          - group "2 / 4"
+          - group "3 / 4"
+          - group "4 / 4"
+          - group "1 / 4"
+          - group "2 / 4"
+          - group "3 / 4"
+          - group "4 / 4"
+          - group "1 / 4"
+          - group "2 / 4"
+          - group "3 / 4"
+          - group "4 / 4"
+      - generic [ref=e33]:
+        - generic [ref=e37]: breve lançamento
+        - heading "Alphagran" [level=2] [ref=e39]
+        - paragraph [ref=e44]: Espaços que dão equilíbrio entre o funcional e o extraordinário, onde viver bem é simplesmente natural.
+        - link "Saiba mais" [ref=e46] [cursor=pointer]:
+          - /url: https://wa.me/5511969377606?text=Ol%C3%A1%2C%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20do%20Arb%C3%B3rea%20Alphagran.
+          - generic [ref=e48]: Saiba mais
+    - generic [ref=e51]:
+      - heading "Naturalmente único!" [level=2] [ref=e53]
+      - paragraph [ref=e58]:
+        - text: A suavidade das linhas.
+        - text: A elegância das texturas.
+        - text: A calmaria dos espaços.
+      - generic [ref=e59]:
+        - paragraph [ref=e60]:
+          - text: A sofisticação se revela no silêncio.
+          - text: No equilíbrio entre o funcional e o extraordinário.
+          - text: Um projeto JMF no Alphagran, onde a arte e
+          - text: arquitetura se encontram e dão vida a novas formas,
+          - text: ritmos e sensações. Em um cenário sereno,
+          - text: onde o ar é leve e o olhar se expande.
+          - text: Com espaços onde o tempo corre diferente.
+          - text: E cada escolha revela um significado.
+        - paragraph [ref=e61]:
+          - text: Aqui, viver bem transcende o físico, o material.
+          - text: É sentir. É viver e experimentar.
+          - text: É natural.
+      - paragraph [ref=e63]:
+        - emphasis [ref=e64]: Arbórea Alphagran.
+        - emphasis [ref=e65]: Naturalmente único.
+      - link "Saiba mais!" [ref=e67] [cursor=pointer]:
+        - /url: https://wa.me/5511969377606?text=Ol%C3%A1%2C%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20do%20Arb%C3%B3rea%20Alphagran.
+        - generic [ref=e69]: Saiba mais!
+    - generic [ref=e71]:
+      - generic [ref=e73]:
+        - heading "Galeria de Imagens" [level=2] [ref=e75]
+        - heading "Em cada espaço, um significado único." [level=2] [ref=e77]:
+          - text: Em cada espaço,
+          - text: um significado único.
+        - heading "Onde a arte e a arquitetura se encontram e dão vida a novas formas, ritmos e sensações." [level=2] [ref=e79]:
+          - text: Onde a arte e a arquitetura se encontram e dão
+          - text: vida a novas formas, ritmos e sensações.
+      - generic [ref=e85]:
+        - link [ref=e86] [cursor=pointer]:
+          - /url: https://meuarborea.com.br/wp-content/uploads/2026/05/Living_duplex_arborea_jmf.jpg
+          - img [ref=e87]
+        - link [ref=e89] [cursor=pointer]:
+          - /url: assets/Piscina_coberta_arborea_2_jmf.jpg
+          - img [ref=e90]
+        - link [ref=e92] [cursor=pointer]:
+          - /url: https://meuarborea.com.br/wp-content/uploads/2026/05/Playground_arborea.jpg
+          - img [ref=e93]
+        - link [ref=e95] [cursor=pointer]:
+          - /url: https://meuarborea.com.br/wp-content/uploads/2026/05/Piscina_externa_arborea_jmf.jpg
+          - img [ref=e96]
+        - link [ref=e98] [cursor=pointer]:
+          - /url: https://meuarborea.com.br/wp-content/uploads/2026/05/Piscina_privativa_duplex_arborea_jmf.avif
+          - img [ref=e99]
+        - link [ref=e101] [cursor=pointer]:
+          - /url: assets/Hall_social_arborea_jmf.jpg
+          - img [ref=e102]
+        - link [ref=e104] [cursor=pointer]:
+          - /url: https://meuarborea.com.br/wp-content/uploads/2026/05/Piscina_coberta_arborea_jmf.jpg
+          - img [ref=e105]
+        - link [ref=e107] [cursor=pointer]:
+          - /url: https://meuarborea.com.br/wp-content/uploads/2026/05/Fachada_arborea_jmf.avif
+          - img [ref=e108]
+        - link [ref=e110] [cursor=pointer]:
+          - /url: https://meuarborea.com.br/wp-content/uploads/2026/05/Quadra_de_tenis_arborea_jmf.jpg
+          - img [ref=e111]
+        - link [ref=e113] [cursor=pointer]:
+          - /url: assets/Embasamento_arborea_jmf.jpg
+          - img [ref=e114]
+        - link [ref=e116] [cursor=pointer]:
+          - /url: https://meuarborea.com.br/wp-content/uploads/2026/05/Living_340_detalhe_arborea_jmf.avif
+          - img [ref=e117]
+        - link [ref=e119] [cursor=pointer]:
+          - /url: https://meuarborea.com.br/wp-content/uploads/2026/05/Vip_space_arborea_jmf.avif
+          - img [ref=e120]
+        - link [ref=e122] [cursor=pointer]:
+          - /url: https://meuarborea.com.br/wp-content/uploads/2026/05/Spa_com_saunas_arborea_jmf.avif
+          - img [ref=e123]
+        - link [ref=e125] [cursor=pointer]:
+          - /url: https://meuarborea.com.br/wp-content/uploads/2026/05/Living_340_arborea_jmf.avif
+          - img [ref=e126]
+        - link [ref=e128] [cursor=pointer]:
+          - /url: https://meuarborea.com.br/wp-content/uploads/2026/05/Academia_arborea_jmf.jpg
+          - img [ref=e129]
+        - link [ref=e131] [cursor=pointer]:
+          - /url: https://meuarborea.com.br/wp-content/uploads/2026/05/Quadra_de_tenis_arborea_jmf.avif
+          - img [ref=e132]
+        - link [ref=e134] [cursor=pointer]:
+          - /url: assets/Fachada-aerea_arborea_jmf.jpg
+          - img [ref=e135]
+        - link [ref=e137] [cursor=pointer]:
+          - /url: https://meuarborea.com.br/wp-content/uploads/2026/05/Hall_externo_arborea_jmf.jpg
+          - img [ref=e138]
+        - link [ref=e140] [cursor=pointer]:
+          - /url: assets/Salao_de_festas_arborea_jmf.jpg
+          - img [ref=e141]
+        - link [ref=e143] [cursor=pointer]:
+          - /url: assets/Salao_festas_arborea_jmf.jpg
+          - img [ref=e144]
+    - generic [ref=e147]:
+      - generic [ref=e148]:
+        - heading "Apartamentos com 1, 2 ou 3 suítes" [level=2] [ref=e153]
+        - heading "231 e 578m²" [level=2] [ref=e155]
+      - generic [ref=e156]:
+        - heading "PLANTAS" [level=2] [ref=e158]
+        - heading "Aqui, viver bem é sentir. Experimentar." [level=2] [ref=e160]
+    - generic [ref=e162]:
+      - generic [ref=e163]:
+        - generic [ref=e167]:
+          - text: Planta
+          - strong [ref=e168]: tipo
+        - heading "232m²" [level=2] [ref=e170]
+        - heading "3 suítes --- 3 Vagas demarcadas" [level=2] [ref=e172]
+        - list [ref=e174]:
+          - listitem [ref=e175]:
+            - img [ref=e177]
+            - generic [ref=e179]: Elevador privativo
+          - listitem [ref=e180]:
+            - img [ref=e182]
+            - generic [ref=e184]: 24 metros de vista linear no living
+          - listitem [ref=e185]:
+            - img [ref=e187]
+            - generic [ref=e189]: Amplos caixilhos
+          - listitem [ref=e190]:
+            - img [ref=e192]
+            - generic [ref=e194]: Amplo closet na suíte master
+          - listitem [ref=e195]:
+            - img [ref=e197]
+            - generic [ref=e199]: Banheiros Sr. e Sra. com opção de banho master
+          - listitem [ref=e200]:
+            - img [ref=e202]
+            - generic [ref=e204]: Banheiros das suítes com ventilação natural
+      - link [ref=e207] [cursor=pointer]:
+        - /url: https://meuarborea.com.br/wp-content/uploads/2026/05/Planta_tipo_ampliado_230m_arborea_jmf.jpg
+    - generic [ref=e209]:
+      - generic [ref=e210]:
+        - generic [ref=e214]:
+          - text: Planta
+          - strong [ref=e215]: tipo
+        - heading "342m²" [level=2] [ref=e217]
+        - heading "4 suítes --- 4 Vagas demarcadas" [level=2] [ref=e219]
+        - list [ref=e221]:
+          - listitem [ref=e222]:
+            - img [ref=e224]
+            - generic [ref=e226]: Elevador privativo
+          - listitem [ref=e227]:
+            - img [ref=e229]
+            - generic [ref=e231]: 33 metros de vista linear no living
+          - listitem [ref=e232]:
+            - img [ref=e234]
+            - generic [ref=e236]: Amplos caixilhos
+          - listitem [ref=e237]:
+            - img [ref=e239]
+            - generic [ref=e241]: Possibilidade de ampliação do living
+          - listitem [ref=e242]:
+            - img [ref=e244]
+            - generic [ref=e246]: Amplo closet na suíte master
+          - listitem [ref=e247]:
+            - img [ref=e249]
+            - generic [ref=e251]: Banheiros Sr. e Sra. com opção de banho master
+          - listitem [ref=e252]:
+            - img [ref=e254]
+            - generic [ref=e256]: Banheiros das suítes com ventilação natural
+      - link [ref=e259] [cursor=pointer]:
+        - /url: https://meuarborea.com.br/wp-content/uploads/2026/05/Planta_tipo_340m_arborea_jmf.jpg
+    - generic [ref=e260]:
+      - generic [ref=e261]:
+        - generic [ref=e265]:
+          - text: Planta
+          - strong [ref=e266]: penthouse
+        - heading "231m² - Duplex" [level=2] [ref=e268]
+        - heading "3 suítes --- 3 Vagas demarcadas" [level=2] [ref=e270]
+        - list [ref=e272]:
+          - listitem [ref=e273]:
+            - img [ref=e275]
+            - generic [ref=e277]: Elevador privativo que leva aos 2 andares
+          - listitem [ref=e278]:
+            - img [ref=e280]
+            - generic [ref=e282]: Piscina privativa no terraço
+          - listitem [ref=e283]:
+            - img [ref=e285]
+            - generic [ref=e287]: Terraço com pé-direito duplo
+          - listitem [ref=e288]:
+            - img [ref=e290]
+            - generic [ref=e292]: 13 metros de vista linear para a mata (face norte)
+          - listitem [ref=e293]:
+            - img [ref=e295]
+            - generic [ref=e297]: Amplos caixilhos
+          - listitem [ref=e298]:
+            - img [ref=e300]
+            - generic [ref=e302]: Amplo closet na suíte master
+      - region "Carrossel de imagens" [ref=e305]:
+        - generic [ref=e306]:
+          - group [ref=e307]:
+            - link [ref=e308] [cursor=pointer]:
+              - /url: assets/Planta_tipo_duplex_superior_arborea_jmf2.jpg
+              - figure [ref=e309]:
+                - img [ref=e310]
+          - group [ref=e311]:
+            - link [ref=e312] [cursor=pointer]:
+              - /url: assets/Planta_tipo_duplex_inferior_arborea_jmf2.jpg
+              - figure [ref=e313]:
+                - img [ref=e314]
+          - group "2 / 2" [ref=e315]:
+            - link [ref=e316] [cursor=pointer]:
+              - /url: assets/Planta_tipo_duplex_superior_arborea_jmf2.jpg
+              - figure [ref=e317]:
+                - img "Planta_tipo_duplex_superior_arborea_jmf2" [ref=e318]
+          - group [ref=e319]:
+            - link [ref=e320] [cursor=pointer]:
+              - /url: assets/Planta_tipo_duplex_inferior_arborea_jmf2.jpg
+              - figure [ref=e321]:
+                - img [ref=e322]
+        - button "Slide anterior" [ref=e323] [cursor=pointer]:
+          - img [ref=e324]
+        - button "Próximo slide" [ref=e326] [cursor=pointer]:
+          - img [ref=e327]
+        - generic [ref=e329]:
+          - button "Ir para o slide 1" [ref=e330] [cursor=pointer]
+          - button "Ir para o slide 2" [ref=e331] [cursor=pointer]
+    - generic [ref=e333]:
+      - generic [ref=e334]:
+        - heading "Localização" [level=2] [ref=e336]
+        - heading "O melhor bairro planejado para se viver." [level=2] [ref=e338]
+      - generic [ref=e339]:
+        - heading "Visita com horário marcado:" [level=2] [ref=e344]
+        - heading "Al. Washington, Alphagran - Alphaville, SP." [level=2] [ref=e346]
+    - iframe [ref=e349]:
+      
+    - generic [ref=e351]:
+      - generic [ref=e352]:
+        - generic [ref=e353]:
+          - heading "Agende sua visita agora mesmo!" [level=2] [ref=e358]:
+            - text: Agende sua visita
+            - text: agora mesmo!
+          - heading "Entre em contato estamos online para te atender." [level=2] [ref=e360]
+        - link "Saiba mais" [ref=e363] [cursor=pointer]:
+          - /url: https://wa.me/5511969377606?text=Ol%C3%A1%2C%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20do%20Arb%C3%B3rea%20Alphagran.
+          - generic [ref=e365]: Saiba mais
+      - 'heading "RENAN LOPES CORRETOR DE IMÓVEIS CRECISP 219.298-F Contato Comercial: (11) 96937-7606" [level=2] [ref=e370]':
+        - text: RENAN LOPES
+        - text: CORRETOR DE IMÓVEIS CRECISP 219.298-F
+        - text: "Contato Comercial: (11) 96937-7606"
+      - generic [ref=e371]:
+        - list [ref=e373]:
+          - listitem [ref=e374]:
+            - link "Politica de Privacidade" [ref=e375] [cursor=pointer]:
+              - /url: https://meuarborea.com.br/privacy-policy/
+              - generic [ref=e376]: Politica de Privacidade
+        - heading "Desenvolvido por BRF LEADs" [level=2] [ref=e378]
+  - generic [ref=e379]: desktop

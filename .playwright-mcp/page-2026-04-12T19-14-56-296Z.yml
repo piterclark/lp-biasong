@@ -1,0 +1,1024 @@
+- generic:
+  - main:
+    - generic:
+      - generic:
+        - generic:
+          - generic:
+            - generic:
+              - generic: Home
+              - link:
+                - /url: /
+                - img
+            - link:
+              - /url: /buscar
+              - text: Buscar fotos
+            - link:
+              - /url: /vender-fotos
+              - text: Vender fotos
+            - button:
+              - generic: Serviços
+              - img
+          - generic:
+            - generic:
+              - button:
+                - generic: Search
+                - img
+              - generic:
+                - textbox:
+                  - /placeholder: Pesquise suas fotos....
+          - generic:
+            - link:
+              - /url: /suas-fotos
+              - text: Baixar fotos
+            - button: Entrar
+            - button: Criar conta
+            - img
+            - button:
+              - generic:
+                - img
+              - generic: Carrinho
+            - button:
+              - img
+              - img
+    - generic:
+      - img
+      - generic:
+        - generic:
+          - generic:
+            - link:
+              - /url: /lucasandradefoto
+              - generic:
+                - generic:
+                  - img
+                - paragraph: Lucas Andrade
+          - heading [level=1]: Recreio - Posto 11 - @lucasfotoesportiva
+          - generic:
+            - heading [level=6]:
+              - img
+              - generic:
+                - link:
+                  - /url: /local/recreio-dos-bandeirantes--rj
+                  - text: Recreio dos Bandeirantes
+                - generic: ", Rio de Janeiro - RJ"
+            - heading [level=6]:
+              - img
+              - text: 12/04/2026 / 07:00 - 12:00
+        - generic:
+          - button:
+            - generic: Ajuda
+            - img
+    - generic:
+      - tabpanel:
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - img
+                  - heading [level=2]: GANHE ATÉ 20% DE DESCONTO!
+                  - generic: Os descontos são aplicados automaticamente.
+                  - generic: (Válido somente neste álbum)
+                - generic:
+                  - generic:
+                    - paragraph: GANHE
+                    - generic:
+                      - heading [level=3]: "5"
+                      - generic: "%"
+                    - generic: Na compra de 2 fotos
+                  - generic:
+                    - paragraph: GANHE
+                    - generic:
+                      - heading [level=3]: "10"
+                      - generic: "%"
+                    - generic: Na compra de 5 fotos
+                  - generic:
+                    - paragraph: GANHE
+                    - generic:
+                      - heading [level=3]: "20"
+                      - generic: "%"
+                    - generic: Na compra de 10 fotos
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - img
+                    - generic:
+                      - heading [level=3]: Encontre suas fotos com reconhecimento facial!
+                      - paragraph: Envie uma selfie ou uma foto sua!
+                  - button: Encontrar
+          - generic:
+            - combobox:
+              - generic: Horário
+              - img
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - img
+                - generic:
+                  - checkbox
+                - generic:
+                  - button:
+                    - img
+                    - generic: Adicionar ao carrinho
+              - generic:
+                - generic:
+                  - img
+                - generic:
+                  - checkbox
+                - generic:
+                  - button:
+                    - img
+                    - generic: Adicionar ao carrinho
+              - generic:
+                - generic:
+                  - img
+                - generic:
+                  - checkbox
+                - generic:
+                  - button:
+                    - img
+                    - generic: Adicionar ao carrinho
+              - generic:
+                - generic:
+                  - img
+                - generic:
+                  - checkbox
+                - generic:
+                  - button:
+                    - img
+                    - generic: Adicionar ao carrinho
+              - generic:
+                - generic:
+                  - img
+                - generic:
+                  - checkbox
+                - generic:
+                  - button:
+                    - img
+                    - generic: Adicionar ao carrinho
+              - generic:
+                - generic:
+                  - img
+                - generic:
+                  - checkbox
+                - generic:
+                  - button:
+                    - img
+                    - generic: Adicionar ao carrinho
+              - generic:
+                - generic:
+                  - img
+                - generic:
+                  - checkbox
+                - generic:
+                  - button:
+                    - img
+                    - generic: Adicionar ao carrinho
+              - generic:
+                - generic:
+                  - img
+                - generic:
+                  - checkbox
+                - generic:
+                  - button:
+                    - img
+                    - generic: Adicionar ao carrinho
+              - generic:
+                - generic:
+                  - img
+                - generic:
+                  - checkbox
+                - generic:
+                  - button:
+                    - img
+                    - generic: Adicionar ao carrinho
+              - generic:
+                - generic:
+                  - img
+                - generic:
+                  - checkbox
+                - generic:
+                  - button:
+                    - img
+                    - generic: Adicionar ao carrinho
+              - generic:
+                - generic:
+                  - img
+                - generic:
+                  - checkbox
+                - generic:
+                  - button:
+                    - img
+                    - generic: Adicionar ao carrinho
+              - generic:
+                - generic:
+                  - img
+                - generic:
+                  - checkbox
+                - generic:
+                  - button:
+                    - img
+                    - generic: Adicionar ao carrinho
+              - generic:
+                - generic:
+                  - img
+                - generic:
+                  - checkbox
+                - generic:
+                  - button:
+                    - img
+                    - generic: Adicionar ao carrinho
+              - generic:
+                - generic:
+                  - img
+                - generic:
+                  - checkbox
+                - generic:
+                  - button:
+                    - img
+                    - generic: Adicionar ao carrinho
+              - generic:
+                - generic:
+                  - img
+                - generic:
+                  - checkbox
+                - generic:
+                  - button:
+                    - img
+                    - generic: Adicionar ao carrinho
+              - generic:
+                - generic:
+                  - img
+                - generic:
+                  - checkbox
+                - generic:
+                  - button:
+                    - img
+                    - generic: Adicionar ao carrinho
+              - generic:
+                - generic:
+                  - img
+                - generic:
+                  - checkbox
+                - generic:
+                  - button:
+                    - img
+                    - generic: Adicionar ao carrinho
+              - generic:
+                - generic:
+                  - img
+                - generic:
+                  - checkbox
+                - generic:
+                  - button:
+                    - img
+                    - generic: Adicionar ao carrinho
+              - generic:
+                - generic:
+                  - img
+                - generic:
+                  - checkbox
+                - generic:
+                  - button:
+                    - img
+                    - generic: Adicionar ao carrinho
+              - generic:
+                - generic:
+                  - img
+                - generic:
+                  - checkbox
+                - generic:
+                  - button:
+                    - img
+                    - generic: Adicionar ao carrinho
+              - generic:
+                - generic:
+                  - img
+                - generic:
+                  - checkbox
+                - generic:
+                  - button:
+                    - img
+                    - generic: Adicionar ao carrinho
+              - generic:
+                - generic:
+                  - img
+                - generic:
+                  - checkbox
+                - generic:
+                  - button:
+                    - img
+                    - generic: Adicionar ao carrinho
+              - generic:
+                - generic:
+                  - img
+                - generic:
+                  - checkbox
+                - generic:
+                  - button:
+                    - img
+                    - generic: Adicionar ao carrinho
+              - generic:
+                - generic:
+                  - img
+                - generic:
+                  - checkbox
+                - generic:
+                  - button:
+                    - img
+                    - generic: Adicionar ao carrinho
+              - generic:
+                - generic:
+                  - img
+                - generic:
+                  - checkbox
+                - generic:
+                  - button:
+                    - img
+                    - generic: Adicionar ao carrinho
+              - generic:
+                - generic:
+                  - img
+                - generic:
+                  - checkbox
+                - generic:
+                  - button:
+                    - img
+                    - generic: Adicionar ao carrinho
+              - generic:
+                - generic:
+                  - img
+                - generic:
+                  - checkbox
+                - generic:
+                  - button:
+                    - img
+                    - generic: Adicionar ao carrinho
+              - generic:
+                - generic:
+                  - img
+                - generic:
+                  - checkbox
+                - generic:
+                  - button:
+                    - img
+                    - generic: Adicionar ao carrinho
+              - generic:
+                - generic:
+                  - img
+                - generic:
+                  - checkbox
+                - generic:
+                  - button:
+                    - img
+                    - generic: Adicionar ao carrinho
+              - generic:
+                - generic:
+                  - img
+                - generic:
+                  - checkbox
+                - generic:
+                  - button:
+                    - img
+                    - generic: Adicionar ao carrinho
+              - generic:
+                - generic:
+                  - img
+                - generic:
+                  - checkbox
+                - generic:
+                  - button:
+                    - img
+                    - generic: Adicionar ao carrinho
+              - generic:
+                - generic:
+                  - img
+                - generic:
+                  - checkbox
+                - generic:
+                  - button:
+                    - img
+                    - generic: Adicionar ao carrinho
+              - generic:
+                - generic:
+                  - img
+                - generic:
+                  - checkbox
+                - generic:
+                  - button:
+                    - img
+                    - generic: Adicionar ao carrinho
+              - generic:
+                - generic:
+                  - img
+                - generic:
+                  - checkbox
+                - generic:
+                  - button:
+                    - img
+                    - generic: Adicionar ao carrinho
+              - generic:
+                - generic:
+                  - img
+                - generic:
+                  - checkbox
+                - generic:
+                  - button:
+                    - img
+                    - generic: Adicionar ao carrinho
+              - generic:
+                - generic:
+                  - img
+                - generic:
+                  - checkbox
+                - generic:
+                  - button:
+                    - img
+                    - generic: Adicionar ao carrinho
+              - generic:
+                - generic:
+                  - img
+                - generic:
+                  - checkbox
+                - generic:
+                  - button:
+                    - img
+                    - generic: Adicionar ao carrinho
+              - generic:
+                - generic:
+                  - img
+                - generic:
+                  - checkbox
+                - generic:
+                  - button:
+                    - img
+                    - generic: Adicionar ao carrinho
+              - generic:
+                - generic:
+                  - img
+                - generic:
+                  - checkbox
+                - generic:
+                  - button:
+                    - img
+                    - generic: Adicionar ao carrinho
+              - generic:
+                - generic:
+                  - img
+                - generic:
+                  - checkbox
+                - generic:
+                  - button:
+                    - img
+                    - generic: Adicionar ao carrinho
+              - generic:
+                - generic:
+                  - img
+                - generic:
+                  - checkbox
+                - generic:
+                  - button:
+                    - img
+                    - generic: Adicionar ao carrinho
+              - generic:
+                - generic:
+                  - img
+                - generic:
+                  - checkbox
+                - generic:
+                  - button:
+                    - img
+                    - generic: Adicionar ao carrinho
+              - generic:
+                - generic:
+                  - img
+                - generic:
+                  - checkbox
+                - generic:
+                  - button:
+                    - img
+                    - generic: Adicionar ao carrinho
+              - generic:
+                - generic:
+                  - img
+                - generic:
+                  - checkbox
+                - generic:
+                  - button:
+                    - img
+                    - generic: Adicionar ao carrinho
+              - generic:
+                - generic:
+                  - img
+                - generic:
+                  - checkbox
+                - generic:
+                  - button:
+                    - img
+                    - generic: Adicionar ao carrinho
+              - generic:
+                - generic:
+                  - img
+                - generic:
+                  - checkbox
+                - generic:
+                  - button:
+                    - img
+                    - generic: Adicionar ao carrinho
+              - generic:
+                - generic:
+                  - img
+                - generic:
+                  - checkbox
+                - generic:
+                  - button:
+                    - img
+                    - generic: Adicionar ao carrinho
+              - generic:
+                - generic:
+                  - img
+                - generic:
+                  - checkbox
+                - generic:
+                  - button:
+                    - img
+                    - generic: Adicionar ao carrinho
+              - generic:
+                - generic:
+                  - img
+                - generic:
+                  - checkbox
+                - generic:
+                  - button:
+                    - img
+                    - generic: Adicionar ao carrinho
+              - generic:
+                - generic:
+                  - img
+                - generic:
+                  - checkbox
+                - generic:
+                  - button:
+                    - img
+                    - generic: Adicionar ao carrinho
+              - generic:
+                - generic:
+                  - img
+                - generic:
+                  - checkbox
+                - generic:
+                  - button:
+                    - img
+                    - generic: Adicionar ao carrinho
+              - generic:
+                - generic:
+                  - img
+                - generic:
+                  - checkbox
+                - generic:
+                  - button:
+                    - img
+                    - generic: Adicionar ao carrinho
+              - generic:
+                - generic:
+                  - img
+                - generic:
+                  - checkbox
+                - generic:
+                  - button:
+                    - img
+                    - generic: Adicionar ao carrinho
+              - generic:
+                - generic:
+                  - img
+                - generic:
+                  - checkbox
+                - generic:
+                  - button:
+                    - img
+                    - generic: Adicionar ao carrinho
+              - generic:
+                - generic:
+                  - img
+                - generic:
+                  - checkbox
+                - generic:
+                  - button:
+                    - img
+                    - generic: Adicionar ao carrinho
+              - generic:
+                - generic:
+                  - img
+                - generic:
+                  - checkbox
+                - generic:
+                  - button:
+                    - img
+                    - generic: Adicionar ao carrinho
+              - generic:
+                - generic:
+                  - img
+                - generic:
+                  - checkbox
+                - generic:
+                  - button:
+                    - img
+                    - generic: Adicionar ao carrinho
+              - generic:
+                - generic:
+                  - img
+                - generic:
+                  - checkbox
+                - generic:
+                  - button:
+                    - img
+                    - generic: Adicionar ao carrinho
+              - generic:
+                - generic:
+                  - img
+                - generic:
+                  - checkbox
+                - generic:
+                  - button:
+                    - img
+                    - generic: Adicionar ao carrinho
+              - generic:
+                - generic:
+                  - img
+                - generic:
+                  - checkbox
+                - generic:
+                  - button:
+                    - img
+                    - generic: Adicionar ao carrinho
+              - generic:
+                - generic:
+                  - img
+                - generic:
+                  - checkbox
+                - generic:
+                  - button:
+                    - img
+                    - generic: Adicionar ao carrinho
+              - generic:
+                - generic:
+                  - img
+                - generic:
+                  - checkbox
+                - generic:
+                  - button:
+                    - img
+                    - generic: Adicionar ao carrinho
+              - generic:
+                - generic:
+                  - img
+                - generic:
+                  - checkbox
+                - generic:
+                  - button:
+                    - img
+                    - generic: Adicionar ao carrinho
+              - generic:
+                - generic:
+                  - img
+                - generic:
+                  - checkbox
+                - generic:
+                  - button:
+                    - img
+                    - generic: Adicionar ao carrinho
+              - generic:
+                - generic:
+                  - img
+                - generic:
+                  - checkbox
+                - generic:
+                  - button:
+                    - img
+                    - generic: Adicionar ao carrinho
+              - generic:
+                - generic:
+                  - img
+                - generic:
+                  - checkbox
+                - generic:
+                  - button:
+                    - img
+                    - generic: Adicionar ao carrinho
+              - generic:
+                - generic:
+                  - img
+                - generic:
+                  - checkbox
+                - generic:
+                  - button:
+                    - img
+                    - generic: Adicionar ao carrinho
+              - generic:
+                - generic:
+                  - img
+                - generic:
+                  - checkbox
+                - generic:
+                  - button:
+                    - img
+                    - generic: Adicionar ao carrinho
+              - generic:
+                - generic:
+                  - img
+                - generic:
+                  - checkbox
+                - generic:
+                  - button:
+                    - img
+                    - generic: Adicionar ao carrinho
+              - generic:
+                - generic:
+                  - img
+                - generic:
+                  - checkbox
+                - generic:
+                  - button:
+                    - img
+                    - generic: Adicionar ao carrinho
+              - generic:
+                - generic:
+                  - img
+                - generic:
+                  - checkbox
+                - generic:
+                  - button:
+                    - img
+                    - generic: Adicionar ao carrinho
+              - generic:
+                - generic:
+                  - img
+                - generic:
+                  - checkbox
+                - generic:
+                  - button:
+                    - img
+                    - generic: Adicionar ao carrinho
+              - generic:
+                - generic:
+                  - img
+                - generic:
+                  - checkbox
+                - generic:
+                  - button:
+                    - img
+                    - generic: Adicionar ao carrinho
+              - generic:
+                - generic:
+                  - img
+                - generic:
+                  - checkbox
+                - generic:
+                  - button:
+                    - img
+                    - generic: Adicionar ao carrinho
+              - generic:
+                - generic:
+                  - img
+                - generic:
+                  - checkbox
+                - generic:
+                  - button:
+                    - img
+                    - generic: Adicionar ao carrinho
+              - generic:
+                - generic:
+                  - img
+                - generic:
+                  - checkbox
+                - generic:
+                  - button:
+                    - img
+                    - generic: Adicionar ao carrinho
+              - generic:
+                - generic:
+                  - img
+                - generic:
+                  - checkbox
+                - generic:
+                  - button:
+                    - img
+                    - generic: Adicionar ao carrinho
+              - generic:
+                - generic:
+                  - img
+                - generic:
+                  - checkbox
+                - generic:
+                  - button:
+                    - img
+                    - generic: Adicionar ao carrinho
+              - generic:
+                - generic:
+                  - img
+                - generic:
+                  - checkbox
+                - generic:
+                  - button:
+                    - img
+                    - generic: Adicionar ao carrinho
+              - generic:
+                - generic:
+                  - img
+                - generic:
+                  - checkbox
+                - generic:
+                  - button:
+                    - img
+                    - generic: Adicionar ao carrinho
+              - generic:
+                - generic:
+                  - img
+                - generic:
+                  - checkbox
+                - generic:
+                  - button:
+                    - img
+                    - generic: Adicionar ao carrinho
+              - generic:
+                - generic:
+                  - img
+                - generic:
+                  - checkbox
+                - generic:
+                  - button:
+                    - img
+                    - generic: Adicionar ao carrinho
+              - generic:
+                - generic:
+                  - img
+                - generic:
+                  - checkbox
+                - generic:
+                  - button:
+                    - img
+                    - generic: Adicionar ao carrinho
+              - generic:
+                - generic:
+                  - img
+                - generic:
+                  - checkbox
+                - generic:
+                  - button:
+                    - img
+                    - generic: Adicionar ao carrinho
+              - generic:
+                - generic:
+                  - img
+                - generic:
+                  - checkbox
+                - generic:
+                  - button:
+                    - img
+                    - generic: Adicionar ao carrinho
+              - generic:
+                - generic:
+                  - img
+                - generic:
+                  - checkbox
+                - generic:
+                  - button:
+                    - img
+                    - generic: Adicionar ao carrinho
+              - generic:
+                - generic:
+                  - img
+                - generic:
+                  - checkbox
+                - generic:
+                  - button:
+                    - img
+                    - generic: Adicionar ao carrinho
+              - generic:
+                - generic:
+                  - img
+                - generic:
+                  - checkbox
+                - generic:
+                  - button:
+                    - img
+                    - generic: Adicionar ao carrinho
+              - generic:
+                - generic:
+                  - img
+                - generic:
+                  - checkbox
+                - generic:
+                  - button:
+                    - img
+                    - generic: Adicionar ao carrinho
+              - generic:
+                - generic:
+                  - img
+                - generic:
+                  - checkbox
+                - generic:
+                  - button:
+                    - img
+                    - generic: Adicionar ao carrinho
+          - navigation:
+            - list:
+              - listitem:
+                - generic: "1"
+              - listitem:
+                - generic: "2"
+              - listitem:
+                - generic: "3"
+              - listitem:
+                - generic:
+                  - img
+                  - generic: More pages
+              - listitem:
+                - generic: "380"
+              - listitem:
+                - generic:
+                  - img
+    - generic:
+      - generic:
+        - generic:
+          - link:
+            - /url: /
+            - img
+          - generic:
+            - paragraph: A Banlek é uma startup de fotografia que conecta fotógrafos e clientes para venda de fotos online, com tecnologia de reconhecimento facial e suporte completo 24h
+            - generic:
+              - generic:
+                - heading [level=3]: Empresa
+                - paragraph: BANLEK SERVIÇOS AUDIOVISUAIS LTDA.
+              - generic:
+                - heading [level=3]: CNPJ
+                - paragraph: 34.299.202/0001-06
+              - generic:
+                - heading [level=3]: Endereço
+                - paragraph: "Estrada do Cantagalo, 3000 / 91 Cuiabá, Petrópolis, RJ CEP: 25745-200"
+        - generic:
+          - heading [level=3]: Nossos serviços
+          - link:
+            - /url: /fotos-para-eventos
+            - text: Fotógrafo para eventos
+          - link:
+            - /url: /sou-fotografo
+            - text: Venda de fotos
+        - generic:
+          - heading [level=3]: Empresa
+          - link:
+            - /url: /sobre
+            - text: Quem somos
+          - link:
+            - /url: /vender-fotos
+            - text: Seja um parceiro
+          - link:
+            - /url: /central-de-ajuda
+            - text: Suporte
+          - link:
+            - /url: /termos-de-uso
+            - text: Termos de uso
+          - link:
+            - /url: /politica-de-privacidade
+            - text: Política de privacidade
+      - generic:
+        - generic:
+          - generic: © 2026 Banlek. Todos os direitos reservados
+          - generic:
+            - generic:
+              - link:
+                - /url: https://www.instagram.com/banlekapp/
+                - img
+              - link:
+                - /url: https://www.tiktok.com/@banlekapp
+                - img
+              - link:
+                - /url: https://www.linkedin.com/company/banlek/
+                - img
+              - link:
+                - /url: https://www.facebook.com/banlekapp/?locale=pt_BR
+                - img
+              - link:
+                - /url: https://www.youtube.com/@banlekapp
+                - img
+  - region "Notifications alt+T"
+  - alert
+  - dialog [active] [ref=e1292]:
+    - generic [ref=e1293]:
+      - paragraph [ref=e1306]: Reconhecimento Facial
+      - button [ref=e1294] [cursor=pointer]:
+        - img [ref=e1295]
+    - generic [ref=e1307]:
+      - img [ref=e1308]
+      - generic [ref=e1318]:
+        - paragraph [ref=e1319]: Tire uma foto ou carregue uma foto do seu rosto.
+        - paragraph [ref=e1320]: Sua foto não será salva! Ela será usada apenas para encontrar suas fotos.
+      - generic [ref=e1321]:
+        - generic [ref=e1322]:
+          - button "Carregar foto" [ref=e1323] [cursor=pointer]
+          - button "Tirar foto" [ref=e1324] [cursor=pointer]
+        - generic [ref=e1325]:
+          - paragraph [ref=e1326]: Você pode tirar uma foto agora ou carregar uma foto.
+          - paragraph [ref=e1327]: "Dica: evite óculos escuros e mantenha o ambiente iluminado."

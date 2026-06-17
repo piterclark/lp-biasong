@@ -1,0 +1,7 @@
+- generic [ref=e2]:
+  - 'heading "mycodelesswebsite.com: Verifying that you are not a robot..." [level=3] [ref=e3]'
+  - generic [ref=e5]:
+    - generic [ref=e6]:
+      - img [ref=e7]
+      - checkbox "Verifying..."
+    - generic [ref=e10] [cursor=pointer]: Verifying...

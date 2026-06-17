@@ -1,0 +1,189 @@
+- generic [active] [ref=e1]:
+  - button "Preferências de consentimento" [ref=e3] [cursor=pointer]:
+    - img "Revisit consent button" [ref=e4]
+  - link "Ir para o conteúdo" [ref=e5] [cursor=pointer]:
+    - /url: "#content"
+  - generic [ref=e8]:
+    - link [ref=e12] [cursor=pointer]:
+      - /url: https://romconcept.com.br
+    - generic [ref=e13]:
+      - navigation [ref=e16]:
+        - list [ref=e17]:
+          - listitem [ref=e18]:
+            - link "Romeu Felipe" [ref=e19] [cursor=pointer]:
+              - /url: https://romconcept.com.br/romeu-felipe/
+          - listitem [ref=e20]:
+            - link "Rom. Concept" [ref=e21] [cursor=pointer]:
+              - /url: https://romconcept.com.br/rom-concept/
+              - text: Rom. Concept
+              - img [ref=e23]
+          - listitem [ref=e25]:
+            - link "Rom. Academy" [ref=e26] [cursor=pointer]:
+              - /url: https://romconcept.com.br/rom-academy/
+          - listitem [ref=e27]:
+            - link "Rom. Team" [ref=e28] [cursor=pointer]:
+              - /url: https://romconcept.com.br/rom-team/
+              - text: Rom. Team
+              - img [ref=e30]
+          - listitem [ref=e32]:
+            - link "Serviços" [ref=e33] [cursor=pointer]:
+              - /url: https://romconcept.com.br/servicos/
+              - text: Serviços
+              - img [ref=e35]
+          - listitem [ref=e37]:
+            - link "Galeria" [ref=e38] [cursor=pointer]:
+              - /url: https://romconcept.com.br/galeria/
+          - listitem [ref=e39]:
+            - link "Contato" [ref=e40] [cursor=pointer]:
+              - /url: https://romconcept.com.br/contato/
+      - list [ref=e43]:
+        - listitem [ref=e44]:
+          - link [ref=e45] [cursor=pointer]:
+            - /url: https://pt-br.facebook.com/pages/category/Public-Figure/Romeu-Felipe-631552183711082/
+            - img [ref=e47]
+        - listitem [ref=e50]:
+          - link [ref=e51] [cursor=pointer]:
+            - /url: https://www.instagram.com/rom.concept/
+            - img [ref=e53]
+        - listitem [ref=e58]:
+          - link [ref=e59] [cursor=pointer]:
+            - /url: https://youtube.com/@RomConcept?si=rL7CjHEIb4u6kXFJ
+            - img [ref=e61]
+  - main [ref=e64]:
+    - generic [ref=e66]:
+      - 'generic "Carrossel | Rolagem horizontal: Setas para esquerda e direita" [ref=e68]':
+        - generic [ref=e69]:
+          - generic [ref=e71]:
+            - group [ref=e72]
+            - group "1 / 4" [ref=e75]
+            - group [ref=e78]
+            - group [ref=e81]
+            - group [ref=e84]
+            - group [ref=e87]
+          - button "Slide anterior" [ref=e90] [cursor=pointer]:
+            - img [ref=e91]
+          - button "Próximo slide" [ref=e93] [cursor=pointer]:
+            - img [ref=e94]
+          - generic [ref=e96]:
+            - generic "Ir para o slide 1" [ref=e97] [cursor=pointer]
+            - generic "Ir para o slide 2" [ref=e98] [cursor=pointer]
+            - generic "Ir para o slide 3" [ref=e99] [cursor=pointer]
+            - generic "Ir para o slide 4" [ref=e100] [cursor=pointer]
+      - generic [ref=e102]:
+        - generic [ref=e104]:
+          - heading "Profissionais" [level=1] [ref=e107]
+          - link "Conheça" [ref=e111] [cursor=pointer]:
+            - /url: https://romconcept.com.br/rom-team/
+            - generic [ref=e113]: Conheça
+        - generic [ref=e115]:
+          - heading "Parceiros" [level=1] [ref=e118]
+          - link "Conheça" [ref=e122] [cursor=pointer]:
+            - /url: https://romconcept.com.br/rom-concept/parceiros/
+            - generic [ref=e124]: Conheça
+        - generic [ref=e126]:
+          - heading "INSTALAÇÕES" [level=1] [ref=e129]
+          - link "Conheça" [ref=e133] [cursor=pointer]:
+            - /url: https://romconcept.com.br/rom-concept/instalacoes/
+            - generic [ref=e135]: Conheça
+        - generic [ref=e137]:
+          - heading "ROM IGUATEMI" [level=1] [ref=e140]
+          - link "Conheça" [ref=e144] [cursor=pointer]:
+            - /url: https://romconcept.com.br/team-shopping-iguatemi/
+            - generic [ref=e146]: Conheça
+      - generic [ref=e148]:
+        - generic [ref=e149]:
+          - heading "Contribuimos para o bem-estar e a realização pessoal de nossos clientes" [level=1] [ref=e152]
+          - link "Conheça Rom. Concept" [ref=e156] [cursor=pointer]:
+            - /url: https://romconcept.com.br/rom-concept/
+            - generic [ref=e158]: Conheça Rom. Concept
+        - generic [ref=e161]:
+          - paragraph [ref=e162]: Contribuir para o bem-estar e a realização pessoal de nossos clientes.
+          - paragraph [ref=e163]:
+            - text: Oferecer soluções estéticas únicas e surpreendentes, acompanhada de serviços diferenciados exclusivos, num ambiente agradável e acolhedor.
+            - text: Desejar que seja o local escolhido por todos que queiram passar por uma experiência inesquecível.
+      - generic [ref=e165]:
+        - generic [ref=e167]:
+          - heading "High Contrast" [level=1] [ref=e170]
+          - link "Conheça" [ref=e174] [cursor=pointer]:
+            - /url: https://romconcept.com.br/galeria/
+            - generic [ref=e176]: Conheça
+        - generic [ref=e178]:
+          - heading "Brunettes" [level=1] [ref=e181]
+          - link "Conheça" [ref=e185] [cursor=pointer]:
+            - /url: https://romconcept.com.br/galeria/
+            - generic [ref=e187]: Conheça
+        - generic [ref=e189]:
+          - heading "Brazilian Blondes" [level=1] [ref=e192]
+          - link "Conheça" [ref=e196] [cursor=pointer]:
+            - /url: https://romconcept.com.br/galeria/
+            - generic [ref=e198]: Conheça
+      - generic [ref=e201]:
+        - heading "Conheça" [level=1] [ref=e204]
+        - heading "Romeu Felipe" [level=2] [ref=e207]
+        - paragraph [ref=e210]:
+          - text: Romeu Felipe iniciou sua carreira como educador da Wella. Se tornou um, hair stylist, mundialmente conhecido por lançar técnicas novas de coloração, sendo uma delas feitas à mão, dando um ar bem natural aos fios.
+          - text: É o idealizador de todas as campanhas que levam sua assinatura, desde o casting de modelos, fotógrafo, locação e figurino. Conquistou a confianças de grandes nomes, como Yasmin Brunet, Mari Gonzalvez, Ticiane Pinheiro, Thassia Naves, Fernanda Souza, entre outras.
+        - link "Conheça Romeu Felipe" [ref=e214] [cursor=pointer]:
+          - /url: https://romconcept.com.br/romeu-felipe/
+          - generic [ref=e216]: Conheça Romeu Felipe
+    - generic [ref=e231]:
+      - heading "Respostas de 2" [level=2] [ref=e232]
+      - list [ref=e233]:
+        - listitem [ref=e234]:
+          - generic [ref=e235]:
+            - text: "Pingback:"
+            - link "WP Notify" [ref=e236] [cursor=pointer]:
+              - /url: https://bbc.co.uk
+        - listitem [ref=e237]:
+          - generic [ref=e238]:
+            - text: "Pingback:"
+            - link "WP Notify" [ref=e239] [cursor=pointer]:
+              - /url: https://ibm.com
+  - generic [ref=e242]:
+    - generic [ref=e244]:
+      - generic [ref=e245]:
+        - link [ref=e248] [cursor=pointer]:
+          - /url: https://romconcept.com.br
+        - list [ref=e251]:
+          - listitem [ref=e252]:
+            - link [ref=e253] [cursor=pointer]:
+              - /url: https://www.instagram.com/rom.concept/
+              - img [ref=e255]
+          - listitem [ref=e260]:
+            - link [ref=e261] [cursor=pointer]:
+              - /url: https://pt-br.facebook.com/pages/category/Public-Figure/Romeu-Felipe-631552183711082/
+              - img [ref=e263]
+          - listitem [ref=e266]:
+            - link [ref=e267] [cursor=pointer]:
+              - /url: https://youtube.com/@RomConcept?si=rL7CjHEIb4u6kXFJ
+              - img [ref=e269]
+      - list [ref=e275]:
+        - listitem [ref=e276]:
+          - generic [ref=e277]: ABERTO DE TER. À SAB. DAS 9h ÀS 21h
+        - listitem [ref=e278]:
+          - link "contato@romconcept.com.br" [ref=e279] [cursor=pointer]:
+            - /url: mailto:contato@romconcept.com.br
+            - img [ref=e281]
+            - generic [ref=e283]: contato@romconcept.com.br
+        - listitem [ref=e284]:
+          - link "(11) 2892-0096" [ref=e285] [cursor=pointer]:
+            - /url: tel:1128920096
+            - img [ref=e287]
+            - generic [ref=e289]: (11) 2892-0096
+        - listitem [ref=e290]:
+          - link "(11) 99302-1379" [ref=e291] [cursor=pointer]:
+            - /url: https://wa.me/5511993021379
+            - img [ref=e293]
+            - generic [ref=e295]: (11) 99302-1379
+      - heading "UNIDADE 1 AV. BRASIL, 126 CEP 01430-000 - JD. PAULISTA SÃO PAULO - SP" [level=2] [ref=e299]:
+        - text: UNIDADE 1
+        - text: AV. BRASIL, 126
+        - text: CEP 01430-000 - JD. PAULISTA
+        - text: SÃO PAULO - SP
+      - heading "UNIDADE 2 AV. BRIGADEIRO FARIA LIMA, 2232 JD. CEP 01451-000 - JD. PAULISTANO SÃO PAULO - SP" [level=2] [ref=e303]:
+        - text: UNIDADE 2
+        - text: AV. BRIGADEIRO FARIA LIMA, 2232
+        - text: JD. CEP 01451-000 - JD. PAULISTANO
+        - text: SÃO PAULO - SP
+    - heading "© 2024 - Rom. Concept. TODOS OS DIREITOS RESERVADOS." [level=2] [ref=e308]
+  - generic [ref=e311]: laptop

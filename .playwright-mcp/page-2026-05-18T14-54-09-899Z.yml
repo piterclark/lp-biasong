@@ -1,0 +1,302 @@
+- generic [active] [ref=e1]:
+  - img
+  - img
+  - banner [ref=e3]:
+    - generic [ref=e5]:
+      - link "ir para a página inicial" [ref=e7] [cursor=pointer]:
+        - /url: /
+        - img [ref=e8]
+      - search [ref=e13]:
+        - button "Buscar" [ref=e14] [cursor=pointer]:
+          - img [ref=e15]
+        - textbox "busca" [ref=e17]:
+          - /placeholder: busque "Track & Field"
+      - generic [ref=e20]:
+        - link "Moças" [ref=e21] [cursor=pointer]:
+          - /url: /feminino/s?dep=feminino&ref=search_department_menu
+        - link "Rapazes" [ref=e22] [cursor=pointer]:
+          - /url: /masculino/s?dep=masculino&ref=search_department_menu
+        - link "Crianças" [ref=e23] [cursor=pointer]:
+          - /url: /infantil/s?dep=infantil&ref=search_department_menu
+        - link "enjoei pro" [ref=e24] [cursor=pointer]:
+          - /url: /enjoei-pro
+        - link "Outros" [ref=e25] [cursor=pointer]:
+          - /url: /s?ref=search_department_menu
+      - navigation [ref=e28]:
+        - link "ir para a página de ajuda" [ref=e29] [cursor=pointer]:
+          - /url: /t/ajuda
+          - img [ref=e31]
+        - link "entrar" [ref=e34] [cursor=pointer]:
+          - /url: /usuario/identifique-se
+        - link "quero vender" [ref=e35] [cursor=pointer]:
+          - /url: /quero-vender
+  - main [ref=e36]:
+    - generic [ref=e37]:
+      - generic:
+        - generic:
+          - generic [ref=e42]:
+            - text: sua oferta de
+            - strong [ref=e43]: R$
+            - text: foi enviada com sucesso! a bola agora está com o vendedor!
+          - generic [ref=e46]:
+            - link "Quality quality Bauru, SP" [ref=e47] [cursor=pointer]:
+              - /url: /@moveis
+              - img "Quality" [ref=e48]
+              - generic [ref=e49]:
+                - generic [ref=e50]: quality
+                - generic [ref=e52]: Bauru, SP
+            - generic [ref=e55]: essa loja oferece frete único nas compras de sacolinha!
+      - generic [ref=e61]:
+        - link [ref=e62] [cursor=pointer]:
+          - /url: https://www.enjoei.com.br/@moveis
+        - generic [ref=e63]:
+          - generic [ref=e64]:
+            - heading "quality" [level=1] [ref=e66]
+            - generic [ref=e68] [cursor=pointer]:
+              - generic [ref=e69]:
+                - img [ref=e71]
+                - img [ref=e74]
+                - img [ref=e77]
+                - img [ref=e80]
+                - img [ref=e83]
+              - generic [ref=e85]: (0)
+            - generic [ref=e86]: Bauru, SP
+            - generic [ref=e87]: no enjoei desde 2023
+          - button "seguir" [ref=e88] [cursor=pointer]
+      - generic [ref=e95]:
+        - link "0 à venda" [ref=e96] [cursor=pointer]:
+          - /url: /@moveis
+        - link "0 vendidos" [ref=e97] [cursor=pointer]:
+          - /url: /@moveis/vendidos
+        - link "0 yeyezados" [ref=e98] [cursor=pointer]:
+          - /url: /@moveis/yeyezados
+        - link "0 seguidores" [ref=e99] [cursor=pointer]:
+          - /url: /@moveis/seguidores
+        - link "0 seguindo" [ref=e100] [cursor=pointer]:
+          - /url: /@moveis/seguindo
+      - generic [ref=e111]:
+        - paragraph [ref=e112]: prateleiras vazias
+        - paragraph [ref=e113]: nada à venda no momento. mas sem tristeza! encontre novidades navegando por aqui.
+        - button "navegar no enjoei" [ref=e114] [cursor=pointer]
+    - generic [ref=e115]:
+      - paragraph [ref=e116]:
+        - text: "🍪 cookies: salvamos os dados da sua navegação pra personalizar e melhorar sua experiência por aqui. entenda tudo na nossa"
+        - link "política de privacidade" [ref=e117] [cursor=pointer]:
+          - /url: /ajuda/permalink/316
+      - generic [ref=e118] [cursor=pointer]: entendi e concordo
+  - contentinfo [ref=e119]:
+    - generic [ref=e120]:
+      - generic [ref=e122]:
+        - group [ref=e123]:
+          - generic "Categorias":
+            - generic:
+              - generic:
+                - generic: Categorias
+          - navigation [ref=e125]:
+            - list [ref=e126]:
+              - listitem [ref=e127]:
+                - link "Enjoei" [ref=e128] [cursor=pointer]:
+                  - /url: /
+              - listitem [ref=e129]:
+                - link "Moda Feminina" [ref=e130] [cursor=pointer]:
+                  - /url: /feminino/s?dep=feminino&ref=search_department_footer
+              - listitem [ref=e131]:
+                - link "Moda Masculina" [ref=e132] [cursor=pointer]:
+                  - /url: /masculino/s?dep=masculino&ref=search_department_footer
+              - listitem [ref=e133]:
+                - link "Casa & Decor" [ref=e134] [cursor=pointer]:
+                  - /url: /casa-e-decor/s?dep=casa-e-decor&ref=search_department_footer
+              - listitem [ref=e135]:
+                - link "Eletrônicos" [ref=e136] [cursor=pointer]:
+                  - /url: /eletronicos/s?dep=eletronicos&ref=search_department_footer
+              - listitem [ref=e137]:
+                - link "Eletrodomésticos" [ref=e138] [cursor=pointer]:
+                  - /url: /eletrodomesticos/s?dep=eletrodomesticos&ref=search_department_footer
+              - listitem [ref=e139]:
+                - link "Antiguidades" [ref=e140] [cursor=pointer]:
+                  - /url: /antiguidades-e-colecionaveis/s?dep=antiguidades-e-colecionaveis&ref=search_department_footer
+              - listitem [ref=e141]:
+                - link "Pets" [ref=e142] [cursor=pointer]:
+                  - /url: /pets/s?dep=pets&ref=search_department_footer
+              - listitem [ref=e143]:
+                - link "Enjoei Pro" [ref=e144] [cursor=pointer]:
+                  - /url: /pro
+        - group [ref=e145]:
+          - generic "Destaques":
+            - generic:
+              - generic:
+                - generic: Destaques
+          - navigation [ref=e147]:
+            - list [ref=e148]:
+              - listitem [ref=e149]:
+                - link "Cupom do dia" [ref=e150] [cursor=pointer]:
+                  - /url: /l/cupons-de-desconto
+              - listitem [ref=e151]:
+                - link "Tipos de vestidos" [ref=e152] [cursor=pointer]:
+                  - /url: /c/tipos-de-vestidos
+              - listitem [ref=e153]:
+                - link "Modelos de bolsas" [ref=e154] [cursor=pointer]:
+                  - /url: /c/tipos-de-bolsas-femininas
+              - listitem [ref=e155]:
+                - link "Marcas de tênis" [ref=e156] [cursor=pointer]:
+                  - /url: /c/marcas-de-tenis
+              - listitem [ref=e157]:
+                - link "Ver tudo" [ref=e158] [cursor=pointer]:
+                  - /url: /c/conteudos
+        - group [ref=e159]:
+          - generic "Marcas mais buscadas":
+            - generic:
+              - generic:
+                - generic: Marcas mais buscadas
+          - navigation [ref=e161]:
+            - list [ref=e162]:
+              - listitem [ref=e163]:
+                - link "Farm" [ref=e164] [cursor=pointer]:
+                  - /url: /farm/s?b=farm&ref=search_brand_footer
+              - listitem [ref=e165]:
+                - link "Adidas" [ref=e166] [cursor=pointer]:
+                  - /url: /adidas/s?b=adidas&ref=search_brand_footer
+              - listitem [ref=e167]:
+                - link "Melissa" [ref=e168] [cursor=pointer]:
+                  - /url: /melissa/s?b=melissa&ref=search_brand_footer
+              - listitem [ref=e169]:
+                - link "Zara" [ref=e170] [cursor=pointer]:
+                  - /url: /zara/s?b=zara&ref=search_brand_footer
+              - listitem [ref=e171]:
+                - link "Vans" [ref=e172] [cursor=pointer]:
+                  - /url: /vans/s?b=vans&ref=search_brand_footer
+              - listitem [ref=e173]:
+                - link "Nike" [ref=e174] [cursor=pointer]:
+                  - /url: /nike/s?b=nike&ref=search_brand_footer
+              - listitem [ref=e175]:
+                - link "Pandora" [ref=e176] [cursor=pointer]:
+                  - /url: /pandora/s?b=pandora&ref=search_brand_footer
+              - listitem [ref=e177]:
+                - link "Vivara" [ref=e178] [cursor=pointer]:
+                  - /url: /vivara/s?b=vivara&ref=search_brand_footer
+              - listitem [ref=e179]:
+                - link "All Star" [ref=e180] [cursor=pointer]:
+                  - /url: /all-star/s?b=all-star&ref=search_brand_footer
+              - listitem [ref=e181]:
+                - link "Antix" [ref=e182] [cursor=pointer]:
+                  - /url: /antix/s?b=antix&ref=search_brand_footer
+              - listitem [ref=e183]:
+                - link "Louis Vuitton" [ref=e184] [cursor=pointer]:
+                  - /url: /louis-vuitton/s?b=louis-vuitton&ref=search_brand_footer
+              - listitem [ref=e185]:
+                - link "Schutz" [ref=e186] [cursor=pointer]:
+                  - /url: /schutz/s?b=schutz&ref=search_brand_footer
+              - listitem [ref=e187]:
+                - link "Apple" [ref=e188] [cursor=pointer]:
+                  - /url: /apple/s?b=apple&ref=search_brand_footer
+              - listitem [ref=e189]:
+                - link "Ver todas" [ref=e190] [cursor=pointer]:
+                  - /url: /m
+        - group [ref=e191]:
+          - generic "Utilidades":
+            - generic:
+              - generic:
+                - generic: Utilidades
+          - navigation [ref=e193]:
+            - list [ref=e194]:
+              - listitem [ref=e195]:
+                - link "Ajuda" [ref=e196] [cursor=pointer]:
+                  - /url: https://www.enjoei.com.br/t/ajuda
+              - listitem [ref=e197]:
+                - link "Como vender" [ref=e198] [cursor=pointer]:
+                  - /url: /l/como-vender
+              - listitem [ref=e199]:
+                - link "Como comprar" [ref=e200] [cursor=pointer]:
+                  - /url: /l/como-comprar
+              - listitem [ref=e201]:
+                - link "Tarifas" [ref=e202] [cursor=pointer]:
+                  - /url: /l/tarifas
+              - listitem [ref=e203]:
+                - link "Marcas" [ref=e204] [cursor=pointer]:
+                  - /url: /m
+              - listitem [ref=e205]:
+                - link "Termos de uso" [ref=e206] [cursor=pointer]:
+                  - /url: /ajuda/sobre-o-enjoei/politica-de-privacidade-e-termos-de-uso-do-enjoei/termos-de-uso-do-enjoei
+              - listitem [ref=e207]:
+                - link "segurança" [ref=e208] [cursor=pointer]:
+                  - /url: /seguranca
+              - listitem [ref=e209]:
+                - link "Política de privacidade" [ref=e210] [cursor=pointer]:
+                  - /url: /politica-de-privacidade
+              - listitem [ref=e211]:
+                - link "Devolução e reembolso" [ref=e212] [cursor=pointer]:
+                  - /url: /c/cancelamento-devolucao-reembolso
+              - listitem [ref=e213]:
+                - link "Trabalhe no enjoei" [ref=e214] [cursor=pointer]:
+                  - /url: https://enjoei.gupy.io/
+              - listitem [ref=e215]:
+                - link "lojas físicas" [ref=e216] [cursor=pointer]:
+                  - /url: /c/lojas-fisicas
+              - listitem [ref=e217]:
+                - link "Investidores" [ref=e218] [cursor=pointer]:
+                  - /url: https://ri.enjoei.com
+              - listitem [ref=e219]:
+                - link "Mapa do site" [ref=e220] [cursor=pointer]:
+                  - /url: /sitemap
+              - listitem [ref=e221]:
+                - link "Cupons" [ref=e222] [cursor=pointer]:
+                  - /url: /l/cupons-de-desconto
+        - group [ref=e223]:
+          - generic "Minha conta":
+            - generic:
+              - generic:
+                - generic: Minha conta
+          - navigation [ref=e225]:
+            - list [ref=e226]:
+              - listitem [ref=e227]:
+                - link "Minha loja" [ref=e228] [cursor=pointer]:
+                  - /url: /meu-perfil
+              - listitem [ref=e229]:
+                - link "Minhas vendas" [ref=e230] [cursor=pointer]:
+                  - /url: /perfil/minha-lojinha
+              - listitem [ref=e231]:
+                - link "Minhas compras" [ref=e232] [cursor=pointer]:
+                  - /url: /perfil/compras
+              - listitem [ref=e233]:
+                - link "Enjugrana" [ref=e234] [cursor=pointer]:
+                  - /url: /enjugrana
+              - listitem [ref=e235]:
+                - link "yeyezados" [ref=e236] [cursor=pointer]:
+                  - /url: /perfil/yeyezados
+              - listitem [ref=e237]:
+                - link "Configurações" [ref=e238] [cursor=pointer]:
+                  - /url: /perfil/alterar
+        - group [ref=e239]:
+          - generic "Siga a gente":
+            - generic:
+              - generic:
+                - generic: Siga a gente
+          - navigation [ref=e241]:
+            - list [ref=e242]:
+              - listitem [ref=e243]:
+                - link "Facebook" [ref=e244] [cursor=pointer]:
+                  - /url: https://www.facebook.com/enjoei
+              - listitem [ref=e245]:
+                - link "Twitter" [ref=e246] [cursor=pointer]:
+                  - /url: https://twitter.com/enjoei
+              - listitem [ref=e247]:
+                - link "Instagram" [ref=e248] [cursor=pointer]:
+                  - /url: https://instagram.com/enjoei
+              - listitem [ref=e249]:
+                - link "Tiktok" [ref=e250] [cursor=pointer]:
+                  - /url: https://www.tiktok.com/@enjoei
+              - listitem [ref=e251]:
+                - link "LinkedIn" [ref=e252] [cursor=pointer]:
+                  - /url: https://www.linkedin.com/company/enjoei
+      - separator [ref=e256]
+      - generic [ref=e258]:
+        - link "ir para a página inicial" [ref=e260] [cursor=pointer]:
+          - /url: /
+          - img [ref=e262]
+        - paragraph [ref=e265]:
+          - text: "enjoei © 2026 - Todos os direitos reservados - Enjoei S.A. CNPJ: 16.922.038/0001-51"
+          - text: Avenida Ipiranga, 200, Loja 87, Andar Terraço, Edifício Copan, República, São Paulo, SP, 01046-925
+        - link "baixe o enjuapp" [ref=e267] [cursor=pointer]:
+          - /url: /app
+          - img [ref=e268]
+          - text: baixe o enjuapp

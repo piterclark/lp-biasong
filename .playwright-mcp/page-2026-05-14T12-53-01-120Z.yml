@@ -1,0 +1,181 @@
+- generic [ref=e11]:
+  - generic [ref=e13]:
+    - link "Instagram" [ref=e16] [cursor=pointer]:
+      - /url: /
+      - img "Instagram" [ref=e19]
+    - generic [ref=e24]:
+      - link "Entrar" [ref=e26] [cursor=pointer]:
+        - /url: /accounts/login/?next=%2Fp%2FDUYngkODxJf%2F&source=desktop_nav
+      - link "Cadastre-se" [ref=e28] [cursor=pointer]:
+        - /url: /accounts/emailsignup/
+  - main [ref=e29]:
+    - dialog [ref=e34]:
+      - generic [ref=e35]:
+        - button "Fechar" [ref=e37] [cursor=pointer]:
+          - img "Fechar" [ref=e39]
+        - generic [ref=e43]:
+          - generic [ref=e44]:
+            - link "Foto do perfil de dayantorresart" [ref=e46] [cursor=pointer]:
+              - img "Foto do perfil de dayantorresart" [ref=e47]
+            - generic [ref=e49]:
+              - generic [ref=e50]: Não perca nenhum post de dayantorresart
+              - generic [ref=e52]: Cadastre-se no Instagram para ficar por dentro das novidades.
+              - generic [ref=e54]:
+                - text: Ao continuar, você concorda com os
+                - link "Termos de Uso" [ref=e55] [cursor=pointer]:
+                  - /url: https://help.instagram.com/581066165581870/?locale=pt_BR
+                - text: e a
+                - link "Política de Privacidade" [ref=e56] [cursor=pointer]:
+                  - /url: https://privacycenter.instagram.com/policy/
+                - text: do Instagram.
+          - generic [ref=e57]:
+            - link "Cadastre-se" [ref=e60] [cursor=pointer]:
+              - /url: /accounts/emailsignup/
+            - link "Entrar" [ref=e63] [cursor=pointer]:
+              - /url: /accounts/login/?source=desktop_dynamic_landing_dialog
+    - generic [ref=e64]:
+      - article [ref=e65]:
+        - generic [ref=e66]:
+          - generic [ref=e67]:
+            - button "Foto do perfil de dayantorresart" [disabled] [ref=e69]:
+              - link "Foto do perfil de dayantorresart" [disabled] [ref=e71] [cursor=pointer]:
+                - /url: /dayantorresart/
+                - img "Foto do perfil de dayantorresart" [ref=e72]
+            - generic [ref=e74]:
+              - generic [ref=e77]:
+                - link "dayantorresart" [ref=e80] [cursor=pointer]:
+                  - /url: /dayantorresart/
+                  - generic [ref=e81]: dayantorresart
+                - img "Verificado" [ref=e83]
+              - generic [ref=e85]:
+                - generic [ref=e88]: •
+                - button "Seguir" [ref=e89] [cursor=pointer]:
+                  - generic [ref=e91]: Seguir
+          - button "Mais opções" [ref=e93] [cursor=pointer]:
+            - img "Mais opções" [ref=e96]
+        - generic [ref=e106] [cursor=pointer]:
+          - button [ref=e107]:
+            - img [ref=e109]
+          - button "Tags" [ref=e112]:
+            - img "Tags" [ref=e114]
+          - generic:
+            - link "tattoosinlimites":
+              - /url: /tattoosinlimites/
+              - generic:
+                - generic: tattoosinlimites
+          - generic:
+            - link "lamanigancetattootoronto":
+              - /url: /lamanigancetattootoronto/
+              - generic:
+                - generic: lamanigancetattootoronto
+        - generic [ref=e117]:
+          - generic [ref=e119]:
+            - generic [ref=e120]:
+              - button "Curtir" [ref=e123] [cursor=pointer]:
+                - img "Curtir" [ref=e126]
+              - button "7,3 mil" [ref=e128] [cursor=pointer]
+              - button "Comentar" [ref=e130] [cursor=pointer]:
+                - img "Comentar" [ref=e132]
+              - button "38" [ref=e134] [cursor=pointer]
+              - button "Compartilhar" [ref=e135] [cursor=pointer]:
+                - img "Compartilhar" [ref=e136]
+            - button "Salvar" [ref=e140] [cursor=pointer]:
+              - img "Salvar" [ref=e142]
+          - generic [ref=e146]:
+            - link "dayantorresart" [ref=e147] [cursor=pointer]:
+              - /url: /dayantorresart/
+              - generic [ref=e150]: dayantorresart
+            - img "Verificado" [ref=e152]
+            - generic [ref=e154]:
+              - heading "Fully healed outer arm sleeve. I took this healed photo back in September in California at the Golden state tattoo expo." [level=1] [ref=e156]
+              - generic [ref=e157]:
+                - text: ...
+                - button "mais" [ref=e158] [cursor=pointer]:
+                  - generic [ref=e159]: mais
+          - link "Ver todos os 38 comentários" [ref=e161] [cursor=pointer]:
+            - /url: "#"
+            - generic [ref=e162]: Ver todos os 38 comentários
+          - generic [ref=e163]:
+            - generic [ref=e165]:
+              - link "thauanieduarda" [ref=e166] [cursor=pointer]:
+                - /url: /thauanieduarda/
+                - generic [ref=e169]: thauanieduarda
+              - generic [ref=e170]:
+                - generic [ref=e171]: Olá pessoal eu vim aqui pedir ajuda
+                - generic [ref=e172]:
+                  - text: ...
+                  - button "mais" [ref=e173] [cursor=pointer]:
+                    - generic [ref=e174]: mais
+            - generic [ref=e176]:
+              - link "jgtat2s" [ref=e177] [cursor=pointer]:
+                - /url: /jgtat2s/
+                - generic [ref=e180]: jgtat2s
+              - generic [ref=e182]: 🙌🏻💯🔥
+          - link "5 de fevereiro" [ref=e185] [cursor=pointer]:
+            - /url: /dayantorresart/p/DUYngkODxJf/
+            - time [ref=e187]: 5 de fevereiro
+      - separator [ref=e189]
+      - generic [ref=e190]:
+        - generic [ref=e192]:
+          - text: Mais posts de
+          - link "dayantorresart" [ref=e193] [cursor=pointer]:
+            - /url: /dayantorresart/
+        - generic [ref=e196]:
+          - generic [ref=e197]:
+            - link "Clipe" [ref=e199] [cursor=pointer]:
+              - /url: /dayantorresart/reel/DP1hzdbkX5o/
+              - generic:
+                - generic:
+                  - generic:
+                    - img "Clipe"
+            - link "Clipe" [ref=e204] [cursor=pointer]:
+              - /url: /dayantorresart/reel/DQpH4Sgjzky/
+              - generic:
+                - generic:
+                  - generic:
+                    - img "Clipe"
+            - link [ref=e209] [cursor=pointer]:
+              - /url: /dayantorresart/p/DP6pHWmDQPQ/
+          - generic [ref=e213]:
+            - link "Carrossel" [ref=e215] [cursor=pointer]:
+              - /url: /dayantorresart/p/DYSOZm1FXb1/
+              - generic:
+                - generic:
+                  - generic:
+                    - img "Carrossel"
+            - link "Clipe" [ref=e220] [cursor=pointer]:
+              - /url: /dayantorresart/reel/DYPpPRuv1Zf/
+              - generic:
+                - generic:
+                  - generic:
+                    - img "Clipe"
+            - link "Carrossel" [ref=e225] [cursor=pointer]:
+              - /url: /dayantorresart/p/DYKhMOXFSp_/
+              - generic:
+                - generic:
+                  - generic:
+                    - img "Carrossel"
+          - generic [ref=e229]:
+            - link "Clipe" [ref=e231] [cursor=pointer]:
+              - /url: /lamanigancetattootoronto/reel/DYFVOhoPVPC/
+              - generic:
+                - generic:
+                  - generic:
+                    - img "Clipe"
+            - link "Clipe" [ref=e236] [cursor=pointer]:
+              - /url: /dayantorresart/reel/DYC1tKtvlIR/
+              - generic:
+                - generic:
+                  - generic:
+                    - img "Clipe"
+            - link "Clipe" [ref=e241] [cursor=pointer]:
+              - /url: /dayantorresart/reel/DYAPKg8QmCJ/
+              - generic:
+                - generic:
+                  - generic:
+                    - img "Clipe"
+        - generic [ref=e245]:
+          - link "Ver mais posts" [ref=e247] [cursor=pointer]:
+            - /url: /dayantorresart/
+            - generic [ref=e248]: Ver mais posts
+          - separator [ref=e249]

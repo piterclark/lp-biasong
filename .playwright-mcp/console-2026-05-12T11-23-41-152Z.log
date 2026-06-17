@@ -1,0 +1,8 @@
+[     344ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:4322/arborea/assets/nuFiD-vYSZviVYUb_rj3ij__anPXDTzYgA.woff2:0
+[     345ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:4322/arborea/assets/U9MH6cuh-mLQlC4BKCtayOfARkSVq7HUJA.woff2:0
+[     345ms] [ERROR] Failed to load resource: the server responded with a status of 404 (File not found) @ http://localhost:4322/arborea/assets/0nkFC9D7PO4KhmUJ5_zTZ_4MYQXznAK-TUcZXKO3UMnW6VNpe4-SoCpQng.woff2:0
+[     408ms] Uncaught TypeError: Cannot set properties of undefined (setting '_backupNodes')
+    at <anonymous> (https://meuarborea.com.br/wp-content/cache/min/1/9e740338ab88f29052ce9ff77204efff.js:0:986)
+    at o (https://meuarborea.com.br/wp-content/cache/min/1/9e740338ab88f29052ce9ff77204efff.js:0:109)
+    at <anonymous> (https://meuarborea.com.br/wp-content/cache/min/1/9e740338ab88f29052ce9ff77204efff.js:0:901)
+    at <anonymous> (https://meuarborea.com.br/wp-content/cache/min/1/9e740338ab88f29052ce9ff77204efff.js:0:910)

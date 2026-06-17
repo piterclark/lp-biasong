@@ -1,0 +1,66 @@
+- application:
+  - iframe [ref=e1]:
+    
+  - region
+  - generic [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e8]:
+        - img [ref=e12]
+        - generic [ref=e16]:
+          - text: "It appears Z.E.R.O has gotten some attention. Should we open source his repo#fyp #claudecode #ai.mp4"
+          - tooltip [ref=e17]
+        - menubar "Barra de menus" [ref=e21]:
+          - generic [ref=e22]:
+            - generic [ref=e23]:
+              - button "Arquivo" [ref=e28] [cursor=pointer]:
+                - generic [ref=e29]: Arquivo
+              - button "Acessar" [ref=e34] [cursor=pointer]:
+                - generic [ref=e35]: Acessar
+              - button "Ajuda" [ref=e40] [cursor=pointer]:
+                - generic [ref=e41]: Ajuda
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - tooltip: Mais
+        - link "Fazer login" [ref=e48] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?service=wise&passive=1209600&osid=1&continue=https://drive.google.com/file/d/13xlI5MNa9urBXgrg5n2a953iPx33BFdn/view?usp%3Dsharing&followup=https://drive.google.com/file/d/13xlI5MNa9urBXgrg5n2a953iPx33BFdn/view?usp%3Dsharing&ec=GAZAGQ
+      - generic [ref=e50]:
+        - generic [ref=e54]:
+          - button "Baixar" [ref=e55] [cursor=pointer]:
+            - img [ref=e58]
+          - tooltip [ref=e61]: Baixar
+        - generic [ref=e64]:
+          - button "Transcrição" [disabled] [ref=e66]:
+            - img [ref=e70]
+            - generic [ref=e72]: Transcrição
+          - tooltip [ref=e73]: Transcrição
+        - generic [ref=e76]:
+          - button "Ocultar cabeçalho do arquivo" [ref=e77] [cursor=pointer]:
+            - img [ref=e80]
+            - img [ref=e84]
+          - tooltip [ref=e87]: Ocultar cabeçalho do arquivo
+    - generic "Mostrando leitor." [ref=e88]:
+      - 'generic "Exibindo It appears Z.E.R.O has gotten some attention. Should we open source his repo#fyp #claudecode #ai.mp4…" [active]'
+      - generic [ref=e89]:
+        - generic "Anterior" [ref=e90]
+        - generic "Avançar" [ref=e91]
+        - main [ref=e92]:
+          - generic [ref=e93]:
+            - generic [ref=e95]:
+              - generic:
+                - generic:
+                  - list
+            - generic [ref=e96]:
+              - status "Carregando" [ref=e98]
+              - generic [ref=e133]:
+                - generic "Visualizar imagem" [ref=e134] [cursor=pointer]:
+                  - generic [ref=e136]:
+                    - 'button "Atalho do teclado para iniciar: k" [ref=e137]':
+                      - img [ref=e140]
+                      - img [ref=e144]
+                    - tooltip [ref=e147]: Reproduzir (k)
+                  - img "Visualizar imagem" [ref=e148]
+                - iframe [ref=e150]:
+                  
+  - generic [ref=e151]: "Exibindo It appears Z.E.R.O has gotten some attention. Should we open source his repo#fyp #claudecode #ai.mp4…"

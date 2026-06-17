@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=1000, initial-scale=1.0">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Cormorant+SC:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background: #F4F1EE;
+  }
+  svg { display: block; width: 100vw; height: 100vh; }
+</style>
+</head>
+<body>
+<!--
+  ╔══════════════════════════════════════════════════════════════════╗
+  ║  LOGO — PSICÓLOGO LOGAN ANDRADE  ·  v7 FINAL                   ║
+  ║  Canvas: 1000×1000 · Palette: Navy #1C3D5E · Sage #7B9E8D       ║
+  ╚══════════════════════════════════════════════════════════════════╝
+
+  GEOMETRY
+  ──────────────────────────────────────────────────────────────────
+  Emblem center  = (500, 375)
+  Ring radius R  = 228 px, stroke 12 → inner edge r=222, outer r=234
+
+  CRESCENT — filled closed path, no linecap bleed
+  ─────────────────────────────────────────────────
+  Arc from 297° → 63° clockwise (just past 1-o'clock to just past 5-o'clock)
+  Half-width w = 33  →  outer arc R_out=198+33=231, inner arc R_in=198-33=165
+  At 297°: cos=-0.454... wait using deg math:
+    cos(297°)=cos(-63°)=0.454, sin(297°)=sin(-63°)=-0.891
+    outer point: (500+231·0.454, 375+231·(-0.891))=(604.9, 169.4)
+    inner point: (500+165·0.454, 375+165·(-0.891))=(574.9, 227.9)
+  At 63°: cos(63°)=0.454, sin(63°)=0.891
+    outer point: (604.9, 580.6)
+    inner point: (574.9, 522.1)
+  Round caps: semicircle r=33 at each tip
+    Top cap center: (500+198·0.454, 375+198·(-0.891))=(589.9, 198.6)
+    Bot cap center: (589.9, 551.4)
+
+  PATH (clockwise outer, CCW inner, with semicircular caps):
+    M outer_top
+    A 231 231 0 0 1 outer_bot   (outer arc CW)
+    A 33 33 0 1 1 inner_bot     (bottom round cap)
+    A 165 165 0 0 0 inner_top   (inner arc CCW)
+    A 33 33 0 1 1 outer_top     (top round cap)
+    Z
+
+  RING GAP at top (270° ± 5°):
+    275°: (519.9, 147.9)   265°: (480.1, 147.9)
+-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000">
+
+  <!-- ░░ BACKGROUND ░░ -->
+  <rect width="1000" height="1000" fill="#F4F1EE"/>
+
+  <!-- ════════════════════════════════════════════════════════
+       LAYER 1 · NAVY CRESCENT  — filled path, rounded caps
+       Outer arc r=228 (ring centre-line, stroke masks outer edge).
+       Inner arc r=162 → radial width 66 px, cap radius 33.
+       Arc span 297° → 63° CW (1-o'clock → 5-o'clock).
+
+       Key points (cos63°=0.4540, sin63°=0.8910):
+         297°  outer (603.5, 171.9)   inner (573.6, 230.7)
+         63°   outer (603.5, 578.1)   inner (573.6, 519.3)
+       Cap centers at r=195: (588.5, 201.3) top, (588.5, 548.7) bot
+       CCW caps (sweep=0) keep within ring, create tapered crescent tips.
+       ════════════════════════════════════════════════════════ -->
+  <path
+    d="M 603.5 171.9
+       A 228 228 0 0 1 603.5 578.1
+       A 33 33 0 0 1 573.6 519.3
+       A 162 162 0 0 0 573.6 230.7
+       A 33 33 0 0 1 603.5 171.9
+       Z"
+    fill="#1C3D5E"/>
+
+  <!-- ════════════════════════════════════════════════════════
+       LAYER 2 · SAGE GREEN RING  (over crescent, gap at top)
+       ════════════════════════════════════════════════════════ -->
+  <path
+    d="M 519.9 147.9 A 228 228 0 1 1 480.1 147.9"
+    fill="none"
+    stroke="#7B9E8D"
+    stroke-width="12"
+    stroke-linecap="round"/>
+
+  <!-- ════════════════════════════════════════════════════════
+       LAYER 3 · CREAM MASK + SAGE DOT at top gap
+       ════════════════════════════════════════════════════════ -->
+  <circle cx="500" cy="147" r="24" fill="#F4F1EE"/>
+  <circle cx="500" cy="147" r="17" fill="#7B9E8D"/>
+
+  <!-- ════════════════════════════════════════════════════════
+       LAYER 4 · PSI SYMBOL  Ψ
+       300px Cormorant Garamond Light — commands the interior
+       ════════════════════════════════════════════════════════ -->
+  <text
+    x="500" y="385"
+    font-family="'Cormorant Garamond', 'Palatino Linotype', 'Book Antiqua', Georgia, 'Times New Roman', serif"
+    font-size="300"
+    font-weight="300"
+    fill="#1C3D5E"
+    text-anchor="middle"
+    dominant-baseline="middle">Ψ</text>
+
+  <!-- ════════════════════════════════════════════════════════
+       TEXT BLOCK  ·  Emblem bottom: 375 + 228 = 603
+       ════════════════════════════════════════════════════════ -->
+
+  <!-- ── « Psicólogo » italic with flanking rules ── -->
+  <line x1="172" y1="662" x2="352" y2="662" stroke="#7B9E8D" stroke-width="1"/>
+  <text
+    x="500" y="662"
+    font-family="'Cormorant Garamond', 'Palatino Linotype', Georgia, serif"
+    font-size="29"
+    font-weight="400"
+    font-style="italic"
+    fill="#7B9E8D"
+    text-anchor="middle"
+    dominant-baseline="middle"
+    letter-spacing="4">Psicólogo</text>
+  <line x1="648" y1="662" x2="828" y2="662" stroke="#7B9E8D" stroke-width="1"/>
+
+  <!-- ── LOGAN ANDRADE in Cormorant SC small caps ── -->
+  <text
+    x="500" y="757"
+    font-family="'Cormorant SC', 'Cormorant Garamond', 'Palatino Linotype', Georgia, serif"
+    font-size="80"
+    font-weight="500"
+    fill="#1C3D5E"
+    text-anchor="middle"
+    dominant-baseline="middle"
+    letter-spacing="8">Logan Andrade</text>
+
+  <!-- ── CRP 04/74564 with flanking rules ── -->
+  <line x1="152" y1="840" x2="322" y2="840" stroke="#7B9E8D" stroke-width="1"/>
+  <text
+    x="500" y="840"
+    font-family="'Cormorant Garamond', 'Palatino Linotype', Georgia, serif"
+    font-size="23"
+    font-weight="400"
+    fill="#7B9E8D"
+    text-anchor="middle"
+    dominant-baseline="middle"
+    letter-spacing="7">CRP 04/74564</text>
+  <line x1="678" y1="840" x2="848" y2="840" stroke="#7B9E8D" stroke-width="1"/>
+
+</svg>
+</body>
+</html>

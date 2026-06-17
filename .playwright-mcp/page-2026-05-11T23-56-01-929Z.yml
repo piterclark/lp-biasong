@@ -1,0 +1,353 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - generic [ref=e5]:
+          - generic [ref=e6]: 
+          - text: Para Profissionais de Estética
+        - 'heading "Da curiosidade ao agendamento: A ferramenta que falta para lotar sua agenda." [level=1] [ref=e7]'
+        - paragraph [ref=e8]: Tenha uma página exclusiva que apresenta seus serviços de estética com elegância, responde dúvidas frequentes e converte seguidores em clientes reais, tudo no automático.
+        - link "QUERO CONHECER MAIS " [ref=e9] [cursor=pointer]:
+          - /url: "#orcamento"
+          - text: QUERO CONHECER MAIS
+          - generic [ref=e10]: 
+      - generic [ref=e12]:
+        - img "Exemplo de Landing Page para Lash Designer no Desktop" [ref=e13]
+        - img "Site responsivo para estética versão mobile" [ref=e14]
+  - generic [ref=e16]:
+    - heading "Você Reconhece Esses Problemas?" [level=2] [ref=e17]
+    - paragraph [ref=e18]: Profissionais de estética, barbearia e tattoo enfrentam os mesmos desafios.
+    - generic [ref=e19]:
+      - generic [ref=e20]:
+        - generic [ref=e22]: 
+        - heading "Perde clientes para a concorrência?" [level=3] [ref=e23]
+        - paragraph [ref=e24]: Enquanto você não está online, seus concorrentes estão conquistando seus clientes potenciais.
+      - generic [ref=e25]:
+        - generic [ref=e27]: 
+        - heading "Baixa conversão nas redes sociais?" [level=3] [ref=e28]
+        - paragraph [ref=e29]: Muitos seguidores mas poucos clientes? Suas redes precisam de um destino profissional.
+      - generic [ref=e30]:
+        - generic [ref=e32]: 
+        - heading "Gasta muito tempo no Direct?" [level=3] [ref=e33]
+        - paragraph [ref=e34]: Responde as mesmas perguntas de preço e localização todo dia? Uma landing page resolve isso.
+      - generic [ref=e35]:
+        - generic [ref=e37]: 
+        - heading "Atrai muito \"curioso\" sem dinheiro?" [level=3] [ref=e38]
+        - paragraph [ref=e39]: Atende qualquer pessoa mas queria focar no público que realmente valoriza e paga pelo seu trabalho.
+      - generic [ref=e40]:
+        - generic [ref=e42]: 
+        - heading "Agendamento manual e confuso?" [level=3] [ref=e43]
+        - paragraph [ref=e44]: A troca infinita de mensagens no WhatsApp para achar um horário livre está matando sua produtividade.
+      - generic [ref=e45]:
+        - generic [ref=e47]: 
+        - heading "Dificuldade em cobrar o valor justo?" [level=3] [ref=e48]
+        - paragraph [ref=e49]: Sem uma apresentação premium na internet, o cliente compara apenas preço, e não a qualidade do seu serviço.
+  - generic [ref=e51]:
+    - generic [ref=e52]:
+      - img "Amanda Inagaki" [ref=e54]
+      - code [ref=e56]: <dev />
+    - generic [ref=e57]:
+      - generic [ref=e58]: SOBRE MIM
+      - heading "Design Estratégico para Negócios de Beleza" [level=2] [ref=e59]
+      - paragraph [ref=e60]:
+        - text: Olá, me chamo
+        - strong [ref=e61]: Amanda Inagaki
+        - text: "! Sou fascinada por tecnologia e dedico meus estudos em"
+        - strong [ref=e62]: ADS
+        - text: para criar soluções digitais que funcionam. Unindo técnica e estética, transformo seu talento em autoridade digital.
+      - generic [ref=e63]:
+        - generic [ref=e65]: 
+        - paragraph [ref=e66]:
+          - text: Aplico o método
+          - strong [ref=e67]: AIDA
+          - text: junto ao conceito
+          - strong [ref=e68]: "\"Menos é Mais\""
+          - text: para gerar conversão real através do código limpo.
+      - paragraph [ref=e69]: "\"Acredito que a poluição visual afasta clientes de alto padrão. Crio o essencial com sofisticação.\""
+  - generic [ref=e71]:
+    - heading "Por Que Você Precisa de Uma Landing Page?" [level=2] [ref=e72]
+    - paragraph [ref=e73]: No mercado de estética, a primeira impressão é tudo.
+    - generic [ref=e74]:
+      - generic [ref=e75]:
+        - generic [ref=e77]: 
+        - paragraph [ref=e78]: Aumenta sua credibilidade profissional instantaneamente
+      - generic [ref=e79]:
+        - generic [ref=e81]: 
+        - paragraph [ref=e82]: Filtra e atrai apenas clientes que valorizam seu trabalho
+      - generic [ref=e83]:
+        - generic [ref=e85]: 
+        - paragraph [ref=e86]: Economiza horas respondendo as mesmas perguntas
+      - generic [ref=e87]:
+        - generic [ref=e89]: 
+        - paragraph [ref=e90]: Funciona 24/7 apresentando seus serviços
+      - generic [ref=e91]:
+        - generic [ref=e93]: 
+        - paragraph [ref=e94]: Facilita o processo de agendamento
+      - generic [ref=e95]:
+        - generic [ref=e97]: 
+        - paragraph [ref=e98]: Destaca seus diferenciais de forma estratégica
+    - generic [ref=e100]:
+      - generic [ref=e101]:
+        - heading "O Investimento Que Se Paga" [level=3] [ref=e102]
+        - paragraph [ref=e103]: Uma única cliente conquistada através da sua landing page já pode pagar todo o investimento. E ela continuará trabalhando para você mês após mês.
+      - generic [ref=e105]: 
+  - generic [ref=e107]:
+    - heading "Para Quem É Este Serviço?" [level=2] [ref=e108]
+    - generic [ref=e109]:
+      - generic [ref=e110]:
+        - generic [ref=e112]: 
+        - heading "Esteticistas" [level=3] [ref=e113]
+        - paragraph [ref=e114]: Especializadas em tratamentos faciais, corporais e bem-estar.
+      - generic [ref=e115]:
+        - generic [ref=e117]: 
+        - heading "Personal Trainers" [level=3] [ref=e118]
+        - paragraph [ref=e119]: Venda de consultorias online, planilhas de treino e desafios.
+      - generic [ref=e120]:
+        - generic [ref=e122]: 
+        - heading "Designers de Sobrancelhas" [level=3] [ref=e123]
+        - paragraph [ref=e124]: Especialistas em design, henna e realce do olhar.
+      - generic [ref=e125]:
+        - generic [ref=e127]: 
+        - heading "Profissionais de Beleza" [level=3] [ref=e128]
+        - paragraph [ref=e129]: Maquiadoras, lash designers, nail designers.
+      - generic [ref=e130]:
+        - generic [ref=e132]: 
+        - heading "Barbeiros" [level=3] [ref=e133]
+        - paragraph [ref=e134]: Gestão de agenda e portfólio para barbearias modernas.
+      - generic [ref=e135]:
+        - generic [ref=e137]: 
+        - heading "Tatuadores" [level=3] [ref=e138]
+        - paragraph [ref=e139]: Galeria de artes e agendamento para estúdios de tattoo.
+  - generic [ref=e141]:
+    - heading "Meu Portfolio" [level=2] [ref=e142]
+    - paragraph [ref=e143]: Conheça alguns dos projetos que desenvolvi. Clique para ver ao vivo.
+    - generic [ref=e144]:
+      - generic [ref=e145]:
+        - generic [ref=e146]:
+          - img "Projeto de Landing Page para Lash Designer Julia Pires" [ref=e147]
+          - link "VER PROJETO " [ref=e149] [cursor=pointer]:
+            - /url: https://juliapireslashes.vercel.app/
+            - text: VER PROJETO
+            - generic [ref=e150]: 
+        - generic [ref=e151]:
+          - generic [ref=e152]: Lash Designer
+          - heading "Julia Pires Lashes" [level=3] [ref=e153]
+          - paragraph [ref=e154]: Elegância que justifica o preço. Uma estrutura que filtra curiosos, valoriza o procedimento visualmente e automatiza o agendamento no WhatsApp.
+      - generic [ref=e155]:
+        - generic [ref=e156]:
+          - img "Site One Page para Coach Esportivo" [ref=e157]
+          - link "VER PROJETO " [ref=e159] [cursor=pointer]:
+            - /url: https://coachkaue.vercel.app/
+            - text: VER PROJETO
+            - generic [ref=e160]: 
+        - generic [ref=e161]:
+          - generic [ref=e162]: Coach Esportivo
+          - heading "Coach Kaue Alvarenga" [level=3] [ref=e163]
+          - paragraph [ref=e164]: Autoridade que converte. Uma página de alta performance que explica a metodologia, quebra objeções e vende a consultoria 24h por dia.
+      - generic [ref=e165]:
+        - generic [ref=e166]:
+          - img "Modelo de Site para Tatuador" [ref=e167]
+          - link "VER PROJETO " [ref=e169] [cursor=pointer]:
+            - /url: https://tatuadorliam.vercel.app/
+            - text: VER PROJETO
+            - generic [ref=e170]: 
+        - generic [ref=e171]:
+          - generic [ref=e172]: Tatuador
+          - heading "Tatuador Liam - Concept" [level=3] [ref=e173]
+          - paragraph [ref=e174]: Valorize cada traço. Um portfólio imersivo e dark que destaca a exclusividade da arte e organiza os pedidos de orçamentos complexos.
+  - generic [ref=e177]:
+    - generic [ref=e178]:
+      - heading "Gostou dos projetos que viu?" [level=2] [ref=e179]
+      - paragraph [ref=e180]: Não deixe sua marca amadora enquanto suas concorrentes se profissionalizam.
+    - link "QUERO MEU SITE EXCLUSIVO" [ref=e181] [cursor=pointer]:
+      - /url: "#orcamento"
+  - generic [ref=e183]:
+    - heading "Como Funciona o Processo?" [level=2] [ref=e184]
+    - paragraph [ref=e185]: Um processo simples e transparente.
+    - generic [ref=e186]:
+      - generic [ref=e188]:
+        - generic [ref=e189]:
+          - generic [ref=e190]: "01"
+          - generic [ref=e191]: 
+        - heading "Briefing Inicial" [level=3] [ref=e192]
+        - paragraph [ref=e193]: Preenchimento do formulário detalhado para entendermos seu negócio.
+        - generic [ref=e194]:
+          - generic [ref=e195]: 
+          - text: 1 dia
+      - generic [ref=e197]:
+        - generic [ref=e198]:
+          - generic [ref=e199]: "02"
+          - generic [ref=e200]: 
+        - heading "Design Personalizado" [level=3] [ref=e201]
+        - paragraph [ref=e202]: Criação do layout exclusivo baseado na sua identidade visual.
+        - generic [ref=e203]:
+          - generic [ref=e204]: 
+          - text: 2-3 dias
+      - generic [ref=e206]:
+        - generic [ref=e207]:
+          - generic [ref=e208]: "03"
+          - generic [ref=e209]: 
+        - heading "Desenvolvimento" [level=3] [ref=e210]
+        - paragraph [ref=e211]: Transformamos o design em uma página funcional e responsiva.
+        - generic [ref=e212]:
+          - generic [ref=e213]: 
+          - text: 2 dias
+      - generic [ref=e215]:
+        - generic [ref=e216]:
+          - generic [ref=e217]: "04"
+          - generic [ref=e218]: 
+        - heading "Testes e Ajustes" [level=3] [ref=e219]
+        - paragraph [ref=e220]: Realizamos testes completos e fazemos os ajustes necessários.
+        - generic [ref=e221]:
+          - generic [ref=e222]: 
+          - text: 2 dias
+      - generic [ref=e224]:
+        - generic [ref=e225]:
+          - generic [ref=e226]: "05"
+          - generic [ref=e227]: 
+        - heading "Lançamento" [level=3] [ref=e228]
+        - paragraph [ref=e229]: Sua landing page vai ao ar! Entregamos guia de uso.
+        - generic [ref=e230]:
+          - generic [ref=e231]: 
+          - text: 1 dia
+    - generic [ref=e232]:
+      - 'heading "Prazo Total: 8-10 Dias" [level=3] [ref=e233]'
+      - paragraph [ref=e234]: Em menos de 2 semanas, você terá uma landing page profissional pronta.
+  - generic [ref=e236]:
+    - heading "Dúvidas Comuns" [level=2] [ref=e237]
+    - paragraph [ref=e238]: Tudo o que você precisa saber para dar o próximo passo com segurança.
+    - generic [ref=e239]:
+      - generic [ref=e240]:
+        - button "Vou ter que pagar pelo nome do site (domínio) separadamente? " [ref=e241] [cursor=pointer]:
+          - text: Vou ter que pagar pelo nome do site (domínio) separadamente?
+          - generic [ref=e242]: 
+        - paragraph [ref=e243]: "Não! Para facilitar sua vida, o registro do domínio (ex: www.seunome.com.br) já está incluso no valor do orçamento. Você não precisa se preocupar com burocracias técnicas; eu cuido de tudo para que sua marca tenha um endereço profissional na internet desde o primeiro dia."
+      - generic [ref=e244]:
+        - button "Como você garante que a página vai realmente atrair clientes? " [ref=e245] [cursor=pointer]:
+          - text: Como você garante que a página vai realmente atrair clientes?
+          - generic [ref=e246]: 
+        - paragraph [ref=e247]:
+          - text: Eu utilizo a
+          - strong [ref=e248]: Estrutura AIDA
+          - text: (Atenção, Interesse, Desejo e Ação). Isso significa que sua página não é apenas "bonitinha", ela é construída seguindo uma psicologia de vendas que guia o seu cliente desde o primeiro olhar até o clique final no botão de agendamento.
+      - generic [ref=e249]:
+        - button "Por que você utiliza o conceito \"Less is More\" (Menos é Mais)? " [ref=e250] [cursor=pointer]:
+          - text: Por que você utiliza o conceito "Less is More" (Menos é Mais)?
+          - generic [ref=e251]: 
+        - paragraph [ref=e252]: "Na área da estética, a clareza é fundamental. Um site poluído confunde o cliente e demora a carregar. Meu foco é um design clean, elegante e direto, garantindo que a atenção do visitante esteja onde importa: nos seus resultados e no seu talento. Além disso, páginas mais leves carregam mais rápido no celular."
+      - generic [ref=e253]:
+        - button "Meu site vai aparecer quando alguém pesquisar no Google? " [ref=e254] [cursor=pointer]:
+          - text: Meu site vai aparecer quando alguém pesquisar no Google?
+          - generic [ref=e255]: 
+        - paragraph [ref=e256]: Sim. Além de criar a página, eu realizo a indexação no Google e faço os ajustes necessários no seu perfil de empresa (Google Meu Negócio). Isso ajuda a sua estética, estúdio ou consultório a ser encontrado por pessoas que estão buscando seus serviços na sua região.
+      - generic [ref=e257]:
+        - button "O que eu faço com o link do site depois de pronto? " [ref=e258] [cursor=pointer]:
+          - text: O que eu faço com o link do site depois de pronto?
+          - generic [ref=e259]: 
+        - paragraph [ref=e260]: "Esse é um dos meus grandes diferenciais! Além da entrega técnica, você recebe um bônus exclusivo: um guia de como utilizar o seu link de forma estratégica no Instagram, WhatsApp e anúncios para extrair o máximo de lucro da sua nova estrutura."
+      - generic [ref=e261]:
+        - button "E se eu quiser mudar alguma coisa no site depois de pronto? " [ref=e262] [cursor=pointer]:
+          - text: E se eu quiser mudar alguma coisa no site depois de pronto?
+          - generic [ref=e263]: 
+        - paragraph [ref=e264]:
+          - text: "Nosso processo funciona em duas etapas: Durante a criação, validamos o design juntos e só publicamos com seu \"ok\". Pós-entrega, você tem"
+          - strong [ref=e265]: 2 ajustes gratuitos
+          - text: de bônus (fotos, preços ou textos). Caso precise de mais no futuro, cobramos apenas um valor simbólico para manter seu site sempre evoluindo.
+  - generic [ref=e268]:
+    - generic [ref=e269]:
+      - generic [ref=e270]: Vamos conversar?
+      - heading "Solicite sua Análise de Perfil + Orçamento" [level=2] [ref=e271]
+      - paragraph [ref=e272]: Preencha os dados ao lado. Com essas informações, consigo entender o estágio do seu negócio e preparar uma proposta ideal para você.
+      - list [ref=e273]:
+        - listitem [ref=e274]:
+          - generic [ref=e275]: 
+          - text: Análise de posicionamento digital
+        - listitem [ref=e276]:
+          - generic [ref=e277]: 
+          - text: Proposta personalizada (sem compromisso)
+        - listitem [ref=e278]:
+          - generic [ref=e279]: 
+          - text: Atendimento via WhatsApp
+    - generic [ref=e281]:
+      - generic [ref=e282]:
+        - generic [ref=e283]: Seu Nome
+        - textbox "Seu Nome" [ref=e284]:
+          - /placeholder: Seu nome completo
+      - generic [ref=e285]:
+        - generic [ref=e286]: WhatsApp com DDD
+        - textbox "WhatsApp com DDD" [ref=e287]:
+          - /placeholder: (11) 99999-9999
+      - generic [ref=e288]:
+        - generic [ref=e289]: Seu Instagram Comercial
+        - textbox "Seu Instagram Comercial" [ref=e290]:
+          - /placeholder: "@seu.perfil"
+      - generic [ref=e291]:
+        - generic [ref=e292]: Qual sua área principal?
+        - combobox "Qual sua área principal?" [ref=e293]:
+          - option "Lash Designer / Cílios" [selected]
+          - option "Designer de Sobrancelhas"
+          - option "Estética Facial/Corporal"
+          - option "Nail Designer / Unhas"
+          - option "Barbeiro (a)"
+          - option "Tatuador (a)"
+          - option "Personal Trainer"
+          - option "Outra área da beleza"
+      - generic [ref=e294]:
+        - generic [ref=e295]: Você já possui Identidade Visual?
+        - combobox "Você já possui Identidade Visual?" [ref=e296]:
+          - option "Sim, tenho logotipo e paleta de cores" [selected]
+          - option "Tenho apenas o logotipo"
+          - option "Não tenho nada ainda"
+      - generic [ref=e297]:
+        - generic [ref=e298]: Para quando você precisa do site?
+        - combobox "Para quando você precisa do site?" [ref=e299]:
+          - option "Para ontem (Urgente)" [selected]
+          - option "Nas próximas semanas"
+          - option "Estou apenas pesquisando"
+      - button "SOLICITAR ORÇAMENTO" [ref=e300] [cursor=pointer]
+  - contentinfo [ref=e301]:
+    - generic [ref=e302]:
+      - generic [ref=e303]:
+        - generic [ref=e304]:
+          - heading "InagakiLanding" [level=3] [ref=e305]
+          - paragraph [ref=e306]: Desenvolvimento de Landing Pages estratégicas focadas em conversão e design para profissionais da beleza.
+          - generic [ref=e307]:
+            - link "Instagram" [ref=e308] [cursor=pointer]:
+              - /url: https://www.instagram.com/inagakilanding?igsh=ZjR4MXc3Z3E5ZWhm&utm_source=qr
+              - generic [ref=e309]: 
+            - link "WhatsApp" [ref=e310] [cursor=pointer]:
+              - /url: https://wa.me/5512997936774
+              - generic [ref=e311]: 
+            - link "LinkedIn" [ref=e312] [cursor=pointer]:
+              - /url: https://www.linkedin.com/in/amanda-inagaki
+              - generic [ref=e313]: 
+        - generic [ref=e314]:
+          - heading "Navegação" [level=4] [ref=e315]
+          - list [ref=e316]:
+            - listitem [ref=e317]:
+              - link "Início" [ref=e318] [cursor=pointer]:
+                - /url: "#inicio"
+            - listitem [ref=e319]:
+              - link "Portfolio" [ref=e320] [cursor=pointer]:
+                - /url: "#portfolio"
+            - listitem [ref=e321]:
+              - link "Solicitar Orçamento" [ref=e322] [cursor=pointer]:
+                - /url: "#orcamento"
+        - generic [ref=e323]:
+          - heading "Contato" [level=4] [ref=e324]
+          - list [ref=e325]:
+            - listitem [ref=e326]:
+              - generic [ref=e327]: 
+              - text: inagaklanding@gmail.com
+            - listitem [ref=e328]:
+              - generic [ref=e329]: 
+              - text: (12) 99793-6774
+            - listitem [ref=e330]:
+              - generic [ref=e331]: 
+              - text: Caçapava-SP
+      - generic [ref=e332]:
+        - paragraph [ref=e333]: © 2026 Amanda Inagaki. Todos os direitos reservados.
+        - paragraph [ref=e334]:
+          - text: Feito com
+          - generic [ref=e335]: 
+          - text: e código.

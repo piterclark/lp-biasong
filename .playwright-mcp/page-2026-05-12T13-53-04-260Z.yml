@@ -1,0 +1,181 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]: Ferreira & Associados
+      - generic [ref=e5]: Advocacia & Consultoria Jurídica
+    - navigation [ref=e6]:
+      - link "Sobre" [ref=e7] [cursor=pointer]:
+        - /url: "#sobre"
+      - link "Áreas" [ref=e8] [cursor=pointer]:
+        - /url: "#areas"
+      - link "Como Trabalhamos" [ref=e9] [cursor=pointer]:
+        - /url: "#proc"
+      - link "Consulta Gratuita" [ref=e10] [cursor=pointer]:
+        - /url: "#contato"
+  - generic [ref=e11]:
+    - generic [ref=e18]:
+      - generic [ref=e19]: Ferreira & Associados · Desde 2008
+      - heading "O direito que você merece, defendido com rigor." [level=1] [ref=e20]:
+        - text: O direito que
+        - text: você merece,
+        - emphasis [ref=e21]: defendido com rigor.
+      - paragraph [ref=e22]: Mais de 15 anos protegendo patrimônios, empresas e famílias com precisão jurídica e comprometimento absoluto com o resultado.
+      - generic [ref=e23]:
+        - link "Falar com um advogado" [ref=e24] [cursor=pointer]:
+          - /url: "#contato"
+          - text: Falar com um advogado
+          - img [ref=e25]
+        - link "Ver especialidades →" [ref=e27] [cursor=pointer]:
+          - /url: "#areas"
+    - generic [ref=e33]: Scroll
+  - generic [ref=e34]:
+    - generic [ref=e35]:
+      - generic [ref=e36]:
+        - text: "15"
+        - superscript [ref=e37]: +
+      - generic [ref=e38]: Anos de experiência
+    - generic [ref=e39]:
+      - generic [ref=e40]:
+        - text: "98"
+        - superscript [ref=e41]: "%"
+      - generic [ref=e42]: Taxa de êxito nos casos
+    - generic [ref=e43]:
+      - generic [ref=e44]:
+        - text: "2.4"
+        - superscript [ref=e45]: k
+      - generic [ref=e46]: Clientes atendidos
+    - generic [ref=e47]:
+      - generic [ref=e48]: "6"
+      - generic [ref=e49]: Áreas de especialização
+  - generic [ref=e50]:
+    - generic [ref=e51]:
+      - generic [ref=e52]: Sobre o escritório
+      - heading "Experiência que faz a diferença no seu caso." [level=2] [ref=e53]:
+        - text: Experiência que faz a
+        - emphasis [ref=e54]: diferença
+        - text: no seu caso.
+      - paragraph [ref=e55]:
+        - text: Fundado em 2008, o escritório Ferreira & Associados consolidou-se como referência em
+        - strong [ref=e56]: advocacia empresarial e patrimonial
+        - text: . Nossa abordagem combina profundo conhecimento técnico com visão estratégica voltada para resultados.
+      - paragraph [ref=e57]:
+        - text: Não somos um escritório de volume. Cada caso recebe
+        - strong [ref=e58]: atenção personalizada
+        - text: de um advogado sênior responsável do início ao fim — sem repassar seu processo para estagiários.
+      - paragraph [ref=e59]: Atuamos com discrição, agilidade e total transparência. Você sempre sabe onde seu processo está.
+    - img "Escritório" [ref=e61]
+  - generic [ref=e62]:
+    - generic [ref=e63]:
+      - generic [ref=e64]:
+        - generic [ref=e65]: Áreas de atuação
+        - heading "Expertise onde você mais precisa." [level=2] [ref=e66]:
+          - text: Expertise onde você mais
+          - emphasis [ref=e67]: precisa.
+      - paragraph [ref=e68]: Equipes especializadas que dominam cada aspecto do seu segmento. Não fazemos tudo — fazemos muito bem o que importa para o seu caso.
+    - generic [ref=e69]:
+      - generic [ref=e70]:
+        - generic [ref=e71]: "01"
+        - heading "Direito Empresarial" [level=3] [ref=e72]
+        - paragraph [ref=e73]: Contratos, fusões, aquisições, reestruturações societárias e proteção do negócio em todas as fases do crescimento.
+      - generic [ref=e74]:
+        - generic [ref=e75]: "02"
+        - heading "Direito Tributário" [level=3] [ref=e76]
+        - paragraph [ref=e77]: Planejamento fiscal, defesa em autuações, recuperação de créditos tributários e compliance para empresas de todos os portes.
+      - generic [ref=e78]:
+        - generic [ref=e79]: "03"
+        - heading "Direito Civil e Família" [level=3] [ref=e80]
+        - paragraph [ref=e81]: Divórcio, inventários, planejamento sucessório e proteção patrimonial para você e sua família, com total discrição.
+      - generic [ref=e82]:
+        - generic [ref=e83]: "04"
+        - heading "Direito Trabalhista" [level=3] [ref=e84]
+        - paragraph [ref=e85]: Defesa de empresas em ações trabalhistas, reestruturação de passivos e consultoria preventiva para evitar litígios.
+      - generic [ref=e86]:
+        - generic [ref=e87]: "05"
+        - heading "Direito Imobiliário" [level=3] [ref=e88]
+        - paragraph [ref=e89]: Due diligence, contratos de compra e venda, locações comerciais, regularização de imóveis e gestão de ativos.
+      - generic [ref=e90]:
+        - generic [ref=e91]: "06"
+        - heading "Contencioso Estratégico" [level=3] [ref=e92]
+        - paragraph [ref=e93]: Litígios de alta complexidade, arbitragem e mediação — quando o volume financeiro justifica a melhor defesa possível.
+  - generic [ref=e94]:
+    - generic [ref=e95]:
+      - generic [ref=e96]:
+        - generic [ref=e97]: Como trabalhamos
+        - heading "Método claro. Resultado certo." [level=2] [ref=e98]:
+          - text: Método claro.
+          - emphasis [ref=e99]: Resultado certo.
+      - paragraph [ref=e100]: Da primeira conversa à resolução final, você sabe exatamente o que esperar — sem surpresas, sem promessas vazias. Só estratégia bem executada.
+    - generic [ref=e101]:
+      - generic [ref=e102]:
+        - generic [ref=e103]: "01"
+        - heading "Consulta inicial" [level=4] [ref=e104]
+        - paragraph [ref=e105]: Reunião confidencial para entender seu caso. Sem custo, sem compromisso. Você sai com clareza sobre o caminho jurídico ideal.
+      - generic [ref=e106]:
+        - generic [ref=e107]: "02"
+        - heading "Diagnóstico e estratégia" [level=4] [ref=e108]
+        - paragraph [ref=e109]: Análise aprofundada, levantamento de riscos e elaboração de uma estratégia personalizada para seu caso específico.
+      - generic [ref=e110]:
+        - generic [ref=e111]: "03"
+        - heading "Execução precisa" [level=4] [ref=e112]
+        - paragraph [ref=e113]: Advogado sênior dedicado ao seu processo, com atualizações regulares e total acesso para tirar dúvidas a qualquer momento.
+      - generic [ref=e114]:
+        - generic [ref=e115]: "04"
+        - heading "Resolução e proteção" [level=4] [ref=e116]
+        - paragraph [ref=e117]: Conclusão do caso e implementação de medidas preventivas para que o mesmo problema nunca se repita.
+  - generic [ref=e118]:
+    - text: “
+    - blockquote [ref=e119]: “O escritório Ferreira & Associados não apenas ganhou meu processo — reorganizou toda a estrutura jurídica da minha empresa. São anos de parceria que meu negócio não sobreviveria sem.”
+    - generic [ref=e120]:
+      - text: Ricardo M.
+      - generic [ref=e121]: CEO — Grupo Meridian Investimentos
+  - generic [ref=e124]:
+    - generic [ref=e125]: Primeira consulta gratuita
+    - heading "Seu problema tem solução jurídica." [level=2] [ref=e126]:
+      - text: Seu problema tem
+      - emphasis [ref=e127]: solução jurídica.
+    - paragraph [ref=e128]: Fale com um advogado sênior hoje. Sem enrolação, sem promessas impossíveis — só clareza sobre o que pode ser feito pelo seu caso.
+    - generic [ref=e129]:
+      - link "Falar no WhatsApp" [ref=e130] [cursor=pointer]:
+        - /url: https://wa.me/5511999999999
+        - text: Falar no WhatsApp
+        - img [ref=e131]
+      - link "Ligar agora" [ref=e133] [cursor=pointer]:
+        - /url: tel:+5511999999999
+    - paragraph [ref=e134]: Atendimento seg–sex, 8h–19h · Sigilo absoluto garantido
+  - contentinfo [ref=e135]:
+    - generic [ref=e136]:
+      - generic [ref=e137]:
+        - generic [ref=e138]: Ferreira & Associados
+        - generic [ref=e139]: Advocacia & Consultoria Jurídica
+        - paragraph [ref=e140]: Escritório especializado em direito empresarial, tributário e patrimonial. São Paulo, SP.
+      - generic [ref=e141]:
+        - heading "Áreas" [level=4] [ref=e142]
+        - link "Direito Empresarial" [ref=e143] [cursor=pointer]:
+          - /url: "#areas"
+        - link "Direito Tributário" [ref=e144] [cursor=pointer]:
+          - /url: "#areas"
+        - link "Direito Civil e Família" [ref=e145] [cursor=pointer]:
+          - /url: "#areas"
+        - link "Direito Trabalhista" [ref=e146] [cursor=pointer]:
+          - /url: "#areas"
+        - link "Direito Imobiliário" [ref=e147] [cursor=pointer]:
+          - /url: "#areas"
+      - generic [ref=e148]:
+        - heading "Escritório" [level=4] [ref=e149]
+        - link "Sobre nós" [ref=e150] [cursor=pointer]:
+          - /url: "#sobre"
+        - link "Como trabalhamos" [ref=e151] [cursor=pointer]:
+          - /url: "#proc"
+        - link "Contato" [ref=e152] [cursor=pointer]:
+          - /url: "#contato"
+      - generic [ref=e153]:
+        - heading "Contato" [level=4] [ref=e154]
+        - link "WhatsApp" [ref=e155] [cursor=pointer]:
+          - /url: https://wa.me/5511999999999
+        - link "(11) 9 9999-9999" [ref=e156] [cursor=pointer]:
+          - /url: tel:+5511999999999
+        - link "Av. Paulista, 1000 · São Paulo" [ref=e157] [cursor=pointer]:
+          - /url: "#"
+    - generic [ref=e158]:
+      - paragraph [ref=e159]: © 2026 Ferreira & Associados Advocacia. OAB/SP 000.000.
+      - paragraph [ref=e160]: Todos os direitos reservados.

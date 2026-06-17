@@ -1,0 +1,677 @@
+- generic [active] [ref=e1]:
+  - main [ref=e2]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - generic [ref=e7]:
+          - generic [ref=e8]: Home
+          - link "Logo Banlek" [ref=e9] [cursor=pointer]:
+            - /url: /
+            - img "Logo Banlek" [ref=e10]
+        - link "Buscar fotos" [ref=e11] [cursor=pointer]:
+          - /url: /buscar
+        - link "Vender fotos" [ref=e12] [cursor=pointer]:
+          - /url: /vender-fotos
+        - button "Serviços" [ref=e13] [cursor=pointer]:
+          - generic [ref=e14]: Serviços
+          - img [ref=e15]
+      - generic [ref=e18]:
+        - button "Search" [ref=e19] [cursor=pointer]:
+          - generic [ref=e20]: Search
+          - img [ref=e21]
+        - textbox "Pesquise suas fotos...." [ref=e24]
+      - generic [ref=e25]:
+        - link "Baixar fotos" [ref=e26] [cursor=pointer]:
+          - /url: /suas-fotos
+        - button "Entrar" [ref=e27] [cursor=pointer]
+        - button "Criar conta" [ref=e28] [cursor=pointer]
+        - img [ref=e29]
+        - button "Carrinho" [ref=e30] [cursor=pointer]:
+          - img [ref=e32]
+          - generic [ref=e36]: Carrinho
+        - button "Português" [ref=e37] [cursor=pointer]:
+          - img "Português" [ref=e38]
+          - img [ref=e39]
+    - generic [ref=e41]:
+      - img "Background Image" [ref=e42]
+      - generic [ref=e44]:
+        - generic [ref=e45]:
+          - link "Lucas Andrade Lucas Andrade" [ref=e47] [cursor=pointer]:
+            - /url: /lucasandradefoto
+            - generic [ref=e48]:
+              - img "Lucas Andrade" [ref=e50]
+              - paragraph [ref=e51]: Lucas Andrade
+          - heading "Recreio - Posto 11 - @lucasfotoesportiva" [level=1] [ref=e52]
+          - generic [ref=e53]:
+            - heading "Recreio dos Bandeirantes , Rio de Janeiro - RJ" [level=6] [ref=e54]:
+              - img [ref=e55]
+              - generic [ref=e58]:
+                - link "Recreio dos Bandeirantes" [ref=e59] [cursor=pointer]:
+                  - /url: /local/recreio-dos-bandeirantes--rj
+                - generic [ref=e60]: ", Rio de Janeiro - RJ"
+            - heading "12/04/2026 / 07:00 - 12:00" [level=6] [ref=e61]:
+              - img [ref=e62]
+              - text: 12/04/2026 / 07:00 - 12:00
+        - button "Ajuda" [ref=e65] [cursor=pointer]:
+          - generic [ref=e66]: Ajuda
+          - img [ref=e67]
+    - tabpanel [ref=e70]:
+      - generic [ref=e71]:
+        - generic [ref=e73]:
+          - generic [ref=e74]:
+            - generic [ref=e75]:
+              - img [ref=e76]
+              - heading "GANHE ATÉ 20% DE DESCONTO!" [level=2] [ref=e94]
+              - generic [ref=e95]: Os descontos são aplicados automaticamente.
+              - generic [ref=e96]: (Válido somente neste álbum)
+            - generic [ref=e97]:
+              - generic [ref=e98]:
+                - paragraph [ref=e99]: GANHE
+                - generic [ref=e100]:
+                  - heading "5" [level=3] [ref=e101]
+                  - generic [ref=e102]: "%"
+                - generic [ref=e103]: Na compra de 2 fotos
+              - generic [ref=e104]:
+                - paragraph [ref=e105]: GANHE
+                - generic [ref=e106]:
+                  - heading "10" [level=3] [ref=e107]
+                  - generic [ref=e108]: "%"
+                - generic [ref=e109]: Na compra de 5 fotos
+              - generic [ref=e110]:
+                - paragraph [ref=e111]: GANHE
+                - generic [ref=e112]:
+                  - heading "20" [level=3] [ref=e113]
+                  - generic [ref=e114]: "%"
+                - generic [ref=e115]: Na compra de 10 fotos
+          - generic [ref=e1328]:
+            - generic [ref=e1329]:
+              - generic [ref=e1331]:
+                - text: 90%
+                - generic [ref=e1332]: "off"
+              - generic [ref=e1333]:
+                - heading "Pacote todas as fotos" [level=2] [ref=e1334]
+                - paragraph [ref=e1335]: Oferta especial para você
+            - generic [ref=e1336]:
+              - generic [ref=e1337]:
+                - generic [ref=e1338]: 82 fotos
+                - generic [ref=e1339]: por
+                - generic [ref=e1340]: R$ 115,00
+              - generic [ref=e1341]:
+                - generic [ref=e1342]: O valor da foto fica de
+                - generic [ref=e1343]: R$ 15,00
+                - generic [ref=e1344]: por
+                - generic [ref=e1345]: R$ 1,40
+            - generic [ref=e1346]:
+              - generic [ref=e1347]:
+                - img [ref=e1348]
+                - generic [ref=e1350]: Qualidade profissional
+              - generic [ref=e1351]:
+                - img [ref=e1352]
+                - generic [ref=e1354]: Entrega em alta resolução
+              - generic [ref=e1355]:
+                - img [ref=e1356]
+                - generic [ref=e1358]: Sem marca d'água
+            - button "Comprar pacote" [ref=e1359] [cursor=pointer]:
+              - img [ref=e1360]
+              - text: Comprar pacote
+            - paragraph [ref=e1363]: "*O pacote não inclui vídeos"
+        - generic [ref=e1364]:
+          - button "Voltar" [ref=e1365] [cursor=pointer]:
+            - img [ref=e1366]
+            - text: Voltar
+          - generic [ref=e1368]:
+            - generic [ref=e1369]:
+              - heading "Resultado da busca" [level=2] [ref=e1370]
+              - img [ref=e1372]
+            - button "Selecionar todas" [ref=e1373] [cursor=pointer]
+        - generic [ref=e1374]:
+          - generic [ref=e1375] [cursor=pointer]:
+            - img "1459753538" [ref=e1377]
+            - checkbox [ref=e1379]
+            - button "Adicionar ao carrinho" [ref=e1381]:
+              - img [ref=e1382]
+              - generic [ref=e1386]: Adicionar ao carrinho
+          - generic [ref=e1387] [cursor=pointer]:
+            - img "1459753414" [ref=e1389]
+            - checkbox [ref=e1391]
+            - button "Adicionar ao carrinho" [ref=e1393]:
+              - img [ref=e1394]
+              - generic [ref=e1398]: Adicionar ao carrinho
+          - generic [ref=e1399] [cursor=pointer]:
+            - img "1459753424" [ref=e1401]
+            - checkbox [ref=e1403]
+            - button "Adicionar ao carrinho" [ref=e1405]:
+              - img [ref=e1406]
+              - generic [ref=e1410]: Adicionar ao carrinho
+          - generic [ref=e1411] [cursor=pointer]:
+            - img "1459753434" [ref=e1413]
+            - checkbox [ref=e1415]
+            - button "Adicionar ao carrinho" [ref=e1417]:
+              - img [ref=e1418]
+              - generic [ref=e1422]: Adicionar ao carrinho
+          - generic [ref=e1423] [cursor=pointer]:
+            - img "1459753323" [ref=e1425]
+            - checkbox [ref=e1427]
+            - button "Adicionar ao carrinho" [ref=e1429]:
+              - img [ref=e1430]
+              - generic [ref=e1434]: Adicionar ao carrinho
+          - generic [ref=e1435] [cursor=pointer]:
+            - img "1459753250" [ref=e1437]
+            - checkbox [ref=e1439]
+            - button "Adicionar ao carrinho" [ref=e1441]:
+              - img [ref=e1442]
+              - generic [ref=e1446]: Adicionar ao carrinho
+          - generic [ref=e1447] [cursor=pointer]:
+            - img "1459753296" [ref=e1449]
+            - checkbox [ref=e1451]
+            - button "Adicionar ao carrinho" [ref=e1453]:
+              - img [ref=e1454]
+              - generic [ref=e1458]: Adicionar ao carrinho
+          - generic [ref=e1459] [cursor=pointer]:
+            - img "1459753270" [ref=e1461]
+            - checkbox [ref=e1463]
+            - button "Adicionar ao carrinho" [ref=e1465]:
+              - img [ref=e1466]
+              - generic [ref=e1470]: Adicionar ao carrinho
+          - generic [ref=e1471] [cursor=pointer]:
+            - img "1459753166" [ref=e1473]
+            - checkbox [ref=e1475]
+            - button "Adicionar ao carrinho" [ref=e1477]:
+              - img [ref=e1478]
+              - generic [ref=e1482]: Adicionar ao carrinho
+          - generic [ref=e1483] [cursor=pointer]:
+            - img "1459753214" [ref=e1485]
+            - checkbox [ref=e1487]
+            - button "Adicionar ao carrinho" [ref=e1489]:
+              - img [ref=e1490]
+              - generic [ref=e1494]: Adicionar ao carrinho
+          - generic [ref=e1495] [cursor=pointer]:
+            - img "1459753111" [ref=e1497]
+            - checkbox [ref=e1499]
+            - button "Adicionar ao carrinho" [ref=e1501]:
+              - img [ref=e1502]
+              - generic [ref=e1506]: Adicionar ao carrinho
+          - generic [ref=e1507] [cursor=pointer]:
+            - img "1459753421" [ref=e1509]
+            - checkbox [ref=e1511]
+            - button "Adicionar ao carrinho" [ref=e1513]:
+              - img [ref=e1514]
+              - generic [ref=e1518]: Adicionar ao carrinho
+          - generic [ref=e1519] [cursor=pointer]:
+            - img "1459753115" [ref=e1521]
+            - checkbox [ref=e1523]
+            - button "Adicionar ao carrinho" [ref=e1525]:
+              - img [ref=e1526]
+              - generic [ref=e1530]: Adicionar ao carrinho
+          - generic [ref=e1531] [cursor=pointer]:
+            - img "1459753014" [ref=e1533]
+            - checkbox [ref=e1535]
+            - button "Adicionar ao carrinho" [ref=e1537]:
+              - img [ref=e1538]
+              - generic [ref=e1542]: Adicionar ao carrinho
+          - generic [ref=e1543] [cursor=pointer]:
+            - img "1459752942" [ref=e1545]
+            - checkbox [ref=e1547]
+            - button "Adicionar ao carrinho" [ref=e1549]:
+              - img [ref=e1550]
+              - generic [ref=e1554]: Adicionar ao carrinho
+          - generic [ref=e1555] [cursor=pointer]:
+            - img "1459753065" [ref=e1557]
+            - checkbox [ref=e1559]
+            - button "Adicionar ao carrinho" [ref=e1561]:
+              - img [ref=e1562]
+              - generic [ref=e1566]: Adicionar ao carrinho
+          - generic [ref=e1567] [cursor=pointer]:
+            - img "1459753018" [ref=e1569]
+            - checkbox [ref=e1571]
+            - button "Adicionar ao carrinho" [ref=e1573]:
+              - img [ref=e1574]
+              - generic [ref=e1578]: Adicionar ao carrinho
+          - generic [ref=e1579] [cursor=pointer]:
+            - img "1459752851" [ref=e1581]
+            - checkbox [ref=e1583]
+            - button "Adicionar ao carrinho" [ref=e1585]:
+              - img [ref=e1586]
+              - generic [ref=e1590]: Adicionar ao carrinho
+          - generic [ref=e1591] [cursor=pointer]:
+            - img "1459752917" [ref=e1593]
+            - checkbox [ref=e1595]
+            - button "Adicionar ao carrinho" [ref=e1597]:
+              - img [ref=e1598]
+              - generic [ref=e1602]: Adicionar ao carrinho
+          - generic [ref=e1603] [cursor=pointer]:
+            - img "1459752856" [ref=e1605]
+            - checkbox [ref=e1607]
+            - button "Adicionar ao carrinho" [ref=e1609]:
+              - img [ref=e1610]
+              - generic [ref=e1614]: Adicionar ao carrinho
+          - generic [ref=e1615] [cursor=pointer]:
+            - img "1459752759" [ref=e1617]
+            - checkbox [ref=e1619]
+            - button "Adicionar ao carrinho" [ref=e1621]:
+              - img [ref=e1622]
+              - generic [ref=e1626]: Adicionar ao carrinho
+          - generic [ref=e1627] [cursor=pointer]:
+            - img "1459752757" [ref=e1629]
+            - checkbox [ref=e1631]
+            - button "Adicionar ao carrinho" [ref=e1633]:
+              - img [ref=e1634]
+              - generic [ref=e1638]: Adicionar ao carrinho
+          - generic [ref=e1639] [cursor=pointer]:
+            - img "1459752860" [ref=e1641]
+            - checkbox [ref=e1643]
+            - button "Adicionar ao carrinho" [ref=e1645]:
+              - img [ref=e1646]
+              - generic [ref=e1650]: Adicionar ao carrinho
+          - generic [ref=e1651] [cursor=pointer]:
+            - img "1459752686" [ref=e1653]
+            - checkbox [ref=e1655]
+            - button "Adicionar ao carrinho" [ref=e1657]:
+              - img [ref=e1658]
+              - generic [ref=e1662]: Adicionar ao carrinho
+          - generic [ref=e1663] [cursor=pointer]:
+            - img "1459752676" [ref=e1665]
+            - checkbox [ref=e1667]
+            - button "Adicionar ao carrinho" [ref=e1669]:
+              - img [ref=e1670]
+              - generic [ref=e1674]: Adicionar ao carrinho
+          - generic [ref=e1675] [cursor=pointer]:
+            - img "1459752704" [ref=e1677]
+            - checkbox [ref=e1679]
+            - button "Adicionar ao carrinho" [ref=e1681]:
+              - img [ref=e1682]
+              - generic [ref=e1686]: Adicionar ao carrinho
+          - generic [ref=e1687] [cursor=pointer]:
+            - img "1459752641" [ref=e1689]
+            - checkbox [ref=e1691]
+            - button "Adicionar ao carrinho" [ref=e1693]:
+              - img [ref=e1694]
+              - generic [ref=e1698]: Adicionar ao carrinho
+          - generic [ref=e1699] [cursor=pointer]:
+            - img "1459752588" [ref=e1701]
+            - checkbox [ref=e1703]
+            - button "Adicionar ao carrinho" [ref=e1705]:
+              - img [ref=e1706]
+              - generic [ref=e1710]: Adicionar ao carrinho
+          - generic [ref=e1711] [cursor=pointer]:
+            - img "1459752987" [ref=e1713]
+            - checkbox [ref=e1715]
+            - button "Adicionar ao carrinho" [ref=e1717]:
+              - img [ref=e1718]
+              - generic [ref=e1722]: Adicionar ao carrinho
+          - generic [ref=e1723] [cursor=pointer]:
+            - img "1459752468" [ref=e1725]
+            - checkbox [ref=e1727]
+            - button "Adicionar ao carrinho" [ref=e1729]:
+              - img [ref=e1730]
+              - generic [ref=e1734]: Adicionar ao carrinho
+          - generic [ref=e1735] [cursor=pointer]:
+            - img "1459752634" [ref=e1737]
+            - checkbox [ref=e1739]
+            - button "Adicionar ao carrinho" [ref=e1741]:
+              - img [ref=e1742]
+              - generic [ref=e1746]: Adicionar ao carrinho
+          - generic [ref=e1747] [cursor=pointer]:
+            - img "1459752499" [ref=e1749]
+            - checkbox [ref=e1751]
+            - button "Adicionar ao carrinho" [ref=e1753]:
+              - img [ref=e1754]
+              - generic [ref=e1758]: Adicionar ao carrinho
+          - generic [ref=e1759] [cursor=pointer]:
+            - img "1459752343" [ref=e1761]
+            - checkbox [ref=e1763]
+            - button "Adicionar ao carrinho" [ref=e1765]:
+              - img [ref=e1766]
+              - generic [ref=e1770]: Adicionar ao carrinho
+          - generic [ref=e1771] [cursor=pointer]:
+            - img "1459752335" [ref=e1773]
+            - checkbox [ref=e1775]
+            - button "Adicionar ao carrinho" [ref=e1777]:
+              - img [ref=e1778]
+              - generic [ref=e1782]: Adicionar ao carrinho
+          - generic [ref=e1783] [cursor=pointer]:
+            - img "1459752332" [ref=e1785]
+            - checkbox [ref=e1787]
+            - button "Adicionar ao carrinho" [ref=e1789]:
+              - img [ref=e1790]
+              - generic [ref=e1794]: Adicionar ao carrinho
+          - generic [ref=e1795] [cursor=pointer]:
+            - img "1459752384" [ref=e1797]
+            - checkbox [ref=e1799]
+            - button "Adicionar ao carrinho" [ref=e1801]:
+              - img [ref=e1802]
+              - generic [ref=e1806]: Adicionar ao carrinho
+          - generic [ref=e1807] [cursor=pointer]:
+            - img "1459752186" [ref=e1809]
+            - checkbox [ref=e1811]
+            - button "Adicionar ao carrinho" [ref=e1813]:
+              - img [ref=e1814]
+              - generic [ref=e1818]: Adicionar ao carrinho
+          - generic [ref=e1819] [cursor=pointer]:
+            - img "1459752200" [ref=e1821]
+            - checkbox [ref=e1823]
+            - button "Adicionar ao carrinho" [ref=e1825]:
+              - img [ref=e1826]
+              - generic [ref=e1830]: Adicionar ao carrinho
+          - generic [ref=e1831] [cursor=pointer]:
+            - img "1459752209" [ref=e1833]
+            - checkbox [ref=e1835]
+            - button "Adicionar ao carrinho" [ref=e1837]:
+              - img [ref=e1838]
+              - generic [ref=e1842]: Adicionar ao carrinho
+          - generic [ref=e1843] [cursor=pointer]:
+            - img "1459752086" [ref=e1845]
+            - checkbox [ref=e1847]
+            - button "Adicionar ao carrinho" [ref=e1849]:
+              - img [ref=e1850]
+              - generic [ref=e1854]: Adicionar ao carrinho
+          - generic [ref=e1855] [cursor=pointer]:
+            - img "1459752325" [ref=e1857]
+            - checkbox [ref=e1859]
+            - button "Adicionar ao carrinho" [ref=e1861]:
+              - img [ref=e1862]
+              - generic [ref=e1866]: Adicionar ao carrinho
+          - generic [ref=e1867] [cursor=pointer]:
+            - img "1459752460" [ref=e1869]
+            - checkbox [ref=e1871]
+            - button "Adicionar ao carrinho" [ref=e1873]:
+              - img [ref=e1874]
+              - generic [ref=e1878]: Adicionar ao carrinho
+          - generic [ref=e1879] [cursor=pointer]:
+            - img "1459751952" [ref=e1881]
+            - checkbox [ref=e1883]
+            - button "Adicionar ao carrinho" [ref=e1885]:
+              - img [ref=e1886]
+              - generic [ref=e1890]: Adicionar ao carrinho
+          - generic [ref=e1891] [cursor=pointer]:
+            - img "1459752106" [ref=e1893]
+            - checkbox [ref=e1895]
+            - button "Adicionar ao carrinho" [ref=e1897]:
+              - img [ref=e1898]
+              - generic [ref=e1902]: Adicionar ao carrinho
+          - generic [ref=e1903] [cursor=pointer]:
+            - img "1459752043" [ref=e1905]
+            - checkbox [ref=e1907]
+            - button "Adicionar ao carrinho" [ref=e1909]:
+              - img [ref=e1910]
+              - generic [ref=e1914]: Adicionar ao carrinho
+          - generic [ref=e1915] [cursor=pointer]:
+            - img "1459751819" [ref=e1917]
+            - checkbox [ref=e1919]
+            - button "Adicionar ao carrinho" [ref=e1921]:
+              - img [ref=e1922]
+              - generic [ref=e1926]: Adicionar ao carrinho
+          - generic [ref=e1927] [cursor=pointer]:
+            - img "1459752084" [ref=e1929]
+            - checkbox [ref=e1931]
+            - button "Adicionar ao carrinho" [ref=e1933]:
+              - img [ref=e1934]
+              - generic [ref=e1938]: Adicionar ao carrinho
+          - generic [ref=e1939] [cursor=pointer]:
+            - img "1459751913" [ref=e1941]
+            - checkbox [ref=e1943]
+            - button "Adicionar ao carrinho" [ref=e1945]:
+              - img [ref=e1946]
+              - generic [ref=e1950]: Adicionar ao carrinho
+          - generic [ref=e1951] [cursor=pointer]:
+            - img "1459751991" [ref=e1953]
+            - checkbox [ref=e1955]
+            - button "Adicionar ao carrinho" [ref=e1957]:
+              - img [ref=e1958]
+              - generic [ref=e1962]: Adicionar ao carrinho
+          - generic [ref=e1963] [cursor=pointer]:
+            - img "1459751730" [ref=e1965]
+            - checkbox [ref=e1967]
+            - button "Adicionar ao carrinho" [ref=e1969]:
+              - img [ref=e1970]
+              - generic [ref=e1974]: Adicionar ao carrinho
+          - generic [ref=e1975] [cursor=pointer]:
+            - img "1459751908" [ref=e1977]
+            - checkbox [ref=e1979]
+            - button "Adicionar ao carrinho" [ref=e1981]:
+              - img [ref=e1982]
+              - generic [ref=e1986]: Adicionar ao carrinho
+          - generic [ref=e1987] [cursor=pointer]:
+            - img "1459751286" [ref=e1989]
+            - checkbox [ref=e1991]
+            - button "Adicionar ao carrinho" [ref=e1993]:
+              - img [ref=e1994]
+              - generic [ref=e1998]: Adicionar ao carrinho
+          - generic [ref=e1999] [cursor=pointer]:
+            - img "1459751579" [ref=e2001]
+            - checkbox [ref=e2003]
+            - button "Adicionar ao carrinho" [ref=e2005]:
+              - img [ref=e2006]
+              - generic [ref=e2010]: Adicionar ao carrinho
+          - generic [ref=e2011] [cursor=pointer]:
+            - img "1459751494" [ref=e2013]
+            - checkbox [ref=e2015]
+            - button "Adicionar ao carrinho" [ref=e2017]:
+              - img [ref=e2018]
+              - generic [ref=e2022]: Adicionar ao carrinho
+          - generic [ref=e2023] [cursor=pointer]:
+            - img "1459751337" [ref=e2025]
+            - checkbox [ref=e2027]
+            - button "Adicionar ao carrinho" [ref=e2029]:
+              - img [ref=e2030]
+              - generic [ref=e2034]: Adicionar ao carrinho
+          - generic [ref=e2035] [cursor=pointer]:
+            - img "1459751191" [ref=e2037]
+            - checkbox [ref=e2039]
+            - button "Adicionar ao carrinho" [ref=e2041]:
+              - img [ref=e2042]
+              - generic [ref=e2046]: Adicionar ao carrinho
+          - generic [ref=e2047] [cursor=pointer]:
+            - img "1459751132" [ref=e2049]
+            - checkbox [ref=e2051]
+            - button "Adicionar ao carrinho" [ref=e2053]:
+              - img [ref=e2054]
+              - generic [ref=e2058]: Adicionar ao carrinho
+          - generic [ref=e2059] [cursor=pointer]:
+            - img "1459751505" [ref=e2061]
+            - checkbox [ref=e2063]
+            - button "Adicionar ao carrinho" [ref=e2065]:
+              - img [ref=e2066]
+              - generic [ref=e2070]: Adicionar ao carrinho
+          - generic [ref=e2071] [cursor=pointer]:
+            - img "1459751008" [ref=e2073]
+            - checkbox [ref=e2075]
+            - button "Adicionar ao carrinho" [ref=e2077]:
+              - img [ref=e2078]
+              - generic [ref=e2082]: Adicionar ao carrinho
+          - generic [ref=e2083] [cursor=pointer]:
+            - img "1459751150" [ref=e2085]
+            - checkbox [ref=e2087]
+            - button "Adicionar ao carrinho" [ref=e2089]:
+              - img [ref=e2090]
+              - generic [ref=e2094]: Adicionar ao carrinho
+          - generic [ref=e2095] [cursor=pointer]:
+            - img "1459751117" [ref=e2097]
+            - checkbox [ref=e2099]
+            - button "Adicionar ao carrinho" [ref=e2101]:
+              - img [ref=e2102]
+              - generic [ref=e2106]: Adicionar ao carrinho
+          - generic [ref=e2107] [cursor=pointer]:
+            - img "1459751188" [ref=e2109]
+            - checkbox [ref=e2111]
+            - button "Adicionar ao carrinho" [ref=e2113]:
+              - img [ref=e2114]
+              - generic [ref=e2118]: Adicionar ao carrinho
+          - generic [ref=e2119] [cursor=pointer]:
+            - img "1459750641" [ref=e2121]
+            - checkbox [ref=e2123]
+            - button "Adicionar ao carrinho" [ref=e2125]:
+              - img [ref=e2126]
+              - generic [ref=e2130]: Adicionar ao carrinho
+          - generic [ref=e2131] [cursor=pointer]:
+            - img "1459751417" [ref=e2133]
+            - checkbox [ref=e2135]
+            - button "Adicionar ao carrinho" [ref=e2137]:
+              - img [ref=e2138]
+              - generic [ref=e2142]: Adicionar ao carrinho
+          - generic [ref=e2143] [cursor=pointer]:
+            - img "1459750908" [ref=e2145]
+            - checkbox [ref=e2147]
+            - button "Adicionar ao carrinho" [ref=e2149]:
+              - img [ref=e2150]
+              - generic [ref=e2154]: Adicionar ao carrinho
+          - generic [ref=e2155] [cursor=pointer]:
+            - img "1459750578" [ref=e2157]
+            - checkbox [ref=e2159]
+            - button "Adicionar ao carrinho" [ref=e2161]:
+              - img [ref=e2162]
+              - generic [ref=e2166]: Adicionar ao carrinho
+          - generic [ref=e2167] [cursor=pointer]:
+            - img "1459750711" [ref=e2169]
+            - checkbox [ref=e2171]
+            - button "Adicionar ao carrinho" [ref=e2173]:
+              - img [ref=e2174]
+              - generic [ref=e2178]: Adicionar ao carrinho
+          - generic [ref=e2179] [cursor=pointer]:
+            - img "1459750493" [ref=e2181]
+            - checkbox [ref=e2183]
+            - button "Adicionar ao carrinho" [ref=e2185]:
+              - img [ref=e2186]
+              - generic [ref=e2190]: Adicionar ao carrinho
+          - generic [ref=e2191] [cursor=pointer]:
+            - img "1459750655" [ref=e2193]
+            - checkbox [ref=e2195]
+            - button "Adicionar ao carrinho" [ref=e2197]:
+              - img [ref=e2198]
+              - generic [ref=e2202]: Adicionar ao carrinho
+          - generic [ref=e2203] [cursor=pointer]:
+            - img "1459750623" [ref=e2205]
+            - checkbox [ref=e2207]
+            - button "Adicionar ao carrinho" [ref=e2209]:
+              - img [ref=e2210]
+              - generic [ref=e2214]: Adicionar ao carrinho
+          - generic [ref=e2215] [cursor=pointer]:
+            - img "1459750703" [ref=e2217]
+            - checkbox [ref=e2219]
+            - button "Adicionar ao carrinho" [ref=e2221]:
+              - img [ref=e2222]
+              - generic [ref=e2226]: Adicionar ao carrinho
+          - generic [ref=e2227] [cursor=pointer]:
+            - img "1459750586" [ref=e2229]
+            - checkbox [ref=e2231]
+            - button "Adicionar ao carrinho" [ref=e2233]:
+              - img [ref=e2234]
+              - generic [ref=e2238]: Adicionar ao carrinho
+          - generic [ref=e2239] [cursor=pointer]:
+            - img "1459750409" [ref=e2241]
+            - checkbox [ref=e2243]
+            - button "Adicionar ao carrinho" [ref=e2245]:
+              - img [ref=e2246]
+              - generic [ref=e2250]: Adicionar ao carrinho
+          - generic [ref=e2251] [cursor=pointer]:
+            - img "1459750434" [ref=e2253]
+            - checkbox [ref=e2255]
+            - button "Adicionar ao carrinho" [ref=e2257]:
+              - img [ref=e2258]
+              - generic [ref=e2262]: Adicionar ao carrinho
+          - generic [ref=e2263] [cursor=pointer]:
+            - img "1459750998" [ref=e2265]
+            - checkbox [ref=e2267]
+            - button "Adicionar ao carrinho" [ref=e2269]:
+              - img [ref=e2270]
+              - generic [ref=e2274]: Adicionar ao carrinho
+          - generic [ref=e2275] [cursor=pointer]:
+            - img "1459750290" [ref=e2277]
+            - checkbox [ref=e2279]
+            - button "Adicionar ao carrinho" [ref=e2281]:
+              - img [ref=e2282]
+              - generic [ref=e2286]: Adicionar ao carrinho
+          - generic [ref=e2287] [cursor=pointer]:
+            - img "1459750333" [ref=e2289]
+            - checkbox [ref=e2291]
+            - button "Adicionar ao carrinho" [ref=e2293]:
+              - img [ref=e2294]
+              - generic [ref=e2298]: Adicionar ao carrinho
+          - generic [ref=e2299] [cursor=pointer]:
+            - img "1459750359" [ref=e2301]
+            - checkbox [ref=e2303]
+            - button "Adicionar ao carrinho" [ref=e2305]:
+              - img [ref=e2306]
+              - generic [ref=e2310]: Adicionar ao carrinho
+          - generic [ref=e2311] [cursor=pointer]:
+            - img "1459750410" [ref=e2313]
+            - checkbox [ref=e2315]
+            - button "Adicionar ao carrinho" [ref=e2317]:
+              - img [ref=e2318]
+              - generic [ref=e2322]: Adicionar ao carrinho
+          - generic [ref=e2323] [cursor=pointer]:
+            - img "1459750305" [ref=e2325]
+            - checkbox [ref=e2327]
+            - button "Adicionar ao carrinho" [ref=e2329]:
+              - img [ref=e2330]
+              - generic [ref=e2334]: Adicionar ao carrinho
+          - generic [ref=e2335] [cursor=pointer]:
+            - img "1459750380" [ref=e2337]
+            - checkbox [ref=e2339]
+            - button "Adicionar ao carrinho" [ref=e2341]:
+              - img [ref=e2342]
+              - generic [ref=e2346]: Adicionar ao carrinho
+          - generic [ref=e2347] [cursor=pointer]:
+            - img "1459750424" [ref=e2349]
+            - checkbox [ref=e2351]
+            - button "Adicionar ao carrinho" [ref=e2353]:
+              - img [ref=e2354]
+              - generic [ref=e2358]: Adicionar ao carrinho
+    - generic [ref=e1242]:
+      - generic [ref=e1243]:
+        - generic [ref=e1244]:
+          - link "Logo Banlek" [ref=e1245] [cursor=pointer]:
+            - /url: /
+            - img "Logo Banlek" [ref=e1246]
+          - generic [ref=e1247]:
+            - paragraph [ref=e1248]: A Banlek é uma startup de fotografia que conecta fotógrafos e clientes para venda de fotos online, com tecnologia de reconhecimento facial e suporte completo 24h
+            - generic [ref=e1249]:
+              - generic [ref=e1250]:
+                - heading "Empresa" [level=3] [ref=e1251]
+                - paragraph [ref=e1252]: BANLEK SERVIÇOS AUDIOVISUAIS LTDA.
+              - generic [ref=e1253]:
+                - heading "CNPJ" [level=3] [ref=e1254]
+                - paragraph [ref=e1255]: 34.299.202/0001-06
+              - generic [ref=e1256]:
+                - heading "Endereço" [level=3] [ref=e1257]
+                - paragraph [ref=e1258]:
+                  - text: Estrada do Cantagalo, 3000 / 91
+                  - text: Cuiabá, Petrópolis, RJ
+                  - text: "CEP: 25745-200"
+        - generic [ref=e1259]:
+          - heading "Nossos serviços" [level=3] [ref=e1260]
+          - link "Fotógrafo para eventos" [ref=e1261] [cursor=pointer]:
+            - /url: /fotos-para-eventos
+          - link "Venda de fotos" [ref=e1262] [cursor=pointer]:
+            - /url: /sou-fotografo
+        - generic [ref=e1263]:
+          - heading "Empresa" [level=3] [ref=e1264]
+          - link "Quem somos" [ref=e1265] [cursor=pointer]:
+            - /url: /sobre
+          - link "Seja um parceiro" [ref=e1266] [cursor=pointer]:
+            - /url: /vender-fotos
+          - link "Suporte" [ref=e1267] [cursor=pointer]:
+            - /url: /central-de-ajuda
+          - link "Termos de uso" [ref=e1268] [cursor=pointer]:
+            - /url: /termos-de-uso
+          - link "Política de privacidade" [ref=e1269] [cursor=pointer]:
+            - /url: /politica-de-privacidade
+      - generic [ref=e1271]:
+        - generic [ref=e1272]: © 2026 Banlek. Todos os direitos reservados
+        - generic [ref=e1274]:
+          - link "Instagram" [ref=e1275] [cursor=pointer]:
+            - /url: https://www.instagram.com/banlekapp/
+            - img [ref=e1276]
+          - link "TikTok" [ref=e1278] [cursor=pointer]:
+            - /url: https://www.tiktok.com/@banlekapp
+            - img [ref=e1279]
+          - link "LinkedIn" [ref=e1281] [cursor=pointer]:
+            - /url: https://www.linkedin.com/company/banlek/
+            - img [ref=e1282]
+          - link "Facebook" [ref=e1284] [cursor=pointer]:
+            - /url: https://www.facebook.com/banlekapp/?locale=pt_BR
+            - img [ref=e1285]
+          - link "YouTube" [ref=e1287] [cursor=pointer]:
+            - /url: https://www.youtube.com/@banlekapp
+            - img [ref=e1288]
+  - region "Notifications alt+T"
+  - alert [ref=e1290]

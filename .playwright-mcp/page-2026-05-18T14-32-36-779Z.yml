@@ -1,0 +1,550 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]: 
+      - text: Entregamos em toda a região!
+    - generic [ref=e6]:
+      - generic [ref=e7]: 
+      - text: (11) 99999-9999
+    - generic [ref=e8]:
+      - generic [ref=e9]: 
+      - text: Parcelamos em até 12x
+  - banner [ref=e10]:
+    - generic [ref=e11]:
+      - link " Mercadão dos Usados" [ref=e12] [cursor=pointer]:
+        - /url: index.html
+        - generic [ref=e14]: 
+        - generic [ref=e15]:
+          - generic [ref=e16]: Mercadão
+          - generic [ref=e17]: dos Usados
+      - generic [ref=e18]:
+        - textbox "Buscar sofás, geladeiras, TVs..." [ref=e19]
+        - button "" [ref=e20] [cursor=pointer]:
+          - generic [ref=e21]: 
+      - generic [ref=e22]:
+        - link " (11) 99999-9999" [ref=e23] [cursor=pointer]:
+          - /url: tel:+5511999999999
+          - generic [ref=e24]: 
+          - generic [ref=e25]: (11) 99999-9999
+        - link " Falar no WhatsApp" [ref=e26] [cursor=pointer]:
+          - /url: https://wa.me/5511999999999?text=Olá! Vim pelo site e tenho interesse em um produto.
+          - generic [ref=e27]: 
+          - text: Falar no WhatsApp
+  - navigation [ref=e28]:
+    - list [ref=e30]:
+      - listitem [ref=e31]:
+        - link " Móveis " [ref=e32] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=e33]: 
+          - text: Móveis
+          - generic [ref=e34]: 
+      - listitem [ref=e35]:
+        - link " Eletrodomésticos " [ref=e36] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=e37]: 
+          - text: Eletrodomésticos
+          - generic [ref=e38]: 
+      - listitem [ref=e39]:
+        - link " Eletrônicos " [ref=e40] [cursor=pointer]:
+          - /url: "#"
+          - generic [ref=e41]: 
+          - text: Eletrônicos
+          - generic [ref=e42]: 
+      - listitem [ref=e43]:
+        - link "Ver Tudo" [ref=e44] [cursor=pointer]:
+          - /url: catalogo.html
+          - text: Ver Tudo
+      - listitem [ref=e45]:
+        - link " Sobre Nós" [ref=e46] [cursor=pointer]:
+          - /url: sobre.html
+          - generic [ref=e47]: 
+          - text: Sobre Nós
+      - listitem [ref=e48]:
+        - link " Contato" [ref=e49] [cursor=pointer]:
+          - /url: contato.html
+          - generic [ref=e50]: 
+          - text: Contato
+  - main [ref=e51]:
+    - generic [ref=e52]:
+      - img "Sala de estar mobiliada" [ref=e54]
+      - generic [ref=e56]:
+        - generic [ref=e57]:
+          - generic [ref=e58]: 
+          - text: Preços Imbatíveis
+        - heading "Móveis e Eletros Usados com Qualidade" [level=1] [ref=e59]:
+          - text: Móveis e Eletros
+          - text: Usados com Qualidade
+        - paragraph [ref=e60]: Economize até 70% comprando itens seminovos e usados selecionados. Qualidade garantida, preço que cabe no bolso.
+        - generic [ref=e61]:
+          - link "Ver Catálogo" [ref=e62] [cursor=pointer]:
+            - /url: catalogo.html
+            - text: Ver Catálogo
+          - link " Chamar no WhatsApp" [ref=e63] [cursor=pointer]:
+            - /url: https://wa.me/5511999999999?text=Olá! Quero ver os produtos disponíveis.
+            - generic [ref=e64]: 
+            - text: Chamar no WhatsApp
+        - generic [ref=e65]:
+          - generic [ref=e66]:
+            - strong [ref=e67]: 500+
+            - text: Produtos
+          - generic [ref=e68]:
+            - strong [ref=e69]: 1.200+
+            - text: Clientes
+          - generic [ref=e70]:
+            - strong [ref=e71]:
+              - text: "4.9"
+              - generic [ref=e72]: 
+            - text: Avaliação
+    - generic [ref=e74]:
+      - generic [ref=e75]:
+        - generic [ref=e76]: 
+        - generic [ref=e77]:
+          - strong [ref=e78]: Produtos Vistoriados
+          - text: Testamos tudo antes de vender
+      - generic [ref=e79]:
+        - generic [ref=e80]: 
+        - generic [ref=e81]:
+          - strong [ref=e82]: Entrega Rápida
+          - text: Entregamos na sua casa
+      - generic [ref=e83]:
+        - generic [ref=e84]: 
+        - generic [ref=e85]:
+          - strong [ref=e86]: Parcelamos em 12x
+          - text: No cartão sem juros
+      - generic [ref=e87]:
+        - generic [ref=e88]: 
+        - generic [ref=e89]:
+          - strong [ref=e90]: Atendimento Rápido
+          - text: Resposta em até 1 hora
+    - generic [ref=e92]:
+      - generic [ref=e93]:
+        - heading "Compre por Categoria" [level=2] [ref=e94]
+        - paragraph [ref=e95]: Navegue por departamento e encontre o que precisa
+      - generic [ref=e96]:
+        - link "Sofás Sofás e Poltronas 38 produtos" [ref=e97] [cursor=pointer]:
+          - /url: catalogo.html?cat=sofas
+          - img "Sofás" [ref=e99]
+          - generic [ref=e100]:
+            - heading "Sofás e Poltronas" [level=3] [ref=e101]
+            - generic [ref=e102]: 38 produtos
+        - link "Quartos Quartos 52 produtos" [ref=e103] [cursor=pointer]:
+          - /url: catalogo.html?cat=quartos
+          - img "Quartos" [ref=e105]
+          - generic [ref=e106]:
+            - heading "Quartos" [level=3] [ref=e107]
+            - generic [ref=e108]: 52 produtos
+        - link "Mesas e Cadeiras Mesas e Cadeiras 44 produtos" [ref=e109] [cursor=pointer]:
+          - /url: catalogo.html?cat=mesas
+          - img "Mesas e Cadeiras" [ref=e111]
+          - generic [ref=e112]:
+            - heading "Mesas e Cadeiras" [level=3] [ref=e113]
+            - generic [ref=e114]: 44 produtos
+        - link "Geladeiras Geladeiras 27 produtos" [ref=e115] [cursor=pointer]:
+          - /url: catalogo.html?cat=geladeiras
+          - img "Geladeiras" [ref=e117]
+          - generic [ref=e118]:
+            - heading "Geladeiras" [level=3] [ref=e119]
+            - generic [ref=e120]: 27 produtos
+        - link "TVs e Eletrônicos TVs e Eletrônicos 61 produtos" [ref=e121] [cursor=pointer]:
+          - /url: catalogo.html?cat=tvs
+          - img "TVs e Eletrônicos" [ref=e123]
+          - generic [ref=e124]:
+            - heading "TVs e Eletrônicos" [level=3] [ref=e125]
+            - generic [ref=e126]: 61 produtos
+        - link "Escritório Escritório 33 produtos" [ref=e127] [cursor=pointer]:
+          - /url: catalogo.html?cat=escritorio
+          - img "Escritório" [ref=e129]
+          - generic [ref=e130]:
+            - heading "Escritório" [level=3] [ref=e131]
+            - generic [ref=e132]: 33 produtos
+        - link "Cozinha Cozinha 29 produtos" [ref=e133] [cursor=pointer]:
+          - /url: catalogo.html?cat=cozinha
+          - img "Cozinha" [ref=e135]
+          - generic [ref=e136]:
+            - heading "Cozinha" [level=3] [ref=e137]
+            - generic [ref=e138]: 29 produtos
+        - link "Ver Todos 500+ produtos" [ref=e139] [cursor=pointer]:
+          - /url: catalogo.html
+          - generic [ref=e140]:
+            - heading "Ver Todos" [level=3] [ref=e141]
+            - generic [ref=e142]: 500+ produtos
+    - generic [ref=e144]:
+      - generic [ref=e145]:
+        - heading "Destaques da Semana" [level=2] [ref=e146]
+        - paragraph [ref=e147]: Produtos selecionados com os melhores preços
+        - link "Ver todos " [ref=e148] [cursor=pointer]:
+          - /url: catalogo.html
+          - text: Ver todos
+          - generic [ref=e149]: 
+      - generic [ref=e150]:
+        - article [ref=e151]:
+          - generic [ref=e152]:
+            - img "Sofá 3 lugares" [ref=e153]
+            - generic [ref=e154]: Usado
+            - button "Favoritar" [ref=e155] [cursor=pointer]:
+              - generic [ref=e156]: 
+          - generic [ref=e157]:
+            - text: Sofás
+            - heading "Sofá 3 Lugares Cinza" [level=3] [ref=e158]
+            - generic [ref=e159]:
+              - generic [ref=e160]: 
+              - generic [ref=e161]: 
+              - generic [ref=e162]: 
+              - generic [ref=e163]: 
+              - generic [ref=e164]: 
+              - generic [ref=e165]: (12)
+            - generic [ref=e166]:
+              - generic [ref=e167]: R$ 1.800
+              - generic [ref=e168]: R$ 890,00
+            - link " Tenho Interesse" [ref=e170] [cursor=pointer]:
+              - /url: https://wa.me/5511999999999?text=Olá! Tenho interesse no Sofá 3 Lugares Cinza.
+              - generic [ref=e171]: 
+              - text: Tenho Interesse
+        - article [ref=e172]:
+          - generic [ref=e173]:
+            - img "Cama Queen" [ref=e174]
+            - generic [ref=e175]: Seminovo
+            - button "Favoritar" [ref=e176] [cursor=pointer]:
+              - generic [ref=e177]: 
+          - generic [ref=e178]:
+            - text: Quartos
+            - heading "Cama Queen com Colchão" [level=3] [ref=e179]
+            - generic [ref=e180]:
+              - generic [ref=e181]: 
+              - generic [ref=e182]: 
+              - generic [ref=e183]: 
+              - generic [ref=e184]: 
+              - generic [ref=e185]: 
+              - generic [ref=e186]: (8)
+            - generic [ref=e187]:
+              - generic [ref=e188]: R$ 3.200
+              - generic [ref=e189]: R$ 1.450,00
+            - link " Tenho Interesse" [ref=e191] [cursor=pointer]:
+              - /url: https://wa.me/5511999999999?text=Olá! Tenho interesse na Cama Queen com Colchão.
+              - generic [ref=e192]: 
+              - text: Tenho Interesse
+        - article [ref=e193]:
+          - generic [ref=e194]:
+            - img "Smart TV 55" [ref=e195]
+            - generic [ref=e196]: Seminovo
+            - button "Favoritar" [ref=e197] [cursor=pointer]:
+              - generic [ref=e198]: 
+          - generic [ref=e199]:
+            - text: Eletrônicos
+            - heading "Smart TV 55\" 4K Samsung" [level=3] [ref=e200]
+            - generic [ref=e201]:
+              - generic [ref=e202]: 
+              - generic [ref=e203]: 
+              - generic [ref=e204]: 
+              - generic [ref=e205]: 
+              - generic [ref=e206]: 
+              - generic [ref=e207]: (24)
+            - generic [ref=e208]:
+              - generic [ref=e209]: R$ 4.500
+              - generic [ref=e210]: R$ 2.100,00
+            - link " Tenho Interesse" [ref=e212] [cursor=pointer]:
+              - /url: https://wa.me/5511999999999?text=Olá! Tenho interesse na Smart TV 55 4K Samsung.
+              - generic [ref=e213]: 
+              - text: Tenho Interesse
+        - article [ref=e214]:
+          - generic [ref=e215]:
+            - img "Geladeira Duplex" [ref=e216]
+            - generic [ref=e217]: Usado
+            - button "Favoritar" [ref=e218] [cursor=pointer]:
+              - generic [ref=e219]: 
+          - generic [ref=e220]:
+            - text: Eletrodomésticos
+            - heading "Geladeira Duplex 400L Brastemp" [level=3] [ref=e221]
+            - generic [ref=e222]:
+              - generic [ref=e223]: 
+              - generic [ref=e224]: 
+              - generic [ref=e225]: 
+              - generic [ref=e226]: 
+              - generic [ref=e227]: 
+              - generic [ref=e228]: (6)
+            - generic [ref=e229]:
+              - generic [ref=e230]: R$ 3.800
+              - generic [ref=e231]: R$ 1.700,00
+            - link " Tenho Interesse" [ref=e233] [cursor=pointer]:
+              - /url: https://wa.me/5511999999999?text=Olá! Tenho interesse na Geladeira Duplex 400L Brastemp.
+              - generic [ref=e234]: 
+              - text: Tenho Interesse
+        - article [ref=e235]:
+          - generic [ref=e236]:
+            - img "Mesa de Jantar 6 lugares" [ref=e237]
+            - generic [ref=e238]: Usado
+            - button "Favoritar" [ref=e239] [cursor=pointer]:
+              - generic [ref=e240]: 
+          - generic [ref=e241]:
+            - text: Sala de Jantar
+            - heading "Mesa de Jantar 6 Lugares + Cadeiras" [level=3] [ref=e242]
+            - generic [ref=e243]:
+              - generic [ref=e244]: 
+              - generic [ref=e245]: 
+              - generic [ref=e246]: 
+              - generic [ref=e247]: 
+              - generic [ref=e248]: 
+              - generic [ref=e249]: (9)
+            - generic [ref=e250]:
+              - generic [ref=e251]: R$ 2.600
+              - generic [ref=e252]: R$ 980,00
+            - link " Tenho Interesse" [ref=e254] [cursor=pointer]:
+              - /url: https://wa.me/5511999999999?text=Olá! Tenho interesse na Mesa de Jantar 6 Lugares.
+              - generic [ref=e255]: 
+              - text: Tenho Interesse
+        - article [ref=e256]:
+          - generic [ref=e257]:
+            - img "Mesa de escritório" [ref=e258]
+            - generic [ref=e259]: Seminovo
+            - button "Favoritar" [ref=e260] [cursor=pointer]:
+              - generic [ref=e261]: 
+          - generic [ref=e262]:
+            - text: Escritório
+            - heading "Mesa de Escritório + Cadeira Gamer" [level=3] [ref=e263]
+            - generic [ref=e264]:
+              - generic [ref=e265]: 
+              - generic [ref=e266]: 
+              - generic [ref=e267]: 
+              - generic [ref=e268]: 
+              - generic [ref=e269]: 
+              - generic [ref=e270]: (5)
+            - generic [ref=e271]:
+              - generic [ref=e272]: R$ 1.500
+              - generic [ref=e273]: R$ 620,00
+            - link " Tenho Interesse" [ref=e275] [cursor=pointer]:
+              - /url: https://wa.me/5511999999999?text=Olá! Tenho interesse na Mesa de Escritório com Cadeira Gamer.
+              - generic [ref=e276]: 
+              - text: Tenho Interesse
+        - article [ref=e277]:
+          - generic [ref=e278]:
+            - img "Guarda-roupa" [ref=e279]
+            - generic [ref=e280]: Usado
+            - button "Favoritar" [ref=e281] [cursor=pointer]:
+              - generic [ref=e282]: 
+          - generic [ref=e283]:
+            - text: Quartos
+            - heading "Guarda-Roupa 6 Portas com Espelho" [level=3] [ref=e284]
+            - generic [ref=e285]:
+              - generic [ref=e286]: 
+              - generic [ref=e287]: 
+              - generic [ref=e288]: 
+              - generic [ref=e289]: 
+              - generic [ref=e290]: 
+              - generic [ref=e291]: (15)
+            - generic [ref=e292]:
+              - generic [ref=e293]: R$ 2.200
+              - generic [ref=e294]: R$ 850,00
+            - link " Tenho Interesse" [ref=e296] [cursor=pointer]:
+              - /url: https://wa.me/5511999999999?text=Olá! Tenho interesse no Guarda-Roupa 6 Portas com Espelho.
+              - generic [ref=e297]: 
+              - text: Tenho Interesse
+        - article [ref=e298]:
+          - generic [ref=e299]:
+            - img "Poltrona" [ref=e300]
+            - generic [ref=e301]: Seminovo
+            - button "Favoritar" [ref=e302] [cursor=pointer]:
+              - generic [ref=e303]: 
+          - generic [ref=e304]:
+            - text: Sofás
+            - heading "Poltrona Reclinável com Massagem" [level=3] [ref=e305]
+            - generic [ref=e306]:
+              - generic [ref=e307]: 
+              - generic [ref=e308]: 
+              - generic [ref=e309]: 
+              - generic [ref=e310]: 
+              - generic [ref=e311]: 
+              - generic [ref=e312]: (19)
+            - generic [ref=e313]:
+              - generic [ref=e314]: R$ 2.800
+              - generic [ref=e315]: R$ 1.100,00
+            - link " Tenho Interesse" [ref=e317] [cursor=pointer]:
+              - /url: https://wa.me/5511999999999?text=Olá! Tenho interesse na Poltrona Reclinável com Massagem.
+              - generic [ref=e318]: 
+              - text: Tenho Interesse
+      - link "Ver Todos os Produtos" [ref=e320] [cursor=pointer]:
+        - /url: catalogo.html
+        - text: Ver Todos os Produtos
+    - generic [ref=e322]:
+      - generic [ref=e323]:
+        - generic [ref=e324]: Quer vender seus móveis?
+        - heading "Compramos seus usados à vista!" [level=2] [ref=e325]:
+          - text: Compramos seus usados
+          - strong [ref=e326]: à vista!
+        - paragraph [ref=e327]: Avaliação gratuita. Pagamento na hora. Retiramos na sua casa.
+        - link " Quero Vender Meus Usados" [ref=e328] [cursor=pointer]:
+          - /url: https://wa.me/5511999999999?text=Olá! Quero vender meus móveis usados. Podem fazer uma avaliação?
+          - generic [ref=e329]: 
+          - text: Quero Vender Meus Usados
+      - img "Venda seus usados" [ref=e331]
+    - generic [ref=e333]:
+      - generic [ref=e334]:
+        - heading "Como Funciona?" [level=2] [ref=e335]
+        - paragraph [ref=e336]: Simples, rápido e seguro
+      - generic [ref=e337]:
+        - generic [ref=e338]:
+          - generic [ref=e339]: "01"
+          - generic [ref=e341]: 
+          - heading "Escolha o Produto" [level=3] [ref=e342]
+          - paragraph [ref=e343]: Navegue pelo catálogo ou fale conosco no WhatsApp para ver as opções disponíveis.
+        - generic [ref=e345]: 
+        - generic [ref=e346]:
+          - generic [ref=e347]: "02"
+          - generic [ref=e349]: 
+          - heading "Entre em Contato" [level=3] [ref=e350]
+          - paragraph [ref=e351]: Clique em "Tenho Interesse" e nosso time responde em até 1 hora com fotos detalhadas.
+        - generic [ref=e353]: 
+        - generic [ref=e354]:
+          - generic [ref=e355]: "03"
+          - generic [ref=e357]: 
+          - heading "Feche Negócio" [level=3] [ref=e358]
+          - paragraph [ref=e359]: "Combine a forma de pagamento: Pix, dinheiro ou parcelado no cartão."
+        - generic [ref=e361]: 
+        - generic [ref=e362]:
+          - generic [ref=e363]: "04"
+          - generic [ref=e365]: 
+          - heading "Receba em Casa" [level=3] [ref=e366]
+          - paragraph [ref=e367]: Entregamos e montamos o produto na sua residência. Rápido e com cuidado.
+    - generic [ref=e369]:
+      - generic [ref=e370]:
+        - heading "O que nossos clientes dizem" [level=2] [ref=e371]
+        - paragraph [ref=e372]: +1.200 clientes satisfeitos em toda a região
+      - generic [ref=e373]:
+        - generic [ref=e374]:
+          - generic [ref=e375]:
+            - generic [ref=e376]: 
+            - generic [ref=e377]: 
+            - generic [ref=e378]: 
+            - generic [ref=e379]: 
+            - generic [ref=e380]: 
+          - paragraph [ref=e381]: "\"\"Comprei um sofá incrível pela metade do preço. Chegou no dia combinado, limpo e em perfeito estado. Super recomendo!\""
+          - generic [ref=e382]:
+            - generic [ref=e383]: M
+            - generic [ref=e384]:
+              - strong [ref=e385]: Maria Silva
+              - text: São Paulo, SP
+        - generic [ref=e386]:
+          - generic [ref=e387]:
+            - generic [ref=e388]: 
+            - generic [ref=e389]: 
+            - generic [ref=e390]: 
+            - generic [ref=e391]: 
+            - generic [ref=e392]: 
+          - paragraph [ref=e393]: "\"\"Vendi minha geladeira antiga e ainda comprei uma nova por um preço muito bom. Atendimento excelente pelo WhatsApp.\""
+          - generic [ref=e394]:
+            - generic [ref=e395]: J
+            - generic [ref=e396]:
+              - strong [ref=e397]: João Oliveira
+              - text: Santo André, SP
+        - generic [ref=e398]:
+          - generic [ref=e399]:
+            - generic [ref=e400]: 
+            - generic [ref=e401]: 
+            - generic [ref=e402]: 
+            - generic [ref=e403]: 
+            - generic [ref=e404]: 
+          - paragraph [ref=e405]: "\"\"Decorei meu apartamento inteiro aqui. Investi 2x menos do que comprando novo e ficou lindo. Equipe muito simpática!\""
+          - generic [ref=e406]:
+            - generic [ref=e407]: A
+            - generic [ref=e408]:
+              - strong [ref=e409]: Ana Costa
+              - text: São Bernardo do Campo, SP
+    - generic [ref=e411]:
+      - generic [ref=e412]:
+        - generic [ref=e413]: 
+        - heading "Receba Novidades e Ofertas" [level=2] [ref=e414]
+        - paragraph [ref=e415]: Cadastre seu WhatsApp e seja o primeiro a saber quando chegarem novos produtos.
+      - generic [ref=e416]:
+        - textbox "(XX) XXXXX-XXXX" [ref=e417]
+        - button " Quero Receber Ofertas" [ref=e418] [cursor=pointer]:
+          - generic [ref=e419]: 
+          - text: Quero Receber Ofertas
+  - contentinfo [ref=e420]:
+    - generic [ref=e421]:
+      - generic [ref=e422]:
+        - generic [ref=e423]:
+          - generic [ref=e425]: 
+          - generic [ref=e426]:
+            - generic [ref=e427]: Mercadão
+            - generic [ref=e428]: dos Usados
+        - paragraph [ref=e429]: Móveis, eletrodomésticos e eletrônicos usados e seminovos com qualidade garantida e preço justo.
+        - generic [ref=e430]:
+          - link "Instagram" [ref=e431] [cursor=pointer]:
+            - /url: "#"
+            - generic [ref=e432]: 
+          - link "Facebook" [ref=e433] [cursor=pointer]:
+            - /url: "#"
+            - generic [ref=e434]: 
+          - link "WhatsApp" [ref=e435] [cursor=pointer]:
+            - /url: https://wa.me/5511999999999
+            - generic [ref=e436]: 
+          - link "TikTok" [ref=e437] [cursor=pointer]:
+            - /url: "#"
+            - generic [ref=e438]: 
+      - generic [ref=e439]:
+        - heading "Categorias" [level=4] [ref=e440]
+        - list [ref=e441]:
+          - listitem [ref=e442]:
+            - link "Sofás e Poltronas" [ref=e443] [cursor=pointer]:
+              - /url: catalogo.html?cat=sofas
+          - listitem [ref=e444]:
+            - link "Quartos" [ref=e445] [cursor=pointer]:
+              - /url: catalogo.html?cat=quartos
+          - listitem [ref=e446]:
+            - link "Mesas e Cadeiras" [ref=e447] [cursor=pointer]:
+              - /url: catalogo.html?cat=mesas
+          - listitem [ref=e448]:
+            - link "Geladeiras" [ref=e449] [cursor=pointer]:
+              - /url: catalogo.html?cat=geladeiras
+          - listitem [ref=e450]:
+            - link "TVs e Eletrônicos" [ref=e451] [cursor=pointer]:
+              - /url: catalogo.html?cat=tvs
+          - listitem [ref=e452]:
+            - link "Escritório" [ref=e453] [cursor=pointer]:
+              - /url: catalogo.html?cat=escritorio
+      - generic [ref=e454]:
+        - heading "Informações" [level=4] [ref=e455]
+        - list [ref=e456]:
+          - listitem [ref=e457]:
+            - link "Sobre Nós" [ref=e458] [cursor=pointer]:
+              - /url: sobre.html
+          - listitem [ref=e459]:
+            - link "Contato" [ref=e460] [cursor=pointer]:
+              - /url: contato.html
+          - listitem [ref=e461]:
+            - link "Como Funciona" [ref=e462] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=e463]:
+            - link "Política de Privacidade" [ref=e464] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=e465]:
+            - link "Termos de Uso" [ref=e466] [cursor=pointer]:
+              - /url: "#"
+      - generic [ref=e467]:
+        - heading "Fale Conosco" [level=4] [ref=e468]
+        - list [ref=e469]:
+          - listitem [ref=e470]:
+            - generic [ref=e471]: 
+            - text: (11) 99999-9999
+          - listitem [ref=e472]:
+            - generic [ref=e473]: 
+            - text: contato@mercadaodosusados.com.br
+          - listitem [ref=e474]:
+            - generic [ref=e475]: 
+            - text: Rua das Flores, 123 — São Paulo, SP
+          - listitem [ref=e476]:
+            - generic [ref=e477]: 
+            - text: "Seg–Sáb: 8h às 18h"
+        - link " Falar Agora" [ref=e478] [cursor=pointer]:
+          - /url: https://wa.me/5511999999999?text=Olá! Preciso de ajuda.
+          - generic [ref=e479]: 
+          - text: Falar Agora
+    - generic [ref=e481]:
+      - paragraph [ref=e482]: © 2025 Mercadão dos Usados. Todos os direitos reservados.
+      - generic [ref=e483]:
+        - generic [ref=e484]: 
+        - generic [ref=e485]: 
+        - generic [ref=e486]: 
+        - generic [ref=e487]: 
+  - link "Falar no WhatsApp" [ref=e488] [cursor=pointer]:
+    - /url: https://wa.me/5511999999999?text=Olá! Vim pelo site e quero saber mais sobre os produtos.
+    - generic [ref=e489]: 

@@ -1,0 +1,32 @@
+[     111ms] [LOG] PixelYourSite Free version 11.1.5.2 @ http://localhost:4322/dentista/index.html:62
+[     987ms] [LOG] JQMIGRATE: Migrate is installed, version 3.4.1 @ https://drlucasfirmino.com.br/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1:1
+[    1025ms] Uncaught ReferenceError: Cookies is not defined
+    at checkSession (https://drlucasfirmino.com.br/wp-content/plugins/pixelyoursite/dist/scripts/public.js?ver=11.1.5.2:181:12)
+    at <anonymous> (https://drlucasfirmino.com.br/wp-content/plugins/pixelyoursite/dist/scripts/public.js?ver=11.1.5.2:120:27)
+    at <anonymous> (https://drlucasfirmino.com.br/wp-content/plugins/pixelyoursite/dist/scripts/public.js?ver=11.1.5.2:1812:5)
+    at <anonymous> (https://drlucasfirmino.com.br/wp-content/plugins/pixelyoursite/dist/scripts/public.js?ver=11.1.5.2:3721:1)
+[    1258ms] [WARNING] jQuery.Deferred exception: Cookies is not defined ReferenceError: Cookies is not defined
+    at String.<anonymous> (https://drlucasfirmino.com.br/wp-content/plugins/handl-utm-grabber/js/handl-utm-grabber.js?ver=6.9.4:11:22)
+    at ce.each (https://drlucasfirmino.com.br/wp-includes/js/jquery/jquery.min.js?ver=3.7.1:2:3129)
+    at HTMLDocument.<anonymous> (https://drlucasfirmino.com.br/wp-content/plugins/handl-utm-grabber/js/handl-utm-grabber.js?ver=6.9.4:4:7)
+    at e (https://drlucasfirmino.com.br/wp-includes/js/jquery/jquery.min.js?ver=3.7.1:2:27028)
+    at t (https://drlucasfirmino.com.br/wp-includes/js/jquery/jquery.min.js?ver=3.7.1:2:27330) undefined @ https://drlucasfirmino.com.br/wp-includes/js/jquery/jquery.min.js?ver=3.7.1:1
+[    1332ms] Uncaught ReferenceError: Cookies is not defined
+    at <anonymous> (https://drlucasfirmino.com.br/wp-content/plugins/handl-utm-grabber/js/handl-utm-grabber.js?ver=6.9.4:10:21)
+    at each (https://drlucasfirmino.com.br/wp-includes/js/jquery/jquery.min.js?ver=3.7.1:1:3128)
+    at <anonymous> (https://drlucasfirmino.com.br/wp-content/plugins/handl-utm-grabber/js/handl-utm-grabber.js?ver=6.9.4:3:6)
+    at e (https://drlucasfirmino.com.br/wp-includes/js/jquery/jquery.min.js?ver=3.7.1:1:27027)
+    at t (https://drlucasfirmino.com.br/wp-includes/js/jquery/jquery.min.js?ver=3.7.1:1:27329)
+[    1814ms] [ERROR] Access to font at 'https://drlucasfirmino.com.br/wp-content/uploads/2026/01/Montserrat-SemiBold.woff2' from origin 'http://localhost:4322' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ http://localhost:4322/dentista/index.html:0
+[    1814ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://drlucasfirmino.com.br/wp-content/uploads/2026/01/Montserrat-SemiBold.woff2:0
+[    1928ms] [ERROR] Access to font at 'https://drlucasfirmino.com.br/wp-content/uploads/2026/01/Montserrat-Regular.woff2' from origin 'http://localhost:4322' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ http://localhost:4322/dentista/index.html:0
+[    1929ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://drlucasfirmino.com.br/wp-content/uploads/2026/01/Montserrat-Regular.woff2:0
+[    2072ms] [ERROR] Access to font at 'https://drlucasfirmino.com.br/wp-content/uploads/2026/01/Montserrat-SemiBold.woff' from origin 'http://localhost:4322' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ http://localhost:4322/dentista/index.html:0
+[    2073ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://drlucasfirmino.com.br/wp-content/uploads/2026/01/Montserrat-SemiBold.woff:0
+[    2238ms] [ERROR] Access to font at 'https://drlucasfirmino.com.br/wp-content/uploads/2026/01/Montserrat-Regular.woff' from origin 'http://localhost:4322' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ http://localhost:4322/dentista/index.html:0
+[    2239ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://drlucasfirmino.com.br/wp-content/uploads/2026/01/Montserrat-Regular.woff:0
+[    2241ms] [ERROR] Access to font at 'https://drlucasfirmino.com.br/wp-content/uploads/2026/01/Montserrat-SemiBold.ttf' from origin 'http://localhost:4322' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ http://localhost:4322/dentista/index.html:0
+[    2246ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://drlucasfirmino.com.br/wp-content/uploads/2026/01/Montserrat-SemiBold.ttf:0
+[    2281ms] [WARNING] Failed to execute 'postMessage' on 'DOMWindow': The target origin provided ('https://www.youtube.com') does not match the recipient window's origin ('http://localhost:4322'). @ https://www.youtube.com/s/player/8fb635c2/www-widgetapi.vflset/www-widgetapi.js:209
+[    2398ms] [ERROR] Access to font at 'https://drlucasfirmino.com.br/wp-content/uploads/2026/01/Montserrat-Regular.ttf' from origin 'http://localhost:4322' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ http://localhost:4322/dentista/index.html:0
+[    2398ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://drlucasfirmino.com.br/wp-content/uploads/2026/01/Montserrat-Regular.ttf:0

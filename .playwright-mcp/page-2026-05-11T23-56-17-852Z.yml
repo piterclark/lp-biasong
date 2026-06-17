@@ -1,0 +1,180 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - generic [ref=e5]:
+      - heading "Landing Page para Advogados" [level=1] [ref=e8]
+      - paragraph [ref=e9]: Pare de depender apenas de indicação e comece a gerar contatos qualificados todos os dias com uma página estratégica, profissional e pensada para converter.
+      - list [ref=e12]:
+        - listitem [ref=e13]:
+          - generic [ref=e15]: 
+          - generic [ref=e16]: Mais autoridade
+        - listitem [ref=e17]:
+          - generic [ref=e19]: 
+          - generic [ref=e20]: Mais clientes qualificados
+        - listitem [ref=e21]:
+          - generic [ref=e23]: 
+          - generic [ref=e24]: Mais previsibilidade no seu escritório
+      - link "Fale conosco" [ref=e28] [cursor=pointer]:
+        - /url: https://wa.me/5512996341030?text=Ol%C3%A1%2C%20gostaria%20de%20criar%20minha%20Landing%20Page
+        - generic [ref=e29]:
+          - generic [ref=e31]: 
+          - generic [ref=e32]: Fale conosco
+    - generic [ref=e36]:
+      - heading "Como você deseja apresentar sua advocacia online?" [level=2] [ref=e39]
+      - paragraph [ref=e40]: Uma boa apresentação online garante credibilidade e confiança, para que os clientes conheçam melhor seus serviços, entendam suas áreas de atuação e se sintam seguros ao entrar em contato. Uma Landing Page ou Site Profissional, claro e bem estruturado transmite autoridade, fortalece sua imagem e aumenta as oportunidades de novos clientes.
+    - generic [ref=e43]:
+      - heading "Soluções para melhorar sua presença digital" [level=2] [ref=e46]
+      - generic [ref=e47]:
+        - generic [ref=e48]:
+          - heading "Desenvolvimento de Landing Pages" [level=3] [ref=e51]
+          - paragraph [ref=e52]: Estrutura estratégica voltada para autoridade profissional e conversão. Inclui organização visual avançada, seções personalizadas e aproveitamento de fotos profissionais para fortalecer a imagem do advogado ou escritório
+        - generic [ref=e53]:
+          - heading "Desenvolvimento de Sites Institucionais" [level=3] [ref=e56]
+          - paragraph [ref=e57]: Criação de site institucional completo para apresentar o escritório, áreas de atuação e diferenciais profissionais de forma organizada e confiável.
+        - generic [ref=e58]:
+          - heading "Instalação de Tags e Pixels" [level=3] [ref=e61]
+          - paragraph [ref=e62]: Configuração e instalação de tags de monitoramento e pixels de rastreamento em páginas ou sites, permitindo análise de acessos, mensuração de resultados e acompanhamento de campanhas de marketing digital.
+      - link "Fale conosco" [ref=e66] [cursor=pointer]:
+        - /url: https://wa.me/5512996341030?text=Ol%C3%A1%2C%20gostaria%20de%20criar%20minha%20Landing%20Page
+        - generic [ref=e67]:
+          - generic [ref=e69]: 
+          - generic [ref=e70]: Fale conosco
+    - generic [ref=e72]:
+      - heading "Portfólio de clientes" [level=2] [ref=e75]
+      - generic [ref=e80]:
+        - generic [ref=e81]:
+          - button "Todos" [ref=e82] [cursor=pointer]
+          - button "Landing Pages" [ref=e83] [cursor=pointer]
+          - button "Sites Institucionais" [ref=e84] [cursor=pointer]
+        - generic [ref=e85]:
+          - generic [ref=e86]:
+            - generic [ref=e87]:
+              - img "Rézio & Raugusto Advogados" [ref=e88]
+              - generic [ref=e89]: Landing Page
+            - generic [ref=e90]:
+              - heading "Rézio & Raugusto Advogados" [level=3] [ref=e91]
+              - generic [ref=e92]: Direito de Família
+              - paragraph [ref=e93]: Landing page estratégica desenvolvida para escritório de advocacia especializado em Direito de Família, com foco em captação de clientes e comunicação humanizada. O projeto destaca serviços relacionados à pensão alimentícia, apresentação profissional dos advogados e CTAs diretos para contato, utilizando design moderno e estrutura orientada à conversão.
+              - link "Ver Projeto" [ref=e94] [cursor=pointer]:
+                - /url: https://rezioadvogados.com/
+          - generic [ref=e95]:
+            - generic [ref=e96]:
+              - img "Dra. Fabiula Freitas" [ref=e97]
+              - generic [ref=e98]: Site Institucional
+            - generic [ref=e99]:
+              - heading "Dra. Fabiula Freitas" [level=3] [ref=e100]
+              - generic [ref=e101]: Direito Previdenciário
+              - paragraph [ref=e102]: Site institucional desenvolvido para advogada especializada em Direito Previdenciário, com foco em apresentação profissional, organização clara dos serviços e fortalecimento da autoridade jurídica. O projeto reúne informações sobre benefícios, consultorias e conteúdos educativos em estrutura completa — com navegação intuitiva, design profissional e pontos estratégicos de contato para geração de novos atendimentos.
+              - link "Ver Projeto" [ref=e103] [cursor=pointer]:
+                - /url: https://fabiulafreitas.adv.br/
+          - generic [ref=e104]:
+            - generic [ref=e105]:
+              - img "Dra. Glaucia Frederico" [ref=e106]
+              - generic [ref=e107]: Landing Page
+            - generic [ref=e108]:
+              - heading "Dra. Glaucia Frederico" [level=3] [ref=e109]
+              - generic [ref=e110]: Direito de Família e Sucessões
+              - paragraph [ref=e111]: Landing page profissional desenvolvida para advogada especializada em Direito de Família e Sucessões, com posicionamento humanizado e foco em atendimento estratégico. O projeto destaca áreas de atuação, diferenciais e abordagem acolhedora — especialmente voltada a famílias, mulheres e pessoas com TEA — com estrutura clara, design moderno e CTAs direcionados para conversão e agendamento de consultas.
+              - link "Ver Projeto" [ref=e112] [cursor=pointer]:
+                - /url: https://glauciafredericoadv.com.br/
+          - generic [ref=e113]:
+            - generic [ref=e114]:
+              - img "Dra. Adriane Lima" [ref=e115]
+              - generic [ref=e116]: Site Institucional
+            - generic [ref=e117]:
+              - heading "Dra. Adriane Lima" [level=3] [ref=e118]
+              - generic [ref=e119]: Direito Empresarial
+              - paragraph [ref=e120]: Site institucional desenvolvido para escritório jurídico com foco em blindagem trabalhista empresarial e gestão estratégica de riscos para empresas. O projeto apresenta posicionamento consultivo, destaque para auditorias, diagnósticos e soluções preventivas, além da autoridade profissional da advogada — com estrutura clara, comunicação voltada ao público empresarial e foco na geração de contatos qualificados e fortalecimento da presença digital.
+              - link "Ver Projeto" [ref=e121] [cursor=pointer]:
+                - /url: https://adrianelimaadvogada.com.br/
+          - generic [ref=e122]:
+            - generic [ref=e123]:
+              - img "Dr. Amauri Antônio" [ref=e124]
+              - generic [ref=e125]: Landing Page
+            - generic [ref=e126]:
+              - heading "Dr. Amauri Antônio" [level=3] [ref=e127]
+              - generic [ref=e128]: Direito Trabalhista
+              - paragraph [ref=e129]: Landing page estratégica desenvolvida para advogado trabalhista, com foco em captação de clientes e apresentação clara dos principais direitos e demandas trabalhistas. O projeto conta com estrutura orientada à conversão, destaque para serviços oferecidos, posicionamento profissional sólido e CTAs diretos para contato, utilizando design moderno e comunicação objetiva voltada ao público que busca orientação jurídica rápida e segura.
+              - link "Ver Projeto" [ref=e130] [cursor=pointer]:
+                - /url: https://lp.amauricarvalhoadvogado.com/
+          - generic [ref=e131]:
+            - generic [ref=e132]:
+              - img "Morant Advogados" [ref=e133]
+              - generic [ref=e134]: Landing Page
+            - generic [ref=e135]:
+              - heading "Morant Advogados" [level=3] [ref=e136]
+              - generic [ref=e137]: Direito Trabalhista
+              - paragraph [ref=e138]: Landing page estratégica desenvolvida para advocacia trabalhista com atuação tanto para trabalhadores quanto para empresas, apresentando serviços completos de defesa, consultoria preventiva e compliance. O projeto destaca autoridade profissional, ampla gama de soluções jurídicas, provas sociais e comunicação acessível — com estrutura organizada, design profissional e CTAs direcionados para geração de contatos e novos casos.
+              - link "Ver Projeto" [ref=e139] [cursor=pointer]:
+                - /url: https://moranteadvogados.adv.br/
+          - generic [ref=e140]:
+            - generic [ref=e141]:
+              - img "Dr. Luiz Miguel Dubal" [ref=e142]
+              - generic [ref=e143]: Landing Page
+            - generic [ref=e144]:
+              - heading "Dr. Luiz Miguel Dubal" [level=3] [ref=e145]
+              - generic [ref=e146]: Direito Imobiliário
+              - paragraph [ref=e147]: Landing page estratégica desenvolvida para advogado especialista em Direito Imobiliário, com foco em segurança jurídica em negociações, regularizações e soluções patrimoniais. O projeto apresenta autoridade profissional com prova social, detalhamento dos principais serviços imobiliários e comunicação orientada à prevenção de riscos — utilizando estrutura clara, design profissional e CTAs diretos para agendamento de consultas especializadas.
+              - link "Ver Projeto" [ref=e148] [cursor=pointer]:
+                - /url: https://direitoimobiliario.dubaladvocacia.com/
+          - generic [ref=e149]:
+            - generic [ref=e150]:
+              - img "Bastos Legal" [ref=e151]
+              - generic [ref=e152]: Site Institucional
+            - generic [ref=e153]:
+              - heading "Bastos Legal" [level=3] [ref=e154]
+              - generic [ref=e155]: Escritório de Advogacia em Portugal
+              - paragraph [ref=e156]: Site institucional desenvolvido para escritório de advocacia especializado em Direito Imobiliário e consultoria de investimentos, com atuação internacional entre Portugal e Brasil. O projeto apresenta posicionamento profissional sólido, áreas de atuação estratégicas, diferenciais competitivos e provas sociais — com estrutura completa, navegação intuitiva e foco em fortalecer autoridade jurídica e geração de novos contatos qualificados.
+              - link "Ver Projeto" [ref=e157] [cursor=pointer]:
+                - /url: https://bastoslegal.pt/
+        - generic [ref=e159]:
+          - button "1" [ref=e160] [cursor=pointer]
+          - button "2" [ref=e161] [cursor=pointer]
+      - link "Fale conosco" [ref=e165] [cursor=pointer]:
+        - /url: https://wa.me/5512996341030?text=Ol%C3%A1%2C%20gostaria%20de%20criar%20minha%20Landing%20Page
+        - generic [ref=e166]:
+          - generic [ref=e168]: 
+          - generic [ref=e169]: Fale conosco
+    - generic [ref=e171]:
+      - generic [ref=e172]:
+        - heading "É simples ter sua Landing Page ou Site no ar!" [level=2] [ref=e175]
+        - paragraph [ref=e176]:
+          - text: Você só precisa de 3 passos para começar a anunciar!
+          - link:
+            - /url: https://landingpageadvogado.com.br/modelos
+            - strong
+        - heading "Veja alguns modelos ➔" [level=2] [ref=e179]:
+          - link "Veja alguns modelos ➔" [ref=e180] [cursor=pointer]:
+            - /url: "#"
+      - generic [ref=e182]:
+        - generic [ref=e183]:
+          - heading "1." [level=2] [ref=e186]
+          - heading "Entre em contato" [level=2] [ref=e189]
+          - paragraph [ref=e194]: Nos chame no WhatsApp e apresente o projeto desejado.
+        - generic [ref=e195]:
+          - heading "2." [level=2] [ref=e198]
+          - heading "Preencha o briefing" [level=2] [ref=e201]
+          - paragraph [ref=e206]: Preencha o formulário de briefing com todas as informações solicitadas.
+        - generic [ref=e207]:
+          - heading "3." [level=2] [ref=e210]
+          - heading "Página no ar!" [level=2] [ref=e213]
+          - paragraph [ref=e218]: Seguindo o prazo informado sua página estará no ar e pronto para captar novos clientes todos os dias.
+    - generic [ref=e220]:
+      - heading "Chega de ficar travado na prospecção digital" [level=2] [ref=e223]
+      - paragraph [ref=e224]:
+        - strong [ref=e225]: Enquanto a rotina do escritório consome seu tempo, a captação de clientes não pode parar.
+        - text: Aqui você recebe uma
+        - strong [ref=e226]: landing page ou site estratégico, pronta para conversão
+        - text: ", pensada para advogados que querem resultados rápidos e previsíveis todos os meses."
+        - text: ✔ Sem formulários complexos
+        - text: ✔ Sem meses de desenvolvimento
+        - text: ✔ Sem custos abusivos
+        - text: ✔ Pronta para anunciar e captar clientes
+      - link "Fale conosco" [ref=e230] [cursor=pointer]:
+        - /url: https://wa.me/5512996341030?text=Ol%C3%A1%2C%20gostaria%20de%20criar%20minha%20Landing%20Page
+        - generic [ref=e231]:
+          - generic [ref=e233]: 
+          - generic [ref=e234]: Fale conosco
+      - link [ref=e238] [cursor=pointer]:
+        - /url: https://wa.me/5512996341030?text=Ol%C3%A1%2C%20gostaria%20de%20criar%20minha%20Landing%20Page
+        - generic [ref=e239]: 
+  - generic [ref=e241]: desktop

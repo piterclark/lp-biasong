@@ -1,0 +1,190 @@
+- generic [ref=e11]:
+  - generic [ref=e13]:
+    - link "Instagram" [ref=e16] [cursor=pointer]:
+      - /url: /
+      - img "Instagram" [ref=e19]
+    - generic [ref=e24]:
+      - link "Entrar" [ref=e26] [cursor=pointer]:
+        - /url: /accounts/login/?next=%2Fp%2FDUYngkODxJf%2F&source=desktop_nav
+      - link "Cadastre-se" [ref=e28] [cursor=pointer]:
+        - /url: /accounts/emailsignup/
+  - main [ref=e29]:
+    - dialog [ref=e34]:
+      - generic [ref=e35]:
+        - button "Fechar" [ref=e37] [cursor=pointer]:
+          - img "Fechar" [ref=e39]
+        - generic [ref=e43]:
+          - generic [ref=e44]:
+            - link "Foto do perfil de dayantorresart" [ref=e46] [cursor=pointer]:
+              - img "Foto do perfil de dayantorresart" [ref=e47]
+            - generic [ref=e49]:
+              - generic [ref=e50]: Não perca nenhum post de dayantorresart
+              - generic [ref=e52]: Cadastre-se no Instagram para ficar por dentro das novidades.
+              - generic [ref=e54]:
+                - text: Ao continuar, você concorda com os
+                - link "Termos de Uso" [ref=e55] [cursor=pointer]:
+                  - /url: https://help.instagram.com/581066165581870/?locale=pt_BR
+                - text: e a
+                - link "Política de Privacidade" [ref=e56] [cursor=pointer]:
+                  - /url: https://privacycenter.instagram.com/policy/
+                - text: do Instagram.
+          - generic [ref=e57]:
+            - link "Cadastre-se" [ref=e60] [cursor=pointer]:
+              - /url: /accounts/emailsignup/
+            - link "Entrar" [ref=e63] [cursor=pointer]:
+              - /url: /accounts/login/?source=desktop_dynamic_landing_dialog
+    - generic [ref=e64]:
+      - article [ref=e65]:
+        - generic [ref=e66]:
+          - generic [ref=e67]:
+            - button "Foto do perfil de dayantorresart" [disabled] [ref=e69]:
+              - link "Foto do perfil de dayantorresart" [disabled] [ref=e71] [cursor=pointer]:
+                - /url: /dayantorresart/
+                - img "Foto do perfil de dayantorresart" [ref=e72]
+            - generic [ref=e74]:
+              - generic [ref=e77]:
+                - link "dayantorresart" [ref=e80] [cursor=pointer]:
+                  - /url: /dayantorresart/
+                  - generic [ref=e81]: dayantorresart
+                - img "Verificado" [ref=e83]
+              - generic [ref=e85]:
+                - generic [ref=e88]: •
+                - button "Seguir" [ref=e89] [cursor=pointer]:
+                  - generic [ref=e91]: Seguir
+          - button "Mais opções" [ref=e93] [cursor=pointer]:
+            - img "Mais opções" [ref=e96]
+        - generic [ref=e106] [cursor=pointer]:
+          - button [ref=e107]:
+            - img [ref=e109]
+          - button "Tags" [ref=e112]:
+            - img "Tags" [ref=e114]
+          - generic:
+            - link "tattoosinlimites":
+              - /url: /tattoosinlimites/
+              - generic:
+                - generic: tattoosinlimites
+          - generic:
+            - link "lamanigancetattootoronto":
+              - /url: /lamanigancetattootoronto/
+              - generic:
+                - generic: lamanigancetattootoronto
+        - generic [ref=e117]:
+          - generic [ref=e119]:
+            - generic [ref=e120]:
+              - button "Curtir" [ref=e123] [cursor=pointer]:
+                - img "Curtir" [ref=e126]
+              - button "7,3 mil" [ref=e128] [cursor=pointer]
+              - button "Comentar" [ref=e130] [cursor=pointer]:
+                - img "Comentar" [ref=e132]
+              - button "38" [ref=e134] [cursor=pointer]
+              - button "Compartilhar" [ref=e135] [cursor=pointer]:
+                - img "Compartilhar" [ref=e136]
+            - button "Salvar" [ref=e140] [cursor=pointer]:
+              - img "Salvar" [ref=e142]
+          - generic [ref=e146]:
+            - link "dayantorresart" [ref=e147] [cursor=pointer]:
+              - /url: /dayantorresart/
+              - generic [ref=e150]: dayantorresart
+            - img "Verificado" [ref=e152]
+            - generic [ref=e154]:
+              - heading "Fully healed outer arm sleeve. I took this healed photo back in September in California at the Golden state tattoo expo." [level=1] [ref=e156]
+              - generic [ref=e157]:
+                - text: ...
+                - button "mais" [ref=e158] [cursor=pointer]:
+                  - generic [ref=e159]: mais
+          - link "Ver todos os 38 comentários" [ref=e161] [cursor=pointer]:
+            - /url: "#"
+            - generic [ref=e162]: Ver todos os 38 comentários
+          - generic [ref=e163]:
+            - generic [ref=e165]:
+              - link "thauanieduarda" [ref=e166] [cursor=pointer]:
+                - /url: /thauanieduarda/
+                - generic [ref=e169]: thauanieduarda
+              - generic [ref=e170]:
+                - generic [ref=e171]: Olá pessoal eu vim aqui pedir ajuda
+                - generic [ref=e172]:
+                  - text: ...
+                  - button "mais" [ref=e173] [cursor=pointer]:
+                    - generic [ref=e174]: mais
+            - generic [ref=e176]:
+              - link "jgtat2s" [ref=e177] [cursor=pointer]:
+                - /url: /jgtat2s/
+                - generic [ref=e180]: jgtat2s
+              - generic [ref=e182]: 🙌🏻💯🔥
+          - link "5 de fevereiro" [ref=e185] [cursor=pointer]:
+            - /url: /dayantorresart/p/DUYngkODxJf/
+            - time [ref=e187]: 5 de fevereiro
+      - separator [ref=e189]
+      - generic [ref=e190]:
+        - generic [ref=e192]:
+          - text: Mais posts de
+          - link "dayantorresart" [ref=e193] [cursor=pointer]:
+            - /url: /dayantorresart/
+        - generic [ref=e196]:
+          - generic [ref=e197]:
+            - 'link "Full back project completed alongside the outer sleeve, and neck. We explored the theme of classical art with statues, angels and architecture. So far we have been tattooing this project for a total of 12 sessions on my client, just around 100 hours of work so far. The outer arm is fully healed, as well as the neck. The back is half healed, half fresh. Thank you to my client Christopher for trusting me with this awesome project! Done using @kwadron @bngtattoosupply @cheyenne_tattooequipment @pantherainkcanada @hornetarttattoosupply @mundo_das_tattoo @inked.brasil @tattoorealistic #blackandgreytattoo #tattoo #tatuaje #tatuagem #tattooart #tattooideas #realismtattoo #tattooartist #backtattoo #fullbacktattoo #statuetattoo #tatuajes Clipe" [ref=e199] [cursor=pointer]':
+              - /url: /dayantorresart/reel/DP1hzdbkX5o/
+              - 'img "Full back project completed alongside the outer sleeve, and neck. We explored the theme of classical art with statues, angels and architecture. So far we have been tattooing this project for a total of 12 sessions on my client, just around 100 hours of work so far. The outer arm is fully healed, as well as the neck. The back is half healed, half fresh. Thank you to my client Christopher for trusting me with this awesome project! Done using @kwadron @bngtattoosupply @cheyenne_tattooequipment @pantherainkcanada @hornetarttattoosupply @mundo_das_tattoo @inked.brasil @tattoorealistic #blackandgreytattoo #tattoo #tatuaje #tatuagem #tattooart #tattooideas #realismtattoo #tattooartist #backtattoo #fullbacktattoo #statuetattoo #tatuajes" [ref=e202]'
+              - generic:
+                - generic:
+                  - generic:
+                    - img "Clipe"
+            - 'link "Hercules and Cerberus full back project completed in 10 full day sessions. Around 80 hours of work. This tattoo project is framed with filigree, architecture, and statue pillar heads alongside the main subject of Hercules battling Cerberus. Done using @bishoprotary and @hornetarttattoosupply The song used in this video features me rapping and produced by my friends @jacobszlachetka and @leksluthorr also featuring @patrikleder Thank you Brandon @strats66 for trusting me with this project! One of my absolute favourites. Special thanks to @fabio_tattooartist for some of the references I used. #tattoo #blackandgreytattoo #fullbacktattoo #tatuaje #fullback #tattooartist #tatuaje #tatuagem #tatuajes #backtattoo #blackandgreyrealism #realistictattoo Clipe" [ref=e205] [cursor=pointer]':
+              - /url: /dayantorresart/reel/DQpH4Sgjzky/
+              - 'img "Hercules and Cerberus full back project completed in 10 full day sessions. Around 80 hours of work. This tattoo project is framed with filigree, architecture, and statue pillar heads alongside the main subject of Hercules battling Cerberus. Done using @bishoprotary and @hornetarttattoosupply The song used in this video features me rapping and produced by my friends @jacobszlachetka and @leksluthorr also featuring @patrikleder Thank you Brandon @strats66 for trusting me with this project! One of my absolute favourites. Special thanks to @fabio_tattooartist for some of the references I used. #tattoo #blackandgreytattoo #fullbacktattoo #tatuaje #fullback #tattooartist #tatuaje #tatuagem #tatuajes #backtattoo #blackandgreyrealism #realistictattoo" [ref=e208]'
+              - generic:
+                - generic:
+                  - generic:
+                    - img "Clipe"
+            - 'link "Tiger outer thigh tattoo, full leg sleeve in progress 💥The knee ornamental portion is fresh, and the tiger is completely healed. Excited to continue this project Done using @cheyenne_tattooequipment @hornetarttattoosupply Thank you to my client Christina for trusting me with this project! #tattoo #blackandgreytattoo #realismtattoo #tigertattoo #tatuaje #tatuajes #tatuagem #tattooartist #tattooartists #blackandgreyrealism #legtattoo #legsleeve" [ref=e211] [cursor=pointer]':
+              - /url: /dayantorresart/p/DP6pHWmDQPQ/
+              - 'img "Tiger outer thigh tattoo, full leg sleeve in progress 💥The knee ornamental portion is fresh, and the tiger is completely healed. Excited to continue this project Done using @cheyenne_tattooequipment @hornetarttattoosupply Thank you to my client Christina for trusting me with this project! #tattoo #blackandgreytattoo #realismtattoo #tigertattoo #tatuaje #tatuajes #tatuagem #tattooartist #tattooartists #blackandgreyrealism #legtattoo #legsleeve" [ref=e214]'
+          - generic [ref=e216]:
+            - 'link "Full back projects completely healed, indoors under natural light, no filters. These projects depict themes of Greek mythology, Roman warriors, and Angels. Thanks to my clients Brandon, Christopher and Glenn for coming through to support me at the @nixtattooshow @mundo_das_tattoo @pam_smithtattoo @inked.brasil #tattoo #tatuagem #backtattoo #healedtattoo #tatuagem Carrossel" [ref=e218] [cursor=pointer]':
+              - /url: /dayantorresart/p/DYSOZm1FXb1/
+              - 'img "Full back projects completely healed, indoors under natural light, no filters. These projects depict themes of Greek mythology, Roman warriors, and Angels. Thanks to my clients Brandon, Christopher and Glenn for coming through to support me at the @nixtattooshow @mundo_das_tattoo @pam_smithtattoo @inked.brasil #tattoo #tatuagem #backtattoo #healedtattoo #tatuagem" [ref=e221]'
+              - generic:
+                - generic:
+                  - generic:
+                    - img "Carrossel"
+            - 'link "Tiger and flowers outer forearm tattoo project completed in 2 full day sessions. Thanks to my client Mathew ✊🏼 for trusting me with this project. Done using @bishoprotary @hornetarttattoosupply @tattoostencilpro.app #tattoo #blackandgreytattoo #tattooartist #realismtattoo #tatuagem Clipe" [ref=e224] [cursor=pointer]':
+              - /url: /dayantorresart/reel/DYPpPRuv1Zf/
+              - 'img "Tiger and flowers outer forearm tattoo project completed in 2 full day sessions. Thanks to my client Mathew ✊🏼 for trusting me with this project. Done using @bishoprotary @hornetarttattoosupply @tattoostencilpro.app #tattoo #blackandgreytattoo #tattooartist #realismtattoo #tatuagem" [ref=e227]'
+              - generic:
+                - generic:
+                  - generic:
+                    - img "Clipe"
+            - 'link "Hercules and Ares outer sleeve, the full arm sleeve is in progress and the shoulder is healed and forearm is fresh. Excited to continue this project in the coming days. Done using @bishoprotary @hornetarttattoosupply @tattoostencilpro.app #tattoo #tattooart #sleevetattoo #realismtattoo #tatuagem Carrossel" [ref=e230] [cursor=pointer]':
+              - /url: /dayantorresart/p/DYKhMOXFSp_/
+              - 'img "Hercules and Ares outer sleeve, the full arm sleeve is in progress and the shoulder is healed and forearm is fresh. Excited to continue this project in the coming days. Done using @bishoprotary @hornetarttattoosupply @tattoostencilpro.app #tattoo #tattooart #sleevetattoo #realismtattoo #tatuagem" [ref=e233]'
+              - generic:
+                - generic:
+                  - generic:
+                    - img "Carrossel"
+          - generic [ref=e235]:
+            - 'link "The performance of our resident artist @dayantorresart at the @nixtattooshow 🔥which ended up in the accomplishment of the 2nd Best Large Black & Grey🥈 and 🥈2nd Medium Black & Grey. Congratulations once again on behalf of the entire team⚡️ Bookings/Quotes/Consultations lamanigancetoronto@gmail.com #tattoo #tattoos #torontotattoo #realistictattoo #blackandgreytattoo Clipe" [ref=e237] [cursor=pointer]':
+              - /url: /lamanigancetattootoronto/reel/DYFVOhoPVPC/
+              - 'img "The performance of our resident artist @dayantorresart at the @nixtattooshow 🔥which ended up in the accomplishment of the 2nd Best Large Black & Grey🥈 and 🥈2nd Medium Black & Grey. Congratulations once again on behalf of the entire team⚡️ Bookings/Quotes/Consultations lamanigancetoronto@gmail.com #tattoo #tattoos #torontotattoo #realistictattoo #blackandgreytattoo" [ref=e240]'
+              - generic:
+                - generic:
+                  - generic:
+                    - img "Clipe"
+            - 'link "Fully healed tattoo sleeves ✨ outdoors in natural light, 12 sessions on the left canvas including full arm and outer leg, and 7 sessions on the right outer panel. Thanks Danielle and Joshua for coming through for healed vids! These projects are healed after months and some parts up to a year and longer. Done using @bishoprotary @hornetarttattoosupply @tattoostencilpro.app #tattoo #blackandgreytattoo #healedtattoo #tatuagem #realismtattoo Clipe" [ref=e243] [cursor=pointer]':
+              - /url: /dayantorresart/reel/DYC1tKtvlIR/
+              - 'img "Fully healed tattoo sleeves ✨ outdoors in natural light, 12 sessions on the left canvas including full arm and outer leg, and 7 sessions on the right outer panel. Thanks Danielle and Joshua for coming through for healed vids! These projects are healed after months and some parts up to a year and longer. Done using @bishoprotary @hornetarttattoosupply @tattoostencilpro.app #tattoo #blackandgreytattoo #healedtattoo #tatuagem #realismtattoo" [ref=e246]'
+              - generic:
+                - generic:
+                  - generic:
+                    - img "Clipe"
+            - 'link "Healed full back projects in natural light, around 200 total hours of work invested, about 60-80 hours each back. Healed for months to around a year. Thanks to my clients Brandon, Christopher and Glenn for coming through for healed outdoor videos and supporting me at the @nixtattooshow Done using @bishoprotary @hornetarttattoosupply @mundo_das_tattoo @pam_smithtattoo #tattoo #blackandgreytattoo #healedtattoo #tatuagem #tatuajes Clipe" [ref=e249] [cursor=pointer]':
+              - /url: /dayantorresart/reel/DYAPKg8QmCJ/
+              - 'img "Healed full back projects in natural light, around 200 total hours of work invested, about 60-80 hours each back. Healed for months to around a year. Thanks to my clients Brandon, Christopher and Glenn for coming through for healed outdoor videos and supporting me at the @nixtattooshow Done using @bishoprotary @hornetarttattoosupply @mundo_das_tattoo @pam_smithtattoo #tattoo #blackandgreytattoo #healedtattoo #tatuagem #tatuajes" [ref=e252]'
+              - generic:
+                - generic:
+                  - generic:
+                    - img "Clipe"
+        - generic [ref=e254]:
+          - link "Ver mais posts" [ref=e256] [cursor=pointer]:
+            - /url: /dayantorresart/
+            - generic [ref=e257]: Ver mais posts
+          - separator [ref=e258]

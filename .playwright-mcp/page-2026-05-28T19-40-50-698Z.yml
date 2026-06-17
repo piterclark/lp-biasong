@@ -1,0 +1,295 @@
+- generic [ref=e3]:
+  - generic [ref=e5]:
+    - link "Skip to main content" [ref=e6] [cursor=pointer]:
+      - /url: "#mainContent"
+    - alert [ref=e9]:
+      - generic [ref=e10]:
+        - img [ref=e12]
+        - paragraph [ref=e14]:
+          - text: We use optional cookies to improve your experience on our websites, such as through social media connections, and to display personalized advertising based on your online activity. If you reject optional cookies, only cookies necessary to provide you the services will be used. You may change your selection by clicking “Manage Cookies” at the bottom of the page.
+          - link "Privacy Statement" [ref=e15] [cursor=pointer]:
+            - /url: https://go.microsoft.com/fwlink/?LinkId=521839
+          - link "Third-Party Cookies" [ref=e16] [cursor=pointer]:
+            - /url: https://aka.ms/3rdpartycookies
+      - generic [ref=e17]:
+        - button "Accept" [ref=e18] [cursor=pointer]
+        - button "Reject" [ref=e19] [cursor=pointer]
+        - button "Manage cookies" [ref=e20] [cursor=pointer]
+    - banner [ref=e21]:
+      - generic [ref=e22]:
+        - generic [ref=e23]:
+          - button "All Microsoft expand to see list of Microsoft products and services" [ref=e26] [cursor=pointer]:
+            - generic [ref=e28]: 
+          - generic [ref=e29]:
+            - text:  
+            - button "Search or ask a question" [ref=e30] [cursor=pointer]:
+              - generic [ref=e32]: 
+        - link "Microsoft" [ref=e36] [cursor=pointer]:
+          - /url: https://www.microsoft.com
+          - img "Microsoft" [ref=e37]
+        - button "ME" [ref=e41] [cursor=pointer]:
+          - generic [ref=e42]: ME
+      - generic [ref=e45]:
+        - button "Software Download " [ref=e46] [cursor=pointer]:
+          - text: Software Download
+          - generic [ref=e48]: 
+        - navigation "Contextual menu"
+  - main [ref=e50]:
+    - generic [ref=e53]:
+      - generic [ref=e60]:
+        - heading "Download Windows 10" [level=1] [ref=e62]
+        - generic [ref=e64]:
+          - paragraph [ref=e65]:
+            - text: Before updating, please refer to the
+            - link "Windows release information status" [ref=e66] [cursor=pointer]:
+              - /url: https://aka.ms/windowsreleasehealth
+              - strong [ref=e68]: Windows release information status
+            - text: for known issues to confirm your device is not impacted.
+          - paragraph [ref=e69]:
+            - strong [ref=e70]: "Stay Secure with Essential Windows Updates:"
+            - text: After October 14, 2025, Windows 10 will no longer receive free software updates, technical support, or security fixes. This means your PC will be more vulnerable to security threats and malware.
+            - strong [ref=e71]: "Consider Upgrading to Windows 11:"
+            - text: Move to the security, speed, and innovation that Windows 11 PCs provide, available at every price point. Upgrading to Windows 11 ensures you continue to receive the latest security updates, features, and technical support, keeping your PC safe and efficient. For more information on preparing for Windows 10 end of support, see our
+            - link "Windows blog post" [ref=e72] [cursor=pointer]:
+              - /url: https://blogs.windows.com/windowsexperience/2024/10/31/how-to-prepare-for-windows-10-end-of-support-by-moving-to-windows-11-today/
+              - strong [ref=e74]: Windows blog post
+            - text: .
+      - generic [ref=e81]:
+        - heading "Windows 10 2022 Update | Version 22H2" [level=2] [ref=e83]
+        - paragraph [ref=e86]:
+          - text: The Update Assistant can help you update to the latest version of Windows 10. To get started, click
+          - strong [ref=e87]: Update now
+          - text: .
+          - link "Update now" [ref=e88] [cursor=pointer]:
+            - /url: https://go.microsoft.com/fwlink/?LinkID=799445
+      - generic [ref=e93]:
+        - generic [ref=e95]:
+          - heading "Create Windows 10 installation media" [level=2] [ref=e100]:
+            - paragraph [ref=e101]: Create Windows 10 installation media
+          - paragraph [ref=e104]: To get started, you will first need to have a license to install Windows 10. You can then download and run the media creation tool. For more information on how to use the tool, see the instructions below.
+        - paragraph [ref=e109]:
+          - link "Download Now" [ref=e110] [cursor=pointer]:
+            - /url: https://go.microsoft.com/fwlink/?LinkId=2265055
+      - list [ref=e123]:
+        - listitem [ref=e124]:
+          - heading "Using the tool to upgrade this PC to Windows 10 (click to show more or less information)" [level=4] [ref=e125]:
+            - button "Using the tool to upgrade this PC to Windows 10 (click to show more or less information)" [ref=e126] [cursor=pointer]:
+              - generic [ref=e127]: 
+              - text: Using the tool to upgrade this PC to Windows 10 (click to show more or less information)
+        - listitem [ref=e128]:
+          - heading "Using the tool to create installation media (USB flash drive, DVD, or ISO file) to install Windows 10 on a different PC (click to show more or less information)" [level=4] [ref=e129]:
+            - button "Using the tool to create installation media (USB flash drive, DVD, or ISO file) to install Windows 10 on a different PC (click to show more or less information)" [ref=e130] [cursor=pointer]:
+              - generic [ref=e131]: 
+              - text: Using the tool to create installation media (USB flash drive, DVD, or ISO file) to install Windows 10 on a different PC (click to show more or less information)
+      - list [ref=e142]:
+        - listitem [ref=e143]:
+          - heading "More download options" [level=4] [ref=e144]:
+            - button "More download options" [ref=e145] [cursor=pointer]:
+              - generic [ref=e146]: 
+              - text: More download options
+      - paragraph [ref=e158]:
+        - text: "*Your use of the media creation tools on this site is governed by the"
+        - link "Microsoft Terms of Use" [ref=e159] [cursor=pointer]:
+          - /url: https://www.microsoft.com/en-us/legal/intellectualproperty/copyright/default.aspx
+          - strong [ref=e160]: Microsoft Terms of Use
+        - text: for this website.
+  - contentinfo [ref=e163]:
+    - navigation "Footer Resource links" [ref=e165]:
+      - generic [ref=e166]:
+        - generic [ref=e167]:
+          - heading "What's new" [level=2] [ref=e168]
+          - list [ref=e169]:
+            - listitem [ref=e170]:
+              - link "Surface Pro" [ref=e171] [cursor=pointer]:
+                - /url: https://www.microsoft.com/surface/devices/surface-pro
+            - listitem [ref=e172]:
+              - link "Surface Laptop" [ref=e173] [cursor=pointer]:
+                - /url: https://www.microsoft.com/surface/devices/surface-laptop
+            - listitem [ref=e174]:
+              - link "Surface Laptop Studio 2" [ref=e175] [cursor=pointer]:
+                - /url: https://www.microsoft.com/en-us/d/Surface-Laptop-Studio-2/8rqr54krf1dz
+            - listitem [ref=e176]:
+              - link "Copilot for organizations" [ref=e177] [cursor=pointer]:
+                - /url: https://www.microsoft.com/en-us/microsoft-copilot/organizations?icid=DSM_Footer_CopilotOrganizations
+            - listitem [ref=e178]:
+              - link "Copilot for personal use" [ref=e179] [cursor=pointer]:
+                - /url: https://www.microsoft.com/en-us/microsoft-copilot/for-individuals?form=MY02PT&OCID=GE_web_Copilot_Free_868g3t5nj
+            - listitem [ref=e180]:
+              - link "AI in Windows" [ref=e181] [cursor=pointer]:
+                - /url: https://www.microsoft.com/en-us/windows/ai-features?icid=DSM_Footer_WhatsNew_AIinWindows
+            - listitem [ref=e182]:
+              - link "Explore Microsoft products" [ref=e183] [cursor=pointer]:
+                - /url: https://www.microsoft.com/en-us/microsoft-products-and-apps
+            - listitem [ref=e184]:
+              - link "Windows 11 apps" [ref=e185] [cursor=pointer]:
+                - /url: https://www.microsoft.com/en-us/windows/apps-for-windows?icid=DSM_Footer_WhatsNew_Windows11apps
+        - generic [ref=e186]:
+          - heading "Microsoft Store" [level=2] [ref=e187]
+          - list [ref=e188]:
+            - listitem [ref=e189]:
+              - link "Account profile" [ref=e190] [cursor=pointer]:
+                - /url: https://account.microsoft.com/
+            - listitem [ref=e191]:
+              - link "Download Center" [ref=e192] [cursor=pointer]:
+                - /url: https://www.microsoft.com/en-us/download
+            - listitem [ref=e193]:
+              - link "Microsoft Store support" [ref=e194] [cursor=pointer]:
+                - /url: https://go.microsoft.com/fwlink/?linkid=2139749
+            - listitem [ref=e195]:
+              - link "Returns" [ref=e196] [cursor=pointer]:
+                - /url: https://www.microsoft.com/en-us/store/b/returns
+            - listitem [ref=e197]:
+              - link "Order tracking" [ref=e198] [cursor=pointer]:
+                - /url: https://www.microsoft.com/en-us/store/b/order-tracking
+            - listitem [ref=e199]:
+              - link "Certified Refurbished" [ref=e200] [cursor=pointer]:
+                - /url: https://www.microsoft.com/en-us/store/b/certified-refurbished-products
+            - listitem [ref=e201]:
+              - link "Microsoft Store Promise" [ref=e202] [cursor=pointer]:
+                - /url: https://www.microsoft.com/en-us/store/b/why-microsoft-store?icid=footer_why-msft-store_7102020
+            - listitem [ref=e203]:
+              - link "Flexible Payments" [ref=e204] [cursor=pointer]:
+                - /url: https://www.microsoft.com/en-us/store/b/payment-financing-options?icid=footer_financing_vcc
+        - generic [ref=e205]:
+          - heading "Education" [level=2] [ref=e206]
+          - list [ref=e207]:
+            - listitem [ref=e208]:
+              - link "Microsoft in education" [ref=e209] [cursor=pointer]:
+                - /url: https://www.microsoft.com/en-us/education
+            - listitem [ref=e210]:
+              - link "Devices for education" [ref=e211] [cursor=pointer]:
+                - /url: https://www.microsoft.com/en-us/education/devices/overview
+            - listitem [ref=e212]:
+              - link "Microsoft Teams for Education" [ref=e213] [cursor=pointer]:
+                - /url: https://www.microsoft.com/en-us/education/products/teams
+            - listitem [ref=e214]:
+              - link "Microsoft 365 Education" [ref=e215] [cursor=pointer]:
+                - /url: https://www.microsoft.com/en-us/education/products/microsoft-365
+            - listitem [ref=e216]:
+              - link "How to buy for your school" [ref=e217] [cursor=pointer]:
+                - /url: https://www.microsoft.com/education/how-to-buy
+            - listitem [ref=e218]:
+              - link "Educator training and development" [ref=e219] [cursor=pointer]:
+                - /url: https://education.microsoft.com/
+            - listitem [ref=e220]:
+              - link "Deals for students and parents" [ref=e221] [cursor=pointer]:
+                - /url: https://www.microsoft.com/en-us/store/b/education
+            - listitem [ref=e222]:
+              - link "AI for education" [ref=e223] [cursor=pointer]:
+                - /url: https://www.microsoft.com/en-us/education/ai-in-education
+      - generic [ref=e224]:
+        - generic [ref=e225]:
+          - heading "Business" [level=2] [ref=e226]
+          - list [ref=e227]:
+            - listitem [ref=e228]:
+              - link "Microsoft AI" [ref=e229] [cursor=pointer]:
+                - /url: https://www.microsoft.com/en-us/ai?icid=DSM_Footer_AI
+            - listitem [ref=e230]:
+              - link "Microsoft Security" [ref=e231] [cursor=pointer]:
+                - /url: https://www.microsoft.com/en-us/security
+            - listitem [ref=e232]:
+              - link "Dynamics 365" [ref=e233] [cursor=pointer]:
+                - /url: https://www.microsoft.com/en-us/dynamics-365
+            - listitem [ref=e234]:
+              - link "Microsoft 365" [ref=e235] [cursor=pointer]:
+                - /url: https://www.microsoft.com/en-us/microsoft-365/business
+            - listitem [ref=e236]:
+              - link "Microsoft Power Platform" [ref=e237] [cursor=pointer]:
+                - /url: https://www.microsoft.com/en-us/power-platform
+            - listitem [ref=e238]:
+              - link "Microsoft Teams" [ref=e239] [cursor=pointer]:
+                - /url: https://www.microsoft.com/en-us/microsoft-teams/group-chat-software
+            - listitem [ref=e240]:
+              - link "Microsoft 365 Copilot" [ref=e241] [cursor=pointer]:
+                - /url: https://www.microsoft.com/en-us/microsoft-365-copilot?icid=DSM_Footer_Microsoft365Copilot
+            - listitem [ref=e242]:
+              - link "Small Business" [ref=e243] [cursor=pointer]:
+                - /url: https://www.microsoft.com/en-us/store/b/business?icid=CNavBusinessStore
+        - generic [ref=e244]:
+          - heading "Developer & IT" [level=2] [ref=e245]
+          - list [ref=e246]:
+            - listitem [ref=e247]:
+              - link "Azure" [ref=e248] [cursor=pointer]:
+                - /url: https://azure.microsoft.com/en-us/
+            - listitem [ref=e249]:
+              - link "Microsoft Developer" [ref=e250] [cursor=pointer]:
+                - /url: https://developer.microsoft.com/en-us/
+            - listitem [ref=e251]:
+              - link "Microsoft Learn" [ref=e252] [cursor=pointer]:
+                - /url: https://learn.microsoft.com/
+            - listitem [ref=e253]:
+              - link "Support for AI marketplace apps" [ref=e254] [cursor=pointer]:
+                - /url: https://www.microsoft.com/software-development-companies/offers-benefits/isv-success?icid=DSM_Footer_SupportAIMarketplace&ocid=cmm3atxvn98
+            - listitem [ref=e255]:
+              - link "Microsoft Tech Community" [ref=e256] [cursor=pointer]:
+                - /url: https://techcommunity.microsoft.com/
+            - listitem [ref=e257]:
+              - link "Microsoft Marketplace" [ref=e258] [cursor=pointer]:
+                - /url: https://marketplace.microsoft.com?icid=DSM_Footer_Marketplace&ocid=cmm3atxvn98
+            - listitem [ref=e259]:
+              - link "Software companies" [ref=e260] [cursor=pointer]:
+                - /url: https://www.microsoft.com/software-development-companies?icid=DSM_All_SoftwareCompanies/ocid=cmm3atxvn98
+            - listitem [ref=e261]:
+              - link "Visual Studio" [ref=e262] [cursor=pointer]:
+                - /url: https://visualstudio.microsoft.com/
+        - generic [ref=e263]:
+          - heading "Company" [level=2] [ref=e264]
+          - list [ref=e265]:
+            - listitem [ref=e266]:
+              - link "Careers" [ref=e267] [cursor=pointer]:
+                - /url: https://careers.microsoft.com/
+            - listitem [ref=e268]:
+              - link "About Microsoft" [ref=e269] [cursor=pointer]:
+                - /url: https://www.microsoft.com/about
+            - listitem [ref=e270]:
+              - link "Company news" [ref=e271] [cursor=pointer]:
+                - /url: https://news.microsoft.com/source/?icid=DSM_Footer_Company_CompanyNews
+            - listitem [ref=e272]:
+              - link "Privacy at Microsoft" [ref=e273] [cursor=pointer]:
+                - /url: https://www.microsoft.com/en-us/privacy?icid=DSM_Footer_Company_Privacy
+            - listitem [ref=e274]:
+              - link "Investors" [ref=e275] [cursor=pointer]:
+                - /url: https://www.microsoft.com/investor/default.aspx
+            - listitem [ref=e276]:
+              - link "Diversity and inclusion" [ref=e277] [cursor=pointer]:
+                - /url: https://www.microsoft.com/en-us/diversity/default?icid=DSM_Footer_Company_Diversity
+            - listitem [ref=e278]:
+              - link "Accessibility" [ref=e279] [cursor=pointer]:
+                - /url: https://www.microsoft.com/en-us/accessibility
+            - listitem [ref=e280]:
+              - link "Sustainability" [ref=e281] [cursor=pointer]:
+                - /url: https://www.microsoft.com/en-us/corporate-responsibility/sustainability?icid=DSM_Footer_Sustainability
+    - generic [ref=e282]:
+      - generic [ref=e283]:
+        - generic [ref=e284]:
+          - generic [ref=e286]: 
+          - link "Content Language Selector. Currently set to English (United States)" [ref=e287] [cursor=pointer]:
+            - /url: https://www.microsoft.com/en-us/software-download/locale
+            - text: English (United States)
+        - link "Your Privacy Choices Opt-Out Icon Your Privacy Choices" [ref=e289] [cursor=pointer]:
+          - /url: https://aka.ms/yourcaliforniaprivacychoices
+          - img "Your Privacy Choices Opt-Out Icon" [ref=e290]
+          - generic [ref=e295]: Your Privacy Choices
+        - link "Consumer Health Privacy" [ref=e296] [cursor=pointer]:
+          - /url: https://go.microsoft.com/fwlink/?linkid=2259814
+      - navigation "Microsoft corporate links" [ref=e298]:
+        - list [ref=e299]:
+          - listitem [ref=e300]:
+            - link "Contact us" [ref=e301] [cursor=pointer]:
+              - /url: https://support.microsoft.com/contactus
+          - listitem [ref=e302]:
+            - link "Privacy" [ref=e303] [cursor=pointer]:
+              - /url: https://go.microsoft.com/fwlink/?LinkId=521839
+          - listitem [ref=e304]:
+            - link "Manage cookies" [ref=e305] [cursor=pointer]:
+              - /url: "#"
+          - listitem [ref=e306]:
+            - link "Terms of use" [ref=e307] [cursor=pointer]:
+              - /url: https://go.microsoft.com/fwlink/?LinkID=530144
+          - listitem [ref=e308]:
+            - link "Trademarks" [ref=e309] [cursor=pointer]:
+              - /url: https://www.microsoft.com/trademarks
+          - listitem [ref=e310]:
+            - link "About our ads" [ref=e311] [cursor=pointer]:
+              - /url: https://choice.microsoft.com/
+          - listitem [ref=e312]: © Microsoft 2026

@@ -1,0 +1,189 @@
+- generic [active] [ref=e1]:
+  - navigation [ref=e2]:
+    - link "Resultiva↗ Acessoria de Marketing" [ref=e3] [cursor=pointer]:
+      - /url: "#"
+      - generic [ref=e4]: Resultiva↗
+      - generic [ref=e5]: Acessoria de Marketing
+    - link "Falar no WhatsApp →" [ref=e6] [cursor=pointer]:
+      - /url: https://wa.me/5531991995344?text=Oi!%20Quero%20uma%20landing%20page%20para%20o%20meu%20neg%C3%B3cio.
+  - generic [ref=e8]:
+    - generic [ref=e9]: Assessoria de Marketing Digital
+    - heading "Seu negócio com uma página que converte de verdade." [level=1] [ref=e11]:
+      - text: Seu negócio com uma
+      - text: página que
+      - emphasis [ref=e12]: converte
+      - text: de verdade.
+    - paragraph [ref=e13]: Design profissional com IA, hospedagem inclusa e entrega em 48 horas. Sem complicação.
+    - generic [ref=e14]:
+      - link "Quero minha LP agora →" [ref=e15] [cursor=pointer]:
+        - /url: https://wa.me/5531991995344?text=Oi!%20Quero%20uma%20landing%20page%20para%20o%20meu%20neg%C3%B3cio.
+      - link "Ver exemplos" [ref=e16] [cursor=pointer]:
+        - /url: "#exemplos"
+    - generic [ref=e17]:
+      - generic [ref=e18]:
+        - generic [ref=e19]: 48h
+        - generic [ref=e20]: Entrega garantida
+      - generic [ref=e21]:
+        - generic [ref=e22]: 100%
+        - generic [ref=e23]: Responsivo
+      - generic [ref=e24]:
+        - generic [ref=e25]: ∞
+        - generic [ref=e26]: Qualquer nicho
+  - separator [ref=e27]
+  - generic [ref=e29]:
+    - generic [ref=e30]:
+      - generic [ref=e31]: ✦ Como funciona
+      - heading "Simples. Rápido. Sem enrolação." [level=2] [ref=e32]:
+        - text: Simples. Rápido.
+        - emphasis [ref=e33]: Sem enrolação.
+      - paragraph [ref=e34]: Você não precisa entender de tecnologia. A Resultiva cuida de tudo.
+    - generic [ref=e35]:
+      - generic [ref=e36]:
+        - generic [ref=e37]: PASSO 01
+        - heading "Você nos conta sobre o negócio" [level=3] [ref=e38]
+        - paragraph [ref=e39]: Nome, nicho, público-alvo e o que vende. Em 15 minutos temos o briefing completo para começar.
+      - generic [ref=e40]:
+        - generic [ref=e41]: PASSO 02
+        - heading "Criamos com o design do seu nicho" [level=3] [ref=e42]
+        - paragraph [ref=e43]: Aplicamos o design system correto para sua área — cores, tipografia e estrutura que já converteu.
+      - generic [ref=e44]:
+        - generic [ref=e45]: PASSO 03
+        - heading "Publicamos. Você recebe clientes." [level=3] [ref=e46]
+        - paragraph [ref=e47]: Sua página no ar com domínio personalizado. Leads chegando direto no seu WhatsApp.
+  - separator [ref=e48]
+  - generic [ref=e50]:
+    - generic [ref=e51]:
+      - generic [ref=e52]: ✦ O que está incluso
+      - heading "Tudo que você precisa. Nada sobrando." [level=2] [ref=e53]:
+        - text: Tudo que você precisa.
+        - emphasis [ref=e54]: Nada sobrando.
+      - paragraph [ref=e55]: Sem cobranças escondidas. Você sabe exatamente o que recebe.
+    - generic [ref=e56]:
+      - generic [ref=e57]:
+        - img [ref=e58]
+        - text: Entrega em 48 horas
+      - generic [ref=e60]:
+        - img [ref=e61]
+        - text: Design por nicho
+      - generic [ref=e65]:
+        - img [ref=e66]
+        - text: Hospedagem inclusa
+      - generic [ref=e71]:
+        - img [ref=e72]
+        - text: 100% responsiva
+      - generic [ref=e75]:
+        - img [ref=e76]
+        - text: Integração WhatsApp
+      - generic [ref=e78]:
+        - img [ref=e79]
+        - text: Rastreamento de visitas
+      - generic [ref=e83]:
+        - img [ref=e84]
+        - text: Domínio personalizado
+      - generic [ref=e87]:
+        - img [ref=e88]
+        - text: Atualizações inclusas
+  - separator [ref=e93]
+  - generic [ref=e95]:
+    - generic [ref=e96]:
+      - generic [ref=e97]: ✦ Portfolio
+      - heading "Uma LP para cada tipo de negócio." [level=2] [ref=e98]:
+        - text: Uma LP para cada
+        - emphasis [ref=e99]: tipo de negócio.
+      - paragraph [ref=e100]: Design e copy pensados especificamente para o público de cada área.
+    - generic [ref=e101]:
+      - link "Saúde Clínica Odontológica Transmite confiança e autoridade. Foco em agendamento via WhatsApp. Ver LP completa →" [ref=e102] [cursor=pointer]:
+        - /url: https://piterclark.github.io/lp-resultiva/dentista/
+        - img [ref=e104]
+        - generic [ref=e107]:
+          - generic [ref=e108]: Saúde
+          - heading "Clínica Odontológica" [level=4] [ref=e109]
+          - paragraph [ref=e110]: Transmite confiança e autoridade. Foco em agendamento via WhatsApp.
+          - generic [ref=e111]: Ver LP completa →
+      - link "Beleza & Estética Salão de Beleza Visual impactante com oferta especial e CTA direto para agendamento. Ver LP completa →" [ref=e112] [cursor=pointer]:
+        - /url: https://piterclark.github.io/lp-resultiva/salao/
+        - img [ref=e114]
+        - generic [ref=e119]:
+          - generic [ref=e120]: Beleza & Estética
+          - heading "Salão de Beleza" [level=4] [ref=e121]
+          - paragraph [ref=e122]: Visual impactante com oferta especial e CTA direto para agendamento.
+          - generic [ref=e123]: Ver LP completa →
+      - link "Jurídico Escritório de Advocacia LP de autoridade com depoimentos e formulário de consulta gratuita. Ver LP completa →" [ref=e124] [cursor=pointer]:
+        - /url: https://piterclark.github.io/lp-resultiva/advogado/
+        - img [ref=e126]
+        - generic [ref=e130]:
+          - generic [ref=e131]: Jurídico
+          - heading "Escritório de Advocacia" [level=4] [ref=e132]
+          - paragraph [ref=e133]: LP de autoridade com depoimentos e formulário de consulta gratuita.
+          - generic [ref=e134]: Ver LP completa →
+  - separator [ref=e135]
+  - generic [ref=e137]:
+    - generic [ref=e138]:
+      - generic [ref=e139]: ✦ Investimento
+      - heading "Simples e transparente." [level=2] [ref=e140]:
+        - text: Simples e
+        - emphasis [ref=e141]: transparente.
+      - paragraph [ref=e142]: Sem contratos longos. Sem letras miúdas.
+    - generic [ref=e143]:
+      - generic [ref=e144]:
+        - generic [ref=e145]: Pagamento único
+        - heading "Só a Landing Page" [level=3] [ref=e146]
+        - generic [ref=e147]:
+          - generic [ref=e148]: R$
+          - text: "697"
+        - paragraph [ref=e149]: Hospedagem por sua conta
+        - list [ref=e150]:
+          - listitem [ref=e151]:
+            - generic [ref=e152]: ✓
+            - text: LP profissional completa
+          - listitem [ref=e153]:
+            - generic [ref=e154]: ✓
+            - text: Design do seu nicho
+          - listitem [ref=e155]:
+            - generic [ref=e156]: ✓
+            - text: Integração WhatsApp
+          - listitem [ref=e157]:
+            - generic [ref=e158]: ✓
+            - text: Mobile + Desktop
+          - listitem [ref=e159]:
+            - generic [ref=e160]: ✓
+            - text: Entrega em 48h
+        - link "Tenho interesse →" [ref=e161] [cursor=pointer]:
+          - /url: https://wa.me/5531991995344?text=Quero%20a%20LP%20por%20R%24697.
+      - generic [ref=e162]:
+        - generic [ref=e163]: ✦ Mais escolhido
+        - generic [ref=e164]: Setup + Recorrente
+        - heading "LP + Hospedagem" [level=3] [ref=e165]
+        - generic [ref=e166]:
+          - generic [ref=e167]: R$
+          - text: 497 + R$97/mês
+        - paragraph [ref=e168]: Hospedagem e domínio inclusos
+        - list [ref=e169]:
+          - listitem [ref=e170]:
+            - generic [ref=e171]: ✓
+            - text: Tudo do plano anterior
+          - listitem [ref=e172]:
+            - generic [ref=e173]: ✓
+            - text: Hospedagem profissional
+          - listitem [ref=e174]:
+            - generic [ref=e175]: ✓
+            - text: Domínio personalizado
+          - listitem [ref=e176]:
+            - generic [ref=e177]: ✓
+            - text: Suporte mensal
+          - listitem [ref=e178]:
+            - generic [ref=e179]: ✓
+            - text: Atualizações inclusas
+        - link "Quero esse plano →" [ref=e180] [cursor=pointer]:
+          - /url: https://wa.me/5531991995344?text=Quero%20o%20plano%20LP%20%2B%20Hospedagem!
+  - generic [ref=e181]:
+    - heading "Pronto para ter uma página que trabalha por você?" [level=2] [ref=e182]:
+      - text: Pronto para ter uma página
+      - text: que
+      - emphasis [ref=e183]: trabalha por você?
+    - paragraph [ref=e184]: Fale com a gente agora e receba um orçamento sem compromisso em minutos.
+    - link "Falar no WhatsApp →" [ref=e185] [cursor=pointer]:
+      - /url: https://wa.me/5531991995344?text=Oi!%20Quero%20uma%20landing%20page%20para%20o%20meu%20neg%C3%B3cio.
+  - contentinfo [ref=e186]:
+    - generic [ref=e187]: Resultiva↗
+    - paragraph [ref=e188]: © 2026 Resultiva Assessoria de Marketing. Todos os direitos reservados.

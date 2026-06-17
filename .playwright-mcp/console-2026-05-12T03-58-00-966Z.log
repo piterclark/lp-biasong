@@ -1,0 +1,15 @@
+[   15134ms] [ERROR] Refused to get unsafe header "X-Sg-Cs" @ https://www.google.com/search?q=ROM+Concept&oq=ROM+Concept&gs_lcrp=EgZjaHJvbWUyEQgAEEUYORhDGOMCGIAEGIoFMhIIARAuGEMYrwEYxwEYgAQYigUyDQgCEC4YrwEYxwEYgAQyBwgDEAAYgAQyBwgEEAAYgAQyBwgFEAAYgAQyBwgGEAAYgAQyBwgHEAAYgAQyBwgIEAAYgAQyBwgJEAAYgASoAgCwAgA&sourceid=chrome&ie=UTF-8:20
+[   15135ms] [ERROR] Refused to get unsafe header "X-Sorry-Redirect" @ https://www.google.com/search?q=ROM+Concept&oq=ROM+Concept&gs_lcrp=EgZjaHJvbWUyEQgAEEUYORhDGOMCGIAEGIoFMhIIARAuGEMYrwEYxwEYgAQYigUyDQgCEC4YrwEYxwEYgAQyBwgDEAAYgAQyBwgEEAAYgAQyBwgFEAAYgAQyBwgGEAAYgAQyBwgHEAAYgAQyBwgIEAAYgAQyBwgJEAAYgASoAgCwAgA&sourceid=chrome&ie=UTF-8:20
+[   16108ms] [ERROR] Refused to get unsafe header "X-Sg-Cs" @ https://www.google.com/search?q=ROM+Concept&oq=ROM+Concept&gs_lcrp=EgZjaHJvbWUyEQgAEEUYORhDGOMCGIAEGIoFMhIIARAuGEMYrwEYxwEYgAQYigUyDQgCEC4YrwEYxwEYgAQyBwgDEAAYgAQyBwgEEAAYgAQyBwgFEAAYgAQyBwgGEAAYgAQyBwgHEAAYgAQyBwgIEAAYgAQyBwgJEAAYgASoAgCwAgA&sourceid=chrome&ie=UTF-8:20
+[   16108ms] [ERROR] Refused to get unsafe header "X-Sorry-Redirect" @ https://www.google.com/search?q=ROM+Concept&oq=ROM+Concept&gs_lcrp=EgZjaHJvbWUyEQgAEEUYORhDGOMCGIAEGIoFMhIIARAuGEMYrwEYxwEYgAQYigUyDQgCEC4YrwEYxwEYgAQyBwgDEAAYgAQyBwgEEAAYgAQyBwgFEAAYgAQyBwgGEAAYgAQyBwgHEAAYgAQyBwgIEAAYgAQyBwgJEAAYgASoAgCwAgA&sourceid=chrome&ie=UTF-8:20
+[  152811ms] TypeError: Failed to execute 'observe' on 'IntersectionObserver': parameter 1 is not of type 'Element'.
+    at LoopLoadMore.handleInfiniteScroll (https://romconcept.com.br/wp-content/plugins/elementor-pro/assets/js/preloaded-elements-handlers.min.js?ver=3.20.0:3:148242)
+    at LoopLoadMore.onInit (https://romconcept.com.br/wp-content/plugins/elementor-pro/assets/js/preloaded-elements-handlers.min.js?ver=3.20.0:3:147364)
+    at Module.trigger (https://romconcept.com.br/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.23.1:2:27595)
+    at Module.e.each.n.<computed> [as trigger] (https://romconcept.com.br/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.23.1:2:27783)
+    at LoopLoadMore.Module (https://romconcept.com.br/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.23.1:2:27881)
+    at LoopLoadMore.child [as constructor] (https://romconcept.com.br/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.23.1:2:28146)
+    at new child (https://romconcept.com.br/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.23.1:2:28146)
+    at new LoopLoadMore (https://romconcept.com.br/wp-content/plugins/elementor-pro/assets/js/preloaded-elements-handlers.min.js?ver=3.20.0:3:59570)
+    at e.exports.addHandler (https://romconcept.com.br/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.23.1:2:2815)
+    at https://romconcept.com.br/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.23.1:2:3208

@@ -1,0 +1,15 @@
+[    3623ms] [ERROR] Attestation check for Attribution Reporting on https://www.facebook.com failed. @ https://banlek.com/album/1ec0f7-recreio-posto-11-at-lucasfotoesportiva:0
+[   74122ms] [ERROR] `DialogContent` requires a `DialogTitle` for the component to be accessible for screen reader users.
+
+If you want to hide the `DialogTitle`, you can wrap it with our VisuallyHidden component.
+
+For more information, see https://radix-ui.com/primitives/docs/components/dialog @ https://d2lfc09o2kjf56.cloudfront.net/_next/static/chunks/9507-ccb7bbe79ff583a5.js:0
+[   74123ms] [WARNING] Warning: Missing `Description` or `aria-describedby={undefined}` for {DialogContent}. @ https://d2lfc09o2kjf56.cloudfront.net/_next/static/chunks/9507-ccb7bbe79ff583a5.js:0
+[   74351ms] [ERROR] Attestation check for Attribution Reporting on https://www.facebook.com failed. @ https://banlek.com/album/1ec0f7-recreio-posto-11-at-lucasfotoesportiva:0
+[   88956ms] [ERROR] Attestation check for Attribution Reporting on https://www.facebook.com failed. @ https://banlek.com/album/1ec0f7-recreio-posto-11-at-lucasfotoesportiva:0
+[  474352ms] [ERROR] Attestation check for Attribution Reporting on https://www.facebook.com failed. @ https://banlek.com/album/1ec0f7-recreio-posto-11-at-lucasfotoesportiva:0
+[  684439ms] [WARNING] Listener must be a named function. @ https://d2lfc09o2kjf56.cloudfront.net/_next/static/chunks/4383-92ced644c4eea5d1.js:0
+[  684439ms] [WARNING] Listener must be a named function. @ https://d2lfc09o2kjf56.cloudfront.net/_next/static/chunks/4383-92ced644c4eea5d1.js:0
+[  684440ms] [WARNING] Listener must be a named function. @ https://d2lfc09o2kjf56.cloudfront.net/_next/static/chunks/4383-92ced644c4eea5d1.js:0
+[  684440ms] [WARNING] Listener must be a named function. @ https://d2lfc09o2kjf56.cloudfront.net/_next/static/chunks/4383-92ced644c4eea5d1.js:0
+[11115916ms] [ERROR] Attestation check for Attribution Reporting on https://www.facebook.com failed. @ https://banlek.com/album/1ec0f7-recreio-posto-11-at-lucasfotoesportiva:0

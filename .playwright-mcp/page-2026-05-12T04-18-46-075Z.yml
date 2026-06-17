@@ -1,0 +1,1176 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e6]:
+      - generic [ref=e8]: Pela primeira vez, instalamos a casa fora dela.
+      - generic [ref=e10]: Pela primeira vez, instalamos a casa fora dela.
+      - generic [ref=e12]: Pela primeira vez, instalamos a casa fora dela.
+      - generic [ref=e14]: Pela primeira vez, instalamos a casa fora dela.
+      - generic [ref=e16]: Pela primeira vez, instalamos a casa fora dela.
+    - generic [ref=e21]:
+      - link "Bilhon" [ref=e22] [cursor=pointer]:
+        - /url: index.html
+        - img "Bilhon" [ref=e23]
+      - navigation [ref=e24]:
+        - link "Frentes" [ref=e25] [cursor=pointer]:
+          - /url: "#frentes"
+        - link "Squad" [ref=e26] [cursor=pointer]:
+          - /url: "#squad"
+        - link "Diagnóstico" [ref=e27] [cursor=pointer]:
+          - /url: "#diagnostico"
+        - link "FAQ" [ref=e28] [cursor=pointer]:
+          - /url: "#faq"
+      - link "Aplicar agora" [ref=e31] [cursor=pointer]:
+        - /url: "#aplicar"
+        - generic [ref=e32]: Aplicar agora
+  - generic [ref=e38]:
+    - generic [ref=e42]:
+      - generic [ref=e43]:
+        - generic [ref=e47]: O serviço que elimina todos os serviços_
+        - heading "Acelere o crescimento da sua empresa com o mesmo time que fez R$ 360 milhões. Sem contratar, sem aprender, sem esperar." [level=1] [ref=e50]
+      - paragraph [ref=e52]: Em 12 semanas, sua operação roda — com a IA proprietária e a equipe que tomou cada decisão antes de você precisar pensar nelas.
+      - 'region "Demonstração interativa: A Máquina Bilhon · 5 peças instaladas" [ref=e53]':
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - img "Movimento"
+              - generic: MOVIM.
+            - generic:
+              - generic:
+                - img "Aquisição"
+              - generic: AQUIS.
+            - generic:
+              - generic:
+                - img "Médio Ticket"
+              - generic: MÉDIO
+            - generic:
+              - generic:
+                - img "High Ticket"
+              - generic: HIGH
+            - generic:
+              - generic:
+                - img "Recorrência"
+              - generic: RECOR.
+          - generic:
+            - generic:
+              - generic:
+                - img "IA Bilhon — linchpin orquestrador"
+          - generic:
+            - generic:
+              - generic:
+                - generic: ~/customer-feedback
+              - generic:
+                - img
+            - generic:
+              - generic:
+                - paragraph: $ taskforge deploy model-v2 --env production✔ Validating model
+                - paragraph: Thinking..
+            - generic:
+              - generic:
+                - generic: ~/models/sentiment-analysis
+              - generic:
+                - img
+            - generic:
+              - generic:
+                - paragraph:
+                  - generic:
+                    - generic:
+                      - generic: $
+                    - generic:
+                      - generic: t
+                      - generic: a
+                      - generic: s
+                      - generic: k
+                      - generic: f
+                      - generic: o
+                      - generic: r
+                      - generic: g
+                      - generic: e
+                  - generic:
+                    - generic: r
+                    - generic: u
+                    - generic: "n"
+                  - generic:
+                    - generic: s
+                    - generic: e
+                    - generic: "n"
+                    - generic: t
+                    - generic: i
+                    - generic: m
+                    - generic: e
+                    - generic: "n"
+                    - generic: t
+                    - generic: "-"
+                    - generic: a
+                    - generic: "n"
+                    - generic: a
+                    - generic: l
+                    - generic: "y"
+                    - generic: s
+                    - generic: i
+                    - generic: s
+                  - generic:
+                    - generic:
+                      - generic: "-"
+                      - generic: "-"
+                      - generic: i
+                      - generic: "n"
+                      - generic: p
+                      - generic: u
+                      - generic: t
+                  - generic:
+                    - generic:
+                      - generic: "\""
+                      - generic: C
+                      - generic: u
+                      - generic: s
+                      - generic: t
+                      - generic: o
+                      - generic: m
+                      - generic: e
+                      - generic: r
+                    - generic:
+                      - generic: f
+                      - generic: e
+                      - generic: e
+                      - generic: d
+                      - generic: b
+                      - generic: a
+                      - generic: c
+                      - generic: k
+                      - generic: "\""
+                - paragraph:
+                  - generic: "> Processing input.."
+                  - generic: "> Model:sentiment-v3"
+                  - generic: "> Completed in 118ms"
+            - generic:
+              - generic:
+                - generic: ~/onboarding-sequence
+              - generic:
+                - img
+            - generic:
+              - generic:
+                - paragraph: "$ taskforge classify tickets --source inbox --auto-assign Fetching new tickets... Classifying with model: support-router"
+                - paragraph: Thinking..
+      - link "Aplicar agora" [ref=e56] [cursor=pointer]:
+        - /url: "#aplicar"
+        - generic [ref=e57]: Aplicar agora
+    - generic [ref=e63]:
+      - 'generic "Cada produto, milhares de assinantes, milhões em faturamento. Uma coisa em comum: A estratégia de vendas." [ref=e65]':
+        - generic [ref=e66]:
+          - generic [ref=e67]: C
+          - generic [ref=e68]: a
+          - generic [ref=e69]: d
+          - generic [ref=e70]: a
+        - generic [ref=e71]:
+          - generic [ref=e72]: p
+          - generic [ref=e73]: r
+          - generic [ref=e74]: o
+          - generic [ref=e75]: d
+          - generic [ref=e76]: u
+          - generic [ref=e77]: t
+          - generic [ref=e78]: o
+          - generic [ref=e79]: ","
+        - generic [ref=e80]:
+          - generic [ref=e81]: m
+          - generic [ref=e82]: i
+          - generic [ref=e83]: l
+          - generic [ref=e84]: h
+          - generic [ref=e85]: a
+          - generic [ref=e86]: r
+          - generic [ref=e87]: e
+          - generic [ref=e88]: s
+        - generic [ref=e89]:
+          - generic [ref=e90]: d
+          - generic [ref=e91]: e
+        - generic [ref=e92]:
+          - generic [ref=e93]: a
+          - generic [ref=e94]: s
+          - generic [ref=e95]: s
+          - generic [ref=e96]: i
+          - generic [ref=e97]: "n"
+          - generic [ref=e98]: a
+          - generic [ref=e99]: "n"
+          - generic [ref=e100]: t
+          - generic [ref=e101]: e
+          - generic [ref=e102]: s
+          - generic [ref=e103]: ","
+        - generic [ref=e104]:
+          - generic [ref=e105]: m
+          - generic [ref=e106]: i
+          - generic [ref=e107]: l
+          - generic [ref=e108]: h
+          - generic [ref=e109]: õ
+          - generic [ref=e110]: e
+          - generic [ref=e111]: s
+        - generic [ref=e112]:
+          - generic [ref=e113]: e
+          - generic [ref=e114]: m
+        - generic [ref=e115]:
+          - generic [ref=e116]: f
+          - generic [ref=e117]: a
+          - generic [ref=e118]: t
+          - generic [ref=e119]: u
+          - generic [ref=e120]: r
+          - generic [ref=e121]: a
+          - generic [ref=e122]: m
+          - generic [ref=e123]: e
+          - generic [ref=e124]: "n"
+          - generic [ref=e125]: t
+          - generic [ref=e126]: o
+          - generic [ref=e127]: .
+        - generic [ref=e128]:
+          - generic [ref=e129]: U
+          - generic [ref=e130]: m
+          - generic [ref=e131]: a
+        - generic [ref=e132]:
+          - generic [ref=e133]: c
+          - generic [ref=e134]: o
+          - generic [ref=e135]: i
+          - generic [ref=e136]: s
+          - generic [ref=e137]: a
+        - generic [ref=e138]:
+          - generic [ref=e139]: e
+          - generic [ref=e140]: m
+        - generic [ref=e141]:
+          - generic [ref=e142]: c
+          - generic [ref=e143]: o
+          - generic [ref=e144]: m
+          - generic [ref=e145]: u
+          - generic [ref=e146]: m
+          - generic [ref=e147]: ":"
+        - generic [ref=e149]: A
+        - generic [ref=e150]:
+          - generic [ref=e151]: e
+          - generic [ref=e152]: s
+          - generic [ref=e153]: t
+          - generic [ref=e154]: r
+          - generic [ref=e155]: a
+          - generic [ref=e156]: t
+          - generic [ref=e157]: é
+          - generic [ref=e158]: g
+          - generic [ref=e159]: i
+          - generic [ref=e160]: a
+        - generic [ref=e161]:
+          - generic [ref=e162]: d
+          - generic [ref=e163]: e
+        - generic [ref=e164]:
+          - generic [ref=e165]: v
+          - generic [ref=e166]: e
+          - generic [ref=e167]: "n"
+          - generic [ref=e168]: d
+          - generic [ref=e169]: a
+          - generic [ref=e170]: s
+          - generic [ref=e171]: .
+      - generic [ref=e173]:
+        - img "outsider.io" [ref=e174]
+        - img "clickmax" [ref=e175]
+        - img "Outcopy" [ref=e176]
+        - img "Money Club" [ref=e177]
+        - img "LTV Booster" [ref=e178]
+        - img "Goldage Master" [ref=e179]
+        - img "Projeto Nômade Milionário" [ref=e180]
+        - img [ref=e181]
+        - img [ref=e182]
+        - img [ref=e183]
+        - img [ref=e184]
+        - img [ref=e185]
+        - img [ref=e186]
+        - img [ref=e187]
+    - generic [ref=e246]:
+      - generic [ref=e247]: const next = await fetch("https://api.example.com/next-section");
+      - generic [ref=e248]: _
+    - generic [ref=e306]:
+      - generic [ref=e311]:
+        - generic [ref=e312]:
+          - generic [ref=e314]: Você já sabe..._
+          - heading "Agência cobra para fazer tarefa. Você precisa de quem instala um modelo." [level=2] [ref=e316]:
+            - generic [ref=e317]:
+              - generic [ref=e318]: A
+              - generic [ref=e319]: g
+              - generic [ref=e320]: ê
+              - generic [ref=e321]: "n"
+              - generic [ref=e322]: c
+              - generic [ref=e323]: i
+              - generic [ref=e324]: a
+            - generic [ref=e325]:
+              - generic [ref=e326]: c
+              - generic [ref=e327]: o
+              - generic [ref=e328]: b
+              - generic [ref=e329]: r
+              - generic [ref=e330]: a
+            - generic [ref=e331]:
+              - generic [ref=e332]: p
+              - generic [ref=e333]: a
+              - generic [ref=e334]: r
+              - generic [ref=e335]: a
+            - generic [ref=e336]:
+              - generic [ref=e337]: f
+              - generic [ref=e338]: a
+              - generic [ref=e339]: z
+              - generic [ref=e340]: e
+              - generic [ref=e341]: r
+            - generic [ref=e342]:
+              - generic [ref=e343]: t
+              - generic [ref=e344]: a
+              - generic [ref=e345]: r
+              - generic [ref=e346]: e
+              - generic [ref=e347]: f
+              - generic [ref=e348]: a
+              - generic [ref=e349]: .
+            - generic [ref=e350]:
+              - generic [ref=e351]: V
+              - generic [ref=e352]: o
+              - generic [ref=e353]: c
+              - generic [ref=e354]: ê
+            - generic [ref=e355]:
+              - generic [ref=e356]: p
+              - generic [ref=e357]: r
+              - generic [ref=e358]: e
+              - generic [ref=e359]: c
+              - generic [ref=e360]: i
+              - generic [ref=e361]: s
+              - generic [ref=e362]: a
+            - generic [ref=e363]:
+              - generic [ref=e364]: d
+              - generic [ref=e365]: e
+            - generic [ref=e366]:
+              - generic [ref=e367]: q
+              - generic [ref=e368]: u
+              - generic [ref=e369]: e
+              - generic [ref=e370]: m
+            - generic [ref=e371]:
+              - generic [ref=e372]: i
+              - generic [ref=e373]: "n"
+              - generic [ref=e374]: s
+              - generic [ref=e375]: t
+              - generic [ref=e376]: a
+              - generic [ref=e377]: l
+              - generic [ref=e378]: a
+            - generic [ref=e379]:
+              - generic [ref=e380]: u
+              - generic [ref=e381]: m
+            - generic [ref=e382]:
+              - generic [ref=e383]: m
+              - generic [ref=e384]: o
+              - generic [ref=e385]: d
+              - generic [ref=e386]: e
+              - generic [ref=e387]: l
+              - generic [ref=e388]: o
+              - generic [ref=e389]: .
+        - generic [ref=e390]:
+          - paragraph [ref=e391]: Previsibilidade real em vez de pico-em-pico. 55K+ pagantes em três softwares próprios.
+          - link "Aplicar agora Aplicar agora" [ref=e394] [cursor=pointer]:
+            - /url: "#aplicar"
+            - generic [ref=e395]:
+              - generic "Aplicar agora" [ref=e396]:
+                - generic [ref=e397]:
+                  - generic [ref=e398]: A
+                  - generic [ref=e399]: p
+                  - generic [ref=e400]: l
+                  - generic [ref=e401]: i
+                  - generic [ref=e402]: c
+                  - generic [ref=e403]: a
+                  - generic [ref=e404]: r
+                - generic [ref=e405]:
+                  - generic [ref=e406]: a
+                  - generic [ref=e407]: g
+                  - generic [ref=e408]: o
+                  - generic [ref=e409]: r
+                  - generic [ref=e410]: a
+              - generic "Aplicar agora" [ref=e411]:
+                - generic [ref=e412]:
+                  - generic [ref=e413]: A
+                  - generic [ref=e414]: p
+                  - generic [ref=e415]: l
+                  - generic [ref=e416]: i
+                  - generic [ref=e417]: c
+                  - generic [ref=e418]: a
+                  - generic [ref=e419]: r
+                - generic [ref=e420]:
+                  - generic [ref=e421]: a
+                  - generic [ref=e422]: g
+                  - generic [ref=e423]: o
+                  - generic [ref=e424]: r
+                  - generic [ref=e425]: a
+      - generic [ref=e434]:
+        - text:  
+        - generic [ref=e436]:
+          - generic [ref=e440]:
+            - paragraph [ref=e441]: Vende todo dia
+            - paragraph [ref=e442]: Cliente novo entrando — sem depender de você aparecer.
+          - generic [ref=e446]:
+            - paragraph [ref=e447]: Paga todo mês
+            - paragraph [ref=e448]: Caixa entrando — mesmo no mês que você sumir.
+          - generic [ref=e452]:
+            - paragraph [ref=e453]: Sobe ticket
+            - paragraph [ref=e454]: Sem perder o cliente que você já tem.
+          - generic [ref=e458]:
+            - paragraph [ref=e459]: Cobra premium
+            - paragraph [ref=e460]: Menos cliente — sem você parecer caro.
+    - generic [ref=e472]:
+      - generic [ref=e474]:
+        - generic [ref=e476]:
+          - generic [ref=e477]:
+            - generic [ref=e479]: A camada que aprende_
+            - heading "Cada decisão fica conectada à próxima." [level=3] [ref=e480]:
+              - generic [ref=e481]:
+                - generic [ref=e482]: C
+                - generic [ref=e483]: a
+                - generic [ref=e484]: d
+                - generic [ref=e485]: a
+              - generic [ref=e486]:
+                - generic [ref=e487]: d
+                - generic [ref=e488]: e
+                - generic [ref=e489]: c
+                - generic [ref=e490]: i
+                - generic [ref=e491]: s
+                - generic [ref=e492]: ã
+                - generic [ref=e493]: o
+              - generic [ref=e494]:
+                - generic [ref=e495]: f
+                - generic [ref=e496]: i
+                - generic [ref=e497]: c
+                - generic [ref=e498]: a
+              - generic [ref=e500]:
+                - generic [ref=e501]: c
+                - generic [ref=e502]: o
+                - generic [ref=e503]: "n"
+                - generic [ref=e504]: e
+                - generic [ref=e505]: c
+                - generic [ref=e506]: t
+                - generic [ref=e507]: a
+                - generic [ref=e508]: d
+                - generic [ref=e509]: a
+              - generic [ref=e511]: à
+              - generic [ref=e512]:
+                - generic [ref=e513]: p
+                - generic [ref=e514]: r
+                - generic [ref=e515]: ó
+                - generic [ref=e516]: x
+                - generic [ref=e517]: i
+                - generic [ref=e518]: m
+                - generic [ref=e519]: a
+                - generic [ref=e520]: .
+          - paragraph [ref=e521]: Cada conversa, cada decisão, cada padrão que funcionou fica conectado. Um cérebro que não esquece — a inteligência aqui não foi treinada, foi acumulada, ponto por ponto.
+        - generic [ref=e522]:
+          - link "Aplicar agora" [ref=e524] [cursor=pointer]:
+            - /url: "#aplicar"
+            - img "Aplicar agora" [ref=e526]
+          - generic [ref=e527]:
+            - generic [ref=e528]: A camada em ação
+            - generic [ref=e529]: Como ela opera →
+      - generic [ref=e531]:
+        - generic [ref=e533]:
+          - generic [ref=e534]:
+            - paragraph [ref=e535]: Diagnóstico
+            - link "Decide se sua operação está pronta." [ref=e536] [cursor=pointer]:
+              - /url: "#aplicar"
+          - generic [ref=e537]:
+            - paragraph [ref=e538]: Frentes
+            - link "Cinco peças. Diagnóstico decide ordem." [ref=e539] [cursor=pointer]:
+              - /url: "#frentes"
+        - generic [ref=e541]:
+          - generic [ref=e542]:
+            - paragraph [ref=e543]: Aplicar
+            - generic [ref=e544]: 30 aplicações APROVADAS por mês
+          - link [ref=e545] [cursor=pointer]:
+            - /url: "#aplicar"
+    - generic [ref=e605]:
+      - generic [ref=e606]: const next = await fetch("https://api.example.com/next-section");
+      - generic [ref=e607]: _
+    - generic [ref=e665]:
+      - generic [ref=e668]:
+        - generic [ref=e670]: Cinco frentes. Um eixo._
+        - generic [ref=e671]:
+          - heading "O diagnóstico decide qual entra primeiro." [level=3] [ref=e672]:
+            - generic [ref=e674]: O
+            - generic [ref=e675]:
+              - generic [ref=e676]: d
+              - generic [ref=e677]: i
+              - generic [ref=e678]: a
+              - generic [ref=e679]: g
+              - generic [ref=e680]: "n"
+              - generic [ref=e681]: ó
+              - generic [ref=e682]: s
+              - generic [ref=e683]: t
+              - generic [ref=e684]: i
+              - generic [ref=e685]: c
+              - generic [ref=e686]: o
+            - generic [ref=e687]:
+              - generic [ref=e688]: d
+              - generic [ref=e689]: e
+              - generic [ref=e690]: c
+              - generic [ref=e691]: i
+              - generic [ref=e692]: d
+              - generic [ref=e693]: e
+            - generic [ref=e694]:
+              - generic [ref=e695]: q
+              - generic [ref=e696]: u
+              - generic [ref=e697]: a
+              - generic [ref=e698]: l
+            - generic [ref=e699]:
+              - generic [ref=e700]: e
+              - generic [ref=e701]: "n"
+              - generic [ref=e702]: t
+              - generic [ref=e703]: r
+              - generic [ref=e704]: a
+            - generic [ref=e705]:
+              - generic [ref=e706]: p
+              - generic [ref=e707]: r
+              - generic [ref=e708]: i
+              - generic [ref=e709]: m
+              - generic [ref=e710]: e
+              - generic [ref=e711]: i
+              - generic [ref=e712]: r
+              - generic [ref=e713]: o
+              - generic [ref=e714]: .
+          - paragraph [ref=e715]: Você não precisa das quatro para começar a mover caixa.
+        - generic [ref=e716]:
+          - generic [ref=e717]:
+            - generic "55K+" [ref=e718]:
+              - generic [ref=e719]:
+                - generic [ref=e720]: "5"
+                - generic [ref=e721]: "5"
+                - generic [ref=e722]: K
+              - generic [ref=e725]: +
+            - generic [ref=e726]: Assinantes em três softwares
+          - generic [ref=e727]:
+            - generic "R$3K" [ref=e728]:
+              - generic [ref=e729]:
+                - generic [ref=e730]: R
+                - generic [ref=e731]: $
+                - generic [ref=e732]: "3"
+                - generic [ref=e733]: K
+            - generic [ref=e734]: Ticket anual Outlier Hub
+          - generic [ref=e735]:
+            - generic "Zero" [ref=e736]:
+              - generic [ref=e737]:
+                - generic [ref=e738]: Z
+                - generic [ref=e739]: e
+                - generic [ref=e740]: r
+                - generic [ref=e741]: o
+            - generic [ref=e742]: Capital de terceiros captado
+      - generic [ref=e748]:
+        - generic [ref=e752]: RECORRÊNCIA // BILHON
+        - generic [ref=e757]: RECORRÊNCIA // BILHON
+    - generic [ref=e764]:
+      - img "Black and white grid pattern with black dots at the intersections, forming a repeating checkered design."
+    - generic [ref=e771]:
+      - generic [ref=e776]:
+        - generic [ref=e777]:
+          - generic [ref=e778]:
+            - generic [ref=e780]: Não é apenas IA..._
+            - heading "+650 agentes calibrados por quem operou." [level=3] [ref=e781]:
+              - generic [ref=e782]:
+                - generic [ref=e783]: +
+                - generic [ref=e784]: "6"
+                - generic [ref=e785]: "5"
+                - generic [ref=e786]: "0"
+              - generic [ref=e787]:
+                - generic [ref=e788]: a
+                - generic [ref=e789]: g
+                - generic [ref=e790]: e
+                - generic [ref=e791]: "n"
+                - generic [ref=e792]: t
+                - generic [ref=e793]: e
+                - generic [ref=e794]: s
+              - generic [ref=e795]:
+                - generic [ref=e796]: c
+                - generic [ref=e797]: a
+                - generic [ref=e798]: l
+                - generic [ref=e799]: i
+                - generic [ref=e800]: b
+                - generic [ref=e801]: r
+                - generic [ref=e802]: a
+                - generic [ref=e803]: d
+                - generic [ref=e804]: o
+                - generic [ref=e805]: s
+              - generic [ref=e806]:
+                - generic [ref=e807]: p
+                - generic [ref=e808]: o
+                - generic [ref=e809]: r
+              - generic [ref=e810]:
+                - generic [ref=e811]: q
+                - generic [ref=e812]: u
+                - generic [ref=e813]: e
+                - generic [ref=e814]: m
+              - generic [ref=e815]:
+                - generic [ref=e816]: o
+                - generic [ref=e817]: p
+                - generic [ref=e818]: e
+                - generic [ref=e819]: r
+                - generic [ref=e820]: o
+                - generic [ref=e821]: u
+                - generic [ref=e822]: .
+          - paragraph [ref=e823]: Cada agente carrega uma decisão que um humano tomou antes. Não foi prompt engineering — foi curadoria. Especialistas que viveram a operação treinaram cada um, em camadas, antes de virar inteligência.
+        - generic [ref=e824]:
+          - generic [ref=e825]:
+            - generic [ref=e828]: Curadoria humana, não prompt
+            - generic [ref=e831]: Especialistas, não datasets
+          - generic [ref=e832]:
+            - generic [ref=e835]: Decisão por decisão treinada
+            - generic [ref=e838]: Operação real, não pública
+        - link "Aplicar Aplicar" [ref=e841] [cursor=pointer]:
+          - /url: "#aplicar"
+          - generic [ref=e842]:
+            - generic "Aplicar" [ref=e843]:
+              - generic [ref=e844]:
+                - generic [ref=e845]: A
+                - generic [ref=e846]: p
+                - generic [ref=e847]: l
+                - generic [ref=e848]: i
+                - generic [ref=e849]: c
+                - generic [ref=e850]: a
+                - generic [ref=e851]: r
+            - generic "Aplicar" [ref=e852]:
+              - generic [ref=e853]:
+                - generic [ref=e854]: A
+                - generic [ref=e855]: p
+                - generic [ref=e856]: l
+                - generic [ref=e857]: i
+                - generic [ref=e858]: c
+                - generic [ref=e859]: a
+                - generic [ref=e860]: r
+      - generic [ref=e866]:
+        - generic [ref=e868]:
+          - generic [ref=e869]:
+            - paragraph [ref=e870]: Diagnóstico decide qual funil entra primeiro
+            - link "Aplicar" [ref=e871] [cursor=pointer]:
+              - /url: "#aplicar"
+          - generic [ref=e872]:
+            - paragraph [ref=e873]: R$220M+ combinados
+            - generic [ref=e874]: Workshop · Challenge · Webinar
+        - generic [ref=e876]:
+          - generic [ref=e877]:
+            - paragraph [ref=e878]: Aplicar
+            - generic [ref=e879]: 30 aplicações APROVADAS por mês.
+          - link [ref=e880] [cursor=pointer]:
+            - /url: "#aplicar"
+    - generic [ref=e887]:
+      - img "Black and white grid pattern with black dots at the intersections, forming a repeating checkered design."
+    - generic [ref=e895]:
+      - generic [ref=e897]:
+        - generic [ref=e898]:
+          - generic [ref=e899]:
+            - generic [ref=e901]: Em camadas_
+            - heading "A peça que destrava as próximas." [level=3] [ref=e902]:
+              - generic [ref=e904]: A
+              - generic [ref=e905]:
+                - generic [ref=e906]: p
+                - generic [ref=e907]: e
+                - generic [ref=e908]: ç
+                - generic [ref=e909]: a
+              - generic [ref=e910]:
+                - generic [ref=e911]: q
+                - generic [ref=e912]: u
+                - generic [ref=e913]: e
+              - generic [ref=e915]:
+                - generic [ref=e916]: d
+                - generic [ref=e917]: e
+                - generic [ref=e918]: s
+                - generic [ref=e919]: t
+                - generic [ref=e920]: r
+                - generic [ref=e921]: a
+                - generic [ref=e922]: v
+                - generic [ref=e923]: a
+              - generic [ref=e924]:
+                - generic [ref=e925]: a
+                - generic [ref=e926]: s
+              - generic [ref=e927]:
+                - generic [ref=e928]: p
+                - generic [ref=e929]: r
+                - generic [ref=e930]: ó
+                - generic [ref=e931]: x
+                - generic [ref=e932]: i
+                - generic [ref=e933]: m
+                - generic [ref=e934]: a
+                - generic [ref=e935]: s
+                - generic [ref=e936]: .
+          - paragraph [ref=e937]: Sistemas que encaixam por camadas. Quando uma se conecta, as próximas chegam mais simples. O diagnóstico decide qual camada entra primeiro na sua operação — e qual vem depois.
+        - generic [ref=e938]:
+          - generic [ref=e939]:
+            - generic [ref=e940]:
+              - generic [ref=e941]: PRIMEIRO
+              - paragraph [ref=e942]: A camada que destrava o resto.
+            - generic [ref=e943]:
+              - generic [ref=e944]: DEPOIS
+              - paragraph [ref=e945]: As próximas chegam mais simples.
+          - generic [ref=e946]:
+            - generic [ref=e947]:
+              - paragraph [ref=e948]: Aplicar
+              - generic [ref=e949]: Diagnóstico precede instalação.
+            - link [ref=e950] [cursor=pointer]:
+              - /url: "#aplicar"
+      - generic [ref=e953]:
+        - img "High Ticket — sistema que ensinávamos"
+    - generic [ref=e1012]:
+      - generic [ref=e1013]: const next = await fetch("https://api.example.com/next-section");
+      - generic [ref=e1014]: _
+    - generic [ref=e1074]:
+      - tabpanel "Finch Finch" [ref=e1076]:
+        - generic [ref=e1077]:
+          - img "Thiago Finch, Founder" [ref=e1079]
+          - generic [ref=e1081]:
+            - generic [ref=e1082]:
+              - generic [ref=e1084]: Squad Bilhon_
+              - generic [ref=e1085]:
+                - heading "Thiago Finch" [level=3] [ref=e1086]
+                - paragraph [ref=e1087]: Founder
+            - paragraph [ref=e1089]:
+              - text: A IA que criamos não é prompt, não é produto de assinatura. É calibração de 12 anos de operação real — cada decisão registrada, ensinada à Máquina pra ela rodar como eu rodaria.
+              - text: Pela primeira vez, posso instalar a Máquina dentro do cliente em vez de ensinar a montar.
+      - tablist [ref=e1090]:
+        - tab "Finch Finch" [selected] [ref=e1091] [cursor=pointer]:
+          - generic [ref=e1092]:
+            - generic:
+              - generic:
+                - img "Finch"
+              - generic:
+                - img "Finch"
+        - tab "Paulo Paulo" [ref=e1093] [cursor=pointer]:
+          - generic [ref=e1094]:
+            - generic:
+              - generic:
+                - img "Paulo"
+              - generic:
+                - img "Paulo"
+        - tab "Heluany Heluany" [ref=e1095] [cursor=pointer]:
+          - generic [ref=e1096]:
+            - generic:
+              - generic:
+                - img "Heluany"
+              - generic:
+                - img "Heluany"
+        - tab "Pedrini Pedrini" [ref=e1097] [cursor=pointer]:
+          - generic [ref=e1098]:
+            - generic:
+              - generic:
+                - img "Pedrini"
+              - generic:
+                - img "Pedrini"
+    - generic [ref=e1157]:
+      - generic [ref=e1158]: const next = await fetch("https://api.example.com/next-section");
+      - generic [ref=e1159]: _
+    - generic [ref=e1219]:
+      - generic [ref=e1220]:
+        - generic [ref=e1222]:
+          - heading "A peça final.A estratégia real." [level=3] [ref=e1223]:
+            - generic [ref=e1225]: A
+            - generic [ref=e1226]:
+              - generic [ref=e1227]: p
+              - generic [ref=e1228]: e
+              - generic [ref=e1229]: ç
+              - generic [ref=e1230]: a
+            - generic [ref=e1231]:
+              - generic [ref=e1232]: f
+              - generic [ref=e1233]: i
+              - generic [ref=e1234]: "n"
+              - generic [ref=e1235]: a
+              - generic [ref=e1236]: l
+              - generic [ref=e1237]: .
+            - generic [ref=e1239]: A
+            - generic [ref=e1240]:
+              - generic [ref=e1241]: e
+              - generic [ref=e1242]: s
+              - generic [ref=e1243]: t
+              - generic [ref=e1244]: r
+              - generic [ref=e1245]: a
+              - generic [ref=e1246]: t
+              - generic [ref=e1247]: é
+              - generic [ref=e1248]: g
+              - generic [ref=e1249]: i
+              - generic [ref=e1250]: a
+            - generic [ref=e1251]:
+              - generic [ref=e1252]: r
+              - generic [ref=e1253]: e
+              - generic [ref=e1254]: a
+              - generic [ref=e1255]: l
+              - generic [ref=e1256]: .
+          - paragraph [ref=e1257]: Movimento sustenta as outras quatro frentes. A equipe que construiu Bilhon Holding instala. Operação rodando desde 2013.
+        - link "Aplicar agora Aplicar agora" [ref=e1260] [cursor=pointer]:
+          - /url: "#aplicar"
+          - generic [ref=e1261]:
+            - generic "Aplicar agora" [ref=e1262]:
+              - generic [ref=e1263]:
+                - generic [ref=e1264]: A
+                - generic [ref=e1265]: p
+                - generic [ref=e1266]: l
+                - generic [ref=e1267]: i
+                - generic [ref=e1268]: c
+                - generic [ref=e1269]: a
+                - generic [ref=e1270]: r
+              - generic [ref=e1271]:
+                - generic [ref=e1272]: a
+                - generic [ref=e1273]: g
+                - generic [ref=e1274]: o
+                - generic [ref=e1275]: r
+                - generic [ref=e1276]: a
+            - generic "Aplicar agora" [ref=e1277]:
+              - generic [ref=e1278]:
+                - generic [ref=e1279]: A
+                - generic [ref=e1280]: p
+                - generic [ref=e1281]: l
+                - generic [ref=e1282]: i
+                - generic [ref=e1283]: c
+                - generic [ref=e1284]: a
+                - generic [ref=e1285]: r
+              - generic [ref=e1286]:
+                - generic [ref=e1287]: a
+                - generic [ref=e1288]: g
+                - generic [ref=e1289]: o
+                - generic [ref=e1290]: r
+                - generic [ref=e1291]: a
+      - generic [ref=e1298]:
+        - text:  
+        - generic [ref=e1299]:
+          - generic [ref=e1302]:
+            - paragraph [ref=e1303]: Movimento, peça final
+            - paragraph [ref=e1304]: A peça que torna a próxima alavanca menor que a anterior. Instala depois que os outros raios já giram.
+          - generic [ref=e1310]:
+            - paragraph [ref=e1311]: Equipe que construiu
+            - paragraph [ref=e1312]: Não a agência que vende. A equipe que orquestrou R$ 360M+ na própria casa antes de virar entrega.
+          - generic [ref=e1318]:
+            - paragraph [ref=e1319]: Trajetória auditável
+            - paragraph [ref=e1320]: Operação rodando desde 2013. Bilhon Holding formalizada em 2022. R$ 360M+ auditáveis — ônus da prova é nosso.
+    - generic [ref=e1336]:
+      - img "Black and white grid pattern with black dots at the intersections, forming a repeating checkered design."
+    - generic [ref=e1348]:
+      - generic [ref=e1349]:
+        - generic [ref=e1351]: Investimento_
+        - heading "Diagnóstico antes do preço." [level=2] [ref=e1352]:
+          - generic [ref=e1353]:
+            - generic [ref=e1354]: D
+            - generic [ref=e1355]: i
+            - generic [ref=e1356]: a
+            - generic [ref=e1357]: g
+            - generic [ref=e1358]: "n"
+            - generic [ref=e1359]: ó
+            - generic [ref=e1360]: s
+            - generic [ref=e1361]: t
+            - generic [ref=e1362]: i
+            - generic [ref=e1363]: c
+            - generic [ref=e1364]: o
+          - generic [ref=e1365]:
+            - generic [ref=e1366]: a
+            - generic [ref=e1367]: "n"
+            - generic [ref=e1368]: t
+            - generic [ref=e1369]: e
+            - generic [ref=e1370]: s
+          - generic [ref=e1371]:
+            - generic [ref=e1372]: d
+            - generic [ref=e1373]: o
+          - generic [ref=e1374]:
+            - generic [ref=e1375]: p
+            - generic [ref=e1376]: r
+            - generic [ref=e1377]: e
+            - generic [ref=e1378]: ç
+            - generic [ref=e1379]: o
+            - generic [ref=e1380]: .
+      - paragraph [ref=e1382]: Sem custo. Sem cartão. Apenas 18 vagas qualificadas por mês. Resposta em 24h úteis.
+      - link "Falar com a Bilhon Falar com a Bilhon" [ref=e1385] [cursor=pointer]:
+        - /url: "#aplicar"
+        - generic [ref=e1386]:
+          - generic "Falar com a Bilhon" [ref=e1387]:
+            - generic [ref=e1388]:
+              - generic [ref=e1389]: F
+              - generic [ref=e1390]: a
+              - generic [ref=e1391]: l
+              - generic [ref=e1392]: a
+              - generic [ref=e1393]: r
+            - generic [ref=e1394]:
+              - generic [ref=e1395]: c
+              - generic [ref=e1396]: o
+              - generic [ref=e1397]: m
+            - generic [ref=e1399]: a
+            - generic [ref=e1400]:
+              - generic [ref=e1401]: B
+              - generic [ref=e1402]: i
+              - generic [ref=e1403]: l
+              - generic [ref=e1404]: h
+              - generic [ref=e1405]: o
+              - generic [ref=e1406]: "n"
+          - generic "Falar com a Bilhon" [ref=e1407]:
+            - generic [ref=e1408]:
+              - generic [ref=e1409]: F
+              - generic [ref=e1410]: a
+              - generic [ref=e1411]: l
+              - generic [ref=e1412]: a
+              - generic [ref=e1413]: r
+            - generic [ref=e1414]:
+              - generic [ref=e1415]: c
+              - generic [ref=e1416]: o
+              - generic [ref=e1417]: m
+            - generic [ref=e1419]: a
+            - generic [ref=e1420]:
+              - generic [ref=e1421]: B
+              - generic [ref=e1422]: i
+              - generic [ref=e1423]: l
+              - generic [ref=e1424]: h
+              - generic [ref=e1425]: o
+              - generic [ref=e1426]: "n"
+    - generic [ref=e1439]:
+      - paragraph [ref=e1442]: Não nos conhecia? Tudo bem! O diagnóstico decide se sua operação está pronta. Em seguida, você sabe exatamente do que precisa.
+      - generic [ref=e1443]: Sem custo, sem cartão, sem follow-up agressivo. Você sai sabendo qual peça destrava sua operação agora — ou se ainda não é hora.
+    - generic [ref=e1446]:
+      - generic [ref=e1448]:
+        - generic [ref=e1449]:
+          - heading "Perguntas frequentes" [level=3] [ref=e1452]:
+            - generic [ref=e1453]:
+              - generic [ref=e1454]: P
+              - generic [ref=e1455]: e
+              - generic [ref=e1456]: r
+              - generic [ref=e1457]: g
+              - generic [ref=e1458]: u
+              - generic [ref=e1459]: "n"
+              - generic [ref=e1460]: t
+              - generic [ref=e1461]: a
+              - generic [ref=e1462]: s
+            - generic [ref=e1463]:
+              - generic [ref=e1464]: f
+              - generic [ref=e1465]: r
+              - generic [ref=e1466]: e
+              - generic [ref=e1467]: q
+              - generic [ref=e1468]: u
+              - generic [ref=e1469]: e
+              - generic [ref=e1470]: "n"
+              - generic [ref=e1471]: t
+              - generic [ref=e1472]: e
+              - generic [ref=e1473]: s
+          - paragraph [ref=e1475]: Tudo que você precisa saber antes de aplicar para o diagnóstico.
+        - paragraph [ref=e1477]: Atualizadas com base em aplicações recebidas.
+      - generic [ref=e1478]:
+        - generic [ref=e1479]:
+          - generic [ref=e1481] [cursor=pointer]:
+            - paragraph [ref=e1482]: "01"
+            - paragraph [ref=e1483]: Qual a diferença entre vocês e uma agência tradicional?
+          - paragraph [ref=e1488]: Agência vende tarefa. Bilhon instala modelo. Time de consultores Bilhon opera pessoalmente.
+        - generic [ref=e1489]:
+          - generic [ref=e1491] [cursor=pointer]:
+            - paragraph [ref=e1492]: "02"
+            - paragraph [ref=e1493]: Posso aplicar mesmo sem saber qual frente preciso?
+          - paragraph [ref=e1498]: Sim. 60% chegam sem saber. O diagnóstico revela qual peça está travada.
+        - generic [ref=e1499]:
+          - generic [ref=e1501] [cursor=pointer]:
+            - paragraph [ref=e1502]: "03"
+            - paragraph [ref=e1503]: Quanto custa? Por que não tem preço aqui?
+          - paragraph [ref=e1508]: Cada frente tem ticket próprio. Diagnóstico decide qual entra primeiro.
+        - generic [ref=e1509]:
+          - generic [ref=e1511] [cursor=pointer]:
+            - paragraph [ref=e1512]: "04"
+            - paragraph [ref=e1513]: Vocês trabalham com qualquer nicho?
+          - paragraph [ref=e1518]: "Não. Operadores 5-7 dígitos com produto rodando. Greenfield: NÃO. Filtro protege os dois lados."
+        - generic [ref=e1519]:
+          - generic [ref=e1521] [cursor=pointer]:
+            - paragraph [ref=e1522]: "05"
+            - paragraph [ref=e1523]: Em quanto tempo vejo resultado?
+          - paragraph [ref=e1528]: Esteira Gold 4-6 sem. Recorrência 6-8 sem. Médio/High variam. Movimento 60-90 dias.
+    - generic [ref=e1536]:
+      - img "Black and white grid pattern with black dots at the intersections, forming a repeating checkered design."
+    - generic [ref=e1542]:
+      - generic [ref=e1546]:
+        - generic [ref=e1547]:
+          - generic [ref=e1548]:
+            - heading "Aplicar precede instalar." [level=3] [ref=e1550]
+            - paragraph [ref=e1552]: O que milhares de empresários imploraram por anos — está aqui.
+          - link "Aplicar agora Aplicar agora" [ref=e1555] [cursor=pointer]:
+            - /url: "#aplicar"
+            - generic [ref=e1556]:
+              - generic "Aplicar agora" [ref=e1557]:
+                - generic [ref=e1558]:
+                  - generic [ref=e1559]: A
+                  - generic [ref=e1560]: p
+                  - generic [ref=e1561]: l
+                  - generic [ref=e1562]: i
+                  - generic [ref=e1563]: c
+                  - generic [ref=e1564]: a
+                  - generic [ref=e1565]: r
+                - generic [ref=e1566]:
+                  - generic [ref=e1567]: a
+                  - generic [ref=e1568]: g
+                  - generic [ref=e1569]: o
+                  - generic [ref=e1570]: r
+                  - generic [ref=e1571]: a
+              - generic "Aplicar agora" [ref=e1572]:
+                - generic [ref=e1573]:
+                  - generic [ref=e1574]: A
+                  - generic [ref=e1575]: p
+                  - generic [ref=e1576]: l
+                  - generic [ref=e1577]: i
+                  - generic [ref=e1578]: c
+                  - generic [ref=e1579]: a
+                  - generic [ref=e1580]: r
+                - generic [ref=e1581]:
+                  - generic [ref=e1582]: a
+                  - generic [ref=e1583]: g
+                  - generic [ref=e1584]: o
+                  - generic [ref=e1585]: r
+                  - generic [ref=e1586]: a
+        - generic [ref=e1593]:
+          - paragraph [ref=e1595]:
+            - strong [ref=e1596]: Aplique para a Bilhon.
+            - text: 30 aplicações APROVADAS por mês.
+            - text: O diagnóstico revela qual frente sua operação precisa instalar primeiro — ou se ainda não é o momento.
+          - form "Email Form" [ref=e1599]:
+            - textbox "Seu e-mail" [ref=e1600]
+            - generic [ref=e1601]:
+              - button "Submit" [ref=e1602] [cursor=pointer]
+              - generic [ref=e1603]:
+                - generic "Aplicar" [ref=e1604]:
+                  - generic [ref=e1605]:
+                    - generic [ref=e1606]: A
+                    - generic [ref=e1607]: p
+                    - generic [ref=e1608]: l
+                    - generic [ref=e1609]: i
+                    - generic [ref=e1610]: c
+                    - generic [ref=e1611]: a
+                    - generic [ref=e1612]: r
+                - generic "Aplicar" [ref=e1613]:
+                  - generic [ref=e1614]:
+                    - generic [ref=e1615]: A
+                    - generic [ref=e1616]: p
+                    - generic [ref=e1617]: l
+                    - generic [ref=e1618]: i
+                    - generic [ref=e1619]: c
+                    - generic [ref=e1620]: a
+                    - generic [ref=e1621]: r
+      - generic [ref=e1631]:
+        - generic "Cinco peças. Um eixo. Diagnóstico decide a ordem." [ref=e1633]:
+          - generic [ref=e1634]:
+            - generic [ref=e1635]: C
+            - generic [ref=e1636]: i
+            - generic [ref=e1637]: "n"
+            - generic [ref=e1638]: c
+            - generic [ref=e1639]: o
+          - generic [ref=e1640]:
+            - generic [ref=e1641]: p
+            - generic [ref=e1642]: e
+            - generic [ref=e1643]: ç
+            - generic [ref=e1644]: a
+            - generic [ref=e1645]: s
+            - generic [ref=e1646]: .
+          - generic [ref=e1647]:
+            - generic [ref=e1648]: U
+            - generic [ref=e1649]: m
+          - generic [ref=e1650]:
+            - generic [ref=e1651]: e
+            - generic [ref=e1652]: i
+            - generic [ref=e1653]: x
+            - generic [ref=e1654]: o
+            - generic [ref=e1655]: .
+          - generic [ref=e1656]:
+            - generic [ref=e1657]: D
+            - generic [ref=e1658]: i
+            - generic [ref=e1659]: a
+            - generic [ref=e1660]: g
+            - generic [ref=e1661]: "n"
+            - generic [ref=e1662]: ó
+            - generic [ref=e1663]: s
+            - generic [ref=e1664]: t
+            - generic [ref=e1665]: i
+            - generic [ref=e1666]: c
+            - generic [ref=e1667]: o
+          - generic [ref=e1668]:
+            - generic [ref=e1669]: d
+            - generic [ref=e1670]: e
+            - generic [ref=e1671]: c
+            - generic [ref=e1672]: i
+            - generic [ref=e1673]: d
+            - generic [ref=e1674]: e
+          - generic [ref=e1676]: a
+          - generic [ref=e1677]:
+            - generic [ref=e1678]: o
+            - generic [ref=e1679]: r
+            - generic [ref=e1680]: d
+            - generic [ref=e1681]: e
+            - generic [ref=e1682]: m
+            - generic [ref=e1683]: .
+        - generic [ref=e1685]:
+          - img "outsider.io" [ref=e1686]
+          - img "clickmax" [ref=e1687]
+          - img "Outcopy" [ref=e1688]
+          - img "Money Club" [ref=e1689]
+          - img "LTV Booster" [ref=e1690]
+          - img "Goldage Master" [ref=e1691]
+          - img "Projeto Nômade Milionário" [ref=e1692]
+          - img [ref=e1693]
+          - img [ref=e1694]
+          - img [ref=e1695]
+          - img [ref=e1696]
+          - img [ref=e1697]
+          - img [ref=e1698]
+          - img [ref=e1699]
+    - link "APLICAR" [ref=e1703] [cursor=pointer]:
+      - /url: "#aplicar"
+      - generic [ref=e1704]: APLICAR
+  - generic [ref=e1714]:
+    - generic [ref=e1715]:
+      - img "Bilhon"
+    - generic [ref=e1717]:
+      - generic [ref=e1718]:
+        - generic [ref=e1719]: Plataforma
+        - link "Home" [ref=e1720] [cursor=pointer]:
+          - /url: "#"
+        - link "5 Frentes" [ref=e1721] [cursor=pointer]:
+          - /url: "#frentes"
+        - link "Diagnóstico" [ref=e1722] [cursor=pointer]:
+          - /url: "#diagnostico"
+        - link "Squad" [ref=e1723] [cursor=pointer]:
+          - /url: "#squad"
+        - link "FAQ" [ref=e1724] [cursor=pointer]:
+          - /url: "#faq"
+        - link "Aplicar" [ref=e1725] [cursor=pointer]:
+          - /url: "#aplicar"
+      - generic [ref=e1726]:
+        - generic [ref=e1727]: Frentes
+        - link "Esteira Gold" [ref=e1728] [cursor=pointer]:
+          - /url: "#frentes"
+        - link "Recorrência" [ref=e1729] [cursor=pointer]:
+          - /url: "#frentes"
+        - link "Médio Ticket" [ref=e1730] [cursor=pointer]:
+          - /url: "#frentes"
+        - link "High Ticket" [ref=e1731] [cursor=pointer]:
+          - /url: "#diagnostico"
+        - link "Movimento" [ref=e1732] [cursor=pointer]:
+          - /url: "#"
+        - link "IA Bilhon" [ref=e1733] [cursor=pointer]:
+          - /url: "#squad"
+      - generic [ref=e1734]:
+        - generic [ref=e1735]: Empresa
+        - link "Sobre" [ref=e1736] [cursor=pointer]:
+          - /url: "#"
+        - link "Squad" [ref=e1737] [cursor=pointer]:
+          - /url: "#squad"
+        - link "Cases" [ref=e1738] [cursor=pointer]:
+          - /url: "#"
+        - link "Imprensa" [ref=e1739] [cursor=pointer]:
+          - /url: "#"
+        - link "Carreira" [ref=e1740] [cursor=pointer]:
+          - /url: "#"
+        - link "Contato" [ref=e1741] [cursor=pointer]:
+          - /url: "#aplicar"
+      - generic [ref=e1742]:
+        - generic [ref=e1743]: Time
+        - generic [ref=e1744]:
+          - link "Carolina Pedrini" [ref=e1745] [cursor=pointer]:
+            - /url: "#squad"
+          - link "Paulo Lacerda" [ref=e1746] [cursor=pointer]:
+            - /url: "#squad"
+          - link "Eduardo Heluany" [ref=e1747] [cursor=pointer]:
+            - /url: "#squad"
+          - link "Thiago Finch" [ref=e1748] [cursor=pointer]:
+            - /url: "#squad"
+          - link "+ 8 instrutores" [ref=e1749] [cursor=pointer]:
+            - /url: "#"
+          - link "Aplicar" [ref=e1750] [cursor=pointer]:
+            - /url: "#aplicar"
+          - generic [ref=e1751]: Bilhon Holding · CNPJ 39.842.305/0001-93 · Brasil
+          - generic [ref=e1752]:
+            - generic [ref=e1753]:
+              - link "Carreira" [ref=e1754] [cursor=pointer]:
+                - /url: "#aplicar"
+              - paragraph [ref=e1757]: Estamos contratando!
+            - link "Indique e Ganhe" [ref=e1758] [cursor=pointer]:
+              - /url: "#aplicar"
+      - paragraph [ref=e1762]: Aplicações abertas
+    - generic [ref=e1764]: © 2026 Bilhon Holding © 2026 Bilhon Holding © 2026 Bilhon Holding

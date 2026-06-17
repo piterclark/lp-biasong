@@ -1,0 +1,2 @@
+[    1588ms] [ERROR] Not signed in with the identity provider. @ https://nicepage.com/lp/544039/furniture-store-landing-page:0
+[   14136ms] [ERROR] [GSI_LOGGER]: FedCM get() rejects with NetworkError: Error retrieving a token. @ https://accounts.google.com/gsi/client?hl=en:85

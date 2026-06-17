@@ -1,0 +1,764 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Resultiva | Landing Pages que Convertem</title>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,700;0,9..40,800;0,9..40,900;1,9..40,400&family=Playfair+Display:ital,wght@1,700;1,800&display=swap" rel="stylesheet"/>
+  <style>
+    /* ══════════════════════════════════════════════
+       DESIGN SYSTEM — RESULTIVA LUXURY
+    ══════════════════════════════════════════════ */
+    :root {
+      --bg:        #06080f;
+      --orange:    #F97316;
+      --orange-lo: rgba(249,115,22,.10);
+      --orange-md: rgba(249,115,22,.22);
+      --blue:      #5B8DEF;
+      --blue-lo:   rgba(91,141,239,.07);
+      --white:     #ffffff;
+      --muted:     rgba(255,255,255,.48);
+      --faint:     rgba(255,255,255,.10);
+      --border:    rgba(255,255,255,.07);
+      --border-o:  rgba(249,115,22,.28);
+      --sans:      'DM Sans', sans-serif;
+      --serif:     'Playfair Display', serif;
+      --r:         16px;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin:0; padding:0; }
+    html { scroll-behavior: smooth; }
+    body {
+      background: var(--bg);
+      color: var(--white);
+      font-family: var(--sans);
+      overflow-x: hidden;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* ── ATMOSPHERE ─────────────────────────────── */
+    #c { position:fixed; inset:0; z-index:0; pointer-events:none; }
+
+    .atm {
+      position: fixed; z-index: 0; pointer-events: none;
+      border-radius: 50%; filter: blur(120px);
+    }
+    .atm-l {
+      width: 60vw; height: 60vw;
+      top: -20vw; left: -20vw;
+      background: radial-gradient(circle, rgba(91,141,239,.13) 0%, transparent 70%);
+    }
+    .atm-r {
+      width: 50vw; height: 50vw;
+      bottom: -15vw; right: -15vw;
+      background: radial-gradient(circle, rgba(249,115,22,.12) 0%, transparent 70%);
+    }
+    .atm-c {
+      width: 40vw; height: 40vw;
+      top: 40vh; left: 50%;
+      transform: translateX(-50%);
+      background: radial-gradient(circle, rgba(249,115,22,.04) 0%, transparent 70%);
+    }
+
+    /* ── NAV ────────────────────────────────────── */
+    nav {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 999;
+      padding: 0 60px;
+      height: 70px;
+      display: flex; align-items: center; justify-content: space-between;
+      background: rgba(6,8,15,.7);
+      backdrop-filter: blur(20px);
+      border-bottom: 1px solid var(--border);
+    }
+
+    .logo-wrap { display:flex; flex-direction:column; gap:1px; text-decoration:none; }
+    .logo-name {
+      font-family: var(--sans);
+      font-size: 22px; font-weight: 900;
+      letter-spacing: -.4px; color: var(--white);
+    }
+    .logo-name b { color: var(--orange); font-style:italic; }
+    .logo-tag {
+      font-size: 8.5px; font-weight: 600;
+      letter-spacing: .18em; text-transform: uppercase;
+      color: var(--muted);
+    }
+    .logo-tag span { color: var(--orange); }
+
+    .nav-btn {
+      background: var(--orange); color: #fff;
+      padding: 10px 22px; border-radius: 8px;
+      font-family: var(--sans); font-weight: 700; font-size: 14px;
+      text-decoration: none;
+      box-shadow: 0 4px 24px rgba(249,115,22,.3);
+      transition: opacity .2s, transform .2s;
+    }
+    .nav-btn:hover { opacity:.85; transform:translateY(-1px); }
+
+    /* ── SECTIONS ───────────────────────────────── */
+    .z { position:relative; z-index:1; }
+
+    .wrap {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 0 60px;
+    }
+
+    hr.div {
+      border: none;
+      border-top: 1px solid var(--border);
+      margin: 0 60px;
+      position: relative; z-index:1;
+    }
+
+    /* ── HERO ───────────────────────────────────── */
+    .hero {
+      min-height: 100vh;
+      display: flex; align-items: center; justify-content: center;
+      text-align: center;
+      padding: 140px 60px 100px;
+    }
+
+    .hero-in { max-width: 860px; }
+
+    .pill {
+      display: inline-flex; align-items: center; gap: 9px;
+      background: rgba(249,115,22,.08);
+      border: 1px solid rgba(249,115,22,.25);
+      color: var(--orange);
+      padding: 8px 20px; border-radius: 100px;
+      font-size: 11px; font-weight: 700;
+      letter-spacing: .1em; text-transform: uppercase;
+      margin-bottom: 40px;
+    }
+    .dot { width:6px; height:6px; border-radius:50%; background:var(--orange); animation:blink 2s infinite; }
+    @keyframes blink { 0%,100%{opacity:1;transform:scale(1)} 50%{opacity:.3;transform:scale(1.5)} }
+
+    .hero h1 {
+      font-family: var(--sans);
+      font-size: clamp(44px, 7vw, 82px);
+      font-weight: 900;
+      line-height: 1.04;
+      letter-spacing: -2.5px;
+      margin-bottom: 28px;
+    }
+    .hero h1 em {
+      font-family: var(--serif);
+      font-style: italic; font-weight: 800;
+      color: var(--orange);
+      letter-spacing: -1px;
+    }
+
+    .hero-sub {
+      font-size: clamp(16px, 1.8vw, 19px);
+      color: var(--muted);
+      line-height: 1.7;
+      max-width: 520px;
+      margin: 0 auto 52px;
+      font-weight: 400;
+    }
+
+    .btns { display:flex; gap:14px; justify-content:center; flex-wrap:wrap; }
+
+    .btn-p {
+      background: var(--orange); color: #fff;
+      padding: 17px 38px; border-radius: 10px;
+      font-family: var(--sans); font-weight: 800; font-size: 16px;
+      text-decoration: none;
+      box-shadow: 0 8px 40px rgba(249,115,22,.30);
+      transition: transform .25s, box-shadow .25s;
+    }
+    .btn-p:hover { transform:translateY(-3px); box-shadow:0 12px 50px rgba(249,115,22,.40); }
+
+    .btn-g {
+      border: 1px solid var(--border); color: var(--white);
+      padding: 17px 38px; border-radius: 10px;
+      font-family: var(--sans); font-weight: 700; font-size: 16px;
+      text-decoration: none;
+      transition: border-color .2s, background .2s;
+    }
+    .btn-g:hover { border-color: var(--orange); background: var(--orange-lo); }
+
+    /* ── NUMEROS HERO ───────────────────────────── */
+    .stats {
+      display: flex; gap: 0;
+      justify-content: center;
+      margin-top: 72px;
+      border: 1px solid var(--border);
+      border-radius: var(--r);
+      overflow: hidden;
+      max-width: 600px;
+      margin-left: auto; margin-right: auto;
+    }
+    .stat {
+      flex: 1; padding: 28px 20px;
+      text-align: center;
+      border-right: 1px solid var(--border);
+    }
+    .stat:last-child { border-right: none; }
+    .stat-n {
+      font-family: var(--sans);
+      font-size: 32px; font-weight: 900;
+      color: var(--orange); line-height: 1;
+      margin-bottom: 6px;
+    }
+    .stat-l { font-size: 12px; color: var(--muted); font-weight: 500; }
+
+    /* ── LABEL ──────────────────────────────────── */
+    .lbl {
+      font-size: 11px; font-weight: 700;
+      letter-spacing: .12em; text-transform: uppercase;
+      color: var(--orange); margin-bottom: 16px;
+      display: block;
+    }
+
+    .sec-h {
+      font-family: var(--sans);
+      font-size: clamp(30px, 4.5vw, 54px);
+      font-weight: 900;
+      line-height: 1.06;
+      letter-spacing: -1.5px;
+      margin-bottom: 16px;
+    }
+    .sec-h em {
+      font-family: var(--serif);
+      font-style: italic; font-weight: 800;
+      color: var(--orange);
+    }
+    .sec-sub {
+      color: var(--muted);
+      font-size: 17px; line-height: 1.65;
+      max-width: 480px;
+      margin-bottom: 64px;
+    }
+
+    /* ── PROCESSO ───────────────────────────────── */
+    .sec { padding: 110px 0; }
+
+    .steps {
+      display: grid;
+      grid-template-columns: repeat(3,1fr);
+      gap: 2px;
+      background: var(--border);
+      border: 1px solid var(--border);
+      border-radius: var(--r);
+      overflow: hidden;
+    }
+    .step {
+      background: var(--bg);
+      padding: 44px 36px;
+      transition: background .3s;
+    }
+    .step:hover { background: rgba(249,115,22,.04); }
+
+    .snum {
+      font-size: 13px; font-weight: 800;
+      color: var(--orange); letter-spacing: .06em;
+      margin-bottom: 24px; display:block;
+    }
+    .step h3 {
+      font-family: var(--sans);
+      font-size: 20px; font-weight: 800;
+      line-height: 1.25; margin-bottom: 12px;
+    }
+    .step p { color: var(--muted); font-size: 15px; line-height: 1.65; }
+
+    /* ── INCLUSO ────────────────────────────────── */
+    .tags-wrap {
+      display: flex; flex-wrap: wrap; gap: 12px;
+    }
+    .tag-item {
+      display: flex; align-items: center; gap: 10px;
+      background: rgba(255,255,255,.04);
+      border: 1px solid var(--border);
+      border-radius: 100px;
+      padding: 12px 22px;
+      font-size: 14px; font-weight: 600;
+      transition: border-color .2s, background .2s;
+    }
+    .tag-item:hover { border-color: var(--border-o); background: var(--orange-lo); }
+    .tag-item span { font-size: 16px; }
+
+    /* ── EXEMPLOS ───────────────────────────────── */
+    .exs {
+      display: grid;
+      grid-template-columns: repeat(3,1fr);
+      gap: 20px;
+    }
+
+    .ex {
+      border-radius: var(--r);
+      overflow: hidden;
+      border: 1px solid var(--border);
+      transition: border-color .3s, transform .3s;
+      cursor: default;
+    }
+    .ex:hover { border-color: var(--border-o); transform: translateY(-5px); }
+
+    .ex-top {
+      height: 200px;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 56px;
+      position: relative;
+    }
+    .ex-top::before {
+      content:'';
+      position:absolute; inset:0;
+      background: linear-gradient(to bottom, transparent 40%, rgba(6,8,15,.95));
+    }
+
+    .bg-1 { background: linear-gradient(135deg,#0d2236,#1a3a5c,#0a4a6e); }
+    .bg-2 { background: linear-gradient(135deg,#2a0d2e,#4a1060,#6a1070); }
+    .bg-3 { background: linear-gradient(135deg,#1a1500,#2e2400,#3d3100); }
+
+    .ex-body { padding: 22px 24px 28px; }
+    .ex-niche {
+      font-size: 10px; font-weight: 700;
+      color: var(--orange); letter-spacing: .12em;
+      text-transform: uppercase; margin-bottom: 8px;
+    }
+    .ex-body h4 {
+      font-size: 19px; font-weight: 800; margin-bottom: 8px;
+      letter-spacing: -.3px;
+    }
+    .ex-body p { color: var(--muted); font-size: 14px; line-height: 1.55; margin-bottom: 16px; }
+    .ex-link { font-size: 13px; font-weight: 700; color: var(--orange); }
+    a.ex { text-decoration: none; color: inherit; display: block; cursor: pointer; }
+
+    /* ── PRICING ────────────────────────────────── */
+    .plans {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+      max-width: 780px;
+    }
+
+    .plan {
+      border: 1px solid var(--border);
+      border-radius: var(--r);
+      padding: 42px 38px;
+      background: rgba(255,255,255,.02);
+    }
+    .plan.hi {
+      border-color: var(--border-o);
+      background: rgba(249,115,22,.04);
+      position: relative;
+    }
+
+    .badge-top {
+      position:absolute; top:-13px; left:50%; transform:translateX(-50%);
+      background:var(--orange); color:#fff;
+      font-size:10px; font-weight:800;
+      padding:4px 16px; border-radius:100px;
+      letter-spacing:.08em; text-transform:uppercase;
+      white-space:nowrap;
+    }
+
+    .plan-lbl { font-size:11px; font-weight:700; color:var(--muted); letter-spacing:.1em; text-transform:uppercase; margin-bottom:10px; }
+    .plan h3 { font-size:22px; font-weight:800; margin-bottom:4px; }
+    .plan-price {
+      font-family:var(--sans);
+      font-size:56px; font-weight:900;
+      line-height:1; margin:20px 0 6px;
+      letter-spacing:-2px;
+    }
+    .plan-price .cur { font-size:22px; font-weight:600; vertical-align:top; margin-top:10px; display:inline-block; }
+    .plan-price .per { font-size:14px; font-weight:400; color:var(--muted); letter-spacing:0; }
+    .plan-note { color:var(--muted); font-size:13px; margin-bottom:30px; }
+
+    .plan-list { list-style:none; margin-bottom:32px; }
+    .plan-list li {
+      padding:10px 0;
+      border-bottom:1px solid var(--border);
+      font-size:14.5px; color:var(--muted);
+      display:flex; align-items:center; gap:10px;
+    }
+    .plan-list li .ok { color:var(--orange); font-weight:800; flex-shrink:0; }
+
+    .btn-plan {
+      display:block; text-align:center;
+      padding:15px; border-radius:10px;
+      font-family:var(--sans); font-weight:800; font-size:15px;
+      text-decoration:none; transition:opacity .2s, transform .2s;
+    }
+    .btn-plan.solid {
+      background:var(--orange); color:#fff;
+      box-shadow:0 6px 30px rgba(249,115,22,.28);
+    }
+    .btn-plan.solid:hover { opacity:.88; transform:translateY(-2px); }
+    .btn-plan.outline {
+      border:1px solid var(--border); color:var(--white);
+    }
+    .btn-plan.outline:hover { border-color:var(--border-o); background:var(--orange-lo); }
+
+    /* ── CTA FINAL ──────────────────────────────── */
+    .cta-sec {
+      padding: 140px 60px;
+      text-align: center;
+      border-top: 1px solid var(--border);
+      position: relative; z-index:1;
+    }
+    .cta-sec h2 {
+      font-family: var(--sans);
+      font-size: clamp(34px,5.5vw,66px);
+      font-weight: 900; line-height:1.05;
+      letter-spacing:-2px; margin-bottom:18px;
+    }
+    .cta-sec h2 em {
+      font-family:var(--serif);
+      font-style:italic; font-weight:800;
+      color:var(--orange);
+    }
+    .cta-sec p {
+      color:var(--muted); font-size:18px; line-height:1.65;
+      max-width:420px; margin:0 auto 52px;
+    }
+
+    /* ── FOOTER ─────────────────────────────────── */
+    footer {
+      border-top:1px solid var(--border);
+      padding:26px 60px;
+      display:flex; align-items:center; justify-content:space-between;
+      position:relative; z-index:1;
+    }
+    .foot-logo { font-size:15px; font-weight:800; color:var(--white); }
+    .foot-logo b { color:var(--orange); font-style:italic; }
+    footer p { color:var(--muted); font-size:12.5px; }
+
+    /* ── FADE-IN ─────────────────────────────────── */
+    .fi {
+      opacity:0; transform:translateY(24px);
+      transition:opacity .75s ease, transform .75s ease;
+    }
+    .fi.on { opacity:1; transform:none; }
+    .fi-d1 { transition-delay:.1s; }
+    .fi-d2 { transition-delay:.2s; }
+    .fi-d3 { transition-delay:.3s; }
+
+    /* ── RESPONSIVE ──────────────────────────────── */
+    @media(max-width:900px){
+      nav, hr.div { padding:0 24px; }
+      .wrap { padding:0 24px; }
+      .hero { padding:130px 24px 80px; }
+      .steps { grid-template-columns:1fr; }
+      .exs   { grid-template-columns:1fr; }
+      .plans { grid-template-columns:1fr; }
+      .cta-sec { padding:80px 24px; }
+      footer { padding:20px 24px; flex-direction:column; gap:8px; text-align:center; }
+      .stats { flex-direction:column; }
+      .stat { border-right:none; border-bottom:1px solid var(--border); }
+      .stat:last-child { border-bottom:none; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- Atmosphere -->
+<canvas id="c"></canvas>
+<div class="atm atm-l"></div>
+<div class="atm atm-r"></div>
+<div class="atm atm-c"></div>
+
+<!-- ══ NAV ══ -->
+<nav class="z">
+  <a href="#" class="logo-wrap">
+    <div class="logo-name">Resultiv<b>a↗</b></div>
+    <div class="logo-tag">Acessoria de <span>Marketing</span></div>
+  </a>
+  <a href="https://wa.me/5531991995344?text=Oi!%20Quero%20uma%20landing%20page%20para%20o%20meu%20neg%C3%B3cio." class="nav-btn">Falar no WhatsApp →</a>
+</nav>
+
+<!-- ══ HERO ══ -->
+<section class="hero z">
+  <div class="hero-in">
+    <div class="pill fi"><span class="dot"></span>Assessoria de Marketing Digital</div>
+
+    <h1 class="fi fi-d1">
+      Seu negócio com uma<br>
+      página que <em>converte</em><br>
+      de verdade.
+    </h1>
+
+    <p class="hero-sub fi fi-d2">
+      Design profissional com IA, hospedagem inclusa
+      e entrega em 48 horas. Sem complicação.
+    </p>
+
+    <div class="btns fi fi-d3">
+      <a href="https://wa.me/5531991995344?text=Oi!%20Quero%20uma%20landing%20page%20para%20o%20meu%20neg%C3%B3cio." class="btn-p">Quero minha LP agora →</a>
+      <a href="#exemplos" class="btn-g">Ver exemplos</a>
+    </div>
+
+    <div class="stats fi fi-d3">
+      <div class="stat">
+        <div class="stat-n">48h</div>
+        <div class="stat-l">Entrega garantida</div>
+      </div>
+      <div class="stat">
+        <div class="stat-n">100%</div>
+        <div class="stat-l">Responsivo</div>
+      </div>
+      <div class="stat">
+        <div class="stat-n">∞</div>
+        <div class="stat-l">Qualquer nicho</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<hr class="div z"/>
+
+<!-- ══ PROCESSO ══ -->
+<section class="sec z">
+  <div class="wrap">
+    <div class="fi">
+      <span class="lbl">✦ Como funciona</span>
+      <h2 class="sec-h">Simples. Rápido.<br><em>Sem enrolação.</em></h2>
+      <p class="sec-sub">Você não precisa entender de tecnologia. A Resultiva cuida de tudo.</p>
+    </div>
+
+    <div class="steps fi">
+      <div class="step">
+        <span class="snum">PASSO 01</span>
+        <h3>Você nos conta sobre o negócio</h3>
+        <p>Nome, nicho, público-alvo e o que vende. Em 15 minutos temos o briefing completo para começar.</p>
+      </div>
+      <div class="step">
+        <span class="snum">PASSO 02</span>
+        <h3>Criamos com o design do seu nicho</h3>
+        <p>Aplicamos o design system correto para sua área — cores, tipografia e estrutura que já converteu.</p>
+      </div>
+      <div class="step">
+        <span class="snum">PASSO 03</span>
+        <h3>Publicamos. Você recebe clientes.</h3>
+        <p>Sua página no ar com domínio personalizado. Leads chegando direto no seu WhatsApp.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<hr class="div z"/>
+
+<!-- ══ INCLUSO ══ -->
+<section class="sec z">
+  <div class="wrap">
+    <div class="fi">
+      <span class="lbl">✦ O que está incluso</span>
+      <h2 class="sec-h">Tudo que você precisa.<br><em>Nada sobrando.</em></h2>
+      <p class="sec-sub">Sem cobranças escondidas. Você sabe exatamente o que recebe.</p>
+    </div>
+    <div class="tags-wrap fi">
+      <div class="tag-item">
+        <svg width="18" height="18" viewBox="0 0 18 18" fill="none"><path d="M10.5 2L4 10h6l-2 6 8-8H10l.5-6z" stroke="#F97316" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        Entrega em 48 horas
+      </div>
+      <div class="tag-item">
+        <svg width="18" height="18" viewBox="0 0 18 18" fill="none"><path d="M3 15l8-8" stroke="#F97316" stroke-width="1.7" stroke-linecap="round"/><path d="M9 3l6 6-4 4-6-6 1-3 3-1z" stroke="#F97316" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/><circle cx="4.5" cy="14" r="1.5" stroke="#F97316" stroke-width="1.4"/></svg>
+        Design por nicho
+      </div>
+      <div class="tag-item">
+        <svg width="18" height="18" viewBox="0 0 18 18" fill="none"><rect x="2" y="3" width="14" height="4.5" rx="1.5" stroke="#F97316" stroke-width="1.6"/><rect x="2" y="10.5" width="14" height="4.5" rx="1.5" stroke="#F97316" stroke-width="1.6"/><circle cx="13.5" cy="5.25" r=".9" fill="#F97316"/><circle cx="13.5" cy="12.75" r=".9" fill="#F97316"/></svg>
+        Hospedagem inclusa
+      </div>
+      <div class="tag-item">
+        <svg width="18" height="18" viewBox="0 0 18 18" fill="none"><rect x="5.5" y="1.5" width="7" height="15" rx="2" stroke="#F97316" stroke-width="1.6"/><line x1="5.5" y1="13" x2="12.5" y2="13" stroke="#F97316" stroke-width="1.4"/><circle cx="9" cy="15" r=".7" fill="#F97316"/></svg>
+        100% responsiva
+      </div>
+      <div class="tag-item">
+        <svg width="18" height="18" viewBox="0 0 18 18" fill="none"><path d="M15.5 9c0 3.3-2.9 6-6.5 6-1 0-2-.2-2.9-.6L2 16l1.5-3.6A5.8 5.8 0 012.5 9c0-3.3 2.9-6 6.5-6s6.5 2.7 6.5 6z" stroke="#F97316" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><line x1="6" y1="9" x2="12" y2="9" stroke="#F97316" stroke-width="1.4" stroke-linecap="round"/><line x1="6" y1="6.5" x2="10" y2="6.5" stroke="#F97316" stroke-width="1.4" stroke-linecap="round"/></svg>
+        Integração WhatsApp
+      </div>
+      <div class="tag-item">
+        <svg width="18" height="18" viewBox="0 0 18 18" fill="none"><line x1="2" y1="16" x2="16" y2="16" stroke="#F97316" stroke-width="1.6" stroke-linecap="round"/><rect x="2.5" y="10" width="3" height="6" rx=".5" stroke="#F97316" stroke-width="1.4"/><rect x="7.5" y="6.5" width="3" height="9.5" rx=".5" stroke="#F97316" stroke-width="1.4"/><rect x="12.5" y="3" width="3" height="13" rx=".5" stroke="#F97316" stroke-width="1.4"/></svg>
+        Rastreamento de visitas
+      </div>
+      <div class="tag-item">
+        <svg width="18" height="18" viewBox="0 0 18 18" fill="none"><path d="M9 2L3 5v4.5c0 3.3 2.5 6.3 6 7 3.5-.7 6-3.7 6-7V5L9 2z" stroke="#F97316" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/><polyline points="6.5 9 8.2 11 11.5 7.5" stroke="#F97316" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        Domínio personalizado
+      </div>
+      <div class="tag-item">
+        <svg width="18" height="18" viewBox="0 0 18 18" fill="none"><path d="M14.5 9a5.5 5.5 0 01-9.6 3.6" stroke="#F97316" stroke-width="1.6" stroke-linecap="round"/><path d="M3.5 9a5.5 5.5 0 019.6-3.6" stroke="#F97316" stroke-width="1.6" stroke-linecap="round"/><polyline points="13.5 12.5 14.5 9 11 9" stroke="#F97316" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><polyline points="4.5 5.5 3.5 9 7 9" stroke="#F97316" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        Atualizações inclusas
+      </div>
+    </div>
+  </div>
+</section>
+
+<hr class="div z"/>
+
+<!-- ══ EXEMPLOS ══ -->
+<section class="sec z" id="exemplos">
+  <div class="wrap">
+    <div class="fi">
+      <span class="lbl">✦ Portfolio</span>
+      <h2 class="sec-h">Uma LP para cada<br><em>tipo de negócio.</em></h2>
+      <p class="sec-sub">Design e copy pensados especificamente para o público de cada área.</p>
+    </div>
+
+    <div class="exs fi">
+
+      <a class="ex" href="https://piterclark.github.io/lp-resultiva/dentista/" target="_blank">
+        <div class="ex-top bg-1">
+          <svg width="54" height="54" viewBox="0 0 54 54" fill="none" style="position:relative;z-index:1">
+            <path d="M19 9C14.5 9 8 13.5 8 21c0 5.5 2.5 8 4 13l2.5 15c.3 1.5 1.2 2.5 2.5 2.5h1.5c1.3 0 2.2-1 2.5-2.5L23 39h8l2 10c.3 1.5 1.2 2.5 2.5 2.5H37c1.3 0 2.2-1 2.5-2.5L42 34c1.5-5 4-7.5 4-13 0-7.5-6.5-12-11-12-2.5 0-4.5 1.5-8 1.5S21.5 9 19 9z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M20 18c0-2 3-4 7-4s7 2 7 4" stroke="white" stroke-width="1.5" stroke-linecap="round" opacity=".5"/>
+          </svg>
+        </div>
+        <div class="ex-body">
+          <div class="ex-niche">Saúde</div>
+          <h4>Clínica Odontológica</h4>
+          <p>Transmite confiança e autoridade. Foco em agendamento via WhatsApp.</p>
+          <div class="ex-link">Ver LP completa →</div>
+        </div>
+      </a>
+
+      <a class="ex" href="https://piterclark.github.io/lp-resultiva/salao/" target="_blank">
+        <div class="ex-top bg-2">
+          <svg width="54" height="54" viewBox="0 0 54 54" fill="none" style="position:relative;z-index:1">
+            <circle cx="14" cy="42" r="7.5" stroke="white" stroke-width="2"/>
+            <circle cx="40" cy="42" r="7.5" stroke="white" stroke-width="2"/>
+            <path d="M20 37.5L27 8" stroke="white" stroke-width="2" stroke-linecap="round"/>
+            <path d="M34 37.5L27 8" stroke="white" stroke-width="2" stroke-linecap="round"/>
+            <path d="M27 8L27 4" stroke="white" stroke-width="2" stroke-linecap="round"/>
+            <path d="M23 18l8 0" stroke="white" stroke-width="1.5" stroke-linecap="round" opacity=".5"/>
+          </svg>
+        </div>
+        <div class="ex-body">
+          <div class="ex-niche">Beleza & Estética</div>
+          <h4>Salão de Beleza</h4>
+          <p>Visual impactante com oferta especial e CTA direto para agendamento.</p>
+          <div class="ex-link">Ver LP completa →</div>
+        </div>
+      </a>
+
+      <a class="ex" href="https://piterclark.github.io/lp-resultiva/advogado/" target="_blank">
+        <div class="ex-top bg-3">
+          <svg width="54" height="54" viewBox="0 0 54 54" fill="none" style="position:relative;z-index:1">
+            <line x1="27" y1="5" x2="27" y2="50" stroke="white" stroke-width="2" stroke-linecap="round"/>
+            <line x1="13" y1="50" x2="41" y2="50" stroke="white" stroke-width="2" stroke-linecap="round"/>
+            <line x1="7" y1="19" x2="47" y2="19" stroke="white" stroke-width="2" stroke-linecap="round"/>
+            <circle cx="27" cy="19" r="2.5" fill="white"/>
+            <path d="M7 19L4 28a9 9 0 0018 0L19 19" stroke="white" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M47 19L44 28a9 9 0 0018 0L53 19" stroke="white" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+        <div class="ex-body">
+          <div class="ex-niche">Jurídico</div>
+          <h4>Escritório de Advocacia</h4>
+          <p>LP de autoridade com depoimentos e formulário de consulta gratuita.</p>
+          <div class="ex-link">Ver LP completa →</div>
+        </div>
+      </a>
+
+    </div>
+  </div>
+</section>
+
+<hr class="div z"/>
+
+<!-- ══ PREÇOS ══ -->
+<section class="sec z">
+  <div class="wrap">
+    <div class="fi">
+      <span class="lbl">✦ Investimento</span>
+      <h2 class="sec-h">Simples e<br><em>transparente.</em></h2>
+      <p class="sec-sub">Sem contratos longos. Sem letras miúdas.</p>
+    </div>
+
+    <div class="plans fi">
+      <div class="plan">
+        <div class="plan-lbl">Pagamento único</div>
+        <h3>Só a Landing Page</h3>
+        <div class="plan-price"><span class="cur">R$</span>697</div>
+        <p class="plan-note">Hospedagem por sua conta</p>
+        <ul class="plan-list">
+          <li><span class="ok">✓</span> LP profissional completa</li>
+          <li><span class="ok">✓</span> Design do seu nicho</li>
+          <li><span class="ok">✓</span> Integração WhatsApp</li>
+          <li><span class="ok">✓</span> Mobile + Desktop</li>
+          <li><span class="ok">✓</span> Entrega em 48h</li>
+        </ul>
+        <a href="https://wa.me/5531991995344?text=Quero%20a%20LP%20por%20R%24697." class="btn-plan outline">Tenho interesse →</a>
+      </div>
+
+      <div class="plan hi">
+        <div class="badge-top">✦ Mais escolhido</div>
+        <div class="plan-lbl">Setup + Recorrente</div>
+        <h3>LP + Hospedagem</h3>
+        <div class="plan-price"><span class="cur">R$</span>497 <span class="per">+ R$97/mês</span></div>
+        <p class="plan-note">Hospedagem e domínio inclusos</p>
+        <ul class="plan-list">
+          <li><span class="ok">✓</span> Tudo do plano anterior</li>
+          <li><span class="ok">✓</span> Hospedagem profissional</li>
+          <li><span class="ok">✓</span> Domínio personalizado</li>
+          <li><span class="ok">✓</span> Suporte mensal</li>
+          <li><span class="ok">✓</span> Atualizações inclusas</li>
+        </ul>
+        <a href="https://wa.me/5531991995344?text=Quero%20o%20plano%20LP%20%2B%20Hospedagem!" class="btn-plan solid">Quero esse plano →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ CTA FINAL ══ -->
+<section class="cta-sec z">
+  <h2 class="fi">Pronto para ter uma página<br>que <em>trabalha por você?</em></h2>
+  <p class="fi fi-d1">Fale com a gente agora e receba um orçamento sem compromisso em minutos.</p>
+  <a href="https://wa.me/5531991995344?text=Oi!%20Quero%20uma%20landing%20page%20para%20o%20meu%20neg%C3%B3cio." class="btn-p fi fi-d2">Falar no WhatsApp →</a>
+</section>
+
+<!-- ══ FOOTER ══ -->
+<footer>
+  <div class="foot-logo">Resultiv<b>a↗</b></div>
+  <p>© 2026 Resultiva Assessoria de Marketing. Todos os direitos reservados.</p>
+</footer>
+
+<script>
+/* ── PARTICLES ──────────────────────────────────────── */
+const cv = document.getElementById('c');
+const cx = cv.getContext('2d');
+let W, H, pts = [];
+
+function resize(){ W = cv.width = window.innerWidth; H = cv.height = window.innerHeight; }
+
+function initPts(){
+  pts = [];
+  const n = Math.min(Math.floor(W * H / 8000), 160);
+  for(let i=0;i<n;i++){
+    pts.push({
+      x: Math.random()*W, y: Math.random()*H,
+      r: Math.random()*1.3+.2,
+      a: Math.random()*.55+.05,
+      da:(Math.random()-.5)*.006,
+    });
+  }
+}
+
+function frame(){
+  cx.clearRect(0,0,W,H);
+  pts.forEach(p=>{
+    cx.beginPath();
+    cx.arc(p.x,p.y,p.r,0,Math.PI*2);
+    cx.fillStyle=`rgba(255,255,255,${p.a.toFixed(2)})`;
+    cx.fill();
+    p.a += p.da;
+    if(p.a>.65||p.a<.04) p.da*=-1;
+  });
+  requestAnimationFrame(frame);
+}
+
+resize(); initPts(); frame();
+window.addEventListener('resize',()=>{ resize(); initPts(); });
+
+/* ── INTERSECTION OBSERVER ──────────────────────────── */
+const io = new IntersectionObserver(es=>{
+  es.forEach(e=>{ if(e.isIntersecting) e.target.classList.add('on'); });
+},{threshold:.08});
+
+document.querySelectorAll('.fi').forEach(el=>io.observe(el));
+
+// Fallback para screenshot/SSR
+setTimeout(()=>{ document.querySelectorAll('.fi').forEach(el=>el.classList.add('on')); }, 500);
+</script>
+</body>
+</html>

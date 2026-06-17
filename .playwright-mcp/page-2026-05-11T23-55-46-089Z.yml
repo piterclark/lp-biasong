@@ -1,0 +1,212 @@
+- generic [ref=e2]:
+  - link "Saltar para o conteúdo" [ref=e3] [cursor=pointer]:
+    - /url: "#fl-main-content"
+  - generic [ref=e4]:
+    - main [ref=e5]:
+      - article [ref=e9]:
+        - generic [ref=e11]:
+          - generic [ref=e17]:
+            - link [ref=e21] [cursor=pointer]:
+              - /url: "#"
+              - generic [ref=e22]: 
+            - generic [ref=e27]:
+              - generic [ref=e28]:
+                - heading "Landing page para dentistas" [level=2] [ref=e29]
+                - generic [ref=e30]: Crie uma landing page para dentistas para o seu consultório
+              - paragraph [ref=e33]:
+                - strong [ref=e34]: Conquiste muitos clientes
+                - text: para seu consultório através de uma landing page para dentistas. Veja como neste artigo.
+          - generic [ref=e44]:
+            - generic [ref=e51]:
+              - generic [ref=e53]: Criação de Landing Page
+              - generic [ref=e56]:
+                - text: Somos especialistas na criação de
+                - strong [ref=e57]: landing pages de alta conversão.
+                - text: Textos, imagens, ícones e vídeos na quantidade certa para
+                - strong [ref=e58]: transformar sua campanha de marketing digital em um grande sucesso.
+                - text: Veja o que temos a oferecer e se surpreenda com os resultados.
+            - button "Criar Landing Page" [ref=e69] [cursor=pointer]
+          - generic [ref=e72]:
+            - generic [ref=e81]:
+              - heading "Landing page para dentistas" [level=2] [ref=e82]
+              - generic [ref=e83]: Conquiste novos clientes pela internet
+            - generic [ref=e93]:
+              - paragraph [ref=e94]: A busca por novos clientes nos dias de hoje, para qualquer ramo de ativida, passa necessariamente pela criação de uma identidade digital na internet.
+              - paragraph [ref=e95]: Estar presente na rede digital mundial é fundamental, pois é uma maneira rápida e relativamente barata de expandir os negócios da sua empresa ou consultório e conquistar mais clientes.
+              - paragraph [ref=e96]: Vamos entender incialmente a diferença entre uma landing page e um site institucional, para depois conhecermos alguns exemplos de excelentes templates que podemos usar para a criação da nossa landing page odontológica.
+          - generic [ref=e102]:
+            - generic [ref=e106]:
+              - generic [ref=e110]: 
+              - generic [ref=e113]: Tópicos
+            - list [ref=e118]:
+              - listitem [ref=e119]:
+                - link "Landing page x Site Institucional" [ref=e120] [cursor=pointer]:
+                  - /url: https://landingpageagencia.com.br/landing-page-para-dentistas/#id-01
+              - listitem [ref=e121]:
+                - link "Template Mediko" [ref=e122] [cursor=pointer]:
+                  - /url: https://landingpageagencia.com.br/landing-page-para-dentistas/#id-02
+              - listitem [ref=e123]:
+                - link "Template Denta-C" [ref=e124] [cursor=pointer]:
+                  - /url: https://landingpageagencia.com.br/landing-page-para-dentistas/#id-03
+              - listitem [ref=e125]:
+                - link "Modelo Crystal Dental Clinic" [ref=e126] [cursor=pointer]:
+                  - /url: https://landingpageagencia.com.br/landing-page-para-dentistas/#id-04
+              - listitem [ref=e127]:
+                - link "Conclusão" [ref=e128] [cursor=pointer]:
+                  - /url: https://landingpageagencia.com.br/landing-page-para-dentistas/#id-05
+              - listitem [ref=e129]:
+                - link "Links Úteis" [ref=e130] [cursor=pointer]:
+                  - /url: https://landingpageagencia.com.br/landing-page-para-dentistas/#id-06
+          - generic [ref=e133]:
+            - img "landing page para dentistas" [ref=e141]
+            - generic [ref=e150]:
+              - heading "Landing page para dentistas" [level=2] [ref=e151]
+              - generic [ref=e152]: Landing page x Site Institucional
+            - generic [ref=e162]:
+              - paragraph [ref=e163]: Um site institucional tem o objetivo de apresentar o seu consultório, através de fotos, vídeos e textos e possue os dados de contato para que um novo cliente possa falar com sua equipe ou se dirigir ao seu consultório. Este tipo de site não possui um apelo comercial de venda de serviços.
+              - paragraph [ref=e164]: Por outro lado, uma landing page tem o claro objetivo de vender algo, seja um serviço ou um produto. O principal objetivo de uma landing page é a de convencer o leitor da mesma a realizar uma determinada ação.
+              - paragraph [ref=e165]: No caso específico de uma landing page para dentistas, nós queremos que o usuário da página entre em contato com a equipe do consultório, para tirar suas dúvidas e marcar uma consulta odontológica.
+              - paragraph [ref=e166]:
+                - text: Leia nosso artigo
+                - link "\"O que é uma landing page\"" [ref=e167] [cursor=pointer]:
+                  - /url: https://landingpageagencia.com.br/o-que-e-landing-page/
+                - text: e entenda com detalhes este assunto.
+              - paragraph [ref=e168]: Vamos ver então alguns exemplos de excelentes templates que podemos usar para criar a landing page odontológica para o seu consultório.
+            - link "Tópicos" [ref=e175] [cursor=pointer]:
+              - /url: "#id_topicos"
+              - generic [ref=e176]: 
+              - text: Tópicos
+          - generic [ref=e179]:
+            - img "landing page odontologia" [ref=e187]
+            - generic [ref=e196]:
+              - heading "Landing page odontologia" [level=2] [ref=e197]
+              - generic [ref=e198]: Template Mediko
+            - generic [ref=e208]:
+              - paragraph [ref=e209]:
+                - text: O template
+                - link "Mediko" [ref=e210] [cursor=pointer]:
+                  - /url: https://demo.templatemonster.com/pt-br/demo/230063.html?_ga=2.48653414.1522579227.1665926767-848630458.1665926767
+                - text: da empresa Template Monster é um excelente modelo que podemos usar para a criação da nossa landing page odontológica.
+              - paragraph [ref=e211]: Com informações claras e agrupadas na forma de tópicos, podemos usar as seções deste modelo para criar uma interface limap e muito atrativa, com o intuito de convencer o usuário da página a entra em contato com a equipe do seu consutório.
+              - paragraph [ref=e212]: Images de qualidade e um vídeo teaser são muito importantes para a conquista do novo cliente.
+            - link "Tópicos" [ref=e219] [cursor=pointer]:
+              - /url: "#id_topicos"
+              - generic [ref=e220]: 
+              - text: Tópicos
+          - generic [ref=e223]:
+            - img "landing page para dentistas" [ref=e231]
+            - generic [ref=e240]:
+              - heading "Estratégias de marketing" [level=2] [ref=e241]
+              - generic [ref=e242]: Template Denta-C
+            - generic [ref=e252]:
+              - paragraph [ref=e253]:
+                - text: Outro excepcional template que podemos usar na criação da nossa LP é o
+                - link "Denta-C." [ref=e254] [cursor=pointer]:
+                  - /url: https://demo.templatemonster.com/pt-br/demo/65802.html?_ga=2.186969512.1400158939.1665927555-485767849.1665927555
+              - paragraph [ref=e255]: Podemos perceber elementos muito importantes de convencimento e contato, já na primeira dobra da página de vendas.
+              - paragraph [ref=e256]: Uma ótima chamada ou promessa, com um call to action para que o cliente entre em contato e também um form de contato, caso o visitante da página queira tirar suas dúvidas via email.
+              - paragraph [ref=e257]: Neste template, podemos misturar de forma equilibrada várias imagens, vídeos e textos para convencer o nosso potencial cliente a entrar em contato com a equipe do consultório e agendar uma consulta.
+            - link "Tópicos" [ref=e264] [cursor=pointer]:
+              - /url: "#id_topicos"
+              - generic [ref=e265]: 
+              - text: Tópicos
+          - generic [ref=e272]:
+            - generic [ref=e279]:
+              - generic [ref=e281]: Criação de Landing Page
+              - generic [ref=e284]:
+                - text: Somos especialistas na criação de
+                - strong [ref=e285]: landing pages de alta conversão.
+                - text: Textos, imagens, ícones e vídeos na quantidade certa para
+                - strong [ref=e286]: transformar sua campanha de marketing digital em um grande sucesso.
+                - text: Veja o que temos a oferecer e se surpreenda com os resultados.
+            - button "Criar Landing Page" [ref=e297] [cursor=pointer]
+          - generic [ref=e300]:
+            - img "landing-page-para-dentistas-template-03" [ref=e308]
+            - generic [ref=e317]:
+              - heading "Estratégias de marketing" [level=2] [ref=e318]
+              - generic [ref=e319]: Modelo Crystal Dental Clinic
+            - generic [ref=e329]:
+              - paragraph [ref=e330]:
+                - text: O modelo
+                - link "Crystal Dental Clinic" [ref=e331] [cursor=pointer]:
+                  - /url: https://demo.templatemonster.com/pt-br/demo/77209.html?_ga=2.220148697.1356584402.1665928700-849107423.1665928700
+                - text: "criado pela Template Monster serve perfeitamente ao nosso propósito: criação de uma interface limpa, agradável e muito atraente."
+              - paragraph [ref=e332]: Com sessões bem definidas e com uma interface de uso intuitivo, certamente podemos conquistar muitos clientes para a nossa clínica odontológica através deste excelente template.
+            - link "Tópicos" [ref=e339] [cursor=pointer]:
+              - /url: "#id_topicos"
+              - generic [ref=e340]: 
+              - text: Tópicos
+          - generic [ref=e343]:
+            - generic [ref=e352]:
+              - heading "Landing page para dentistas" [level=2] [ref=e353]
+              - generic [ref=e354]: Conclusão
+            - generic [ref=e364]:
+              - paragraph [ref=e365]: Para conquistarmos novos clientes para anossa clínica dentária, podemos usar as ferramentas que a internet nos fornece, aliando landing pages de alta conversão à campanhas de marketing digital feitas pelo Google Ads ou Facebook Ads.
+              - paragraph [ref=e366]: Uma landing page tem o objetivo de convencer seu leitor a entrar em contato com nossa clínica e marcar uma agendamento de tratamento dentário.
+              - paragraph [ref=e367]: Existem excelentes templates que podemos usar para criar uma interface muito limpa, agradável e de forte convencimento e assim conquistarmos muito mais clientes através da rede mundial.
+            - link "Tópicos" [ref=e374] [cursor=pointer]:
+              - /url: "#id_topicos"
+              - generic [ref=e375]: 
+              - text: Tópicos
+          - generic [ref=e382]:
+            - generic [ref=e389]:
+              - generic [ref=e391]: Leia Nosso Blog
+              - generic [ref=e394]: Entenda muito mais sobre a criação de landing pages, lendo nosso blog.
+            - button "Ler Blog" [ref=e405] [cursor=pointer]
+          - generic [ref=e411]:
+            - generic [ref=e418]: Leituras úteis
+            - group [ref=e422]:
+              - link "Templates e modelos para landing pages odontológicas" [ref=e425] [cursor=pointer]:
+                - /url: https://www.templatemonster.com/pt-br/category/dentistry-landing-page-templates/
+                - generic [ref=e426]: 
+                - text: Templates e modelos para landing pages odontológicas
+              - link "O que é landing page?" [ref=e429] [cursor=pointer]:
+                - /url: https://landingpageagencia.com.br/o-que-e-landing-page/
+                - generic [ref=e430]: 
+                - text: O que é landing page?
+              - link "Exemplos de Landing Pages Vendedoras" [ref=e433] [cursor=pointer]:
+                - /url: https://www.conexorama.com/exemplos-landing-pages/
+                - generic [ref=e434]: 
+                - text: Exemplos de Landing Pages Vendedoras
+              - link "Exemplos de Landing Pages de Grandes Marcas" [ref=e437] [cursor=pointer]:
+                - /url: https://www.mlabs.com.br/blog/landing-page-exemplos
+                - generic [ref=e438]: 
+                - text: Exemplos de Landing Pages de Grandes Marcas
+    - contentinfo [ref=e439]:
+      - generic [ref=e442]:
+        - generic [ref=e449]:
+          - link "Go to https://landingpageagencia.com.br" [ref=e450] [cursor=pointer]:
+            - /url: https://landingpageagencia.com.br
+          - generic [ref=e451]:
+            - img "landing page" [ref=e455]
+            - generic [ref=e456]:
+              - generic [ref=e457]: Landing Page Agência
+              - generic [ref=e458]: Criação de Landing Pages de Alta Conversão
+        - group [ref=e465]:
+          - link "Crie Sua Landing Page" [ref=e468] [cursor=pointer]:
+            - /url: https://landingpageagencia.com.br/lpa-criacao-de-lp
+            - generic [ref=e469]: 
+            - text: Crie Sua Landing Page
+          - link "Leia Nosso Blog" [ref=e472] [cursor=pointer]:
+            - /url: https://landingpageagencia.com.br/blog
+            - generic [ref=e473]: 
+            - text: Leia Nosso Blog
+          - link "Casos de Sucesso" [ref=e476] [cursor=pointer]:
+            - /url: https://landingpageagencia.com.br/casos-de-sucesso
+            - generic [ref=e477]: 
+            - text: Casos de Sucesso
+          - link "Nosso Portfólio" [ref=e480] [cursor=pointer]:
+            - /url: https://landingpageagencia.com.br/portfolio
+            - generic [ref=e481]: 
+            - text: Nosso Portfólio
+          - link "Fale Conosco" [ref=e484] [cursor=pointer]:
+            - /url: https://api.whatsapp.com/send?1=pt_BR&phone=5512991367499
+            - generic [ref=e485]: 
+            - text: Fale Conosco
+      - link "Desenvolvido Por" [ref=e496] [cursor=pointer]:
+        - /url: https://weblifebrasil.com.br/
+        - text: Desenvolvido Por
+        - img [ref=e497]
+  - link "WhatsApp chat" [ref=e500] [cursor=pointer]:
+    - /url: https://api.whatsapp.com/send?phone=5512991367499&text=
+    - img "WhatsApp chat" [ref=e501]

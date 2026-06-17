@@ -1,0 +1,5 @@
+[    3084ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "new-password"): (More info: https://goo.gl/9p2vKq) %o @ https://inflact.com/instagram-viewer/profile/:0
+[    3084ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "new-password"): (More info: https://goo.gl/9p2vKq) %o @ https://inflact.com/instagram-viewer/profile/:0
+[    5351ms] [ERROR] Attestation check for Shared Storage on https://www.googleadservices.com failed. @ https://www.googleadservices.com/pagead/managed/js/activeview/current/reach_worklet.html:0
+[    5915ms] [LOG] JSHandle@node @ https://js.ad-score.com/score.min.js?pid=1000925&tt=g:1
+[    6653ms] [WARNING] The powerPreference option is currently ignored when calling requestAdapter() on Windows. See https://crbug.com/369219127 @ https://js.ad-score.com/score.min.js?pid=1000925&tt=g:1

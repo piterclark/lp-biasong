@@ -1,0 +1,144 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]: CREAT
+      - generic [ref=e5]: Landing Pages • Design que converte
+    - generic [ref=e6]:
+      - link "Portfólio" [ref=e7] [cursor=pointer]:
+        - /url: "#port"
+      - link "Abordagem" [ref=e8] [cursor=pointer]:
+        - /url: "#appr"
+      - link "Falar agora →" [ref=e9] [cursor=pointer]:
+        - /url: "#cta"
+  - generic [ref=e10]:
+    - generic [ref=e11]: Portfólio CREAT Studio
+    - heading "Cada nicho tem sua linguagem. Nós falamos todas." [level=1] [ref=e13]:
+      - text: Cada nicho
+      - text: tem sua linguagem.
+      - text: Nós falamos todas.
+    - paragraph [ref=e14]:
+      - text: Landing pages construídas do zero para cada segmento.
+      - text: Design limpo, copy que converte, resultado no caixa.
+    - generic [ref=e15]:
+      - link "Ver as páginas" [ref=e16] [cursor=pointer]:
+        - /url: "#port"
+        - text: Ver as páginas
+        - img [ref=e17]
+      - link "Quero uma assim →" [ref=e19] [cursor=pointer]:
+        - /url: "#cta"
+  - generic [ref=e20]:
+    - generic [ref=e21]:
+      - generic [ref=e22]: 4+
+      - generic [ref=e23]: Nichos ativos
+    - generic [ref=e24]:
+      - generic [ref=e25]: 100%
+      - generic [ref=e26]: Sob medida
+    - generic [ref=e27]:
+      - generic [ref=e28]: 0x
+      - generic [ref=e29]: Templates genéricos
+    - generic [ref=e30]:
+      - generic [ref=e31]: ∞
+      - generic [ref=e32]: Possibilidades
+  - generic [ref=e33]:
+    - heading "Não vendemos páginas. Vendemos resultados." [level=2] [ref=e34]:
+      - text: Não vendemos páginas.
+      - text: Vendemos
+      - emphasis [ref=e35]: resultados.
+    - paragraph [ref=e36]: "Cada projeto começa com uma pergunta: o que precisa acontecer para o cliente do seu cliente dizer sim? A resposta vira a página."
+  - generic [ref=e37]:
+    - generic [ref=e38]: Portfólio // CREAT
+    - generic [ref=e39]:
+      - link "No ar Saúde Clínica Odontológica Para dentistas e clínicas. Foco em agendamento, confiança e autoridade local. Abrir página" [ref=e40] [cursor=pointer]:
+        - /url: dentista/index.html
+        - generic [ref=e41]:
+          - generic [ref=e43]: No ar
+          - img [ref=e45]
+        - generic [ref=e48]:
+          - generic [ref=e49]: Saúde
+          - generic [ref=e50]: Clínica Odontológica
+          - paragraph [ref=e51]: Para dentistas e clínicas. Foco em agendamento, confiança e autoridade local.
+          - generic [ref=e52]:
+            - text: Abrir página
+            - img [ref=e53]
+      - link "No ar Beleza Salão de Beleza Para salões e studios. Design aspiracional com agendamento direto integrado. Abrir página" [ref=e55] [cursor=pointer]:
+        - /url: salao/index.html
+        - generic [ref=e56]:
+          - generic [ref=e58]: No ar
+          - img [ref=e60]
+        - generic [ref=e65]:
+          - generic [ref=e66]: Beleza
+          - generic [ref=e67]: Salão de Beleza
+          - paragraph [ref=e68]: Para salões e studios. Design aspiracional com agendamento direto integrado.
+          - generic [ref=e69]:
+            - text: Abrir página
+            - img [ref=e70]
+      - link "No ar Advocacia Escritório de Advocacia Para advogados. Luxo, autoridade e copy que captura clientes de alto valor. Abrir página" [ref=e72] [cursor=pointer]:
+        - /url: advogado/index.html
+        - generic [ref=e73]:
+          - generic [ref=e75]: No ar
+          - img [ref=e77]
+        - generic [ref=e80]:
+          - generic [ref=e81]: Advocacia
+          - generic [ref=e82]: Escritório de Advocacia
+          - paragraph [ref=e83]: Para advogados. Luxo, autoridade e copy que captura clientes de alto valor.
+          - generic [ref=e84]:
+            - text: Abrir página
+            - img [ref=e85]
+      - link "No ar Imóveis Lançamento Imobiliário Para empreendimentos premium. Captação de leads qualificados com design de luxo. Abrir página" [ref=e87] [cursor=pointer]:
+        - /url: arborea/index.html
+        - generic [ref=e88]:
+          - generic [ref=e90]: No ar
+          - img [ref=e92]
+        - generic [ref=e96]:
+          - generic [ref=e97]: Imóveis
+          - generic [ref=e98]: Lançamento Imobiliário
+          - paragraph [ref=e99]: Para empreendimentos premium. Captação de leads qualificados com design de luxo.
+          - generic [ref=e100]:
+            - text: Abrir página
+            - img [ref=e101]
+  - generic [ref=e104]:
+    - generic [ref=e105]:
+      - generic [ref=e106]:
+        - generic [ref=e107]: Nossa abordagem
+        - heading "Design que pensa antes de criar." [level=2] [ref=e108]:
+          - text: Design que
+          - emphasis [ref=e109]: pensa
+          - text: antes de criar.
+      - paragraph [ref=e110]: Steve Jobs não começava pelo design. Começava pela experiência que o usuário deveria ter. Nós também. Cada píxel tem função. Cada palavra tem objetivo.
+    - generic [ref=e111]:
+      - generic [ref=e112]:
+        - generic [ref=e113]: 01 //
+        - generic [ref=e114]:
+          - heading "Diagnóstico do nicho" [level=3] [ref=e115]
+          - paragraph [ref=e116]: Antes de qualquer design, entendemos quem compra, o que trava a decisão e o que faz o cliente dizer sim. A página é consequência dessa análise.
+      - generic [ref=e117]:
+        - generic [ref=e118]: 02 //
+        - generic [ref=e119]:
+          - heading "Copy e design integrados" [level=3] [ref=e120]
+          - paragraph [ref=e121]: Texto e visual criados juntos. O design serve a mensagem. A mensagem potencializa o design. Nenhum existe sem o outro.
+      - generic [ref=e122]:
+        - generic [ref=e123]: 03 //
+        - generic [ref=e124]:
+          - heading "Entrega que funciona" [level=3] [ref=e125]
+          - paragraph [ref=e126]: HTML puro, carregando em menos de 2 segundos. Sem plataforma, sem dependência, sem custo mensal.
+  - generic [ref=e128]:
+    - generic [ref=e129]: Próximo passo
+    - heading "Quer uma página assim para você?" [level=2] [ref=e130]:
+      - text: Quer uma página
+      - text: assim para
+      - emphasis [ref=e131]: você
+      - text: "?"
+    - paragraph [ref=e132]: Fale direto. Sem formulário longo, sem reunião de hora. Em 24h você sabe o que é possível.
+    - generic [ref=e133]:
+      - link "Falar no WhatsApp" [ref=e134] [cursor=pointer]:
+        - /url: https://wa.me/5511999999999
+        - text: Falar no WhatsApp
+        - img [ref=e135]
+      - link "Enviar e-mail →" [ref=e137] [cursor=pointer]:
+        - /url: mailto:contato@creat.studio
+    - paragraph [ref=e138]: Resposta rápida • Sem enrolação • Orçamento gratuito
+  - contentinfo [ref=e139]:
+    - generic [ref=e140]:
+      - generic [ref=e141]: CREAT
+      - generic [ref=e142]: Landing Pages • Design que converte
+    - paragraph [ref=e143]: © 2026 CREAT Studio
